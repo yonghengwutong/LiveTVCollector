@@ -21,7 +21,7 @@ A GitHub repository that automatically collects, filters, and exports live TV st
   - `LiveTV.m3u`: Standard M3U playlist.
   - `LiveTV.txt`: Human-readable text format with detailed channel info.
   - `LiveTV.json`: Structured JSON with channel metadata.
-  - `LiveTv`: Custom JSON format without extension, designed for easy integration.
+  - `LiveTV`: Custom JSON format without extension, designed for easy integration.
 
 ## Exported File Formats
 
