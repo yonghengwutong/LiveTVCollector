@@ -1,0 +1,35 @@
+name: LiveTV-India-URLs-Daily
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 19 * * *' # Runs daily at 19:30 UTC (3:30 AM IST)
+
+jobs:
+  copy-files:
+    runs-on: ubuntu-latest
+    env:
+      LOCAL_PATH: './livetv/India.m3u'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch and extract M3U content
+        run: |
+          # Define the source URL
+          FILE_URL="https://raw.githubusercontent.com/Arunjunan20/My-IPTV/refs/heads/main/index.html"          
+          
+          # Initialize the local M3U file
+          echo "#EXTM3U" > $LOCAL_PATH
+          
+          # Download the file and extract M3U lines, skipping HTML content
+          wget -qO- "$FILE_URL" | grep -E "^#EXTM3U|^#EXTINF|^http" >> $LOCAL_PATH
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'bugsfreeweb'
+          git config --global user.email 'bugsfreeweb@example.com'
+          git add $LOCAL_PATH
+          git commit -m "Updated India.m3u with latest M3U links"
+          git push
