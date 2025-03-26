@@ -48,3 +48,5 @@ jobs:
   update-indexes:
     needs: update-files
     uses: bugsfreeweb/LiveTVCollector/.github/workflows/update-indexes.yml@main
+    permissions:
+      contents: write  # Required for the called workflow to push changes
