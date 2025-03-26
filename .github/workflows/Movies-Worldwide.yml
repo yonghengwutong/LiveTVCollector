@@ -54,7 +54,7 @@ jobs:
         run: python Movies/Movies-Worldwide.py
       - name: Commit files
         run: |
-          git add Movies/Worldwide/*
+          git add Movies/Worldwide/Worldwide-Movies.m3u Movies/Worldwide/Worldwide-Movies.txt Movies/Worldwide/Worldwide-Movies.json Movies/Worldwide/Worldwide-Movies
           git commit -m "Update Movies-Worldwide M3U and JSON"
           git push
 
