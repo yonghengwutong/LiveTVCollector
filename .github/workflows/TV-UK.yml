@@ -44,3 +44,21 @@ jobs:
         git commit -m "TV-UK Update files - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
         git pull --rebase origin main
         git push
+ # Existing content
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Your existing steps
+      - name: Run TV-UK.py
+        run: python LiveTV/TV-UK.py
+      - name: Commit files
+        run: |
+          git add LiveTV/UK/*
+          git commit -m "Update UK M3U and JSON"
+          git push
+
+# Add this to trigger index update
+  update-indexes:
+    needs: build
+    uses: bugsfreeweb/LiveTVCollector/.github/workflows/update-indexes.yml@main
