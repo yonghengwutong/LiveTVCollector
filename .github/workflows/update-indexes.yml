@@ -1,12 +1,7 @@
 name: Update Indexes
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'LiveTV/**'
-      - 'Movies/**'
-      - 'generate_indexes.py'
+  workflow_call:  # Makes this workflow reusable
 
 jobs:
   update-indexes:
