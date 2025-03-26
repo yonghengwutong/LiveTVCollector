@@ -44,7 +44,7 @@ jobs:
         git commit -m "TV-Bangladesh Update files - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
         git pull --rebase origin main
         git push
-   # Existing Bangladesh.yml content
+   # Existing content
 jobs:
   build:
     runs-on: ubuntu-latest
