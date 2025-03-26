@@ -40,7 +40,7 @@ jobs:
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
-        git add Movies/Private/Private.m3u Movies/Private/Private.txt Movies/Private/Private.json Movies/Private/Private
+        git add Movies/Private/Movies.m3u Movies/Private/Movies.txt Movies/Private/Movies.json Movies/Private/Movies
         git commit -m "Movies-Private Update files - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
         git pull --rebase origin main
         git push
