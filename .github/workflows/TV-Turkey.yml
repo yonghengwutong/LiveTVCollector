@@ -44,3 +44,21 @@ jobs:
         git commit -m "TV-Turkey Update files - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
         git pull --rebase origin main
         git push
+ # Existing content
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Your existing steps
+      - name: Run TV-Turkey.py
+        run: python LiveTV/TV-Turkey.py
+      - name: Commit files
+        run: |
+          git add LiveTV/Turkey/*
+          git commit -m "Update Turkey M3U and JSON"
+          git push
+
+# Add this to trigger index update
+  update-indexes:
+    needs: build
+    uses: bugsfreeweb/LiveTVCollector/.github/workflows/update-indexes.yml@main
