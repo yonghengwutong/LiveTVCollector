@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M3U Links Hub</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -19,7 +20,7 @@
             color: #333;
         }
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -31,11 +32,11 @@
             border-radius: 0 0 20px 20px;
         }
         header h1 {
-            font-size: 2.5em;
+            font-size: 2.8em;
             margin-bottom: 10px;
             animation: fadeIn 1s ease-in;
         }
-        header p { font-size: 1.2em; }
+        header p { font-size: 1.3em; }
         .theme-toggle {
             position: absolute;
             top: 20px;
@@ -113,58 +114,56 @@
         }
         .copy-btn:hover, .download-btn:hover { background: #e6006b; }
         .analytics {
-            margin: 20px 0;
+            margin: 40px 0;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+            background: #2a2a2a;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
+        body.light .analytics { background: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
         .analytics-left, .analytics-right {
             flex: 1;
             min-width: 300px;
-            text-align: center;
+            padding: 10px;
         }
-        .analytics-item { margin: 10px 0; }
-        .analytics-bar {
-            width: 100%;
-            max-width: 400px;
-            height: 20px;
-            background: #333;
-            border-radius: 10px;
-            overflow: hidden;
-            margin: 5px auto;
+        .analytics-left h2, .analytics-right h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #00ddeb;
         }
-        .analytics-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #ff007a, #00ddeb);
-            transition: width 0.5s ease;
-        }
-        .circle-chart {
-            width: 120px;
-            height: 120px;
+        .gauge {
+            width: 150px;
+            height: 150px;
+            margin: 20px auto;
             position: relative;
-            margin: 10px auto;
         }
-        .circle-bg {
-            fill: none;
-            stroke: #333;
-            stroke-width: 10;
-        }
-        .circle-fill {
-            fill: none;
-            stroke: url(#grad);
-            stroke-width: 10;
-            stroke-linecap: round;
-            transform: rotate(-90deg);
-            transform-origin: 50% 50%;
-            transition: stroke-dasharray 0.5s ease;
-        }
-        .circle-text {
+        .gauge-text {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             font-size: 1.2em;
+            font-weight: 600;
         }
+        .line-chart {
+            max-width: 100%;
+            margin: 20px 0;
+        }
+        .export-btn {
+            background: #00ddeb;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            color: #fff;
+            cursor: pointer;
+            transition: background 0.3s;
+            display: block;
+            margin: 20px auto;
+        }
+        .export-btn:hover { background: #00b8c9; }
         footer {
             text-align: center;
             padding: 20px;
@@ -187,7 +186,7 @@
     <header>
         <button class="theme-toggle" onclick="toggleTheme()">☀️</button>
         <h1>M3U Links Hub</h1>
-        <p>Your one-stop solution for Live TV and Movie playlists</p>
+        <p>Global Live TV & Movies Playlists</p>
     </header>
     <div class="container">
         <div class="search-bar">
@@ -209,27 +208,19 @@
         </div>
         <div class="analytics">
             <div class="analytics-left">
-                <h2>Analytics Dashboard</h2>
-                <div id="analytics-left-container"></div>
+                <h2>Global Analytics</h2>
+                <div id="gauges-container"></div>
             </div>
             <div class="analytics-right">
-                <h2>Download Stats</h2>
-                <div id="analytics-right-container"></div>
+                <h2>Download Trends</h2>
+                <canvas id="downloadChart" class="line-chart"></canvas>
+                <button class="export-btn" onclick="exportStats()">Download Stats (CSV)</button>
             </div>
         </div>
     </div>
     <footer>
         Powered by <a href="https://github.com/bugsfreeweb/LiveTVCollector" target="_blank">M3U Collector</a> | Updated Daily
     </footer>
-
-    <svg width="0" height="0">
-        <defs>
-            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" style="stop-color:#ff007a;" />
-                <stop offset="100%" style="stop-color:#00ddeb;" />
-            </linearGradient>
-        </defs>
-    </svg>
 
     <script>
         const baseUrl = window.location.hostname.includes('netlify.app') ? 'https://tvm3u.netlify.app/' : 
@@ -244,6 +235,7 @@
             lastSync: {} 
         };
         let contentMap = { liveTv: {}, movies: {} };
+        let downloadHistory = JSON.parse(localStorage.getItem('download_history')) || [];
 
         async function fetchJson(url) {
             try {
@@ -399,46 +391,118 @@
             analytics[dir.toLowerCase()][key] = analytics[dir.toLowerCase()][key] || { clicks: 0, copies: 0, downloads: 0 };
             analytics[dir.toLowerCase()][key][action === 'click' ? 'clicks' : action === 'copy' ? 'copies' : 'downloads']++;
             localStorage.setItem('m3u_analytics', JSON.stringify(analytics));
+            if (action === 'download') {
+                downloadHistory.push({ key, timestamp: new Date().toISOString() });
+                localStorage.setItem('download_history', JSON.stringify(downloadHistory));
+            }
             updateAnalytics();
         }
 
         function updateAnalytics() {
-            const leftContainer = document.getElementById('analytics-left-container');
-            const rightContainer = document.getElementById('analytics-right-container');
-            leftContainer.innerHTML = `
-                <div class="analytics-item">
-                    <p>Total Channels Listed: ${analytics.totalChannels}</p>
-                    <p>Active Channels: ${analytics.activeChannels}</p>
+            const gaugesContainer = document.getElementById('gauges-container');
+            gaugesContainer.innerHTML = `
+                <div class="gauge">
+                    <canvas id="totalChannelsGauge"></canvas>
+                    <div class="gauge-text">${analytics.totalChannels}<br>Total Channels</div>
                 </div>
-                <div class="analytics-item">
-                    <p>Last Sync:</p>
-                    ${Object.entries(analytics.lastSync).map(([key, date]) => `<p>${key}: ${date}</p>`).join('')}
+                <div class="gauge">
+                    <canvas id="activeChannelsGauge"></canvas>
+                    <div class="gauge-text">${analytics.activeChannels}<br>Active Channels</div>
                 </div>
             `;
 
-            rightContainer.innerHTML = '';
+            const totalCtx = document.getElementById('totalChannelsGauge').getContext('2d');
+            new Chart(totalCtx, {
+                type: 'doughnut',
+                data: {
+                    datasets: [{
+                        data: [analytics.totalChannels, 10000 - analytics.totalChannels],
+                        backgroundColor: ['#ff007a', '#333'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    cutout: '70%',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false }, tooltip: { enabled: false } }
+                }
+            });
+
+            const activeCtx = document.getElementById('activeChannelsGauge').getContext('2d');
+            new Chart(activeCtx, {
+                type: 'doughnut',
+                data: {
+                    datasets: [{
+                        data: [analytics.activeChannels, analytics.totalChannels - analytics.activeChannels],
+                        backgroundColor: ['#00ddeb', '#333'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    cutout: '70%',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false }, tooltip: { enabled: false } }
+                }
+            });
+
             const downloadData = {};
             ['liveTv', 'movies'].forEach(type => {
                 Object.entries(analytics[type]).forEach(([key, { downloads }]) => {
                     downloadData[key] = downloads;
                 });
             });
-            const totalDownloads = Object.values(downloadData).reduce((sum, val) => sum + val, 0);
-            Object.entries(downloadData).forEach(([key, downloads]) => {
-                const percentage = totalDownloads ? (downloads / totalDownloads) * 100 : 0;
-                const circumference = 2 * Math.PI * 55; // Radius 55px
-                const dashArray = (percentage / 100) * circumference;
-                const chart = document.createElement('div');
-                chart.className = 'circle-chart';
-                chart.innerHTML = `
-                    <svg width="120" height="120">
-                        <circle class="circle-bg" cx="60" cy="60" r="55"></circle>
-                        <circle class="circle-fill" cx="60" cy="60" r="55" stroke-dasharray="${dashArray} ${circumference}" stroke-dashoffset="0"></circle>
-                    </svg>
-                    <div class="circle-text">${downloads}<br>${key.split('/')[1]}</div>
-                `;
-                rightContainer.appendChild(chart);
+
+            const labels = Object.keys(downloadData);
+            const data = Object.values(downloadData);
+            const chartCtx = document.getElementById('downloadChart').getContext('2d');
+            new Chart(chartCtx, {
+                type: 'line',
+                data: {
+                    labels: labels.map(k => k.split('/')[1]),
+                    datasets: [{
+                        label: 'Downloads',
+                        data: data,
+                        borderColor: '#ff007a',
+                        backgroundColor: 'rgba(255, 0, 122, 0.2)',
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { beginAtZero: true, title: { display: true, text: 'Downloads', color: '#fff' } },
+                        x: { title: { display: true, text: 'Country/Category', color: '#fff' } }
+                    },
+                    plugins: {
+                        legend: { labels: { color: '#fff' } },
+                        title: { display: false }
+                    }
+                }
             });
+        }
+
+        function exportStats() {
+            const csvRows = ['Key,Clicks,Copies,Downloads,Last Sync'];
+            ['liveTv', 'movies'].forEach(type => {
+                Object.entries(analytics[type]).forEach(([key, { clicks, copies, downloads }]) => {
+                    const lastSync = analytics.lastSync[key] || 'N/A';
+                    csvRows.push(`${key},${clicks},${copies},${downloads},${lastSync}`);
+                });
+            });
+            csvRows.push(`Total Channels,,${analytics.totalChannels},,`);
+            csvRows.push(`Active Channels,,${analytics.activeChannels},,`);
+
+            const csvContent = 'data:text/csv;charset=utf-8,' + csvRows.join('\n');
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement('a');
+            link.setAttribute('href', encodedUri);
+            link.setAttribute('download', `m3u_stats_${new Date().toISOString().split('T')[0]}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         }
 
         // Initialize
