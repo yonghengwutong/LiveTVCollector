@@ -79,12 +79,14 @@
         }
         body.light select { background: #fff; color: #333; }
         .card {
+            display: none;
             background: #2a2a2a;
             border-radius: 15px;
             padding: 15px;
             margin-top: 10px;
             transition: transform 0.3s, box-shadow 0.3s;
         }
+        .card.active { display: block; }
         body.light .card { background: #fff; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         .card:hover {
             transform: translateY(-5px);
@@ -112,14 +114,19 @@
         .copy-btn:hover, .download-btn:hover { background: #e6006b; }
         .analytics {
             margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .analytics-left, .analytics-right {
+            flex: 1;
+            min-width: 300px;
             text-align: center;
         }
-        .analytics-item {
-            margin: 10px 0;
-        }
+        .analytics-item { margin: 10px 0; }
         .analytics-bar {
             width: 100%;
-            max-width: 600px;
+            max-width: 400px;
             height: 20px;
             background: #333;
             border-radius: 10px;
@@ -130,6 +137,33 @@
             height: 100%;
             background: linear-gradient(90deg, #ff007a, #00ddeb);
             transition: width 0.5s ease;
+        }
+        .circle-chart {
+            width: 120px;
+            height: 120px;
+            position: relative;
+            margin: 10px auto;
+        }
+        .circle-bg {
+            fill: none;
+            stroke: #333;
+            stroke-width: 10;
+        }
+        .circle-fill {
+            fill: none;
+            stroke: url(#grad);
+            stroke-width: 10;
+            stroke-linecap: round;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+            transition: stroke-dasharray 0.5s ease;
+        }
+        .circle-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.2em;
         }
         footer {
             text-align: center;
@@ -144,6 +178,7 @@
             select { max-width: 100%; }
             .link-item { flex-direction: column; align-items: flex-start; }
             .copy-btn, .download-btn { margin-top: 5px; }
+            .analytics { flex-direction: column; }
         }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
@@ -173,13 +208,28 @@
             <div id="movies-content" class="card"></div>
         </div>
         <div class="analytics">
-            <h2>Analytics Dashboard</h2>
-            <div id="analytics-container"></div>
+            <div class="analytics-left">
+                <h2>Analytics Dashboard</h2>
+                <div id="analytics-left-container"></div>
+            </div>
+            <div class="analytics-right">
+                <h2>Download Stats</h2>
+                <div id="analytics-right-container"></div>
+            </div>
         </div>
     </div>
     <footer>
         Powered by <a href="https://github.com/bugsfreeweb/LiveTVCollector" target="_blank">M3U Collector</a> | Updated Daily
     </footer>
+
+    <svg width="0" height="0">
+        <defs>
+            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#ff007a;" />
+                <stop offset="100%" style="stop-color:#00ddeb;" />
+            </linearGradient>
+        </defs>
+    </svg>
 
     <script>
         const baseUrl = window.location.hostname.includes('netlify.app') ? 'https://tvm3u.netlify.app/' : 
@@ -249,47 +299,50 @@
             const m3uFile = dir === 'LiveTV' ? 'LiveTV.m3u' : 'Movies.m3u';
             const jsonFile = dir === 'LiveTV' ? 'LiveTV.json' : 'Movies.json';
             const txtFile = dir === 'LiveTV' ? 'LiveTV.txt' : 'Movies.txt';
+            const prefix = dir === 'LiveTV' ? `${subDir}_LiveTV` : `${subDir}_Movies`;
             return `
                 <div class="link-item">
                     <a href="${dir}/${subDir}/${m3uFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')">M3U File</a>
                     <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${m3uFile}', '${dir}', '${subDir}', 'm3u')">Copy</button>
-                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${m3uFile}', '${dir}', '${subDir}')">Download</button>
+                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${m3uFile}', '${prefix}.m3u', '${dir}', '${subDir}')">Download</button>
                 </div>
                 <div class="link-item">
                     <a href="${dir}/${subDir}/${jsonFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')">JSON File</a>
                     <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${jsonFile}', '${dir}', '${subDir}', 'json')">Copy</button>
-                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${jsonFile}', '${dir}', '${subDir}')">Download</button>
+                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${jsonFile}', '${prefix}.json', '${dir}', '${subDir}')">Download</button>
                 </div>
                 <div class="link-item">
                     <a href="${dir}/${subDir}/${txtFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')">TXT File</a>
                     <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${txtFile}', '${dir}', '${subDir}', 'txt')">Copy</button>
-                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${txtFile}', '${dir}', '${subDir}')">Download</button>
+                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${txtFile}', '${prefix}.txt', '${dir}', '${subDir}')">Download</button>
                 </div>
             `;
         }
 
         function showLiveTV(country) {
             const content = document.getElementById('live-tv-content');
+            const moviesContent = document.getElementById('movies-content');
             content.innerHTML = '';
+            moviesContent.classList.remove('active');
+            document.getElementById('movies-select').value = '';
             if (country) {
                 content.innerHTML = createFileLinks('LiveTV', country);
                 content.classList.add('active');
+                document.getElementById('live-tv-select').value = country;
             }
-            document.getElementById('live-tv-select').value = country;
-            document.getElementById('movies-content').innerHTML = '';
-            document.getElementById('movies-select').value = '';
         }
 
         function showMovies(category) {
             const content = document.getElementById('movies-content');
+            const liveTvContent = document.getElementById('live-tv-content');
             content.innerHTML = '';
+            liveTvContent.classList.remove('active');
+            document.getElementById('live-tv-select').value = '';
             if (category) {
                 content.innerHTML = createFileLinks('Movies', category);
                 content.classList.add('active');
+                document.getElementById('movies-select').value = category;
             }
-            document.getElementById('movies-select').value = category;
-            document.getElementById('live-tv-content').innerHTML = '';
-            document.getElementById('live-tv-select').value = '';
         }
 
         function copyToClipboard(text, dir, subDir, type) {
@@ -299,8 +352,13 @@
             }).catch(err => console.error('Copy failed:', err));
         }
 
-        function downloadFile(url, dir, subDir) {
-            window.location.href = url;
+        function downloadFile(url, filename, dir, subDir) {
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
             trackLink(dir, subDir, 'download');
         }
 
@@ -310,6 +368,8 @@
             const moviesContent = document.getElementById('movies-content');
             liveTvContent.innerHTML = '';
             moviesContent.innerHTML = '';
+            liveTvContent.classList.remove('active');
+            moviesContent.classList.remove('active');
 
             if (!query) return;
 
@@ -343,38 +403,42 @@
         }
 
         function updateAnalytics() {
-            const container = document.getElementById('analytics-container');
-            container.innerHTML = `
+            const leftContainer = document.getElementById('analytics-left-container');
+            const rightContainer = document.getElementById('analytics-right-container');
+            leftContainer.innerHTML = `
                 <div class="analytics-item">
                     <p>Total Channels Listed: ${analytics.totalChannels}</p>
                     <p>Active Channels: ${analytics.activeChannels}</p>
                 </div>
+                <div class="analytics-item">
+                    <p>Last Sync:</p>
+                    ${Object.entries(analytics.lastSync).map(([key, date]) => `<p>${key}: ${date}</p>`).join('')}
+                </div>
             `;
 
-            const syncList = document.createElement('div');
-            syncList.className = 'analytics-item';
-            syncList.innerHTML = '<p>Last Sync:</p>';
-            Object.entries(analytics.lastSync).forEach(([key, date]) => {
-                syncList.innerHTML += `<p>${key}: ${date}</p>`;
-            });
-            container.appendChild(syncList);
-
-            const downloadList = document.createElement('div');
-            downloadList.className = 'analytics-item';
-            downloadList.innerHTML = '<p>Downloads by Country/Category:</p>';
+            rightContainer.innerHTML = '';
+            const downloadData = {};
             ['liveTv', 'movies'].forEach(type => {
-                const data = analytics[type];
-                Object.entries(data).forEach(([key, { clicks, copies, downloads }]) => {
-                    const total = downloads;
-                    const bar = document.createElement('div');
-                    bar.innerHTML = `
-                        <p>${key}: ${total} downloads</p>
-                        <div class="analytics-bar"><div class="analytics-fill" style="width: ${Math.min(total * 10, 600)}px;"></div></div>
-                    `;
-                    downloadList.appendChild(bar);
+                Object.entries(analytics[type]).forEach(([key, { downloads }]) => {
+                    downloadData[key] = downloads;
                 });
             });
-            container.appendChild(downloadList);
+            const totalDownloads = Object.values(downloadData).reduce((sum, val) => sum + val, 0);
+            Object.entries(downloadData).forEach(([key, downloads]) => {
+                const percentage = totalDownloads ? (downloads / totalDownloads) * 100 : 0;
+                const circumference = 2 * Math.PI * 55; // Radius 55px
+                const dashArray = (percentage / 100) * circumference;
+                const chart = document.createElement('div');
+                chart.className = 'circle-chart';
+                chart.innerHTML = `
+                    <svg width="120" height="120">
+                        <circle class="circle-bg" cx="60" cy="60" r="55"></circle>
+                        <circle class="circle-fill" cx="60" cy="60" r="55" stroke-dasharray="${dashArray} ${circumference}" stroke-dashoffset="0"></circle>
+                    </svg>
+                    <div class="circle-text">${downloads}<br>${key.split('/')[1]}</div>
+                `;
+                rightContainer.appendChild(chart);
+            });
         }
 
         // Initialize
