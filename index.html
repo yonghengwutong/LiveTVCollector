@@ -90,8 +90,6 @@
             transform: translateY(-5px);
             box-shadow: 0 6px 12px rgba(0,0,0,0.3);
         }
-        .card-content { display: none; }
-        .card.active .card-content { display: block; }
         .link-item {
             padding: 10px;
             border-bottom: 1px solid #444;
@@ -111,8 +109,6 @@
             transition: background 0.3s;
         }
         .copy-btn:hover { background: #e6006b; }
-        .last-updated { font-size: 0.9em; color: #bbb; margin-top: 5px; }
-        body.light .last-updated { color: #666; }
         .analytics {
             margin: 20px 0;
             text-align: center;
@@ -128,7 +124,7 @@
         }
         .analytics-fill {
             height: 100%;
-            background: #ff007a;
+            background: linear-gradient(90deg, #ff007a, #00ddeb);
             transition: width 0.5s ease;
         }
         footer {
@@ -156,7 +152,7 @@
     </header>
     <div class="container">
         <div class="search-bar">
-            <input type="text" id="search" placeholder="Search channels..." onkeyup="filterLinks()">
+            <input type="text" id="search" placeholder="Search countries or categories..." onkeyup="filterOptions()">
         </div>
         <div class="dropdown-section">
             <h2>Live TV</h2>
@@ -186,7 +182,7 @@
                        window.location.hostname.includes('github.io') ? 'https://bugsfreeweb.github.io/LiveTVCollector/' : 
                        '/';
         const rawBaseUrl = 'https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/';
-        let analytics = { liveTv: {}, movies: {} };
+        let analytics = JSON.parse(localStorage.getItem('m3u_analytics')) || { liveTv: {}, movies: {} };
 
         async function fetchJson(url) {
             try {
@@ -210,6 +206,7 @@
                     const option = document.createElement('option');
                     option.value = country;
                     option.textContent = country;
+                    option.dataset.type = 'liveTv';
                     liveTvSelect.appendChild(option);
                 });
             }
@@ -218,65 +215,85 @@
                     const option = document.createElement('option');
                     option.value = category;
                     option.textContent = category;
+                    option.dataset.type = 'movies';
                     moviesSelect.appendChild(option);
                 });
             }
         }
 
-        function createCardContent(json, dir, subDir) {
+        function createFileLinks(dir, subDir) {
             const m3uFile = dir === 'LiveTV' ? 'LiveTV.m3u' : 'Movies.m3u';
+            const jsonFile = dir === 'LiveTV' ? 'LiveTV.json' : 'Movies.json';
+            const txtFile = dir === 'LiveTV' ? 'LiveTV.txt' : 'Movies.txt';
             return `
-                <div class="card-content">
-                    ${Object.entries(json.channels).flatMap(([group, channels]) => 
-                        channels.map(channel => `
-                            <div class="link-item" data-text="${channel.name.toLowerCase()} ${group.toLowerCase()}">
-                                <a href="${dir}/${subDir}/${m3uFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}')">${channel.name} (${group})</a>
-                                <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${m3uFile}', '${dir}', '${subDir}')">Copy</button>
-                            </div>
-                        `).join('')
-                    ).join('')}
-                    <div class="last-updated">Last Updated: ${json.date}</div>
+                <div class="link-item" data-text="${subDir.toLowerCase()}">
+                    <a href="${dir}/${subDir}/${m3uFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')">M3U File</a>
+                    <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${m3uFile}', '${dir}', '${subDir}', 'm3u')">Copy</button>
+                </div>
+                <div class="link-item" data-text="${subDir.toLowerCase()}">
+                    <a href="${dir}/${subDir}/${jsonFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')">JSON File</a>
+                    <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${jsonFile}', '${dir}', '${subDir}', 'json')">Copy</button>
+                </div>
+                <div class="link-item" data-text="${subDir.toLowerCase()}">
+                    <a href="${dir}/${subDir}/${txtFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')">TXT File</a>
+                    <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${txtFile}', '${dir}', '${subDir}', 'txt')">Copy</button>
                 </div>
             `;
         }
 
-        async function showLiveTV(country) {
+        function showLiveTV(country) {
             const content = document.getElementById('live-tv-content');
             content.innerHTML = '';
             if (country) {
-                const json = await fetchJson(`${rawBaseUrl}LiveTV/${country}/LiveTV.json`);
-                if (json) {
-                    content.innerHTML = createCardContent(json, 'LiveTV', country);
-                    content.classList.add('active');
-                }
+                content.innerHTML = createFileLinks('LiveTV', country);
+                content.classList.add('active');
             }
         }
 
-        async function showMovies(category) {
+        function showMovies(category) {
             const content = document.getElementById('movies-content');
             content.innerHTML = '';
             if (category) {
-                const json = await fetchJson(`${rawBaseUrl}Movies/${category}/Movies.json`);
-                if (json) {
-                    content.innerHTML = createCardContent(json, 'Movies', category);
-                    content.classList.add('active');
-                }
+                content.innerHTML = createFileLinks('Movies', category);
+                content.classList.add('active');
             }
         }
 
-        function copyToClipboard(text, dir, subDir) {
+        function copyToClipboard(text, dir, subDir, type) {
             navigator.clipboard.writeText(text).then(() => {
-                alert('Link copied!');
+                alert(`${type.toUpperCase()} link copied!`);
                 trackLink(dir, subDir, 'copy');
             }).catch(err => console.error('Copy failed:', err));
         }
 
-        function filterLinks() {
+        function filterOptions() {
             const query = document.getElementById('search').value.toLowerCase();
-            document.querySelectorAll('.link-item').forEach(item => {
-                const text = item.getAttribute('data-text');
-                item.style.display = text.includes(query) ? 'flex' : 'none';
+            const liveTvSelect = document.getElementById('live-tv-select');
+            const moviesSelect = document.getElementById('movies-select');
+            let matchFound = false;
+
+            [liveTvSelect, moviesSelect].forEach(select => {
+                Array.from(select.options).forEach(option => {
+                    if (option.value && option.textContent.toLowerCase().includes(query)) {
+                        option.style.display = 'block';
+                        if (!matchFound) {
+                            matchFound = true;
+                            if (select.id === 'live-tv-select') showLiveTV(option.value);
+                            else showMovies(option.value);
+                            select.value = option.value;
+                        }
+                    } else if (option.value) {
+                        option.style.display = 'none';
+                    }
+                });
             });
+
+            if (!matchFound) {
+                document.getElementById('live-tv-content').innerHTML = '';
+                document.getElementById('movies-content').innerHTML = '';
+                liveTvSelect.value = '';
+                moviesSelect.value = '';
+            }
         }
 
         function toggleTheme() {
@@ -284,10 +301,11 @@
             document.querySelector('.theme-toggle').textContent = document.body.classList.contains('light') ? '🌙' : '☀️';
         }
 
-        function trackLink(dir, subDir, action = 'click') {
+        function trackLink(dir, subDir, action) {
             const key = `${dir}/${subDir}`;
             analytics[dir.toLowerCase()][key] = analytics[dir.toLowerCase()][key] || { clicks: 0, copies: 0 };
             analytics[dir.toLowerCase()][key][action === 'click' ? 'clicks' : 'copies']++;
+            localStorage.setItem('m3u_analytics', JSON.stringify(analytics));
             updateAnalytics();
         }
 
@@ -310,6 +328,7 @@
 
         // Initialize
         populateDropdowns();
+        updateAnalytics();
     </script>
 </body>
 </html>
