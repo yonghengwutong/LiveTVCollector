@@ -99,7 +99,7 @@
         }
         body.light .link-item { border-bottom: 1px solid #ccc; }
         .link-item a { color: #00ddeb; text-decoration: none; }
-        .copy-btn {
+        .copy-btn, .download-btn {
             background: #ff007a;
             border: none;
             padding: 5px 10px;
@@ -107,11 +107,15 @@
             color: white;
             cursor: pointer;
             transition: background 0.3s;
+            margin-left: 5px;
         }
-        .copy-btn:hover { background: #e6006b; }
+        .copy-btn:hover, .download-btn:hover { background: #e6006b; }
         .analytics {
             margin: 20px 0;
             text-align: center;
+        }
+        .analytics-item {
+            margin: 10px 0;
         }
         .analytics-bar {
             width: 100%;
@@ -120,7 +124,7 @@
             background: #333;
             border-radius: 10px;
             overflow: hidden;
-            margin: 10px auto;
+            margin: 5px auto;
         }
         .analytics-fill {
             height: 100%;
@@ -139,7 +143,7 @@
             header p { font-size: 1em; }
             select { max-width: 100%; }
             .link-item { flex-direction: column; align-items: flex-start; }
-            .copy-btn { margin-top: 5px; }
+            .copy-btn, .download-btn { margin-top: 5px; }
         }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
@@ -152,7 +156,7 @@
     </header>
     <div class="container">
         <div class="search-bar">
-            <input type="text" id="search" placeholder="Search countries or categories..." onkeyup="filterOptions()">
+            <input type="text" id="search" placeholder="Search channels or movies..." onkeyup="searchContent()">
         </div>
         <div class="dropdown-section">
             <h2>Live TV</h2>
@@ -169,7 +173,7 @@
             <div id="movies-content" class="card"></div>
         </div>
         <div class="analytics">
-            <h2>Link Analytics</h2>
+            <h2>Analytics Dashboard</h2>
             <div id="analytics-container"></div>
         </div>
     </div>
@@ -182,7 +186,14 @@
                        window.location.hostname.includes('github.io') ? 'https://bugsfreeweb.github.io/LiveTVCollector/' : 
                        '/';
         const rawBaseUrl = 'https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/';
-        let analytics = JSON.parse(localStorage.getItem('m3u_analytics')) || { liveTv: {}, movies: {} };
+        let analytics = JSON.parse(localStorage.getItem('m3u_analytics')) || { 
+            liveTv: {}, 
+            movies: {}, 
+            totalChannels: 0, 
+            activeChannels: 0, 
+            lastSync: {} 
+        };
+        let contentMap = { liveTv: {}, movies: {} };
 
         async function fetchJson(url) {
             try {
@@ -202,23 +213,36 @@
             const moviesSelect = document.getElementById('movies-select');
 
             if (liveTvIndex) {
-                liveTvIndex.forEach(country => {
+                for (const country of liveTvIndex) {
                     const option = document.createElement('option');
                     option.value = country;
                     option.textContent = country;
-                    option.dataset.type = 'liveTv';
                     liveTvSelect.appendChild(option);
-                });
+                    const json = await fetchJson(`${rawBaseUrl}LiveTV/${country}/LiveTV.json`);
+                    if (json) {
+                        contentMap.liveTv[country] = json;
+                        analytics.totalChannels += Object.values(json.channels).flat().length;
+                        analytics.activeChannels += Object.values(json.channels).flat().filter(ch => ch.url).length;
+                        analytics.lastSync[`LiveTV/${country}`] = json.date;
+                    }
+                }
             }
             if (moviesIndex) {
-                moviesIndex.forEach(category => {
+                for (const category of moviesIndex) {
                     const option = document.createElement('option');
                     option.value = category;
                     option.textContent = category;
-                    option.dataset.type = 'movies';
                     moviesSelect.appendChild(option);
-                });
+                    const json = await fetchJson(`${rawBaseUrl}Movies/${category}/Movies.json`);
+                    if (json) {
+                        contentMap.movies[category] = json;
+                        analytics.totalChannels += Object.values(json.channels).flat().length;
+                        analytics.activeChannels += Object.values(json.channels).flat().filter(ch => ch.url).length;
+                        analytics.lastSync[`Movies/${category}`] = json.date;
+                    }
+                }
             }
+            updateAnalytics();
         }
 
         function createFileLinks(dir, subDir) {
@@ -226,17 +250,20 @@
             const jsonFile = dir === 'LiveTV' ? 'LiveTV.json' : 'Movies.json';
             const txtFile = dir === 'LiveTV' ? 'LiveTV.txt' : 'Movies.txt';
             return `
-                <div class="link-item" data-text="${subDir.toLowerCase()}">
+                <div class="link-item">
                     <a href="${dir}/${subDir}/${m3uFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')">M3U File</a>
                     <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${m3uFile}', '${dir}', '${subDir}', 'm3u')">Copy</button>
+                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${m3uFile}', '${dir}', '${subDir}')">Download</button>
                 </div>
-                <div class="link-item" data-text="${subDir.toLowerCase()}">
+                <div class="link-item">
                     <a href="${dir}/${subDir}/${jsonFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')">JSON File</a>
                     <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${jsonFile}', '${dir}', '${subDir}', 'json')">Copy</button>
+                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${jsonFile}', '${dir}', '${subDir}')">Download</button>
                 </div>
-                <div class="link-item" data-text="${subDir.toLowerCase()}">
+                <div class="link-item">
                     <a href="${dir}/${subDir}/${txtFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')">TXT File</a>
                     <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${txtFile}', '${dir}', '${subDir}', 'txt')">Copy</button>
+                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${txtFile}', '${dir}', '${subDir}')">Download</button>
                 </div>
             `;
         }
@@ -248,6 +275,9 @@
                 content.innerHTML = createFileLinks('LiveTV', country);
                 content.classList.add('active');
             }
+            document.getElementById('live-tv-select').value = country;
+            document.getElementById('movies-content').innerHTML = '';
+            document.getElementById('movies-select').value = '';
         }
 
         function showMovies(category) {
@@ -257,6 +287,9 @@
                 content.innerHTML = createFileLinks('Movies', category);
                 content.classList.add('active');
             }
+            document.getElementById('movies-select').value = category;
+            document.getElementById('live-tv-content').innerHTML = '';
+            document.getElementById('live-tv-select').value = '';
         }
 
         function copyToClipboard(text, dir, subDir, type) {
@@ -266,33 +299,33 @@
             }).catch(err => console.error('Copy failed:', err));
         }
 
-        function filterOptions() {
-            const query = document.getElementById('search').value.toLowerCase();
-            const liveTvSelect = document.getElementById('live-tv-select');
-            const moviesSelect = document.getElementById('movies-select');
-            let matchFound = false;
+        function downloadFile(url, dir, subDir) {
+            window.location.href = url;
+            trackLink(dir, subDir, 'download');
+        }
 
-            [liveTvSelect, moviesSelect].forEach(select => {
-                Array.from(select.options).forEach(option => {
-                    if (option.value && option.textContent.toLowerCase().includes(query)) {
-                        option.style.display = 'block';
-                        if (!matchFound) {
-                            matchFound = true;
-                            if (select.id === 'live-tv-select') showLiveTV(option.value);
-                            else showMovies(option.value);
-                            select.value = option.value;
-                        }
-                    } else if (option.value) {
-                        option.style.display = 'none';
-                    }
-                });
-            });
+        function searchContent() {
+            const query = document.getElementById('search').value.toLowerCase().trim();
+            const liveTvContent = document.getElementById('live-tv-content');
+            const moviesContent = document.getElementById('movies-content');
+            liveTvContent.innerHTML = '';
+            moviesContent.innerHTML = '';
 
-            if (!matchFound) {
-                document.getElementById('live-tv-content').innerHTML = '';
-                document.getElementById('movies-content').innerHTML = '';
-                liveTvSelect.value = '';
-                moviesSelect.value = '';
+            if (!query) return;
+
+            for (const [country, json] of Object.entries(contentMap.liveTv)) {
+                const channels = Object.values(json.channels).flat();
+                if (channels.some(ch => ch.name.toLowerCase().includes(query))) {
+                    showLiveTV(country);
+                    return;
+                }
+            }
+            for (const [category, json] of Object.entries(contentMap.movies)) {
+                const movies = Object.values(json.channels).flat();
+                if (movies.some(m => m.name.toLowerCase().includes(query))) {
+                    showMovies(category);
+                    return;
+                }
             }
         }
 
@@ -303,32 +336,49 @@
 
         function trackLink(dir, subDir, action) {
             const key = `${dir}/${subDir}`;
-            analytics[dir.toLowerCase()][key] = analytics[dir.toLowerCase()][key] || { clicks: 0, copies: 0 };
-            analytics[dir.toLowerCase()][key][action === 'click' ? 'clicks' : 'copies']++;
+            analytics[dir.toLowerCase()][key] = analytics[dir.toLowerCase()][key] || { clicks: 0, copies: 0, downloads: 0 };
+            analytics[dir.toLowerCase()][key][action === 'click' ? 'clicks' : action === 'copy' ? 'copies' : 'downloads']++;
             localStorage.setItem('m3u_analytics', JSON.stringify(analytics));
             updateAnalytics();
         }
 
         function updateAnalytics() {
             const container = document.getElementById('analytics-container');
-            container.innerHTML = '';
+            container.innerHTML = `
+                <div class="analytics-item">
+                    <p>Total Channels Listed: ${analytics.totalChannels}</p>
+                    <p>Active Channels: ${analytics.activeChannels}</p>
+                </div>
+            `;
+
+            const syncList = document.createElement('div');
+            syncList.className = 'analytics-item';
+            syncList.innerHTML = '<p>Last Sync:</p>';
+            Object.entries(analytics.lastSync).forEach(([key, date]) => {
+                syncList.innerHTML += `<p>${key}: ${date}</p>`;
+            });
+            container.appendChild(syncList);
+
+            const downloadList = document.createElement('div');
+            downloadList.className = 'analytics-item';
+            downloadList.innerHTML = '<p>Downloads by Country/Category:</p>';
             ['liveTv', 'movies'].forEach(type => {
                 const data = analytics[type];
-                Object.entries(data).forEach(([key, { clicks, copies }]) => {
-                    const total = clicks + copies;
+                Object.entries(data).forEach(([key, { clicks, copies, downloads }]) => {
+                    const total = downloads;
                     const bar = document.createElement('div');
                     bar.innerHTML = `
-                        <p>${key}: ${clicks} clicks, ${copies} copies</p>
+                        <p>${key}: ${total} downloads</p>
                         <div class="analytics-bar"><div class="analytics-fill" style="width: ${Math.min(total * 10, 600)}px;"></div></div>
                     `;
-                    container.appendChild(bar);
+                    downloadList.appendChild(bar);
                 });
             });
+            container.appendChild(downloadList);
         }
 
         // Initialize
         populateDropdowns();
-        updateAnalytics();
     </script>
 </body>
 </html>
