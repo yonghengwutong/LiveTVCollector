@@ -33,7 +33,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests pytz beautifulsoup4
 
-    - name: Run TV-Private M3U collector script
+    - name: Run Movies-Worldwide M3U collector script
       run: python BugsfreeMain/Movies-Worldwide.py
 
     - name: Commit and push changes
