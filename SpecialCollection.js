@@ -3,7 +3,12 @@ const m3u8Parser = require('m3u8-parser');
 const fs = require('fs').promises;
 const path = require('path');
 const yaml = require('js-yaml');
-const pLimit = require('p-limit');
+
+// Load p-limit dynamically since it's an ES Module
+let pLimit;
+(async () => {
+    pLimit = (await import('p-limit')).default;
+})();
 
 // Load configuration from YAML file
 async function loadConfig() {
@@ -73,6 +78,11 @@ async function checkLinkActive(url, timeout) {
 
 // Function to collect and process all M3U links
 async function collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTimeout) {
+    // Wait for pLimit to be loaded
+    while (!pLimit) {
+        await new Promise(resolve => setTimeout(resolve, 100));
+    }
+
     const limit = pLimit(concurrency); // Limit concurrent requests
     const allChannels = new Map(); // Use Map to avoid duplicates (keyed by URL)
 
