@@ -33,8 +33,8 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add SpecialLinks*.m3u SpecialLinks*.json SpecialLinks*.txt SpecialLinks*/
-          git commit -m "Update SpecialLinks files with active M3U links" || echo "No changes to commit"
+          git add SpecialLinks/
+          git commit -m "Update SpecialLinks files with active M3U links (grouped by category)" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
