@@ -1,0 +1,26 @@
+# config.yml
+settings:
+  concurrency: 10  # Number of concurrent link checks
+  fetchTimeout: 10000  # Timeout for fetching M3U files (ms)
+  linkCheckTimeout: 5000  # Timeout for checking link activity (ms)
+  outputDirPrefix: SpecialLinks  # Base name for output directories/files
+  channelsPerFile: 2000  # Maximum number of channels per file
+
+urls:
+  - http://megaott.live:8080/get.php?username=HK63Ukja4y36&password=BXhr8vneDEPs&type=m3u_plus
+  - http://megaott.live:8080/get.php?username=HK63Ukja4y36&password=BXhr8vneDEPs&type=m3u&output=mpegts
+  - http://megaott.live:8080/get.php?username=HK63Ukja4y36&password=BXhr8vneDEPs&type=m3u_plus&output=mpegts
+  - http://megaott.live:8080/get.php?username=HK63Ukja4y36&password=BXhr8vneDEPs&type=m3u&output=hls
+  - http://millcitygold.xyz:8080/get.php?username=Jeff&password=Jeff&type=m3u&output=mpegts
+  - http://millcitygold.xyz:8080/get.php?username=Jeff&password=Jeff&type=m3u_plus&output=mpegts
+  - http://millcitygold.xyz:8080/get.php?username=Jeff&password=Jeff&type=m3u&output=hls
+  - http://p13.cx/get.php?username=C3ntr4M1n1str4&password=p38ZmSvGWU&type=m3u_plus
+  - http://p13.cx:80/get.php?username=C3ntr4M1n1str4&password=p38ZmSvGWU&type=m3u&output=mpegts
+  - http://p13.cx:80/get.php?username=C3ntr4M1n1str4&password=p38ZmSvGWU&type=m3u_plus&output=mpegts
+  - http://p13.cx:80/get.php?username=C3ntr4M1n1str4&password=p38ZmSvGWU&type=m3u&output=hls
+  - http://c.pure-onetv.com:80/get.php?username=V11BcwAXrm3Lf&password=UWnMfDPTV0&type=m3u_plus
+  - http://c.pure-onetv.com:80/get.php?username=V11BcwAXrm3Lf&password=UWnMfDPTV0&type=m3u&output=mpegts
+  - http://c.pure-onetv.com:80/get.php?username=V11BcwAXrm3Lf&password=UWnMfDPTV0&type=m3u_plus&output=mpegts
+  - http://c.pure-onetv.com:80/get.php?username=V11BcwAXrm3Lf&password=UWnMfDPTV0&type=m3u&output=hls
+  - http://ate.selfip.net:8000/get.php?username=SergioArias&password=skBOmVRyYr6&type=m3u&output=mpegts
+  # Add more URLs here (up to 100)
