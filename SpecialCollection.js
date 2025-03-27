@@ -1,4 +1,4 @@
-const axios = require('axios');
+const { request } = require('undici'); // Use undici for faster HTTP requests
 const m3u8Parser = require('m3u8-parser');
 const fs = require('fs').promises;
 const path = require('path');
@@ -30,11 +30,15 @@ async function loadConfig() {
 // Function to fetch M3U content from a URL
 async function fetchM3U(url, timeout) {
     try {
-        const response = await axios.get(url, { timeout });
-        if (response.status !== 200) {
-            throw new Error(`Failed to fetch ${url}: Status ${response.status}`);
+        const { body, statusCode } = await request(url, {
+            method: 'GET',
+            maxRedirections: 2,
+            timeout
+        });
+        if (statusCode !== 200) {
+            throw new Error(`Failed to fetch ${url}: Status ${statusCode}`);
         }
-        return response.data;
+        return await body.text();
     } catch (error) {
         console.error(`Error fetching ${url}:`, error.message);
         return null;
@@ -67,24 +71,42 @@ function parseM3U(content) {
     return channels.filter(ch => ch.url); // Only return channels with URLs
 }
 
-// Function to check if a link is active
-async function checkLinkActive(url, timeout) {
-    try {
-        const response = await axios.head(url, { timeout });
-        return response.status >= 200 && response.status < 400;
-    } catch (error) {
-        return false; // Return false instead of logging to reduce console clutter
-    }
-}
-
-// Function to collect and process all M3U links
-async function collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTimeout) {
+// Function to check if a batch of links is active
+async function checkLinkBatch(urls, timeout, concurrency) {
     // Wait for pLimit to be loaded
     while (!pLimit) {
         await new Promise(resolve => setTimeout(resolve, 100));
     }
 
-    const limit = pLimit(concurrency); // Limit concurrent requests
+    const limit = pLimit(concurrency);
+    const results = await Promise.allSettled(urls.map(url =>
+        limit(async () => {
+            try {
+                const { statusCode } = await request(url, {
+                    method: 'HEAD',
+                    maxRedirections: 2,
+                    timeout
+                });
+                return { url, isActive: statusCode >= 200 && statusCode < 400 };
+            } catch (error) {
+                return { url, isActive: false };
+            }
+        })
+    ));
+
+    return results
+        .filter(result => result.status === 'fulfilled')
+        .map(result => result.value);
+}
+
+// Function to collect and process all M3U links
+async function collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTimeout, batchSize) {
+    // Wait for pLimit to be loaded
+    while (!pLimit) {
+        await new Promise(resolve => setTimeout(resolve, 100));
+    }
+
+    const limit = pLimit(concurrency);
     const allChannels = new Map(); // Use Map to avoid duplicates (keyed by URL)
 
     // Fetch all M3U playlists concurrently
@@ -97,37 +119,49 @@ async function collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTime
             console.log(`Parsing M3U from ${url}...`);
             const channels = parseM3U(m3uContent);
             console.log(`Found ${channels.length} channels in ${url}`);
+
+            // Add channels to the Map to remove duplicates early
+            channels.forEach(channel => {
+                if (!allChannels.has(channel.url)) {
+                    allChannels.set(channel.url, channel);
+                }
+            });
             return channels;
         })
     );
 
     // Wait for all fetches to complete
     const allChannelsArrays = await Promise.allSettled(fetchPromises);
-    const allChannelsList = allChannelsArrays
+    allChannelsArrays
         .filter(result => result.status === 'fulfilled')
         .map(result => result.value)
         .flat();
 
-    // Check link activity concurrently
-    const checkPromises = allChannelsList.map(channel =>
-        limit(async () => {
-            if (!allChannels.has(channel.url)) {
-                console.log(`Checking if ${channel.url} is active...`);
-                const isActive = await checkLinkActive(channel.url, linkCheckTimeout);
-                if (isActive) {
-                    allChannels.set(channel.url, channel);
-                    console.log(`Added active link: ${channel.url}`);
-                } else {
-                    console.log(`Skipped inactive link: ${channel.url}`);
-                }
-            } else {
-                console.log(`Skipped duplicate link: ${channel.url}`);
-            }
-        })
-    );
+    const uniqueChannels = Array.from(allChannels.values());
 
-    await Promise.allSettled(checkPromises); // Use allSettled to handle failures gracefully
-    return Array.from(allChannels.values());
+    // Batch process link checks
+    const activeChannels = [];
+    for (let i = 0; i < uniqueChannels.length; i += batchSize) {
+        const batch = uniqueChannels.slice(i, i + batchSize);
+        console.log(`Checking batch ${i / batchSize + 1} (${batch.length} links)...`);
+        const batchResults = await checkLinkBatch(
+            batch.map(ch => ch.url),
+            linkCheckTimeout,
+            concurrency
+        );
+
+        batchResults.forEach(result => {
+            if (result.isActive) {
+                const channel = allChannels.get(result.url);
+                if (channel) {
+                    activeChannels.push(channel);
+                }
+            }
+        });
+    }
+
+    console.log(`Found ${activeChannels.length} active channels.`);
+    return activeChannels;
 }
 
 // Function to group channels by group-title and country (if applicable)
@@ -170,49 +204,63 @@ function splitChannels(channels, channelsPerFile) {
 }
 
 // Function to save active links to multiple formats with grouping and splitting
-async function saveResults(channels, outputDirPrefix, channelsPerFile) {
+async function saveResults(channels, outputDirPrefix, channelsPerFile, concurrency) {
+    // Wait for pLimit to be loaded
+    while (!pLimit) {
+        await new Promise(resolve => setTimeout(resolve, 100));
+    }
+
+    const limit = pLimit(concurrency);
+
     // Group channels by group-title and country
     const groupedChannels = groupChannels(channels);
 
-    // Process each group and country
+    // Process each group and country in parallel
+    const savePromises = [];
+
     for (const [group, countries] of Object.entries(groupedChannels)) {
         for (const [country, groupChannels] of Object.entries(countries)) {
-            // Create a safe directory name by replacing invalid characters
-            const safeGroup = group.replace(/[^a-zA-Z0-9]/g, '_');
-            const safeCountry = country.replace(/[^a-zA-Z0-9]/g, '_');
-            const groupDir = path.join(outputDirPrefix, safeGroup, safeCountry);
+            savePromises.push(limit(async () => {
+                // Create a safe directory name by replacing invalid characters
+                const safeGroup = group.replace(/[^a-zA-Z0-9]/g, '_');
+                const safeCountry = country.replace(/[^a-zA-Z0-9]/g, '_');
+                const groupDir = path.join(outputDirPrefix, safeGroup, safeCountry);
 
-            // Ensure the directory exists
-            await fs.mkdir(groupDir, { recursive: true });
+                // Ensure the directory exists
+                await fs.mkdir(groupDir, { recursive: true });
 
-            // Split channels into chunks of channelsPerFile
-            const channelChunks = splitChannels(groupChannels, channelsPerFile);
+                // Split channels into chunks of channelsPerFile
+                const channelChunks = splitChannels(groupChannels, channelsPerFile);
 
-            // Process each chunk
-            for (let i = 0; i < channelChunks.length; i++) {
-                const chunk = channelChunks[i];
-                const suffix = i === 0 ? '' : (i + 1); // SpecialLinks, SpecialLinks2, etc.
-                const baseName = `SpecialLinks${suffix}`;
+                // Process each chunk
+                for (let i = 0; i < channelChunks.length; i++) {
+                    const chunk = channelChunks[i];
+                    const suffix = i === 0 ? '' : (i + 1); // SpecialLinks, SpecialLinks2, etc.
+                    const baseName = `SpecialLinks${suffix}`;
 
-                // Save as M3U
-                let m3uContent = '#EXTM3U\n';
-                chunk.forEach(channel => {
-                    m3uContent += `#EXTINF:-1 group-title="${group}",${channel.name}\n${channel.url}\n`;
-                });
-                await fs.writeFile(path.join(groupDir, `${baseName}.m3u`), m3uContent);
+                    // Prepare content for all formats
+                    let m3uContent = '#EXTM3U\n';
+                    chunk.forEach(channel => {
+                        m3uContent += `#EXTINF:-1 group-title="${group}",${channel.name}\n${channel.url}\n`;
+                    });
 
-                // Save as JSON
-                const jsonContent = JSON.stringify(chunk, null, 2);
-                await fs.writeFile(path.join(groupDir, `${baseName}.json`), jsonContent);
+                    const jsonContent = JSON.stringify(chunk, null, 2);
+                    const txtContent = chunk.map(channel => channel.url).join('\n');
 
-                // Save as TXT
-                const txtContent = chunk.map(channel => channel.url).join('\n');
-                await fs.writeFile(path.join(groupDir, `${baseName}.txt`), txtContent);
+                    // Write all files in parallel
+                    await Promise.all([
+                        fs.writeFile(path.join(groupDir, `${baseName}.m3u`), m3uContent),
+                        fs.writeFile(path.join(groupDir, `${baseName}.json`), jsonContent),
+                        fs.writeFile(path.join(groupDir, `${baseName}.txt`), txtContent)
+                    ]);
 
-                console.log(`Saved ${chunk.length} active links to ${groupDir}/${baseName}.*`);
-            }
+                    console.log(`Saved ${chunk.length} active links to ${groupDir}/${baseName}.*`);
+                }
+            }));
         }
     }
+
+    await Promise.allSettled(savePromises);
 }
 
 // Main function to run the script
@@ -222,14 +270,14 @@ async function main() {
     // Load configuration
     const config = await loadConfig();
     const { urls, settings } = config;
-    const { concurrency, fetchTimeout, linkCheckTimeout, outputDirPrefix, channelsPerFile } = settings;
+    const { concurrency, fetchTimeout, linkCheckTimeout, batchSize, outputDirPrefix, channelsPerFile } = settings;
 
     // Collect active links
-    const activeChannels = await collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTimeout);
+    const activeChannels = await collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTimeout, batchSize);
 
     // Save results with grouping and splitting
     if (activeChannels.length > 0) {
-        await saveResults(activeChannels, outputDirPrefix, channelsPerFile);
+        await saveResults(activeChannels, outputDirPrefix, channelsPerFile, concurrency);
     } else {
         console.log('No active links found.');
     }
