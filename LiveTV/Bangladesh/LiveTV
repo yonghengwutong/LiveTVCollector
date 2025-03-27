@@ -786,6 +786,12 @@
     "img": "https://bdiptv.stream/uploads/tv_image/discovery.png"
   },
   {
+    "name": "Discovery Engliah HD",
+    "type": "Documentary",
+    "url": "http://103.122.74.6:8888/hls/HISTORY.TV.18.HD.m3u8",
+    "img": "https://bdiptv.stream/uploads/tv_image/discovery.png"
+  },
+  {
     "name": "NAT GEO HD Bangla",
     "type": "Documentary",
     "url": "http://103.122.74.6:8888/hls/NATGEO.HD.m3u8",
@@ -801,6 +807,12 @@
     "name": "Net Geo wild",
     "type": "Documentary",
     "url": "http://xtv.ooo:8080/danyear12/am809100/206286",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png"
+  },
+  {
+    "name": "Wild Earth",
+    "type": "Documentary",
+    "url": "http://103.122.74.6:8888/hls/NATGEO.WILD.HD.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png"
   },
   {
@@ -824,13 +836,13 @@
   {
     "name": "BBC Earth",
     "type": "Documentary",
-    "url": "http://kst.moonplex.net:8080/CH11/tracks-v1a1/mono.m3u8",
+    "url": "http://103.122.74.6:8888/hls/SONY.BBC.EARTH.HD.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png"
   },
   {
     "name": "Animal Planet HD",
     "type": "Documentary",
-    "url": "http://xtv.ooo:8080/danyear12/am809100/109975",
+    "url": "http://103.122.74.6:8888/hls/ANIMAL.PLANET.HD.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Animal_Planet_logo.svg/1280px-Animal_Planet_logo.svg.png"
   },
   {
@@ -1976,14 +1988,8 @@
   {
     "name": "T Sports",
     "type": "Sports",
-    "url": "http://ottbangla.com/oikire/vstream.m3u8?id=T-Sport",
+    "url": "http://103.122.74.6:8888/hls/tsports.m3u8",
     "img": "https://kriratv.stream/images/channel/tsports.png"
-  },
-  {
-    "name": "GTV",
-    "type": "Sports",
-    "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Gazi",
-    "img": "https://kriratv.stream/images/channel/gazitv.png"
   },
   {
     "name": "PTV Sports",
@@ -1996,30 +2002,6 @@
     "type": "Sports",
     "url": "http://ottbangla.com/oikire/vstream.m3u8?id=A-Sports",
     "img": "https://kriratv.stream/images/channel/astrocricket.png"
-  },
-  {
-    "name": "starsports1",
-    "type": "Sports",
-    "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Star-Sports-1",
-    "img": "https://kriratv.stream/images/channel/starsports1.png"
-  },
-  {
-    "name": "starsports2",
-    "type": "Sports",
-    "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Star-Sports-2",
-    "img": "https://kriratv.stream/images/channel/starsports2.png"
-  },
-  {
-    "name": "starselect1",
-    "type": "Sports",
-    "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Star-Select-1",
-    "img": "https://kriratv.stream/images/channel/starselect1.png"
-  },
-  {
-    "name": "starselect2",
-    "type": "Sports",
-    "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Star-Select-2",
-    "img": "https://kriratv.stream/images/channel/starselect2.png"
   },
   {
     "name": "Sony KAL",
@@ -2088,22 +2070,10 @@
     "img": "https://otapp.store/uploads/tv_image/sm/tlc-hindi.png"
   },
   {
-    "name": "Star Jalsha",
-    "type": "Bangla",
-    "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Star-Jalsha",
-    "img": "https://kriratv.stream/images/channel/starJalsha.png"
-  },
-  {
     "name": "Colors Bangla",
     "type": "Bangla",
-    "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Colors_bangla",
+    "url": "http://103.122.74.6:8888/hls/COLORS.BANGLA.HD.m3u8",
     "img": "https://kriratv.stream/images/channel/colorsBangla.png"
-  },
-  {
-    "name": "Jalsha Movies",
-    "type": "Bangla",
-    "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Jalsha_movies",
-    "img": "https://kriratv.stream/images/channel/jalshaMovies.png"
   },
   {
     "name": "Amazing Discoveries TV",

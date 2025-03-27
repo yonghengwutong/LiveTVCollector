@@ -1,5 +1,5 @@
 {
-  "date": "2025-03-27 13:41:48",
+  "date": "2025-03-27 21:40:48",
   "channels": {
     "BANGLA": [
       {
@@ -930,6 +930,13 @@
         "url": "http://xtv.ooo:8080/danyear12/am809100/206287"
       },
       {
+        "name": "Discovery Engliah HD",
+        "logo": "https://bdiptv.stream/uploads/tv_image/discovery.png",
+        "group": "Documentary",
+        "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
+        "url": "http://103.122.74.6:8888/hls/HISTORY.TV.18.HD.m3u8"
+      },
+      {
         "name": "NAT GEO HD Bangla",
         "logo": "https://logos-world.net/wp-content/uploads/2020/09/National-Geographic-Logo.png",
         "group": "Documentary",
@@ -949,6 +956,13 @@
         "group": "Documentary",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
         "url": "http://xtv.ooo:8080/danyear12/am809100/206286"
+      },
+      {
+        "name": "Wild Earth",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png",
+        "group": "Documentary",
+        "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
+        "url": "http://103.122.74.6:8888/hls/NATGEO.WILD.HD.m3u8"
       },
       {
         "name": "Travel xp Bangla",
@@ -976,14 +990,14 @@
         "logo": "https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png",
         "group": "Documentary",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://kst.moonplex.net:8080/CH11/tracks-v1a1/mono.m3u8"
+        "url": "http://103.122.74.6:8888/hls/SONY.BBC.EARTH.HD.m3u8"
       },
       {
         "name": "Animal Planet HD",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Animal_Planet_logo.svg/1280px-Animal_Planet_logo.svg.png",
         "group": "Documentary",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://xtv.ooo:8080/danyear12/am809100/109975"
+        "url": "http://103.122.74.6:8888/hls/ANIMAL.PLANET.HD.m3u8"
       }
     ],
     "Indian-Bangla": [
@@ -2340,14 +2354,7 @@
         "logo": "https://kriratv.stream/images/channel/tsports.png",
         "group": "Sports",
         "source": "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-        "url": "http://ottbangla.com/oikire/vstream.m3u8?id=T-Sport"
-      },
-      {
-        "name": "GTV",
-        "logo": "https://kriratv.stream/images/channel/gazitv.png",
-        "group": "Sports",
-        "source": "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-        "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Gazi"
+        "url": "http://103.122.74.6:8888/hls/tsports.m3u8"
       },
       {
         "name": "PTV Sports",
@@ -2362,34 +2369,6 @@
         "group": "Sports",
         "source": "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
         "url": "http://ottbangla.com/oikire/vstream.m3u8?id=A-Sports"
-      },
-      {
-        "name": "starsports1",
-        "logo": "https://kriratv.stream/images/channel/starsports1.png",
-        "group": "Sports",
-        "source": "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-        "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Star-Sports-1"
-      },
-      {
-        "name": "starsports2",
-        "logo": "https://kriratv.stream/images/channel/starsports2.png",
-        "group": "Sports",
-        "source": "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-        "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Star-Sports-2"
-      },
-      {
-        "name": "starselect1",
-        "logo": "https://kriratv.stream/images/channel/starselect1.png",
-        "group": "Sports",
-        "source": "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-        "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Star-Select-1"
-      },
-      {
-        "name": "starselect2",
-        "logo": "https://kriratv.stream/images/channel/starselect2.png",
-        "group": "Sports",
-        "source": "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-        "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Star-Select-2"
       }
     ],
     "SonyLIV by CRICFy": [
@@ -2477,25 +2456,11 @@
     ],
     "Bangla": [
       {
-        "name": "Star Jalsha",
-        "logo": "https://kriratv.stream/images/channel/starJalsha.png",
-        "group": "Bangla",
-        "source": "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-        "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Star-Jalsha"
-      },
-      {
         "name": "Colors Bangla",
         "logo": "https://kriratv.stream/images/channel/colorsBangla.png",
         "group": "Bangla",
         "source": "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-        "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Colors_bangla"
-      },
-      {
-        "name": "Jalsha Movies",
-        "logo": "https://kriratv.stream/images/channel/jalshaMovies.png",
-        "group": "Bangla",
-        "source": "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-        "url": "http://ottbangla.com/oikire/vstream.m3u8?id=Jalsha_movies"
+        "url": "http://103.122.74.6:8888/hls/COLORS.BANGLA.HD.m3u8"
       }
     ],
     "DOCUMENTARY": [

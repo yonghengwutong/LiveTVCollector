@@ -261,12 +261,16 @@ http://103.175.242.10:8080/zeecinema/index.m3u8
 http://103.122.74.6:8888/hls/DISCOVERY.HD.m3u8
 #EXTINF:-1 tvg-logo="https://bdiptv.stream/uploads/tv_image/discovery.png" group-title="Documentary",Discovery Hindi
 http://xtv.ooo:8080/danyear12/am809100/206287
+#EXTINF:-1 tvg-logo="https://bdiptv.stream/uploads/tv_image/discovery.png" group-title="Documentary",Discovery Engliah HD
+http://103.122.74.6:8888/hls/HISTORY.TV.18.HD.m3u8
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2020/09/National-Geographic-Logo.png" group-title="Documentary",NAT GEO HD Bangla
 http://103.122.74.6:8888/hls/NATGEO.HD.m3u8
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2020/09/National-Geographic-Logo.png" group-title="Documentary",NAT GEO HD
 http://xtv.ooo:8080/danyear12/am809100/206285
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png" group-title="Documentary",Net Geo wild
 http://xtv.ooo:8080/danyear12/am809100/206286
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png" group-title="Documentary",Wild Earth
+http://103.122.74.6:8888/hls/NATGEO.WILD.HD.m3u8
 #EXTINF:-1 tvg-logo="https://photos.prnewswire.com/prnfull/20150515/10122924" group-title="Documentary",Travel xp Bangla
 http://103.122.74.6:8888/hls/TRAVELXP.HD.m3u8
 #EXTINF:-1 tvg-logo="https://photos.prnewswire.com/prnfull/20150515/10122924" group-title="Documentary",Travel xp
@@ -274,9 +278,9 @@ https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png" group-title="Documentary",Love nature
 http://kst.moonplex.net:8080/CH9/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png" group-title="Documentary",BBC Earth
-http://kst.moonplex.net:8080/CH11/tracks-v1a1/mono.m3u8
+http://103.122.74.6:8888/hls/SONY.BBC.EARTH.HD.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Animal_Planet_logo.svg/1280px-Animal_Planet_logo.svg.png" group-title="Documentary",Animal Planet HD
-http://xtv.ooo:8080/danyear12/am809100/109975
+http://103.122.74.6:8888/hls/ANIMAL.PLANET.HD.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png/revision/latest/scale-to-width-down/250?cb=20180908084350" group-title="Indian-Bangla",Star Jalsha
 http://103.122.74.6:8888/hls/STAR.JALSHA.HD.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png/revision/latest?cb=20190806073703" group-title="Indian-Bangla",Jalsha Movies HD
@@ -658,21 +662,11 @@ https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/xCzcchKz/SONY-SPORTS-TEN-5-HD.png" group-title="Sports",Sony Sports Ten 5 HD
 https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8
 #EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/tsports.png" group-title="Sports",T Sports
-http://ottbangla.com/oikire/vstream.m3u8?id=T-Sport
-#EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/gazitv.png" group-title="Sports",GTV
-http://ottbangla.com/oikire/vstream.m3u8?id=Gazi
+http://103.122.74.6:8888/hls/tsports.m3u8
 #EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/ptvsports.png" group-title="Sports",PTV Sports
 http://ottbangla.com/oikire/vstream.m3u8?id=PTV-Sports
 #EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/astrocricket.png" group-title="Sports",astrocricket
 http://ottbangla.com/oikire/vstream.m3u8?id=A-Sports
-#EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/starsports1.png" group-title="Sports",starsports1
-http://ottbangla.com/oikire/vstream.m3u8?id=Star-Sports-1
-#EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/starsports2.png" group-title="Sports",starsports2
-http://ottbangla.com/oikire/vstream.m3u8?id=Star-Sports-2
-#EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/starselect1.png" group-title="Sports",starselect1
-http://ottbangla.com/oikire/vstream.m3u8?id=Star-Select-1
-#EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/starselect2.png" group-title="Sports",starselect2
-http://ottbangla.com/oikire/vstream.m3u8?id=Star-Select-2
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/ZqnmcXdx/Sony-KAL.png" group-title="SonyLIV by CRICFy",Sony KAL
 https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/9x-jalwa.png" group-title="Music",9X Jalwa
@@ -695,12 +689,8 @@ https://otttv.co.in/d2h/livestream/zing/manifest.mpd
 https://otttv.co.in/d2h/livestream/zoom/manifest.mpd
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/tlc-hindi.png" group-title="Lifestyle",TLC
 https://otttv.co.in/d2h/livestream/tlc/manifest.mpd
-#EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/starJalsha.png" group-title="Bangla",Star Jalsha
-http://ottbangla.com/oikire/vstream.m3u8?id=Star-Jalsha
 #EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/colorsBangla.png" group-title="Bangla",Colors Bangla
-http://ottbangla.com/oikire/vstream.m3u8?id=Colors_bangla
-#EXTINF:-1 tvg-logo="https://kriratv.stream/images/channel/jalshaMovies.png" group-title="Bangla",Jalsha Movies
-http://ottbangla.com/oikire/vstream.m3u8?id=Jalsha_movies
+http://103.122.74.6:8888/hls/COLORS.BANGLA.HD.m3u8
 #EXTINF:-1 tvg-logo="https://cdn6.aptoide.com/imgs/5/3/1/5318605c11b27f0480dbbc7e636c8483_icon.jpg" group-title="DOCUMENTARY",Amazing Discoveries TV
 https://uni01rtmp.tulix.tv/amazingdtv/amazingdtv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/1200px-2018_Animal_Planet_logo.svg.png" group-title="DOCUMENTARY",ANIMAL PLANET HD
