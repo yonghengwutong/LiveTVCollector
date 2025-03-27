@@ -10,6 +10,12 @@ let pLimit;
     pLimit = (await import('p-limit')).default;
 })();
 
+// List of common country names for detection
+const countries = [
+    'USA', 'India', 'UK', 'Canada', 'Australia', 'Germany', 'France', 'Italy', 'Spain', 'Brazil',
+    'China', 'Japan', 'Korea', 'Mexico', 'Russia', 'South Africa', 'Argentina', 'Netherlands', 'Sweden', 'Norway'
+];
+
 // Load configuration from YAML file
 async function loadConfig() {
     try {
@@ -35,25 +41,21 @@ async function fetchM3U(url, timeout) {
     }
 }
 
-// Function to parse M3U content and extract channel links
+// Function to parse M3U content and extract channel links with groups
 function parseM3U(content) {
-    const parser = new m3u8Parser.Parser();
-    parser.push(content);
-    parser.end();
-
-    const manifest = parser.manifest;
     const channels = [];
-
-    // Handle EXTINF entries for M3U playlists
     const lines = content.split('\n');
     let currentChannel = null;
+
     lines.forEach(line => {
         line = line.trim();
         if (line.startsWith('#EXTINF')) {
+            const groupMatch = line.match(/group-title="([^"]+)"/);
             const nameMatch = line.match(/,(.+)/);
             currentChannel = {
                 name: nameMatch ? nameMatch[1] : 'Unknown',
-                url: null
+                url: null,
+                group: groupMatch ? groupMatch[1] : 'Unknown'
             };
         } else if (line && !line.startsWith('#') && currentChannel) {
             currentChannel.url = line;
@@ -71,8 +73,7 @@ async function checkLinkActive(url, timeout) {
         const response = await axios.head(url, { timeout });
         return response.status >= 200 && response.status < 400;
     } catch (error) {
-        console.error(`Link ${url} is inactive:`, error.message);
-        return false;
+        return false; // Return false instead of logging to reduce console clutter
     }
 }
 
@@ -101,8 +102,11 @@ async function collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTime
     );
 
     // Wait for all fetches to complete
-    const allChannelsArrays = await Promise.all(fetchPromises);
-    const allChannelsList = allChannelsArrays.flat();
+    const allChannelsArrays = await Promise.allSettled(fetchPromises);
+    const allChannelsList = allChannelsArrays
+        .filter(result => result.status === 'fulfilled')
+        .map(result => result.value)
+        .flat();
 
     // Check link activity concurrently
     const checkPromises = allChannelsList.map(channel =>
@@ -122,8 +126,38 @@ async function collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTime
         })
     );
 
-    await Promise.all(checkPromises);
+    await Promise.allSettled(checkPromises); // Use allSettled to handle failures gracefully
     return Array.from(allChannels.values());
+}
+
+// Function to group channels by group-title and country (if applicable)
+function groupChannels(channels) {
+    const grouped = {};
+
+    channels.forEach(channel => {
+        let group = channel.group || 'Unknown';
+        let country = 'Unknown';
+
+        // Check if the group contains a country name
+        const foundCountry = countries.find(c => group.toLowerCase().includes(c.toLowerCase()));
+        if (foundCountry) {
+            country = foundCountry;
+            // Remove the country from the group name to avoid redundancy
+            group = group.replace(new RegExp(foundCountry, 'i'), '').trim() || 'General';
+        }
+
+        // Use group as the primary key, and country as a subgroup
+        const groupKey = group === 'Unknown' ? 'Unknown' : group;
+        if (!grouped[groupKey]) {
+            grouped[groupKey] = {};
+        }
+        if (!grouped[groupKey][country]) {
+            grouped[groupKey][country] = [];
+        }
+        grouped[groupKey][country].push(channel);
+    });
+
+    return grouped;
 }
 
 // Function to split channels into chunks of specified size
@@ -135,40 +169,49 @@ function splitChannels(channels, channelsPerFile) {
     return chunks;
 }
 
-// Function to save active links to multiple formats with splitting
+// Function to save active links to multiple formats with grouping and splitting
 async function saveResults(channels, outputDirPrefix, channelsPerFile) {
-    // Split channels into chunks of channelsPerFile
-    const channelChunks = splitChannels(channels, channelsPerFile);
+    // Group channels by group-title and country
+    const groupedChannels = groupChannels(channels);
 
-    // Process each chunk
-    for (let i = 0; i < channelChunks.length; i++) {
-        const chunk = channelChunks[i];
-        const suffix = i === 0 ? '' : (i + 1); // SpecialLinks, SpecialLinks2, etc.
-        const outputDir = `${outputDirPrefix}${suffix}`;
-        const baseName = `SpecialLinks${suffix}`;
+    // Process each group and country
+    for (const [group, countries] of Object.entries(groupedChannels)) {
+        for (const [country, groupChannels] of Object.entries(countries)) {
+            // Create a safe directory name by replacing invalid characters
+            const safeGroup = group.replace(/[^a-zA-Z0-9]/g, '_');
+            const safeCountry = country.replace(/[^a-zA-Z0-9]/g, '_');
+            const groupDir = path.join(outputDirPrefix, safeGroup, safeCountry);
 
-        // Create output directory if it doesn't exist
-        await fs.mkdir(outputDir, { recursive: true });
+            // Ensure the directory exists
+            await fs.mkdir(groupDir, { recursive: true });
 
-        // Save as M3U
-        let m3uContent = '#EXTM3U\n';
-        chunk.forEach(channel => {
-            m3uContent += `#EXTINF:-1,${channel.name}\n${channel.url}\n`;
-        });
-        await fs.writeFile(path.join(outputDir, `${baseName}.m3u`), m3uContent);
-        await fs.writeFile(`${baseName}.m3u`, m3uContent); // Also save in root
+            // Split channels into chunks of channelsPerFile
+            const channelChunks = splitChannels(groupChannels, channelsPerFile);
 
-        // Save as JSON
-        const jsonContent = JSON.stringify(chunk, null, 2);
-        await fs.writeFile(path.join(outputDir, `${baseName}.json`), jsonContent);
-        await fs.writeFile(`${baseName}.json`, jsonContent); // Also save in root
+            // Process each chunk
+            for (let i = 0; i < channelChunks.length; i++) {
+                const chunk = channelChunks[i];
+                const suffix = i === 0 ? '' : (i + 1); // SpecialLinks, SpecialLinks2, etc.
+                const baseName = `SpecialLinks${suffix}`;
 
-        // Save as TXT
-        const txtContent = chunk.map(channel => channel.url).join('\n');
-        await fs.writeFile(path.join(outputDir, `${baseName}.txt`), txtContent);
-        await fs.writeFile(`${baseName}.txt`, txtContent); // Also save in root
+                // Save as M3U
+                let m3uContent = '#EXTM3U\n';
+                chunk.forEach(channel => {
+                    m3uContent += `#EXTINF:-1 group-title="${group}",${channel.name}\n${channel.url}\n`;
+                });
+                await fs.writeFile(path.join(groupDir, `${baseName}.m3u`), m3uContent);
 
-        console.log(`Saved ${chunk.length} active links to ${outputDir}/${baseName}.* and root directory`);
+                // Save as JSON
+                const jsonContent = JSON.stringify(chunk, null, 2);
+                await fs.writeFile(path.join(groupDir, `${baseName}.json`), jsonContent);
+
+                // Save as TXT
+                const txtContent = chunk.map(channel => channel.url).join('\n');
+                await fs.writeFile(path.join(groupDir, `${baseName}.txt`), txtContent);
+
+                console.log(`Saved ${chunk.length} active links to ${groupDir}/${baseName}.*`);
+            }
+        }
     }
 }
 
@@ -184,7 +227,7 @@ async function main() {
     // Collect active links
     const activeChannels = await collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTimeout);
 
-    // Save results with splitting
+    // Save results with grouping and splitting
     if (activeChannels.length > 0) {
         await saveResults(activeChannels, outputDirPrefix, channelsPerFile);
     } else {
