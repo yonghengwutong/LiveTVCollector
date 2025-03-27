@@ -1,8 +1,8 @@
 # config.yml
 settings:
-  concurrency: 10  # Number of concurrent link checks
-  fetchTimeout: 10000  # Timeout for fetching M3U files (ms)
-  linkCheckTimeout: 5000  # Timeout for checking link activity (ms)
+  concurrency: 20  # Increased for faster processing
+  fetchTimeout: 5000  # Reduced from 10000ms to 5000ms
+  linkCheckTimeout: 3000  # Reduced from 5000ms to 3000ms
   outputDirPrefix: SpecialLinks  # Base name for output directories/files
   channelsPerFile: 2000  # Maximum number of channels per file
 
