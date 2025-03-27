@@ -22,7 +22,7 @@ jobs:
 
       # Install dependencies
       - name: Install dependencies
-        run: npm install axios m3u8-parser js-yaml p-limit
+        run: npm install undici m3u8-parser js-yaml p-limit
 
       # Run the M3U collection script
       - name: Run M3U collection script
