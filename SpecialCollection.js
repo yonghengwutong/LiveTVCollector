@@ -96,7 +96,8 @@ async function checkLinkBatch(urls, timeout, concurrency) {
 
     return results
         .filter(result => result.status === 'fulfilled')
-        .map(result => result.value);
+        .map(result => result.value)
+        .filter(result => result.isActive); // Only return active links
 }
 
 // Function to collect and process all M3U links
@@ -139,7 +140,7 @@ async function collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTime
 
     const uniqueChannels = Array.from(allChannels.values());
 
-    // Batch process link checks
+    // Batch process link checks to ensure only active links are included
     const activeChannels = [];
     for (let i = 0; i < uniqueChannels.length; i += batchSize) {
         const batch = uniqueChannels.slice(i, i + batchSize);
@@ -151,11 +152,9 @@ async function collectActiveLinks(urls, concurrency, fetchTimeout, linkCheckTime
         );
 
         batchResults.forEach(result => {
-            if (result.isActive) {
-                const channel = allChannels.get(result.url);
-                if (channel) {
-                    activeChannels.push(channel);
-                }
+            const channel = allChannels.get(result.url);
+            if (channel) {
+                activeChannels.push(channel);
             }
         });
     }
@@ -203,6 +202,18 @@ function splitChannels(channels, channelsPerFile) {
     return chunks;
 }
 
+// Function to delete a directory recursively
+async function deleteDirectory(dirPath) {
+    try {
+        await fs.rm(dirPath, { recursive: true, force: true });
+        console.log(`Deleted existing directory: ${dirPath}`);
+    } catch (error) {
+        if (error.code !== 'ENOENT') { // Ignore if directory doesn't exist
+            console.error(`Error deleting directory ${dirPath}:`, error.message);
+        }
+    }
+}
+
 // Function to save active links to multiple formats with grouping and splitting
 async function saveResults(channels, outputDirPrefix, channelsPerFile, concurrency) {
     // Wait for pLimit to be loaded
@@ -212,14 +223,23 @@ async function saveResults(channels, outputDirPrefix, channelsPerFile, concurren
 
     const limit = pLimit(concurrency);
 
+    // Delete the existing SpecialLinks directory to start fresh
+    await deleteDirectory(outputDirPrefix);
+
     // Group channels by group-title and country
     const groupedChannels = groupChannels(channels);
 
-    // Process each group and country in parallel
+    // Process each group and country in parallel, but only if there are active channels
     const savePromises = [];
 
     for (const [group, countries] of Object.entries(groupedChannels)) {
         for (const [country, groupChannels] of Object.entries(countries)) {
+            // Skip if there are no active channels in this group/country
+            if (groupChannels.length === 0) {
+                console.log(`Skipping empty group: ${group}/${country}`);
+                continue;
+            }
+
             savePromises.push(limit(async () => {
                 // Create a safe directory name by replacing invalid characters
                 const safeGroup = group.replace(/[^a-zA-Z0-9]/g, '_');
@@ -235,6 +255,12 @@ async function saveResults(channels, outputDirPrefix, channelsPerFile, concurren
                 // Process each chunk
                 for (let i = 0; i < channelChunks.length; i++) {
                     const chunk = channelChunks[i];
+                    // Skip if the chunk is empty (shouldn't happen, but just in case)
+                    if (chunk.length === 0) {
+                        console.log(`Skipping empty chunk for ${group}/${country}`);
+                        continue;
+                    }
+
                     const suffix = i === 0 ? '' : (i + 1); // SpecialLinks, SpecialLinks2, etc.
                     const baseName = `SpecialLinks${suffix}`;
 
@@ -260,7 +286,15 @@ async function saveResults(channels, outputDirPrefix, channelsPerFile, concurren
         }
     }
 
-    await Promise.allSettled(savePromises);
+    // Wait for all save operations to complete
+    const results = await Promise.allSettled(savePromises);
+
+    // Check if any groups were processed
+    const successfulSaves = results.filter(result => result.status === 'fulfilled');
+    if (successfulSaves.length === 0) {
+        console.log('No active channels found to save. Removing empty SpecialLinks directory.');
+        await deleteDirectory(outputDirPrefix);
+    }
 }
 
 // Main function to run the script
