@@ -258,6 +258,9 @@ def main():
     # Specific M3U sources (12 sources)
     source_urls = [
         "https://raw.githubusercontent.com/Efeisot/iptv/refs/heads/main/index.m3u",
+        "https://raw.githubusercontent.com/ilyswch/IPTV-TR/refs/heads/main/index.m3u",
+        "https://raw.githubusercontent.com/ilyswch/IPTV-TR/refs/heads/main/box.m3u",
+        "https://raw.githubusercontent.com/ilyswch/IPTV-TR/refs/heads/main/box2.m3u",
         "https://iptv-org.github.io/iptv/countries/tr.m3u",
         
     ]
