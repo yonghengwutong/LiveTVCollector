@@ -1,7 +1,14 @@
 {
-  "date": "2025-03-29 06:09:06",
+  "date": "2025-03-29 13:39:45",
   "channels": {
     "Uncategorized": [
+      {
+        "name": "Ando TV",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://stream.qhbtv.com/adws/sd/live.m3u8"
+      },
       {
         "name": "Ando TV (576p)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
@@ -556,6 +563,13 @@
         "url": "http://49.113.179.174:4022/udp/238.125.7.93:5140"
       },
       {
+        "name": "Nei Monggol TV",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://110.19.156.172:9901/tsfile/live/1003_1.m3u8"
+      },
+      {
         "name": "Nei Monggol TV 2 Mongolian Culture Channel",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
@@ -799,6 +813,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://49.113.179.174:4022/udp/238.125.3.185:5140"
+      },
+      {
+        "name": "Xizang TV Chinese",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://php.jdshipin.com/xztv.php?id=ws"
       },
       {
         "name": "Xizang TV Tibetan",
@@ -5482,20 +5503,6 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://stream.lytv.net.cn/2/sd/live.m3u8"
-      },
-      {
-        "name": "Ando TV",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "http://stream.qhbtv.com/adws/sd/live.m3u8"
-      },
-      {
-        "name": "Xizang TV Chinese",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "http://php.jdshipin.com/xztv.php?id=ws"
       }
     ],
     "更新日期": [
