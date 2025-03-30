@@ -1612,7 +1612,7 @@ Logo: https://i.imgur.com/F5WNCp0.png
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
 Name: MTV Hits Europe
-URL: http://45.88.92.3:80/tr3_MTVHits_SD/index.m3u8?token=test
+URL: http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
 Logo: https://i.imgur.com/zNscEST.png
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
@@ -3904,7 +3904,12 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: TVI
-URL: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yOS8yMDI1IDQ6Njo0MSBQTSZoYXNoX3ZhbHVlPTlNZzZzMEpqWmFJR0JVNk9wZUtCaWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD00YTQxOTY2Ni1hMTZkLTQ4ZDMtOTUzNC1mZDdjYTBiZmE3ODk=/
+URL: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMC8yMDI1IDEyOjMxOjI0IEFNJmhhc2hfdmFsdWU9Zlo5Vys1ZjZaOFBBWDROY3orZXRrQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTU1OTE0ODY2LTEwZDUtNGQ4Mi1hZmI4LTk3OTJhYjhlYmI1NA==/
+Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png
+Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
+--------------------------------------------------
+Name: TVI
+URL: https://github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/TVI.m3u
 Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -3919,7 +3924,12 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: CNN Portugal
-URL: https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yOS8yMDI1IDQ6Njo0MiBQTSZoYXNoX3ZhbHVlPS9zVjEwQ3NvdG9kSzVDSlBMN01SMHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lN2Q0MGQ2Ny1lYzE4LTQ0NjEtYWY2MC05YzkxNDhiMTNjYzc=/
+URL: https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMC8yMDI1IDEyOjMxOjI1IEFNJmhhc2hfdmFsdWU9MjdJMjRBRHlBeERuQ2EvU2RiUWxMUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTM4MTVkMDRjLTRmNWQtNGQ1YS1iNWYzLTFkYTI1MTY5MjBhMQ==/
+Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png
+Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
+--------------------------------------------------
+Name: CNN Portugal
+URL: https://github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/CNN_Portugal.m3u
 Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -3964,7 +3974,12 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacio
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: TVI Internacional
-URL: https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yOS8yMDI1IDQ6Njo0MiBQTSZoYXNoX3ZhbHVlPWZYb1M1aHdlVmtQd2VPRzJvWkc0dVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1mMTcwYjhmNi03ZTgwLTRlMmMtOGZiNC02NTNjZWU4MmE2OWQ=/
+URL: https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMC8yMDI1IDEyOjMxOjI2IEFNJmhhc2hfdmFsdWU9YjQzSmpFdG0xWTk1MlpqQzE4cVd2Zz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWViN2FkZTU1LTEzYjItNGVhYy1hZTFhLTIyMWZiMjMzNDI1MQ==/
+Logo: https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png
+Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
+--------------------------------------------------
+Name: TVI Internacional
+URL: https://github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/TVI_Internacional.m3u
 Logo: https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -4661,7 +4676,7 @@ Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Filmbox_arthouse
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
 Name: FilmBox Family (576p)
-URL: http://185.236.229.62:9981/play/a037
+URL: http://185.236.229.62:9981/play/a032
 Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Filmbox_family.png/320px-Filmbox_family.png
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
