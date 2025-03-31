@@ -1,5 +1,5 @@
 {
-  "date": "2025-03-30 21:58:01",
+  "date": "2025-03-31 07:31:37",
   "channels": {
     ".🇹🇷 ULUSAL 🇹🇷 .COM/1.M3U ESKİ USUL": [
       {
@@ -35606,13 +35606,6 @@
         "url": "https://starmenajo.com/hls/almahriah/index.m3u8"
       },
       {
-        "name": "like Gecko) Mobile/15E148\",BBC World News (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/vSz2WEp.png",
-        "group": "News",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://ott-cdn.ucom.am/s24/index.m3u8"
-      },
-      {
         "name": "Bursa AS TV (720p) [Geo-blocked]",
         "logo": "https://i.imgur.com/MCUjck8.png",
         "group": "News",
@@ -36275,48 +36268,66 @@
         "url": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8"
       }
     ],
-    "Undefined": [
+    "Education;Outdoor": [
       {
-        "name": "AFV Family (720p)",
-        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/5e618d18-1f27-43f8-a2e9-7336d8aeb8e5-afv-family-1622017638-width200-quality90.png",
-        "group": "Undefined",
+        "name": "Agro TV (1080p)",
+        "logo": "https://i.imgur.com/ls9NLa4.png",
+        "group": "Education;Outdoor",
         "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://ec4a5bcc9d664b48985de6095931aaa7.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_AmericasFunniestHomeVideos/playlist.m3u8"
+        "url": "http://185.234.111.229:8000/play/a011"
+      }
+    ],
+    "Religious": [
+      {
+        "name": "Al Hayat TV (720p)",
+        "logo": "https://i.imgur.com/M8ZuzeB.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
+        "url": "http://media.islamexplained.com:1935/live/_definst_mp4:ahme.stream/playlist.m3u8"
       },
+      {
+        "name": "Al Rafidain (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/rjXDCN5.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
+        "url": "https://arrafidain.tvplayer.online/arrafidaintv/source2/playlist.m3u8"
+      },
+      {
+        "name": "Al-Zahra TV Turkic (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/QEHKGnG.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
+        "url": "https://live.al-zahratv.com/live/playlist.m3u8"
+      },
+      {
+        "name": "Daawah TV (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/IIpgub8.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
+        "url": "https://cdg8.edge.technocdn.com/daawahtv/live/playlist.m3u8"
+      },
+      {
+        "name": "Diyanet TV (1080p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/512px-Diyanet_TV_logo.svg.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
+        "url": "http://185.234.111.229:8000/play/a05j"
+      },
+      {
+        "name": "Diyar TV (720p)",
+        "logo": "https://i.imgur.com/qWkHjRA.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
+        "url": "http://185.234.111.229:8000/play/a051"
+      }
+    ],
+    "Undefined": [
       {
         "name": "ATV Avrupa (576p) [Not 24/7]",
         "logo": "https://i.tmgrup.com.tr/aav/site/v1/i/atv-avrupa-logo.png",
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
         "url": "https://streamer2.nexgen.bz/ATV/index.m3u8"
-      },
-      {
-        "name": "AXN (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/320px-AXN_logo_%282015%29.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://178.219.128.68:64888/AXN"
-      },
-      {
-        "name": "AXN Black (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/AXN_Black_logo_%282015%29.svg/320px-AXN_Black_logo_%282015%29.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://185.236.229.62:9981/play/a075"
-      },
-      {
-        "name": "AXN Spin (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/AXN_Spin_logo_%282015%29.svg/320px-AXN_Spin_logo_%282015%29.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://185.236.229.62:9981/play/a044"
-      },
-      {
-        "name": "AXN White (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/AXN_White_logo_%282015%29.svg/320px-AXN_White_logo_%282015%29.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://185.236.229.62:9981/play/a074"
       },
       {
         "name": "BENGÜTÜRK TV (720p) [Not 24/7]",
@@ -36382,32 +36393,11 @@
         "url": "https://mn-nl.mncdn.com/dogusdyg_drone/cgtn/playlist.m3u8"
       },
       {
-        "name": "DAZN Combat (1080p)",
-        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/0b232373-fb80-4704-976f-ecefeaa377b6-width200-quality90.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8"
-      },
-      {
-        "name": "DAZN Women's Football (1080p)",
-        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/1ccbd6b3-d27d-4f22-a4ae-3eabb4c9e062-width200-quality90.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://dazn-daznwomensfootball-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-daznwomensfootball-rakuten/CDN/master.m3u8"
-      },
-      {
         "name": "Em TV (486p)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
         "url": "https://cdn.yayin.com.tr/TVEM/TVEM/playlist.m3u8"
-      },
-      {
-        "name": "Epic Drama (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/480px-Epic-Drama-TV.jpg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://185.236.229.62:9981/play/a029"
       },
       {
         "name": "ES TV (720p)",
@@ -36424,46 +36414,11 @@
         "url": "https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8"
       },
       {
-        "name": "Fail Army (720p)",
-        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/e481c9fa-07c8-4345-8638-47527a0b807b-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8"
-      },
-      {
         "name": "FIFA+ (720p)",
         "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/a27208c4-021a-45e8-a250-11f8ffab36c8-width200-quality90.jpeg",
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
         "url": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8"
-      },
-      {
-        "name": "FightBox (1080p)",
-        "logo": "https://i.imgur.com/k1uP892.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://185.236.229.62:9981/play/a03n"
-      },
-      {
-        "name": "FilmBox Action (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Filmbox-action.jpg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://185.236.229.62:9981/play/a033"
-      },
-      {
-        "name": "FilmBox Arthouse (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Filmbox_arthouse_pl.png/320px-Filmbox_arthouse_pl.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://195.189.60.33:9010/play/a00a"
-      },
-      {
-        "name": "FilmBox Family (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Filmbox_family.png/320px-Filmbox_family.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://185.236.229.62:9981/play/a032"
       },
       {
         "name": "Flash TV (720p)",
@@ -36513,13 +36468,6 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
         "url": "https://cdn-kanaltvo.yayin.com.tr/kanaltvo/kanaltvo/playlist.m3u8"
-      },
-      {
-        "name": "Lone Star (720p)",
-        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/3ad57a44-e2b9-4b0b-9671-8a1b3ade25f9-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://6b88cde9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0xvbmVTdGFyX0hMUw/playlist.m3u8"
       },
       {
         "name": "Mercan TV (576p) [Not 24/7]",
@@ -36590,13 +36538,6 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
         "url": "https://mn-nl.mncdn.com/qaf/live/playlist.m3u8"
-      },
-      {
-        "name": "Rakuten VIKI (720p)",
-        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/98e211c8-240b-443d-9a1f-90577369da10-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_RakutenViki-1/playlist.m3u8"
       },
       {
         "name": "Red Carpet TV International (1080p)",
@@ -36737,13 +36678,6 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
         "url": "http://185.234.111.229:8000/play/a01s"
-      },
-      {
-        "name": "The Pet Collective (720p)",
-        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/b471d6b6-5694-46b3-8a33-6dbb0f76cf53-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://6ec8627d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RoZVBldENvbGxlY3RpdmVfSExT/playlist.m3u8"
       },
       {
         "name": "TJK TV (1080p)",
@@ -37019,13 +36953,6 @@
         "url": "https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/rakutenAA-mainstreammediafreesportsintl-rakuten/playlist.m3u8"
       },
       {
-        "name": "World Poker Tour (1080p)",
-        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/da1d097d-5c12-4fda-ab2e-db4119c17087-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/15d59f2f-80da-4448-9bce-775cc9f470f7/1.m3u8"
-      },
-      {
         "name": "World Turk TV (1080p)",
         "logo": "https://www.artidijitalmedya.com/image/400x400/cdn/channels/v1/logo_151.png",
         "group": "Undefined",
@@ -37061,73 +36988,6 @@
         "url": "https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_ZeeWorld-1/playlist.m3u8"
       }
     ],
-    "Education;Outdoor": [
-      {
-        "name": "Agro TV (1080p)",
-        "logo": "https://i.imgur.com/ls9NLa4.png",
-        "group": "Education;Outdoor",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://185.234.111.229:8000/play/a011"
-      }
-    ],
-    "Religious": [
-      {
-        "name": "Al Hayat TV (720p)",
-        "logo": "https://i.imgur.com/M8ZuzeB.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://media.islamexplained.com:1935/live/_definst_mp4:ahme.stream/playlist.m3u8"
-      },
-      {
-        "name": "Al Rafidain (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/rjXDCN5.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://arrafidain.tvplayer.online/arrafidaintv/source2/playlist.m3u8"
-      },
-      {
-        "name": "Al-Zahra TV Turkic (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/QEHKGnG.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://live.al-zahratv.com/live/playlist.m3u8"
-      },
-      {
-        "name": "Daawah TV (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/IIpgub8.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://cdg8.edge.technocdn.com/daawahtv/live/playlist.m3u8"
-      },
-      {
-        "name": "Diyanet TV (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/512px-Diyanet_TV_logo.svg.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://185.234.111.229:8000/play/a05j"
-      },
-      {
-        "name": "Diyar TV (720p)",
-        "logo": "https://i.imgur.com/qWkHjRA.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "http://185.234.111.229:8000/play/a051"
-      },
-      {
-        "name": "EWTN Africa Asia (720p)",
-        "logo": "https://i.imgur.com/F8ZM25a.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8"
-      },
-      {
-        "name": "EWTN Europe (720p) [Not 24/7]",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8"
-      }
-    ],
     "Business": [
       {
         "name": "Bloomberg HT (720p) [Not 24/7]",
@@ -37135,20 +36995,6 @@
         "group": "Business",
         "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
         "url": "https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8"
-      },
-      {
-        "name": "Bloomberg TV EMEA Live Event (720p)",
-        "logo": "https://i.imgur.com/OuogLHx.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://bloomberg.com/media-manifest/streams/eu-event.m3u8"
-      },
-      {
-        "name": "Bloomberg TV Europe (720p)",
-        "logo": "https://i.imgur.com/OuogLHx.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/tr.m3u",
-        "url": "https://bloomberg.com/media-manifest/streams/eu.m3u8"
       },
       {
         "name": "CNBC Europe/World (1080p) [Geo-blocked]",
