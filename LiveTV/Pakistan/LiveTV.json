@@ -1,5 +1,5 @@
 {
-  "date": "2025-03-30 21:46:08",
+  "date": "2025-03-31 06:42:27",
   "channels": {
     "News": [
       {
@@ -8,13 +8,6 @@
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
         "url": "http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8"
-      },
-      {
-        "name": "BBC News Asia Pacific (720p)",
-        "logo": "https://i.imgur.com/vSz2WEp.png",
-        "group": "News",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8"
       },
       {
         "name": "City News HD (1080p)",
@@ -96,20 +89,6 @@
         "url": "https://cdn.bmstudiopk.com/alehsaan/live/playlist.m3u8"
       },
       {
-        "name": "EWTN Africa Asia (720p)",
-        "logo": "https://i.imgur.com/F8ZM25a.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8"
-      },
-      {
-        "name": "EWTN Asia-Pacific (720p) [Not 24/7]",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8"
-      },
-      {
         "name": "Fazal TV (1080p)",
         "logo": "https://i.imgur.com/c0fvKia.png",
         "group": "Religious",
@@ -180,6 +159,57 @@
         "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8"
       }
     ],
+    "Undefined": [
+      {
+        "name": "ARY Digital USA (720p) [Not 24/7]",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "url": "https://6zklx4wryw9b-hls-live.5centscdn.com/arydigitalusa/498f1704b692c3ad4dbfdf5ba5d04536.sdp/playlist.m3u8"
+      },
+      {
+        "name": "PMI TV (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/SfyCwXj.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "url": "https://cdn.live247stream.com/pmi/tv/playlist.m3u8"
+      },
+      {
+        "name": "Praise TV (720p)",
+        "logo": "https://i.imgur.com/T9fIdLs.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "url": "https://livecdn.live247stream.com/praise/tv/playlist.m3u8"
+      },
+      {
+        "name": "Shine Star TV (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/I3lTIeN.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "url": "https://f-tx-edge-87.christianworldmedia.com/shinetvpak2/mp4:shinetvpak2/playlist.m3u8"
+      },
+      {
+        "name": "TV5Monde Pacifique (1080p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/mfZOYZI.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(pacifique)/variant.m3u8"
+      },
+      {
+        "name": "TVE Internacional Europe-Asia [Geo-blocked]",
+        "logo": "https://i.imgur.com/ow1HArj.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "url": "https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8"
+      },
+      {
+        "name": "Zindagi TV (576p) [Not 24/7]",
+        "logo": "https://i.imgur.com/XBHvR5J.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "url": "https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8"
+      }
+    ],
     "Music": [
       {
         "name": "ARY Musik (1080p)",
@@ -213,20 +243,6 @@
       }
     ],
     "Business": [
-      {
-        "name": "Bloomberg TV Asia (720p)",
-        "logo": "https://i.imgur.com/OuogLHx.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://bloomberg.com/media-manifest/streams/asia.m3u8"
-      },
-      {
-        "name": "Bloomberg TV Asia Live Event (720p)",
-        "logo": "https://i.imgur.com/OuogLHx.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://bloomberg.com/media-manifest/streams/asia-event.m3u8"
-      },
       {
         "name": "CNBC Asia HD (720p) [Geo-blocked]",
         "logo": "https://i.imgur.com/Mn8Rsup.png",
@@ -281,50 +297,6 @@
         "group": "Sports",
         "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
         "url": "http://121.91.61.106:8000/play/a04h/index.m3u8"
-      }
-    ],
-    "Undefined": [
-      {
-        "name": "PMI TV (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/SfyCwXj.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://cdn.live247stream.com/pmi/tv/playlist.m3u8"
-      },
-      {
-        "name": "Praise TV (720p)",
-        "logo": "https://i.imgur.com/T9fIdLs.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://livecdn.live247stream.com/praise/tv/playlist.m3u8"
-      },
-      {
-        "name": "Shine Star TV (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/I3lTIeN.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://f-tx-edge-87.christianworldmedia.com/shinetvpak2/mp4:shinetvpak2/playlist.m3u8"
-      },
-      {
-        "name": "TV5Monde Pacifique (1080p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/mfZOYZI.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(pacifique)/variant.m3u8"
-      },
-      {
-        "name": "TVE Internacional Europe-Asia [Geo-blocked]",
-        "logo": "https://i.imgur.com/ow1HArj.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8"
-      },
-      {
-        "name": "Zindagi TV (576p) [Not 24/7]",
-        "logo": "https://i.imgur.com/XBHvR5J.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
-        "url": "https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8"
       }
     ]
   }
