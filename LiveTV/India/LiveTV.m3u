@@ -13,8 +13,6 @@ https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c
 https://live.hungama.com/linear/adipoli/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/urLlfSo.png" group-title="Music",Artist Aloud (1080p) [Not 24/7]
 https://live.hungama.com/linear/artist-aloud/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/KSxPLJA.png" group-title="Music",B4U Music India (576p)
-http://183.89.246.119:8881/play/a08o/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oxkkWH5.png" group-title="Music",Balle Balle (720p)
 https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/gaKzWdo.png" group-title="Music",Boogle Bollywood (1080p) [Not 24/7]
@@ -53,6 +51,8 @@ http://103.199.161.254/Content/publicmusic/Live/Channel(PublicMusic)/index.m3u8
 http://cloud.logicwebs.in:1935/realtv/realtv1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N6tKUZv.png" group-title="Music",Sana Plus (720p) [Not 24/7]
 http://media.7starcloud.com:1935/live/sanatv2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Zm4Fhah.png" group-title="Music",ShowBox
+https://epiconvh.akamaized.net/live/showbox/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Egijzx3.png" group-title="Music",Steelbird Music (720p) [Not 24/7]
 http://cdn25.live247stream.com/steelbirdmusic/tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/etr1k08.png" group-title="Music",Vaanavil TV (720p)
@@ -85,8 +85,6 @@ https://vidcdn.vidgyor.com/suvarna-origin/liveabr/playlist.m3u8
 https://vidcdn.vidgyor.com/ptm-origin/aslive/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XiwygDJ.png" group-title="News",Bada Khabar (720p)
 https://badakhabar.livebox.co.in/Badakhabarhls/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News",BBC News Asia Pacific (720p)
-https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/x5f8E3K.png" group-title="News",Bharat Samachar TV (360p)
 https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/0BEPrNQ.png" group-title="News",BTV News (720p) [Not 24/7]
@@ -249,8 +247,6 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/chunklist_b1328000.m3u
 https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/VcZn60X.png" group-title="Religious",ABN TV India (540p)
 https://mediaserver.abnvideos.com/streams/abntvindia.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious",Angel TV India (720p)
-https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelindia_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IXpFcJA.png" group-title="Religious",Ashrafi Channel (484p) [Not 24/7]
 https://ashrafichannel.livebox.co.in/ashrafivhannelhls/live.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GlfrYs7.png" group-title="Religious",Blessing TV Tamil (720p)
@@ -261,10 +257,6 @@ https://mcncdndigital.com/divyatv/index.fmp4.m3u8
 https://streamer.winfoundation.in:8081/live/winstream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/jSedjXf.png" group-title="Religious",Dheeran TV (576p)
 https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/F8ZM25a.png" group-title="Religious",EWTN Africa Asia (720p)
-https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious",EWTN Asia-Pacific (720p) [Not 24/7]
-https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JRjcYGl.jpg" group-title="Religious",GDNS Ludhiana (1080p) [Not 24/7]
 http://akalmultimedia.net:1935/gdnslive/gdns-live/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1vQH3cM.png" group-title="Religious",Good Shepherd TV (720p)
@@ -383,44 +375,30 @@ http://131.153.22.8:1935/SWANTHAM/live/playlist.m3u8
 https://249553662f3e.ap-south-1.playback.live-video.net/api/video/v1/ap-south-1.588204940461.channel.Sx8XPoik8VX2.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/y1voO3k.png" group-title="Entertainment",Velicham (360p) [Not 24/7]
 https://rtmp.smartstream.video/velichamtv/velichamtv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PWzvp0B.png" group-title="Lifestyle",Ayush TV (360p) [Not 24/7]
-https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/D6cMaVs.png" group-title="Lifestyle",Doctor Live (720p)
-https://5a1178b42cc03.streamlock.net/8250/8250/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/e9qTjgB.png" group-title="Lifestyle",Kappa TV (360p)
-https://idvd.multitvsolution.com/idvo/kappatv.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CKLn0ft.png" group-title="Movies",B4U Kadak (576p) [Not 24/7]
-http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Movies",B4U Movies India (576p)
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Angel TV Africa (720p)
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelafrica_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Angel TV America (720p)
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelamerica_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Angel TV Arabia (720p)
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelarabia_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Angel TV Australia (720p)
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelaustralia_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Angel TV Chinese (720p)
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelchinese_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Angel TV Far East (720p)
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelfareast_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Angel TV Hebrew (720p)
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelhebrew_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Angel TV India (720p)
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelindia_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Angel TV Portuguese (720p)
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelportuguese_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Angel TV Spanish (720p)
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelspanish_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",B4U Movies India (576p)
 http://183.89.246.119:8881/play/a08n/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ly8hBqS.png" group-title="Movies",B4U Plus (576p)
-http://183.89.246.119:8881/play/a08l/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/oqqChlH.png" group-title="Movies",Dhinchaak (576p) [Not 24/7]
-http://14.199.164.20:4001/play/a0o5/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4BwH0x/images-5.png" group-title="Movies",Filmeraa (720p)
-https://a.jsrdn.com/broadcast/7ef91d3d7a/+0000/c.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/DTRPV6B.png" group-title="Movies",Filmstream
-https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/zXpROBj.png" group-title="Movies",Kairali We (396p)
-https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/wetv_nim_https/050522/wetv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/hpShFDL.png" group-title="Movies",Maha Movie (576p) [Not 24/7]
-http://14.199.164.20:4001/play/a0q7/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/xC460sj.png" group-title="Movies",Star Gold HD (1080p)
-http://103.81.104.118/hls/stream19.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business",Bloomberg TV Asia (720p)
-https://bloomberg.com/media-manifest/streams/asia.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business",Bloomberg TV Asia Live Event (720p)
-https://bloomberg.com/media-manifest/streams/asia-event.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn8Rsup.png" group-title="Business",CNBC Asia HD (720p) [Geo-blocked]
-https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/cORao6C.png" group-title="Business",CNBC Bajar (504p) [Geo-blocked]
-https://cnbcbazar-lh.akamaihd.net/i/cnbcbajar_1@178933/index_5_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ueI0VwW.png" group-title="Business",ET Now (720p)
-https://etnowweblive.akamaized.net/hls/live/2034678/ETNOWMSL4/chunklist_2.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/WK4tZ6p.png" group-title="Business",NDTV Profit (480p) [Not 24/7]
-https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680/ndtvprofit/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vkWBtL4.png" group-title="Business",Zee Business (480p)
-https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_3.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",B4U Music India (576p)
+http://183.89.246.119:8881/play/a08o/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/BvQzwSp.png" group-title="Undefined",Calvary TV (720p)
 https://player.mslivestream.net/mslive/71e7f7cc7dc7c51206b7b3bbb51e3052.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Channel Y (720p) [Not 24/7]
@@ -493,6 +471,8 @@ https://live.wmncdn.net/highnews/swaraj.stream/index.m3u8
 https://stream.playbox.co.in:19360/taaza/taaza.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DodsLuW.png" group-title="Undefined",Tamil Vision TV (720p)
 http://live.tamilvision.tv:8081/TVI/SD/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",The Pet Collective
+https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Toonz Kids (Indonesian dub) (360p)
 http://210.210.155.37/x6bnqe/s/s81/02.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",Toonz Kids (Indonesian dub) (576p)
@@ -541,6 +521,28 @@ https://livetv-channels.b-cdn.net/8076/playlist.m3u8
 http://183.89.246.119:8881/play/a09a/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kcDJ4g0.png" group-title="Undefined",Zoom (1080p)
 http://103.81.104.118/hls/stream8.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PWzvp0B.png" group-title="Lifestyle",Ayush TV (360p) [Not 24/7]
+https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/D6cMaVs.png" group-title="Lifestyle",Doctor Live (720p)
+https://5a1178b42cc03.streamlock.net/8250/8250/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/e9qTjgB.png" group-title="Lifestyle",Kappa TV (360p)
+https://idvd.multitvsolution.com/idvo/kappatv.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CKLn0ft.png" group-title="Movies",B4U Kadak (576p) [Not 24/7]
+http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ly8hBqS.png" group-title="Movies",B4U Plus (576p)
+http://183.89.246.119:8881/play/a08l/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oqqChlH.png" group-title="Movies",Dhinchaak (576p) [Not 24/7]
+http://14.199.164.20:4001/play/a0o5/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p4BwH0x/images-5.png" group-title="Movies",Filmeraa (720p)
+https://a.jsrdn.com/broadcast/7ef91d3d7a/+0000/c.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DTRPV6B.png" group-title="Movies",Filmstream
+https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zXpROBj.png" group-title="Movies",Kairali We (396p)
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/wetv_nim_https/050522/wetv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hpShFDL.png" group-title="Movies",Maha Movie (576p) [Not 24/7]
+http://14.199.164.20:4001/play/a0q7/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xC460sj.png" group-title="Movies",Star Gold HD (1080p)
+http://103.81.104.118/hls/stream19.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4ss0KfA.png" group-title="General",CCV (480p)
 https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dHURIzT.png" group-title="General",DD Arun Prabha
@@ -607,6 +609,16 @@ http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8
 http://kl.logicwebs.in:1935/sreemedia/sreemedia/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DTtK0z7.png" group-title="General",РТР Планета Азия
 https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn8Rsup.png" group-title="Business",CNBC Asia HD (720p) [Geo-blocked]
+https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cORao6C.png" group-title="Business",CNBC Bajar (504p) [Geo-blocked]
+https://cnbcbazar-lh.akamaihd.net/i/cnbcbajar_1@178933/index_5_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ueI0VwW.png" group-title="Business",ET Now (720p)
+https://etnowweblive.akamaized.net/hls/live/2034678/ETNOWMSL4/chunklist_2.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WK4tZ6p.png" group-title="Business",NDTV Profit (480p) [Not 24/7]
+https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680/ndtvprofit/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vkWBtL4.png" group-title="Business",Zee Business (480p)
+https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_3.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/WVtl6n2.png" group-title="Culture",DD Punjabi
 https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/20c8ad14-a158-4a42-8889-e032d070856e/2.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/reHjjRZ.png" group-title="Culture",Hyder TV
@@ -627,8 +639,6 @@ https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8
 https://hls.media.nic.in/hls/live/lstv/lstv.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xnjkUOs.png" group-title="Family",Nambikkai TV (576p)
 https://live.wmncdn.net/nambikkaitv/live.stream/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/w7RdSIk.png" group-title="Family",The Pet Collective
-https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/SDkiMvR.png" group-title="Culture;Religious",Sanskar TV (1080p)
 https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/40BbQUd.png" group-title="Sports",Sony Six HD (1080p)

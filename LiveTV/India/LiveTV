@@ -42,12 +42,6 @@
     "img": "https://i.imgur.com/urLlfSo.png"
   },
   {
-    "name": "B4U Music India (576p)",
-    "type": "Music",
-    "url": "http://183.89.246.119:8881/play/a08o/index.m3u8",
-    "img": "https://i.imgur.com/KSxPLJA.png"
-  },
-  {
     "name": "Balle Balle (720p)",
     "type": "Music",
     "url": "https://mcncdndigital.com/balleballetv/index.m3u8",
@@ -162,6 +156,12 @@
     "img": "https://i.imgur.com/N6tKUZv.png"
   },
   {
+    "name": "ShowBox",
+    "type": "Music",
+    "url": "https://epiconvh.akamaized.net/live/showbox/master.m3u8",
+    "img": "https://i.imgur.com/Zm4Fhah.png"
+  },
+  {
     "name": "Steelbird Music (720p) [Not 24/7]",
     "type": "Music",
     "url": "http://cdn25.live247stream.com/steelbirdmusic/tv/playlist.m3u8",
@@ -256,12 +256,6 @@
     "type": "News",
     "url": "https://badakhabar.livebox.co.in/Badakhabarhls/live.m3u8",
     "img": "https://i.imgur.com/XiwygDJ.png"
-  },
-  {
-    "name": "BBC News Asia Pacific (720p)",
-    "type": "News",
-    "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8",
-    "img": "https://i.imgur.com/vSz2WEp.png"
   },
   {
     "name": "Bharat Samachar TV (360p)",
@@ -750,12 +744,6 @@
     "img": "https://i.imgur.com/VcZn60X.png"
   },
   {
-    "name": "Angel TV India (720p)",
-    "type": "Religious",
-    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelindia_all/playlist.m3u8",
-    "img": "https://i.imgur.com/qKLEGU7.png"
-  },
-  {
     "name": "Ashrafi Channel (484p) [Not 24/7]",
     "type": "Religious",
     "url": "https://ashrafichannel.livebox.co.in/ashrafivhannelhls/live.m3u8",
@@ -784,18 +772,6 @@
     "type": "Religious",
     "url": "https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8",
     "img": "https://i.imgur.com/jSedjXf.png"
-  },
-  {
-    "name": "EWTN Africa Asia (720p)",
-    "type": "Religious",
-    "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8",
-    "img": "https://i.imgur.com/F8ZM25a.png"
-  },
-  {
-    "name": "EWTN Asia-Pacific (720p) [Not 24/7]",
-    "type": "Religious",
-    "url": "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8",
-    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png"
   },
   {
     "name": "GDNS Ludhiana (1080p) [Not 24/7]",
@@ -1152,118 +1128,76 @@
     "img": "https://i.imgur.com/y1voO3k.png"
   },
   {
-    "name": "Ayush TV (360p) [Not 24/7]",
-    "type": "Lifestyle",
-    "url": "https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8",
-    "img": "https://i.imgur.com/PWzvp0B.png"
+    "name": "Angel TV Africa (720p)",
+    "type": "Undefined",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelafrica_all/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Doctor Live (720p)",
-    "type": "Lifestyle",
-    "url": "https://5a1178b42cc03.streamlock.net/8250/8250/playlist.m3u8",
-    "img": "https://i.imgur.com/D6cMaVs.png"
+    "name": "Angel TV America (720p)",
+    "type": "Undefined",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelamerica_all/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Kappa TV (360p)",
-    "type": "Lifestyle",
-    "url": "https://idvd.multitvsolution.com/idvo/kappatv.m3u8",
-    "img": "https://i.imgur.com/e9qTjgB.png"
+    "name": "Angel TV Arabia (720p)",
+    "type": "Undefined",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelarabia_all/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "B4U Kadak (576p) [Not 24/7]",
-    "type": "Movies",
-    "url": "http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8",
-    "img": "https://i.imgur.com/CKLn0ft.png"
+    "name": "Angel TV Australia (720p)",
+    "type": "Undefined",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelaustralia_all/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Angel TV Chinese (720p)",
+    "type": "Undefined",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelchinese_all/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Angel TV Far East (720p)",
+    "type": "Undefined",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelfareast_all/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Angel TV Hebrew (720p)",
+    "type": "Undefined",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelhebrew_all/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Angel TV India (720p)",
+    "type": "Undefined",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelindia_all/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Angel TV Portuguese (720p)",
+    "type": "Undefined",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelportuguese_all/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Angel TV Spanish (720p)",
+    "type": "Undefined",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelspanish_all/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "B4U Movies India (576p)",
-    "type": "Movies",
+    "type": "Undefined",
     "url": "http://183.89.246.119:8881/play/a08n/index.m3u8",
-    "img": "https://i.imgur.com/M9kMFJl.png"
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "B4U Plus (576p)",
-    "type": "Movies",
-    "url": "http://183.89.246.119:8881/play/a08l/index.m3u8",
-    "img": "https://i.imgur.com/ly8hBqS.png"
-  },
-  {
-    "name": "Dhinchaak (576p) [Not 24/7]",
-    "type": "Movies",
-    "url": "http://14.199.164.20:4001/play/a0o5/index.m3u8",
-    "img": "https://i.imgur.com/oqqChlH.png"
-  },
-  {
-    "name": "Filmeraa (720p)",
-    "type": "Movies",
-    "url": "https://a.jsrdn.com/broadcast/7ef91d3d7a/+0000/c.m3u8",
-    "img": "https://i.ibb.co/p4BwH0x/images-5.png"
-  },
-  {
-    "name": "Filmstream",
-    "type": "Movies",
-    "url": "https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8",
-    "img": "https://i.imgur.com/DTRPV6B.png"
-  },
-  {
-    "name": "Kairali We (396p)",
-    "type": "Movies",
-    "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/wetv_nim_https/050522/wetv/playlist.m3u8",
-    "img": "https://i.imgur.com/zXpROBj.png"
-  },
-  {
-    "name": "Maha Movie (576p) [Not 24/7]",
-    "type": "Movies",
-    "url": "http://14.199.164.20:4001/play/a0q7/index.m3u8",
-    "img": "https://i.imgur.com/hpShFDL.png"
-  },
-  {
-    "name": "Star Gold HD (1080p)",
-    "type": "Movies",
-    "url": "http://103.81.104.118/hls/stream19.m3u8",
-    "img": "https://i.imgur.com/xC460sj.png"
-  },
-  {
-    "name": "Bloomberg TV Asia (720p)",
-    "type": "Business",
-    "url": "https://bloomberg.com/media-manifest/streams/asia.m3u8",
-    "img": "https://i.imgur.com/OuogLHx.png"
-  },
-  {
-    "name": "Bloomberg TV Asia Live Event (720p)",
-    "type": "Business",
-    "url": "https://bloomberg.com/media-manifest/streams/asia-event.m3u8",
-    "img": "https://i.imgur.com/OuogLHx.png"
-  },
-  {
-    "name": "CNBC Asia HD (720p) [Geo-blocked]",
-    "type": "Business",
-    "url": "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8",
-    "img": "https://i.imgur.com/Mn8Rsup.png"
-  },
-  {
-    "name": "CNBC Bajar (504p) [Geo-blocked]",
-    "type": "Business",
-    "url": "https://cnbcbazar-lh.akamaihd.net/i/cnbcbajar_1@178933/index_5_av-p.m3u8",
-    "img": "https://i.imgur.com/cORao6C.png"
-  },
-  {
-    "name": "ET Now (720p)",
-    "type": "Business",
-    "url": "https://etnowweblive.akamaized.net/hls/live/2034678/ETNOWMSL4/chunklist_2.m3u8",
-    "img": "https://i.imgur.com/ueI0VwW.png"
-  },
-  {
-    "name": "NDTV Profit (480p) [Not 24/7]",
-    "type": "Business",
-    "url": "https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680/ndtvprofit/master.m3u8",
-    "img": "https://i.imgur.com/WK4tZ6p.png"
-  },
-  {
-    "name": "Zee Business (480p)",
-    "type": "Business",
-    "url": "https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_3.m3u8",
-    "img": "https://i.imgur.com/vkWBtL4.png"
+    "name": "B4U Music India (576p)",
+    "type": "Undefined",
+    "url": "http://183.89.246.119:8881/play/a08o/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "Calvary TV (720p)",
@@ -1482,6 +1416,12 @@
     "img": "https://i.imgur.com/DodsLuW.png"
   },
   {
+    "name": "The Pet Collective",
+    "type": "Undefined",
+    "url": "https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "Toonz Kids (Indonesian dub) (360p)",
     "type": "Undefined",
     "url": "http://210.210.155.37/x6bnqe/s/s81/02.m3u8",
@@ -1624,6 +1564,72 @@
     "type": "Undefined",
     "url": "http://103.81.104.118/hls/stream8.m3u8",
     "img": "https://i.imgur.com/kcDJ4g0.png"
+  },
+  {
+    "name": "Ayush TV (360p) [Not 24/7]",
+    "type": "Lifestyle",
+    "url": "https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8",
+    "img": "https://i.imgur.com/PWzvp0B.png"
+  },
+  {
+    "name": "Doctor Live (720p)",
+    "type": "Lifestyle",
+    "url": "https://5a1178b42cc03.streamlock.net/8250/8250/playlist.m3u8",
+    "img": "https://i.imgur.com/D6cMaVs.png"
+  },
+  {
+    "name": "Kappa TV (360p)",
+    "type": "Lifestyle",
+    "url": "https://idvd.multitvsolution.com/idvo/kappatv.m3u8",
+    "img": "https://i.imgur.com/e9qTjgB.png"
+  },
+  {
+    "name": "B4U Kadak (576p) [Not 24/7]",
+    "type": "Movies",
+    "url": "http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8",
+    "img": "https://i.imgur.com/CKLn0ft.png"
+  },
+  {
+    "name": "B4U Plus (576p)",
+    "type": "Movies",
+    "url": "http://183.89.246.119:8881/play/a08l/index.m3u8",
+    "img": "https://i.imgur.com/ly8hBqS.png"
+  },
+  {
+    "name": "Dhinchaak (576p) [Not 24/7]",
+    "type": "Movies",
+    "url": "http://14.199.164.20:4001/play/a0o5/index.m3u8",
+    "img": "https://i.imgur.com/oqqChlH.png"
+  },
+  {
+    "name": "Filmeraa (720p)",
+    "type": "Movies",
+    "url": "https://a.jsrdn.com/broadcast/7ef91d3d7a/+0000/c.m3u8",
+    "img": "https://i.ibb.co/p4BwH0x/images-5.png"
+  },
+  {
+    "name": "Filmstream",
+    "type": "Movies",
+    "url": "https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8",
+    "img": "https://i.imgur.com/DTRPV6B.png"
+  },
+  {
+    "name": "Kairali We (396p)",
+    "type": "Movies",
+    "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/wetv_nim_https/050522/wetv/playlist.m3u8",
+    "img": "https://i.imgur.com/zXpROBj.png"
+  },
+  {
+    "name": "Maha Movie (576p) [Not 24/7]",
+    "type": "Movies",
+    "url": "http://14.199.164.20:4001/play/a0q7/index.m3u8",
+    "img": "https://i.imgur.com/hpShFDL.png"
+  },
+  {
+    "name": "Star Gold HD (1080p)",
+    "type": "Movies",
+    "url": "http://103.81.104.118/hls/stream19.m3u8",
+    "img": "https://i.imgur.com/xC460sj.png"
   },
   {
     "name": "CCV (480p)",
@@ -1824,6 +1830,36 @@
     "img": "https://i.imgur.com/DTtK0z7.png"
   },
   {
+    "name": "CNBC Asia HD (720p) [Geo-blocked]",
+    "type": "Business",
+    "url": "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8",
+    "img": "https://i.imgur.com/Mn8Rsup.png"
+  },
+  {
+    "name": "CNBC Bajar (504p) [Geo-blocked]",
+    "type": "Business",
+    "url": "https://cnbcbazar-lh.akamaihd.net/i/cnbcbajar_1@178933/index_5_av-p.m3u8",
+    "img": "https://i.imgur.com/cORao6C.png"
+  },
+  {
+    "name": "ET Now (720p)",
+    "type": "Business",
+    "url": "https://etnowweblive.akamaized.net/hls/live/2034678/ETNOWMSL4/chunklist_2.m3u8",
+    "img": "https://i.imgur.com/ueI0VwW.png"
+  },
+  {
+    "name": "NDTV Profit (480p) [Not 24/7]",
+    "type": "Business",
+    "url": "https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680/ndtvprofit/master.m3u8",
+    "img": "https://i.imgur.com/WK4tZ6p.png"
+  },
+  {
+    "name": "Zee Business (480p)",
+    "type": "Business",
+    "url": "https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_3.m3u8",
+    "img": "https://i.imgur.com/vkWBtL4.png"
+  },
+  {
     "name": "DD Punjabi",
     "type": "Culture",
     "url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/20c8ad14-a158-4a42-8889-e032d070856e/2.m3u8",
@@ -1882,12 +1918,6 @@
     "type": "Family",
     "url": "https://live.wmncdn.net/nambikkaitv/live.stream/index.m3u8",
     "img": "https://i.imgur.com/xnjkUOs.png"
-  },
-  {
-    "name": "The Pet Collective",
-    "type": "Family",
-    "url": "https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8",
-    "img": "https://i.imgur.com/w7RdSIk.png"
   },
   {
     "name": "Sanskar TV (1080p)",
