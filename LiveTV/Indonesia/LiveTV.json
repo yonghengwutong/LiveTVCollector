@@ -1,5 +1,5 @@
 {
-  "date": "2025-03-30 21:43:10",
+  "date": "2025-03-31 06:30:19",
   "channels": {
     "INDONESIA 🇮🇩": [
       {
@@ -3870,13 +3870,6 @@
         "url": "https://cdn10jtedge.indihometv.com/atm/DASH/TVBS_NEWS/manifest.mpd"
       },
       {
-        "name": "BBC News Asia Pacific (720p)",
-        "logo": "https://i.imgur.com/vSz2WEp.png",
-        "group": "News",
-        "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
-        "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8"
-      },
-      {
         "name": "Huma Betang TV (720p) [Not 24/7]",
         "logo": "https://i.imgur.com/xBTqOEu.png",
         "group": "News",
@@ -5911,13 +5904,6 @@
         "url": "https://tv.aliman.id/aliman/live.m3u8"
       },
       {
-        "name": "Angel TV Far East (720p)",
-        "logo": "https://i.imgur.com/qKLEGU7.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
-        "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelfareast_all/playlist.m3u8"
-      },
-      {
         "name": "Citra Muslim [Geo-blocked]",
         "logo": "https://i.imgur.com/L0kjuZs.png",
         "group": "Religious",
@@ -5937,20 +5923,6 @@
         "group": "Religious",
         "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
         "url": "https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8"
-      },
-      {
-        "name": "EWTN Africa Asia (720p)",
-        "logo": "https://i.imgur.com/F8ZM25a.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
-        "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8"
-      },
-      {
-        "name": "EWTN Asia-Pacific (720p) [Not 24/7]",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
-        "url": "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8"
       },
       {
         "name": "Fajar TV (240p) [Not 24/7]",
@@ -6081,13 +6053,6 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
         "url": "http://122.248.43.138:1935/ch17/myStream/playlist.m3u8"
-      },
-      {
-        "name": "RAI Italia Asia (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/512px-Rai_Italia_-_Logo_2017.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
-        "url": "http://210.210.155.37/x6bnqe/s/s63/index2.m3u8"
       },
       {
         "name": "Rajawali TV",
@@ -6419,21 +6384,16 @@
         "url": "http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch161)/index.m3u8"
       }
     ],
+    "Series": [
+      {
+        "name": "Citra Drama (720p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/lXhXwx7.png",
+        "group": "Series",
+        "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
+        "url": "http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch378)/index.m3u8"
+      }
+    ],
     "Business": [
-      {
-        "name": "Bloomberg TV Asia (720p)",
-        "logo": "https://i.imgur.com/OuogLHx.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
-        "url": "https://bloomberg.com/media-manifest/streams/asia.m3u8"
-      },
-      {
-        "name": "Bloomberg TV Asia Live Event (720p)",
-        "logo": "https://i.imgur.com/OuogLHx.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
-        "url": "https://bloomberg.com/media-manifest/streams/asia-event.m3u8"
-      },
       {
         "name": "CNBC Asia HD (720p) [Geo-blocked]",
         "logo": "https://i.imgur.com/Mn8Rsup.png",
@@ -6447,15 +6407,6 @@
         "group": "Business",
         "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
         "url": "http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch389)/index.m3u8"
-      }
-    ],
-    "Series": [
-      {
-        "name": "Citra Drama (720p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/lXhXwx7.png",
-        "group": "Series",
-        "source": "https://iptv-org.github.io/iptv/countries/id.m3u",
-        "url": "http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch378)/index.m3u8"
       }
     ],
     "Shop": [
