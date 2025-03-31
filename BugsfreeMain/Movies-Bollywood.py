@@ -155,7 +155,7 @@ class M3UCollector:
         else:
             logging.warning("No channels parsed from sources")
 
-    def export_m3u(self, filename="Bollywood-Movies.m3u"):
+    def export_m3u(self, filename="Movies.m3u"):
         filepath = os.path.join(self.output_dir, filename)
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write('#EXTM3U\n')
@@ -166,7 +166,7 @@ class M3UCollector:
         logging.info(f"Exported M3U to {filepath}")
         return filepath
 
-    def export_txt(self, filename="Bollywood-Movies.txt"):
+    def export_txt(self, filename="Movies.txt"):
         filepath = os.path.join(self.output_dir, filename)
         with open(filepath, 'w', encoding='utf-8') as f:
             for group, channels in sorted(self.channels.items()):
@@ -181,7 +181,7 @@ class M3UCollector:
         logging.info(f"Exported TXT to {filepath}")
         return filepath
 
-    def export_json(self, filename="Bollywood-Movies.json"):
+    def export_json(self, filename="Movies.json"):
         filepath = os.path.join(self.output_dir, filename)
         mumbai_tz = pytz.timezone('Asia/Kolkata')
         current_time = datetime.now(mumbai_tz).strftime('%Y-%m-%d %H:%M:%S')
@@ -195,7 +195,7 @@ class M3UCollector:
         logging.info(f"Exported JSON to {filepath}")
         return filepath
 
-    def export_custom(self, filename="Bollywood-Movies"):
+    def export_custom(self, filename="Movies"):
         """Export to custom format without extension."""
         filepath = os.path.join(self.output_dir, filename)
         custom_data = []
@@ -225,10 +225,10 @@ def main():
     collector.process_sources(source_urls)
     
     # Export files
-    collector.export_m3u("Bollywood-Movies.m3u")
-    collector.export_txt("Bollywood-Movies.txt")
-    collector.export_json("Bollywood-Movies.json")
-    collector.export_custom("Bollywood-Movies")
+    collector.export_m3u("Movies.m3u")
+    collector.export_txt("Movies.txt")
+    collector.export_json("Movies.json")
+    collector.export_custom("Movies")
     
     total_channels = sum(len(ch) for ch in collector.channels.values())
     mumbai_time = datetime.now(pytz.timezone('Asia/Kolkata'))
