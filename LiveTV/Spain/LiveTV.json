@@ -1,5 +1,5 @@
 {
-  "date": "2025-03-30 21:30:51",
+  "date": "2025-03-31 06:09:37",
   "channels": {
     "General": [
       {
@@ -16355,6 +16355,13 @@
         "url": "http://s18209.cdn.ngenix.net/hls/CH_R03_ZVEZDA/playlist.m3u8"
       },
       {
+        "name": "Antena 3 (480p)",
+        "logo": "https://i.imgur.com/USbmwiC.png",
+        "group": "General",
+        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
+        "url": "http://181.78.109.48:8000/play/a00f/index.m3u8"
+      },
+      {
         "name": "TGRT Europe (576p)",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png",
         "group": "General",
@@ -22255,13 +22262,6 @@
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
         "url": "https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8"
-      },
-      {
-        "name": "France 24 Español (360p)",
-        "logo": "https://i.imgur.com/ZnmAXVv.png",
-        "group": "News",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_500.m3u8"
       },
       {
         "name": "RT en Español (1080p) [Geo-blocked]",
@@ -32184,20 +32184,6 @@
         "group": "Kids",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
         "url": "http://185.189.225.150:85/boing/index.m3u8"
-      },
-      {
-        "name": "Pluto TV Animakids (720p)",
-        "logo": "https://i.imgur.com/MSGZ3S9.png",
-        "group": "Kids",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aabee6f4a2c00076a322c/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS"
-      },
-      {
-        "name": "Pluto TV Kids (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/eilI830.png",
-        "group": "Kids",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd6dae8ce788b0009eaf77b/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId="
       }
     ],
     "Lifestyle": [
@@ -34050,6 +34036,13 @@
         "group": "Series",
         "source": "https://raw.githubusercontent.com/ahmedkassem2004/M3U-player/refs/heads/main/playlist.m3u",
         "url": "https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8"
+      },
+      {
+        "name": "Atreseries (480p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Atreseries_2020_logo.svg/512px-Atreseries_2020_logo.svg.png",
+        "group": "Series",
+        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
+        "url": "http://181.78.109.48:8000/play/a00l/index.m3u8"
       }
     ],
     "Entertainment;Family;General": [
@@ -49362,11 +49355,11 @@
         "url": "https://fast-channels.atresmedia.com/648ef18c1756b0e41daf83cc/648ef18c1756b0e41daf83cc.m3u8"
       },
       {
-        "name": "Pluto TV Cine Acción (240p)",
-        "logo": "https://i.imgur.com/PXhCzXn.png",
+        "name": "AXN (1080p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png",
         "group": "Movies",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+        "url": "http://181.78.109.48:8000/play/a05u/index.m3u8"
       }
     ],
     "Outdoor": [
@@ -63170,13 +63163,6 @@
     ],
     "Undefined": [
       {
-        "name": "AXN Spin (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/AXN_Spin_logo_%282015%29.svg/320px-AXN_Spin_logo_%282015%29.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "http://185.236.229.62:9981/play/a044"
-      },
-      {
         "name": "Bon Dia TV (1080p)",
         "logo": "https://i.imgur.com/90WOoro.png",
         "group": "Undefined",
@@ -63205,39 +63191,11 @@
         "url": "https://directes-tv-cat.3catdirectes.cat/live-origin/oca3-hls/master.m3u8"
       },
       {
-        "name": "Epic Drama (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/480px-Epic-Drama-TV.jpg",
+        "name": "Clubbing TV (720p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "http://185.236.229.62:9981/play/a029"
-      },
-      {
-        "name": "FightBox (1080p)",
-        "logo": "https://i.imgur.com/k1uP892.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "http://185.236.229.62:9981/play/a03n"
-      },
-      {
-        "name": "FilmBox Action (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Filmbox-action.jpg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "http://185.236.229.62:9981/play/a033"
-      },
-      {
-        "name": "FilmBox Arthouse (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Filmbox_arthouse_pl.png/320px-Filmbox_arthouse_pl.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "http://195.189.60.33:9010/play/a00a"
-      },
-      {
-        "name": "FilmBox Family (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Filmbox_family.png/320px-Filmbox_family.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "http://185.236.229.62:9981/play/a032"
+        "url": "https://clubbingtv-rakuten.amagi.tv/playlist.m3u8"
       },
       {
         "name": "Golf Zone (1080p)",
@@ -63252,13 +63210,6 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
         "url": "https://rakuten-hola-2-es.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Lone Star (720p)",
-        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/3ad57a44-e2b9-4b0b-9671-8a1b3ade25f9-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://6b88cde9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0xvbmVTdGFyX0hMUw/playlist.m3u8"
       },
       {
         "name": "Monster Jam (720p)",
@@ -63282,6 +63233,20 @@
         "url": "https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8"
       },
       {
+        "name": "Pluto TV Animakids (720p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aabee6f4a2c00076a322c/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS"
+      },
+      {
+        "name": "Pluto TV Cine Acción (240p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+      },
+      {
         "name": "Pluto TV Comedia (Made in Spain) (720p) [Not 24/7]",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Undefined",
@@ -63289,11 +63254,11 @@
         "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1abce155a03d0007718834/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS"
       },
       {
-        "name": "Rakuten VIKI (720p)",
-        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/98e211c8-240b-443d-9a1f-90577369da10-width200-quality90.jpeg",
+        "name": "Pluto TV Kids (720p) [Not 24/7]",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_RakutenViki-1/playlist.m3u8"
+        "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd6dae8ce788b0009eaf77b/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId="
       },
       {
         "name": "Revry (720p)",
@@ -63329,13 +63294,6 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
         "url": "https://directes-tv-cat.3catdirectes.cat/live-origin/super3-hls/master.m3u8"
-      },
-      {
-        "name": "The Pet Collective (720p)",
-        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/b471d6b6-5694-46b3-8a33-6dbb0f76cf53-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://6ec8627d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RoZVBldENvbGxlY3RpdmVfSExT/playlist.m3u8"
       },
       {
         "name": "TNA Wrestling Channel (720p)",
