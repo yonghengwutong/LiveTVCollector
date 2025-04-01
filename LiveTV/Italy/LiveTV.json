@@ -1,5 +1,5 @@
 {
-  "date": "2025-03-31 21:53:49",
+  "date": "2025-04-01 07:12:49",
   "channels": {
     "General": [
       {
@@ -143,11 +143,11 @@
         "url": "https://5f22d76e220e1.streamlock.net/EntellaTV/EntellaTV/playlist.m3u8"
       },
       {
-        "name": "Esperia TV (480p) [Not 24/7]",
+        "name": "Esperia TV (480p)",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/ESPERIATV18_verde.png",
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://59d7d6f47d7fc.streamlock.net/esperiatv/esperiatv/playlist.m3u8"
+        "url": "http://wms.shared.streamshow.it/esperiatv/esperiatv/playlist.m3u8"
       },
       {
         "name": "Fano TV (1080p)",
@@ -528,11 +528,11 @@
         "url": "https://5cbd3bc28341f.streamlock.net:444/televallo/live/playlist.m3u8"
       },
       {
-        "name": "TGRT Europe (576p)",
+        "name": "TGRT Europe (1080p)",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png",
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://tv.ensonhaber.com/tv/tr/tgrteu/index.m3u8"
+        "url": "https://canli.tgrteu.com/tgrteu.m3u8"
       },
       {
         "name": "TLT Molise (1080p)",
@@ -568,1695 +568,6 @@
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
         "url": "https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603"
-      }
-    ],
-    "Undefined": [
-      {
-        "name": "16 Anni e Incinta Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60940a07d88ba90007b9cb71/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "27 TwentySeven [Geo-blocked]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/512px-Twentyseven_logo.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live2.msf.cdn.mediaset.net/content/hls_h0_cls_vos/live/channel(ts)/index.m3u8"
-      },
-      {
-        "name": "AB Channel (720p)",
-        "logo": "https://i.imgur.com/SVkDShV.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://tsw.streamingwebtv24.it:1936/abchanneltv/abchanneltv/playlist.m3u8"
-      },
-      {
-        "name": "Andromeda Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60802d37ee238e0007c94e64/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Avatar La Leggenda di Aang Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/624da1cd2af90c0007c13205/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "BBC Drama",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://bbceu-bbcdrama-2-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Bigtime (720p)",
-        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/1fe37ff8-c6b7-4123-8c68-653d657b4c5f-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://103f01c3ff79408e83c9212f8a374ecc.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_BjgtjmeDarmoweFilmy/playlist.m3u8"
-      },
-      {
-        "name": "Bike (720p)",
-        "logo": "https://i.imgur.com/WrNxg2k.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://backup.superstreaming.inaria.me/BikeSmartMobilityDTT/playlist.m3u8"
-      },
-      {
-        "name": "Bom Channel",
-        "logo": "https://i.imgur.com/WVcS0kN.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5f22d76e220e1.streamlock.net/BOMCHANNEL/BOMCHANNEL/playlist.m3u8"
-      },
-      {
-        "name": "CafeTV24 (720p)",
-        "logo": "https://i.imgur.com/SRFzjja.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://srvx1.selftv.video/cafe/live/playlist.m3u8"
-      },
-      {
-        "name": "Canale 8 (480p)",
-        "logo": "https://i.imgur.com/xwYmFgj.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it/canale8/canale8/playlist.m3u8"
-      },
-      {
-        "name": "Car City Adventures (720p)",
-        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/bd356b80-79d9-46ff-9674-e69aaf10022f-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/b6397b24-18b0-49c2-80bf-0333ae568e37/5.m3u8"
-      },
-      {
-        "name": "CarinaTV (720p)",
-        "logo": "https://i.imgur.com/ANGD7gv.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stream7.zivoli.it/carinatv/carinatv/playlist.m3u8"
-      },
-      {
-        "name": "Catfish TV Show Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6093f9ed2c75660007322bb7/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Clubbing TV Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60802de3fd2d70000763bb83/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Consulenze Illegali Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60b9dc99521a1400079bdfba/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "D Television (Antenna 10) (480p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://ssh101.bozztv.com/ssh101/dtelevision/playlist.m3u8"
-      },
-      {
-        "name": "Doctor Who Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62e7f8db27ce19000732d1aa/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Due Fantagenitori Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62b57a6752a0060008bc65cd/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Euro TV (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/HFWWzKT.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8"
-      },
-      {
-        "name": "Ex On The Beach Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60940ebad67fd900072382db/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "FailArmy Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608014d19a26320007c92ab6/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "FIFA+ (720p)",
-        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/a27208c4-021a-45e8-a250-11f8ffab36c8-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8"
-      },
-      {
-        "name": "Full Moon",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://minerva-fullmoon-1-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Geordie Shore Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/619263ee9541940007d20d60/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Gold 78 (1080p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8"
-      },
-      {
-        "name": "Golf Zone (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/00/GOLFZONE.jpg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://195.189.60.33:9002/play/a006"
-      },
-      {
-        "name": "Grjngo (720p)",
-        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/1fe37ff8-c6b7-4123-8c68-653d657b4c5f-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_GrjngoWesterny/playlist.m3u8"
-      },
-      {
-        "name": "Hard Knocks Fighting Championship (720p)",
-        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/13b0a6c7-4307-4c8d-9fc4-df2a4f8e8b38-hard-knocks-fighting-1602077398-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/2ee2b8d4-acc4-4296-9dc8-66f1ffd0fff8/5.m3u8"
-      },
-      {
-        "name": "Humanity Documentari",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00712-alchimie-humanitydocit-samsungit/playlist.m3u8"
-      },
-      {
-        "name": "IGN Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608015ea48a6e800076f0f2f/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Il Banco dei Pugni Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60e4507a06171800072339a3/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Il mio amico Arnold Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6385eb5588399a000759ef45/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Il Testimone Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61fbd3f0733df400076c9a2d/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "InLire TV (1080p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5f22d76e220e1.streamlock.net/inlire/inlire/playlist.m3u8"
-      },
-      {
-        "name": "Insurance Connect (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://tsw.streamingwebtv24.it:1936/insuranceconnect/insuranceconnect/playlist.m3u8"
-      },
-      {
-        "name": "Italia 2 TV (480p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/TDSgG28.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it/italia2/mp4:italia2/playlist.m3u8"
-      },
-      {
-        "name": "Italia 7 (576p)",
-        "logo": "https://i.imgur.com/xc0kUHk.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://151.0.207.99:1935/italia7/italia7/playlist.m3u8"
-      },
-      {
-        "name": "Iunior TV (720p) [Not 24/7]",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8"
-      },
-      {
-        "name": "Just for Laughs Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6093f48c95132a00075fd859/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Le Sorelle McLeod Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60a2837f8154ab0007c4dcdf/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "MacGyver Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6245d4511358320007029cdf/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Mai Dire Sì Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6349279ed5023700078f2bc2/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Moconomy (1080p)",
-        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/9da0ec4d-85ea-45f4-b3f9-ae917d1714f9-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://3ee905090d464be5a51478fd9c642e93.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_Moconomy/playlist.m3u8"
-      },
-      {
-        "name": "Monster Jam (720p)",
-        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://4b9627c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vbnN0ZXJKYW1fSExT/playlist.m3u8"
-      },
-      {
-        "name": "Motor1 TV",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://motorsportnetwork-motor1tv-1-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Mutant X Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60802c209a26320007c92ad5/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Paradise TV [Geo-blocked]",
-        "logo": "https://i.imgur.com/OKhpyWr.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://tsw.streamingwebtv24.it:1936/paradisetv/paradisetv/playlist.m3u8"
-      },
-      {
-        "name": "People Are Awesome (720p)",
-        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/1cc9ab7e-8283-4c32-a3f3-e2a4d0e1d33f-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8"
-      },
-      {
-        "name": "PFL MMA (720p)",
-        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/f4058a54-67b9-432c-b80e-3bfcf8d2d6d1-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8"
-      },
-      {
-        "name": "Pimp My Ride Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/636a4eaf77279a0007f14861/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Planeta Junior",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://deaplaneta-planetakidz-2-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Pluto TV Anime Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/612375086abc84000738fc03/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Cinema Italiano Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa7d8359b270007861489/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Crime Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa777b907770007e5d05d/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Cucina Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6261868633a2890007e87885/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Documentary Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa8a5709d6b0007b132fe/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Family Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6123742451cce0000789fc7a/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Film Azione Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa17fb9f4490007e6419a/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Film Classici Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa3c446d73500075f0e24/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Film Commedia Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa512d67fd900072323db/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Film Drama Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa42b5c2b8f0007197529/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Film Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa20a2e7f270007c4878d/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Film Romantici Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa4a4cc92820007b663af/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Film Thriller Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa5e995132a00075f7005/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Horror Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61c09e3ac210ed0007606620/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Kids Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62444e195d2ab7000861694b/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Natura Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60802b37709d6b0007b0c549/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Real Life Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60801976f92a750007a0699c/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Reality Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61925f874b1ec000075e700a/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Sci-Fi Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61728bb9ee3773000840c1fa/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Serie Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60b9ff2722bfa400072676ef/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Sport Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608030eff4b6f70007e1684c/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Top Gear",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/64c109a4798def0008a6e03e/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Viaggi Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/63c923944207be0007fd0887/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Pluto TV Western Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62e7fb67478a5b0007e6c50c/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Polsat News Polityka (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://109.233.89.166/Polsat_News_Polityka/index.m3u8"
-      },
-      {
-        "name": "POP Television (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stream1.aswifi.it/poptelevision/live/index.m3u8"
-      },
-      {
-        "name": "Primocanale (1080p) [Not 24/7]",
-        "logo": "https://i.imgur.com/eunZ2Sa.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8"
-      },
-      {
-        "name": "R 101 Italia IT (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/R101_-_Logo_2015.svg/512px-R101_-_Logo_2015.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live3-radio-mediaset-it.akamaized.net/content/hls_h0_clr_vos/live/channel(er)/index.m3u8"
-      },
-      {
-        "name": "Radio 51 TV (480p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/UupkBt6.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://178.32.140.155/canale51/canale51/playlist.m3u8"
-      },
-      {
-        "name": "Radio 105 TV (576p)",
-        "logo": "https://i.imgur.com/F2dUQM1.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live3-radio-mediaset-it.akamaized.net/content/hls_h0_clr_vos/live/channel(ec)/index.m3u8"
-      },
-      {
-        "name": "Radio Birikina TV (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/CFAx6m5.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8"
-      },
-      {
-        "name": "Radio Freccia TV (1080p)",
-        "logo": "https://i.imgur.com/RxeRlar.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8"
-      },
-      {
-        "name": "Radio Ibiza TV (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/KfFqYQi.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5929b138b139d.streamlock.net/RadioIbizaTV/livestream/playlist.m3u8"
-      },
-      {
-        "name": "Radio Iglesias (576p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/2OXQpZM.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it/visualradio/mp4:visualradio/playlist.m3u8"
-      },
-      {
-        "name": "Radio Iglesias Sardegna (576p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/KDtVpLl.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://59d7d6f47d7fc.streamlock.net/visualradio/visualradio/playlist.m3u8"
-      },
-      {
-        "name": "Radio Montecarlo (576p)",
-        "logo": "https://i.imgur.com/by9XvWF.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live3-radio-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(bb)/index.m3u8"
-      },
-      {
-        "name": "Radio Number One (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/8cpuaG5.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://56b50ada2d659.streamlock.net/RN1TV/livestream/playlist.m3u8"
-      },
-      {
-        "name": "Radio Radicale TV (240p) [Not 24/7]",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://video-ar.radioradicale.it/diretta/padtv2/playlist.m3u8"
-      },
-      {
-        "name": "Radio Radio TV (720p)",
-        "logo": "https://i.imgur.com/ZDHBfdI.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://api.new.livestream.com/accounts/11463451/events/3679884/live.m3u8"
-      },
-      {
-        "name": "Radio Studio Delta TV (1080p) [Not 24/7]",
-        "logo": "https://i.imgur.com/xJqVOpn.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5ce9406b73c33.streamlock.net/RSD/ngrp:livestream_all/playlist.m3u8"
-      },
-      {
-        "name": "Radio Taormina Sicilia (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/SrhtocV.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stream2.xdevel.com/video1s3-7/stream/playlist.m3u8"
-      },
-      {
-        "name": "RadioZeta (480p)",
-        "logo": "https://i.imgur.com/K2xLMin.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://unlimited1-cl.dps.live/radioztv/radioztv.smil/radioztv/livestream2/chunks.m3u8"
-      },
-      {
-        "name": "like Gecko) Mobile/15E148\",Rai 1 (480p) [Not 24/7]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/512px-Rai_1_-_Logo_2016.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://ott-cdn.ucom.am/s29/index.m3u8"
-      },
-      {
-        "name": "Rai 2 (302p) [Geo-blocked]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/512px-Rai_2_-_Logo_2016.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://stream.tvtap.net:8081/live/it-rai2.stream/playlist.m3u8"
-      },
-      {
-        "name": "Rai 2 HD",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://m3u.iranvids.com/rai02/output.m3u8"
-      },
-      {
-        "name": "Rai 3 (432p) [Geo-blocked]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/512px-Rai_3_-_Logo_2016.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://stream.tvtap.net:8081/live/it-rai3.stream/playlist.m3u8"
-      },
-      {
-        "name": "Rai 4 (302p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/sEY21rg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://stream.tvtap.net:8081/live/it-rai4.stream/playlist.m3u8"
-      },
-      {
-        "name": "RAI 4K [Geo-blocked]",
-        "logo": "https://i.imgur.com/O1K1fv4.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8"
-      },
-      {
-        "name": "Rai 5 (302p) [Geo-blocked]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/512px-Rai_5_-_Logo_2017.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://stream.tvtap.net:8081/live/it-rai5.stream/playlist.m3u8"
-      },
-      {
-        "name": "Rai Gulp (576p)",
-        "logo": "https://i.imgur.com/irAhPJM.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953"
-      },
-      {
-        "name": "RAI Italia Asia (576p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://210.210.155.37/x6bnqe/s/s63/index2.m3u8"
-      },
-      {
-        "name": "Rai Premium (576p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/40g5Urz.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992"
-      },
-      {
-        "name": "Rai Scuola (576p) [Geo-blocked]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/512px-Rai_Scuola_-_Logo_2017.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011"
-      },
-      {
-        "name": "Rai Sport 2",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://originstream12.rai.it/italy/raisport2_1200/master.m3u8"
-      },
-      {
-        "name": "Rai Storia (576p) [Geo-blocked]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/512px-Rai_Storia_-_Logo_2017.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990"
-      },
-      {
-        "name": "Rakuten Action Movies",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://rakuten-actionmovies-6-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Rakuten Comedy Movies",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://rakuten-comedymovies-6-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Rakuten Drama",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://rakuten-tvshows-6-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Rakuten Family",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://rakuten-family-6-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Rakuten Spotlight",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://rakuten-spotlight-6-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "RDS Social TV (720p)",
-        "logo": "https://i.imgur.com/bxGvE8C.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8"
-      },
-      {
-        "name": "Red Carpet TV International (1080p)",
-        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/a52f843a-9a9c-4d96-8f77-57f3ec96acb0-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa-40c6-41b8-8634-595c424f856e/21f67fd1-4d21-43ba-8ad8-3afac9982c25/master.m3u8"
-      },
-      {
-        "name": "ReggioTV (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/cEwJkRV.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8"
-      },
-      {
-        "name": "Reklama TV (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5f22d76e220e1.streamlock.net/reklamatv/reklamatv/playlist.m3u8"
-      },
-      {
-        "name": "Renegade Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/634926e4b51d2d00077819a2/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Rete 4 [Geo-blocked]",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Rete_4_2018.svg/512px-Rete_4_2018.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(r4)/index.m3u8"
-      },
-      {
-        "name": "Rete 55 (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/UtS9YLc.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stream.internet.one/Rete55_Live/index.m3u8"
-      },
-      {
-        "name": "Rete Biella TV (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/I4OVxIb.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://sb.top-ix.org/retebiella/streaming/playlist.m3u8"
-      },
-      {
-        "name": "Rete Oro (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/3oYiBSz.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8"
-      },
-      {
-        "name": "Retemia (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/IbzQpfn.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5db313b643fd8.streamlock.net/Retemia/Retemia/playlist.m3u8"
-      },
-      {
-        "name": "Retesole Lazio (480p)",
-        "logo": "https://i.imgur.com/vvVgZN2.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8"
-      },
-      {
-        "name": "Reteveneta (480p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/it/d/df/Logo_Rete_Veneta.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://59d7d6f47d7fc.streamlock.net/reteveneta/reteveneta/playlist.m3u8"
-      },
-      {
-        "name": "Revry (720p)",
-        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8"
-      },
-      {
-        "name": "Ridiculousness Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61fbd721e5b49e00079bfedc/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "RTC Telecalabria (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/NnFopuS.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://fl1.mediastreaming.it:1935/calabriachannel/livestream/playlist.m3u8"
-      },
-      {
-        "name": "RTL 102.5 Best (1080p)",
-        "logo": "https://i.imgur.com/ahWJwvT.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://streamcdnb7-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8"
-      },
-      {
-        "name": "RTL 102.5 Bro&Sis (1080p)",
-        "logo": "https://i.imgur.com/1ZutMTJ.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://streamcdnb6-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S75007890/MUGHuxc9dQ3b/playlist.m3u8"
-      },
-      {
-        "name": "RTL 102.5 Doc (1080p)",
-        "logo": "https://i.imgur.com/1gAeWPP.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://streamcdnb12-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8"
-      },
-      {
-        "name": "RTL 102.5 Extra (1080p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://streamcdnb2-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S26743519/49ksH8apMKou/playlist.m3u8"
-      },
-      {
-        "name": "RTL 102.5 Napulé (1080p)",
-        "logo": "https://i.imgur.com/jFD0oOD.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://streamcdnb5-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S27134503/0f9AhuwKlhnZ/playlist_video.m3u8"
-      },
-      {
-        "name": "RTL 102.5 Romeo&Juliet (1080p)",
-        "logo": "https://i.imgur.com/MKWjSef.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://streamcdnb4-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8"
-      },
-      {
-        "name": "RTL 102.5 TV (1080p)",
-        "logo": "https://i.imgur.com/75qUdR7.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://streamcdnb12-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8"
-      },
-      {
-        "name": "RTL (576p)",
-        "logo": "https://i.imgur.com/94K94k2.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://s6.hopslan.com/rtlc1/tracks-v1a1/mono.m3u8"
-      },
-      {
-        "name": "RTL Zwei (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://s6.hopslan.com/rtl2x1/index.m3u8"
-      },
-      {
-        "name": "RTP (404p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/8/86/Logo_Radio_Televisione_Peloritana.svg/512px-Logo_Radio_Televisione_Peloritana.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8"
-      },
-      {
-        "name": "RTTR Trento (720p)",
-        "logo": "https://i.imgur.com/6DyzN8M.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8"
-      },
-      {
-        "name": "San Marino RTV (720p)",
-        "logo": "https://i.imgur.com/ZJSWusT.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8"
-      },
-      {
-        "name": "Sardegna Uno",
-        "logo": "https://i.imgur.com/gv2pLIp.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Sardegna1.m3u8"
-      },
-      {
-        "name": "Scherzi e risate Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/609404b0a8ec810007d8de9d/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Serie Teen Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60940639add5910008c0cdd1/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Settimo Cielo Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6245d3792792150007e20634/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Shades of Black (1080p)",
-        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://rakutenaa-fusemedia-shadesofblack-rakutena-giu24.amagi.tv/playlist/rakutenAA-fusemedia-shadesofblack-rakutenA/playlist.m3u8"
-      },
-      {
-        "name": "Shorts [Geo-blocked]",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00784-shortsinternati-shortstv-fast-italy-samsungit/playlist.m3u8"
-      },
-      {
-        "name": "Sophia TV Italy (720p)",
-        "logo": "https://i.imgur.com/RPXusvS.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://bild-und-ton.stream/sophiatv-it/smil:sophia-tv-it.smil/playlist.m3u8"
-      },
-      {
-        "name": "South Park Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62bc1f502b70e3000706298e/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Sportitalia Live 24",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/silive24.smil/playlist.m3u8"
-      },
-      {
-        "name": "Sportoutdoor.tv",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://gto2000-sportoutdoortv-1-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Squadra Speciale Cobra 11 Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/625e6cc905e09f00073addee/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Stereo 5 TV (720p)",
-        "logo": "https://i.imgur.com/sCDcYFW.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stream1.aswifi.it/stereo5/live/index.m3u8"
-      },
-      {
-        "name": "Super J TV Teramo (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/H3uItqg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://uk4.streamingpulse.com:1935/SuperJtv/SuperJtv/playlist.m3u8"
-      },
-      {
-        "name": "Super TV Brescia (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8"
-      },
-      {
-        "name": "Super! (480p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/512px-Super%21_logo_2021.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://vimnitaly.akamaized.net/hls/live/2094034/super/master-2500.m3u8"
-      },
-      {
-        "name": "Super! Brothers and Sisters Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61925ea79541940007d20881/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Super! Danger and Thunder Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62e8e3bca3766a0007387284/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Super! Eroi Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6093f5ab128c2b00070ebd51/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Super! iCarly Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/609401db8cf51c00084b592e/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Super! Pop Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6093f7b5bb49b90007cecaad/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Super! Rugrats Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62e8ddbbaed0390007b258a6/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Super! SpongeBob Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61fbd4c9e5b49e00079bfed9/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Super! Star Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6093f6f8351eb0000754afb8/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Super! Victorious Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/63c012504faf1c0007abfa93/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "SuperTennis HD",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/h24_supertennix/manifest.m3u8"
-      },
-      {
-        "name": "TCI (1080p)",
-        "logo": "https://i.imgur.com/XVOCtVF.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://tbn-jw.cdn.vustreams.com/live/tci/live.isml/2b7d53c5-b504-4d26-b25f-a70deb8d0faf.m3u8"
-      },
-      {
-        "name": "Teen Mom Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62e7fc8c0d061100083946a9/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Teenage Mutant Ninja Turtles Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62619405c733e8000732d1fe/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Tele Abruzzo (384p)",
-        "logo": "https://i.imgur.com/XymK2PR.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://uk4.streamingpulse.com:1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8"
-      },
-      {
-        "name": "Tele Liguria Sud (576p)",
-        "logo": "https://i.imgur.com/OxgSGUW.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
-      },
-      {
-        "name": "Tele Messina (1080p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://ssh101-fl.bozztv.com/ssh101/telemessina/index.m3u8"
-      },
-      {
-        "name": "Tele Pavia (720p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/66/LOGO_telePAVIA.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it/telepavia/telepavia/playlist.m3u8"
-      },
-      {
-        "name": "Tele Pegaso Catania (404p) [Not 24/7]",
-        "logo": "https://i.imgur.com/2syaOJz.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://flash2.xdevel.com/telepegasocanale812/telepegasocanale812/playlist.m3u8"
-      },
-      {
-        "name": "Tele Quattro (480p) [Not 24/7]",
-        "logo": "https://telequattro.medianordest.it/wp-content/uploads/2020/10/T4Logo120.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it/telequattro/telequattro/playlist.m3u8"
-      },
-      {
-        "name": "Tele Radio Sciacca (240p) [Not 24/7]",
-        "logo": "https://i.imgur.com/uyNOVUW.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://5cbd3bc28341f.streamlock.net:1935/trs_live/teleradiosciacca-tv/playlist.m3u8"
-      },
-      {
-        "name": "TeleArena (480p)",
-        "logo": "https://i.imgur.com/cTmsGJD.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5ce9406b73c33.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8"
-      },
-      {
-        "name": "Telebelluno (720p)",
-        "logo": "https://i.imgur.com/jHzI1JP.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8"
-      },
-      {
-        "name": "TeleCampione [Geo-blocked]",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/playlist.m3u8"
-      },
-      {
-        "name": "Telecolor Lombardia (1080p) [Not 24/7]",
-        "logo": "https://i.imgur.com/QfJqBno.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8"
-      },
-      {
-        "name": "Telefoggia (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/ImvO2rV.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it/telefoggia/mp4:telefoggia/playlist.m3u8"
-      },
-      {
-        "name": "TeleFormula (720p) [Not 24/7]",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://wms60.tecnoxia.com/radiof/abr_radioftele/playlist.m3u8"
-      },
-      {
-        "name": "Telefriuli (1080p)",
-        "logo": "https://i.imgur.com/He3uCs6.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5757bf2aa08e42248fb9b9d620f5d900.msvdn.net/live/S11646715/pE3ax0lT0rBd/playlist.m3u8"
-      },
-      {
-        "name": "TeleGenova (404p)",
-        "logo": "https://i.imgur.com/UYIUDWF.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5db313b643fd8.streamlock.net/Telegenova/Telegenova/playlist.m3u8"
-      },
-      {
-        "name": "Telegranda (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/j3r0URO.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://live.sloode.com:1935/telegranda_live/C2AD-0664-DC75-4744/playlist.m3u8"
-      },
-      {
-        "name": "Teleliberta (486p) [Not 24/7]",
-        "logo": "https://i.imgur.com/424KS6J.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://api.new.livestream.com/accounts/17114188/events/4902226/live.m3u8"
-      },
-      {
-        "name": "TeleMia (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Telemia.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8"
-      },
-      {
-        "name": "TeleMia Extra (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Telemia.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8"
-      },
-      {
-        "name": "TeleMistretta (1080p)",
-        "logo": "https://i.imgur.com/BLhvyEi.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8"
-      },
-      {
-        "name": "Telemolise (1080p)",
-        "logo": "https://i.imgur.com/aTs88Es.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://185.202.128.1:1935/TelemoliseStream/telemoliseTV.stream/playlist.m3u8"
-      },
-      {
-        "name": "teleMonteneve (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/UAtEkvI.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it:1935/telemonteneve/telemonteneve/live.m3u8"
-      },
-      {
-        "name": "Telenord (576p) [Not 24/7]",
-        "logo": "https://telenord.it/assets/images/logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5db313b643fd8.streamlock.net/Telenord/Telenord/playlist.m3u8"
-      },
-      {
-        "name": "Telepace Roma (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live.mariatvcdn.com/mariatvpoint/d36592901d5429dd7f9ec1e7bbeda8c2.sdp/index.m3u8"
-      },
-      {
-        "name": "TeleRegione 118 (576p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://streaming.softwarecreation.it/TR118/TR118/playlist.m3u8"
-      },
-      {
-        "name": "Telesud Trapani (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/JNohS1G.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://5cbd3bc28341f.streamlock.net:1935/telesud/live/playlist.m3u8"
-      },
-      {
-        "name": "TeleTerni (720p)",
-        "logo": "https://i.imgur.com/U1BjkEl.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://diretta.teleterni.it:8080/show/show.m3u8"
-      },
-      {
-        "name": "Teletricolore (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/GajzIN6.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8"
-      },
-      {
-        "name": "TeleTusciaSabina 2000 (576p) [Not 24/7]",
-        "logo": "https://i.imgur.com/cfexNL9.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/playlist.m3u8"
-      },
-      {
-        "name": "TeleVenezia (576p)",
-        "logo": "https://i.imgur.com/RG4o4Ni.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://59d7d6f47d7fc.streamlock.net/televenezia/televenezia/playlist.m3u8"
-      },
-      {
-        "name": "TeleVideo Agrigento (480p)",
-        "logo": "https://i.imgur.com/crMQmn4.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://59d7d6f47d7fc.streamlock.net/tva/tva/playlist.m3u8"
-      },
-      {
-        "name": "Televisa Telenovelas",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "TG Norba 24 (404p)",
-        "logo": "https://i.imgur.com/zAZcSgz.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://router.xdevel.com/video0s976570-1326/stream/playlist_dvr.m3u8"
-      },
-      {
-        "name": "The Pet Collective Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60801317a0ccef00072aaf75/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "TNA Wrestling Channel (720p)",
-        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039"
-      },
-      {
-        "name": "TOP Barca (1080p)",
-        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/7c59e962-086b-4d64-afb3-7f83ca8c3377-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8"
-      },
-      {
-        "name": "Top Movies Polska (720p)",
-        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8"
-      },
-      {
-        "name": "Trentino TV (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/Xcw3TRB.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8"
-      },
-      {
-        "name": "TT2 Teletutto (720p)",
-        "logo": "https://i.imgur.com/85BolCh.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://600f07e114306.streamlock.net/TT2_TELETUTTO/livestream/playlist.m3u8"
-      },
-      {
-        "name": "TT24 Teletutto (720p)",
-        "logo": "https://i.imgur.com/RhrJjD5.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://600f07e114306.streamlock.net/TT24_TELETUTTO/livestream/playlist.m3u8"
-      },
-      {
-        "name": "TV7 Benevento (288p) [Not 24/7]",
-        "logo": "https://i.imgur.com/VBhVaKB.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8"
-      },
-      {
-        "name": "TV7 Meteo (404p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://www.gruppotv7.com:8090/hls/meteo.m3u8"
-      },
-      {
-        "name": "TV7 Triveneta (562p)",
-        "logo": "https://i.imgur.com/ndFoo4V.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://www.gruppotv7.com:8090/hls/ireporter.m3u8"
-      },
-      {
-        "name": "TV Prato (1080p)",
-        "logo": "https://i.imgur.com/72mAJtf.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live.mariatvcdn.com/tvprato/2db0dd5674586686a867ec52c3aa8e06.sdp/index.m3u8"
-      },
-      {
-        "name": "TV Qui (Modena) (480p)",
-        "logo": "https://i.imgur.com/YfMVNDE.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8"
-      },
-      {
-        "name": "TV Sei (576p) [Not 24/7]",
-        "logo": "https://i.imgur.com/H8fklOG.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://185.202.128.1:1935/Tv6Stream/tv6TV.stream/playlist.m3u8"
-      },
-      {
-        "name": "TV Yes Italia (720p)",
-        "logo": "https://i.imgur.com/3CDxatu.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8"
-      },
-      {
-        "name": "TVA (Vicenza) (720p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/0/0f/TVA_Vicenza_-_Logo_2018.svg/512px-TVA_Vicenza_-_Logo_2018.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8"
-      },
-      {
-        "name": "TVE Internacional Europe-Asia [Geo-blocked]",
-        "logo": "https://i.imgur.com/ow1HArj.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8"
-      },
-      {
-        "name": "TVL (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/2wkSHNI.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
-      },
-      {
-        "name": "TVR Sicilia HD (1080p) [Not 24/7]",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://ssh101.bozztv.com/ssh101/televita/playlist.m3u8"
-      },
-      {
-        "name": "TVRS (576p) [Not 24/7]",
-        "logo": "https://i.imgur.com/6bxtL6D.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it:1935/tvrs/tvrs/live.m3u8"
-      },
-      {
-        "name": "Umbria TV (576p) [Not 24/7]",
-        "logo": "https://i.imgur.com/olJIJ7c.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8"
-      },
-      {
-        "name": "UniNettuno University TV (720p)",
-        "logo": "https://i.imgur.com/c9So8nf.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8"
-      },
-      {
-        "name": "Vera TV (1080p) [Not 24/7]",
-        "logo": "https://i.imgur.com/7o1bq3p.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it/veratv/mp4:veratv/playlist.m3u8"
-      },
-      {
-        "name": "VH1+ Canzoni Italiane (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/63724270c7c2360007b170e8/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "VH1+ Christmas Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62e8e137865c590007ecae3c/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "VH1+ Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61cd822216e2fd00086d0aeb/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "VH1+ Music Legends Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62e8cc10ca869f00078efca8/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "VH1+ Rock Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/636a4173e34fd50007534542/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "Viasat Explore Classic (720p)",
-        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8"
-      },
-      {
-        "name": "Videolina (Sardegna) (404p) [Not 24/7]",
-        "logo": "https://i.imgur.com/nQwXaef.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://livestreaming.videolina.it/live/Videolina/playlist.m3u8"
-      },
-      {
-        "name": "ViDoc TV (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/ViDoc_TV_%282024%29.svg/320px-ViDoc_TV_%282024%29.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://185.236.229.62:9981/play/a051"
-      },
-      {
-        "name": "Visual Radio (576p) [Not 24/7]",
-        "logo": "https://i.imgur.com/ah14ah0.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://wms.shared.streamshow.it:1935/visualradio/visualradio/live.m3u8"
-      },
-      {
-        "name": "Vivaldi TV (1080p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01523-mezzo-vivalditv-tcl/playlist.m3u8"
-      },
-      {
-        "name": "Vuemme (480p)",
-        "logo": "https://i.imgur.com/Cs1kX12.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8"
-      },
-      {
-        "name": "Well TV",
-        "logo": "https://i.imgur.com/ueUddW1.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://5f22d76e220e1.streamlock.net/canale5/canale5/playlist.m3u8"
-      },
-      {
-        "name": "World Billiards (720p)",
-        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe-width200-quality90.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8"
-      },
-      {
-        "name": "World of Freesports (1080p)",
-        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/77aa6871-a13f-470b-a2d5-ca5650f63323-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/rakutenAA-mainstreammediafreesportsintl-rakuten/playlist.m3u8"
-      },
-      {
-        "name": "World Poker Tour Italy (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608016e446d73500075ea7e0/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
-      },
-      {
-        "name": "WP Minerva Pictures",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://minerva-wp-1-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Yamato Animation",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://yamatovideo-yamatoanimation-1-it.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
-        "name": "Z Nation (720p)",
-        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/dff3a92e-c4aa-49c4-b1b6-4a847428b8d5-width200-quality90.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098"
-      },
-      {
-        "name": "Zee One (720p)",
-        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/b2b4d09d-3471-4dbf-a831-3191cfc66bec-width200-quality90.jpeg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_ZeeWorld-1/playlist.m3u8"
       }
     ],
     "Entertainment": [
@@ -2303,11 +614,11 @@
         "url": "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ki)/index.m3u8"
       },
       {
-        "name": "Italia 2 (480p) [Geo-blocked]",
+        "name": "Italia 2 [Geo-blocked]",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_Italia2.svg/512px-Logo_Italia2.svg.png",
         "group": "Entertainment",
         "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8"
+        "url": "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i2)/index.m3u8"
       },
       {
         "name": "La5 [Geo-blocked]",
@@ -2431,6 +742,13 @@
         "url": "https://5db313b643fd8.streamlock.net/MinformoTV/MinformoTV/playlist.m3u8"
       },
       {
+        "name": "Polsat News Polityka (1080p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://109.233.89.166/Polsat_News_Polityka/index.m3u8"
+      },
+      {
         "name": "Rai News 24 (720p)",
         "logo": "https://i.imgur.com/n2u57y3.png",
         "group": "News",
@@ -2487,6 +805,918 @@
         "url": "https://5db313b643fd8.streamlock.net/ZerounoTVEventi/ZerounoTVEventi/playlist.m3u8"
       }
     ],
+    "Undefined": [
+      {
+        "name": "27 TwentySeven [Geo-blocked]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/512px-Twentyseven_logo.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://live2.msf.cdn.mediaset.net/content/hls_h0_cls_vos/live/channel(ts)/index.m3u8"
+      },
+      {
+        "name": "AB Channel (720p)",
+        "logo": "https://i.imgur.com/SVkDShV.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://tsw.streamingwebtv24.it:1936/abchanneltv/abchanneltv/playlist.m3u8"
+      },
+      {
+        "name": "Bigtime (720p)",
+        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/1fe37ff8-c6b7-4123-8c68-653d657b4c5f-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://103f01c3ff79408e83c9212f8a374ecc.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_BjgtjmeDarmoweFilmy/playlist.m3u8"
+      },
+      {
+        "name": "Bike (720p)",
+        "logo": "https://i.imgur.com/WrNxg2k.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://backup.superstreaming.inaria.me/BikeSmartMobilityDTT/playlist.m3u8"
+      },
+      {
+        "name": "Bom Channel",
+        "logo": "https://i.imgur.com/WVcS0kN.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5f22d76e220e1.streamlock.net/BOMCHANNEL/BOMCHANNEL/playlist.m3u8"
+      },
+      {
+        "name": "CafeTV24 (720p)",
+        "logo": "https://i.imgur.com/SRFzjja.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://srvx1.selftv.video/cafe/live/playlist.m3u8"
+      },
+      {
+        "name": "Canale 8 (480p)",
+        "logo": "https://i.imgur.com/xwYmFgj.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://wms.shared.streamshow.it/canale8/canale8/playlist.m3u8"
+      },
+      {
+        "name": "Car City Adventures (720p)",
+        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/bd356b80-79d9-46ff-9674-e69aaf10022f-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/b6397b24-18b0-49c2-80bf-0333ae568e37/5.m3u8"
+      },
+      {
+        "name": "CarinaTV (720p)",
+        "logo": "https://i.imgur.com/ANGD7gv.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://stream7.zivoli.it/carinatv/carinatv/playlist.m3u8"
+      },
+      {
+        "name": "Euro TV (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/HFWWzKT.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8"
+      },
+      {
+        "name": "FIFA+ (720p)",
+        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/a27208c4-021a-45e8-a250-11f8ffab36c8-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8"
+      },
+      {
+        "name": "Grjngo (720p)",
+        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/1fe37ff8-c6b7-4123-8c68-653d657b4c5f-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_GrjngoWesterny/playlist.m3u8"
+      },
+      {
+        "name": "Hard Knocks Fighting Championship (720p)",
+        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/13b0a6c7-4307-4c8d-9fc4-df2a4f8e8b38-hard-knocks-fighting-1602077398-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/2ee2b8d4-acc4-4296-9dc8-66f1ffd0fff8/5.m3u8"
+      },
+      {
+        "name": "Italia 2 TV (480p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/TDSgG28.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://wms.shared.streamshow.it/italia2/mp4:italia2/playlist.m3u8"
+      },
+      {
+        "name": "Italia 7",
+        "logo": "https://i.imgur.com/xc0kUHk.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8"
+      },
+      {
+        "name": "Moconomy (1080p)",
+        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/9da0ec4d-85ea-45f4-b3f9-ae917d1714f9-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://3ee905090d464be5a51478fd9c642e93.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_Moconomy/playlist.m3u8"
+      },
+      {
+        "name": "Monster Jam (720p)",
+        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://4b9627c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vbnN0ZXJKYW1fSExT/playlist.m3u8"
+      },
+      {
+        "name": "Paradise TV [Geo-blocked]",
+        "logo": "https://i.imgur.com/OKhpyWr.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://tsw.streamingwebtv24.it:1936/paradisetv/paradisetv/playlist.m3u8"
+      },
+      {
+        "name": "People Are Awesome (720p)",
+        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/1cc9ab7e-8283-4c32-a3f3-e2a4d0e1d33f-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8"
+      },
+      {
+        "name": "PFL MMA (720p)",
+        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/f4058a54-67b9-432c-b80e-3bfcf8d2d6d1-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8"
+      },
+      {
+        "name": "Primocanale (1080p) [Not 24/7]",
+        "logo": "https://i.imgur.com/eunZ2Sa.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8"
+      },
+      {
+        "name": "R 101 Italia IT (576p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/R101_-_Logo_2015.svg/512px-R101_-_Logo_2015.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://live3-radio-mediaset-it.akamaized.net/content/hls_h0_clr_vos/live/channel(er)/index.m3u8"
+      },
+      {
+        "name": "Radio 51 TV (480p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/UupkBt6.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://178.32.140.155/canale51/canale51/playlist.m3u8"
+      },
+      {
+        "name": "Radio 105 TV (576p)",
+        "logo": "https://i.imgur.com/F2dUQM1.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://live3-radio-mediaset-it.akamaized.net/content/hls_h0_clr_vos/live/channel(ec)/index.m3u8"
+      },
+      {
+        "name": "Radio Birikina TV (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/CFAx6m5.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8"
+      },
+      {
+        "name": "Radio Freccia TV (1080p)",
+        "logo": "https://i.imgur.com/RxeRlar.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8"
+      },
+      {
+        "name": "Radio Ibiza TV (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/KfFqYQi.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5929b138b139d.streamlock.net/RadioIbizaTV/livestream/playlist.m3u8"
+      },
+      {
+        "name": "Radio Iglesias (576p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/2OXQpZM.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://wms.shared.streamshow.it/visualradio/mp4:visualradio/playlist.m3u8"
+      },
+      {
+        "name": "Radio Iglesias Sardegna (576p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/KDtVpLl.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://59d7d6f47d7fc.streamlock.net/visualradio/visualradio/playlist.m3u8"
+      },
+      {
+        "name": "Radio Montecarlo (576p)",
+        "logo": "https://i.imgur.com/by9XvWF.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://live3-radio-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(bb)/index.m3u8"
+      },
+      {
+        "name": "Radio Number One (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/8cpuaG5.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://56b50ada2d659.streamlock.net/RN1TV/livestream/playlist.m3u8"
+      },
+      {
+        "name": "Radio Radio TV (720p)",
+        "logo": "https://i.imgur.com/ZDHBfdI.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://api.new.livestream.com/accounts/11463451/events/3679884/live.m3u8"
+      },
+      {
+        "name": "Radio Studio Delta TV (1080p) [Not 24/7]",
+        "logo": "https://i.imgur.com/xJqVOpn.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5ce9406b73c33.streamlock.net/RSD/ngrp:livestream_all/playlist.m3u8"
+      },
+      {
+        "name": "Radio Taormina Sicilia (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/SrhtocV.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://stream2.xdevel.com/video1s3-7/stream/playlist.m3u8"
+      },
+      {
+        "name": "Radio Zeta TV (1080p)",
+        "logo": "https://i.imgur.com/K2xLMin.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8"
+      },
+      {
+        "name": "like Gecko) Mobile/15E148\",Rai 1 (480p) [Not 24/7]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/512px-Rai_1_-_Logo_2016.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://ott-cdn.ucom.am/s29/index.m3u8"
+      },
+      {
+        "name": "Rai 2 (576p) [Geo-blocked]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/512px-Rai_2_-_Logo_2016.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718"
+      },
+      {
+        "name": "Rai 3 (720p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/512px-Rai_3_-_Logo_2016.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8"
+      },
+      {
+        "name": "Rai 4 (576p)",
+        "logo": "https://i.imgur.com/sEY21rg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=746966"
+      },
+      {
+        "name": "RAI 4K [Geo-blocked]",
+        "logo": "https://i.imgur.com/O1K1fv4.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8"
+      },
+      {
+        "name": "Rai 5 (576p) [Geo-blocked]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/512px-Rai_5_-_Logo_2017.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276"
+      },
+      {
+        "name": "Rai Gulp (1080p)",
+        "logo": "https://i.imgur.com/irAhPJM.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://188.60.179.180:8000/play/xxRaiGulpxx"
+      },
+      {
+        "name": "Rai Premium (1080p)",
+        "logo": "https://i.imgur.com/40g5Urz.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://188.60.179.180:8000/play/a0oy"
+      },
+      {
+        "name": "Rai Scuola (576p) [Geo-blocked]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/512px-Rai_Scuola_-_Logo_2017.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011"
+      },
+      {
+        "name": "Rai Storia (576p) [Geo-blocked]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/512px-Rai_Storia_-_Logo_2017.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990"
+      },
+      {
+        "name": "RDS Social TV (720p)",
+        "logo": "https://i.imgur.com/bxGvE8C.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8"
+      },
+      {
+        "name": "Red Carpet TV International (1080p)",
+        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/a52f843a-9a9c-4d96-8f77-57f3ec96acb0-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa-40c6-41b8-8634-595c424f856e/21f67fd1-4d21-43ba-8ad8-3afac9982c25/master.m3u8"
+      },
+      {
+        "name": "ReggioTV (480p) [Not 24/7]",
+        "logo": "https://i.imgur.com/cEwJkRV.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8"
+      },
+      {
+        "name": "Rete 4 [Geo-blocked]",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Rete_4_2018.svg/512px-Rete_4_2018.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(r4)/index.m3u8"
+      },
+      {
+        "name": "Rete 55 (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/UtS9YLc.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://stream.internet.one/Rete55_Live/index.m3u8"
+      },
+      {
+        "name": "Rete Biella TV (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/I4OVxIb.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://sb.top-ix.org/retebiella/streaming/playlist.m3u8"
+      },
+      {
+        "name": "Rete Oro (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/3oYiBSz.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8"
+      },
+      {
+        "name": "Retemia (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/IbzQpfn.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5db313b643fd8.streamlock.net/Retemia/Retemia/playlist.m3u8"
+      },
+      {
+        "name": "Retesole Lazio (480p)",
+        "logo": "https://i.imgur.com/vvVgZN2.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8"
+      },
+      {
+        "name": "Reteveneta (480p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/it/d/df/Logo_Rete_Veneta.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://59d7d6f47d7fc.streamlock.net/reteveneta/reteveneta/playlist.m3u8"
+      },
+      {
+        "name": "Revry (720p)",
+        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8"
+      },
+      {
+        "name": "RTC Telecalabria (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/NnFopuS.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://fl1.mediastreaming.it:1935/calabriachannel/livestream/playlist.m3u8"
+      },
+      {
+        "name": "RTL 102.5 Best (1080p)",
+        "logo": "https://i.imgur.com/ahWJwvT.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://streamcdnb7-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8"
+      },
+      {
+        "name": "RTL 102.5 Bro&Sis (1080p)",
+        "logo": "https://i.imgur.com/1ZutMTJ.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://streamcdnb6-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S75007890/MUGHuxc9dQ3b/playlist.m3u8"
+      },
+      {
+        "name": "RTL 102.5 Doc (1080p)",
+        "logo": "https://i.imgur.com/1gAeWPP.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://streamcdnb12-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8"
+      },
+      {
+        "name": "RTL 102.5 Napulé (1080p)",
+        "logo": "https://i.imgur.com/jFD0oOD.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://streamcdnb5-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S27134503/0f9AhuwKlhnZ/playlist_video.m3u8"
+      },
+      {
+        "name": "RTL 102.5 Romeo&Juliet (1080p)",
+        "logo": "https://i.imgur.com/MKWjSef.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://streamcdnb4-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8"
+      },
+      {
+        "name": "RTL 102.5 TV (1080p)",
+        "logo": "https://i.imgur.com/75qUdR7.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://streamcdnb12-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8"
+      },
+      {
+        "name": "RTL (576p)",
+        "logo": "https://i.imgur.com/94K94k2.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://s6.hopslan.com/rtlc1/tracks-v1a1/mono.m3u8"
+      },
+      {
+        "name": "RTL Zwei (1080p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://178.219.128.68:64888/RTL2"
+      },
+      {
+        "name": "RTP (404p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/8/86/Logo_Radio_Televisione_Peloritana.svg/512px-Logo_Radio_Televisione_Peloritana.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8"
+      },
+      {
+        "name": "RTTR Trento (720p)",
+        "logo": "https://i.imgur.com/6DyzN8M.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8"
+      },
+      {
+        "name": "San Marino RTV (720p)",
+        "logo": "https://i.imgur.com/ZJSWusT.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8"
+      },
+      {
+        "name": "Sardegna Uno",
+        "logo": "https://i.imgur.com/gv2pLIp.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Sardegna1.m3u8"
+      },
+      {
+        "name": "Shades of Black (1080p)",
+        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://rakutenaa-fusemedia-shadesofblack-rakutena-giu24.amagi.tv/playlist/rakutenAA-fusemedia-shadesofblack-rakutenA/playlist.m3u8"
+      },
+      {
+        "name": "Sophia TV Italy (720p)",
+        "logo": "https://i.imgur.com/RPXusvS.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://bild-und-ton.stream/sophiatv-it/smil:sophia-tv-it.smil/playlist.m3u8"
+      },
+      {
+        "name": "Stereo 5 TV (720p)",
+        "logo": "https://i.imgur.com/sCDcYFW.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://stream1.aswifi.it/stereo5/live/index.m3u8"
+      },
+      {
+        "name": "Super J TV (720p)",
+        "logo": "https://i.imgur.com/H3uItqg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://54627d4fc5996.streamlock.net/SuperJtv/SuperJtv/playlist.m3u8"
+      },
+      {
+        "name": "Super! (480p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/512px-Super%21_logo_2021.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://vimnitaly.akamaized.net/hls/live/2094034/super/master-2500.m3u8"
+      },
+      {
+        "name": "TCI (1080p)",
+        "logo": "https://i.imgur.com/XVOCtVF.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://tbn-jw.cdn.vustreams.com/live/tci/live.isml/2b7d53c5-b504-4d26-b25f-a70deb8d0faf.m3u8"
+      },
+      {
+        "name": "Tele Abruzzo (384p)",
+        "logo": "https://i.imgur.com/XymK2PR.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://uk4.streamingpulse.com:1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8"
+      },
+      {
+        "name": "Tele Liguria Sud (576p)",
+        "logo": "https://i.imgur.com/OxgSGUW.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
+      },
+      {
+        "name": "Tele Pavia (720p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/66/LOGO_telePAVIA.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://wms.shared.streamshow.it/telepavia/telepavia/playlist.m3u8"
+      },
+      {
+        "name": "Tele Pegaso Catania (404p) [Not 24/7]",
+        "logo": "https://i.imgur.com/2syaOJz.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://flash2.xdevel.com/telepegasocanale812/telepegasocanale812/playlist.m3u8"
+      },
+      {
+        "name": "Tele Quattro (480p) [Not 24/7]",
+        "logo": "https://telequattro.medianordest.it/wp-content/uploads/2020/10/T4Logo120.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://wms.shared.streamshow.it/telequattro/telequattro/playlist.m3u8"
+      },
+      {
+        "name": "Tele Radio Sciacca (240p) [Not 24/7]",
+        "logo": "https://i.imgur.com/uyNOVUW.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://5cbd3bc28341f.streamlock.net:1935/trs_live/teleradiosciacca-tv/playlist.m3u8"
+      },
+      {
+        "name": "TeleArena (480p)",
+        "logo": "https://i.imgur.com/cTmsGJD.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5ce9406b73c33.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8"
+      },
+      {
+        "name": "Telebelluno (720p)",
+        "logo": "https://i.imgur.com/jHzI1JP.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8"
+      },
+      {
+        "name": "Telecolor Lombardia (1080p) [Not 24/7]",
+        "logo": "https://i.imgur.com/QfJqBno.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8"
+      },
+      {
+        "name": "Telefoggia (480p) [Not 24/7]",
+        "logo": "https://i.imgur.com/ImvO2rV.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://wms.shared.streamshow.it/telefoggia/mp4:telefoggia/playlist.m3u8"
+      },
+      {
+        "name": "Telefriuli (1080p)",
+        "logo": "https://i.imgur.com/He3uCs6.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5757bf2aa08e42248fb9b9d620f5d900.msvdn.net/live/S11646715/pE3ax0lT0rBd/playlist.m3u8"
+      },
+      {
+        "name": "TeleGenova (404p)",
+        "logo": "https://i.imgur.com/UYIUDWF.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5db313b643fd8.streamlock.net/Telegenova/Telegenova/playlist.m3u8"
+      },
+      {
+        "name": "Telegranda (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/j3r0URO.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://live.sloode.com:1935/telegranda_live/C2AD-0664-DC75-4744/playlist.m3u8"
+      },
+      {
+        "name": "Teleliberta (486p) [Not 24/7]",
+        "logo": "https://i.imgur.com/424KS6J.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://api.new.livestream.com/accounts/17114188/events/4902226/live.m3u8"
+      },
+      {
+        "name": "TeleMia (576p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Telemia.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8"
+      },
+      {
+        "name": "TeleMia Extra (576p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Telemia.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8"
+      },
+      {
+        "name": "TeleMistretta (1080p)",
+        "logo": "https://i.imgur.com/BLhvyEi.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8"
+      },
+      {
+        "name": "Telemolise (1080p)",
+        "logo": "https://i.imgur.com/aTs88Es.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://185.202.128.1:1935/TelemoliseStream/telemoliseTV.stream/playlist.m3u8"
+      },
+      {
+        "name": "teleMonteneve (480p) [Not 24/7]",
+        "logo": "https://i.imgur.com/UAtEkvI.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://wms.shared.streamshow.it:1935/telemonteneve/telemonteneve/live.m3u8"
+      },
+      {
+        "name": "Telenord (576p) [Not 24/7]",
+        "logo": "https://telenord.it/assets/images/logo.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5db313b643fd8.streamlock.net/Telenord/Telenord/playlist.m3u8"
+      },
+      {
+        "name": "Telesud Trapani (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/JNohS1G.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://5cbd3bc28341f.streamlock.net:1935/telesud/live/playlist.m3u8"
+      },
+      {
+        "name": "TeleTerni (720p)",
+        "logo": "https://i.imgur.com/U1BjkEl.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://diretta.teleterni.it:8080/show/show.m3u8"
+      },
+      {
+        "name": "Teletricolore (480p) [Not 24/7]",
+        "logo": "https://i.imgur.com/GajzIN6.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8"
+      },
+      {
+        "name": "TeleTusciaSabina 2000 (576p) [Not 24/7]",
+        "logo": "https://i.imgur.com/cfexNL9.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/playlist.m3u8"
+      },
+      {
+        "name": "TeleVenezia (576p)",
+        "logo": "https://i.imgur.com/RG4o4Ni.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://59d7d6f47d7fc.streamlock.net/televenezia/televenezia/playlist.m3u8"
+      },
+      {
+        "name": "TeleVideo Agrigento (480p)",
+        "logo": "https://i.imgur.com/crMQmn4.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://59d7d6f47d7fc.streamlock.net/tva/tva/playlist.m3u8"
+      },
+      {
+        "name": "TG Norba 24 (404p)",
+        "logo": "https://i.imgur.com/zAZcSgz.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://router.xdevel.com/video0s976570-1326/stream/playlist_dvr.m3u8"
+      },
+      {
+        "name": "TNA Wrestling Channel (720p)",
+        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039"
+      },
+      {
+        "name": "TOP Barca (1080p)",
+        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/7c59e962-086b-4d64-afb3-7f83ca8c3377-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8"
+      },
+      {
+        "name": "Top Movies Polska (720p)",
+        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8"
+      },
+      {
+        "name": "Trentino TV (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/Xcw3TRB.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8"
+      },
+      {
+        "name": "TT2 Teletutto (720p)",
+        "logo": "https://i.imgur.com/85BolCh.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://600f07e114306.streamlock.net/TT2_TELETUTTO/livestream/playlist.m3u8"
+      },
+      {
+        "name": "TT24 Teletutto (720p)",
+        "logo": "https://i.imgur.com/RhrJjD5.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://600f07e114306.streamlock.net/TT24_TELETUTTO/livestream/playlist.m3u8"
+      },
+      {
+        "name": "TV7 Benevento (288p) [Not 24/7]",
+        "logo": "https://i.imgur.com/VBhVaKB.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8"
+      },
+      {
+        "name": "TV7 Triveneta (562p)",
+        "logo": "https://i.imgur.com/ndFoo4V.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://www.gruppotv7.com:8090/hls/ireporter.m3u8"
+      },
+      {
+        "name": "TV Prato (1080p)",
+        "logo": "https://i.imgur.com/72mAJtf.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://live.mariatvcdn.com/tvprato/2db0dd5674586686a867ec52c3aa8e06.sdp/index.m3u8"
+      },
+      {
+        "name": "TV Qui (Modena) (480p)",
+        "logo": "https://i.imgur.com/YfMVNDE.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8"
+      },
+      {
+        "name": "TV Sei (576p) [Not 24/7]",
+        "logo": "https://i.imgur.com/H8fklOG.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://185.202.128.1:1935/Tv6Stream/tv6TV.stream/playlist.m3u8"
+      },
+      {
+        "name": "TV Yes Italia (720p)",
+        "logo": "https://i.imgur.com/3CDxatu.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8"
+      },
+      {
+        "name": "TVA (Vicenza) (720p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/0/0f/TVA_Vicenza_-_Logo_2018.svg/512px-TVA_Vicenza_-_Logo_2018.svg.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8"
+      },
+      {
+        "name": "TVE Internacional Europe-Asia [Geo-blocked]",
+        "logo": "https://i.imgur.com/ow1HArj.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8"
+      },
+      {
+        "name": "TVL (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/2wkSHNI.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
+      },
+      {
+        "name": "TVRS (576p) [Not 24/7]",
+        "logo": "https://i.imgur.com/6bxtL6D.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://wms.shared.streamshow.it:1935/tvrs/tvrs/live.m3u8"
+      },
+      {
+        "name": "Umbria TV (576p) [Not 24/7]",
+        "logo": "https://i.imgur.com/olJIJ7c.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8"
+      },
+      {
+        "name": "UniNettuno University TV (720p)",
+        "logo": "https://i.imgur.com/c9So8nf.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8"
+      },
+      {
+        "name": "Vera TV (1080p) [Not 24/7]",
+        "logo": "https://i.imgur.com/7o1bq3p.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://wms.shared.streamshow.it/veratv/mp4:veratv/playlist.m3u8"
+      },
+      {
+        "name": "Viasat Explore Classic (720p)",
+        "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8"
+      },
+      {
+        "name": "Videolina (Sardegna) (404p) [Not 24/7]",
+        "logo": "https://i.imgur.com/nQwXaef.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://livestreaming.videolina.it/live/Videolina/playlist.m3u8"
+      },
+      {
+        "name": "Visual Radio (576p) [Not 24/7]",
+        "logo": "https://i.imgur.com/ah14ah0.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "http://wms.shared.streamshow.it:1935/visualradio/visualradio/live.m3u8"
+      },
+      {
+        "name": "Vuemme (480p)",
+        "logo": "https://i.imgur.com/Cs1kX12.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8"
+      },
+      {
+        "name": "Well TV",
+        "logo": "https://i.imgur.com/ueUddW1.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://5f22d76e220e1.streamlock.net/canale5/canale5/playlist.m3u8"
+      },
+      {
+        "name": "World Billiards (720p)",
+        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe-width200-quality90.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8"
+      },
+      {
+        "name": "World of Freesports (1080p)",
+        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/77aa6871-a13f-470b-a2d5-ca5650f63323-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/rakutenAA-mainstreammediafreesportsintl-rakuten/playlist.m3u8"
+      },
+      {
+        "name": "Z Nation (720p)",
+        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/dff3a92e-c4aa-49c4-b1b6-4a847428b8d5-width200-quality90.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098"
+      },
+      {
+        "name": "Zee One (720p)",
+        "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/b2b4d09d-3471-4dbf-a831-3191cfc66bec-width200-quality90.jpeg",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
+        "url": "https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_ZeeWorld-1/playlist.m3u8"
+      }
+    ],
     "Music": [
       {
         "name": "51 Radio TV (480p) [Geo-blocked]",
@@ -2524,11 +1754,11 @@
         "url": "https://58f12ffd2447a.streamlock.net/KKTVNapoli/livestream/playlist.m3u8"
       },
       {
-        "name": "Kiss Kiss TV (720p)",
+        "name": "Kiss Kiss TV (1080p)",
         "logo": "https://i.imgur.com/ja6c2YZ.png",
         "group": "Music",
         "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://58f12ffd2447a.streamlock.net/KKTV01/livestream/playlist.m3u8"
+        "url": "https://58f12ffd2447a.streamlock.net/KKMulti/livestream/playlist.m3u8"
       },
       {
         "name": "m2o TV (1080p)",
@@ -2645,11 +1875,11 @@
         "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8"
       },
       {
-        "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
+        "name": "Sportitalia SoloCalcio",
         "logo": "https://i.imgur.com/hu56Ya5.png",
         "group": "Sports",
         "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8"
+        "url": "https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8"
       },
       {
         "name": "TR Sport (480p)",
@@ -2756,11 +1986,11 @@
         "url": "https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8"
       },
       {
-        "name": "Rai Movie (576p) [Geo-blocked]",
+        "name": "Rai Movie (1080p)",
         "logo": "https://i.imgur.com/0FjxXU9.png",
         "group": "Movies",
         "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002"
+        "url": "http://188.60.179.180:8000/play/xxRaiMOviexx"
       }
     ],
     "Kids": [
@@ -2786,11 +2016,11 @@
         "url": "https://mondotv-mondotvkids-1-it.samsung.wurl.tv/playlist.m3u8"
       },
       {
-        "name": "Rai YoYo (576p) [Geo-blocked]",
+        "name": "Rai Yoyo (1080p)",
         "logo": "https://i.imgur.com/9gCxiDy.png",
         "group": "Kids",
         "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899"
+        "url": "http://188.60.179.180:8000/play/xxRaiYoyo"
       }
     ],
     "Legislative": [
@@ -2964,11 +2194,11 @@
         "url": "https://stream.mariatvcdn.com/tsd/7c59373bfdb38201b9215ff86f0ce6af.sdp/playlist.m3u8"
       },
       {
-        "name": "TV2000 (360p) [Not 24/7]",
+        "name": "TV 2000 (720p)",
         "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/0/0d/Logo_tv2000_2015.svg/512px-Logo_tv2000_2015.svg.png",
         "group": "Religious",
         "source": "https://iptv-org.github.io/iptv/countries/it.m3u",
-        "url": "http://cld01ibi16.wz.tv2000.it/tv2000_alfa.m3u8"
+        "url": "https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8"
       }
     ],
     "Outdoor;Shop": [
@@ -3282,13 +2512,6 @@
         "group": "Altro",
         "source": "https://raw.githubusercontent.com/gRullo/italym3u/refs/heads/main/italy.m3u",
         "url": "https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8"
-      },
-      {
-        "name": "TV2000",
-        "logo": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/tv2000.png",
-        "group": "Altro",
-        "source": "https://raw.githubusercontent.com/gRullo/italym3u/refs/heads/main/italy.m3u",
-        "url": "https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8"
       },
       {
         "name": "LA7d",
