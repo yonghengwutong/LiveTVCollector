@@ -309,8 +309,8 @@ https://cors.lim.workers.dev/https://cdn08jtedge.indihometv.com/dassdvr/134/hits
 https://dai.google.com/linear/hls/event/x7rXWd2ERZ2tvyQWPmO1HA/master.m3u8
 #EXTINF:-1 tvg-logo="https://dl.dropbox.com/s/dpzomifbirnqpq3/Rakuten%20tv.png" group-title="Movies",Rakuten Movies
 https://rakuten-actionmovies-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/D2qNVZ7.png" group-title="Movies",CinemaWorld (576p) [Geo-blocked]
-http://210.210.155.35/dr9445/h/h04/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/D2qNVZ7.png" group-title="Movies",CinemaWorld (576p)
+http://210.210.155.37/dr9445/h/h04/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/BTmcTQO.png" group-title="Movies",My Cinema (1080p)
 http://210.210.155.37/uq2663/h/h192/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4XVZLW0.png" group-title="Movies",My Cinema Asia (1080p) [Geo-blocked]
@@ -1643,8 +1643,8 @@ https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
 https://dutatv.siar.us/dutatv/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/q8ahtbT.png" group-title="General",FTV (民視) (720p) [Not 24/7]
 http://seb.sason.top/ptv/ftv.php?id=ms
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sXsAcZ3.png" group-title="General",Garuda TV (480p) [Geo-blocked]
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch45)/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sXsAcZ3.png" group-title="General",Garuda TV (720p)
+https://etv-cdn.kdb.co.id/GarudaTV-Stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/BaNtB6K.png" group-title="General",Jambi TV (576p) [Not 24/7]
 http://122.248.43.138:1935/ch23/myStream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wh75d1f.png" group-title="General",Jek TV (720p) [Not 24/7]
@@ -1679,8 +1679,8 @@ https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
 http://122.248.43.138:1935/ch27/myStream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Gg6OcGT.png" group-title="Religious",I AM CHANNEL (576p) [Not 24/7]
 http://iamchannel.org:1935/tes/1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/tY7IJva.png" group-title="Religious",Kanal 10 Asia (540p) [Not 24/7]
-https://cdn-kanal10.crossnet.net/kanal10/ngrp:kanal10asia_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tY7IJva.png" group-title="Religious",Kanal 10 Asia (540p)
+http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xrNtabe.png" group-title="Religious",MGI TV (720p) [Geo-blocked]
 https://tv.rodja.live/tasik/ngrp:mgitv_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3kGs7k0.png" group-title="Religious",MTA TV (720p) [Geo-blocked]
@@ -1695,8 +1695,6 @@ https://v2.siar.us/bmstv/livestream/playlist.m3u8
 http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8gdyddg.png" group-title="Undefined",Biznet Adventure (720p) [Geo-blocked]
 https://cdn01-telkomsel-01.akamaized.net/Content/HLS/Live/channel(41d51f9f-8855-e625-012f-304a1f0eb538)/index.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Undefined",BNTV [Geo-blocked]
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch394)/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/KK1ipNk.png" group-title="Undefined",Citra Bioskop (720p) [Geo-blocked]
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch376)/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/77KYgbz.png" group-title="Undefined",Citra Dangdut [Geo-blocked]
@@ -1713,8 +1711,8 @@ http://103.140.188.211:1935/radartv/myStream/playlist.m3u8
 http://122.248.43.138:1935/ch17/myStream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dlsv1sl.png" group-title="Undefined",Rajawali TV
 https://cdn09jtedge.indihometv.com/joss/130/rtv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CyIlt0y.png" group-title="Undefined",RCTV (576p) [Not 24/7]
-https://v10.siar.us/rctv/live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CyIlt0y.png" group-title="Undefined",RCTV (720p) [Not 24/7]
+http://122.248.43.138:1935/ch9/myStream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1g8FtJi.png" group-title="Undefined",Riau TV (576p) [Not 24/7]
 http://122.248.43.138:1935/ch11/myStream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Undefined",Rodja TV (720p)
