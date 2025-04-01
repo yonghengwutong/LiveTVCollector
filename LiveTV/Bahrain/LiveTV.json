@@ -1,5 +1,5 @@
 {
-  "date": "2025-03-31 21:42:22",
+  "date": "2025-04-01 06:24:39",
   "channels": {
     "General": [
       {
@@ -186,18 +186,18 @@
         "url": "https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8"
       },
       {
-        "name": "BBC Arabic (540p)",
+        "name": "BBC Arabic (720p)",
         "logo": "https://i.imgur.com/ScyTG6P.png",
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/bh.m3u",
-        "url": "https://vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8"
+        "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd"
       },
       {
-        "name": "CGTN Arabic (576p) [Not 24/7]",
+        "name": "CGTN Arabic (1080p) [Not 24/7]",
         "logo": "https://i.imgur.com/AkFFrS7.png",
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/bh.m3u",
-        "url": "https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8"
+        "url": "https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8"
       },
       {
         "name": "Medi 1 TV Arabic (1080p) [Not 24/7]",
@@ -214,11 +214,11 @@
         "url": "https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8"
       },
       {
-        "name": "Sky News Arabia (720p) [Not 24/7]",
+        "name": "Sky News Arabia (1080p) [Not 24/7]",
         "logo": "https://i.imgur.com/SvjU4h6.png",
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/bh.m3u",
-        "url": "https://stream.skynewsarabia.com/hls/sna.m3u8"
+        "url": "https://stream.skynewsarabia.com/ott/ott.m3u8"
       },
       {
         "name": "Sky News Arabia (Portrait) (1280p) [Not 24/7]",
@@ -228,11 +228,11 @@
         "url": "https://stream.skynewsarabia.com/vertical/vertical.m3u8"
       },
       {
-        "name": "TRT Arabi (1080p) [Not 24/7]",
+        "name": "TRT Arabi (1080p)",
         "logo": "https://i.imgur.com/dEfI2M9.png",
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/bh.m3u",
-        "url": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8"
+        "url": "http://185.234.111.229:8000/play/a002"
       }
     ],
     "Religious": [

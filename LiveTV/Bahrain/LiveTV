@@ -150,15 +150,15 @@
     "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Aljazeera_Mubasher.svg/512px-Aljazeera_Mubasher.svg.png"
   },
   {
-    "name": "BBC Arabic (540p)",
+    "name": "BBC Arabic (720p)",
     "type": "News",
-    "url": "https://vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8",
+    "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd",
     "img": "https://i.imgur.com/ScyTG6P.png"
   },
   {
-    "name": "CGTN Arabic (576p) [Not 24/7]",
+    "name": "CGTN Arabic (1080p) [Not 24/7]",
     "type": "News",
-    "url": "https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8",
+    "url": "https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8",
     "img": "https://i.imgur.com/AkFFrS7.png"
   },
   {
@@ -174,9 +174,9 @@
     "img": "https://i.imgur.com/G8vGrn1.png"
   },
   {
-    "name": "Sky News Arabia (720p) [Not 24/7]",
+    "name": "Sky News Arabia (1080p) [Not 24/7]",
     "type": "News",
-    "url": "https://stream.skynewsarabia.com/hls/sna.m3u8",
+    "url": "https://stream.skynewsarabia.com/ott/ott.m3u8",
     "img": "https://i.imgur.com/SvjU4h6.png"
   },
   {
@@ -186,9 +186,9 @@
     "img": "https://i.imgur.com/FjtzQQs.png"
   },
   {
-    "name": "TRT Arabi (1080p) [Not 24/7]",
+    "name": "TRT Arabi (1080p)",
     "type": "News",
-    "url": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8",
+    "url": "http://185.234.111.229:8000/play/a002",
     "img": "https://i.imgur.com/dEfI2M9.png"
   },
   {
