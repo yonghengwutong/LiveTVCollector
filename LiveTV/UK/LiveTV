@@ -12,16 +12,10 @@
     "img": "https://i.imgur.com/nAldca2.png"
   },
   {
-    "name": "Aaj Tak (360p) [Geo-blocked]",
+    "name": "Aaj Tak",
     "type": "News",
-    "url": "https://lmil.live-s.cdn.bitgravity.com/cdn-live/_definst_/lmil/live/aajtak_app.smil/playlist.m3u8",
+    "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
     "img": "https://i.imgur.com/RpIdCB3.png"
-  },
-  {
-    "name": "BBC News (540p) [Geo-blocked]",
-    "type": "News",
-    "url": "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8",
-    "img": "https://i.imgur.com/vSz2WEp.png"
   },
   {
     "name": "BBC Persian (720p)",
@@ -36,9 +30,9 @@
     "img": "https://i.imgur.com/dtrTfZC.png"
   },
   {
-    "name": "GB News (720p) [Geo-blocked]",
+    "name": "GB News",
     "type": "News",
-    "url": "https://amg01076-lightning-amg01076c7-klowdtv-us-2128.playouts.now.amagi.tv/playlist/amg01076-lightning-gbnews-klowdtvus/playlist.m3u8",
+    "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/512px-GB_News_Logo.svg.png"
   },
   {
@@ -48,10 +42,16 @@
     "img": "https://i.imgur.com/55RpaF3.png"
   },
   {
-    "name": "NBC News Now (1080p)",
+    "name": "NBC News NOW",
     "type": "News",
-    "url": "https://livetv-fa.tubi.video/nbc-news-now/master.m3u8",
+    "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5df97894467dfa00091c873c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5101-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f97284ae-c6d0-447a-b3ee-5be284830e0b",
     "img": "https://i.imgur.com/JZt2qh5.png"
+  },
+  {
+    "name": "Polsat News Polityka (1080p)",
+    "type": "News",
+    "url": "http://109.233.89.166/Polsat_News_Polityka/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png"
   },
   {
     "name": "Aathavan TV (720p) [Not 24/7]",
@@ -222,21 +222,21 @@
     "img": "https://i.imgur.com/7LhsQ6v.png"
   },
   {
-    "name": "Now 70s (720p)",
+    "name": "Now 70's",
     "type": "Music",
-    "url": "https://lightning-now70s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now70s-rakuten/CDN/playlist.m3u8",
+    "url": "https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8",
     "img": "https://i.imgur.com/qiCCX5X.png"
   },
   {
-    "name": "Now 80s (720p)",
+    "name": "Now 80's",
     "type": "Music",
-    "url": "https://lightning-now80s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now80s-rakuten/CDN/playlist.m3u8",
+    "url": "https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8",
     "img": "https://i.imgur.com/YyPnMeB.png"
   },
   {
-    "name": "NOW Rock (480p)",
+    "name": "NOW Rock",
     "type": "Music",
-    "url": "https://lightning-now90s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now90s-rakuten/CDN/playlist.m3u8",
+    "url": "https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8",
     "img": "https://i.imgur.com/GuM4GnX.png"
   },
   {
@@ -294,15 +294,15 @@
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png"
   },
   {
-    "name": "BBC Scotland (540p) [Geo-blocked]",
+    "name": "BBC Scotland (1080p)",
     "type": "General",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_scotland_hd/pc_hd_abr_v2.m3u8",
+    "url": "http://92.114.85.72:8000/play/a0mf",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/BBC_Scotland_2021_%28channel%29.svg/512px-BBC_Scotland_2021_%28channel%29.svg.png"
   },
   {
-    "name": "BBC Three (540p) [Geo-blocked]",
+    "name": "BBC Three",
     "type": "General",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/t=3840/v=pv10/b=1604032/main.m3u8",
+    "url": "https://x.canlitvapp.com/u-bbc3/index.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/512px-BBC_Three_2022.svg.png"
   },
   {
@@ -414,9 +414,9 @@
     "img": "https://i.ibb.co/XS9szYh/Cropped-logoq-1-1.png"
   },
   {
-    "name": "TGRT Europe (576p)",
+    "name": "TGRT Europe (1080p)",
     "type": "General",
-    "url": "https://tv.ensonhaber.com/tv/tr/tgrteu/index.m3u8",
+    "url": "https://canli.tgrteu.com/tgrteu.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png"
   },
   {
@@ -450,118 +450,10 @@
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/512px-BBC_Four_logo_2021.svg.png"
   },
   {
-    "name": "BBC News (North America) (1080p)",
-    "type": "Undefined",
-    "url": "https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC News Asia Pacific (720p)",
-    "type": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One Channel Islands (720p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_channel_islands/pc_hd_abr_v2.mpd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One East (720p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east/pc_hd_abr_v2.mpd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One East Midlands (720p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_midlands/pc_hd_abr_v2.mpd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One East Yorkshire (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_yorkshire/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One London (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/mobile_wifi_main_sd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One North East (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_east/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One North West (720p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_west/pc_hd_abr_v2.mpd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One Northern Ireland HD (720p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_northern_ireland_hd/pc_hd_abr_v2.mpd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One Scotland (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_scotland_hd/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One South (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One South East (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south_east/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One South West (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south_west/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One Wales (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_wales_hd/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One West (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_west/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One West Midlands (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_west_midlands/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC One Yorks (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC RB 1 (720p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-cmaf-pushb-uk.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:red_button_one/iptv_hd_abr_v1.mpd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
+    "name": "BBC Parliament (720p) [Geo-blocked]",
+    "type": "Legislative",
+    "url": "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/iptv_hd_abr_v1.mpd",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/512px-BBC_Parliament_Logo.svg.png"
   },
   {
     "name": "BBC Red Button 1 (720p) [Geo-blocked]",
@@ -708,112 +600,16 @@
     "img": "https://i.imgur.com/g2Aga13.png"
   },
   {
-    "name": "BBC Two HD (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/mobile_wifi_main_sd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC Two Northen Ireland (540p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_northern_ireland_hd/pc_hd_abr_v2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "BBC Two Wales (720p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_wales_digital/iptv_hd_abr_v1.mpd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Bloomberg TV EMEA Live Event (720p)",
-    "type": "Undefined",
-    "url": "https://bloomberg.com/media-manifest/streams/eu-event.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Bloomberg TV Europe (720p)",
-    "type": "Undefined",
-    "url": "https://bloomberg.com/media-manifest/streams/eu.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Bridezillas",
-    "type": "Undefined",
-    "url": "https://run-br-uk.otteravision.com/run/br_uk/br_uk_720.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Comedy Channel (1080p)",
-    "type": "Undefined",
-    "url": "https://uksono1-samsunguk.amagi.tv/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "FIFA+ (720p)",
     "type": "Undefined",
     "url": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8",
     "img": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/a27208c4-021a-45e8-a250-11f8ffab36c8-width200-quality90.jpeg"
   },
   {
-    "name": "Golf Zone (1080p)",
-    "type": "Undefined",
-    "url": "http://195.189.60.33:9002/play/a006",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/0/00/GOLFZONE.jpg"
-  },
-  {
-    "name": "GREAT! Mystery (1080p)",
-    "type": "Undefined",
-    "url": "https://linear-861.frequency.stream/dist/lg-uk/861/hls/master/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Gusto TV (720p)",
-    "type": "Undefined",
-    "url": "https://gustotv-samsung-gb.samsung.wurl.tv/manifest/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Hadi TV French (720p)",
-    "type": "Undefined",
-    "url": "https://live.ishiacloud.com/haditv.co.uk/haditv8.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Hadi TV Indonesian and Thai (720p)",
-    "type": "Undefined",
-    "url": "https://live.ishiacloud.com/haditv.co.uk/haditv2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Hadi TV Turkish and Kurdish (720p)",
-    "type": "Undefined",
-    "url": "https://live.ishiacloud.com/haditv.co.uk/haditv7.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "Hard Knocks Fighting Championship (720p)",
     "type": "Undefined",
     "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/2ee2b8d4-acc4-4296-9dc8-66f1ffd0fff8/5.m3u8",
     "img": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/13b0a6c7-4307-4c8d-9fc4-df2a4f8e8b38-hard-knocks-fighting-1602077398-width200-quality90.jpeg"
-  },
-  {
-    "name": "Inside Crime (1080p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://blaze-fast-inside-crime-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/blaze-fast-inside-crime-amagi/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "InWild (720p)",
-    "type": "Undefined",
-    "url": "https://inwild-samsung-uk.amagi.tv/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Loveworld TV (1080p) [Not 24/7]",
-    "type": "Undefined",
-    "url": "https://cdn3.wowza.com/5/L1Uzd2FrbVlLRG1W/live/smil:lwukweb.smil/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "MBC (1080p)",
@@ -828,12 +624,6 @@
     "img": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg"
   },
   {
-    "name": "Mystery TV (1080p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://blaze-fast-mystery-tv-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/blaze-fast-mystery-tv-amagi/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "People Are Awesome (720p)",
     "type": "Undefined",
     "url": "https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8",
@@ -846,118 +636,10 @@
     "img": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/f4058a54-67b9-432c-b80e-3bfcf8d2d6d1-width200-quality90.jpeg"
   },
   {
-    "name": "Pluto TV Animals (England) (720p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf8ea0d000120009bcad83/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ddf8ea0d000120009bcad83&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=550&terminate=false&userId=",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Antiques Roadshow UK (240p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ce44810b421747ae467b7cd/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ce44810b421747ae467b7cd&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=621&terminate=false&userId=",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Antiques Roadshow UK (720p) [Not 24/7]",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ce44810b421747ae467b7cd/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV BBC Food (720p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV BBC Home (720p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5836fe745b600070fc743/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Biography (720p) [Not 24/7]",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d4af2a24f1c5ab2d298776b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Classic Movies (England) (720p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d134a74ca91eedee1630faa/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d134a74ca91eedee1630faa&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=903&terminate=false&userId=",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Classic TV (720p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e46ae801f347500099d461a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35f76fb0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=2fac39a7-56bc-492e-ae1e-3f6fb6cef1bc",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Crime (England) (720p) [Not 24/7]",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea18cd42ee5410007e349dc/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ea18cd42ee5410007e349dc&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=200&terminate=false&userId=",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Food (England) (720p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf930548ff9b00090d5686/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ddf930548ff9b00090d5686&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=500&terminate=false&userId=",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Movies (England) (684p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ad8d3a31b95267e225e4e09/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ad8d3a31b95267e225e4e09&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=50&terminate=false&userId=",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Paranormal (England) (720p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d4af2ffa9506ab29cf38c38/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d4af2ffa9506ab29cf38c38&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=216&terminate=false&userId=",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Romance (684p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5a66795ef91fef2c7031c599/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5a66795ef91fef2c7031c599&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=70&terminate=false&userId=",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Sherlock (720p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc2c00abfed110009d97243/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Sports (720p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6081310e48d3200007afaf3b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8bf322-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0727f4fb-ea0b-4814-bb58-fdf3c4534220",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Pluto TV Stand Up (360p)",
-    "type": "Undefined",
-    "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5637d31f319573e26b64040b/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5637d31f319573e26b64040b&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=468&terminate=false&userId=",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Polsat News Polityka (1080p)",
-    "type": "Undefined",
-    "url": "http://109.233.89.166/Polsat_News_Polityka/index.m3u8",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png"
-  },
-  {
     "name": "Pop (1080p)",
     "type": "Undefined",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-popkids-lggb/playlist.m3u8",
     "img": "https://i.imgur.com/fGUlCY3.png"
-  },
-  {
-    "name": "Rakuten Top Movies UK (1080p)",
-    "type": "Undefined",
-    "url": "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "Red Carpet TV International (1080p)",
@@ -978,15 +660,15 @@
     "img": "https://i.imgur.com/94K94k2.png"
   },
   {
-    "name": "RTL Zwei (576p)",
+    "name": "RTL Zwei (1080p)",
     "type": "Undefined",
-    "url": "https://s6.hopslan.com/rtl2x1/index.m3u8",
+    "url": "http://178.219.128.68:64888/RTL2",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png"
   },
   {
-    "name": "S4C (720p) [Geo-blocked]",
+    "name": "S4C (1080p) [Geo-blocked]",
     "type": "Undefined",
-    "url": "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:s4cpbs/iptv_hd_abr_v1.mpd",
+    "url": "https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3u8",
     "img": "https://i.imgur.com/vrcbnBv.png"
   },
   {
@@ -1002,27 +684,15 @@
     "img": "https://i.imgur.com/p0QzCFs.png"
   },
   {
-    "name": "Strongman (720p)",
+    "name": "STV (1080p) [Geo-blocked]",
     "type": "Undefined",
-    "url": "https://cb4748b76e2c4b11bb5790666256964b.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_StrongmanChampionsLeague/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "STV (720p) [Geo-blocked]",
-    "type": "Undefined",
-    "url": "https://csm-e-stv-eb.tls1.yospace.com/csm/extlive/stv01,prd-ml-stv-gla-subs.m3u8",
+    "url": "https://csm-e-stv-eb.tls1.yospace.com/csm/extlive/stv01,prd-ml-stv-edi-subs.m3u8",
     "img": "https://i.imgur.com/KiOnQnD.png"
   },
   {
-    "name": "STV+1 (1080p) [Geo-blocked]",
+    "name": "Takbeer TV (1080p)",
     "type": "Undefined",
-    "url": "https://csm-e-stv-eb.tls1.yospace.com/csm/extlive/stv01,prd-ml-stvplusone-gla-subs.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Takbeer TV (576p)",
-    "type": "Undefined",
-    "url": "http://92.114.85.72:8000/play/a09b",
+    "url": "https://ap02.iqplay.tv:8082/iqb8002/t5kb86/playlist.m3u8",
     "img": "https://i.imgur.com/Cvnps2J.jpg"
   },
   {
@@ -1038,9 +708,9 @@
     "img": "https://i.imgur.com/KxHWpQB.png"
   },
   {
-    "name": "TBN UK (576p)",
+    "name": "TBN UK (1080p)",
     "type": "Undefined",
-    "url": "http://92.114.85.72:8000/play/a0nj",
+    "url": "https://live-tbn-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/tbn-live/manifest.m3u8",
     "img": "https://i.imgur.com/vFllwLd.png"
   },
   {
@@ -1054,12 +724,6 @@
     "type": "Undefined",
     "url": "https://live-hochanda.simplestreamcdn.com/hochanda/live.m3u8",
     "img": "https://i.imgur.com/Nf0vaAF.png"
-  },
-  {
-    "name": "Tiny Pop +1 (576p)",
-    "type": "Undefined",
-    "url": "http://92.114.85.72:8000/play/a08p",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "TNA Wrestling Channel (720p)",
@@ -1086,9 +750,9 @@
     "img": "https://i.imgur.com/qkbRslf.png"
   },
   {
-    "name": "TV Warehouse (576p)",
+    "name": "TV Warehouse (720p)",
     "type": "Undefined",
-    "url": "http://92.114.85.72:8000/play/a09i",
+    "url": "https://tvwarehouse.r.worldssl.net/mystream.m3u8",
     "img": "https://i.imgur.com/CMuczfY.png"
   },
   {
@@ -1108,12 +772,6 @@
     "type": "Undefined",
     "url": "http://92.114.85.72:8000/play/aOb3",
     "img": "https://i.imgur.com/r3pqSHl.png"
-  },
-  {
-    "name": "ViDoc TV (1080p)",
-    "type": "Undefined",
-    "url": "http://185.236.229.62:9981/play/a051",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/ViDoc_TV_%282024%29.svg/320px-ViDoc_TV_%282024%29.svg.png"
   },
   {
     "name": "Wonder (720p)",
@@ -1146,12 +804,6 @@
     "img": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/b2b4d09d-3471-4dbf-a831-3191cfc66bec-width200-quality90.jpeg"
   },
   {
-    "name": "BBC Parliament (720p) [Geo-blocked]",
-    "type": "Legislative",
-    "url": "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/iptv_hd_abr_v1.mpd",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/512px-BBC_Parliament_Logo.svg.png"
-  },
-  {
     "name": "Beano TV (720p)",
     "type": "Series",
     "url": "https://beanostudios-beanotv-1-gb.samsung.wurl.tv/playlist.m3u8",
@@ -1170,9 +822,9 @@
     "img": "https://i.imgur.com/tk8G4CU.png"
   },
   {
-    "name": "CBeebies HD (720p) [Geo-blocked]",
+    "name": "CBeebies",
     "type": "Kids",
-    "url": "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/iptv_hd_abr_v1.mpd",
+    "url": "https://x.canlitvapp.com/u-cbeebies/index.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/512px-CBeebies.svg.png"
   },
   {
@@ -1206,15 +858,15 @@
     "img": "https://i.imgur.com/GdSotmS.png"
   },
   {
-    "name": "Teletubbies (720p)",
+    "name": "Teletubbies",
     "type": "Kids",
-    "url": "https://dhx-teletubbies-1-gb.samsung.wurl.tv/playlist.m3u8",
+    "url": "https://dhx-teletubbies-2-it.samsung.wurl.tv/playlist.m3u8",
     "img": "https://i.imgur.com/J9iWjWL.png"
   },
   {
-    "name": "Tiny Pop (576p)",
+    "name": "Tiny Pop (1080p)",
     "type": "Kids",
-    "url": "http://92.114.85.72:8000/play/a08g",
+    "url": "https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8",
     "img": "https://i.imgur.com/zCTf71x.png"
   },
   {
@@ -1326,9 +978,9 @@
     "img": "https://i.imgur.com/VWHp5Tl.png"
   },
   {
-    "name": "Gems TV (360p)",
+    "name": "Gems TV (720p)",
     "type": "Shop",
-    "url": "https://lo2-1.gemporia.com/abrgemporiaukgfx/smil:livestream.smil/playlist.m3u8",
+    "url": "https://lo3.gemporia.com/abrgemporiaukgfx/smil:livestream.smil/playlist.m3u8",
     "img": "https://i.imgur.com/WgaJufI.png"
   },
   {
@@ -1374,9 +1026,9 @@
     "img": "https://i.imgur.com/1x6zYZr.png"
   },
   {
-    "name": "Real Stories (720p)",
+    "name": "Real Stories",
     "type": "Documentary",
-    "url": "https://realstories-samsung-uk.amagi.tv/playlist.m3u8",
+    "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realstoriesnz-samsungnz/playlist.m3u8",
     "img": "https://i.imgur.com/PG15QKA.png"
   },
   {
@@ -1386,9 +1038,9 @@
     "img": "https://pbs.twimg.com/profile_images/1604994875459518464/lGt2wEqM_400x400.jpg"
   },
   {
-    "name": "The Guardian (720p)",
+    "name": "The Guardian",
     "type": "Documentary;News",
-    "url": "https://0d0239e437124ddcb8090d815caf4013.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-gb_TheGuardianChannel/playlist.m3u8",
+    "url": "https://rakuten-guardian-1-ie.samsung.wurl.tv/playlist.m3u8",
     "img": "https://i.imgur.com/o9AYq9V.png"
   },
   {
