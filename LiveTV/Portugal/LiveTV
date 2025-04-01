@@ -20,7 +20,7 @@
   {
     "name": "TVI",
     "type": "TV",
-    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMS8yMDI1IDQ6NzozNCBQTSZoYXNoX3ZhbHVlPXFOOVV5VTVabzhiQ3NRRTFIQlNTcHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wZWZhMjVmMy1hMzk1LTQ0ZTktYWVjNS1hNjE4Y2M4OWQyMTM=/",
+    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xLzIwMjUgMTI6MzM6MSBBTSZoYXNoX3ZhbHVlPUtlM2MvelVocFZtUzh6T1RXS3AzdGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yYTM2ZThjOC0zODVjLTQ4NDEtOTJmYy00NjIxODlhMzFjNWE=/",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png"
   },
   {
@@ -38,7 +38,7 @@
   {
     "name": "CNN Portugal",
     "type": "TV",
-    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMS8yMDI1IDQ6NzozNCBQTSZoYXNoX3ZhbHVlPVFRQ2pBQXhjYnRtM2pwbFU0N0lBdXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yZTBlM2I2Ny0yODFjLTRhNjUtODMwYi0wOWFhZDI1ZWU3NGU=/",
+    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xLzIwMjUgMTI6MzM6MSBBTSZoYXNoX3ZhbHVlPS9HVDFEVGFIbE1SdEx2d2xCUFFrcGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1mNmI1ZDQzYy00NGRiLTQxMGQtYmEyNy05ZDQ3NGI4Nzc2Njc=/",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png"
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "TVI Internacional",
     "type": "TV",
-    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMS8yMDI1IDQ6NzozNSBQTSZoYXNoX3ZhbHVlPTY5SVk3UUNGYlF1dHlMZm1UV3Q4Wmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1mNzU5YjY4Mi1mOWVjLTRjZmMtOGFlZi1lOGE1ZGIyMzBjNDE=/",
+    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xLzIwMjUgMTI6MzM6MiBBTSZoYXNoX3ZhbHVlPXV3cElZbkxMdzBTbGFMSHRUa0JMc3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMzZjMDUyNC1iOGU1LTQyN2MtYjFhMy01ODVjNWYyMzg3OGU=/",
     "img": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png"
   },
   {
@@ -5118,16 +5118,16 @@
     "img": "https://i.imgur.com/IUVRm5L.png"
   },
   {
-    "name": "RTP 3 (504p) [Not 24/7]",
+    "name": "Polsat News Polityka (1080p)",
     "type": "News",
-    "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8",
-    "img": "https://i.imgur.com/ohXJmiR.png"
+    "url": "http://109.233.89.166/Polsat_News_Polityka/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png"
   },
   {
-    "name": "SIC Notícias (1080p) [Geo-blocked]",
+    "name": "RTP 3 (720p) [Not 24/7]",
     "type": "News",
-    "url": "https://sicnot.live.impresa.pt/sicnot.m3u8",
-    "img": "https://i.imgur.com/Gi6Q26M.png"
+    "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
+    "img": "https://i.imgur.com/ohXJmiR.png"
   },
   {
     "name": "ADB TV (1080p)",
@@ -5268,12 +5268,6 @@
     "img": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/a27208c4-021a-45e8-a250-11f8ffab36c8-width200-quality90.jpeg"
   },
   {
-    "name": "Golf Zone (1080p)",
-    "type": "Undefined",
-    "url": "http://195.189.60.33:9002/play/a006",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/0/00/GOLFZONE.jpg"
-  },
-  {
     "name": "Grjngo (720p)",
     "type": "Undefined",
     "url": "https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_GrjngoWesterny/playlist.m3u8",
@@ -5310,18 +5304,6 @@
     "img": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/f4058a54-67b9-432c-b80e-3bfcf8d2d6d1-width200-quality90.jpeg"
   },
   {
-    "name": "Polsat News Polityka (1080p)",
-    "type": "Undefined",
-    "url": "http://109.233.89.166/Polsat_News_Polityka/index.m3u8",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png"
-  },
-  {
-    "name": "Rakuten Documentários",
-    "type": "Undefined",
-    "url": "https://ead2625dd95b42dabfd015fadcf144e3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6222/master.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "Red Carpet TV International (1080p)",
     "type": "Undefined",
     "url": "https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa-40c6-41b8-8634-595c424f856e/21f67fd1-4d21-43ba-8ad8-3afac9982c25/master.m3u8",
@@ -5340,9 +5322,9 @@
     "img": "https://i.imgur.com/94K94k2.png"
   },
   {
-    "name": "RTL Zwei (576p)",
+    "name": "RTL Zwei (1080p)",
     "type": "Undefined",
-    "url": "https://s6.hopslan.com/rtl2x1/index.m3u8",
+    "url": "http://178.219.128.68:64888/RTL2",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png"
   },
   {
@@ -5380,12 +5362,6 @@
     "type": "Undefined",
     "url": "https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8",
     "img": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg"
-  },
-  {
-    "name": "ViDoc TV (1080p)",
-    "type": "Undefined",
-    "url": "http://185.236.229.62:9981/play/a051",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/ViDoc_TV_%282024%29.svg/320px-ViDoc_TV_%282024%29.svg.png"
   },
   {
     "name": "World Billiards (720p)",
@@ -5538,9 +5514,9 @@
     "img": "https://i.imgur.com/T6WUqdn.png"
   },
   {
-    "name": "RTP Açores (504p) [Not 24/7]",
+    "name": "RTP Açores (720p) [Not 24/7]",
     "type": "General",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacores.smil/playlist.m3u8",
+    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RTP_A%C3%A7ores_%282016%29.svg/512px-RTP_A%C3%A7ores_%282016%29.svg.png"
   },
   {
@@ -5556,15 +5532,9 @@
     "img": "https://i.imgur.com/jCpfdiJ.png"
   },
   {
-    "name": "SIC (1080p) [Geo-blocked]",
+    "name": "TGRT Europe (1080p)",
     "type": "General",
-    "url": "https://sic.live.impresa.pt/sic.m3u8",
-    "img": "https://i.imgur.com/SPMqiDG.png"
-  },
-  {
-    "name": "TGRT Europe (576p)",
-    "type": "General",
-    "url": "https://tv.ensonhaber.com/tv/tr/tgrteu/index.m3u8",
+    "url": "https://canli.tgrteu.com/tgrteu.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png"
   },
   {

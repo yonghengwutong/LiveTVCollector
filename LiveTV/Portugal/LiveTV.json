@@ -1,5 +1,5 @@
 {
-  "date": "2025-03-31 21:49:06",
+  "date": "2025-04-01 06:50:43",
   "channels": {
     "TV": [
       {
@@ -28,7 +28,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
         "group": "TV",
         "source": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u",
-        "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMS8yMDI1IDQ6NzozNCBQTSZoYXNoX3ZhbHVlPXFOOVV5VTVabzhiQ3NRRTFIQlNTcHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wZWZhMjVmMy1hMzk1LTQ0ZTktYWVjNS1hNjE4Y2M4OWQyMTM=/"
+        "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xLzIwMjUgMTI6MzM6MSBBTSZoYXNoX3ZhbHVlPUtlM2MvelVocFZtUzh6T1RXS3AzdGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yYTM2ZThjOC0zODVjLTQ4NDEtOTJmYy00NjIxODlhMzFjNWE=/"
       },
       {
         "name": "RTP 3",
@@ -49,7 +49,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
         "group": "TV",
         "source": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u",
-        "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMS8yMDI1IDQ6NzozNCBQTSZoYXNoX3ZhbHVlPVFRQ2pBQXhjYnRtM2pwbFU0N0lBdXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yZTBlM2I2Ny0yODFjLTRhNjUtODMwYi0wOWFhZDI1ZWU3NGU=/"
+        "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xLzIwMjUgMTI6MzM6MSBBTSZoYXNoX3ZhbHVlPS9HVDFEVGFIbE1SdEx2d2xCUFFrcGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1mNmI1ZDQzYy00NGRiLTQxMGQtYmEyNy05ZDQ3NGI4Nzc2Njc=/"
       },
       {
         "name": "CNN Brasil",
@@ -112,7 +112,7 @@
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
         "group": "TV",
         "source": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u",
-        "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMS8yMDI1IDQ6NzozNSBQTSZoYXNoX3ZhbHVlPTY5SVk3UUNGYlF1dHlMZm1UV3Q4Wmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1mNzU5YjY4Mi1mOWVjLTRjZmMtOGFlZi1lOGE1ZGIyMzBjNDE=/"
+        "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xLzIwMjUgMTI6MzM6MiBBTSZoYXNoX3ZhbHVlPXV3cElZbkxMdzBTbGFMSHRUa0JMc3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMzZjMDUyNC1iOGU1LTQyN2MtYjFhMy01ODVjNWYyMzg3OGU=/"
       },
       {
         "name": "TVI África",
@@ -5992,18 +5992,18 @@
         "url": "https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8"
       },
       {
-        "name": "RTP 3 (504p) [Not 24/7]",
+        "name": "Polsat News Polityka (1080p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
+        "url": "http://109.233.89.166/Polsat_News_Polityka/index.m3u8"
+      },
+      {
+        "name": "RTP 3 (720p) [Not 24/7]",
         "logo": "https://i.imgur.com/ohXJmiR.png",
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
-        "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8"
-      },
-      {
-        "name": "SIC Notícias (1080p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/Gi6Q26M.png",
-        "group": "News",
-        "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
-        "url": "https://sicnot.live.impresa.pt/sicnot.m3u8"
+        "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8"
       }
     ],
     "Religious": [
@@ -6173,13 +6173,6 @@
         "url": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8"
       },
       {
-        "name": "Golf Zone (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/00/GOLFZONE.jpg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
-        "url": "http://195.189.60.33:9002/play/a006"
-      },
-      {
         "name": "Grjngo (720p)",
         "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/1fe37ff8-c6b7-4123-8c68-653d657b4c5f-width200-quality90.jpeg",
         "group": "Undefined",
@@ -6222,20 +6215,6 @@
         "url": "https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8"
       },
       {
-        "name": "Polsat News Polityka (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
-        "url": "http://109.233.89.166/Polsat_News_Polityka/index.m3u8"
-      },
-      {
-        "name": "Rakuten Documentários",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
-        "url": "https://ead2625dd95b42dabfd015fadcf144e3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6222/master.m3u8"
-      },
-      {
         "name": "Red Carpet TV International (1080p)",
         "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/a52f843a-9a9c-4d96-8f77-57f3ec96acb0-width200-quality90.jpeg",
         "group": "Undefined",
@@ -6257,11 +6236,11 @@
         "url": "https://s6.hopslan.com/rtlc1/tracks-v1a1/mono.m3u8"
       },
       {
-        "name": "RTL Zwei (576p)",
+        "name": "RTL Zwei (1080p)",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png",
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
-        "url": "https://s6.hopslan.com/rtl2x1/index.m3u8"
+        "url": "http://178.219.128.68:64888/RTL2"
       },
       {
         "name": "Shades of Black (1080p)",
@@ -6304,13 +6283,6 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
         "url": "https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8"
-      },
-      {
-        "name": "ViDoc TV (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/ViDoc_TV_%282024%29.svg/320px-ViDoc_TV_%282024%29.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
-        "url": "http://185.236.229.62:9981/play/a051"
       },
       {
         "name": "World Billiards (720p)",
@@ -6506,11 +6478,11 @@
         "url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8"
       },
       {
-        "name": "RTP Açores (504p) [Not 24/7]",
+        "name": "RTP Açores (720p) [Not 24/7]",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RTP_A%C3%A7ores_%282016%29.svg/512px-RTP_A%C3%A7ores_%282016%29.svg.png",
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
-        "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacores.smil/playlist.m3u8"
+        "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8"
       },
       {
         "name": "RTP Madeira (504p) [Not 24/7]",
@@ -6527,18 +6499,11 @@
         "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8"
       },
       {
-        "name": "SIC (1080p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/SPMqiDG.png",
-        "group": "General",
-        "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
-        "url": "https://sic.live.impresa.pt/sic.m3u8"
-      },
-      {
-        "name": "TGRT Europe (576p)",
+        "name": "TGRT Europe (1080p)",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png",
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
-        "url": "https://tv.ensonhaber.com/tv/tr/tgrteu/index.m3u8"
+        "url": "https://canli.tgrteu.com/tgrteu.m3u8"
       },
       {
         "name": "TV5Monde Europe (1080p) [Geo-blocked]",
