@@ -1,5 +1,5 @@
 {
-  "date": "2025-03-31 21:30:42",
+  "date": "2025-04-01 06:12:44",
   "channels": {
     "General": [
       {
@@ -16355,18 +16355,32 @@
         "url": "http://s18209.cdn.ngenix.net/hls/CH_R03_ZVEZDA/playlist.m3u8"
       },
       {
-        "name": "Antena 3 (480p)",
-        "logo": "https://i.imgur.com/USbmwiC.png",
+        "name": "12tv",
+        "logo": "https://i.imgur.com/VSTgXsh.png",
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "http://181.78.109.48:8000/play/a00f/index.m3u8"
+        "url": "https://cloud.streamingconnect.tv/hls/12tv/12tv2.m3u8"
       },
       {
-        "name": "TGRT Europe (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png",
+        "name": "La 1 (720p)",
+        "logo": "https://i.imgur.com/1jDS9UC.png",
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://tv.ensonhaber.com/tv/tr/tgrteu/index.m3u8"
+        "url": "https://ztnr.rtve.es/ztnr/1688877.m3u8"
+      },
+      {
+        "name": "La 1 Canarias (720p)",
+        "logo": "https://i.imgur.com/RqUJ4oj.png",
+        "group": "General",
+        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
+        "url": "https://ztnr.rtve.es/ztnr/5190066.m3u8"
+      },
+      {
+        "name": "La 1 Catalunya (720p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/512px-Logo_TVE-1.svg.png",
+        "group": "General",
+        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
+        "url": "https://ztnr.rtve.es/ztnr/3293681.m3u8"
       }
     ],
     "Shop": [
@@ -22262,13 +22276,6 @@
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
         "url": "https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8"
-      },
-      {
-        "name": "RT en Español (1080p) [Geo-blocked]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png",
-        "group": "News",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist.m3u8"
       }
     ],
     "Lifestyle;Relax": [
@@ -61556,11 +61563,18 @@
         "url": "https://fast-channels.atresmedia.com/648ef5551756b0e429af83cc/648ef5551756b0e429af83cc.m3u8"
       },
       {
-        "name": "La 2 (1080p) [Not 24/7]",
-        "logo": "https://i.imgur.com/3NwzqoB.png",
+        "name": "La 2 Canarias (720p)",
+        "logo": "https://i.imgur.com/iwDi3ND.png",
         "group": "Documentary",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://rtvelivestream-clnx.rtve.es/rtvesec/la2/la2_main_dvr.m3u8"
+        "url": "https://ztnr.rtve.es/ztnr/5468585.m3u8"
+      },
+      {
+        "name": "La 2 Catalunya (720p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/512px-Logo_TVE-2.svg.png",
+        "group": "Documentary",
+        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
+        "url": "https://ztnr.rtve.es/ztnr/3987218.m3u8"
       }
     ],
     "Travel": [
@@ -63191,27 +63205,6 @@
         "url": "https://directes-tv-cat.3catdirectes.cat/live-origin/oca3-hls/master.m3u8"
       },
       {
-        "name": "Clubbing TV (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://clubbingtv-rakuten.amagi.tv/playlist.m3u8"
-      },
-      {
-        "name": "Golf Zone (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/00/GOLFZONE.jpg",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "http://195.189.60.33:9002/play/a006"
-      },
-      {
-        "name": "iHola Play",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://rakuten-hola-2-es.samsung.wurl.tv/playlist.m3u8"
-      },
-      {
         "name": "Monster Jam (720p)",
         "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg",
         "group": "Undefined",
@@ -63233,32 +63226,11 @@
         "url": "https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8"
       },
       {
-        "name": "Pluto TV Animakids (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "name": "Rakuten Viki (1080p)",
+        "logo": "https://i.imgur.com/pbyd1g2.png",
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aabee6f4a2c00076a322c/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS"
-      },
-      {
-        "name": "Pluto TV Cine Acción (240p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
-      },
-      {
-        "name": "Pluto TV Comedia (Made in Spain) (720p) [Not 24/7]",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1abce155a03d0007718834/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS"
-      },
-      {
-        "name": "Pluto TV Kids (720p) [Not 24/7]",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd6dae8ce788b0009eaf77b/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId="
+        "url": "https://newidco-rakutenviki-2-eu.xiaomi.wurl.tv/playlist.m3u8"
       },
       {
         "name": "Revry (720p)",
@@ -63273,13 +63245,6 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
         "url": "https://s6.hopslan.com/rtlc1/tracks-v1a1/mono.m3u8"
-      },
-      {
-        "name": "RTL Zwei (576p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://s6.hopslan.com/rtl2x1/index.m3u8"
       },
       {
         "name": "Shades of Black (1080p)",
@@ -63310,32 +63275,11 @@
         "url": "https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8"
       },
       {
-        "name": "TV3 (1080p) [Geo-blocked]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/TV3.svg/300px-TV3.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://directes-tv-cat.3catdirectes.cat/live-origin/tv3-hls/master.m3u8"
-      },
-      {
-        "name": "TV3CAT (1080p) [Geo-blocked]",
+        "name": "TV3CAT (1080p)",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/512px-TV3CAT.svg.png",
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://directes-tv-cat.3catdirectes.cat/live-origin/tvi-hls/master.m3u8"
-      },
-      {
-        "name": "Tv Famypanc HD (1080p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "https://panel.host-live.com:19360/8042/8042.m3u8"
-      },
-      {
-        "name": "ViDoc TV (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/ViDoc_TV_%282024%29.svg/320px-ViDoc_TV_%282024%29.svg.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/es.m3u",
-        "url": "http://185.236.229.62:9981/play/a051"
+        "url": "https://directes-tv-int.3catdirectes.cat/live-origin/tvi-hls/master.m3u8"
       },
       {
         "name": "World Billiards (720p)",
