@@ -258,6 +258,7 @@ def main():
     # Specific M3U sources (12 sources)
     source_urls = [
         "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "https://raw.githubusercontent.com/tat2027/a/refs/heads/main/pk",
     ]
 
     # Set check_links=False for super speed, True for accuracy
