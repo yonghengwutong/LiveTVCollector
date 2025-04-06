@@ -259,6 +259,7 @@ def main():
     source_urls = [
         "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
         "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u",
     ]
 
     # Set check_links=False for super speed, True for accuracy
