@@ -260,6 +260,7 @@ def main():
         "https://raw.githubusercontent.com/djonyttnt/mytvnet/refs/heads/main/nonton",
         "https://raw.githubusercontent.com/moasisantonio/Moasis/refs/heads/main/moasisantonio.m3u",
         "https://raw.githubusercontent.com/denimaung/nontontv/refs/heads/main/playlist.M3U",
+        "https://raw.githubusercontent.com/okasahisnu/IPTV/refs/heads/main/Main",
         "https://iptv-org.github.io/iptv/countries/id.m3u",
     ]
 
