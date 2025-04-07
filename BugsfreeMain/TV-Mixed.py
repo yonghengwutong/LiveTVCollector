@@ -257,7 +257,8 @@ class M3UCollector:
 def main():
     # Specific M3U sources (12 sources)
     source_urls = [
-        "https://raw.githubusercontent.com/LiveTvWorldwide/IPTV/refs/heads/main/live.m3u",        
+        "https://raw.githubusercontent.com/LiveTvWorldwide/IPTV/refs/heads/main/live.m3u",
+        "https://raw.githubusercontent.com/pandvan/rakuten-m3u-generator/refs/heads/master/output/rakuten.m3u",
     ]
 
     # Set check_links=False for super speed, True for accuracy
