@@ -259,6 +259,7 @@ def main():
     source_urls = [
         "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u",
         "https://iptv-org.github.io/iptv/countries/pt.m3u",
+        "https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u",
     ]
 
     # Set check_links=False for super speed, True for accuracy
