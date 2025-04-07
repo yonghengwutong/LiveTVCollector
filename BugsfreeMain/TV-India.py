@@ -257,7 +257,8 @@ class M3UCollector:
 def main():
     # Specific M3U sources (12 sources)
     source_urls = [
-        "https://iptv-org.github.io/iptv/countries/in.m3u",        
+        "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "https://raw.githubusercontent.com/SUBHASHM3U8/M3u/refs/heads/main/README.md",
     ]
 
     # Set check_links=False for super speed, True for accuracy
