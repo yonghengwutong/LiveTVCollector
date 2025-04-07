@@ -258,6 +258,7 @@ def main():
     # Specific M3U sources (12 sources)
     source_urls = [
         "https://raw.githubusercontent.com/ahmedkassem2004/M3U-player/refs/heads/main/playlist.m3u",
+        "https://raw.githubusercontent.com/Sunstar16/FULL-IPTV-CHANNEL-PLAYLIST/refs/heads/main/Main%20Necessary%20Channels.m3u",
         "https://iptv-org.github.io/iptv/countries/es.m3u",
     ]
 
