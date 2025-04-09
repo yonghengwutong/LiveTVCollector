@@ -5,7 +5,7 @@ import re
 
 # Configuration
 input_m3u_urls = [
-    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ca.m3u",  # Try Canadian streams
 ]
 output_dir = "iptv_hls_output"
 final_m3u_file = os.path.join(output_dir, "final_output.m3u")
@@ -20,12 +20,12 @@ processed_urls = set()
 final_m3u_entries = []
 
 def process_stream(extinf, stream_url):
-    if not stream_url or stream_url in processed_urls:
-        print(f"Skipping duplicate or invalid stream: {stream_url}")
+    if not stream_url:
+        print(f"Skipping invalid stream: {stream_url}")
         return None, None
     
     channel_name_match = re.search(r',(.+)$', extinf)
-    channel_name = channel_name_match.group(1).strip() if channel_name_match else f"Stream_{len(processed_urls)}"
+    channel_name = channel_name_match.group(1).strip() if channel_name_match else f"Stream_{len(final_m3u_entries)//2}"
     safe_channel_name = re.sub(r'[^\w\-]', '_', channel_name)
     
     tvg_id = re.search(r'tvg-id="([^"]*)"', extinf)
@@ -138,8 +138,8 @@ for extinf, stream_url in stream_tasks[:5]:
     if result:
         extinf_line, hls_url = result
         final_m3u_entries.append(extinf_line)
-        final_m3u_entries.append(hls_url)  # Fixed typo
-        processed_urls.add(hls_url.split('/')[-2])
+        final_m3u_entries.append(hls_url)
+        processed_urls.add(stream_url)  # Use stream_url to allow duplicates with different names
         print(f"Collected: {extinf_line} -> {hls_url}")
     else:
         print("No valid result returned for a stream")
