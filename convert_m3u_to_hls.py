@@ -2,8 +2,6 @@ import ffmpeg
 import requests
 import os
 import re
-from urllib.parse import urlparse
-from multiprocessing import Pool, cpu_count
 
 # Configuration
 input_m3u_urls = [
@@ -11,7 +9,7 @@ input_m3u_urls = [
 ]
 output_dir = "iptv_hls_output"
 final_m3u_file = os.path.join(output_dir, "final_output.m3u")
-github_base_url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/iptv_hls_output/"  # Adjust for your repo
+github_base_url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/iptv_hls_output/"  # Your repo
 
 # Create output directory
 if not os.path.exists(output_dir):
@@ -21,8 +19,7 @@ if not os.path.exists(output_dir):
 processed_urls = set()
 final_m3u_entries = []
 
-def process_stream(args):
-    extinf, stream_url = args
+def process_stream(extinf, stream_url):
     if not stream_url or stream_url in processed_urls:
         print(f"Skipping duplicate or invalid stream: {stream_url}")
         return None, None
@@ -53,20 +50,44 @@ def process_stream(args):
             return None, None
         response.close()
         
-        stream = ffmpeg.input(stream_url, t='5')  # Limit to 5 seconds
+        # Try copying codecs first
+        stream = ffmpeg.input(stream_url, t='5')  # 5 seconds
         stream = ffmpeg.output(
             stream,
             output_m3u8,
             format='hls',
-            hls_time=2,  # Smaller segments
+            hls_time=1,  # 1-second segments
             hls_list_size=0,
             hls_segment_filename=segment_pattern,
-            c_v='libx264',
-            c_a='aac'
+            c_v='copy',  # Copy video
+            c_a='copy'   # Copy audio
         )
-        print(f"Converting to HLS: {output_m3u8}")
-        ffmpeg.run(stream, quiet=False)
+        print(f"Converting to HLS (copy): {output_m3u8}")
+        try:
+            ffmpeg.run(stream, quiet=False, overwrite_output=True)
+        except ffmpeg.Error:
+            # Fallback to re-encoding
+            print("Copy failed, re-encoding...")
+            stream = ffmpeg.input(stream_url, t='5')
+            stream = ffmpeg.output(
+                stream,
+                output_m3u8,
+                format='hls',
+                hls_time=1,
+                hls_list_size=0,
+                hls_segment_filename=segment_pattern,
+                c_v='libx264',
+                c_a='aac'
+            )
+            print(f"Converting to HLS (re-encode): {output_m3u8}")
+            ffmpeg.run(stream, quiet=False, overwrite_output=True)
+        
         print(f"Converted to {output_m3u8}")
+        if os.path.exists(output_m3u8):
+            print(f"Output file exists: {output_m3u8}")
+        else:
+            print(f"Output file missing: {output_m3u8}")
+            return None, None
         
         extinf_line = f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{tvg_logo}" group-title="{group_title}",{channel_name}'
         hls_url = f"{github_base_url}{safe_channel_name}.m3u8"
@@ -113,22 +134,17 @@ for m3u_url in input_m3u_urls:
 
 print(f"Total streams to process: {len(stream_tasks)}")
 
-# Parallel processing with error tolerance
-if stream_tasks:
-    with Pool(processes=cpu_count()) as pool:
-        results = pool.map(process_stream, stream_tasks[:5])  # Limit to 5 for testing
-    
-    # Collect results
-    for extinf_line, hls_url in results:
-        if extinf_line and hls_url:
-            final_m3u_entries.append(extinf_line)
-            final_m3u_entries.append(hls_url)
-            processed_urls.add(hls_url.split('/')[-2])
-            print(f"Collected: {extinf_line} -> {hls_url}")
-        else:
-            print("No valid result returned for a stream")
-else:
-    print("No streams to process")
+# Process streams sequentially
+for extinf, stream_url in stream_tasks[:5]:  # Limit to 5
+    result = process_stream(extinf, stream_url)
+    if result:
+        extinf_line, hls_url = result
+        final_m3u_entries.append(extinf_line)
+        final_m3u_entries.append(hls_url)  # Fixed typo from 'final_mu_entries'
+        processed_urls.add(hls_url.split('/')[-2])
+        print(f"Collected: {extinf_line} -> {hls_url}")
+    else:
+        print("No valid result returned for a stream")
 
 # Write the final M3U file
 with open(final_m3u_file, 'w') as f:
