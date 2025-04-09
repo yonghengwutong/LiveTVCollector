@@ -32,9 +32,9 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 
 Group: 13. |PT|🇵🇹 PORTUGAL
-Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtpinternacional" group-title="13. |PT|🇵🇹 PORTUGAL",RTP I
-URL: https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-Logo: https://i.ibb.co/SPR2SDK/RTP.png
+Name: TVI
+URL: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
+Logo: https://i.ibb.co/pyXp0bk/tvi.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 
@@ -47,7 +47,7 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 
 Group: 15. |MA-DZ-TN|🇲🇦🇩🇿🇹🇳 MAGHREB المغرب
 Name: AL AOULA LAÂYOUNE الأولى
-URL: https://cdn-globecast.akamaized.net/live/eds/al_aoula_laayoune/hls_snrt/index.m3u8
+URL: https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/playlist_dvr.m3u8
 Logo: https://i.ibb.co/n0Pwp2S/alaoulainter.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -100,7 +100,7 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 
 Group: 21. |IT|🇮🇹 ITALIA - LOCALE
-Name: RAI NEWS 24 (sometimes)
+Name: RAI NEWS 24
 URL: https://rainews2-live.akamaized.net/hls/live/598327/rainews2/rainews2/playlist.m3u8
 Logo: https://i.ibb.co/xGG27kS/raiit.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
@@ -230,11 +230,6 @@ Group: Culture
 Name: CDirect (360p)
 URL: http://51.254.199.122:8080/cdirectTV/index.m3u8
 Logo: https://i.imgur.com/Zis4TRh.png
-Source: https://iptv-org.github.io/iptv/countries/fr.m3u
---------------------------------------------------
-Name: Museum TV English (1080p)
-URL: https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xiaomi/playlist.m3u8
-Logo: https://i.imgur.com/WbjURLo.png
 Source: https://iptv-org.github.io/iptv/countries/fr.m3u
 --------------------------------------------------
 Name: Souvenirs from Earth TV
@@ -685,6 +680,11 @@ URL: https://raw.githubusercontent.com/BG47510/tube/refs/heads/main/lemedia.m3u8
 Logo: https://i.ibb.co/ZBqk6mK/lemedia.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: LE MÉDIA TV -1H
+URL: https://tvradiozap.eu/tools/mng-m3u8.php/936.1/60/master.m3u8
+Logo: https://i.ibb.co/ZBqk6mK/lemedia.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: EURONEWS FR
 URL: https://euronews-live-fre-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6564/bitok/e/26032/euronews-fr.m3u8
 Logo: https://i.ibb.co/VxLFYSj/euronews.png
@@ -875,13 +875,8 @@ URL: https://live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/m1/media.m3u8?bpkio_s
 Logo: https://i.ibb.co/HDB0sdh/bfmbusiness.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: LE MÉDIA TV (backup ok)
-URL: https://ythls.armelin.one/channel/UCT67YOMntJxfRnO_9bXDpvw.m3u8
-Logo: https://i.ibb.co/ZBqk6mK/lemedia.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
 Name: LE MÉDIA TV (backup ko)
-URL: https://ythlsgo.onrender.com/channel/UCT67YOMntJxfRnO_9bXDpvw.m3u8
+URL: https://tvradiozap.eu/936
 Logo: https://i.ibb.co/ZBqk6mK/lemedia.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -1215,9 +1210,9 @@ URL: https://tvradiozap.eu/tools/dm-m3u8.php/x5gv5rr.m3u8
 Logo: https://i.ibb.co/cQbcrGZ/c8.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: M6 (backup)
-URL: http://live.tntdirect.tv/9CM2pADCxF/w5BA32MP6P/6.m3u8
-Logo: https://i.ibb.co/wgJTdGY/m6.png
+Name: CSTAR (backup)
+URL: https://raw.githubusercontent.com/schumijo/iptv/main/playlists/canalplus/cstar.m3u8
+Logo: https://i.ibb.co/Sm9PtLR/cstar.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TF1 (backup)
@@ -1238,11 +1233,6 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: W9 (test)
 URL: https://joaquinito02.es/vavoo/128046615.m3u8
 Logo: https://i.ibb.co/LNRd253/w9.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: M6 (test)
-URL: http://gratuittv.free.fr/Files/m6/live/playlist.m3u8
-Logo: https://i.ibb.co/wgJTdGY/m6.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ARTE (backup)
@@ -1270,8 +1260,23 @@ URL: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ft
 Logo: https://i.ibb.co/N9d4yXt/fr5bl.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: M6 (check)
-URL: https://gitlab.com/movrey/movrel/-/raw/main/msixx.m3u8
+Name: M6 (backup)
+URL: http://live.tntdirect.tv/9CM2pADCxF/w5BA32MP6P/6.m3u8
+Logo: https://i.ibb.co/wgJTdGY/m6.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: M6 (backup)
+URL: https://live.tntdirect.tv/9CM2pADCxF/w5BA32MP6P/6.ts
+Logo: https://i.ibb.co/wgJTdGY/m6.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: M6 (backup)
+URL: https://live.tntdirect.tv/9CM2pADCxF/w5BA32MP6P/6.ts?extension=m3u8
+Logo: https://i.ibb.co/wgJTdGY/m6.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: M6 (test)
+URL: http://gratuittv.free.fr/Files/m6/live/playlist.m3u8
 Logo: https://i.ibb.co/wgJTdGY/m6.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -1288,11 +1293,6 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: GÉNÉRATIONS TV
 URL: https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 Logo: https://i.ibb.co/g3YTn6c/geneok.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: TPMP - ZOUBIDA TV
-URL: https://tvradiozap.eu/tools/dm-m3u8.php/x9fclww.m3u8
-Logo: https://i.ibb.co/fdsHsWZp/tpmp.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: MÉLODY
@@ -1535,13 +1535,28 @@ URL: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dm
 Logo: https://i.ibb.co/tcYgz6h/mensup.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: MEN'S UP TV
+URL: https://tvradiozap.eu/tools/dm-m3u8.php/x2kr3hs.m3u8
+Logo: https://i.ibb.co/tcYgz6h/mensup.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: TOP SANTÉ
 URL: https://d3tuo4zu8l334y.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x8ri0qojo9mfh/e5997ac8-9e9c-42cc-a2ef-633dc0a4f5a3/2.m3u8
 Logo: https://i.ibb.co/TLPBT2L/topsante.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: TOP SANTÉ
+URL: https://tvradiozap.eu/tools/dm-m3u8.php/720/x89yjnn.m3u8
+Logo: https://i.ibb.co/TLPBT2L/topsante.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: MAISON & TRAVAUX
 URL: https://d387lnkgycbwl.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sdi2aweg8u1y4/761cde02-1df4-4a1a-ad50-7033ede188ef/2.m3u8
+Logo: https://i.ibb.co/d66k2fw/maisontrvx.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: MAISON & TRAVAUX
+URL: https://d387lnkgycbwl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sdi2aweg8u1y4/master.m3u8
 Logo: https://i.ibb.co/d66k2fw/maisontrvx.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -1702,6 +1717,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 Name: MUSEUM
 URL: https://amg01492-secomsasmediart-museumtv-fr-rakuten-5ofja.amagi.tv/hls/amagi_hls_data_rakutenAA-museumtv-fr-rakuten/CDN/master.m3u8
+Logo: https://i.ibb.co/LgSzMCy/museum.webp
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: MUSEUM
+URL: https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xiaomi/playlist.m3u8
 Logo: https://i.ibb.co/LgSzMCy/museum.webp
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -2121,7 +2141,7 @@ Logo: https://i.ibb.co/KGNTppx/nancyweb.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: MAURIENNE TV
-URL: https://new.cache-stream.workers.dev/stream/UCva-htH2wvmKsG6SkcEJ4Vw/live.m3u8
+URL: https://raw.githubusercontent.com/SebTV-prod/streams/refs/heads/main/ressources/twitch/hls/MaurienneTV.m3u8
 Logo: https://i.ibb.co/MMDSDQ9/maurienne.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -2251,12 +2271,12 @@ Logo: https://i.ibb.co/nccDkr5/lmtv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ASTV
-URL: https://github.com/Sibprod/streams/raw/main/ressources/twitch/hls/ASTV.m3u8
+URL: https://raw.githubusercontent.com/SebTV-prod/streams/refs/heads/main/ressources/twitch/hls/ASTV.m3u8
 Logo: https://i.ibb.co/2qs2HxR/astv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TL7 LOIRE
-URL: https://x5ct4nu/
+URL: https://raw.githubusercontent.com/SebTV-prod/streams/refs/heads/main/ressources/twitch/hls/TL7.m3u8
 Logo: https://i.ibb.co/yRLR4Ny/tl7l.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -2525,6 +2545,11 @@ URL: https://livevideo.vedge.infomaniak.com/livecast/ik:canalalpha/manifest.m3u8
 Logo: https://i.ibb.co/st6cDg1/calpha.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: CANAL ALPHA
+URL: https://canalalphaju.vedge.infomaniak.com/livecast/canalalphaju/playlist.m3u8
+Logo: https://i.ibb.co/st6cDg1/calpha.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: M LE MÉDIA
 URL: https://raw.githubusercontent.com/BG47510/tube/refs/heads/main/mlemedia.m3u8
 Logo: https://i.ibb.co/FzJtxkx/mmediach.png
@@ -2547,6 +2572,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 Name: ICI QUÉBEC
 URL: https://rcavlive.akamaized.net/hls/live/696615/xcancbft/master.m3u8
+Logo: https://i.ibb.co/whkNzKNr/iciteleqb.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ICI QUÉBEC
+URL: https://rcavlive.akamaized.net/hls/live/664045/cancbvt/master.m3u8
 Logo: https://i.ibb.co/whkNzKNr/iciteleqb.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -2591,7 +2621,7 @@ Logo: https://i.ibb.co/4Mhmggc/tele1.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: KRT
-URL: https://koprulu2.global.ssl.fastly.net/yt.m3u8/?id=QGoLQhm_GaE.m3u8
+URL: http://trn03.tulix.tv/gt-krttv/tracks-v1a1/mono.m3u8
 Logo: https://i.ibb.co/jZShqBM/Krt24v2.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -2626,7 +2656,7 @@ Logo: https://i.ibb.co/xS3zLQr/ekoturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: CNN TÜRK
-URL: http://tgn.bozztv.com/dvrfl05/gin-cnnturk/index.m3u8
+URL: https://helga.iptv2022.com/sh/cnn_turk/index.m3u8
 Logo: https://i.ibb.co/JqWCczW/cnnturk1.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -2671,7 +2701,7 @@ Logo: https://i.ibb.co/B4XX5Vx/akittv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: A HABER
-URL: https://canlitvulusal.xyz/live/ahaber/index.m3u8
+URL: https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8
 Logo: https://i.ibb.co/1X8nWHc/ahaber.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -2686,7 +2716,7 @@ Logo: https://i.ibb.co/b2b6Zn0/businesschtr.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: A PARA
-URL: https://new.cache-stream.workers.dev/stream/UCzrGg6iyRDuUSnO0cQ5oLcA/live.m3u8
+URL: https://trkvz-live.ercdn.net/aparahd/aparahd.m3u8
 Logo: https://i.ibb.co/KwXzY6B/apara.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -2768,6 +2798,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: TV 100 (backup)
 URL: https://tv.ensonhaber.com/tv100/tv100.m3u8
 Logo: https://i.ibb.co/bLpTdYZ/tv100.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: CNN TÜRK (backup)
+URL: http://trn03.tulix.tv/gt-cnn-turk/tracks-v1a1/mono.m3u8
+Logo: https://i.ibb.co/JqWCczW/cnnturk1.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: CNN TÜRK (backup)
@@ -2860,6 +2895,16 @@ URL: https://c.fulltvizle.com/ahaber/index.m3u8
 Logo: https://i.ibb.co/1X8nWHc/ahaber.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: A HABER
+URL: https://canlitvulusal.xyz/live/ahaber/index.m3u8
+Logo: https://i.ibb.co/1X8nWHc/ahaber.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: KRT (backup)
+URL: https://trn03.tulix.tv/gt-krttv/playlist.m3u8
+Logo: https://i.ibb.co/jZShqBM/Krt24v2.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: KRT (backup)
 URL: https://krt.blutv.com/blutv_krt_live/live.m3u8
 Logo: https://i.ibb.co/jZShqBM/Krt24v2.png
@@ -2941,7 +2986,7 @@ Logo: https://i.ibb.co/n1SCYqN/atv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ATV
-URL: https://trkvz-beta.daioncdn.net/atv/atv.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
+URL: https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 Logo: https://i.ibb.co/n1SCYqN/atv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -2976,12 +3021,12 @@ Logo: https://i.ibb.co/BrGNZJ4/showtv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW
-URL: https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=zQbl_Wt30SyB-fQqwcrMeA&e=1744161166
+URL: https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=05NhMTW81DL3OHFc8gmx_w&e=1744194160
 Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW
-URL: https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=zQbl_Wt30SyB-fQqwcrMeA&e=1744161166
+URL: https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -3080,6 +3125,11 @@ URL: https://trn03.tulix.tv/gt-kanald/playlist.m3u8
 Logo: https://i.ibb.co/s9mVqWH/kanald.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: KANAL D (backup)
+URL: http://trn09.tulix.tv/gt-kanald/index.m3u8
+Logo: https://i.ibb.co/s9mVqWH/kanald.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: STAR (backup)
 URL: https://dogus.daioncdn.net/startv/startv.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9
 Logo: https://i.ibb.co/DYyDzGV/star22tv.png
@@ -3096,7 +3146,7 @@ Logo: https://i.ibb.co/DYyDzGV/star22tv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: STAR (backup)
-URL: https://hw1.jemtv.com/app/StarTV/playlist.m3u8
+URL: http://trn03.tulix.tv/gt-star-tv/tracks-v1a1/mono.m3u8
 Logo: https://i.ibb.co/DYyDzGV/star22tv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -3113,6 +3163,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: SHOW (backup)
 URL: http://canli.haber365.com.tr/tr/showtv/index.m3u8
 Logo: https://i.ibb.co/BrGNZJ4/showtv.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: NOW
+URL: https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=05NhMTW81DL3OHFc8gmx_w&e=1744194160
+Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW (backup)
@@ -3196,7 +3251,7 @@ Logo: https://i.ibb.co/n1SCYqN/atv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ATV (backup)
-URL: https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+URL: https://trkvz-beta.daioncdn.net/atv/atv.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
 Logo: https://i.ibb.co/n1SCYqN/atv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -3243,6 +3298,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: ATV [tkn-blocked]
 URL: https://trkvz-dev.daioncdn.net/atv/atv.m3u8?app=8672c3cb-70f1-4686-9158-cc03a23c6b0f
 Logo: https://i.ibb.co/n1SCYqN/atv.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: TV8 (backup)
+URL: https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8
+Logo: https://i.ibb.co/tXKXNDz/tv8.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TV8 (backup)
@@ -3341,7 +3401,7 @@ Logo: https://i.ibb.co/pXncfpb/tv422.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TYT TÜRK
-URL: https://cdn4.yayin.com.tr/tytturk/index.m3u8
+URL: https://cdn-tytturk.yayin.com.tr/tytturk/index.m3u8
 Logo: https://i.ibb.co/N2n2tqMz/tyt.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -3416,12 +3476,12 @@ Logo: https://i.ibb.co/kxjKk89/showmax.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: A2
-URL: https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8
+URL: https://trkvz-live.ercdn.net/a2tv/a2tv.m3u8
 Logo: https://i.ibb.co/2qrg9QF/a2022.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: A2
-URL: https://livestream.zazerconer.workers.dev/channel/UCHqu50_C2U2h_rpzhygs4aA.m3u8
+URL: https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8
 Logo: https://i.ibb.co/2qrg9QF/a2022.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -3470,9 +3530,19 @@ URL: http://stream.tvcdn.net/eglence/a2.m3u8
 Logo: https://i.ibb.co/2qrg9QF/a2022.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: A2 (backup)
+URL: https://trkvz.daioncdn.net/a2tv/a2tv.m3u8?ce=3&app=59363a60-be96-4f73-9eff-355d0ff2c758
+Logo: https://i.ibb.co/2qrg9QF/a2022.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: TEVE 2 (backup)
 URL: https://demiroren.daioncdn.net/teve2/teve2.m3u8?app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd
 Logo: https://i.ibb.co/1Z22dCY/teve2.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: TV8 BUÇUK (backup)
+URL: https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8
+Logo: https://i.ibb.co/dgj3MTh/tv85.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TV8 BUÇUK (backup)
@@ -3580,8 +3650,18 @@ URL: https://trkvz-live.daioncdn.net/minikago/minikago.m3u8
 Logo: https://i.ibb.co/R2Zgy7F/minikago.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: MİNİKA GO
+URL: https://trkvz.daioncdn.net/minikago/minikago.m3u8?app=web&ce=3
+Logo: https://i.ibb.co/R2Zgy7F/minikago.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: MİNİKA ÇOCUK
 URL: https://trkvz-live.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8
+Logo: https://i.ibb.co/L8ftBdN/minikacocuk.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: MİNİKA ÇOCUK
+URL: https://trkvz.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8?app=web&ce=3
 Logo: https://i.ibb.co/L8ftBdN/minikacocuk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -3826,6 +3906,11 @@ Logo: https://i.ibb.co/xSjB51j/aspor.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: A SPOR (backup)
+URL: https://trkvz.daioncdn.net/aspor/aspor.m3u8?ce=3&app=45f847c4-04e8-419a-a561-2ebf87084765
+Logo: https://i.ibb.co/xSjB51j/aspor.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: A SPOR (backup)
 URL: https://ythlsgo.onrender.com/video/SzLuO_PW43A.m3u8
 Logo: https://i.ibb.co/xSjB51j/aspor.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
@@ -4025,6 +4110,11 @@ URL: https://tv-trtturk.medya.trt.com.tr/master.m3u8
 Logo: https://i.ibb.co/swtn1kV/trtturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: ATV AVRUPA
+URL: https://trkvz-live.ercdn.net/atvavrupa/atvavrupa.m3u8
+Logo: https://i.ibb.co/PtH4wGr/atvavr.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: KANAL 7 AVRUPA
 URL: https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
 Logo: https://i.ibb.co/cDxKJy1/k7avr1.png
@@ -4158,6 +4248,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: BERAT TV
 URL: https://cdn-berattv.yayin.com.tr/berattv/berattv/playlist.m3u8
 Logo: https://i.ibb.co/yN9HKJ6/berrat.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: VAV TV
+URL: https://trkvz-live.ercdn.net/vavtv/vavtv.m3u8
+Logo: https://i.ibb.co/bj1H8LCm/vavtv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: CAN TV
@@ -5326,6 +5421,11 @@ Logo: https://i.ibb.co/c8NJjxh/ertmusic.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ALPHA TV
+URL: https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8
+Logo: https://i.ibb.co/480p4sv/alpha.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ALPHA TV
 URL: http://alphatvlive.siliconweb.com/1/Y2Rsd1lUcUVoajcv/UVdCN25h/hls/live/playlist.m3u8
 Logo: https://i.ibb.co/480p4sv/alpha.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
@@ -5705,39 +5805,14 @@ URL: https://ertflix.akamaized.net/ertlive/rik/default/playlist.m3u8
 Logo: https://i.ibb.co/3sHp7pS/riksat.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp1",RTP 1
-URL: https://streaming-live.rtp.pt/liverepeater/smil:rtpClean1HD.smil/playlist.m3u8
-Logo: https://i.ibb.co/3YZFCjp/rtp1.jpg
+Name: SIC
+URL: https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+Logo: https://i.ibb.co/6r1xHn6/sic.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp1",RTP 1
-URL: https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
-Logo: https://i.ibb.co/3YZFCjp/rtp1.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp2",RTP 2
-URL: https://streaming-live.rtp.pt/liverepeater/smil:rtpClean2HD.smil/playlist.m3u8
-Logo: https://i.ibb.co/tbFT1V2/rtp2.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp2",RTP 2
-URL: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-Logo: https://i.ibb.co/tbFT1V2/rtp2.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp3",RTP 3
-URL: https://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8
-Logo: https://i.ibb.co/HnqCkQj/rtp3.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp3",RTP 3
-URL: https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR
-Logo: https://i.ibb.co/HnqCkQj/rtp3.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: EURONEWS PT
-URL: https://euronews-live-por-pt.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/bitok/e/26035/euronews-pt.m3u8
-Logo: https://i.ibb.co/VxLFYSj/euronews.png
+Name: like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" referer="https://rplayer.surge.sh/",RTP INTERNACIONAL
+URL: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/tvipt/py/rtp_internacional.m3u8
+Logo: https://i.ibb.co/SPR2SDK/RTP.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: CNN PORTUGAL
@@ -5750,14 +5825,14 @@ URL: https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j
 Logo: https://i.ibb.co/1QHfvZJ/sicnoc.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: SIC
-URL: https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-Logo: https://i.ibb.co/6r1xHn6/sic.png
+Name: like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",RTP 3 NOTÍCIAS
+URL: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/tvipt/py/rtp_3.m3u8
+Logo: https://i.ibb.co/HnqCkQj/rtp3.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: TVI
-URL: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
-Logo: https://i.ibb.co/pyXp0bk/tvi.png
+Name: EURONEWS PT
+URL: https://euronews-live-por-pt.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/bitok/e/26035/euronews-pt.m3u8
+Logo: https://i.ibb.co/VxLFYSj/euronews.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TVI INT
@@ -5803,26 +5878,6 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: TVI AFRICA
 URL: https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8
 Logo: https://i.ibb.co/vvRXDTV/tviafrica.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: RTP AFRICA
-URL: https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
-Logo: https://i.ibb.co/BsdgH54/rtpafr.webp
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: RTP ACORES
-URL: https://streaming-live.rtp.pt/liverepeater/rtpacores.smil/playlist.m3u8
-Logo: https://i.ibb.co/9GMzcw7/rtpaco.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: RTP MADEIRA
-URL: https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
-Logo: https://i.ibb.co/bvwwcB9/rtpmad.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: RTP MEMORIA
-URL: https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8
-Logo: https://i.ibb.co/vZ9S4rV/rtpmem.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: AR PARLAMENTO
@@ -5900,6 +5955,41 @@ URL: https://streaming-live.rtp.pt/liverepeater/rtpacoresHD.smil/chunklist_b6400
 Logo: https://i.ibb.co/9GMzcw7/rtpaco.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtpinternacional",RTP I (noott)
+URL: https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+Logo: https://i.ibb.co/SPR2SDK/RTP.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp1",RTP 1 (noott)
+URL: https://streaming-live.rtp.pt/liverepeater/smil:rtpClean1HD.smil/playlist.m3u8
+Logo: https://i.ibb.co/3YZFCjp/rtp1.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp1",RTP 1 (noott)
+URL: https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+Logo: https://i.ibb.co/3YZFCjp/rtp1.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp2",RTP 2 (noott)
+URL: https://streaming-live.rtp.pt/liverepeater/smil:rtpClean2HD.smil/playlist.m3u8
+Logo: https://i.ibb.co/tbFT1V2/rtp2.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp2",RTP 2 (noott)
+URL: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+Logo: https://i.ibb.co/tbFT1V2/rtp2.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp3",RTP 3 (noott)
+URL: https://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8
+Logo: https://i.ibb.co/HnqCkQj/rtp3.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp3",RTP 3 (noott)
+URL: https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR
+Logo: https://i.ibb.co/HnqCkQj/rtp3.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp1",RTP 1 (backup)
 URL: https://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd
 Logo: https://i.ibb.co/3YZFCjp/rtp1.jpg
@@ -5908,6 +5998,26 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp2",RTP 2 (backup)
 URL: https://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd
 Logo: https://i.ibb.co/tbFT1V2/rtp2.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP AFRICA (noott)
+URL: https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
+Logo: https://i.ibb.co/BsdgH54/rtpafr.webp
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP ACORES (noott)
+URL: https://streaming-live.rtp.pt/liverepeater/rtpacores.smil/playlist.m3u8
+Logo: https://i.ibb.co/9GMzcw7/rtpaco.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP MADEIRA (noott)
+URL: https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
+Logo: https://i.ibb.co/bvwwcB9/rtpmad.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP MEMORIA (noott)
+URL: https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8
+Logo: https://i.ibb.co/vZ9S4rV/rtpmem.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: EURONEWS PT (backup)
@@ -6035,16 +6145,6 @@ URL: https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_k
 Logo: https://i.ibb.co/dJZR1gD/sicnov.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: RTP I (test)
-URL: http://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: RTP 3 (test)
-URL: http://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
 Name: TVE INTERNACIONAL
 URL: https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8
 Logo: https://i.ibb.co/ypn5DBD/tveint.png
@@ -6160,6 +6260,16 @@ URL: https://ztnr.rtve.es/ztnr/6909845.m3u8
 Logo: https://i.ibb.co/99kVf9W/somoscine.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: RNE PARA TODOS
+URL: https://ztnr.rtve.es/ztnr/6688753.m3u8
+Logo: https://i.ibb.co/SRbKtLk/rtve.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RNE PARA TODOS
+URL: https://rtvelivestream.akamaized.net/rtvesec/rne/rne_para_todos_main.m3u8
+Logo: https://i.ibb.co/SRbKtLk/rtve.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: RTVE PLAY CADENA 1
 URL: https://ztnr.rtve.es/ztnr/6108696.m3u8
 Logo: https://i.ibb.co/SRbKtLk/rtve.png
@@ -6251,7 +6361,7 @@ Logo: https://i.ibb.co/GsLm5g5/trece.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ATRES SERIES
-URL: https://spa-ha-p004.cdn.masmediatv.es/SVoriginOperatorEdge2/smil:10_HD.smil/manifest.m3u8
+URL: http://181.78.109.48:8000/play/a00l/index.m3u8
 Logo: https://i.ibb.co/bKLFcnD/a3cine.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -6282,6 +6392,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 Name: ATRES KIDZ
 URL: https://fast-channels.atresmedia.com/648c271d2bfab0e4177a0d61/648c271d2bfab0e4177a0d61.m3u8
+Logo: https://i.ibb.co/h17Kt3g/fastatres.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ATRES INQUIETOS
+URL: https://fast-channels.atresmedia.com/648ef3162bfab0e4587e0d61/648ef3162bfab0e4587e0d61.m3u8
 Logo: https://i.ibb.co/h17Kt3g/fastatres.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -6445,8 +6560,28 @@ URL: https://directes3-tv-int.3catdirectes.cat/live-content/tvi-hls/master.m3u8
 Logo: https://i.ibb.co/xmGNS4w/tvcata.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: TV3 CATALUNYA INT
+URL: https://directes-tv-int.3catdirectes.cat/live-origin/tvi-hls/master.m3u8
+Logo: https://i.ibb.co/xmGNS4w/tvcata.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: TV3 CATALUNYA CAT
+URL: https://directes-tv-cat.3catdirectes.cat/live-origin/tvi-hls/master.m3u8
+Logo: https://i.ibb.co/xmGNS4w/tvcata.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: TV3 CATALUNYA ES
+URL: https://directes-tv-es.3catdirectes.cat/live-origin/tvi-hls/master.m3u8
+Logo: https://i.ibb.co/xmGNS4w/tvcata.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: TV3 CATALUNYA 24H
 URL: https://directes-tv-int.3catdirectes.cat/live-content/canal324-hls/master.m3u8
+Logo: https://i.ibb.co/xmGNS4w/tvcata.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: TV3 CATALUNYA 24H
+URL: https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
 Logo: https://i.ibb.co/xmGNS4w/tvcata.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -6465,6 +6600,11 @@ URL: https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8
 Logo: https://i.ibb.co/xmGNS4w/tvcata.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: TV3 CATALUNYA LOC
+URL: https://directes-tv-cat.3catdirectes.cat/live-origin/tv3-hls/master.m3u8
+Logo: https://i.ibb.co/xmGNS4w/tvcata.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: TV3 CATALUNYA C33
 URL: https://directes-tv-int.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8
 Logo: https://i.ibb.co/xmGNS4w/tvcata.jpg
@@ -6472,6 +6612,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 Name: CATALUNYA BON DIA TV
 URL: https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8
+Logo: https://i.ibb.co/2F2XDFd/bondia.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: CATALUNYA BON DIA TV
+URL: https://directes-tv-int.3catdirectes.cat/live-origin/bondia-hls/master.m3u8
 Logo: https://i.ibb.co/2F2XDFd/bondia.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -6770,6 +6915,11 @@ URL: https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge3/smil:7_HD.smil/
 Logo: https://i.ibb.co/hYTkm8L/A3es.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: ANTENA 3 (backup)
+URL: https://gitlab.com/movrey/movrel/-/raw/main/ant3.m3u8
+Logo: https://i.ibb.co/hYTkm8L/A3es.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: CUATRO (backup)
 URL: http://nodep002.service.openstream.es/SVoriginOperatorEdge3/smil:9_HD.smil/manifest.m3u8
 Logo: https://i.ibb.co/hRs6WrH/C4es.png
@@ -6886,7 +7036,7 @@ Logo: https://i.ibb.co/QnMxFJD/madr.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: Al AOULA INT الأولى
-URL: https://cdn-globecast.akamaized.net/live/eds/al_aoula_inter/hls_snrt/index.m3u8
+URL: https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8
 Logo: https://i.ibb.co/n0Pwp2S/alaoulainter.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -6896,27 +7046,27 @@ Logo: https://i.ibb.co/dp5Z2dh/2m.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ARRYADIA الرياضية
-URL: https://cdn-globecast.akamaized.net/live/eds/arriadia/hls_snrt/index.m3u8
+URL: https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/playlist_dvr.m3u8
 Logo: https://i.ibb.co/Wk8BWg4/arryadia.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ATHAQAFIA الثقافية
-URL: https://cdn-globecast.akamaized.net/live/eds/arrabiaa/hls_snrt/index.m3u8
+URL: https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8
 Logo: https://i.ibb.co/k8gk0Hb/arrabiaa.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: AL MAGHRIBIA المغربية الإخبارية
-URL: https://cdn-globecast.akamaized.net/live/eds/al_maghribia_snrt/hls_snrt/index.m3u8
+URL: https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/playlist_dvr.m3u8
 Logo: https://i.ibb.co/5kp5CmP/almaghribia.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ASSADISSA القرآن الكريم
-URL: https://cdn-globecast.akamaized.net/live/eds/assadissa/hls_snrt/index.m3u8
+URL: https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/playlist_dvr.m3u8
 Logo: https://i.ibb.co/Gxn4XrB/assadissa.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TAMAZIGHT الأمازيغية
-URL: https://cdn-globecast.akamaized.net/live/eds/tamazight_tv8_snrt/hls_snrt/index.m3u8
+URL: https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/playlist_dvr.m3u8
 Logo: https://i.ibb.co/rmRc08Z/tamazight.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -7122,6 +7272,41 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 Name: TAMAZIGHT الأمازيغية (backup)
 URL: https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/tamazight_tv8_snrt/hls_snrt/index.m3u8
+Logo: https://i.ibb.co/rmRc08Z/tamazight.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: AL AOULA LAÂYOUNE الأولى
+URL: https://cdn-globecast.akamaized.net/live/eds/al_aoula_laayoune/hls_snrt/index.m3u8
+Logo: https://i.ibb.co/n0Pwp2S/alaoulainter.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: Al AOULA INT الأولى
+URL: https://cdn-globecast.akamaized.net/live/eds/al_aoula_inter/hls_snrt/index.m3u8
+Logo: https://i.ibb.co/n0Pwp2S/alaoulainter.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ARRYADIA الرياضية
+URL: https://cdn-globecast.akamaized.net/live/eds/arriadia/hls_snrt/index.m3u8
+Logo: https://i.ibb.co/Wk8BWg4/arryadia.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ATHAQAFIA الثقافية
+URL: https://cdn-globecast.akamaized.net/live/eds/arrabiaa/hls_snrt/index.m3u8
+Logo: https://i.ibb.co/k8gk0Hb/arrabiaa.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: AL MAGHRIBIA المغربية الإخبارية
+URL: https://cdn-globecast.akamaized.net/live/eds/al_maghribia_snrt/hls_snrt/index.m3u8
+Logo: https://i.ibb.co/5kp5CmP/almaghribia.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ASSADISSA القرآن الكريم
+URL: https://cdn-globecast.akamaized.net/live/eds/assadissa/hls_snrt/index.m3u8
+Logo: https://i.ibb.co/Gxn4XrB/assadissa.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: TAMAZIGHT الأمازيغية
+URL: https://cdn-globecast.akamaized.net/live/eds/tamazight_tv8_snrt/hls_snrt/index.m3u8
 Logo: https://i.ibb.co/rmRc08Z/tamazight.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -7730,8 +7915,8 @@ URL: https://alarabyta.cdn.octivid.com/alaraby2n/smil:alaraby2n.stream.smil/chun
 Logo: https://i.ibb.co/s107QNv/araby2.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: MTV LBN
-URL: https://hms.pfs.gdn/hms/v1/stream/mtv.m3u8?token=YGo03jbRU6jFptm7x9FULA:MhXbYF4wIzdoa4GBxQrf9aJTGcz2OfI5F30sy-DYdfjHvDf57q8LjjFW294KYiGid7bd-Ex8pS5IAla1cjZzKu995R5IK5O6YPkV3nq4GJYDyriTSK9nIE55RMzu30FV2_wd80HFjtKmhFmCnUjXbn4GCRU3o_qomgDQRCHKfEwKzpn9KfyS2H_DpLh5RvDkKn8QQvHpCGKQ7wZa3fPzVFjUfSywZ7S4fCKlDMyOl6oUrS3Qa99Mo2qPX2PL-u68
+Name: MURR LBN
+URL: https://hms.pfs.gdn/v1/broadcast/mtv/playlist.m3u8
 Logo: https://i.ibb.co/F3rnLz2/mtvleb.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -7786,7 +7971,7 @@ Logo: https://i.ibb.co/80JQ9zg/teleliban.webp
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: LBC LBN
-URL: https://xddrts.alwaysdata.net/rotan.php?channel=rlbc&.m3u8
+URL: https://rotana.hibridcdn.net/rotana/lbc_net-7Y83PP5adWixDF93/playlist.m3u8
 Logo: https://i.ibb.co/YhMgggj/lbcb.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -7910,8 +8095,18 @@ URL: https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8
 Logo: https://i.ibb.co/x8ftqHr/qattv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: QATAR TV
+URL: https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8
+Logo: https://i.ibb.co/x8ftqHr/qattv.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: QATAR TV 2
 URL: https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8
+Logo: https://i.ibb.co/y4qNK42/qattv2.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: QATAR TV 2
+URL: https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8
 Logo: https://i.ibb.co/y4qNK42/qattv2.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -7981,7 +8176,7 @@ Logo: https://i.ibb.co/4Vfg55v/almasira.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: AL KHALIJ TV
-URL: https://mn-nl.mncdn.com/khalij/khalij/chunklist.m3u8
+URL: https://mn-nl.mncdn.com/khalij/khalij/playlist.m3u8
 Logo: https://i.ibb.co/zGHHGbj/alkhalij.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8025,6 +8220,11 @@ URL: https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8
 Logo: https://i.ibb.co/Y7PcRQCG/sudan.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: DABANGA
+URL: https://hls.dabangasudan.org/hls/stream.m3u8
+Logo: https://i.ibb.co/svNjxMqW/dabanga.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: AMMAN TV
 URL: https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8
 Logo: https://i.ibb.co/vm3481D/amman.png
@@ -8053,6 +8253,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: IFILM AR
 URL: https://ncdn.telewebion.com/ifilmar/live/playlist.m3u8
 Logo: https://i.ibb.co/kDhcymF/ifilm.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ON E
+URL: https://bcovlive-a.akamaihd.net/3dc60bab470f4c9fbf00408ecb7c3d7a/eu-west-1/6057955906001/playlist_dvr.m3u8
+Logo: https://i.ibb.co/gZ1q6zP9/ontve.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: AL IRAQIA
@@ -8146,7 +8351,7 @@ Logo: https://i.ibb.co/mcd2S4f/samaatv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: AL DAFRAH
-URL: https://dacastmmd.mmdlive.lldns.net/dacastmmd/51c522ae7fe944238261725786724f94/playlist.m3u8
+URL: https://rtmp-live-ingest-eu-west-3-universe-dacast-com.akamaized.net/transmuxv1/streams/dbb8ac05-a020-784c-3a95-6ed027941532.m3u8
 Logo: https://i.ibb.co/FYdQXH1/aldafrah.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8185,8 +8390,23 @@ URL: http://htvpalsat.mada.ps:8888/audeh/index.m3u8
 Logo: https://i.ibb.co/nkfS0P4/palsat.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: WATAR PS
+URL: http://htvint.mada.ps:8889/orient/index.m3u8
+Logo: https://i.ibb.co/nkfS0P4/palsat.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: WATAR PS
+URL: https://htvint.mada.ps/orient/index.m3u8
+Logo: https://i.ibb.co/nkfS0P4/palsat.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: FALASTINI TV
 URL: https://rp.tactivemedia.com/falastinitv/live/chunks.m3u8
+Logo: https://i.ibb.co/RNHM3Xx/falastini.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: PALESTINIAN TV
+URL: https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8
 Logo: https://i.ibb.co/RNHM3Xx/falastini.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8285,13 +8505,13 @@ URL: https://roya-live.ercdn.net/roya/roya.m3u8
 Logo: https://i.ibb.co/84HtHzK/Roya-TV.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: ROYA TV [geoblocked]
+Name: ROYA TV (backup)
 URL: https://weyyak-live.akamaized.net/weyyak_roya/index.m3u8
 Logo: https://i.ibb.co/84HtHzK/Roya-TV.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: MURR LBN
-URL: https://hms.pfs.gdn/v1/broadcast/mtv/playlist.m3u8
+Name: MTV LBN
+URL: https://hms.pfs.gdn/hms/v1/stream/mtv.m3u8?token=m67zo
 Logo: https://i.ibb.co/F3rnLz2/mtvleb.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8306,7 +8526,7 @@ Logo: https://i.ibb.co/vJj1gdb/onetvlb.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ONE TV LBN
-URL: https://hms.pfs.gdn/stream/mtv.m3u8?token=ZKdi9Zg2u2JkLNzfB
+URL: https://hms.pfs.gdn/hms/v1/stream/mtv.m3u8?token=4c8RZ
 Logo: https://i.ibb.co/vJj1gdb/onetvlb.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8355,13 +8575,28 @@ URL: https://dmidspta.cdn.mangomolo.com/dubaisports/smil:dubaisports.stream.smil
 Logo: https://i.ibb.co/LR2KqPJ/dbaispt.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: DUBAI SPORTS 1
+URL: https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8
+Logo: https://i.ibb.co/LR2KqPJ/dbaispt.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: DUBAI SPORTS 2
 URL: https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/playlist.m3u?m3u8
 Logo: https://i.ibb.co/LR2KqPJ/dbaispt.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: DUBAI SPORTS 2
+URL: https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+Logo: https://i.ibb.co/LR2KqPJ/dbaispt.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: DUBAI SPORTS 3
 URL: https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/playlist.m3u?m3u8
+Logo: https://i.ibb.co/LR2KqPJ/dbaispt.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: DUBAI SPORTS 3
+URL: https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
 Logo: https://i.ibb.co/LR2KqPJ/dbaispt.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8420,8 +8655,13 @@ URL: https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass6Shoof1/master.m3
 Logo: https://i.ibb.co/3h4XCtZ/kasqatar.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: SAUDI SBC CH
+Name: SAUDI SBC SA
 URL: https://sbc-prod-dub-ak.akamaized.net/out/v1/2eb1ad0f29984a339bc0fce4ce94dcbb/index.m3u8
+Logo: https://i.ibb.co/WcQV072/saudi1sbc.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: SAUDI SBC SA
+URL: https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
 Logo: https://i.ibb.co/WcQV072/saudi1sbc.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8437,6 +8677,16 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 Name: SAUDIA TV CH 1
 URL: https://cdn-globecast.akamaized.net/live/eds/saudi_tv/hls_roku/index.m3u8
+Logo: https://i.ibb.co/qNXgWyZ/sauditv.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: SAUDIA TV CH 1
+URL: https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
+Logo: https://i.ibb.co/qNXgWyZ/sauditv.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: SAUDIA TV KSA NOW
+URL: https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8
 Logo: https://i.ibb.co/qNXgWyZ/sauditv.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8970,7 +9220,7 @@ URL: https://amg01480-alshallalfze-alshallal-ono-q0hfg.amagi.tv/playlist.m3u8
 Logo: https://i.ibb.co/k8Xbs2n/alshallal.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: TEN WEYYAK  [geoblocked]
+Name: TEN WEYYAK
 URL: https://weyyak-live.akamaized.net/weyyak_ten_tv/index.m3u8
 Logo: https://i.ibb.co/Ch3FNj9/tenar.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
@@ -9055,6 +9305,11 @@ URL: https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3
 Logo: https://i.ibb.co/TkVK043/ekbariya.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: AL EKHBARIA
+URL: https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
+Logo: https://i.ibb.co/TkVK043/ekbariya.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: AL SUNNAH TV
 URL: https://shls-euronews-en-prod-dub.shahid.net/out/v1/b09bbb8d9b684763be4211b088168de7/index.m3u8
 Logo: https://i.ibb.co/MctgDQ8/sunnah.png
@@ -9078,6 +9333,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: QURAN KAREEM TV
 URL: https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
 Logo: https://i.ibb.co/f0cKj4S/kareem.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: AL RESALAH
+URL: https://rotana.hibridcdn.net/rotana/risala_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.ibb.co/G3xHLRPy/resalah.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: AL ISTIQAMA
@@ -9400,6 +9660,16 @@ URL: https://bcovlive-a.akamaihd.net/9527a892aeaf43019fd9eeb77ad1516e/eu-central
 Logo: https://i.ibb.co/7W5nWYV/rotanacinema.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: ROTANA CINEMA KSA
+URL: https://rotana.hibridcdn.net/rotana/cinema_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.ibb.co/7W5nWYV/rotanacinema.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ROTANA CINEMA MASR
+URL: https://rotana.hibridcdn.net/rotana/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.ibb.co/7W5nWYV/rotanacinema.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: ROTANA AFLAM PLUS
 URL: https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/playlist.m3u8
 Logo: https://i.ibb.co/7W5nWYV/rotanacinema.png
@@ -9410,9 +9680,24 @@ URL: https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa
 Logo: https://i.ibb.co/N2C6FMyv/Mplus.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: ROTANA PNC DRAMA
-URL: https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/playlist.m3u8
-Logo: https://i.ibb.co/207NnrF1/pncdr.png
+Name: ROTANA CLIP
+URL: https://rotana.hibridcdn.net/rotana/clip_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.ibb.co/HNm4jw9/rotanaclip.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ROTANA CLASSIC
+URL: https://rotana.hibridcdn.net/rotana/classical_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.ibb.co/6DcdjwT/rotanaclassic.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ROTANA COMEDY
+URL: https://rotana.hibridcdn.net/rotana/comedy_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.ibb.co/SwZKHJj/rcomedy.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: ROTANA COMEDY KHALIJA
+URL: https://shls-live-enc.edgenextcdn.net/out/v1/ea4275b6dc0840c198c17f6dc6f1ec49/index.m3u8
+Logo: https://i.ibb.co/SwZKHJj/rcomedy.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ROTANA KHALIJA
@@ -9420,19 +9705,19 @@ URL: https://edge66.magictvbox.com/liveApple/rotana_khalijiah/tracks-v1a1/mono.m
 Logo: https://i.ibb.co/5sJ9vSJ/rotanakhalijia.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: ROTANA CLIP
-URL: https://oppomu.serv00.net/klib.php?channel=rclip&.m3u8
-Logo: https://i.ibb.co/HNm4jw9/rotanaclip.png
+Name: ROTANA KHALIJA
+URL: https://rotana.hibridcdn.net/rotana/khaleejiya_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.ibb.co/5sJ9vSJ/rotanakhalijia.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: ROTANA COMEDY
-URL: https://oppomu.serv00.net/komedi.php?channel=rcomedy&.m3u8
-Logo: https://i.ibb.co/SwZKHJj/rcomedy.jpg
+Name: ROTANA PNC DRAMA
+URL: https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/playlist.m3u8
+Logo: https://i.ibb.co/207NnrF1/pncdr.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: ROTANA COMEDY
-URL: http://hzncdn.42web.io/comedy.php?channel=rcomedy&.m3u8
-Logo: https://i.ibb.co/SwZKHJj/rcomedy.jpg
+Name: ROTANA DRAMA
+URL: https://rotana.hibridcdn.net/rotana/drama_net-7Y83PP5adWixDF93/playlist.m3u8
+Logo: https://i.ibb.co/207NnrF1/pncdr.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: ROYA MUSIC
@@ -9665,11 +9950,6 @@ URL: https://shls-rotanakhalijia-prod-dub.shahid.net/out/v1/a639fd49db684f1b8c06
 Logo: https://i.ibb.co/5sJ9vSJ/rotanakhalijia.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: ROTANA CLASSIC
-URL: https://shls-rotanaclassic-prod-dub.shahid.net/out/v1/4eebed211c8441228321b4f67a46c5a5/index.m3u8
-Logo: https://i.ibb.co/6DcdjwT/rotanaclassic.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
 Name: ROTANA DRAMA
 URL: https://shls-rotanadrama-prod-dub.shahid.net/out/v1/20c617b40dc743589ecc9d08d9d3345d/index.m3u8
 Logo: https://i.ibb.co/Tw3gRvT/rotanadrama.png
@@ -9738,6 +10018,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: MBC MASR 1 [offlink]
 URL: https://shls-masr-ak.akamaized.net/out/v1/b7093401da27496797a8949de23f4578/index.m3u8
 Logo: https://i.ibb.co/BnhWg65/mbcmasr.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RAI NEWS 24
+URL: https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8
+Logo: https://i.ibb.co/xGG27kS/raiit.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: RAI 3
@@ -10391,7 +10676,7 @@ Logo: https://i.ibb.co/VC7Q18V/azflag.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TMB AZ
-URL: http://stream.tvcdn.net/azerbaycan/tmb-azerbaycan.m3u8
+URL: http://str.yodacdn.net/tmb_az_app/index.m3u8?token=tmb_app_token_13579
 Logo: https://i.ibb.co/VC7Q18V/azflag.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -11410,6 +11695,11 @@ URL: https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Liv
 Logo: https://i.ibb.co/W6TrwQx/freespech.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: COURT TV
+URL: https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8
+Logo: https://i.ibb.co/Cs2Gv1ZG/courttv.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: NEWS WORLD
 URL: https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8
 Logo: https://i.ibb.co/2YKQ7bR9/newsworld.jpg
@@ -11735,6 +12025,11 @@ URL: https://cdn.nhkworld.jp/www11/nhkworld-tv/pre/hlscomp.m3u8
 Logo: https://i.ibb.co/JCjsXZm/nhk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: NHK WORLD
+URL: https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
+Logo: https://i.ibb.co/JCjsXZm/nhk.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: TRT WORLD
 URL: https://tv-trtworld.medya.trt.com.tr/master.m3u8
 Logo: https://i.ibb.co/nP9xpck/trtw.png
@@ -11807,6 +12102,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 Name: RT NEWS [censure-blocked]
 URL: http://69.64.57.208:8080/russiatoday/playlist.m3u8
+Logo: https://i.ibb.co/D7w9h7Q/rt.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RT NEWS [censure-blocked]
+URL: https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-4/mxtm-wdfe_1080p/playlist.m3u8
 Logo: https://i.ibb.co/D7w9h7Q/rt.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
