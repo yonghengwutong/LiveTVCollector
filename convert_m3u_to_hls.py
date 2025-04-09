@@ -7,7 +7,7 @@ from multiprocessing import Pool, cpu_count
 
 # Configuration
 input_m3u_urls = [
-    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u",  # Reliable M3U
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u",
 ]
 output_dir = "iptv_hls_output"
 final_m3u_file = os.path.join(output_dir, "final_output.m3u")
@@ -53,12 +53,12 @@ def process_stream(args):
             return None, None
         response.close()
         
-        stream = ffmpeg.input(stream_url)
+        stream = ffmpeg.input(stream_url, t='5')  # Limit to 5 seconds
         stream = ffmpeg.output(
             stream,
             output_m3u8,
             format='hls',
-            hls_time=10,
+            hls_time=2,  # Smaller segments
             hls_list_size=0,
             hls_segment_filename=segment_pattern,
             c_v='libx264',
@@ -84,10 +84,10 @@ def process_stream(args):
         print(f"Unexpected error for {stream_url}: {str(e)}")
         return None, None
 
-# Fetch and process all M3U files
+# Fetch and process streams
 stream_tasks = [
     ('#EXTINF:-1 tvg-id="Test" tvg-logo="https://example.com/test.jpg" group-title="Test",Big Buck Bunny',
-     'http://sample.vodobox.net/shaka_bbb_vp9_enc_30s/main.m3u8')  # Test stream first
+     'http://sample.vodobox.net/shaka_bbb_vp9_enc_30s/main.m3u8')
 ]
 
 for m3u_url in input_m3u_urls:
@@ -113,10 +113,10 @@ for m3u_url in input_m3u_urls:
 
 print(f"Total streams to process: {len(stream_tasks)}")
 
-# Parallel processing
+# Parallel processing with error tolerance
 if stream_tasks:
     with Pool(processes=cpu_count()) as pool:
-        results = pool.map(process_stream, stream_tasks)
+        results = pool.map(process_stream, stream_tasks[:5])  # Limit to 5 for testing
     
     # Collect results
     for extinf_line, hls_url in results:
