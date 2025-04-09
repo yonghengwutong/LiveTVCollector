@@ -8,10 +8,11 @@ from multiprocessing import Pool, cpu_count
 # Configuration
 input_m3u_urls = [
     "https://raw.githubusercontent.com/LiveTvWorldwide/IPTV/refs/heads/main/live.m3u",
+    "https://iptv-org.github.io/iptv/channels.json"  # Fallback M3U (we’ll parse differently)
 ]
 output_dir = "iptv_hls_output"
 final_m3u_file = os.path.join(output_dir, "final_output.m3u")
-github_base_url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/iptv_hls_output/"  # Update for public repo
+github_base_url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/iptv_hls_output/"  # Update for your public repo
 
 # Create output directory
 if not os.path.exists(output_dir):
@@ -46,7 +47,6 @@ def process_stream(args):
     segment_pattern = os.path.join(output_dir, f"{safe_channel_name}_segment%d.ts")
     
     try:
-        # Test stream availability
         print(f"Checking stream availability: {stream_url}")
         response = requests.get(stream_url, stream=True, timeout=10)
         if response.status_code != 200:
@@ -62,7 +62,7 @@ def process_stream(args):
             hls_time=10,
             hls_list_size=0,
             hls_segment_filename=segment_pattern,
-            c_v='libx264',  # Re-encode for compatibility
+            c_v='libx264',
             c_a='aac'
         )
         print(f"Converting to HLS: {output_m3u8}")
@@ -93,26 +93,36 @@ for m3u_url in input_m3u_urls:
         print(f"Failed to fetch M3U file: {m3u_url} (Status: {response.status_code})")
         continue
     
-    m3u_content = response.text.splitlines()
-    print(f"Found {len(m3u_content)} lines in {m3u_url}")
-    print(f"M3U content sample: {m3u_content[:5]}")
-    
-    for i in range(len(m3u_content)):
-        if m3u_content[i].startswith('#EXTINF:'):
-            extinf = m3u_content[i]
-            stream_url = m3u_content[i + 1].strip() if i + 1 < len(m3u_content) and not m3u_content[i + 1].startswith('#') else None
+    if m3u_url.endswith('.json'):  # Handle JSON format (iptv-org fallback)
+        import json
+        data = json.loads(response.text)
+        for channel in data[:5]:  # Limit to 5 for testing
+            extinf = f'#EXTINF:-1 tvg-id="{channel.get("tvg-id", "")}" tvg-logo="{channel.get("logo", "")}" group-title="{channel.get("category", "Uncategorized")}",{channel.get("name", "Unknown")}'
+            stream_url = channel.get("url")
             if stream_url:
-                print(f"Found stream: {extinf} -> {stream_url}")
+                print(f"Found stream from JSON: {extinf} -> {stream_url}")
                 stream_tasks.append((extinf, stream_url))
-            else:
-                print(f"No stream URL for EXTINF: {extinf}")
+    else:  # Standard M3U format
+        m3u_content = response.text.splitlines()
+        print(f"Found {len(m3u_content)} lines in {m3u_url}")
+        print(f"M3U content sample: {m3u_content[:5]}")
+        
+        for i in range(len(m3u_content)):
+            if m3u_content[i].startswith('#EXTINF:'):
+                extinf = m3u_content[i]
+                stream_url = m3u_content[i + 1].strip() if i + 1 < len(m3u_content) and not m3u_content[i + 1].startswith('#') else None
+                if stream_url:
+                    print(f"Found stream: {extinf} -> {stream_url}")
+                    stream_tasks.append((extinf, stream_url))
+                else:
+                    print(f"No stream URL for EXTINF: {extinf}")
 
 # Add a test stream if none found
 if not stream_tasks:
     print("No streams found in M3U files. Adding test stream.")
     stream_tasks.append((
-        '#EXTINF:-1 tvg-id="AAJ TAK" tvg-logo="https://example.com/logo.jpg" group-title="AP TV",AAJ TAK (UK)',
-        'http://ahostingportal.com:2095/3875147095/3458182665/2883'
+        '#EXTINF:-1 tvg-id="Test" tvg-logo="https://example.com/test.jpg" group-title="Test",Test Stream',
+        'http://sample.vodobox.net/shaka_bbb_vp9_enc_30s/main.m3u8'  # Publicly available stream
     ))
 
 print(f"Total streams to process: {len(stream_tasks)}")
