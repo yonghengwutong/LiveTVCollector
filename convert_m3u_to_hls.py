@@ -11,7 +11,7 @@ input_m3u_urls = [
 ]
 output_dir = "iptv_hls_output"
 final_m3u_file = os.path.join(output_dir, "final_output.m3u")
-github_base_url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVLinks/main/iptv_hls_output/"
+github_base_url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/iptv_hls_output/"
 
 # Create output directory
 if not os.path.exists(output_dir):
