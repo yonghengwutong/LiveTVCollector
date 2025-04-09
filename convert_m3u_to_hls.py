@@ -9,7 +9,7 @@ input_m3u_urls = [
 ]
 output_dir = "iptv_hls_output"
 final_m3u_file = os.path.join(output_dir, "final_output.m3u")
-github_base_url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/iptv_hls_output/"  # Your repo
+github_base_url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/iptv_hls_output/"
 
 # Create output directory
 if not os.path.exists(output_dir):
@@ -50,23 +50,21 @@ def process_stream(extinf, stream_url):
             return None, None
         response.close()
         
-        # Try copying codecs first
-        stream = ffmpeg.input(stream_url, t='5')  # 5 seconds
+        stream = ffmpeg.input(stream_url, t='5')
         stream = ffmpeg.output(
             stream,
             output_m3u8,
             format='hls',
-            hls_time=1,  # 1-second segments
+            hls_time=1,
             hls_list_size=0,
             hls_segment_filename=segment_pattern,
-            c_v='copy',  # Copy video
-            c_a='copy'   # Copy audio
+            c_v='copy',
+            c_a='copy'
         )
         print(f"Converting to HLS (copy): {output_m3u8}")
         try:
             ffmpeg.run(stream, quiet=False, overwrite_output=True)
         except ffmpeg.Error:
-            # Fallback to re-encoding
             print("Copy failed, re-encoding...")
             stream = ffmpeg.input(stream_url, t='5')
             stream = ffmpeg.output(
@@ -135,12 +133,12 @@ for m3u_url in input_m3u_urls:
 print(f"Total streams to process: {len(stream_tasks)}")
 
 # Process streams sequentially
-for extinf, stream_url in stream_tasks[:5]:  # Limit to 5
+for extinf, stream_url in stream_tasks[:5]:
     result = process_stream(extinf, stream_url)
     if result:
         extinf_line, hls_url = result
         final_m3u_entries.append(extinf_line)
-        final_m3u_entries.append(hls_url)  # Fixed typo from 'final_mu_entries'
+        final_m3u_entries.append(hls_url)  # Fixed typo
         processed_urls.add(hls_url.split('/')[-2])
         print(f"Collected: {extinf_line} -> {hls_url}")
     else:
