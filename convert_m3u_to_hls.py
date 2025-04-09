@@ -11,7 +11,7 @@ input_m3u_urls = [
 ]
 output_dir = "iptv_hls_output"
 final_m3u_file = os.path.join(output_dir, "final_output.m3u")
-github_base_url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/iptv_hls_output/"
+github_base_url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/iptv_hls_output/"  # Update for public repo
 
 # Create output directory
 if not os.path.exists(output_dir):
@@ -46,6 +46,14 @@ def process_stream(args):
     segment_pattern = os.path.join(output_dir, f"{safe_channel_name}_segment%d.ts")
     
     try:
+        # Test stream availability
+        print(f"Checking stream availability: {stream_url}")
+        response = requests.get(stream_url, stream=True, timeout=10)
+        if response.status_code != 200:
+            print(f"Stream unavailable: {stream_url} (Status: {response.status_code})")
+            return None, None
+        response.close()
+        
         stream = ffmpeg.input(stream_url)
         stream = ffmpeg.output(
             stream,
@@ -54,9 +62,10 @@ def process_stream(args):
             hls_time=10,
             hls_list_size=0,
             hls_segment_filename=segment_pattern,
-            c_v='libx264',  # Re-encode to ensure compatibility
+            c_v='libx264',  # Re-encode for compatibility
             c_a='aac'
         )
+        print(f"Converting to HLS: {output_m3u8}")
         ffmpeg.run(stream, quiet=True)
         print(f"Converted to {output_m3u8}")
         
@@ -66,7 +75,10 @@ def process_stream(args):
         return extinf_line, hls_url
     
     except ffmpeg.Error as e:
-        print(f"Error converting {stream_url}: {e.stderr.decode()}")
+        print(f"FFmpeg error converting {stream_url}: {e.stderr.decode()}")
+        return None, None
+    except requests.RequestException as e:
+        print(f"Network error for {stream_url}: {str(e)}")
         return None, None
     except Exception as e:
         print(f"Unexpected error for {stream_url}: {str(e)}")
