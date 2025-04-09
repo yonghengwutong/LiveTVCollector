@@ -5,7 +5,7 @@ import re
 
 # Configuration
 input_m3u_urls = [
-    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ca.m3u",  # Try Canadian streams
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ca.m3u",
 ]
 output_dir = "iptv_hls_output"
 final_m3u_file = os.path.join(output_dir, "final_output.m3u")
@@ -50,6 +50,7 @@ def process_stream(extinf, stream_url):
             return None, None
         response.close()
         
+        # Re-encode directly for compatibility
         stream = ffmpeg.input(stream_url, t='5')
         stream = ffmpeg.output(
             stream,
@@ -58,27 +59,11 @@ def process_stream(extinf, stream_url):
             hls_time=1,
             hls_list_size=0,
             hls_segment_filename=segment_pattern,
-            c_v='copy',
-            c_a='copy'
+            c_v='libx264',
+            c_a='aac'
         )
-        print(f"Converting to HLS (copy): {output_m3u8}")
-        try:
-            ffmpeg.run(stream, quiet=False, overwrite_output=True)
-        except ffmpeg.Error:
-            print("Copy failed, re-encoding...")
-            stream = ffmpeg.input(stream_url, t='5')
-            stream = ffmpeg.output(
-                stream,
-                output_m3u8,
-                format='hls',
-                hls_time=1,
-                hls_list_size=0,
-                hls_segment_filename=segment_pattern,
-                c_v='libx264',
-                c_a='aac'
-            )
-            print(f"Converting to HLS (re-encode): {output_m3u8}")
-            ffmpeg.run(stream, quiet=False, overwrite_output=True)
+        print(f"Converting to HLS: {output_m3u8}")
+        ffmpeg.run(stream, quiet=False, overwrite_output=True)
         
         print(f"Converted to {output_m3u8}")
         if os.path.exists(output_m3u8):
@@ -139,7 +124,7 @@ for extinf, stream_url in stream_tasks[:5]:
         extinf_line, hls_url = result
         final_m3u_entries.append(extinf_line)
         final_m3u_entries.append(hls_url)
-        processed_urls.add(stream_url)  # Use stream_url to allow duplicates with different names
+        processed_urls.add(stream_url)
         print(f"Collected: {extinf_line} -> {hls_url}")
     else:
         print("No valid result returned for a stream")
