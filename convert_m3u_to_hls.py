@@ -7,8 +7,7 @@ from multiprocessing import Pool, cpu_count
 
 # Configuration
 input_m3u_urls = [
-    "https://raw.githubusercontent.com/LiveTvWorldwide/IPTV/refs/heads/main/live.m3u",
-    "https://iptv-org.github.io/iptv/channels.json"  # Fallback
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u",  # Reliable M3U
 ]
 output_dir = "iptv_hls_output"
 final_m3u_file = os.path.join(output_dir, "final_output.m3u")
@@ -66,7 +65,7 @@ def process_stream(args):
             c_a='aac'
         )
         print(f"Converting to HLS: {output_m3u8}")
-        ffmpeg.run(stream, quiet=False)  # Not quiet to capture output
+        ffmpeg.run(stream, quiet=False)
         print(f"Converted to {output_m3u8}")
         
         extinf_line = f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{tvg_logo}" group-title="{group_title}",{channel_name}'
@@ -75,7 +74,7 @@ def process_stream(args):
         return extinf_line, hls_url
     
     except ffmpeg.Error as e:
-        error_msg = e.stderr.decode('utf-8') if e.stderr else "No error details available"
+        error_msg = e.stderr.decode('utf-8') if e.stderr else "No error details"
         print(f"FFmpeg error converting {stream_url}: {error_msg}")
         return None, None
     except requests.RequestException as e:
@@ -86,7 +85,11 @@ def process_stream(args):
         return None, None
 
 # Fetch and process all M3U files
-stream_tasks = []
+stream_tasks = [
+    ('#EXTINF:-1 tvg-id="Test" tvg-logo="https://example.com/test.jpg" group-title="Test",Big Buck Bunny',
+     'http://sample.vodobox.net/shaka_bbb_vp9_enc_30s/main.m3u8')  # Test stream first
+]
+
 for m3u_url in input_m3u_urls:
     print(f"Fetching M3U: {m3u_url}")
     response = requests.get(m3u_url)
@@ -94,44 +97,19 @@ for m3u_url in input_m3u_urls:
         print(f"Failed to fetch M3U file: {m3u_url} (Status: {response.status_code})")
         continue
     
-    if m3u_url.endswith('.json'):
-        import json
-        try:
-            data = json.loads(response.text)
-            for channel in data[:5]:  # Limit to 5 for testing
-                name = channel.get("name", "Unknown")
-                tvg_id = channel.get("tvg.id", "")
-                logo = channel.get("logo", "")
-                category = channel.get("categories", [{}])[0].get("name", "Uncategorized") if channel.get("categories") else "Uncategorized"
-                extinf = f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}'
-                stream_url = channel.get("url")
-                if stream_url:
-                    print(f"Found stream from JSON: {extinf} -> {stream_url}")
-                    stream_tasks.append((extinf, stream_url))
-        except Exception as e:
-            print(f"Error parsing JSON from {m3u_url}: {str(e)}")
-    else:
-        m3u_content = response.text.splitlines()
-        print(f"Found {len(m3u_content)} lines in {m3u_url}")
-        print(f"M3U content sample: {m3u_content[:5]}")
-        
-        for i in range(len(m3u_content)):
-            if m3u_content[i].startswith('#EXTINF:'):
-                extinf = m3u_content[i]
-                stream_url = m3u_content[i + 1].strip() if i + 1 < len(m3u_content) and not m3u_content[i + 1].startswith('#') else None
-                if stream_url:
-                    print(f"Found stream: {extinf} -> {stream_url}")
-                    stream_tasks.append((extinf, stream_url))
-                else:
-                    print(f"No stream URL for EXTINF: {extinf}")
-
-# Add a test stream if none found
-if not stream_tasks:
-    print("No streams found in M3U files. Adding test stream.")
-    stream_tasks.append((
-        '#EXTINF:-1 tvg-id="Test" tvg-logo="https://example.com/test.jpg" group-title="Test",Big Buck Bunny',
-        'http://sample.vodobox.net/shaka_bbb_vp9_enc_30s/main.m3u8'  # Known working stream
-    ))
+    m3u_content = response.text.splitlines()
+    print(f"Found {len(m3u_content)} lines in {m3u_url}")
+    print(f"M3U content sample: {m3u_content[:5]}")
+    
+    for i in range(len(m3u_content)):
+        if m3u_content[i].startswith('#EXTINF:'):
+            extinf = m3u_content[i]
+            stream_url = m3u_content[i + 1].strip() if i + 1 < len(m3u_content) and not m3u_content[i + 1].startswith('#') else None
+            if stream_url:
+                print(f"Found stream: {extinf} -> {stream_url}")
+                stream_tasks.append((extinf, stream_url))
+            else:
+                print(f"No stream URL for EXTINF: {extinf}")
 
 print(f"Total streams to process: {len(stream_tasks)}")
 
