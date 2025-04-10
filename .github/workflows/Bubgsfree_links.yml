@@ -31,6 +31,7 @@ jobs:
       with:
         name: debug-log
         path: debug.log
+        if-no-files-found: warn  # Add this to handle missing log gracefully
         
     - name: Commit and push changes
       run: |
