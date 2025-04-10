@@ -27,15 +27,6 @@ async def check_url_active(session, url):
     except (aiohttp.ClientError, asyncio.TimeoutError):
         return False
 
-async def get_stream_content(session, url):
-    try:
-        async with session.get(url, timeout=aiohttp.ClientTimeout(total=10)) as response:
-            if response.status == 200:
-                return await response.text()
-            return None
-    except (aiohttp.ClientError, asyncio.TimeoutError):
-        return None
-
 def process_m3u_content(content):
     lines = content.split('\n')
     processed_entries = {}
@@ -48,7 +39,7 @@ def process_m3u_content(content):
             i += 1
             # Collect all lines until next #EXTINF or end
             while i < len(lines) and not lines[i].startswith('#EXTINF:'):
-                if lines[i].strip():  # Only add non-empty lines
+                if lines[i].strip():
                     stream_content.append(lines[i])
                 i += 1
             
@@ -63,7 +54,7 @@ def process_m3u_content(content):
                         processed_entries[channel_name] = {
                             'extinf': extinf,
                             'filename': f"{filename}.m3u8",
-                            'stream_content': '\n'.join(stream_content)
+                            'stream_content': stream_content  # Keep as list for now
                         }
         else:
             i += 1
@@ -81,18 +72,46 @@ async def fetch_source(session, source):
         return {}
 
 async def check_urls(session, entries):
-    tasks = []
-    for channel_name, data in entries.items():
-        # Check the last URL in stream_content (assuming it's the main stream)
-        stream_url = data['stream_content'].split('\n')[-1].strip()
-        tasks.append(check_url_active(session, stream_url))
-    
-    results = await asyncio.gather(*tasks)
-    
     active_entries = {}
-    for (channel_name, data), is_active in zip(entries.items(), results):
-        if is_active:
-            active_entries[channel_name] = data
+    
+    for channel_name, data in entries.items():
+        # Find all URLs in stream_content
+        urls = []
+        stream_lines = []
+        i = 0
+        while i < len(data['stream_content']):
+            line = data['stream_content'][i]
+            if line.startswith('#EXT-X-STREAM-INF:'):
+                i += 1
+                if i < len(data['stream_content']) and not data['stream_content'][i].startswith('#'):
+                    urls.append(data['stream_content'][i])
+                    stream_lines.append((line, data['stream_content'][i]))
+            else:
+                stream_lines.append((line, None))
+                i += 1
+        
+        if urls:
+            # Check all URLs concurrently
+            results = await asyncio.gather(*[check_url_active(session, url) for url in urls])
+            
+            # Filter active variants
+            active_content = []
+            url_idx = 0
+            for info_line, url in stream_lines:
+                if url is None:
+                    active_content.append(info_line)
+                elif results[url_idx]:
+                    active_content.append(info_line)
+                    active_content.append(url)
+                url_idx += 1 if url else 0
+            
+            if active_content:  # Only add if we have active variants
+                active_entries[channel_name] = {
+                    'extinf': data['extinf'],
+                    'filename': data['filename'],
+                    'stream_content': '\n'.join(active_content)
+                }
+    
     return active_entries
 
 async def generate_m3u_files():
@@ -108,18 +127,15 @@ async def generate_m3u_files():
         for entries in results:
             all_entries.update(entries)
     
-        # Check all URLs
         active_entries = await check_urls(session, all_entries)
     
     final_playlist = "#EXTM3U\n"
     
     for channel_name, data in active_entries.items():
-        # Create individual M3U8 file with full stream content
         content = "#EXTM3U\n" + data['extinf'] + "\n" + data['stream_content'] + "\n"
         with open(f"{LIVE_TV_DIR}/{data['filename']}", 'w', encoding='utf-8') as f:
             f.write(content)
         
-        # Add GitHub URL to final playlist
         github_url = f"{BASE_GITHUB_URL}/{LIVE_TV_DIR}/{data['filename']}"
         final_playlist += f"{data['extinf']}\n{github_url}\n"
     
