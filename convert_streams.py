@@ -22,9 +22,16 @@ SOURCES = [
 
 async def check_url_active(session, url):
     try:
-        async with session.head(url, timeout=aiohttp.ClientTimeout(total=3)) as response:
-            return response.status == 200
-    except (aiohttp.ClientError, asyncio.TimeoutError):
+        # Using GET instead of HEAD for better compatibility
+        async with session.get(url, timeout=aiohttp.ClientTimeout(total=5)) as response:
+            if response.status == 200:
+                print(f"URL active: {url}")
+                return True
+            else:
+                print(f"URL inactive (status {response.status}): {url}")
+                return False
+    except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+        print(f"URL check failed ({str(e)}): {url}")
         return False
 
 def process_m3u_content(content):
@@ -37,7 +44,6 @@ def process_m3u_content(content):
             extinf = lines[i]
             stream_content = []
             i += 1
-            # Collect all lines until next #EXTINF or end
             while i < len(lines) and not lines[i].startswith('#EXTINF:'):
                 if lines[i].strip():
                     stream_content.append(lines[i])
@@ -54,8 +60,9 @@ def process_m3u_content(content):
                         processed_entries[channel_name] = {
                             'extinf': extinf,
                             'filename': f"{filename}.m3u8",
-                            'stream_content': stream_content  # Keep as list for now
+                            'stream_content': stream_content
                         }
+                        print(f"Processed channel: {channel_name}")
         else:
             i += 1
     return processed_entries
@@ -65,17 +72,20 @@ async def fetch_source(session, source):
         async with session.get(source, timeout=aiohttp.ClientTimeout(total=10)) as response:
             if response.status == 200:
                 content = await response.text()
-                return process_m3u_content(content)
-            return {}
+                entries = process_m3u_content(content)
+                print(f"Fetched source: {source} with {len(entries)} entries")
+                return entries
+            else:
+                print(f"Failed to fetch source (status {response.status}): {source}")
+                return {}
     except (aiohttp.ClientError, asyncio.TimeoutError) as e:
-        print(f"Failed to fetch {source}: {e}")
+        print(f"Failed to fetch source ({str(e)}): {source}")
         return {}
 
 async def check_urls(session, entries):
     active_entries = {}
     
     for channel_name, data in entries.items():
-        # Find all URLs in stream_content
         urls = []
         stream_lines = []
         i = 0
@@ -91,10 +101,7 @@ async def check_urls(session, entries):
                 i += 1
         
         if urls:
-            # Check all URLs concurrently
             results = await asyncio.gather(*[check_url_active(session, url) for url in urls])
-            
-            # Filter active variants
             active_content = []
             url_idx = 0
             for info_line, url in stream_lines:
@@ -105,12 +112,23 @@ async def check_urls(session, entries):
                     active_content.append(url)
                 url_idx += 1 if url else 0
             
-            if active_content:  # Only add if we have active variants
+            if active_content:
                 active_entries[channel_name] = {
                     'extinf': data['extinf'],
                     'filename': data['filename'],
                     'stream_content': '\n'.join(active_content)
                 }
+                print(f"Channel active: {channel_name} with {len([u for u in urls if results[urls.index(u)]])} active variants")
+            else:
+                print(f"Channel inactive (no active variants): {channel_name}")
+        else:
+            # Handle single stream case
+            if await check_url_active(session, data['stream_content'][-1]):
+                active_entries[channel_name] = data
+                active_entries[channel_name]['stream_content'] = '\n'.join(data['stream_content'])
+                print(f"Single stream channel active: {channel_name}")
+            else:
+                print(f"Single stream channel inactive: {channel_name}")
     
     return active_entries
 
@@ -126,7 +144,11 @@ async def generate_m3u_files():
         
         for entries in results:
             all_entries.update(entries)
-    
+        
+        if not all_entries:
+            print("No entries found from any source")
+            return
+        
         active_entries = await check_urls(session, all_entries)
     
     final_playlist = "#EXTM3U\n"
