@@ -14,11 +14,14 @@ jobs:
       - name: Run script
         run: python convert_m3u_to_hls.py
       - name: Debug directory contents
-        run: ls -la iptv_hls_output/
+        run: |
+          ls -la iptv_hls_output/
+          cat iptv_hls_output/final_output.m3u
       - name: Commit changes
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add iptv_hls_output/*
+          git add -f iptv_hls_output/final_output.m3u  # Force add the M3U file
+          git add iptv_hls_output/*.m3u8 iptv_hls_output/*.ts  # Add other files explicitly
           git commit -m "Update HLS streams and final M3U playlist" || echo "No changes to commit"
           git push
