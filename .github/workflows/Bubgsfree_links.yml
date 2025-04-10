@@ -26,6 +26,12 @@ jobs:
     - name: Run stream checker
       run: python convert_streams.py
       
+    - name: Upload debug log
+      uses: actions/upload-artifact@v3
+      with:
+        name: debug-log
+        path: debug.log
+        
     - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions[bot]'
