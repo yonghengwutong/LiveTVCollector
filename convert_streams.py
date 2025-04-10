@@ -39,9 +39,8 @@ def process_m3u_content(content):
                 name_match = re.search(r',(.+)$', extinf)
                 if name_match:
                     channel_name = name_match.group(1).strip()
-                    # Replace only invalid filename characters, preserve spaces with single underscore
-                    filename = re.sub(r'[<>:"/\\|?*]', '', channel_name)  # Remove invalid chars
-                    filename = re.sub(r'\s+', '_', filename)  # Replace multiple spaces with single underscore
+                    filename = re.sub(r'[<>:"/\\|?*]', '', channel_name)
+                    filename = re.sub(r'\s+', '_', filename)
                     
                     if channel_name not in processed_entries:
                         processed_entries[channel_name] = {
@@ -94,12 +93,13 @@ async def generate_m3u_files():
     final_playlist = "#EXTM3U\n"
     
     for channel_name, data in active_entries.items():
+        # Create individual M3U8 file (for reference)
         content = "#EXTM3U\n" + data['extinf'] + "\n" + data['original_url'] + "\n"
         with open(f"{LIVE_TV_DIR}/{data['filename']}", 'w', encoding='utf-8') as f:
             f.write(content)
         
-        github_url = f"{BASE_GITHUB_URL}/{LIVE_TV_DIR}/{data['filename']}"
-        final_playlist += f"{data['extinf']}\n{github_url}\n"
+        # Use original URL directly in final playlist
+        final_playlist += f"{data['extinf']}\n{data['original_url']}\n"
     
     with open(f"{BASE_DIR}/FinalStreamLinks.m3u", 'w', encoding='utf-8') as f:
         f.write(final_playlist)
