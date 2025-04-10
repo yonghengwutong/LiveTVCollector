@@ -17,12 +17,12 @@ SOURCES = [
     "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
     "https://raw.githubusercontent.com/Arunjunan20/My-IPTV/refs/heads/main/index.html",
     "https://aynaxpranto.vercel.app/files/playlist.m3u",
-    "https://iptv-org.github.io/iptv/countries/us.m3u"
+    "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8"  # Added your working example
 ]
 
 async def check_url_active(session, url):
     try:
-        # Using GET instead of HEAD for better compatibility
         async with session.get(url, timeout=aiohttp.ClientTimeout(total=5)) as response:
             if response.status == 200:
                 print(f"URL active: {url}")
@@ -119,13 +119,13 @@ async def check_urls(session, entries):
                     'stream_content': '\n'.join(active_content)
                 }
                 print(f"Channel active: {channel_name} with {len([u for u in urls if results[urls.index(u)]])} active variants")
-            else:
-                print(f"Channel inactive (no active variants): {channel_name}")
         else:
-            # Handle single stream case
             if await check_url_active(session, data['stream_content'][-1]):
-                active_entries[channel_name] = data
-                active_entries[channel_name]['stream_content'] = '\n'.join(data['stream_content'])
+                active_entries[channel_name] = {
+                    'extinf': data['extinf'],
+                    'filename': data['filename'],
+                    'stream_content': '\n'.join(data['stream_content'])
+                }
                 print(f"Single stream channel active: {channel_name}")
             else:
                 print(f"Single stream channel inactive: {channel_name}")
@@ -154,12 +154,17 @@ async def generate_m3u_files():
     final_playlist = "#EXTM3U\n"
     
     for channel_name, data in active_entries.items():
-        content = "#EXTM3U\n" + data['extinf'] + "\n" + data['stream_content'] + "\n"
+        # Write only stream content to individual files, no extra #EXTINF:
+        content = "#EXTM3U\n" + data['stream_content'] + "\n"
         with open(f"{LIVE_TV_DIR}/{data['filename']}", 'w', encoding='utf-8') as f:
             f.write(content)
         
         github_url = f"{BASE_GITHUB_URL}/{LIVE_TV_DIR}/{data['filename']}"
         final_playlist += f"{data['extinf']}\n{github_url}\n"
+    
+    # Add timestamp
+    timestamp = datetime.now().strftime("%d/%m/%Y %H:%M:%S CEST")
+    final_playlist += f"\n#Last refreshed on {timestamp}\n"
     
     with open(f"{BASE_DIR}/FinalStreamLinks.m3u", 'w', encoding='utf-8') as f:
         f.write(final_playlist)
