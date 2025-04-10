@@ -12,7 +12,7 @@ BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector
 # Sources to check
 SOURCES = [    
     "https://aynaxpranto.vercel.app/files/playlist.m3u",
-    "https://iptv-org.github.io/iptv/countries/us.m3u"   
+    "https://iptv-org.github.io/iptv/countries/us.m3u"    
 ]
 
 async def check_url_active(session, url):
@@ -20,12 +20,18 @@ async def check_url_active(session, url):
         async with session.get(url, timeout=aiohttp.ClientTimeout(total=5)) as response:
             if response.status == 200:
                 print(f"URL active: {url}")
+                with open("debug.log", "a") as f:
+                    f.write(f"URL active: {url}\n")
                 return True
             else:
                 print(f"URL inactive (status {response.status}): {url}")
+                with open("debug.log", "a") as f:
+                    f.write(f"URL inactive (status {response.status}): {url}\n")
                 return False
     except (aiohttp.ClientError, asyncio.TimeoutError) as e:
         print(f"URL check failed ({str(e)}): {url}")
+        with open("debug.log", "a") as f:
+            f.write(f"URL check failed ({str(e)}): {url}\n")
         return False
 
 def process_m3u_content(content):
@@ -57,6 +63,8 @@ def process_m3u_content(content):
                             'stream_content': stream_content
                         }
                         print(f"Processed channel: {channel_name}")
+                        with open("debug.log", "a") as f:
+                            f.write(f"Processed channel: {channel_name}\n")
         else:
             i += 1
     return processed_entries
@@ -68,12 +76,18 @@ async def fetch_source(session, source):
                 content = await response.text()
                 entries = process_m3u_content(content)
                 print(f"Fetched source: {source} with {len(entries)} entries")
+                with open("debug.log", "a") as f:
+                    f.write(f"Fetched source: {source} with {len(entries)} entries\n")
                 return entries
             else:
                 print(f"Failed to fetch source (status {response.status}): {source}")
+                with open("debug.log", "a") as f:
+                    f.write(f"Failed to fetch source (status {response.status}): {source}\n")
                 return {}
     except (aiohttp.ClientError, asyncio.TimeoutError) as e:
         print(f"Failed to fetch source ({str(e)}): {source}")
+        with open("debug.log", "a") as f:
+            f.write(f"Failed to fetch source ({str(e)}): {source}\n")
         return {}
 
 async def check_urls(session, entries):
@@ -113,22 +127,33 @@ async def check_urls(session, entries):
                     'stream_content': '\n'.join(active_content)
                 }
                 print(f"Channel active: {channel_name} with {len([u for u in urls if results[urls.index(u)]])} active variants")
+                with open("debug.log", "a") as f:
+                    f.write(f"Channel active: {channel_name} with {len([u for u in urls if results[urls.index(u)]])} active variants\n")
         else:
-            if await check_url_active(session, data['stream_content'][-1]):
+            last_url = data['stream_content'][-1]
+            if await check_url_active(session, last_url):
                 active_entries[channel_name] = {
                     'extinf': data['extinf'],
                     'filename': data['filename'],
                     'stream_content': '\n'.join(data['stream_content'])
                 }
                 print(f"Single stream channel active: {channel_name}")
+                with open("debug.log", "a") as f:
+                    f.write(f"Single stream channel active: {channel_name}\n")
             else:
                 print(f"Single stream channel inactive: {channel_name}")
+                with open("debug.log", "a") as f:
+                    f.write(f"Single stream channel inactive: {channel_name}\n")
     
     return active_entries
 
 async def generate_m3u_files():
     os.makedirs(BASE_DIR, exist_ok=True)
     os.makedirs(LIVE_TV_DIR, exist_ok=True)
+    
+    # Clear previous debug log
+    with open("debug.log", "w") as f:
+        f.write(f"Debug log started at {datetime.now().strftime('%Y-%m-%d %H:%M:%S PDT')}\n")
     
     all_entries = {}
     
@@ -141,6 +166,8 @@ async def generate_m3u_files():
         
         if not all_entries:
             print("No entries found from any source")
+            with open("debug.log", "a") as f:
+                f.write("No entries found from any source\n")
             return
         
         active_entries = await check_urls(session, all_entries)
@@ -155,12 +182,17 @@ async def generate_m3u_files():
         github_url = f"{BASE_GITHUB_URL}/{LIVE_TV_DIR}/{data['filename']}"
         final_playlist += f"{data['extinf']}\n{github_url}\n"
         print(f"Added to FinalStreamLinks.m3u: {channel_name} -> {github_url}")
+        with open("debug.log", "a") as f:
+            f.write(f"Added to FinalStreamLinks.m3u: {channel_name} -> {github_url}\n")
     
     with open(f"{BASE_DIR}/FinalStreamLinks.m3u", 'w', encoding='utf-8') as f:
         f.write(final_playlist)
     
     print(f"Generated {len(active_entries)} active streams")
     print(f"Final playlist saved to {BASE_DIR}/FinalStreamLinks.m3u}")
+    with open("debug.log", "a") as f:
+        f.write(f"Generated {len(active_entries)} active streams\n")
+        f.write(f"Final playlist saved to {BASE_DIR}/FinalStreamLinks.m3u\n")
 
 if __name__ == "__main__":
     asyncio.run(generate_m3u_files())
