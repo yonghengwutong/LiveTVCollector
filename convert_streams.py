@@ -11,14 +11,9 @@ BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector
 
 # Sources to check
 SOURCES = [
-    "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-    "https://raw.githubusercontent.com/Miraz6755/Bdixtv/refs/heads/main/Livetv.m3u8",
-    "https://raw.githubusercontent.com/Yeadee/Toffee/refs/heads/main/toffee_ns_player.m3u",
-    "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-    "https://raw.githubusercontent.com/Arunjunan20/My-IPTV/refs/heads/main/index.html",
+    "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",    
     "https://aynaxpranto.vercel.app/files/playlist.m3u",
-    "https://iptv-org.github.io/iptv/countries/us.m3u",
-    "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8"  # Added your working example
+    "https://iptv-org.github.io/iptv/countries/us.m3u"    
 ]
 
 async def check_url_active(session, url):
@@ -154,7 +149,7 @@ async def generate_m3u_files():
     final_playlist = "#EXTM3U\n"
     
     for channel_name, data in active_entries.items():
-        # Write only stream content to individual files, no extra #EXTINF:
+        # Write only stream content to individual files, no #EXTINF:
         content = "#EXTM3U\n" + data['stream_content'] + "\n"
         with open(f"{LIVE_TV_DIR}/{data['filename']}", 'w', encoding='utf-8') as f:
             f.write(content)
