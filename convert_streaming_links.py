@@ -14,9 +14,8 @@ SOURCES = [
     "https://iptv-org.github.io/iptv/countries/us.m3u"
 ]
 
-# Define output file
-OUTPUT_DIR = Path("BugsfreeStreams")
-OUTPUT_FILE = OUTPUT_DIR / "FinalStreamLinks.m3u"
+# Define output directory
+OUTPUT_DIR = Path("BugsfreeStreams/LiveTV")
 GITHUB_REPO_URL = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main"
 
 # Ensure output directory exists
@@ -35,30 +34,38 @@ def sanitize_filename(name):
     return re.sub(r'[^a-zA-Z0-9_\-]', '_', name)
 
 def process_sources():
-    """Process all sources and generate the final output file."""
+    """Process all sources and generate output files."""
     processed_links = set()
 
-    with open(OUTPUT_FILE, "w") as final_file:
-        for source in SOURCES:
-            try:
-                response = requests.get(source, timeout=10)
-                response.raise_for_status()
-                lines = response.text.splitlines()
-            except requests.RequestException as e:
-                print(f"Failed to fetch source {source}: {e}")
-                continue
+    for source in SOURCES:
+        try:
+            response = requests.get(source, timeout=10)
+            response.raise_for_status()
+            lines = response.text.splitlines()
+        except requests.RequestException as e:
+            print(f"Failed to fetch source {source}: {e}")
+            continue
 
-            current_metadata = None
-            for line in lines:
-                if line.startswith("#EXTINF:"):
-                    current_metadata = line
-                elif line.startswith("http"):
-                    if is_link_active(line) and line not in processed_links:
-                        processed_links.add(line)
+        current_metadata = None
+        for line in lines:
+            if line.startswith("#EXTINF:"):
+                current_metadata = line
+            elif line.startswith("http"):
+                if is_link_active(line):
+                    # Generate file name
+                    match = re.search(r"group-title=\"(.*?)\",(.*)", current_metadata)
+                    if match:
+                        group_title, channel_name = match.groups()
+                        file_name = sanitize_filename(channel_name) + ".m3u8"
+                        file_path = OUTPUT_DIR / file_name
 
-                        # Write to the final file
-                        final_file.write(f"{current_metadata}\n{line}\n")
-                        print(f"Added link: {line}")
+                        # Avoid duplicate links
+                        if file_name not in processed_links:
+                            processed_links.add(file_name)
+                            # Write to final file
+                            with open(file_path, "w") as f:
+                                f.write(f"{current_metadata}\n{GITHUB_REPO_URL}/{OUTPUT_DIR}/{file_name}\n")
+                                print(f"Processed {channel_name}")
 
 if __name__ == "__main__":
     process_sources()
