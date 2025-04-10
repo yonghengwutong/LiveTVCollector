@@ -50,7 +50,6 @@ def process_stream(extinf, stream_url):
             return None, None
         response.close()
         
-        # Re-encode directly for compatibility
         stream = ffmpeg.input(stream_url, t='5')
         stream = ffmpeg.output(
             stream,
@@ -129,6 +128,9 @@ for extinf, stream_url in stream_tasks[:5]:
     else:
         print("No valid result returned for a stream")
 
+# Debug the final entries
+print(f"Final M3U entries before writing: {final_m3u_entries}")
+
 # Write the final M3U file
 with open(final_m3u_file, 'w') as f:
     f.write("#EXTM3U\n")
@@ -137,6 +139,11 @@ with open(final_m3u_file, 'w') as f:
         f.write("\n")
     else:
         print("Warning: No entries added to final M3U file")
+
+# Verify the write
+with open(final_m3u_file, 'r') as f:
+    written_content = f.read()
+    print(f"Content written to {final_m3u_file}: {written_content}")
 
 print("\nConversion complete!")
 print(f"All HLS files saved to: {output_dir}")
