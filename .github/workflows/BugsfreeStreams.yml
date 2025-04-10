@@ -1,56 +1,24 @@
-name: Bugsfree Streams
-
-on:
-  schedule:
-    - cron: "0 */8 * * *"  # Runs every 8 hours
-  workflow_dispatch:
-
+name: Update LiveTV Links
+on: [push, workflow_dispatch]
 jobs:
-  update-streams:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          persist-credentials: true
-          fetch-depth: 0
-
+      - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install ffmpeg-python requests
-
-      - name: Install FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-
-      - name: Run conversion script
+        run: pip install ffmpeg-python requests
+      - name: Run script
         run: python convert_m3u_to_hls.py
-
-      - name: Debug Git configuration
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Debug directory contents
+        run: ls -la iptv_hls_output/
+      - name: Commit changes
         run: |
-          git remote -v
-          git config --list
-          echo "GITHUB_TOKEN present: ${{ secrets.GITHUB_TOKEN != '' }}"
-          echo "Repository: $GITHUB_REPOSITORY"
-          echo "Ref: $GITHUB_REF"
-          echo "Current branch: $(git rev-parse --abbrev-ref HEAD)"
-          git status
-
-      - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git add iptv_hls_output/
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add iptv_hls_output/*
           git commit -m "Update HLS streams and final M3U playlist" || echo "No changes to commit"
-          git push origin main
+          git push
