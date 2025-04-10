@@ -1,8 +1,8 @@
-name: Bubgsfree Update Streams
+name: Bugsfree Update Streams
 
 on:
   schedule:
-    - cron: '0 */8 * * *'  # Runs every 8 hours
+    - cron: '0 */8 * * *'
   workflow_dispatch:
 
 jobs:
