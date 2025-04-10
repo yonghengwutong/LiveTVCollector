@@ -10,10 +10,9 @@ LIVE_TV_DIR = f"{BASE_DIR}/LiveTV"
 BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main"
 
 # Sources to check
-SOURCES = [
-    "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",    
+SOURCES = [    
     "https://aynaxpranto.vercel.app/files/playlist.m3u",
-    "https://iptv-org.github.io/iptv/countries/us.m3u"    
+    "https://iptv-org.github.io/iptv/countries/us.m3u"   
 ]
 
 async def check_url_active(session, url):
@@ -149,23 +148,19 @@ async def generate_m3u_files():
     final_playlist = "#EXTM3U\n"
     
     for channel_name, data in active_entries.items():
-        # Write only stream content to individual files, no #EXTINF:
         content = "#EXTM3U\n" + data['stream_content'] + "\n"
         with open(f"{LIVE_TV_DIR}/{data['filename']}", 'w', encoding='utf-8') as f:
             f.write(content)
         
         github_url = f"{BASE_GITHUB_URL}/{LIVE_TV_DIR}/{data['filename']}"
         final_playlist += f"{data['extinf']}\n{github_url}\n"
-    
-    # Add timestamp
-    timestamp = datetime.now().strftime("%d/%m/%Y %H:%M:%S CEST")
-    final_playlist += f"\n#Last refreshed on {timestamp}\n"
+        print(f"Added to FinalStreamLinks.m3u: {channel_name} -> {github_url}")
     
     with open(f"{BASE_DIR}/FinalStreamLinks.m3u", 'w', encoding='utf-8') as f:
         f.write(final_playlist)
     
     print(f"Generated {len(active_entries)} active streams")
-    print(f"Final playlist saved to {BASE_DIR}/FinalStreamLinks.m3u")
+    print(f"Final playlist saved to {BASE_DIR}/FinalStreamLinks.m3u}")
 
 if __name__ == "__main__":
     asyncio.run(generate_m3u_files())
