@@ -347,6 +347,16 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 --------------------------------------------------
 
 Group: Animation
+Name: Anime Zone TV (480p)
+URL: http://animezonetv.net/hls/stream.m3u8
+Logo: https://i.imgur.com/AHaXlCh.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Locomotion TV (480p) [Not 24/7]
+URL: http://51.222.85.85:81/hls/loco/index.m3u8
+Logo: https://i.imgur.com/1CftDPB.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Persiana Junior
 URL: https://junhls.persiana.live/hls/stream.m3u8
 Logo: https://i.imgur.com/zeKHZYG.png
@@ -959,13 +969,6 @@ Logo: https://i.imgur.com/jdnHci0.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 
-Group: Classic;Music
-Name: Persiana Nostalgia
-URL: https://noshls.persiana.live/hls/stream.m3u8
-Logo: https://i.imgur.com/SWO9CKA.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-
 Group: Clássico
 Name: Vintage TV
 URL: https://video01.kshost.com.br:4443/rogerio7271/rogerio7271/chunklist_w252547800.m3u8
@@ -1085,6 +1088,11 @@ URL: http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
 Logo: https://i.imgur.com/CwAdPpZ.jpg
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Teatro TV (720p)
+URL: https://m.iostream.it/hls/teatrotv/teatrotv.m3u8
+Logo: https://i.imgur.com/GbyLSc2.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: USMPTV (720p) [Not 24/7]
 URL: https://streamusmptv.ddns.net/live/stream.m3u8
 Logo: https://i.imgur.com/9cmIv3q.png
@@ -1107,11 +1115,6 @@ Group: Culture;Education
 Name: Liceum TV (576p)
 URL: http://193.225.32.62:8890/live.m3u8
 Logo: https://i.imgur.com/Hf122ZD.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: UNISUL TV (720p)
-URL: https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
-Logo: https://i.imgur.com/N0TvAFz.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 
@@ -1435,6 +1438,11 @@ URL: https://s3-us-west-2.amazonaws.com/bolton.castus-vod/live/ch2/video.m3u8
 Logo: https://i.imgur.com/tUgEAUJ.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Canal Savoir (360p)
+URL: https://hls.savoir.media/live/stream.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/f/ff/Savoir_tv_logo.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: iSTUFF (720p) [Not 24/7]
 URL: https://relay2.cdn.fem-net.de/hls/loop/istuff_live/istuff_live-720p.m3u8
 Logo: https://i.imgur.com/1V3UXVb.jpg
@@ -1443,6 +1451,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: KBEV Spectrum Channel 6 [Beverly Hills] (1080p)
 URL: https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8
 Logo: https://i.imgur.com/YFVrphZ.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Señal España (XHUNES-TDT) (720p)
+URL: https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8
+Logo: https://i.imgur.com/LbZkdca.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: UNIANDES TV (720p)
@@ -1499,6 +1512,11 @@ Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/
 Name: TV UFG
 URL: http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8
 Logo: https://i.imgur.com/Yp3dbJo.png
+Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
+--------------------------------------------------
+Name: Unisul TV
+URL: https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
+Logo: https://i.imgur.com/N0TvAFz.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: UniTV Porto Alegre
@@ -1598,11 +1616,6 @@ URL: https://streaming.grupomediosdelnorte.com:19360/galaxiateve/galaxiateve.m3u
 Logo: https://grupomediosdelnorte.com/iptv/galaxia.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: GET TV (720p)
-URL: https://cnn.livestreaminggroup.info:3050/live/gettvlive.m3u8
-Logo: https://www.lyngsat.com/logo/tv/gg/get-tv-do.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Hispania TV
 URL: https://www.streaming507.net:19360/hispaniamediatv/hispaniamediatv.m3u8
 Logo: https://i.imgur.com/647WCF8.png
@@ -1671,11 +1684,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Nitida TV
 URL: https://ed18ov.live.opencaster.com/bznudxxdtppv/index.m3u8
 Logo: https://i.imgur.com/z9JkxcM.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Nuova TV 1 (1080p)
-URL: https://nuovatv.net:8443/tv/stream.m3u8
-Logo: https://i.imgur.com/zRu9WGh.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: OXIR TV (720p)
@@ -1756,6 +1764,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: TV84 (480p)
 URL: https://cdn20.liveonlineservices.com/hls/tv84.m3u8
 Logo: https://i.imgur.com/Eh4kfwR.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: TV Grande Natal (1080p)
+URL: http://tvgrandenatalhd.duckdns.org:8080/hls/live.m3u8
+Logo: https://i.imgur.com/MTuErdw.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: TV Nova (720p)
@@ -1912,11 +1925,6 @@ URL: https://5d82644094cc0.streamlock.net/empiremagazinetv/empiremagazinetv/play
 Logo: https://i.imgur.com/tT1NVfV.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
-Name: TV Grande Natal
-URL: http://tvgrandenatalhd.duckdns.org:8080/hls/live.m3u8
-Logo: https://i.imgur.com/MTuErdw.png
-Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
---------------------------------------------------
 Name: TV J.SID
 URL: https://livefocamundo.com:8081/tvjsid/index.m3u8
 Logo: https://i.imgur.com/yy8uBPW.png
@@ -1995,7 +2003,7 @@ Logo: https://i.imgur.com/l5PBcKN.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: CazéTV
-URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744322405/ei/BOv3Z56FPNiQobIPvcWXyAw/ip/138.117.220.212/id/0NHAC-1ZZVc.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr3---sn-n0hpjput-bpbz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/bui/AccgBcOfo7UCWPnDOTvSu9L8Lams-BvtaXecQON9qVsmh2tGNCwVlm1-dApv1tPzxEKDk8nAOD-yJ1Bt/spc/_S3wKuoAdG1X23IUzqdZp8IVviopYBkrgiqYg8hTHYg2JzWGK70ajFaHqXq78oT3kLYSjb0/vprv/1/playlist_type/DVR/initcwndbps/2778750/met/1744300805,/mh/rt/mm/44/mn/sn-n0hpjput-bpbz/ms/lva/mv/m/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744300359/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIhAJeNnpXre01Zern5IcKXCNi4ZVrouTuDOJ7EnMJwBXh6AiBlJkPEhkmk9a8KDDFjzlLy86TcJIAlaSF_AH57xdLIWw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRQIhALRj_KREt7-cba032AQc7OCY-GeCTkl-68zbbCIWtLlzAiAVWR4AKdf2pmerHEoUgh9EO5iCXTiBS4Dltwh9fmQCQg%3D%3D/playlist/index.m3u8
+URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744354805/ei/lGn4Z_r5PO-i1sQP6uGHgQ4/ip/138.117.220.212/id/IgcW0-KbIe8.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr3---sn-n0hpjput-bpbl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/bui/AccgBcOdIslaaQS_1G0mVxQtRC8EMKqxWfA7urQLATd2bW-HfbWsoe6jve0qR-5mdSPGbVnAs9zIKdCc/spc/_S3wKoithzxZtYl1rNEDZSLAVEK6yhx5Jx_FiPtV0VJXLxZuA-p-9d6bh_RVwzMuFjepJQU/vprv/1/playlist_type/DVR/initcwndbps/2512500/met/1744333205,/mh/rx/mm/44/mn/sn-n0hpjput-bpbl/ms/lva/mv/m/mvi/3/pcm2cms/yes/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744332756/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIhAKaqD2DlSXAkdXdo46gRDMVw7graiaxhGBFaPpWo9b1XAiBpyWkt4sf7I7znZN4F-7DKYWy0PRtJaEzQrCZg4RTHiw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms/lsig/ACuhMU0wRAIgESeDHduubp5IVJyQ3nEk-N6t1eY7QVOC_5sudm0PvpUCIGQNc0o3OnQ5fKhwg9Hcv1ZUKNbFUtoIpur2jBJwSoLk/playlist/index.m3u8
 Logo: https://yt3.googleusercontent.com/4oHE9WPNm2O_OCXfv-z1ikfOHAWLe46KViKgZNwBGiRQKfLDPlHmnBQ9rbuXvWasG4YixvFA=s176-c-k-c0x00ffffff-no-rj
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
@@ -2447,11 +2455,6 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 --------------------------------------------------
 
 Group: General
-Name: 002 Radio TV (720p)
-URL: https://cdn.002radio.com:3909/live/radio002live.m3u8
-Logo: https://i.imgur.com/7oNe8xj.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: 3HD
 URL: https://lb1-live-mv.v2h-cdn.com/hls/ffae/3hd/3hd.m3u8
 Logo: https://i.imgur.com/YRiulCU.png
@@ -2480,11 +2483,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Acheloos TV (576p)
 URL: https://acheloostv.streamings.gr/live/stream/index.m3u8
 Logo: https://i.imgur.com/5SVMxcu.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Agenda 56 (720p)
-URL: https://cloudflare.streamgato.us:3148/live/agenda56tvlive.m3u8
-Logo: https://i.imgur.com/G7zIVB7.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Ahora TV (720p)
@@ -2542,11 +2540,6 @@ URL: https://stream.kaztrk.kz/regional/oraltv/index.m3u8
 Logo: https://i.imgur.com/ZqIzzmf.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Aqtóbe (576p)
-URL: https://stream.kaztrk.kz/regional/aktobetv/index.m3u8
-Logo: https://i.imgur.com/csKl1z6.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Argentinísima Satelital (540p)
 URL: https://stream1.sersat.com/hls/argentinisima.m3u8
 Logo: https://i.imgur.com/xFgJawa.png
@@ -2570,11 +2563,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: ATV (576p)
 URL: https://strm.hdtvizlecanli.com/live/atv.m3u8
 Logo: https://i.imgur.com/1pA0Tid.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Atyraý (720p)
-URL: https://stream.kaztrk.kz/regional/atyrautv/index.m3u8
-Logo: https://i.imgur.com/kva4O3T.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Avers (480p)
@@ -2627,6 +2615,11 @@ URL: https://limited35.todostreaming.es/live/mitjans-livestream1.m3u8
 Logo: https://i.imgur.com/tQh8C3s.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Canal 8 Santa Rosa (720p)
+URL: https://cdn.streamhispanatv.net:3697/live/canal8starosalive.m3u8
+Logo: https://i.imgur.com/Nenn6gE.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Canal 8 TV+ (720p)
 URL: https://movil.ejeserver.com/live/canal8tv.m3u8
 Logo: https://i.imgur.com/peOIG1F.png
@@ -2635,6 +2628,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Canal 9 Barbe TV (720p) [Not 24/7]
 URL: https://cdn.streamhispanatv.net:3549/live/barbetvlive.m3u8
 Logo: https://i.imgur.com/2Sekew2.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Canal 9 Cosespu (720p)
+URL: https://video2.lhdserver.es/canal9cosespu/live.m3u8
+Logo: https://i.imgur.com/w5e1d8k.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Canal 11 TuTV (349p)
@@ -2660,11 +2658,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Canal Más Televisión (720p)
 URL: https://movil.ejeserver.com/live/teledoradahd.m3u8
 Logo: https://i.imgur.com/ODMa27W.jpg
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Canal Santa Marta TV (720p) [Not 24/7]
-URL: https://streaming.amelbasoluciones.co:19360/santamartalive/santamartalive.m3u8
-Logo: https://i.imgur.com/HbWadhJ.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Cananga TV (720p)
@@ -2712,11 +2705,6 @@ URL: https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/scottsdale/G0040_007/chunklist.m3
 Logo: https://i.imgur.com/lfE6Q9i.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Channel 13 (720p) [Not 24/7]
-URL: https://stream.theyraonline.com/live/channel13@live/index.m3u8
-Logo: https://i.imgur.com/6Vmy4pC.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Claro Televisión Dominicana (360p)
 URL: https://streamunoapp.com:3960/live/claroteledomlive.m3u8
 Logo: https://i.imgur.com/fJD7OxB.png
@@ -2735,6 +2723,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Cool TV (1080p) [Not 24/7]
 URL: https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
 Logo: https://i.imgur.com/2tFrjUz.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Costa Noroeste TV (1080p) [Not 24/7]
+URL: https://limited31.todostreaming.es/live/noroestetv-livestream.m3u8
+Logo: https://i.imgur.com/iM9AN6Z.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Cotubanama TV (1080p)
@@ -2852,11 +2845,6 @@ URL: https://video3.lhdserver.es/empordatv2/live.m3u8
 Logo: https://i.imgur.com/jc0lUbX.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Enntivisión (720p)
-URL: https://rdn.essastream.com:3356/live/enntivisiontvlive.m3u8
-Logo: https://i.imgur.com/nePOFZW.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Entelevisión (720p)
 URL: https://tv.livestreaminggroup.info:3985/live/entelevisionlive.m3u8
 Logo: https://i.imgur.com/gVtLpMD.png
@@ -2877,14 +2865,14 @@ URL: http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8
 Logo: https://i.imgur.com/jDT5XFs.jpg
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Eveo (720p) [Not 24/7]
-URL: https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?hd=true
-Logo: https://i.imgur.com/fFIq7tY.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Evrokom (360p)
 URL: https://live.ecomservice.bg/hls/stream.m3u8
 Logo: https://i.imgur.com/taVIK11.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Faraja Television (1080p) [Not 24/7]
+URL: https://panel.freedomflixtv.org:3868/hybrid/play.m3u8
+Logo: https://i.imgur.com/NmnOGHI.jpg
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: France 2 (1080p)
@@ -2982,11 +2970,6 @@ URL: https://live.teleradiocom.tj/4/3m.m3u8
 Logo: https://i.imgur.com/ffqdD8W.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Jambyl (360p) [Not 24/7]
-URL: https://stream.kaztrk.kz/regional/taraztv/index.m3u8
-Logo: https://i.imgur.com/X7N3JK4.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Jawa Pos TV (720p) [Not 24/7]
 URL: https://jawapostv.siar.us/jawapostv/live/playlist.m3u8
 Logo: https://i.imgur.com/Kt2kOGH.png
@@ -3002,9 +2985,9 @@ URL: https://vysilani.zaktv.cz/broadcast/hls/jtv/index.m3u8
 Logo: https://i.imgur.com/Hi8hZzl.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Jogja TV (720p) [Not 24/7]
-URL: https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
-Logo: https://i.imgur.com/m9ezMUz.png
+Name: JN19 TV2 (1080p) [Not 24/7]
+URL: https://servilive.com:3224/live/jn19tv2live.m3u8
+Logo: https://www.lyngsat.com/logo/tv/jj/jn19_pe.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Kaback TV (720p)
@@ -3027,11 +3010,6 @@ URL: https://live.teleradiocom.tj/10/3m.m3u8
 Logo: https://i.imgur.com/X4xVpBj.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Kókshe (720p) [Not 24/7]
-URL: https://stream.kaztrk.kz/regional/kokshetautv/index.m3u8
-Logo: https://i.imgur.com/pOR3FSR.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Kon Tum TV (720p)
 URL: https://tv.kontumtv.vn/live/kontumtv/kontumtv.m3u8
 Logo: https://i.imgur.com/lLlu6ZA.png
@@ -3045,11 +3023,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: La 8 Mediterráneo (1080p) [Not 24/7]
 URL: https://streaming004.gestec-video.com/hls/8TV.m3u8
 Logo: https://i.imgur.com/EQmRrTF.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: La Caleta TV (360p)
-URL: https://rdn.essastream.com:3168/live/lacaletatvlive.m3u8
-Logo: https://i.imgur.com/EfMtOja.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: La Chilena TV
@@ -3067,9 +3040,9 @@ URL: https://streaming13.huberwebmedia.at/LiveApp/streams/9855852253977900827778
 Logo: https://i.imgur.com/omLVQ4r.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Lapacho TV Canal 11 (720p)
-URL: https://vivo.solumedia.com:19360/lapacho/lapacho.m3u8
-Logo: https://i.imgur.com/PmFBL7x.png
+Name: Lao Cai TV (1080p) [Not 24/7]
+URL: https://cdn.3ssoft.vn/livetv/laocaitv/laocaitv/index.m3u8
+Logo: https://i.imgur.com/TLvrDHa.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Latina TV (1080p)
@@ -3085,6 +3058,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Litoral Atlántico HD (720p)
 URL: https://cdn4.streamgato.us:3595/live/litoralhdlive.m3u8
 Logo: https://i.imgur.com/UXsgEPX.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Los Santos TV (720p)
+URL: https://lstv.duckdns.org:449/hls/lstv.m3u8
+Logo: https://i.imgur.com/5xw86wu.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: LRT Lituanica [Geo-blocked]
@@ -3115,6 +3093,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Manavisión (480p)
 URL: https://play.once.net.ec/play/Ily2oYdd3E1fi9wK2zORoRovFU9P5xM0g3CNVK2MT0M/.m3u8
 Logo: https://i.imgur.com/mZkW342.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Mańǵystaý (540p) [Not 24/7]
+URL: https://stream.kaztrk.kz/regional/mangystautv/index.m3u8
+Logo: https://i.imgur.com/9JfLseu.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Markíza (1080p)
@@ -3155,6 +3138,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: MNB World (1080p)
 URL: https://live.mnb.mn/hls/mnb_world.stream.m3u8
 Logo: https://i.imgur.com/PHlj84Q.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Monaco Info (1080p)
+URL: https://webtv.monacoinfo.com/live/prod/index.m3u8
+Logo: https://i.imgur.com/FPyPaL1.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Móra-Net TV (576p)
@@ -3202,11 +3190,6 @@ URL: https://live-fi.tvkaista.net/nelonen/live.m3u8
 Logo: https://i.imgur.com/BFbCyfY.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Neox TV (480p)
-URL: https://tv.streamcasthd.com:3076/live/sonicaargentinalive.m3u8
-Logo: https://i.imgur.com/eIX71c9.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Nexxo TV (720p) [Not 24/7]
 URL: https://cdn3.streamgato.us:3938/live/nexxotvlive.m3u8
 Logo: https://i.imgur.com/2OpCxa6.png
@@ -3227,11 +3210,6 @@ URL: https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
 Logo: https://i.imgur.com/7A2LRKI.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Noa 4 Norderstedt (1080p)
-URL: https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8
-Logo: https://i.imgur.com/941nrGb.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Nos TV Bonaire (1080p)
 URL: http://streaming.flamingotv.net/nostv/live.m3u8
 Logo: https://i.ibb.co/R6kb44B/cropped-LOGO-NOSTV-WEBSITE-2019-1.png
@@ -3240,11 +3218,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Notioi TV (1080p)
 URL: https://srv.streamserver.gr:3451/stream/play.m3u8
 Logo: https://i.imgur.com/Nq00n8h.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: NTV IC Kakanj (720p)
-URL: https://lon.rtsp.me/dEqnY-myGj84bKrieCIPfA/1743271667/hls/3dH3YAD6.m3u8
-Logo: https://i.imgur.com/EtaHm2P.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Oasis RTV (720p) [Not 24/7]
@@ -3292,6 +3265,11 @@ URL: https://panel.host-live.com:19360/20004/20004.m3u8
 Logo: https://i.imgur.com/u1dnEVv.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Paradise TV (720p)
+URL: https://s2.tvdatta.com:3840/live/paradisetvlive.m3u8
+Logo: https://i.imgur.com/9yMyYCn.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Parnian TV (720p)
 URL: https://live2.parnian.tv/hls/.m3u8
 Logo: https://i.imgur.com/J8ejADF.png
@@ -3300,6 +3278,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Persiana Latino (720p)
 URL: https://latinohls.persiana.live/hls/stream.m3u8
 Logo: https://www.lyngsat.com/logo/tv/pp/persiana-latino-fr.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Persiana Two (720p)
+URL: https://twohls.persiana.live/hls/stream.m3u8
+Logo: https://www.lyngsat.com/logo/tv/pp/persiana-two-fr.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Plus TV (720p) [Not 24/7]
@@ -3360,6 +3343,16 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Ribera TV (576p)
 URL: https://common01.todostreaming.es/live/ribera-livestream.m3u8
 Logo: https://i.imgur.com/mPvSubP.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: RTV Chirripó (720p)
+URL: https://lstv.duckdns.org:449/hls/rtchirripo.m3u8
+Logo: https://i.imgur.com/XWmwwbj.jpg
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: San Isidro TV (720p) [Not 24/7]
+URL: https://rdn.essastream.com:3160/live/sanisidrotvlive.m3u8
+Logo: https://i.imgur.com/pwmJrsm.jpg
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Santiago TV (720p)
@@ -3427,6 +3420,11 @@ URL: http://89.201.163.244:8080/hls/hdmi.m3u8
 Logo: https://i.imgur.com/Z3yRl17.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Super Channel 12 (1080p) [Geo-blocked]
+URL: https://servilive.com:3263/live/channel12live.m3u8
+Logo: https://i.imgur.com/dLHIvKz.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Super TV Media (720p)
 URL: https://mirtv.club/live/mirtv/index.m3u8
 Logo: https://i.imgur.com/XYWgd3E.png
@@ -3437,6 +3435,11 @@ URL: https://live.teleradiocom.tj/1/3m.m3u8
 Logo: https://i.imgur.com/sEXCFNk.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: TAM TV (240p)
+URL: https://tv.webtuya.com:3726/live/tammeridalive.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/5/56/Logo_TAM.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Tele7ABC HD (720p)
 URL: https://live.tele7abc.ro/hls/stream/index.m3u8
 Logo: https://i.imgur.com/CheqyWH.png
@@ -3445,11 +3448,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Tele 8 Mercedes (410p) [Not 24/7]
 URL: http://online.familylatinatv.com:88/live/5de910ea0ec86/index.m3u8
 Logo: https://i.imgur.com/mg7ZB9K.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Tele Elx (1080p)
-URL: https://tvdirecto.teleelx.es/stream/teleelx.m3u8
-Logo: https://i.imgur.com/w5NTWpl.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: TeleAragua (480p)
@@ -3532,6 +3530,11 @@ URL: https://frn.rtsp.me/jDzHciIUzTOuXiUaI-Vg1w/1738881610/hls/BtBbfbnK.m3u8
 Logo: https://i.imgur.com/wk59tHA.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: TV1 Samoa (720p)
+URL: https://anystrument.com:5443/LiveApp/streams/DfywyaY3DcWf1709948634332.m3u8
+Logo: https://i.imgur.com/GBYK36W.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: TV7+
 URL: https://tv7plus.com/hls/tv7_site.m3u8
 Logo: https://i.imgur.com/PcTDZ8e.png
@@ -3562,6 +3565,11 @@ URL: https://live.teleradiocom.tj/12/3m.m3u8
 Logo: https://i.imgur.com/AFgEYFp.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: TV MÁS HD (720p)
+URL: https://s1.tvdatta.com:3991/live/tvmashdlive.m3u8
+Logo: https://i.imgur.com/tjnTbRR.jpg
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: TV Nova (1080p)
 URL: http://88.212.15.19/live/nova_avc_25p/playlist.m3u8
 Logo: https://i.imgur.com/77ztmd9.png
@@ -3570,11 +3578,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: TV Østfold (1080p)
 URL: https://streamnorge.com:8088/hls/tvo.m3u8
 Logo: https://i.ibb.co/HHxGQGD/TVO-kanalbanner-page-0002-1-removebg-preview-300x94.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: TV Perú Internacional (1080p)
-URL: https://cdnhd.iblups.com/hls/ee2450c81e554f4cae0e6292106993c2.m3u8
-Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TV_Per%C3%BA_Internacional_2019_-_copia.png/512px-TV_Per%C3%BA_Internacional_2019_-_copia.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: TV San Jorge (1080p) [Not 24/7]
@@ -3600,11 +3603,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: TVitapé (720p)
 URL: https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8
 Logo: https://i.imgur.com/XeqcwKe.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Vegavisión Canal 18 (720p)
-URL: https://rdn.essastream.com:3400/live/canal18hdlive.m3u8
-Logo: https://i.imgur.com/352jxnd.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Vía Televisión (720P) [Not 24/7]
@@ -3739,7 +3737,7 @@ Logo: https://imgur.com/TRu90uI
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: PowerRangers TV
-URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744322410/ei/Cuv3Z6WUB4ObobIP75KGwAY/ip/138.117.220.212/id/mcvBMSWThHM.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-n0hpjput-bpbs.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AccgBcO8vnBwTserj6vHgpAQwo_SOK0e7xIocTNEI6f808qTlmJHIy0cVcnxtBOWpQ_3qP3UxVWWssxi/spc/_S3wKo0yWR_SD4dhPuZEjBiOXjpIHdsll6ilgFiRSXAUHV9f9qUH25UxR2PB64_F7u3mP_Q/vprv/1/playlist_type/DVR/initcwndbps/2632500/met/1744300811,/mh/oX/mm/44/mn/sn-n0hpjput-bpbs/ms/lva/mv/m/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744300359/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAP0izm3q9RsXBfPgBi9KG-xludB19Rwj7_OTX1MW5PkBAiEAiV3zU3XrN5wMWDhTnCcUao6owWb7VxZekerahjQVfck%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRgIhAP2sxP_bYwyAzpzj9u9Aiz7dZ5lhHeag5CRX-6oxRxPRAiEA0pJj7mn-pAV5Oz4vBi61IQh1HjVC452vt2iyTEytVLk%3D/playlist/index.m3u8
+URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744354810/ei/mmn4Z5_8ELPl1sQPo-fhgA4/ip/138.117.220.212/id/1-tHoIPEKyQ.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpb6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AccgBcPsOG_we6YYJHrWAFuUwP39T33p3Hc7DBGhHMRpsR0eUrqdRvdzc8NRTQm-SP_JNcFUKKpMq_NF/spc/_S3wKrlK_-TgrOVNwSXdbaA4nSV1udJXx-X_PHCkn5KZyJoJN2J5Lc_uLf6gX7TtEk65HWI/vprv/1/playlist_type/DVR/initcwndbps/2316250/met/1744333211,/mh/EB/mm/44/mn/sn-n0hpjput-bpb6/ms/lva/mv/m/mvi/1/pcm2cms/yes/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744332756/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRAIgX_W3EkdJByt8pblKOmf8wJCFPq1DaDz1bHxxOqZEsqQCIH8xVApRv3towaKqMZcerutzB3_LZH0s0BTEFmnXUjeD/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms/lsig/ACuhMU0wRAIgAtaf29yp5F1KNGZrxwOBTvGUmJEaXqJ0MT-jDpHug40CIBR80qvtT0A_IExIFfP6E9ridEOhMkjX5_49IfzkxCtX/playlist/index.m3u8
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-m/1803aa8768a96c38aa19d7bc3f0cf98f.webp
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
@@ -3900,6 +3898,16 @@ URL: https://s3-us-west-2.amazonaws.com/bolton.castus-vod/live/ch3/video.m3u8
 Logo: https://i.imgur.com/qLJhNhq.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: TV Câmara 2 (1080p) [Not 24/7]
+URL: https://stream3.camara.gov.br/tv2/manifest.m3u8
+Logo: https://i.imgur.com/dHrUG1R.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: TV Câmara (1080p)
+URL: https://stream3.camara.gov.br/tv1/manifest.m3u8
+Logo: https://i.imgur.com/Sdou1Ab.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 
 Group: Legislativo
 Name: Canal Gov
@@ -3922,16 +3930,6 @@ URL: https://59e4b6c1beddc.streamlock.net/ronaldoalepi/ronaldoalepi/playlist.m3u
 Logo: https://i.imgur.com/eMguSjM.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
-Name: TV Camara
-URL: https://stream3.camara.gov.br/tv1/manifest.m3u8
-Logo: https://i.imgur.com/Sdou1Ab.png
-Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
---------------------------------------------------
-Name: TV Camara 2
-URL: https://stream3.camara.gov.br/tv2/manifest.m3u8
-Logo: https://i.imgur.com/dHrUG1R.png
-Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
---------------------------------------------------
 Name: TV Camara de Sao Paulo
 URL: https://cdn.jmvstream.com/w/LVW-8711/ngrp:LVW8711_tG0F3TEBDL_all/playlist.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Logo_tvcamara_.png/512px-Logo_tvcamara_.png
@@ -3949,11 +3947,6 @@ Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/
 --------------------------------------------------
 
 Group: Lifestyle
-Name: Biznet Lifestyle (480p)
-URL: http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/chunklist_w109806785_b2256000_slen_tkYml6a2V5bGl2ZXN0YXJ0dGltZT0wJmJpemtleWxpdmVlbmR0aW1lPTAmYml6a2V5bGl2ZUN1c3RvbVBhcmFtZXRlcj1teVBhcmFtZXRlciZiaXprZXlsaXZlaGFzaD1qZ0RLUGNsY0dkWmZ2cklEeGZNZHBUN3Zfc3JNV0NidWJudEdvOWNDWVdwY0JCUWFsTWxMUXhIc3dtNDNQYlZS.m3u8
-Logo: https://i.imgur.com/XqUfQKA.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: HANDICAP TV France
 URL: https://srv.webtvmanager.fr:3697/stream/play.m3u8
 Logo: https://i.imgur.com/vXbAeD0.png
@@ -3962,6 +3955,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Just Vogue TV (1080p)
 URL: https://ip100.radyotelekomtv.com:3873/stream/play.m3u8
 Logo: https://i.imgur.com/sRKYBMb.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: MediCOOL TV (720p)
+URL: https://stream1.antenaplay.ro/live/MediCOOLTV/chunklist.m3u8
+Logo: https://i.imgur.com/Xe7x1k2.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: QTV-2
@@ -4013,6 +4011,11 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 --------------------------------------------------
 
 Group: Movies
+Name: Aurora Media Films (720p)
+URL: https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
+Logo: https://i.imgur.com/DVC5w6H.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: CHC Action
 URL: http://180.213.174.225:9901/tsfile/live/1027_1.m3u8?authid=0&key=txiptv&playlive=1
 Logo: https://i.imgur.com/AuiVcyh.png
@@ -4033,19 +4036,9 @@ URL: https://gcinemahls.wns.live/hls/stream.m3u8
 Logo: https://www.lyngsat.com/logo/tv/gg/grand-cinema.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Hero (720p) [Not 24/7]
-URL: https://live-fi.tvkaista.net/hero/live.m3u8?hd=true
-Logo: https://i.imgur.com/4t5JQLY.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Komsan TV [Not 24/7]
 URL: http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8
 Logo: https://i.imgur.com/SNTf2r3.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Meta Film TV (1080p)
-URL: https://metafilmhls.wns.live/hls/stream.m3u8
-Logo: https://www.lyngsat.com/logo/tv/mm/meta-film-tv.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Persiana Cinema
@@ -4191,16 +4184,6 @@ URL: https://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8
 Logo: https://i.imgur.com/5edYPBO.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Famatv (1080p) [Not 24/7]
-URL: https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
-Logo: https://i.ibb.co/tMmRp18/Fama-TV-cor-whitebg-hotizontal.jpg
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Finest TV (288p) [Not 24/7]
-URL: https://media.finest.tv/hls/live.m3u8
-Logo: https://i.imgur.com/1uoP10V.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Frecuencia Musical TV [Not 24/7]
 URL: https://s2.tvdatta.com:3307/hybrid/play.m3u8
 Logo: https://i.imgur.com/vPxvbVv.png
@@ -4209,11 +4192,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Gigant FM (720p)
 URL: https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8
 Logo: https://i.imgur.com/LwEHfjD.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Ground TV
-URL: https://panel.freedomflixtv.org:3764/hybrid/play.m3u8
-Logo: https://i.imgur.com/BqLHvvk.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: High Vision
@@ -4264,11 +4242,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Love TV (1080p) [Not 24/7]
 URL: https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
 Logo: https://i.imgur.com/B8iaejQ.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Luna Estéreo 106.4 FM (720p) [Not 24/7]
-URL: https://servervideo.intermediacolombia.com:19360/kychbbfhdz/kychbbfhdz.m3u8
-Logo: https://i.imgur.com/cESeD6R.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Makao TV (360p)
@@ -4449,6 +4422,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Tu Música HD (1080p)
 URL: https://cloudflare.streamgato.us:3125/live/megacinetvlive.m3u8
 Logo: https://i.imgur.com/HnjUjog.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Turbo Mix Radio TV (360p) [Not 24/7]
+URL: https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8
+Logo: https://i.imgur.com/AsdBQa3.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Vallenato Internacional (720p) [Not 24/7]
@@ -4801,6 +4779,11 @@ URL: http://88.212.15.19/live/test_ct24_hevc/playlist.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C4%8CT24_logo.png/512px-%C4%8CT24_logo.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: De Ultimo Minuto TV
+URL: https://soportedvb.click:3620/live/deultimominutomedialive.m3u8
+Logo: https://i.imgur.com/6ML2z17.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Dotto TV (720p)
 URL: https://dotto.edvr.ro/live/index.m3u8
 Logo: https://i.imgur.com/pfs882Z.png
@@ -4819,6 +4802,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Gulistan News (720p)
 URL: https://live.gulistannews.in/hls/gul.m3u8
 Logo: https://i.imgur.com/q5z6ycZ.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Hermanas Mirabal TV (720p) [Not 24/7]
+URL: https://cnn.essastream.com:3091/live/hmtvlive.m3u8
+Logo: https://i.imgur.com/cbKgcGh.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: High News (480p)
@@ -4871,6 +4859,11 @@ URL: https://videohd.live:19360/8076/8076.m3u8
 Logo: https://i.ibb.co/2MNzXN7/Channels4-profile-9.jpg
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Noticias 16
+URL: https://cdn.essastream.com:3457/live/noticiasn16live.m3u8
+Logo: https://www.lyngsat.com/logo/tv/nn/noticias-16-do.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Ora News (720p)
 URL: https://live1.mediadesk.al/oranews.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ora_News_%28Albania%29.svg/512px-Ora_News_%28Albania%29.svg.png
@@ -4916,6 +4909,16 @@ URL: https://vdo2.streamgato.us:3278/live/rdntvlive.m3u8
 Logo: https://i.imgur.com/x02CGSW.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Report TV (720p)
+URL: https://deb10stream.duckdns.org/hls/stream.m3u8
+Logo: https://i.imgur.com/C9lM1KP.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Rlive TV (406p)
+URL: https://realitatealive.md/tv/rlive.m3u8
+Logo: https://i.imgur.com/Ul4IIfX.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: RTM ASEAN
 URL: https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 Logo: https://i.imgur.com/skAiUxg.png
@@ -4929,6 +4932,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Televisión del Este (720p)
 URL: https://vdo2.streamgato.us:3632/live/televisiondelestelive.m3u8
 Logo: https://i.imgur.com/mmjbcGr.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Tempo Afric TV (720p)
+URL: https://streamspace.live/hls/tempoafrictv/livestream.m3u8
+Logo: https://i.imgur.com/mggN4mS.jpg
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: TGRT Haber (720p)
@@ -5114,17 +5122,17 @@ Logo: https://i.imgur.com/t5oUK3C.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: Jovem Pan Live
-URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744322407/ei/B-v3Z9SWNsCtobIP-92tUQ/ip/138.117.220.212/id/gJx-1XSLJLQ.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-n0hpjput-bpbz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AccgBcMlecBT11ze7f4N6Y4cqYpYLwFSZZSRvLgvISKMYaDOhZSk0ntgKgjyxdY83MFzb4GguOlsm3LO/spc/_S3wKmjBcJkBcCLZ9l0Zahdbe6pGwwouVmquhN3MoS_UC1dgU8DbOTdzbIQLNqLNOD_UuHY/vprv/1/playlist_type/DVR/initcwndbps/2778750/met/1744300808,/mh/sb/mm/44/mn/sn-n0hpjput-bpbz/ms/lva/mv/m/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744300359/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIgRW_VXnQHNz_qcQHVuN0nbiTGxmXdURyLmdfEhZf_aJMCIQDhtSegtoBbY6Ysk5rMjihKpUqUJvQ43Z2w3sm2TDCRNg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRgIhAO0eFGnjWB1nl-vh2kFIfpYzdfdFsGHHeIUyis15obSQAiEA_5ILNcrwCq58D0grWKqAjkSPUpgp-KrovPtctIviYQI%3D/playlist/index.m3u8
+URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744354808/ei/mGn4Z6aiDIqf-LAPsLvE4Q4/ip/138.117.220.212/id/6pKORAXdEZ4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpb6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AccgBcOK2Ly7m38tLKli0U0nQccxlVAFYT36P2-7MgLLV8kqNXG_UJLIkj9Ba34RIfChC8lBY1iLdV18/spc/_S3wKhRNS2G_BcP6AWYHv09-DUi9-i-0gclbJ4G7mNfsB4DY_nVcZ6N1F29F_syAYDYpGy0/vprv/1/playlist_type/DVR/initcwndbps/2316250/met/1744333209,/mh/NY/mm/44/mn/sn-n0hpjput-bpb6/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744332756/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIgOKYWbifIQlU5EFgj19e7Jqn4rWNbPox3fa9gxDjZnKMCIQDb6Lc3F7KtxXsbHbpVIIaci1mRyozChC16hkMwybXF3w%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRAIgK1cDn0OiUx-f0b_gvqHA7VoHZAodyJL4HFSqlWQDJc8CIE2DpjO4RQx2YF8iTwCYQ8cYlT9-wYevVwiLHKo2wBOp/playlist/index.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jovem_Pan_logo_2018.svg/512px-Jovem_Pan_logo_2018.svg.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: Record News Live
-URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744322409/ei/COv3Z7r2PMyQobIPk53x2Aw/ip/138.117.220.212/id/uwkbmPsXXW4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AccgBcPO1idmEQDUVihOr2MbXrw_lO0o9kSX1UlMEHJhema3veGBs58moJ3sHkKbkhp_rx4UoRCk7Ljv/spc/_S3wKs-F9w8AnwHk1vvjufQxhygp4ZgtLnRGJ_tIfnaqv5HMUm7IQhhbPrsz9WZQO07RbbY/vprv/1/playlist_type/DVR/initcwndbps/2778750/met/1744300809,/mh/mb/mm/44/mn/sn-n0hpjput-bpbz/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744300359/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAIl0AbMrCJdtcxl6ZwBuyY_OITcvqOJKxua01RNRvVZPAiEAn5bKh0ICOga_83ZW1AXaYJffMFUxyEsWButs_IO4bKA%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRgIhAK3AeZKCTPvdR2EO6AOJSACUlyGDrW-rtJwfDzs9ti0rAiEA4KX9RwfW10trfB1nHUtcsyxnKRNV9N9NoP96VXKfGDU%3D/playlist/index.m3u8
+URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744354809/ei/mWn4Z6CaEaaY1sQPuI6ysQM/ip/138.117.220.212/id/TDQl26CtAK8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpb6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AccgBcMIcc4Dx4KN1wHlxkYdngffeC8lIxhQfKfXTaL6L6c2hXjCBcPkk9vgTIgu_7paObqgxsSPMcX0/spc/_S3wKhfKkyPXUjrvZTSzVjBkGoLWgklW3VlNu2FJiq2RoqqOWyPsfC-SqzF04HVH3ZbF88E/vprv/1/playlist_type/DVR/initcwndbps/2316250/met/1744333210,/mh/w4/mm/44/mn/sn-n0hpjput-bpb6/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744332756/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIhAN7HNhMEBm6w60QHCVZ8ltwdHtsielPBCqEjr9JVmdzKAiB-PgKHT3ec8ntU1xXd-g1dOxRZ891RMhvWErhFeN9y5w%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRQIgdDbRUC2EfCSmpyEKqNBILmPcVkUUQiiPdLyOAcV6L_gCIQCM6mkYpYSzrG5rUtFd6M5BoS87PNun7EqaJlRLHPXokg%3D%3D/playlist/index.m3u8
 Logo: https://yt3.googleusercontent.com/xoqgjnZ9Wd8-cPvKryCyTcfeaT7K3rZtQxCJHhcbICXoVvw7x3hYcQ0S02kzvdmsqwq-Fgnt=s176-c-k-c0x00ffffff-no-rj
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: CNN Brasil
-URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744322412/ei/DOv3Z7_IL4b41sQPiorDCQ/ip/138.117.220.212/id/KQg3goK2n_E.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-n0hpjput-bpbs.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AccgBcPCheDgKvt8rsptdJZsN5IJQ2c-z-MUWyStzRPmFMuBNkCgHIiOhnolqAydNlhwETKaM3Tm9ZnD/spc/_S3wKinwzb4raoH4mxCq9YDUJdbE1ydWu5Wv2SlDyGCEEjaboSL0FFvB9hUl0l23tT5S3lc/vprv/1/playlist_type/DVR/initcwndbps/2632500/met/1744300813,/mh/ra/mm/44/mn/sn-n0hpjput-bpbs/ms/lva/mv/m/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744300359/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIhAPA9wy1YD8ZmLxq6wiyDL-FJLZCe4RCoAAGATgWw1HJwAiAWuY2NbURDR0oiFLbpZoxPErWzklSMXkK8w8M7_IUUrw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRQIgDgNgOw7PHdiZwKb59yNNZWTQwvEWbzvHEwEhHV3ClGICIQDsqiNpFPj0VJUXcGikJLOcdVJcvldwGjQ1ma6swsCz-A%3D%3D/playlist/index.m3u8
+URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744354812/ei/nGn4Z-XIM_uZobIP_5qDyQE/ip/138.117.220.212/id/WjcgkpS396s.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-n0hpjput-bpbs.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AccgBcNOa9xnZqb5M8RcqStlB1MstVKS-RYAR2AfbNhZ6wZVXUerrhoHkNpJTp6NH0CRyvEg28KVzj5t/spc/_S3wKvBtD6gIPbz5Fef2wIsmT6Dblm5_ViL_eGfciqu8QZdOsTzAd1ehP48R3ZFRf4ioiSE/vprv/1/playlist_type/DVR/initcwndbps/2412500/met/1744333213,/mh/_N/mm/44/mn/sn-n0hpjput-bpbs/ms/lva/mv/m/mvi/4/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744332756/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIhAN05FYH9Evo6MK6Zpw9ZH4sJYcD6x2FLOjtsxcyyfkEkAiBHObDmZznXdkqP4apF4TvbpZ6O4xOUHaUK_YMKczVLcA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRQIhAPndfYM9L8JfNQt5Rll2X5FKphp-l00yY6Hh3uVgGdlCAiANqoxN5kzFO6Y2Lfw8ejcoP5Sxr531iVqVTdfLyitDsQ%3D%3D/playlist/index.m3u8
 Logo: https://yt3.googleusercontent.com/ytc/AIf8zZQb7MP1UvjN4CnJ9tEyGeQM0btuJejf1PQekJlmog=s176-c-k-c0x00ffffff-no-rj
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
@@ -5560,11 +5568,6 @@ URL: https://mediaserver.abnvideos.com/streams/abnsat.m3u8
 Logo: https://i.imgur.com/WhPlJzh.jpeg
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Al Maali TV (1080p)
-URL: https://kali.vdopanel.com:3797/live/bashaclicklive.m3u8
-Logo: https://i.imgur.com/oEdApMA.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Al-Jawadain TV (1080p) [Not 24/7]
 URL: https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8
 Logo: https://i.imgur.com/Eo3UYCK.png
@@ -5588,6 +5591,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Alfath TV (576p)
 URL: https://alfat7-q.com:5443/LiveApp/streams/515112551489055772942045.m3u8
 Logo: https://i.imgur.com/87bdieg.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Alquran (1080p)
+URL: https://ktvlive.online/stream/hls/ch1.m3u8
+Logo: https://i.imgur.com/lqVwrAF.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Amigos TV Chiquimula (480p)
@@ -5630,6 +5638,11 @@ URL: https://cristianos2.todostreaming.es/live/malaga-livestream.m3u8
 Logo: https://i.imgur.com/FpkNIIG.jpg
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Cristo Visión Canal 31 (720p)
+URL: https://3a310f6ec721e6b362fcd22772b57f36a2fe6bb2.tabeelcr.com:8080/cristovision31/iptv.m3u8
+Logo: https://i.imgur.com/CFXZ8j0.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Dhamma TV (720p) [Not 24/7]
 URL: https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/id/6/63/Dhamma_TV_baru.png
@@ -5653,11 +5666,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Eslah TV (720p)
 URL: https://eslahtvhls.wns.live/hls/stream.m3u8
 Logo: https://i.imgur.com/To7VnsA.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Freedom Experience TV (720p)
-URL: https://panel.freedomflixtv.org:3934/hybrid/play.m3u8
-Logo: https://i.imgur.com/1SiJpPy.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: GDNS Ludhiana (1080p) [Not 24/7]
@@ -5690,6 +5698,21 @@ URL: http://138.68.138.119:8080/live/5a8993709ea19/index.m3u8
 Logo: https://i.imgur.com/hkV51ij.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: IBN TV Africa (720p)
+URL: http://68.183.41.209:8080/live/5d9a537c64b9c/index.m3u8
+Logo: https://i.imgur.com/eKy2ocd.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Izzah TV (480p)
+URL: https://streaming.radiosalamjambi.com/izzahtv.m3u8
+Logo: https://i.imgur.com/my7aqLc.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: JN19 (1080p) [Not 24/7]
+URL: https://servilive.com:3028/live/jntv19live.m3u8
+Logo: https://i.imgur.com/dudxyqk.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Josué TV (1080p)
 URL: https://videoserver.tmcreativos.com:19360/abbftuhxxs/abbftuhxxs.m3u8
 Logo: https://i.imgur.com/LNWGe1D.jpg
@@ -5715,11 +5738,6 @@ URL: https://lifetv.mpks.sk/s.m3u8
 Logo: https://i.imgur.com/jO8kAY2.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Luz Naciente TV (720p)
-URL: https://streeming.protoscr.com:3858/live/streeminglive.m3u8
-Logo: https://i.imgur.com/GC2lubh.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Lychnos TV (1080p)
 URL: https://thor.mental-media.gr:19360/imp/imp.m3u8
 Logo: https://i.ibb.co/pJbKsVm/Lychnos-Tv-live-vipotv-greece.png
@@ -5733,6 +5751,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: MTM TV (720p)
 URL: https://angel.btbn.tv:5443/mtmtv/streams/live.m3u8
 Logo: https://i.imgur.com/krcVhrx.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Namdhari (404p) [Not 24/7]
+URL: https://namdhari.tv/live/sbs1.m3u8
+Logo: https://i.imgur.com/NalsXTo.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Nour TV (720p)
@@ -5803,11 +5826,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Spirit Of Glory TV (360p)
 URL: https://panel.freedomflixtv.org:3937/hybrid/play.m3u8
 Logo: https://i.imgur.com/tR3Vfco.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: TarotVisión (576p)
-URL: https://stream.andalhost.com/hls/tarotvision.m3u8
-Logo: https://i.imgur.com/yOQ9e3a.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: TBN España (576p)
@@ -5963,7 +5981,7 @@ Logo: https://i.imgur.com/TIsk5zN.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: Santuário Nacional de Aparecida
-URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744322413/ei/Dev3Z-ysObO--LAPi_iQ4AQ/ip/138.117.220.212/id/juUt-rN5CVo.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-n0hpjput-bpbz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/bui/AccgBcOpTRV53NJkQMukXxIdmFkO_dFhzelosYVRferBDqy87E8QTdUK25U8daNJnzNvm6se2HprXSpt/spc/_S3wKt8J-ZAfgC7u7g-2GCi3-FfjOfBVur3RU3wDDFW7EAJFnz5--bdMhNBgij2ae5msh-U/vprv/1/playlist_type/LIVE/initcwndbps/2778750/met/1744300814,/mh/tn/mm/44/mn/sn-n0hpjput-bpbz/ms/lva/mv/m/mvi/4/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744300359/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAPwyBXA9rEDN6-iepDyLeFQQBrYKQwlkHfMCUYyQ4Kd1AiEAnKUL1eIUaaH5lVZba34BEyqtlNIqWpxAP3HxIq8ciC8%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRgIhAIilpa4LLwbIdiRy0DFYhY7CQuXuivxgc7N6KFReLykFAiEA0ytDAtU70twg8f1l7OuCBSyv23Ff7BrfiVgkoHNXcRk%3D/playlist/index.m3u8
+URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744354813/ei/nWn4Z-ipOo6QobIPoci-8AY/ip/138.117.220.212/id/juUt-rN5CVo.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-n0hpjput-bpbz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/bui/AccgBcMGzNSE4W3yCNfHHqMmQ5yome_4bP5fl7oRmhwqg3IwSpyI-WVr8ujZaO1lsvHXwPbWtD9j6V3I/spc/_S3wKuYl-d2wDTRjILONmuzSzqopeMYiHcwXDJANBlMTKvaR8bzNPmeJWB9fHtYASfiAY0Y/vprv/1/playlist_type/LIVE/initcwndbps/2572500/met/1744333214,/mh/tn/mm/44/mn/sn-n0hpjput-bpbz/ms/lva/mv/m/mvi/4/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744332756/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIhAOayWuo7WxhPbgNxH5zYWTJKd0Ki3wQRMVaNCK2dU5nMAiAoKufqzfjsYyuk2VJbV4dy7sq7t88VmH-EV7S2FlZd9w%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRgIhAP5n2fWYRmeojkTtr0VBx8FIFb2tmafJHMRtjgOualAnAiEAlkhoeL9wQv3seSLUN1brg0aFmJ9k3O9Ryi_OzZPbHsc%3D/playlist/index.m3u8
 Logo: https://yt3.googleusercontent.com/lJKcikNIOAxJwt56fCFkY-pc57H0TQgZtt0h8xPBlijST3FE_2AOZhqS4_D8afZaDjHKqKOVeA=s176-c-k-c0x00ffffff-no-rj
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
@@ -5981,6 +5999,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 --------------------------------------------------
 
 Group: Series
+Name: AVA Series (720p)
+URL: https://avaserieshls.wns.live/hls/stream.m3u8
+Logo: https://i.imgur.com/8AfAfZE.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: XPTV US (720p)
 URL: https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
 Logo: https://i.imgur.com/1m7kDmc.png
@@ -6075,11 +6098,6 @@ URL: https://hls.pokertvfa.live/hls/stream.m3u8
 Logo: https://i.imgur.com/tArvcvj.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: QazSport (480p) [Geo-blocked]
-URL: https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8
-Logo: https://i.imgur.com/UDJ0P5Q.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Racing.com (720p)
 URL: https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
 Logo: https://i.imgur.com/Q55HX1O.png
@@ -6148,7 +6166,7 @@ Logo: https://i.imgur.com/Ff5mj0o.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: Chespirito - FaixaBranca
-URL: https://sae12.playlist.ttvnw.net/v1/playlist/CuwEh6NL-h7VYpbCQ_cfiof_B2mOg6W007_tHEkjY3F3nLcuQJkjnf37BmGJoqpwnoccdVQlSqLy1MSc5HWULBYDBePyzd5uJj2aeDQyPSMywtTIWo8tvRc0GGA4_z1vBY4f-KPmhOQbjWxO73a7pLeGQdcYhjF4o1gHU939blGOZ-TpmAIVqOdTB3R_cGmjVNKNfJAaogjDCMhOjoN3TxIvFrDcQHuTlEEMs8vT8MeTXvKjF1cJIlDSeNwk0jhYQhZbzvh5h_P4NH3Ep_CRw4cxGBpm6ieKqvB8lqtxRrnxh-P-iEn13y4rgT7LU70lOGhhAjMrUy1Phkv116SQoSkExqXwWQUWpyqVEbYaXpKpw1qT3WojIw2Dq6jPmeRiakmMFJnFXgYuBnusbPJU0N1SmqnuD_93c951CHNgHy1HULU65NCWKl-rz17smOSrYLeKG4V6a5z94N9ttso8K1W8HvuBceoywpslTzqN1pTQdQMJgWf0USvTxuvx8U3VmBlVpIy2H3yEASBoM3gtD1sIw8z0_Q9QGCiYaa9_9mlG4xx4LUGqgVFnhqOQ-Ee-KSgUpdCdMBnNyQwgMMo8eojPGbLyr6dkOQg_ZiNF_oH-WB1PqzsjNukTD-bOvztEUrcUF4o9_layLBtG9C-qc-Q_R9PvELM0HGjBxGx122LhqUZtWq8WFJ1YiT2TpqA1dAwb5IR9MnI8sJdS7-FviUUmXMHS2U-LzrzM_AfhW_X2YwEOMKJsz-Xqmezdu_dFfc8GLDR0QU5U0brhkVUpfwK9Y5D_oFraGEtErQB5ePIZPUVBQAT1dBAfN3McULsaDAmESNsKk-HBAMuXciABKgl1cy1lYXN0LTIw_ws.m3u8
+URL: https://sae11.playlist.ttvnw.net/v1/playlist/CuwEri7TFIu45MqH998DTH-9p-6SwRuF5nYHBSqk4B0ySQ2COi5BUNWZCqhHWq1wefLa346vWTVdpNAB0h0NdeyWClw_G6DWzNng-hIqfQADyeti9kty_euLuVuWcEX1VjvPTm0abR7hzyjUgTbrojWu0zqwXWLHcKcFd6bwsYgGXFUodfa7Nofw3RK_YdCOgdUB7ib_e7HeaEXejT3R6n2mjSMNvaiWDIkfr7HI302hQvT5RKDYGvlVeMdd_7opgS-44QlUNbWuMadicmTMgbZU-LzOWJM07U0IhksorRQKu1kT2sU9iAtGnj6FaHcl5wbriFONoIbwkIqE9pKAml_fUrylFQQutVANtlET3DcFB6g75Ioav0ucfhZe1yQL6LzuPEzsUXRHLyYvItIDu75pxgoBacGzHE4WKCc7cKvptdIUTC1852W6WgMDswYcacY0LXTsSOpfDFAQdsJ17c-k-QH-XRZYpSYuS5mJzHxO8jeWwbwzpuBc3-ICh87jDpONA485l6Cxau6uVpJSG18DG2q7Fy4JHMxHWcCPSwKi9m7P7d3aNwg8ZuVacx5IekvNF-CMY_N1QVEr01AtkSZnCJy7Oo9i98e2_zW9D5ZpYY8ofl7iCCOO4oMuZNSEnvi780du2YtFcxFllIjCcHMIJVU1MSwusV6GWITRW64OPm9lOkd7ZwLxc3XsvZByVp3uYt0_DmfGg4Kv-nH3q8H-IixUDMBRnWPmtAKCmv4tq9kMaHJNZJb7CLqrCOjSJ75RSHeMntC9X8VAwFqJQuG93oKaW87BMqO06H1P6skYodPCH3A-eodpCPad65UaDPRRtWaUO-gby81X6CABKgl1cy1lYXN0LTIwgAw.m3u8
 Logo: https://static-cdn.jtvnw.net/jtv_user_pictures/5243aefb-8e1f-49e7-8acb-224ac65278d9-profile_image-70x70.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
@@ -6167,11 +6185,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Teletur (1080p)
 URL: https://cloudflare.streamgato.us:3227/live/teleturtvlive.m3u8
 Logo: https://i.imgur.com/Ig4gR93.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: TV Paraná Turismo (720p) [Not 24/7]
-URL: http://200.189.113.201/hls/tve.m3u8
-Logo: https://i.imgur.com/I6pKoBd.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: TV Sayohi (1080p)
@@ -6274,11 +6287,6 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: LN24 BE
 URL: https://live-ln24.digiteka.com/1911668011/index.m3u8
 Logo: https://i.ibb.co/nR2HsVr/ln24.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: MONACO INFO
-URL: https://webtv.monacoinfo.com/live/prod/index.m3u8
-Logo: https://i.ibb.co/MZLCTmN/monacoinfo.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: RDI CANADA
@@ -8076,11 +8084,6 @@ URL: https://raw.githubusercontent.com/BG47510/tube/refs/heads/main/mlemedia.m3u
 Logo: https://i.ibb.co/FzJtxkx/mmediach.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: SAVOIR.MÉDIA
-URL: https://hls.savoir.media/live/stream.m3u8
-Logo: https://i.ibb.co/LzWqD0s/savoirmedia.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
 Name: TÉLÉ QUÉBEC
 URL: https://bcovlive-a.akamaihd.net/575d86160eb143458d51f7ab187a4e68/us-east-1/6101674910001/playlist.m3u8
 Logo: https://i.ibb.co/hFr5pYb/telequebec.png
@@ -8542,7 +8545,7 @@ Logo: https://i.ibb.co/BrGNZJ4/showtv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW
-URL: https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=_iBbo9JLiFJ8uX_viIgEpA&e=1744312557
+URL: https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=kyIj7JcBjR1HHwcOzvC8tg&e=1744348449
 Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8687,7 +8690,7 @@ Logo: https://i.ibb.co/BrGNZJ4/showtv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW
-URL: https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=_iBbo9JLiFJ8uX_viIgEpA&e=1744312557
+URL: https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=kyIj7JcBjR1HHwcOzvC8tg&e=1744348449
 Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -11401,6 +11404,11 @@ URL: https://video-auth2.iol.pt/live_hd2/live_hd2/playlist.m3u8
 Logo: https://i.ibb.co/DCzRYjV/mca.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: FAMA FM TV
+URL: https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
+Logo: https://i.ibb.co/RpQj4Dd/fama.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: KURIAKOS TV
 URL: https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8
 Logo: https://i.ibb.co/cX8tGgsv/Kuriakos.png
@@ -12604,11 +12612,6 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: WATANIA 2
 URL: http://live.watania2.tn:1935/live/watanya2.stream/playlist.m3u8
 Logo: https://i.ibb.co/TM8sRjr/watanya-2.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: ATTASIA 9
-URL: https://cdn.bestream.io:19360/alqanat9/alqanat9.m3u8
-Logo: https://i.ibb.co/8DxdBPf/Attessia9.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NESSMA
@@ -16506,8 +16509,8 @@ URL: https://pfilmhls.wns.live/hls/stream.m3u8
 Logo: https://i.ibb.co/tqkV2sn/irflag.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: AVA SERIES
-URL: https://avaserieshls.wns.live/hls/stream.m3u8
+Name: META FILM
+URL: https://metafilmhls.wns.live/hls/stream.m3u8
 Logo: https://i.ibb.co/tqkV2sn/irflag.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -16551,8 +16554,8 @@ URL: https://svs.itworkscdn.net/assiratvlive/assirat/playlist.m3u8
 Logo: https://i.ibb.co/tqkV2sn/irflag.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: PERSIANA TWO
-URL: https://twohls.persiana.live/hls/stream.m3u8
+Name: PERSIANA NOSTALGIA
+URL: https://noshls.persiana.live/hls/stream.m3u8
 Logo: https://i.ibb.co/tqkV2sn/irflag.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -17668,14 +17671,19 @@ URL: https://otv.wotom.net/alau/stream.m3u8
 Logo: https://i.imgur.com/gK6ZRzp.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Amazon Sat (1080p)
-URL: https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
-Logo: https://i.imgur.com/7rjCS5i.png
+Name: Alqanat9 TV (1080p)
+URL: https://cdn.bestream.io:19360/alqanat9/alqanat9.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Ando TV
 URL: http://stream.qhbtv.com/adws/sd/live.m3u8
 Logo: https://i.imgur.com/EpTsFVu.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Antena Uno RadioVideo (360p)
+URL: https://tvdatta.com:3578/live/antenaunolive.m3u8
+Logo: https://i.imgur.com/PCN6iZJ.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: AVA Family (720p) [Not 24/7]
@@ -17701,6 +17709,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: BN TV (480p)
 URL: https://rtvbn.tv:8080/live/index.m3u8
 Logo: https://i.imgur.com/DUBvfWb.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: Boca Chica TV
+URL: https://vdo1.streamgato.us:3977/live/lavozsincensuratvlive.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Boreal (720p)
@@ -17763,14 +17776,14 @@ URL: https://streamconex.com:19360/puan/puan.m3u8
 Logo: https://i.imgur.com/HYuSqJy.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Canal 79 Santa Clara del Mar (240p)
+URL: https://streamconex.com:19360/santaclara-1/santaclara-1.m3u8
+Logo: https://i.imgur.com/I93ypGY.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Canal 100 Chinique (480p)
 URL: https://cdn.streamhispanatv.net:3295/live/canal100chilive.m3u8
 Logo: https://i.imgur.com/ygNKJXx.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Canal Doñana (720p) [Not 24/7]
-URL: https://secure5.todostreaming.es/live/division-alm.m3u8
-Logo: https://i.imgur.com/0WrKIxm.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Canal Dos Yopal (720p)
@@ -17898,6 +17911,11 @@ URL: https://elche7tv.gestec-video.com/hls/canal2.m3u8
 Logo: https://i.imgur.com/tjI0dLx.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Evolucion TV
+URL: https://cdnhd.iblups.com/hls/SJWxXEWwUd.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Farovisión (720p)
 URL: https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
 Logo: https://i.imgur.com/YtdOXWb.png
@@ -18013,11 +18031,6 @@ URL: https://cdnstack.internetmultimediaonline.org/lwsat/lwsat.stream/chunklist.
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Makina Vision TV
-URL: https://vdopanel.jlahozconsulting.com/p/3303/live/makinalive.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: Manas TV (1080p)
 URL: http://212.42.111.152:8080/hls/manas.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
@@ -18073,11 +18086,6 @@ URL: http://amaru.dyndns.org:8870/0.m3u8
 Logo: https://i.imgur.com/C5SYw7B.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Nova TV Star (360p) [Not 24/7]
-URL: https://7.innovatestream.pe:19360/radionovastar/radionovastar.m3u8
-Logo: https://i.imgur.com/CN2j8S3.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: NTV
 URL: http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8
 Logo: https://i.imgur.com/SoBhuIb.png
@@ -18096,11 +18104,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Omide Iran (720p) [Not 24/7]
 URL: https://oitnhls.wns.live/hls/stream.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Ontústik (360p)
-URL: https://stream.kaztrk.kz/regional/shymkenttv/index.m3u8
-Logo: https://i.imgur.com/xqr1hjN.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Oxi TV (720p)
@@ -18146,16 +18149,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Quassar TV (720p)
 URL: https://gnstreammedia.com:19360/4000/4000.m3u8
 Logo: https://i.imgur.com/NpUqyYP.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Qyzyljar (720p)
-URL: https://stream.kaztrk.kz/regional/petropavltv/index.m3u8
-Logo: https://i.imgur.com/7l1WSDJ.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Qyzylorda (720p)
-URL: https://stream.kaztrk.kz/regional/kyzylordatv/index.m3u8
-Logo: https://i.imgur.com/r4BFQpE.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Radio 350 (360p) [Not 24/7]
@@ -18248,29 +18241,19 @@ URL: https://stream.kaztrk.kz/regional/karagandytv/index.m3u8
 Logo: https://i.imgur.com/EIXwi1c.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Satranç TV (480p) [Not 24/7]
-URL: http://139.162.182.79/live/test/index.m3u8
-Logo: https://i.imgur.com/TXDV1ty.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: SEATV (1080p)
 URL: https://seatv.netlinkbroadcaster.com/hls/test.m3u8
 Logo: https://i.imgur.com/oZPorvg.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Semarang TV (720p)
+URL: http://116.254.112.74/hls/cakralive.m3u8
+Logo: https://i.imgur.com/KFC2WSB.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Sheffield Live TV (360p) [Not 24/7]
 URL: http://tv.sheffieldlive.org/hls/main.m3u8
 Logo: https://i.imgur.com/p0QzCFs.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: Show Turk
-URL: https://canlitvulusal.xyz/live/showturk/index.m3u8
-Logo: https://i.imgur.com/fdZpGDj.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: SIC TV (720p)
-URL: https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
-Logo: https://i.imgur.com/mHxQyB2.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: Sicardi TV (720p)
@@ -18413,6 +18396,11 @@ URL: https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediac
 Logo: https://upload.wikimedia.org/wikipedia/commons/a/a6/Telemia.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: Telenord 8 (1080p) [Not 24/7]
+URL: https://rdn.essastream.com:3170/live/telenord8live.m3u8
+Logo: https://i.imgur.com/1Ei0kB8.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: Telenord 10 (720p) [Not 24/7]
 URL: https://rdn.essastream.com:3676/live/telenord10live.m3u8
 Logo: https://i.imgur.com/1Ei0kB8.png
@@ -18488,11 +18476,6 @@ URL: https://lb1-live-mv.v2h-cdn.com/hls/ffca/true24/true24.m3u8
 Logo: https://i.imgur.com/O6Xre1O.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Tuya La Janda Televisión (1080p)
-URL: http://185.210.20.13:8080/0.m3u8
-Logo: https://i.imgur.com/KjWuini.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: TV5 HD (720p)
 URL: https://lb1-live-mv.v2h-cdn.com/hls/fffb/5hd/5hd.m3u8
 Logo: https://i.imgur.com/x1FTvdC.png
@@ -18558,6 +18541,11 @@ URL: https://host.streamingnation.live/p/3780/live/tvluzlive.m3u8
 Logo: https://i.imgur.com/FZUQ2WP.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: TV Mu (720p) [Not 24/7]
+URL: https://e.siar.us/live/tvmu.m3u8
+Logo: https://i.imgur.com/rR2iPBk.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: TV Pi Kanal (576p) [Not 24/7]
 URL: https://stream.pikanal.rs/pikanal/pgm.m3u8
 Logo: https://i.imgur.com/8ugnFa3.png
@@ -18566,11 +18554,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: TV QUISQUEYA (720p)
 URL: https://cloud5.livescast.com:19360/canaltvquisqueya/canaltvquisqueya.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: TV Regionalna Lubin (576p) [Not 24/7]
-URL: https://tvreg.klemit.net/regionalna/stream/index.m3u8
-Logo: https://i.imgur.com/2WVNt3f.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: TV Romana (720p)
@@ -18591,11 +18574,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: TV Solidaria (576p)
 URL: https://canadaremar2.todostreaming.es/live/argentina-web.m3u8
 Logo: https://i.imgur.com/M0fMypR.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: TV Warehouse (720p)
-URL: https://tvwarehouse.r.worldssl.net/mystream.m3u8
-Logo: https://i.imgur.com/CMuczfY.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: TV Yes Italia (720p)
@@ -18663,11 +18641,6 @@ URL: https://verbumtv.livebox.co.in/verbumtvhls/live.m3u8
 Logo: https://i.imgur.com/YEKEaB4.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: Vinh Long TV 1 (576p)
-URL: http://125hvt.ddns.net:21585/thvl1/tracks-v1a1/mono.m3u8
-Logo: https://i.imgur.com/5YFsqPx.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: VIO TV (480p)
 URL: http://slovanet-livestream.ceelabs.com:1935/live/VioTV.stream_transcoded/playlist.m3u8
 Logo: https://i.imgur.com/7EL3VZ5.png
@@ -18676,21 +18649,6 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 Name: Visión TV (720p)
 URL: https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8
 Logo: https://i.imgur.com/S0JrfIl.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: VTV1 (576p)
-URL: http://125hvt.ddns.net:21585/vtv1/tracks-v1a1/mono.m3u8
-Logo: https://i.imgur.com/vZYlGIW.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: VTV4 (576p)
-URL: http://125hvt.ddns.net:21585/vtv4/tracks-v1a1/mono.m3u8
-Logo: https://i.imgur.com/WsLLmR2.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: VTV5
-URL: http://125hvt.ddns.net:21585/vtv5/tracks-v1a1/mono.m3u8
-Logo: https://i.imgur.com/Vnnna1C.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: VTV9 (576p)
@@ -18778,13 +18736,18 @@ URL: http://live.stv24.tv:8080/svoetv/HQ_video.m3u8
 Logo: https://i.imgur.com/3cP2fmX.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
+Name: 万州三峡移民 (576p) [Not 24/7]
+URL: http://123.146.162.24:8013/tslslive/PU2vzMI/hls/live_sd.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: 万州影视 (576p) [Not 24/7]
 URL: http://123.146.162.24:8013/tslslive/vWlnEzU/hls/live_sd.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: 万州科教 (576p)
-URL: http://123.146.162.24:8013/tslslive/URetCnP/hls/live_sd.m3u8
+Name: 万州综合 (576p) [Not 24/7]
+URL: http://123.146.162.24:8013/tslslive/noEX9SG/hls/live_sd.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
@@ -18810,6 +18773,11 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 --------------------------------------------------
 Name: 之江纪录
 URL: https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: 余姚姚江文化 (576p)
+URL: https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
@@ -18915,6 +18883,16 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 --------------------------------------------------
 Name: 新郑综合 (1080p) [Not 24/7]
 URL: http://live.dxhmt.cn:9081/tv/10184-1.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: 晋中公共 (1080p) [Not 24/7]
+URL: http://jzlive.jztvnews.com:90/live/jzgg.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: 晋中综合 (1080p)
+URL: http://jzlive.jztvnews.com:90/live/jzzh.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
@@ -19175,6 +19153,11 @@ Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/
 Name: Alpha Channel
 URL: https://5b01a3d32b65c.streamlock.net:1936/tvalpha/tvalpha/playlist.m3u8
 Logo: https://i.imgur.com/c1QqslA.png
+Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
+--------------------------------------------------
+Name: Amazon Sat
+URL: https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
+Logo: https://i.imgur.com/7rjCS5i.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: Araruna TV
@@ -19495,6 +19478,11 @@ Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/
 Name: SESC TV
 URL: https://slbps-ml-sambatech.akamaized.net/samba-live/2472/7424/8a00fe7cc36ac263b2c3e9324497d5ff/video/93a9920d-1b24-4c5e-a7d2-63d5489f59b5_index.m3u8
 Logo: https://i.imgur.com/Mu8O6CV.png
+Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
+--------------------------------------------------
+Name: SIC TV
+URL: https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
+Logo: https://i.imgur.com/mHxQyB2.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: SOU TV
@@ -19963,13 +19951,20 @@ Logo: https://i.imgur.com/TxHWAeD.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: SBT Central Live
-URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744322406/ei/Buv3Z-zbI9ajobIPwYGfyAo/ip/138.117.220.212/id/9wYBzDHxZJM.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-n0hpjput-bpbl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AccgBcNiAm33Dp2afxDrF_EonKtBjHaGs2y-c9iKMFNzLnmQQA4le_t1vsiz58VjT6E6PC0KYRCxB_Hn/spc/_S3wKmDRRJvOaIBSTx6oOxS5MqDWKlCWua0p9Pen8A0zpCvWit1M6vPCB8BfXFBQH54/vprv/1/playlist_type/DVR/hcs/sd/initcwndbps/2521250/met/1744300807,/mh/nu/mm/44/mn/sn-n0hpjput-bpbl/ms/lva/mv/m/mvi/3/pl/24/rmhost/rr4---sn-n0hpjput-bpbl.googlevideo.com/rms/lva,lva/smhost/rr1---sn-n0hpjput-bpbs.googlevideo.com/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744300359/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIgX-2YOc2QsqG_HnlS512SAHi33F6EtZy7l45NF3AZpeQCIQDIw1XfGULTDgA-Rm5-MpxlpoMSUIm4mSgbD80c8DkzzA%3D%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms,smhost/lsig/ACuhMU0wRQIhALOwLv_uYK588_xaWdedWYwvLGGrmxSvBPQHnhziY5CvAiAd9wNin9eMjrFXgUuds8EFif2lzw46Af8A3ItAZXFhTA%3D%3D/playlist/index.m3u8
+URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744354806/ei/lmn4Z-z2Nb-V-LAPzuqx6Qg/ip/138.117.220.212/id/9wYBzDHxZJM.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-n0hpjput-bpb6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AccgBcMDXAJTnkT_6zZ6Pj8YUQvN0r30io_gZNf_E9vnWClAidekromfP5o4U3jB3Gr6vfc_WHEuHsy7/spc/_S3wKl7CK3IAMAPQGl-1FIxGlDEHA_jGTbS85fdntHZE-KpdBsrViMngHNNGTVJx_wU/vprv/1/playlist_type/DVR/hcs/sd/initcwndbps/2316250/met/1744333208,/mh/nu/mm/44/mn/sn-n0hpjput-bpb6/ms/lva/mv/m/mvi/3/pl/24/rmhost/rr1---sn-n0hpjput-bpb6.googlevideo.com/rms/lva,lva/smhost/rr1---sn-n0hpjput-bpbs.googlevideo.com/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744332756/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRAIgB1QCHAmliiuV82P2tT3VgsTw4AOzpZw-NlDRlZy6U8ECIAdbO1gbfNGMNYH0MioPJSEHnqKtXrPgQJ9EbBH9rC_Y/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms,smhost/lsig/ACuhMU0wRQIgMg_nscl-IXaku5tSPNK_P2fFLEznHaK0-gbynzwlmroCIQDLsO_XQ4wtNKJo4HOoETXho56nLspAjbkybFVkiJGXrw%3D%3D/playlist/index.m3u8
 Logo: https://cdn.mitvstatic.com/channels/br_sbt_m.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 Name: Diário TV Teresópolis
-URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744322411/ei/C-v3Z-jAGJSPobIPxazjuQw/ip/138.117.220.212/id/JMu3FfHgZi4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-n0hpjput-bpbe.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AccgBcM01e_ucqwFV7nRl1jmr3fxTLz_9wrngCbKenvvfs1_MsOPSzH8GnuG3qAC1jlDyv61MkfbIzH5/spc/_S3wKiIvEt08Kg0F5oLurSullhtoWmFt1bP1ZAaUZq8KLxxeIK03BP5WCsqfq0resHxBQhE/vprv/1/playlist_type/DVR/initcwndbps/2665000/met/1744300812,/mh/dM/mm/44/mn/sn-n0hpjput-bpbe/ms/lva/mv/m/mvi/3/pcm2cms/yes/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744300359/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAOBW690BQuiyvqz2QsnxZ50krA0q5CY2iHRy8xp6ZpGWAiEAoL5llUygtCQ4is7XpJPCPS_-riXP8pNbx2IkjMh26EA%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms/lsig/ACuhMU0wRgIhAPcLqKHCcRBUGvGWIhFrpLho0SKNEhHdkbsJ8wIiLF0KAiEA8jBKCD-WTJMx1-G0S_cw0D8BwFrmA9nNma8CjJMwSa0%3D/playlist/index.m3u8
+URL: https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1744354811/ei/m2n4Z5DRG47C-LAPnv3cyQw/ip/138.117.220.212/id/JMu3FfHgZi4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-n0hpjput-bpbe.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AccgBcN9QD4U4o0bWjF1lOU_3FxhyWU65m010IAOOIlfE8FAJsVFFwJ3qVSXzx1AWhdyx43zY10ljYUT/spc/_S3wKnxvDbQtmNAMcZWlrvTXH5HHSVB6l1ol00ogFyGN02z1LNCJbzQzHHNOXZMrhwAFiY4/vprv/1/playlist_type/DVR/initcwndbps/2475000/met/1744333212,/mh/dM/mm/44/mn/sn-n0hpjput-bpbe/ms/lva/mv/m/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51435733/mt/1744332756/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIhAIuDLdMtVWcxTRjppmA0WyIpdeC4SFMr-BDU-KtM8N9BAiADoUNPZ-juFpeZo7mqLTBUHHtO9IuH4kWHvLE_EY2_0g%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACuhMU0wRAIgRYV6FFERkpyWVbWCFS8G0jv1zExZwFeTla9d5DbYkBwCIF9QPNP7DDoBwQHr1yigbd4RKsEkeCg3rfAHwH4jG21j/playlist/index.m3u8
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-m/c395ee4019fcd2bcacc342b09d3c9ff7.webp
+Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
+--------------------------------------------------
+
+Group: Viagem
+Name: TV Parana Turismo
+URL: http://200.189.113.201/hls/tve.m3u8
+Logo: https://i.imgur.com/I6pKoBd.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 
