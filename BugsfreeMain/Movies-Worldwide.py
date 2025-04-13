@@ -224,6 +224,7 @@ def main():
         "https://raw.githubusercontent.com/Buddyalfian25/nontons/refs/heads/main/VOD",
         "https://raw.githubusercontent.com/Buddyalfian25/nontons/refs/heads/main/V%20O%20D",
         "https://raw.githubusercontent.com/mimipipi22/lalajo/refs/heads/main/vod",
+        "https://raw.githubusercontent.com/mimipipi22/lalajo/refs/heads/main/DewaNonton",
     ]
 
     collector = M3UCollector(country="Worldwide")
