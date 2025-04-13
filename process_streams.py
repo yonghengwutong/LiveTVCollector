@@ -12,7 +12,7 @@ BASE_PATH = "BugsfreeStreams/LiveTV"
 FINAL_M3U_FILE = "BugsfreeStreams/FinalStreamLinks.m3u"
 
 # Source M3U playlists
-SOURCES = [   
+SOURCES = [    
     "https://aynaxpranto.vercel.app/files/playlist.m3u",
     "https://iptv-org.github.io/iptv/countries/us.m3u"
 ]
@@ -20,7 +20,6 @@ SOURCES = [
 # Check if a URL is an active .m3u8 stream
 def is_stream_active(url):
     try:
-        # Use GET with Range header to fetch minimal data
         response = requests.get(url, headers={"Range": "bytes=0-1023"}, timeout=3, stream=True)
         if response.status_code in (200, 206) and "m3u" in response.headers.get("content-type", "").lower():
             return True
