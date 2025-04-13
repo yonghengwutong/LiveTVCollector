@@ -690,12 +690,6 @@
     "img": "https://vmp-cms.telkomsel.com/sites/default/files/entry/0_t4w6p88r/landscape_carousel_xxhdpi.jpg"
   },
   {
-    "name": ",TV 5 Monde",
-    "type": "Movies",
-    "url": "https://d1abp075u76pbq.cloudfront.net/live/eds/TV5/sa_dash_vmx/TV5.mpd",
-    "img": "https://raw.githubusercontent.com/JustinAgerton/TheIndos/main/V%2B/2.%20TV5%20Monde.jpg"
-  },
-  {
     "name": "Nadoo Korean",
     "type": "Movies",
     "url": "https://op-krgroup1-swiftservehd-1.dens.tv/h/h125/live.m3u8",
@@ -708,6 +702,12 @@
     "img": "https://www.mncvision.id/userfiles/image/channel/axn_150x150.jpg"
   },
   {
+    "name": "Celestial Classic Movies",
+    "type": "Movies",
+    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/CelestialClassic/sa_dash/CelestialClassic.mpd",
+    "img": "https://www.mncvision.id/userfiles/image/channel/channel_22.png"
+  },
+  {
     "name": "Cinema World",
     "type": "Movies",
     "url": "https://raw.githubusercontent.com/hendroagung2904/IDH/refs/heads/main/IDH-CinemaWorld.m3u8",
@@ -716,8 +716,14 @@
   {
     "name": "FMN",
     "type": "Movies",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/FMN/sa_dash_vmx/FMN.mpd",
+    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/FMN/sa_dash/FMN.mpd",
     "img": "https://www.mncvision.id/userfiles/image/channel/150x150fmn.jpg"
+  },
+  {
+    "name": "HITS",
+    "type": "Movies",
+    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/HITS/sa_dash/HITS.mpd",
+    "img": "https://www.mncvision.id/userfiles/image/channel/channel_160.jpg"
   },
   {
     "name": "KIX",
@@ -738,6 +744,12 @@
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_109.png"
   },
   {
+    "name": "Zee Bioskop",
+    "type": "Movies",
+    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/ZeeBIOSKOP/sa_dash/ZeeBIOSKOP.mpd",
+    "img": "https://www.mncvision.id/userfiles/image/channel/channel_23.png"
+  },
+  {
     "name": "GEM",
     "type": "Movies",
     "url": "https://atemecdnbalancer-voe.sysln.id/live/eds/GEMHD/mpd/GEMHD.mpd",
@@ -750,10 +762,22 @@
     "img": "https://github.com/Qingtvnew/test/raw/main/one.png"
   },
   {
+    "name": "Indonesia Movie Channels",
+    "type": "Movies",
+    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/IndonesiaMovieChannels-HD/sa_dash/IndonesiaMovieChannels-HD.mpd",
+    "img": "https://www.mncvision.id/userfiles/image/channel/channel_14.png"
+  },
+  {
     "name": "Paramount",
     "type": "Movies",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/Paramount-HD/sa_dash_vmx/Paramount-HD.mpd",
+    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/Paramount-HD/sa_dash/Paramount-HD.mpd",
     "img": "https://i.ibb.co/zrxvFLV/images-6-modified.png"
+  },
+  {
+    "name": "Cinemachi",
+    "type": "Movies",
+    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/Cinemachi-HD/sa_dash/Cinemachi-HD.mpd",
+    "img": "https://www.visionplus.id/images/repository/604/604-LOGO-m.png"
   },
   {
     "name": "HBO(play)",
@@ -1310,37 +1334,37 @@
   {
     "name": "Fight Sports",
     "type": "Sports",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/FightSports/sa_dash_vmx/FightSports.mpd|referer=https://www.visionplus.id",
+    "url": "http://op-group1-swiftservehd-1.dens.tv/h/h05/01.m3u8",
     "img": "https://www.mncvision.id/userfiles/image/channel/150x150fightsport.jpg"
   },
   {
-    "name": "Sportstars 1 HD",
+    "name": "Sportstars 1",
     "type": "Sports",
     "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_102.png"
   },
   {
-    "name": "Sportstars 2 HD",
+    "name": "Sportstars 2",
     "type": "Sports",
     "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_98.png"
   },
   {
-    "name": "Sportstar 3 HD",
+    "name": "Sportstar 3",
     "type": "Sports",
     "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd",
     "img": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sportstars_3.png"
   },
   {
-    "name": "Sportstar 4 HD",
+    "name": "Sportstar 4",
     "type": "Sports",
     "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd|referrer=https://visionplus.id/",
     "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Sportstars_4.png"
   },
   {
-    "name": "Soccer Channel-HD",
+    "name": "Soccer Channel",
     "type": "Sports",
-    "url": "https://d1abp075u76pbq.cloudfront.net/live/eds/soccerchannel-test/sa_dash_vmx/soccerchannel-test.mpd|Referer=https://www.visionplus.id/",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_101.png"
   },
   {
@@ -1374,33 +1398,33 @@
     "img": "https://i.ibb.co/jzZvcmP/Nba-hometv.jpg"
   },
   {
-    "name": "BEIN SPORTS ID 1",
+    "name": "Bein Sport 1",
     "type": "Sports",
     "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd",
     "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT6vvW98IQjV4K_2HTkwuqus_nFT07PTyUNe2XkwHPuSBqzmijljKlXMMYSl_tr-tkABbK5eeD4Ac4cdx2uYaRMcDaGWHbmXRnxSQtMK_NicZmYzsN8k2W1n3xZVDnAO4SrA5dgfPLAjaZe2voKJD_epRcEOztMw1CmVyVN4qlMIpQQpbFlaA1Qd1YPhPc/s700/BEIN%20SPORTS%201%20ID.png"
   },
   {
-    "name": "BEIN SPORTS ID 2",
+    "name": "Bein Sport 2",
     "type": "Sports",
     "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd",
     "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWZPMP862gttVqq4Qr01LuTHayiy-qaRuqnKeHOHXDwHpTwtWc7EOxBkQ4PCroCezfYV-_RK2GaTIHnRT2ZFYIXE6Kxhqa7xAoBi0S8HlGWAIhiqFw6AZ71FI6X5qE0tyuWi6RZ17WPSgToHd1a3Iaa0FqZaUpzQVH6gdH1WdX1s_w6pMXza4h1ZMAkB7c/s700/BEIN%20SPORTS%202%20ID.png"
   },
   {
-    "name": "BEIN SPORTS ID 3",
+    "name": "Bein Sport 3",
     "type": "Sports",
     "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd",
     "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8PTewlflhO6NctO37AxButKfVN9WgQW4xLdXp0EBl0bicbPUn47KkrL6-VtFNIG2bX40jBE1ZuliSvyBJ41gBOfTuTRlh-OYRSuZkXCUnXA62D-sNsAx6-upXdXZVu-gSnb28mmFhv9qtS-IRgRzNji3eRtBX7u-ei2QITW8sqDNnBEZl30aM20eIR4as/s700/BEIN%20SPORTS%203%20ID.png"
   },
   {
-    "name": "BEIN SPORTS 4",
+    "name": "Bein Sport 4",
     "type": "Sports",
-    "url": "https://xyzdddd.mizhls.ru/lb/premium94/index.m3u8",
+    "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd",
     "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVDC4F7SLB9KmrusTyTUoycs5HMYTeFiFRX-oG1-WcQa57OWPoSVNwtk0TrQJdXFE9XXH0ZOEB5rRH8zMhyFtjTYPxnbaQ7dcHMixZ1QAxAf6r0sOo9giCfuCZIXQvTLt8Jm9jTfgr0Py5iiS84tg3d6o1n_f-pqTzFVebI9BZQzvlUiQ4sS1VA9_XXRc7/s700/BEIN%20SPORTS%204%20ID.png"
   },
   {
-    "name": "BEIN SPORTS ID 5",
+    "name": "Bein Sport 5",
     "type": "Sports",
-    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/BEIN05/sa_dash_vmx/BEIN05.mpd",
+    "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd",
     "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ53Z0TTaBPc8fkuVDpdRd1tMwRmNNhUvVqo-jT6Pm9BE01MQiw2gsTnyWLIJTF7QM5HovelMByw7Jr0aLgwhRyNXQLc2qpIZaTeGrZoioJFNe-xYG9oFugueUtnhgMeHDKpwSYO3PbS5lxlKCIn5tDXRqg_Lc6Lpgom315Kh6yx4rDCPzM3f0NE8T6P65/s700/BEIN%20SPORTS%205%20ID.png"
   },
   {
@@ -1546,66 +1570,6 @@
     "type": "Sports",
     "url": "https://ssc-extra3-enc.edgenextcdn.net/out/v1/8f1c6c3f05ef4284a64b342891bd85ae/index.mpd",
     "img": "http://guki.my.id/logo/sports/scex3.jpg"
-  },
-  {
-    "name": "SKYSPORTS_1",
-    "type": "Sports",
-    "url": "http://extraott.com/live/6945574629/7169628753/710948.ts",
-    "img": "https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png"
-  },
-  {
-    "name": "SKYSPORTS_2",
-    "type": "Sports",
-    "url": "http://extraott.com/live/6945574629/7169628753/710947.ts",
-    "img": "https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png"
-  },
-  {
-    "name": "SKYSPORTS_3",
-    "type": "Sports",
-    "url": "http://extraott.com/live/6945574629/7169628753/710946.ts",
-    "img": "https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png"
-  },
-  {
-    "name": "SKYSPORTS_4",
-    "type": "Sports",
-    "url": "http://extraott.com/live/6945574629/7169628753/710945.ts",
-    "img": "https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png"
-  },
-  {
-    "name": "SKYSPORTS_5",
-    "type": "Sports",
-    "url": "http://extraott.com/live/6945574629/7169628753/710944.ts",
-    "img": "https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png"
-  },
-  {
-    "name": "SKYSPORTS_6",
-    "type": "Sports",
-    "url": "http://extraott.com/live/6945574629/7169628753/710943.ts",
-    "img": "https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png"
-  },
-  {
-    "name": "SKYSPORTS_7",
-    "type": "Sports",
-    "url": "http://extraott.com/live/6945574629/7169628753/710942.ts",
-    "img": "https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png"
-  },
-  {
-    "name": "SKYSPORTS_PREMIER.LIGUEA",
-    "type": "Sports",
-    "url": "http://extraott.com/live/6945574629/7169628753/710941.ts",
-    "img": "https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png"
-  },
-  {
-    "name": "SKYSPORTS_9",
-    "type": "Sports",
-    "url": "http://extraott.com/live/6945574629/7169628753/710940.ts",
-    "img": "https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png"
-  },
-  {
-    "name": "SKYSPORTS_SELECT",
-    "type": "Sports",
-    "url": "http://extraott.com/live/6945574629/7169628753/83011.ts",
-    "img": "https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png"
   },
   {
     "name": "Dunia Games TV (720p) [Not 24/7] [Geo-blocked]",
@@ -3518,7 +3482,7 @@
   {
     "name": "RCTI",
     "type": "TV Nasional Indonesia",
-    "url": "https://d1abp075u76pbq.cloudfront.net/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd|referer=https://www.visionplus.id",
+    "url": "http://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_80.png"
   },
   {
@@ -3536,13 +3500,13 @@
   {
     "name": "iNews",
     "type": "TV Nasional Indonesia",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd|referer=https://www.visionplus.id",
+    "url": "http://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_83.png"
   },
   {
     "name": "ANTV",
     "type": "TV Nasional Indonesia",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd|referer=https://www.visionplus.id",
+    "url": "http://khano.nng.cloudns.us/live/m3u8/id/b630a001384603f.m3u8",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_115.png"
   },
   {
@@ -3554,19 +3518,19 @@
   {
     "name": "Trans7 HD",
     "type": "TV Nasional Indonesia",
-    "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd|Referer=https://www.visionplus.id/&user-agent=Android",
+    "url": "https://video.detik.com/trans7/smil:trans7.smil/chunklist_w1144556368_b744100_sleng.m3u8",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_110.png"
   },
   {
     "name": "TV ONE HD",
     "type": "TV Nasional Indonesia",
-    "url": "https://d1abp075u76pbq.cloudfront.net/live/eds/TVOne-2/sa_dash_vmx/TVOne-2.mpd|referer=https://www.visionplus.id/",
+    "url": "http://cdn.nng.cloudns.us/live/m3u8/id/0976f879a0c4548.m3u8",
     "img": "https://i.imgur.com/Ys0M82m.jpeg"
   },
   {
     "name": "Metro TV",
     "type": "TV Nasional Indonesia",
-    "url": "https://d1abp075u76pbq.cloudfront.net/live/eds/Metro-TV2/sa_dash_vmx/Metro-TV2.mpd|referer=https://www.visionplus.id/",
+    "url": "http://khano.nng.cloudns.us/live/m3u8/id/6183ec225226ccb.m3u8",
     "img": "https://www.mncvision.id/userfiles/image/channel/metro_tv.png"
   },
   {
@@ -3584,7 +3548,7 @@
   {
     "name": "TVRI Nasional",
     "type": "TV Nasional Indonesia",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd|referer=https://www.visionplus.id",
+    "url": "http://khano.nng.cloudns.us/live/m3u8/id/3f58825fe229a9f.m3u8",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_118.jpg"
   },
   {
@@ -3610,12 +3574,6 @@
     "type": "TV Nasional Indonesia",
     "url": "https://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8",
     "img": "https://images.indihometv.com/logo_ochannel_ver1.png"
-  },
-  {
-    "name": "MOJI (indi)",
-    "type": "TV Nasional Indonesia",
-    "url": "https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd",
-    "img": "https://i.imgur.com/CgKBG1E.png"
   },
   {
     "name": "Nusantara TV",
@@ -3720,12 +3678,6 @@
     "img": "https://i.imgur.com/S4aoHg8.png"
   },
   {
-    "name": "RCTI +",
-    "type": "🔴DENS TV",
-    "url": "http://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti",
-    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtOswYxSurFYD6yBWgqPA2FszUp8JYFH0VTxzEFzB4OF_mhSZgZpi6IpMZ_BsQvkrlWcVUskAyP-oMBdiqjFhmLnPVOrGfAb32-nwI0fmudX4Wnr3vgfpjtvif1OlJaSnLEvr_5E8F9nORtUPcn7L4tcnBuNQh6LxGxGbdRM-oyJL_K49UT7HLolzRAVC4/s700/RCTI.png"
-  },
-  {
     "name": "MNCTV +",
     "type": "🔴DENS TV",
     "url": "http://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv",
@@ -3736,12 +3688,6 @@
     "type": "🔴DENS TV",
     "url": "http://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv",
     "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWXLEjqZOOO2LT5C_1aBWyMBW7K3X8UaK2r3jmKvNbuXaWpei7VO_9LR1lfKqXhTIvYjciKBzFsa2ENtKRmI5snupnZUB4zdLh-mzhgQwwryclFl-OCE-auGTDPhjOog0Wv36dnGXU1WJTG3T9yT-ZcWj7ddXMMZTLilzzt8rrZd7zLmHd221buxvteyRU/s700/GTV.png"
-  },
-  {
-    "name": "INEWS +",
-    "type": "🔴DENS TV",
-    "url": "http://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews",
-    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqu3uVWEYZpgNsRFjsIns7W4IJoco3hqCoJR6PhJXA4wBlKPukSG4a1qPJblt0aELWfuvhwGZWcIZMhxltraI4C2onG9vRiJWwW4i8a04apMc-MfpIQ4ptrOhcAQkXyVPKHeylwbVZAKuS3JxtoJugGvp7Fpr8yL-goijBHOUpPA2BXnztqR4kg961UI9o/s700/INEWS.png"
   },
   {
     "name": "METRO TV",
@@ -4244,7 +4190,7 @@
   {
     "name": "Berita Satu News",
     "type": "TV Berita Indonesia",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/BeritaSatu/sa_dash_vmx/BeritaSatu.mpd|referer=https://www.visionplus.id",
+    "url": "http://khano.nng.cloudns.us/live/m3u8/id/270f72deeb5843e.m3u8",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_103.jpg"
   },
   {
@@ -4688,7 +4634,7 @@
   {
     "name": "DreamWorks",
     "type": "Anak² & Kartun",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/Dreamwork-HD/sa_dash_vmx/Dreamwork-HD.mpd|referer=https://www.visionplus.id",
+    "url": "https://d1abp075u76pbq.cloudfront.net/live/eds/Dreamwork-HD/sa_dash_vmx/Dreamwork-HD.mpd",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_47.png"
   },
   {
@@ -4730,13 +4676,13 @@
   {
     "name": "Nick Jr",
     "type": "Anak² & Kartun",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/NickJr-HDD/sa_dash_vmx/NickJr-HDD.mpd|referer=https://www.visionplus.id",
+    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/NickJr-HDD/sa_dash_vmx/NickJr-HDD.mpd|Referer=https://www.visionplus.id",
     "img": "https://www.mncvision.id/userfiles/image/channel/nickjr.jpg"
   },
   {
     "name": "Nickelodeon",
     "type": "Anak² & Kartun",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/Nickelodeon/sa_dash_vmx/Nickelodeon.mpd|referer=https://www.visionplus.id",
+    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/Nickelodeon/sa_dash_vmx/Nickelodeon.mpd|Referer=https://www.visionplus.id",
     "img": "https://www.mncvision.id/userfiles/image/channel/nickelodeon.png"
   },
   {
@@ -4748,7 +4694,7 @@
   {
     "name": "Animax",
     "type": "Anak² & Kartun",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/Animax/sa_dash_vmx/Animax.mpd|referer=https://www.visionplus.id",
+    "url": "https://atemecdnbalancer-voe.sysln.id/live/eds/AnimaxHD/mpd/AnimaxHD.mpd",
     "img": "https://www.mncvision.id/userfiles/image/channel/Animax_150x150.png"
   },
   {
@@ -4950,6 +4896,12 @@
     "img": "https://i.imgur.com/WSnhDLn.jpeg"
   },
   {
+    "name": "Trans7 HD 1 ON",
+    "type": "NASIONAL",
+    "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd|Referer=https://www.visionplus.id/&user-agent=Android",
+    "img": "https://i.imgur.com/WSnhDLn.jpeg"
+  },
+  {
     "name": "MNC TV 2 ON",
     "type": "NASIONAL",
     "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd|Referer=https://www.visionplus.id/&user-agent=Android",
@@ -4960,6 +4912,12 @@
     "type": "NASIONAL",
     "url": "https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8",
     "img": "https://i.imgur.com/YtOBEpp.jpeg"
+  },
+  {
+    "name": "Moji HD 1 ON",
+    "type": "NASIONAL",
+    "url": "https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd",
+    "img": "https://i.imgur.com/6y8Bum2.jpeg"
   },
   {
     "name": "Moji (Dens)",
@@ -5094,12 +5052,6 @@
     "img": "https://i.imgur.com/5GYwymQ.jpeg "
   },
   {
-    "name": "Nickelodeon South East Asia 2 ON",
-    "type": "ANAK",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/Nickelodeon/sa_dash_vmx/Nickelodeon.mpd|Referer=https://www.visionplus.id",
-    "img": "https://i.imgur.com/5GYwymQ.jpeg"
-  },
-  {
     "name": "Kids TV 1 ON",
     "type": "ANAK",
     "url": "https://cempedak-live-cdn.mncnow.id/live/eds/Kids-HD/sa_dash_vmx/Kids-HD.mpd",
@@ -5109,12 +5061,6 @@
     "name": "Nickelodeon Junior 1 ON",
     "type": "ANAK",
     "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/NickJr-HDD/sa_dash_vmx/NickJr-HDD.mpd|Referer=https://www.visionplus.id/&user-agent=Android",
-    "img": "https://i.imgur.com/aBA4UeI.jpeg"
-  },
-  {
-    "name": "Nickelodeon Junior 3 ON",
-    "type": "ANAK",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/NickJr-HDD/sa_dash_vmx/NickJr-HDD.mpd|Referer=https://www.visionplus.id",
     "img": "https://i.imgur.com/aBA4UeI.jpeg"
   },
   {
