@@ -223,6 +223,7 @@ def main():
         "https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/rus_movies.m3u",
         "https://raw.githubusercontent.com/Buddyalfian25/nontons/refs/heads/main/VOD",
         "https://raw.githubusercontent.com/Buddyalfian25/nontons/refs/heads/main/V%20O%20D",
+        "https://raw.githubusercontent.com/mimipipi22/lalajo/refs/heads/main/vod",
     ]
 
     collector = M3UCollector(country="Worldwide")
