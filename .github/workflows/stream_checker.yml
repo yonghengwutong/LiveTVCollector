@@ -3,7 +3,7 @@ name: Stream Checker
 on:
   schedule:
     - cron: "0 */8 * * *" # Every 8 hours
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
 
 jobs:
   check-streams:
@@ -17,19 +17,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+        run: pip install requests
 
       - name: Run stream processor
         run: python process_streams.py
 
-      - name: Commit and push changes
+      - name: Commit changes
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add BugsfreeStreams/
-          git commit -m "Update stream links" || echo "No changes to commit"
-          git push origin main
+          git diff --staged --quiet || git commit -m "Update stream links"
+          git push origin main || echo "No changes to push"
