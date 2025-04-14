@@ -2,7 +2,6 @@ import os
 import re
 import requests
 import shutil
-from concurrent.futures import ThreadPoolExecutor
 import logging
 
 # Setup logging
@@ -18,14 +17,15 @@ FINAL_M3U_FILE = "../BugsfreeStreams/FinalStreamLinks.m3u"
 MAX_STREAMS = 1000
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
-# Default single source (switched to a reliable one)
+# Default single source
 DEFAULT_SOURCE = "https://aynaxpranto.vercel.app/files/playlist.m3u"
+FALLBACK_SOURCE = "https://iptv-org.github.io/iptv/countries/us.m3u"
 
 # Source M3U playlist(s) - single URL or list
 SOURCES = DEFAULT_SOURCE
-MULTI_SOURCES = [    
-    "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",    
-    "https://aynaxpranto.vercel.app/files/playlist.m3u"    
+MULTI_SOURCES = [
+    "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
+    "https://aynaxpranto.vercel.app/files/playlist.m3u"
 ]
 
 # Fallback test stream
@@ -38,15 +38,12 @@ FALLBACK_STREAM = {
 # Validate a source URL
 def validate_source(url):
     try:
-        response = requests.head(url, timeout=5)
-        if response.status_code == 200:
-            logger.info(f"Source {url} is reachable")
-            return True
-        else:
-            logger.warning(f"Source {url} returned status {response.status_code}")
+        response = requests.head(url, timeout=5, allow_redirects=True)
+        logger.info(f"Source {url}: status={response.status_code}, headers={response.headers}")
+        return response.status_code == 200
     except requests.RequestException as e:
         logger.warning(f"Source {url} unreachable: {e}")
-    return False
+        return False
 
 # Check if a URL is an active .m3u8 stream
 def is_stream_active(url):
@@ -105,7 +102,7 @@ def process_source(source):
         response = requests.get(source, timeout=5)
         if response.status_code == 200:
             content = response.text
-            logger.debug(f"Content sample: {content[:100]}")
+            logger.info(f"Content sample: {content[:100]}")
             entries = parse_m3u(content)
             logger.info(f"Found {len(entries)} entries in {source}")
             return entries
@@ -127,38 +124,42 @@ def main():
 
     # Fetch sources
     all_entries = []
-    with ThreadPoolExecutor(max_workers=20) as executor:
-        if isinstance(SOURCES, str):
-            logger.info("Using single source mode")
-            entries = process_source(SOURCES)
+    sources_to_process = []
+    if isinstance(SOURCES, str):
+        logger.info("Using single source mode")
+        entries = process_source(SOURCES)
+        if entries:
+            all_entries.extend(entries)
+        else:
+            logger.warning("Single source failed, trying fallback source")
+            entries = process_source(FALLBACK_SOURCE)
             if entries:
                 all_entries.extend(entries)
             else:
-                logger.warning("Single source failed, falling back to multi-sources")
-                results = executor.map(process_source, MULTI_SOURCES)
-                for result in results:
-                    all_entries.extend(result)
-        else:
-            results = executor.map(process_source, SOURCES)
-            for result in results:
-                all_entries.extend(result)
+                logger.warning("Fallback source failed, trying multi-sources")
+                sources_to_process = MULTI_SOURCES
+    else:
+        sources_to_process = SOURCES
+
+    if sources_to_process:
+        for source in sources_to_process:
+            entries = process_source(source)
+            all_entries.extend(entries)
     logger.info(f"Total entries collected: {len(all_entries)}")
 
     # Validate streams and remove duplicates
     unique_streams = {}
-    with ThreadPoolExecutor(max_workers=20) as executor:
-        futures = [(extinf, url, executor.submit(is_stream_active, url)) for extinf, url in all_entries]
-        for extinf, url, future in futures:
-            if len(unique_streams) >= MAX_STREAMS:
-                logger.info(f"Reached MAX_STREAMS limit: {MAX_STREAMS}")
-                break
-            if future.result():
-                match = re.search(r',(.+)$', extinf)
-                if match:
-                    channel_name = clean_channel_name(match.group(1))
-                    if channel_name not in unique_streams:
-                        unique_streams[channel_name] = (ensure_logo(extinf), url)
-                        logger.info(f"Added valid stream: {channel_name}")
+    for extinf, url in all_entries:
+        if len(unique_streams) >= MAX_STREAMS:
+            logger.info(f"Reached MAX_STREAMS limit: {MAX_STREAMS}")
+            break
+        if is_stream_active(url):
+            match = re.search(r',(.+)$', extinf)
+            if match:
+                channel_name = clean_channel_name(match.group(1))
+                if channel_name not in unique_streams:
+                    unique_streams[channel_name] = (ensure_logo(extinf), url)
+                    logger.info(f"Added valid stream: {channel_name}")
 
     # Add fallback if no streams
     if not unique_streams:
