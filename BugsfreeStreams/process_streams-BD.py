@@ -19,7 +19,13 @@ DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs
 
 # Default single source
 DEFAULT_SOURCE = "https://aynaxpranto.vercel.app/files/playlist.m3u"
-FALLBACK_SOURCE = "https://iptv-org.github.io/iptv/countries/us.m3u"
+
+# Static fallback M3U if all sources fail
+STATIC_M3U = """
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Channel
+http://sample-stream.com/stream.m3u8
+"""
 
 # Source M3U playlist(s) - single URL or list
 SOURCES = DEFAULT_SOURCE
@@ -102,7 +108,7 @@ def process_source(source):
         response = requests.get(source, timeout=5)
         if response.status_code == 200:
             content = response.text
-            logger.info(f"Content sample: {content[:100]}")
+            logger.info(f"Content sample: {content[:200]}")
             entries = parse_m3u(content)
             logger.info(f"Found {len(entries)} entries in {source}")
             return entries
@@ -124,27 +130,26 @@ def main():
 
     # Fetch sources
     all_entries = []
-    sources_to_process = []
     if isinstance(SOURCES, str):
         logger.info("Using single source mode")
         entries = process_source(SOURCES)
         if entries:
             all_entries.extend(entries)
         else:
-            logger.warning("Single source failed, trying fallback source")
-            entries = process_source(FALLBACK_SOURCE)
-            if entries:
+            logger.warning("Single source failed, trying multi-sources")
+            for source in MULTI_SOURCES:
+                entries = process_source(source)
                 all_entries.extend(entries)
-            else:
-                logger.warning("Fallback source failed, trying multi-sources")
-                sources_to_process = MULTI_SOURCES
     else:
-        sources_to_process = SOURCES
-
-    if sources_to_process:
-        for source in sources_to_process:
+        for source in SOURCES:
             entries = process_source(source)
             all_entries.extend(entries)
+
+    # If no entries, try static M3U
+    if not all_entries:
+        logger.warning("No entries from sources, using static M3U")
+        all_entries = parse_m3u(STATIC_M3U)
+
     logger.info(f"Total entries collected: {len(all_entries)}")
 
     # Validate streams and remove duplicates
