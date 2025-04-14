@@ -21,6 +21,13 @@ SOURCES = [
     "https://iptv-org.github.io/iptv/countries/us.m3u"
 ]
 
+# Fallback test stream
+FALLBACK_STREAM = {
+    "extinf": '#EXTINF:-1 tvg-logo="https://example.com/test.png" group-title="TEST",Test Stream',
+    "url": "https://allinonereborn.com/test.m3u8?id=113",
+    "name": "Test_Stream"
+}
+
 # Check if a URL is an active .m3u8 stream
 def is_stream_active(url):
     try:
@@ -93,14 +100,24 @@ def main():
                         unique_streams[channel_name] = (extinf, url)
                         logger.info(f"Added valid stream: {channel_name}")
 
+    # Add fallback if no streams
+    if not unique_streams:
+        logger.warning("No valid streams found, adding fallback")
+        unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"])
+
     logger.info(f"Total unique valid streams: {len(unique_streams)}")
 
     # Prepare outputs
+сию
+
+    # Write individual .m3u8 files with original URLs
     final_m3u_content = ["#EXTM3U"]
     individual_files = {}
-    for channel_name, (extinf, _) in unique_streams.items():
+    for channel_name, (extinf, original_url) in unique_streams.items():
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/{BASE_PATH}/{channel_name}.m3u8"
-        individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{github_url}"
+        # Use original URL in individual .m3u8 files
+        individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{original_url}"
+        # Use GitHub URL in FinalStreamLinks.m3u
         final_m3u_content.append(f"{extinf}\n{github_url}")
 
     # Write all files
