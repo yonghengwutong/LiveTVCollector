@@ -3,6 +3,7 @@ import re
 import requests
 import shutil
 import logging
+from time import sleep
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
@@ -16,13 +17,6 @@ BASE_PATH = "../BugsfreeStreams/LiveTV"
 FINAL_M3U_FILE = "../BugsfreeStreams/FinalStreamLinks.m3u"
 MAX_STREAMS = 1000
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
-
-# Variant bitrates (bps)
-VARIANTS = {
-    "sd": 1000000,  # 1 Mbps
-    "original": 2560000,  # 2.56 Mbps
-    "hd": 2560000  # Same as original
-}
 
 # Default single source
 DEFAULT_SOURCE = "https://aynaxpranto.vercel.app/files/playlist.m3u"
@@ -48,15 +42,19 @@ FALLBACK_STREAM = {
     "name": "Test_Stream"
 }
 
-# Validate a source URL
-def validate_source(url):
-    try:
-        response = requests.head(url, timeout=5, allow_redirects=True)
-        logger.info(f"Source {url}: status={response.status_code}, headers={response.headers}")
-        return response.status_code == 200
-    except requests.RequestException as e:
-        logger.warning(f"Source {url} unreachable: {e}")
-        return False
+# Validate a source URL with retries
+def validate_source(url, retries=3, delay=2):
+    for attempt in range(retries):
+        try:
+            response = requests.head(url, timeout=5, allow_redirects=True)
+            logger.info(f"Source {url}: status={response.status_code}, headers={response.headers}")
+            return response.status_code == 200
+        except requests.RequestException as e:
+            logger.warning(f"Source {url} attempt {attempt+1}/{retries} failed: {e}")
+            if attempt < retries - 1:
+                sleep(delay)
+    logger.error(f"Source {url} unreachable after {retries} attempts")
+    return False
 
 # Check if a URL is an active .m3u8 stream
 def is_stream_active(url):
@@ -173,33 +171,19 @@ def main():
                     unique_streams[channel_name] = (ensure_logo(extinf), url)
                     logger.info(f"Added valid stream: {channel_name}")
 
-    # Add fallback if no streams
-    if not unique_streams:
-        logger.warning("No valid streams found, adding fallback")
-        unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"])
+    # Always include fallback stream
+    logger.info("Adding fallback stream")
+    unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"])
 
-    logger.info(f"Total unique valid streams: {len(unique_streams)}")
+    logger.info(f"Total unique streams: {len(unique_streams)}")
 
     # Prepare outputs
     final_m3u_content = ["#EXTM3U"]
     individual_files = {}
     for channel_name, (extinf, original_url) in unique_streams.items():
-        # Create .m3u8 with variants
         filename = f"{BASE_PATH}/{channel_name}.m3u8"
-        content = [
-            "#EXTM3U",
-            "#EXT-X-VERSION:3",
-            "#EXT-X-STREAM-INF:BANDWIDTH=1000000,RESOLUTION=640x360,NAME=SD",
-            original_url,
-            "#EXT-X-STREAM-INF:BANDWIDTH=2560000,RESOLUTION=1280x720,NAME=ORIGINAL",
-            original_url,
-            "#EXT-X-STREAM-INF:BANDWIDTH=2560000,RESOLUTION=1280x720,NAME=HD",
-            original_url
-        ]
-        individual_files[filename] = "\n".join(content)
-        logger.info(f"Generated variants for {channel_name}: sd, original, hd")
-        
-        # Add to FinalStreamLinks.m3u
+        content = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{original_url}"
+        individual_files[filename] = content
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/LiveTV/{channel_name}.m3u8"
         final_m3u_content.append(f"{extinf}\n{github_url}")
 
@@ -208,7 +192,7 @@ def main():
         try:
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(content)
-            logger.info(f"Wrote {file_path}: {content[:100]}...")
+            logger.info(f"Wrote {file_path}")
         except Exception as e:
             logger.error(f"Failed to write {file_path}: {e}")
     try:
