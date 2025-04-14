@@ -137,7 +137,7 @@ def main():
     try:
         os.makedirs(BASE_PATH, exist_ok=True)
         os.makedirs(os.path.dirname(FINAL_M3U_FILE), exist_ok=True)
-        logger.info(f"Paths verified: {BASE_PATH}, {FINAL_M3U_FILE}")
+        logger.info(f"Paths verified: {BASE_PATH} (writable={os.access(BASE_PATH, os.W_OK)}), {FINAL_M3U_FILE}")
     except Exception as e:
         logger.error(f"Path setup failed: {e}")
         return
@@ -203,8 +203,9 @@ def main():
     individual_files = {}
     for channel_name, (extinf, original_url) in unique_streams.items():
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/LiveTV/{channel_name}.m3u8"
-        # Add variants inline
-        content = [
+        # Single stream first, then variants
+        single_content = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{original_url}"
+        variant_content = [
             "#EXTM3U",
             "#EXT-X-VERSION:3",
             f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={VARIANTS['sd']},RESOLUTION=640x360",
@@ -212,9 +213,11 @@ def main():
             f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={VARIANTS['hd']},RESOLUTION=1280x720",
             original_url
         ]
-        individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = "\n".join(content)
+        # Use variants if channel isn't fallback
+        content = "\n".join(variant_content) if channel_name != FALLBACK_STREAM["name"] else single_content
+        individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = content
         final_m3u_content.append(f"{extinf}\n{github_url}")
-        logger.info(f"Prepared {channel_name}.m3u8 with variants: sd, hd")
+        logger.info(f"Prepared {channel_name}.m3u8: {'with variants' if channel_name != FALLBACK_STREAM['name'] else 'single stream'}")
 
     # Write all files
     for file_path, content in individual_files.items():
