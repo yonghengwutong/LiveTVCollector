@@ -17,12 +17,7 @@ FINAL_M3U_FILE = "BugsfreeStreams/FinalStreamLinks.m3u"
 MAX_STREAMS = 1000  # Cap to avoid GitHub UI truncation
 
 # Source M3U playlists
-SOURCES = [
-    "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-    "https://raw.githubusercontent.com/Miraz6755/Bdixtv/refs/heads/main/Livetv.m3u8",
-    "https://raw.githubusercontent.com/Yeadee/Toffee/refs/heads/main/toffee_ns_player.m3u",
-    "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-    "https://raw.githubusercontent.com/Arunjunan20/My-IPTV/refs/heads/main/index.html",
+SOURCES = [   
     "https://aynaxpranto.vercel.app/files/playlist.m3u",
     "https://iptv-org.github.io/iptv/countries/us.m3u"
 ]
