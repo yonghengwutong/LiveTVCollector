@@ -2,7 +2,11 @@ import os
 import re
 import requests
 from concurrent.futures import ThreadPoolExecutor
-from urllib.parse import urlparse
+import logging
+
+# Setup logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
+logger = logging.getLogger()
 
 # Configuration
 REPO_OWNER = "bugsfreeweb"
@@ -21,10 +25,13 @@ SOURCES = [
 def is_stream_active(url):
     try:
         response = requests.get(url, headers={"Range": "bytes=0-1023"}, timeout=3, stream=True)
-        if response.status_code in (200, 206) and "m3u" in response.headers.get("content-type", "").lower():
-            return True
-    except requests.RequestException:
-        pass
+        logger.info(f"Checking {url}: status={response.status_code}")
+        if response.status_code in (200, 206):
+            content = response.content.decode("utf-8", errors="ignore")
+            if "#EXTM3U" in content:
+                return True
+    except requests.RequestException as e:
+        logger.warning(f"Failed to check {url}: {e}")
     return False
 
 # Clean channel name for filename
@@ -48,15 +55,21 @@ def parse_m3u(content):
 # Fetch and parse a single source
 def process_source(source):
     try:
+        logger.info(f"Fetching {source}")
         response = requests.get(source, timeout=5)
         if response.status_code == 200:
-            return parse_m3u(response.text)
-    except requests.RequestException:
-        print(f"Skipped {source}")
+            entries = parse_m3u(response.text)
+            logger.info(f"Found {len(entries)} entries in {source}")
+            return entries
+        else:
+            logger.warning(f"Source {source} returned status {response.status_code}")
+    except requests.RequestException as e:
+        logger.warning(f"Skipped {source}: {e}")
     return []
 
 # Main processing logic
 def main():
+    logger.info("Starting stream processing")
     os.makedirs(BASE_PATH, exist_ok=True)
 
     # Fetch sources concurrently
@@ -65,17 +78,22 @@ def main():
         results = executor.map(process_source, SOURCES)
         for result in results:
             all_entries.extend(result)
+    logger.info(f"Total entries collected: {len(all_entries)}")
 
     # Validate streams and remove duplicates
     unique_streams = {}
     with ThreadPoolExecutor(max_workers=20) as executor:
-        for extinf, url in all_entries:
-            if executor.submit(is_stream_active, url).result():
+        futures = [(extinf, url, executor.submit(is_stream_active, url)) for extinf, url in all_entries]
+        for extinf, url, future in futures:
+            if future.result():
                 match = re.search(r',(.+)$', extinf)
                 if match:
                     channel_name = clean_channel_name(match.group(1))
                     if channel_name not in unique_streams:
                         unique_streams[channel_name] = (extinf, url)
+                        logger.info(f"Added valid stream: {channel_name}")
+
+    logger.info(f"Total unique valid streams: {len(unique_streams)}")
 
     # Prepare outputs
     final_m3u_content = ["#EXTM3U"]
@@ -85,14 +103,14 @@ def main():
         individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{github_url}"
         final_m3u_content.append(f"{extinf}\n{github_url}")
 
-    # Write all files at once
+    # Write all files
     for file_path, content in individual_files.items():
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)
+        logger.info(f"Wrote {file_path}")
     with open(FINAL_M3U_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(final_m3u_content))
-
-    print(f"Processed {len(unique_streams)} streams.")
+    logger.info(f"Wrote {FINAL_M3U_FILE} with {len(final_m3u_content)-1} entries")
 
 if __name__ == "__main__":
     main()
