@@ -43,11 +43,11 @@ FALLBACK_STREAM = {
 }
 
 # Validate a source URL with retries
-def validate_source(url, retries=3, delay=2):
+def validate_source(url, retries=5, delay=3):
     for attempt in range(retries):
         try:
             response = requests.head(url, timeout=5, allow_redirects=True)
-            logger.info(f"Source {url}: attempt {attempt+1}, status={response.status_code}, headers={response.headers}")
+            logger.info(f"Source {url}: attempt {attempt+1}/{retries}, status={response.status_code}, headers={response.headers}")
             return response.status_code == 200
         except requests.RequestException as e:
             logger.warning(f"Source {url}: attempt {attempt+1}/{retries} failed: {e}")
@@ -113,7 +113,7 @@ def process_source(source):
         response = requests.get(source, timeout=5)
         if response.status_code == 200:
             content = response.text
-            logger.info(f"Raw content sample: {content[:200]}")
+            logger.info(f"Raw content: {content[:500]}")
             entries = parse_m3u(content)
             logger.info(f"Found {len(entries)} entries in {source}")
             return entries
@@ -127,11 +127,28 @@ def process_source(source):
 def main():
     logger.info("Starting stream processing")
     
-    # Clean up old files
-    if os.path.exists(BASE_PATH):
-        shutil.rmtree(BASE_PATH)
-        logger.info(f"Deleted old files in {BASE_PATH}")
-    os.makedirs(BASE_PATH, exist_ok=True)
+    # Validate paths
+    try:
+        os.makedirs(BASE_PATH, exist_ok=True)
+        os.makedirs(os.path.dirname(FINAL_M3U_FILE), exist_ok=True)
+        logger.info(f"Paths verified: {BASE_PATH}, {FINAL_M3U_FILE}")
+    except Exception as e:
+        logger.error(f"Path setup failed: {e}")
+        return
+
+    # Write fallback stream first
+    try:
+        fallback_file = f"{BASE_PATH}/{FALLBACK_STREAM['name']}.m3u8"
+        fallback_content = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{FALLBACK_STREAM['url']}"
+        with open(fallback_file, "w", encoding="utf-8") as f:
+            f.write(fallback_content)
+        logger.info(f"Wrote fallback: {fallback_file}")
+        with open(FINAL_M3U_FILE, "w", encoding="utf-8") as f:
+            f.write(f"#EXTM3U\n{FALLBACK_STREAM['extinf']}\nhttps://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/LiveTV/{FALLBACK_STREAM['name']}.m3u8")
+        logger.info(f"Initialized {FINAL_M3U_FILE} with Test Stream")
+    except Exception as e:
+        logger.error(f"Failed to write fallback: {e}")
+        return
 
     # Fetch sources
     all_entries = []
@@ -171,10 +188,8 @@ def main():
                     unique_streams[channel_name] = (ensure_logo(extinf), url)
                     logger.info(f"Added valid stream: {channel_name}")
 
-    # Always include fallback stream
-    logger.info("Adding fallback stream")
+    # Include fallback stream (already written)
     unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"])
-
     logger.info(f"Total unique valid streams: {len(unique_streams)}")
 
     # Prepare outputs
