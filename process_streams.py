@@ -14,9 +14,15 @@ REPO_NAME = "LiveTVCollector"
 BRANCH = "main"
 BASE_PATH = "BugsfreeStreams/LiveTV"
 FINAL_M3U_FILE = "BugsfreeStreams/FinalStreamLinks.m3u"
+MAX_STREAMS = 1000  # Cap to avoid GitHub UI truncation
 
 # Source M3U playlists
-SOURCES = [    
+SOURCES = [
+    "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
+    "https://raw.githubusercontent.com/Miraz6755/Bdixtv/refs/heads/main/Livetv.m3u8",
+    "https://raw.githubusercontent.com/Yeadee/Toffee/refs/heads/main/toffee_ns_player.m3u",
+    "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
+    "https://raw.githubusercontent.com/Arunjunan20/My-IPTV/refs/heads/main/index.html",
     "https://aynaxpranto.vercel.app/files/playlist.m3u",
     "https://iptv-org.github.io/iptv/countries/us.m3u"
 ]
@@ -99,6 +105,9 @@ def main():
                     if channel_name not in unique_streams:
                         unique_streams[channel_name] = (extinf, url)
                         logger.info(f"Added valid stream: {channel_name}")
+                        if len(unique_streams) >= MAX_STREAMS:
+                            logger.info(f"Reached MAX_STREAMS limit: {MAX_STREAMS}")
+                            break
 
     # Add fallback if no streams
     if not unique_streams:
@@ -123,6 +132,7 @@ def main():
     with open(FINAL_M3U_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(final_m3u_content))
     logger.info(f"Wrote {FINAL_M3U_FILE} with {len(final_m3u_content)-1} entries")
+    logger.info(f"Total files in {BASE_PATH}: {len(individual_files)}")
 
 if __name__ == "__main__":
     main()
