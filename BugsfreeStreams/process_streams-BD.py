@@ -3,6 +3,7 @@ import re
 import requests
 import shutil
 import logging
+from time import sleep
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
@@ -41,15 +42,19 @@ FALLBACK_STREAM = {
     "name": "Test_Stream"
 }
 
-# Validate a source URL
-def validate_source(url):
-    try:
-        response = requests.head(url, timeout=5, allow_redirects=True)
-        logger.info(f"Source {url}: status={response.status_code}, headers={response.headers}")
-        return response.status_code == 200
-    except requests.RequestException as e:
-        logger.warning(f"Source {url} unreachable: {e}")
-        return False
+# Validate a source URL with retries
+def validate_source(url, retries=3, delay=2):
+    for attempt in range(retries):
+        try:
+            response = requests.head(url, timeout=5, allow_redirects=True)
+            logger.info(f"Source {url}: attempt {attempt+1}, status={response.status_code}, headers={response.headers}")
+            return response.status_code == 200
+        except requests.RequestException as e:
+            logger.warning(f"Source {url}: attempt {attempt+1}/{retries} failed: {e}")
+            if attempt < retries - 1:
+                sleep(delay)
+    logger.error(f"Source {url} unreachable after {retries} attempts")
+    return False
 
 # Check if a URL is an active .m3u8 stream
 def is_stream_active(url):
@@ -180,7 +185,7 @@ def main():
         content = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{original_url}"
         individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = content
         final_m3u_content.append(f"{extinf}\n{github_url}")
-        logger.info(f"Prepared {file_path}: {content[:100]}...")
+        logger.info(f"Prepared {channel_name}.m3u8: {content[:100]}...")
 
     # Write all files
     for file_path, content in individual_files.items():
