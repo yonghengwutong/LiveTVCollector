@@ -108,16 +108,11 @@ def main():
     logger.info(f"Total unique valid streams: {len(unique_streams)}")
 
     # Prepare outputs
-сию
-
-    # Write individual .m3u8 files with original URLs
     final_m3u_content = ["#EXTM3U"]
     individual_files = {}
     for channel_name, (extinf, original_url) in unique_streams.items():
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/{BASE_PATH}/{channel_name}.m3u8"
-        # Use original URL in individual .m3u8 files
         individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{original_url}"
-        # Use GitHub URL in FinalStreamLinks.m3u
         final_m3u_content.append(f"{extinf}\n{github_url}")
 
     # Write all files
