@@ -4,10 +4,11 @@ import requests
 import shutil
 import logging
 import hashlib
+import concurrent.futures
 from urllib.parse import urlparse
 
 # Setup logging
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger()
 
 # Configuration
@@ -16,15 +17,16 @@ REPO_NAME = "LiveTVCollector"
 BRANCH = "main"
 BASE_PATH = os.path.abspath("BugsfreeStreams/LiveTV")
 FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/FinalStreamLinks.m3u")
-MAX_STREAMS = 1000
+MAX_STREAMS = 500
+MAX_STREAMS_PER_SOURCE = 50
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
 # Default single source
 DEFAULT_SOURCE = "https://iptv-org.github.io/iptv/countries/bd.m3u"
 
-# Source M3U playlist(s) - single URL or list
-SOURCES = [
-    "https://iptv-org.github.io/iptv/countries/bd.m3u",
+# Source M3U playlist(s) - primary and fallbacks
+SOURCES = [DEFAULT_SOURCE]
+FALLBACK_SOURCES = [
     "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
     "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
     "https://raw.githubusercontent.com/skjahangirkabir/Bdix-549.m3u/refs/heads/main/BDIX-549.m3u8",
@@ -48,7 +50,7 @@ FALLBACK_STREAM = {
 # Validate a source URL
 def validate_source(url):
     try:
-        response = requests.head(url, timeout=10, allow_redirects=True)
+        response = requests.head(url, timeout=7, allow_redirects=True)
         content_type = response.headers.get("content-type", "").lower()
         logger.debug(f"Source {url}: status={response.status_code}, content-type={content_type}")
         return response.status_code == 200 and ("text" in content_type or "m3u" in content_type)
@@ -56,23 +58,17 @@ def validate_source(url):
         logger.warning(f"Source {url} unreachable: {e}")
         return False
 
-# Check if a URL is an active .m3u8 stream
+# Check if a URL is likely an active .m3u8 stream
 def is_stream_active(url):
+    if url.lower().endswith(".m3u8"):
+        return True  # Skip HTTP check for .m3u8 URLs
     try:
-        response = requests.get(url, timeout=5, stream=True)
+        response = requests.get(url, timeout=3, stream=True)
         logger.debug(f"Checking stream {url}: status={response.status_code}")
-        if response.status_code in (200, 206):
-            content = response.text[:1024]
-            if "#EXTM3U" in content or ".m3u8" in url.lower():
-                return True
-            else:
-                logger.warning(f"No #EXTM3U in stream {url}, but checking extension")
-                return ".m3u8" in url.lower()
-        else:
-            logger.warning(f"Invalid status for stream {url}: {response.status_code}")
+        return response.status_code in (200, 206)
     except requests.RequestException as e:
         logger.warning(f"Failed to check stream {url}: {e}")
-    return False
+        return False
 
 # Clean channel name for filename
 def clean_channel_name(name, url):
@@ -98,15 +94,15 @@ def parse_m3u(content):
     extinf = None
     for line in lines:
         line = line.strip()
+        if not line:
+            continue
         if line.startswith("#EXTINF:"):
             extinf = line
         elif line.startswith("http") and extinf:
             entries.append((extinf, line))
             extinf = None
-        else:
-            logger.debug(f"Skipping line: {line}")
     logger.info(f"Parsed {len(entries)} entries")
-    return entries
+    return entries[:MAX_STREAMS_PER_SOURCE]  # Limit per source
 
 # Fetch and parse a single source
 def process_source(source):
@@ -115,10 +111,9 @@ def process_source(source):
         return []
     try:
         logger.info(f"Fetching {source}")
-        response = requests.get(source, timeout=10)
+        response = requests.get(source, timeout=7)
         if response.status_code == 200:
             content = response.text
-            logger.debug(f"Content sample: {content[:200]}")
             entries = parse_m3u(content)
             logger.info(f"Found {len(entries)} entries in {source}")
             return entries
@@ -127,6 +122,20 @@ def process_source(source):
     except requests.RequestException as e:
         logger.error(f"Failed to fetch {source}: {e}")
     return []
+
+# Fetch sources concurrently
+def fetch_all_sources(sources):
+    all_entries = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+        future_to_source = {executor.submit(process_source, source): source for source in sources}
+        for future in concurrent.futures.as_completed(future_to_source):
+            source = future_to_source[future]
+            try:
+                entries = future.result()
+                all_entries.extend(entries)
+            except Exception as e:
+                logger.error(f"Source {source} failed: {e}")
+    return all_entries
 
 # Main processing logic
 def main():
@@ -140,20 +149,16 @@ def main():
     os.makedirs(os.path.dirname(FINAL_M3U_FILE), exist_ok=True)
 
     # Fetch sources
-    all_entries = []
-    for source in SOURCES:
-        entries = process_source(source)
-        all_entries.extend(entries)
+    all_entries = fetch_all_sources(SOURCES)
 
-    # If no entries, try default source
+    # If no entries, try fallback sources
     if not all_entries:
-        logger.warning("No entries from sources, trying default source")
-        entries = process_source(DEFAULT_SOURCE)
-        all_entries.extend(entries)
+        logger.warning("No entries from primary sources, trying fallbacks")
+        all_entries = fetch_all_sources(FALLBACK_SOURCES)
 
     # If still no entries, use static M3U
     if not all_entries:
-        logger.warning("No entries from default source, using static M3U")
+        logger.warning("No entries from sources, using static M3U")
         all_entries = parse_m3u(STATIC_M3U)
 
     logger.info(f"Total entries collected: {len(all_entries)}")
@@ -170,8 +175,6 @@ def main():
             if channel_name not in unique_streams:
                 unique_streams[channel_name] = (ensure_logo(extinf), url)
                 logger.info(f"Added valid stream: {channel_name}")
-            else:
-                logger.debug(f"Duplicate channel name skipped: {channel_name}")
 
     # Add fallback if no streams
     if not unique_streams:
