@@ -15,7 +15,7 @@ logger = logging.getLogger()
 REPO_OWNER = "bugsfreeweb"
 REPO_NAME = "LiveTVCollector"
 BRANCH = "main"
-BASE_PATH = os.path.abspath("BugsfreeStreams/LiveTV")
+BASE_PATH = os.path.abspath("BugsfreeStreams/StreamsTV-BD")
 FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/StreamLinks-BD.m3u")
 MAX_STREAMS = 500
 MAX_STREAMS_PER_SOURCE = 50
@@ -235,7 +235,7 @@ def main():
     final_m3u_content = ["#EXTM3U"]
     individual_files = {}
     for channel_name, (extinf, original_url, variants) in unique_streams.items():
-        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/LiveTV/{channel_name}.m3u8"
+        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsTV-BD/{channel_name}.m3u8"
         file_path = os.path.join(BASE_PATH, f"{channel_name}.m3u8")
         # Create multi-resolution M3U8
         m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
