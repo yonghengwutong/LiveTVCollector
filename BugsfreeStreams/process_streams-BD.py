@@ -70,6 +70,52 @@ def is_stream_active(url):
         logger.warning(f"Failed to check stream {url}: {e}")
         return False
 
+# Fetch variant streams from a master M3U8
+def get_variant_streams(master_url):
+    variants = [
+        {"resolution": "Original", "url": master_url, "bandwidth": 2560000}
+    ]
+    try:
+        response = requests.get(master_url, timeout=5)
+        if response.status_code != 200:
+            return variants
+        content = response.text
+        if "#EXT-X-STREAM-INF" in content:
+            lines = content.splitlines()
+            for i, line in enumerate(lines):
+                if line.startswith("#EXT-X-STREAM-INF"):
+                    match = re.search(r'BANDWIDTH=(\d+).*?RESOLUTION=(\d+x\d+)', line)
+                    if match:
+                        bandwidth = int(match.group(1))
+                        resolution = match.group(2)
+                        variant_url = lines[i + 1].strip() if i + 1 < len(lines) else None
+                        if variant_url and variant_url.startswith("http"):
+                            variants.append({
+                                "resolution": resolution,
+                                "url": variant_url,
+                                "bandwidth": bandwidth
+                            })
+                    elif "BANDWIDTH" in line:
+                        bandwidth = int(re.search(r'BANDWIDTH=(\d+)', line).group(1))
+                        variant_url = lines[i + 1].strip() if i + 1 < len(lines) else None
+                        if variant_url and variant_url.startswith("http"):
+                            variants.append({
+                                "resolution": f"Variant_{len(variants)}",
+                                "url": variant_url,
+                                "bandwidth": bandwidth
+                            })
+        else:
+            # Simulate SD and HD variants
+            base_url = master_url.rsplit("/", 1)[0]
+            variants.extend([
+                {"resolution": "480p", "url": f"{base_url}/480p.m3u8", "bandwidth": 1000000},
+                {"resolution": "720p", "url": f"{base_url}/720p.m3u8", "bandwidth": 2000000}
+            ])
+        return [v for v in variants if is_stream_active(v["url"])]
+    except Exception as e:
+        logger.warning(f"Failed to fetch variants for {master_url}: {e}")
+        return variants
+
 # Clean channel name for filename
 def clean_channel_name(name, url):
     if not name:
@@ -173,23 +219,33 @@ def main():
             match = re.search(r',(.+)$', extinf)
             channel_name = clean_channel_name(match.group(1) if match else "", url)
             if channel_name not in unique_streams:
-                unique_streams[channel_name] = (ensure_logo(extinf), url)
-                logger.info(f"Added valid stream: {channel_name}")
+                variants = get_variant_streams(url)
+                unique_streams[channel_name] = (ensure_logo(extinf), url, variants)
+                logger.info(f"Added valid stream: {channel_name} with {len(variants)} variants")
 
     # Add fallback if no streams
     if not unique_streams:
         logger.warning("No valid streams found, adding fallback")
-        unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"])
+        variants = get_variant_streams(FALLBACK_STREAM["url"])
+        unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"], variants)
 
     logger.info(f"Total unique valid streams: {len(unique_streams)}")
 
     # Prepare outputs
     final_m3u_content = ["#EXTM3U"]
     individual_files = {}
-    for channel_name, (extinf, original_url) in unique_streams.items():
+    for channel_name, (extinf, original_url, variants) in unique_streams.items():
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/LiveTV/{channel_name}.m3u8"
         file_path = os.path.join(BASE_PATH, f"{channel_name}.m3u8")
-        individual_files[file_path] = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{original_url}"
+        # Create multi-resolution M3U8
+        m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
+        for variant in variants:
+            resolution = variant["resolution"]
+            bandwidth = variant["bandwidth"]
+            variant_url = variant["url"]
+            m3u8_content.append(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={bandwidth},RESOLUTION={resolution}")
+            m3u8_content.append(variant_url)
+        individual_files[file_path] = "\n".join(m3u8_content)
         final_m3u_content.append(f"{extinf}\n{github_url}")
 
     # Write all files
