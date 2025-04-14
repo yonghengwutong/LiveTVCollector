@@ -21,8 +21,7 @@ DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs
 VARIANTS = {
     "sd": 1000000,  # 1 Mbps
     "original": 2560000,  # 2.56 Mbps
-    "hd": 2560000  # Same as original for now
-    # "4k": 15000000  # Add if sources support
+    "hd": 2560000  # Same as original
 }
 
 # Default single source
@@ -185,15 +184,15 @@ def main():
     final_m3u_content = ["#EXTM3U"]
     individual_files = {}
     for channel_name, (extinf, original_url) in unique_streams.items():
-        # Master .m3u8 for variants
-        master_filename = f"{BASE_PATH}/{channel_name}.m3u8"
-        master_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
+        # Create single .m3u8 with variants inline
+        filename = f"{BASE_PATH}/{channel_name}.m3u8"
+        content = ["#EXTM3U", "#EXT-X-VERSION:3"]
         for variant, bitrate in VARIANTS.items():
-            variant_filename = f"{BASE_PATH}/{channel_name}_{variant}.m3u8"
-            individual_files[variant_filename] = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={bitrate}\n{original_url}"
-            master_content.append(f"#EXT-X-STREAM-INF:BANDWIDTH={bitrate},RESOLUTION={'1280x720' if variant in ['hd', 'original'] else '640x360'},NAME={variant.upper()}")
-            master_content.append(f"{channel_name}_{variant}.m3u8")
-        individual_files[master_filename] = "\n".join(master_content)
+            resolution = "1280x720" if variant in ["hd", "original"] else "640x360"
+            content.append(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={bitrate},RESOLUTION={resolution},NAME={variant.upper()}")
+            content.append(original_url)
+        individual_files[filename] = "\n".join(content)
+        logger.info(f"Generated variants for {channel_name}: {list(VARIANTS.keys())}")
         
         # Add to FinalStreamLinks.m3u
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/LiveTV/{channel_name}.m3u8"
@@ -203,7 +202,7 @@ def main():
     for file_path, content in individual_files.items():
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)
-        logger.info(f"Wrote {file_path}")
+        logger.info(f"Wrote {file_path}: {content[:100]}...")
     with open(FINAL_M3U_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(final_m3u_content))
     logger.info(f"Wrote {FINAL_M3U_FILE} with {len(final_m3u_content)-1} entries")
