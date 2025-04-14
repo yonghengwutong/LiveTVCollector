@@ -1,4 +1,4 @@
-name: Stream Checker
+name: Stream_checker-BD
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run stream processor
-        run: python process_streams.py
+        run: python BugsfreeStreams/process_streams.py
 
       - name: Show logs
         run: cat /tmp/*.log || echo "No logs found"
