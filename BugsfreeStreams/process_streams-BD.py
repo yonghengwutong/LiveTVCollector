@@ -43,7 +43,7 @@ http://iptv-org.github.io/iptv/sample.m3u8
 # Fallback test stream
 FALLBACK_STREAM = {
     "extinf": f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}" group-title="TEST",Test Stream',
-    "url": "http://iptv-org.github.io/iptv/sample.m3u8",
+    "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "name": "test_stream"
 }
 
