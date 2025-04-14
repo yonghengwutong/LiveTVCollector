@@ -18,14 +18,14 @@ FINAL_M3U_FILE = "../BugsfreeStreams/FinalStreamLinks.m3u"
 MAX_STREAMS = 1000
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
-# Default single source (changeable)
-DEFAULT_SOURCE = "https://raw.githubusercontent.com/Miraz6755/Bdixtv/refs/heads/main/Livetv.m3u8"
+# Default single source (switched to a reliable one)
+DEFAULT_SOURCE = "https://aynaxpranto.vercel.app/files/playlist.m3u"
 
 # Source M3U playlist(s) - single URL or list
-SOURCES = DEFAULT_SOURCE  # Single source by default
+SOURCES = DEFAULT_SOURCE
 MULTI_SOURCES = [    
-    "https://aynaxpranto.vercel.app/files/playlist.m3u",
-    "https://raw.githubusercontent.com/Arunjunan20/My-IPTV/refs/heads/main/index.html"
+    "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",    
+    "https://aynaxpranto.vercel.app/files/playlist.m3u"    
 ]
 
 # Fallback test stream
@@ -35,21 +35,34 @@ FALLBACK_STREAM = {
     "name": "Test_Stream"
 }
 
+# Validate a source URL
+def validate_source(url):
+    try:
+        response = requests.head(url, timeout=5)
+        if response.status_code == 200:
+            logger.info(f"Source {url} is reachable")
+            return True
+        else:
+            logger.warning(f"Source {url} returned status {response.status_code}")
+    except requests.RequestException as e:
+        logger.warning(f"Source {url} unreachable: {e}")
+    return False
+
 # Check if a URL is an active .m3u8 stream
 def is_stream_active(url):
     try:
         response = requests.get(url, headers={"Range": "bytes=0-1023"}, timeout=3, stream=True)
-        logger.info(f"Checking {url}: status={response.status_code}")
+        logger.info(f"Checking stream {url}: status={response.status_code}")
         if response.status_code in (200, 206):
             content = response.content.decode("utf-8", errors="ignore")
             if "#EXTM3U" in content:
                 return True
             else:
-                logger.warning(f"No #EXTM3U in {url}")
+                logger.warning(f"No #EXTM3U in stream {url}")
         else:
-            logger.warning(f"Invalid status for {url}: {response.status_code}")
+            logger.warning(f"Invalid status for stream {url}: {response.status_code}")
     except requests.RequestException as e:
-        logger.warning(f"Failed to check {url}: {e}")
+        logger.warning(f"Failed to check stream {url}: {e}")
     return False
 
 # Clean channel name for filename
@@ -84,6 +97,9 @@ def parse_m3u(content):
 
 # Fetch and parse a single source
 def process_source(source):
+    if not validate_source(source):
+        logger.error(f"Source {source} invalid, skipping")
+        return []
     try:
         logger.info(f"Fetching {source}")
         response = requests.get(source, timeout=5)
@@ -96,7 +112,7 @@ def process_source(source):
         else:
             logger.warning(f"Source {source} returned status {response.status_code}")
     except requests.RequestException as e:
-        logger.warning(f"Skipped {source}: {e}")
+        logger.error(f"Failed to fetch {source}: {e}")
     return []
 
 # Main processing logic
@@ -111,7 +127,6 @@ def main():
 
     # Fetch sources
     all_entries = []
-    sources_to_process = []
     with ThreadPoolExecutor(max_workers=20) as executor:
         if isinstance(SOURCES, str):
             logger.info("Using single source mode")
@@ -120,12 +135,11 @@ def main():
                 all_entries.extend(entries)
             else:
                 logger.warning("Single source failed, falling back to multi-sources")
-                sources_to_process = MULTI_SOURCES
+                results = executor.map(process_source, MULTI_SOURCES)
+                for result in results:
+                    all_entries.extend(result)
         else:
-            sources_to_process = SOURCES
-
-        if sources_to_process:
-            results = executor.map(process_source, sources_to_process)
+            results = executor.map(process_source, SOURCES)
             for result in results:
                 all_entries.extend(result)
     logger.info(f"Total entries collected: {len(all_entries)}")
