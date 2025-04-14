@@ -27,10 +27,7 @@ DEFAULT_SOURCE = "https://iptv-org.github.io/iptv/countries/bd.m3u"
 # Source M3U playlist(s) - primary and fallbacks
 SOURCES = [DEFAULT_SOURCE]
 FALLBACK_SOURCES = [
-    "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-    "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-    "https://raw.githubusercontent.com/skjahangirkabir/Bdix-549.m3u/refs/heads/main/BDIX-549.m3u8",
-    "https://aynaxpranto.vercel.app/files/playlist.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Bangladesh/LiveTV.m3u",    
 ]
 
 # Static fallback M3U if all sources fail
