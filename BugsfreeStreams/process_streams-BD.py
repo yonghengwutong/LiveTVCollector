@@ -19,7 +19,8 @@ MAX_STREAMS = 1000
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
 # Source M3U playlist(s) - can be a single URL or a list
-SOURCES = "https://aynaxpranto.vercel.app/files/playlist.m3u"  # Default single source
+SOURCES = "https://aynaxpranto.vercel.app/files/playlist.m3u",
+          "https://aynaxpranto.vercel.app/files/playlist.m3u"
 # For multiple sources, uncomment this:
 # SOURCES = [
 #     "",
