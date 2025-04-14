@@ -18,7 +18,7 @@ MAX_STREAMS = 1000
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
 # Default single source
-DEFAULT_SOURCE = "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott"
+# DEFAULT_SOURCE = "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott"
 
 # Static fallback M3U if all sources fail
 STATIC_M3U = """
@@ -37,7 +37,7 @@ MULTI_SOURCES = [
 # Fallback test stream
 FALLBACK_STREAM = {
     "extinf": f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}" group-title="TEST",Test Stream',
-    "url": "https://allinonereborn.com/test.m3u8?id=113",
+    "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "name": "Test_Stream"
 }
 
