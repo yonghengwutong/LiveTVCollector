@@ -27,7 +27,7 @@ DEFAULT_SOURCE = "https://iptv-org.github.io/iptv/countries/in.m3u"
 # Source M3U playlist(s) - primary and fallbacks
 SOURCES = [DEFAULT_SOURCE]
 FALLBACK_SOURCES = [
-    "https://ip-tv.app/India",    
+    "https://raw.githubusercontent.com/SUBHASHM3U8/M3u/refs/heads/main/README.md",    
 ]
 
 # Static fallback M3U if all sources fail
