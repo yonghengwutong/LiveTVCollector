@@ -20,9 +20,7 @@ DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs
 # Variant bitrates (bps)
 VARIANTS = {
     "sd": 1000000,  # 1 Mbps, ~10.8 GB/day
-    "original": 2560000,  # 2.56 Mbps, ~27.65 GB/day
-    "hd": 2560000  # Same as original, ~27.65 GB/day
-    # "4k": 15000000  # Omitted, no source support
+    "hd": 2560000   # 2.56 Mbps, ~27.65 GB/day
 }
 
 # Default single source
@@ -174,10 +172,9 @@ def main():
                     unique_streams[channel_name] = (ensure_logo(extinf), url)
                     logger.info(f"Added valid stream: {channel_name}")
 
-    # Add fallback if no streams
-    if not unique_streams:
-        logger.warning("No valid streams found, adding fallback")
-        unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"])
+    # Always include fallback stream
+    logger.info("Adding fallback stream")
+    unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"])
 
     logger.info(f"Total unique valid streams: {len(unique_streams)}")
 
@@ -190,23 +187,21 @@ def main():
         content = [
             "#EXTM3U",
             "#EXT-X-VERSION:3",
-            "#EXT-X-STREAM-INF:BANDWIDTH=1000000,RESOLUTION=640x360,NAME=SD",
+            "#EXT-X-STREAM-INF:BANDWIDTH=1000000,RESOLUTION=640x360",
             original_url,
-            "#EXT-X-STREAM-INF:BANDWIDTH=2560000,RESOLUTION=1280x720,NAME=ORIGINAL",
-            original_url,
-            "#EXT-X-STREAM-INF:BANDWIDTH=2560000,RESOLUTION=1280x720,NAME=HD",
+            "#EXT-X-STREAM-INF:BANDWIDTH=2560000,RESOLUTION=1280x720",
             original_url
         ]
         individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = "\n".join(content)
         final_m3u_content.append(f"{extinf}\n{github_url}")
-        logger.info(f"Generated variants for {channel_name}: sd, original, hd")
+        logger.info(f"Generated variants for {channel_name}: sd, hd")
 
     # Write all files
     for file_path, content in individual_files.items():
         try:
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(content)
-            logger.info(f"Wrote {file_path}")
+            logger.info(f"Wrote {file_path}: {content[:100]}...")
         except Exception as e:
             logger.error(f"Failed to write {file_path}: {e}")
     try:
@@ -217,5 +212,5 @@ def main():
         logger.error(f"Failed to write {FINAL_M3U_FILE}: {e}")
     logger.info(f"Total files in {BASE_PATH}: {len(individual_files)}")
 
-if __name__ == "__main__":
+if __name__: 
     main()
