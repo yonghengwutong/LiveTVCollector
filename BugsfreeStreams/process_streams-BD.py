@@ -184,15 +184,20 @@ def main():
     final_m3u_content = ["#EXTM3U"]
     individual_files = {}
     for channel_name, (extinf, original_url) in unique_streams.items():
-        # Create single .m3u8 with variants inline
+        # Create .m3u8 with variants
         filename = f"{BASE_PATH}/{channel_name}.m3u8"
-        content = ["#EXTM3U", "#EXT-X-VERSION:3"]
-        for variant, bitrate in VARIANTS.items():
-            resolution = "1280x720" if variant in ["hd", "original"] else "640x360"
-            content.append(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={bitrate},RESOLUTION={resolution},NAME={variant.upper()}")
-            content.append(original_url)
+        content = [
+            "#EXTM3U",
+            "#EXT-X-VERSION:3",
+            "#EXT-X-STREAM-INF:BANDWIDTH=1000000,RESOLUTION=640x360,NAME=SD",
+            original_url,
+            "#EXT-X-STREAM-INF:BANDWIDTH=2560000,RESOLUTION=1280x720,NAME=ORIGINAL",
+            original_url,
+            "#EXT-X-STREAM-INF:BANDWIDTH=2560000,RESOLUTION=1280x720,NAME=HD",
+            original_url
+        ]
         individual_files[filename] = "\n".join(content)
-        logger.info(f"Generated variants for {channel_name}: {list(VARIANTS.keys())}")
+        logger.info(f"Generated variants for {channel_name}: sd, original, hd")
         
         # Add to FinalStreamLinks.m3u
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/LiveTV/{channel_name}.m3u8"
@@ -200,12 +205,18 @@ def main():
 
     # Write all files
     for file_path, content in individual_files.items():
-        with open(file_path, "w", encoding="utf-8") as f:
-            f.write(content)
-        logger.info(f"Wrote {file_path}: {content[:100]}...")
-    with open(FINAL_M3U_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(final_m3u_content))
-    logger.info(f"Wrote {FINAL_M3U_FILE} with {len(final_m3u_content)-1} entries")
+        try:
+            with open(file_path, "w", encoding="utf-8") as f:
+                f.write(content)
+            logger.info(f"Wrote {file_path}: {content[:100]}...")
+        except Exception as e:
+            logger.error(f"Failed to write {file_path}: {e}")
+    try:
+        with open(FINAL_M3U_FILE, "w", encoding="utf-8") as f:
+            f.write("\n".join(final_m3u_content))
+        logger.info(f"Wrote {FINAL_M3U_FILE} with {len(final_m3u_content)-1} entries")
+    except Exception as e:
+        logger.error(f"Failed to write {FINAL_M3U_FILE}: {e}")
     logger.info(f"Total files in {BASE_PATH}: {len(individual_files)}")
 
 if __name__ == "__main__":
