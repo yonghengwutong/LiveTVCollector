@@ -22,7 +22,7 @@ DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs
 DEFAULT_SOURCE = "https://aynaxpranto.vercel.app/files/playlist.m3u"
 
 # Static fallback M3U if all sources fail
-STATIC_M3U = "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott"
+STATIC_M3U = """
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Channel
 http://sample-stream.com/stream.m3u8
