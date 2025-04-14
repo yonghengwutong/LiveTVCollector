@@ -18,14 +18,15 @@ FINAL_M3U_FILE = "../BugsfreeStreams/FinalStreamLinks.m3u"
 MAX_STREAMS = 1000
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
-# Source M3U playlist(s) - can be a single URL or a list
-SOURCES = "https://aynaxpranto.vercel.app/files/playlist.m3u",
-          "https://aynaxpranto.vercel.app/files/playlist.m3u"
-# For multiple sources, uncomment this:
-# SOURCES = [
-#     "",
-#     ""
-# ]
+# Default single source (changeable)
+DEFAULT_SOURCE = "https://aynaxpranto.vercel.app/files/playlist.m3u"
+
+# Source M3U playlist(s) - single URL or list
+SOURCES = DEFAULT_SOURCE  # Single source by default
+MULTI_SOURCES = [    
+    "https://aynaxpranto.vercel.app/files/playlist.m3u",
+    "https://iptv-org.github.io/iptv/countries/us.m3u"
+]
 
 # Fallback test stream
 FALLBACK_STREAM = {
@@ -43,6 +44,10 @@ def is_stream_active(url):
             content = response.content.decode("utf-8", errors="ignore")
             if "#EXTM3U" in content:
                 return True
+            else:
+                logger.warning(f"No #EXTM3U in {url}")
+        else:
+            logger.warning(f"Invalid status for {url}: {response.status_code}")
     except requests.RequestException as e:
         logger.warning(f"Failed to check {url}: {e}")
     return False
@@ -74,6 +79,7 @@ def parse_m3u(content):
         elif line.startswith("http") and extinf:
             entries.append((extinf, line))
             extinf = None
+    logger.info(f"Parsed {len(entries)} entries")
     return entries
 
 # Fetch and parse a single source
@@ -82,7 +88,9 @@ def process_source(source):
         logger.info(f"Fetching {source}")
         response = requests.get(source, timeout=5)
         if response.status_code == 200:
-            entries = parse_m3u(response.text)
+            content = response.text
+            logger.debug(f"Content sample: {content[:100]}")
+            entries = parse_m3u(content)
             logger.info(f"Found {len(entries)} entries in {source}")
             return entries
         else:
@@ -101,15 +109,25 @@ def main():
         logger.info(f"Deleted old files in {BASE_PATH}")
     os.makedirs(BASE_PATH, exist_ok=True)
 
-    # Fetch sources concurrently
+    # Fetch sources
     all_entries = []
+    sources_to_process = []
     with ThreadPoolExecutor(max_workers=20) as executor:
         if isinstance(SOURCES, str):
-            results = [process_source(SOURCES)]
+            logger.info("Using single source mode")
+            entries = process_source(SOURCES)
+            if entries:
+                all_entries.extend(entries)
+            else:
+                logger.warning("Single source failed, falling back to multi-sources")
+                sources_to_process = MULTI_SOURCES
         else:
-            results = executor.map(process_source, SOURCES)
-        for result in results:
-            all_entries.extend(result)
+            sources_to_process = SOURCES
+
+        if sources_to_process:
+            results = executor.map(process_source, sources_to_process)
+            for result in results:
+                all_entries.extend(result)
     logger.info(f"Total entries collected: {len(all_entries)}")
 
     # Validate streams and remove duplicates
