@@ -13,15 +13,18 @@ logger = logging.getLogger()
 REPO_OWNER = "bugsfreeweb"
 REPO_NAME = "LiveTVCollector"
 BRANCH = "main"
-BASE_PATH = "../BugsfreeStreams/LiveTV"  # Relative to BugsfreeStreams/
+BASE_PATH = "../BugsfreeStreams/LiveTV"
 FINAL_M3U_FILE = "../BugsfreeStreams/FinalStreamLinks.m3u"
 MAX_STREAMS = 1000
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
-# Source M3U playlists
-SOURCES = [    
-    "https://aynaxpranto.vercel.app/files/playlist.m3u"    
-],
+# Source M3U playlist(s) - can be a single URL or a list
+SOURCES = "https://aynaxpranto.vercel.app/files/playlist.m3u"  # Default single source
+# For multiple sources, uncomment this:
+# SOURCES = [
+#     "",
+#     ""
+# ]
 
 # Fallback test stream
 FALLBACK_STREAM = {
@@ -40,7 +43,7 @@ def is_stream_active(url):
             if "#EXTM3U" in content:
                 return True
     except requests.RequestException as e:
-        logger.warning(f"Failed to check {url}:枪e}")
+        logger.warning(f"Failed to check {url}: {e}")
     return False
 
 # Clean channel name for filename
@@ -100,7 +103,10 @@ def main():
     # Fetch sources concurrently
     all_entries = []
     with ThreadPoolExecutor(max_workers=20) as executor:
-        results = executor.map(process_source, SOURCES)
+        if isinstance(SOURCES, str):
+            results = [process_source(SOURCES)]
+        else:
+            results = executor.map(process_source, SOURCES)
         for result in results:
             all_entries.extend(result)
     logger.info(f"Total entries collected: {len(all_entries)}")
