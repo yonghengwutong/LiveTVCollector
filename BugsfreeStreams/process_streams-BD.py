@@ -31,13 +31,16 @@ http://sample-stream.com/stream.m3u8
 SOURCES = DEFAULT_SOURCE
 MULTI_SOURCES = [
     "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-    "https://aynaxpranto.vercel.app/files/playlist.m3u"
+    "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
+	"https://raw.githubusercontent.com/skjahangirkabir/Bdix-549.m3u/refs/heads/main/BDIX-549.m3u8",
+	"https://aynaxpranto.vercel.app/files/playlist.m3u",
+	"https://iptv-org.github.io/iptv/countries/bd.m3u"
 ]
 
 # Fallback test stream
 FALLBACK_STREAM = {
     "extinf": f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}" group-title="TEST",Test Stream',
-    "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+    "url": "https://allinonereborn.com/test.m3u8?id=113",
     "name": "Test_Stream"
 }
 
