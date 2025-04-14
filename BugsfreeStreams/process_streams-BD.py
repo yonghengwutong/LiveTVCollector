@@ -17,12 +17,6 @@ FINAL_M3U_FILE = "../BugsfreeStreams/FinalStreamLinks.m3u"
 MAX_STREAMS = 1000
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
-# Variant bitrates (bps)
-VARIANTS = {
-    "sd": 1000000,  # 1 Mbps, ~10.8 GB/day
-    "hd": 2560000   # 2.56 Mbps, ~27.65 GB/day
-}
-
 # Default single source
 DEFAULT_SOURCE = "https://aynaxpranto.vercel.app/files/playlist.m3u"
 
@@ -172,9 +166,10 @@ def main():
                     unique_streams[channel_name] = (ensure_logo(extinf), url)
                     logger.info(f"Added valid stream: {channel_name}")
 
-    # Always include fallback stream
-    logger.info("Adding fallback stream")
-    unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"])
+    # Add fallback if no streams
+    if not unique_streams:
+        logger.warning("No valid streams found, adding fallback")
+        unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"])
 
     logger.info(f"Total unique valid streams: {len(unique_streams)}")
 
@@ -183,34 +178,18 @@ def main():
     individual_files = {}
     for channel_name, (extinf, original_url) in unique_streams.items():
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/LiveTV/{channel_name}.m3u8"
-        # Create .m3u8 with variants inline
-        content = [
-            "#EXTM3U",
-            "#EXT-X-VERSION:3",
-            "#EXT-X-STREAM-INF:BANDWIDTH=1000000,RESOLUTION=640x360",
-            original_url,
-            "#EXT-X-STREAM-INF:BANDWIDTH=2560000,RESOLUTION=1280x720",
-            original_url
-        ]
-        individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = "\n".join(content)
+        individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{original_url}"
         final_m3u_content.append(f"{extinf}\n{github_url}")
-        logger.info(f"Generated variants for {channel_name}: sd, hd")
 
     # Write all files
     for file_path, content in individual_files.items():
-        try:
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(content)
-            logger.info(f"Wrote {file_path}: {content[:100]}...")
-        except Exception as e:
-            logger.error(f"Failed to write {file_path}: {e}")
-    try:
-        with open(FINAL_M3U_FILE, "w", encoding="utf-8") as f:
-            f.write("\n".join(final_m3u_content))
-        logger.info(f"Wrote {FINAL_M3U_FILE} with {len(final_m3u_content)-1} entries")
-    except Exception as e:
-        logger.error(f"Failed to write {FINAL_M3U_FILE}: {e}")
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(content)
+        logger.info(f"Wrote {file_path}")
+    with open(FINAL_M3U_FILE, "w", encoding="utf-8") as f:
+        f.write("\n".join(final_m3u_content))
+    logger.info(f"Wrote {FINAL_M3U_FILE} with {len(final_m3u_content)-1} entries")
     logger.info(f"Total files in {BASE_PATH}: {len(individual_files)}")
 
-if __name__: 
+if __name__ == "__main__":
     main()
