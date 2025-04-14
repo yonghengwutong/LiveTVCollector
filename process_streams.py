@@ -1,6 +1,7 @@
 import os
 import re
 import requests
+import shutil
 from concurrent.futures import ThreadPoolExecutor
 import logging
 
@@ -17,7 +18,7 @@ FINAL_M3U_FILE = "BugsfreeStreams/FinalStreamLinks.m3u"
 MAX_STREAMS = 1000  # Cap to avoid GitHub UI truncation
 
 # Source M3U playlists
-SOURCES = [   
+SOURCES = [    
     "https://aynaxpranto.vercel.app/files/playlist.m3u",
     "https://iptv-org.github.io/iptv/countries/us.m3u"
 ]
@@ -44,7 +45,8 @@ def is_stream_active(url):
 
 # Clean channel name for filename
 def clean_channel_name(name):
-    return re.sub(r'[^a-zA-Z0-9\s]', '', name).strip().replace(' ', '_')
+    name = re.sub(r'[^a-zA-Z0-9\s]', '', name).strip().lower().replace(' ', '_')
+    return re.sub(r'_+', '_', name)  # Remove multiple underscores
 
 # Parse M3U content
 def parse_m3u(content):
@@ -78,6 +80,11 @@ def process_source(source):
 # Main processing logic
 def main():
     logger.info("Starting stream processing")
+    
+    # Clean up old files
+    if os.path.exists(BASE_PATH):
+        shutil.rmtree(BASE_PATH)
+        logger.info(f"Deleted old files in {BASE_PATH}")
     os.makedirs(BASE_PATH, exist_ok=True)
 
     # Fetch sources concurrently
@@ -93,6 +100,9 @@ def main():
     with ThreadPoolExecutor(max_workers=20) as executor:
         futures = [(extinf, url, executor.submit(is_stream_active, url)) for extinf, url in all_entries]
         for extinf, url, future in futures:
+            if len(unique_streams) >= MAX_STREAMS:
+                logger.info(f"Reached MAX_STREAMS limit: {MAX_STREAMS}")
+                break
             if future.result():
                 match = re.search(r',(.+)$', extinf)
                 if match:
@@ -100,9 +110,6 @@ def main():
                     if channel_name not in unique_streams:
                         unique_streams[channel_name] = (extinf, url)
                         logger.info(f"Added valid stream: {channel_name}")
-                        if len(unique_streams) >= MAX_STREAMS:
-                            logger.info(f"Reached MAX_STREAMS limit: {MAX_STREAMS}")
-                            break
 
     # Add fallback if no streams
     if not unique_streams:
