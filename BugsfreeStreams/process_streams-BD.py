@@ -198,7 +198,6 @@ def main():
         except OSError as e:
             logger.error(f"Failed to write {file_path}: {e}")
     try:
-BB
         with open(FINAL_M3U_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(final_m3u_content))
         logger.info(f"Wrote {FINAL_M3U_FILE} with {len(final_m3u_content)-1} entries")
