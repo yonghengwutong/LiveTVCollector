@@ -13,8 +13,8 @@ logger = logging.getLogger()
 REPO_OWNER = "bugsfreeweb"
 REPO_NAME = "LiveTVCollector"
 BRANCH = "main"
-BASE_PATH = "../BugsfreeStreams/LiveTV"
-FINAL_M3U_FILE = "../BugsfreeStreams/FinalStreamLinks.m3u"
+BASE_PATH = "BugsfreeStreams/LiveTV"  # Adjusted for GitHub Actions root
+FINAL_M3U_FILE = "BugsfreeStreams/FinalStreamLinks.m3u"
 MAX_STREAMS = 1000
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
@@ -24,22 +24,19 @@ VARIANTS = {
     "hd": 2560000   # 2.56 Mbps, ~27.65 GB/day
 }
 
-# Default single source
-DEFAULT_SOURCE = "https://aynaxpranto.vercel.app/files/playlist.m3u"
+# Default sources (swapped priority)
+DEFAULT_SOURCE = "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott"
+MULTI_SOURCES = [
+    DEFAULT_SOURCE,
+    "https://aynaxpranto.vercel.app/files/playlist.m3u"
+]
 
-# Static fallback M3U if all sources fail
+# Static fallback M3U
 STATIC_M3U = """
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Channel
 http://sample-stream.com/stream.m3u8
 """
-
-# Source M3U playlist(s)
-SOURCES = DEFAULT_SOURCE
-MULTI_SOURCES = [
-    "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-    "https://aynaxpranto.vercel.app/files/playlist.m3u"
-]
 
 # Fallback test stream
 FALLBACK_STREAM = {
@@ -119,7 +116,7 @@ def process_source(source):
         response = requests.get(source, timeout=5)
         if response.status_code == 200:
             content = response.text
-            logger.info(f"Raw content: {content[:500]}")
+            logger.info(f"Raw content: {content[:1000]}")
             entries = parse_m3u(content)
             logger.info(f"Found {len(entries)} entries in {source}")
             return entries
@@ -132,12 +129,12 @@ def process_source(source):
 # Main processing logic
 def main():
     logger.info("Starting stream processing")
-    
+
     # Validate paths
     try:
         os.makedirs(BASE_PATH, exist_ok=True)
         os.makedirs(os.path.dirname(FINAL_M3U_FILE), exist_ok=True)
-        logger.info(f"Paths verified: {BASE_PATH} (writable={os.access(BASE_PATH, os.W_OK)}), {FINAL_M3U_FILE}")
+        logger.info(f"Paths verified: {BASE_PATH} (writable={os.access(BASE_PATH, os.W_OK)}), {FINAL_M3U_FILE} (writable={os.access(os.path.dirname(FINAL_M3U_FILE), os.W_OK)})")
     except Exception as e:
         logger.error(f"Path setup failed: {e}")
         return
@@ -158,20 +155,13 @@ def main():
 
     # Fetch sources
     all_entries = []
-    if isinstance(SOURCES, str):
-        logger.info("Using single source mode")
-        entries = process_source(SOURCES)
+    for source in MULTI_SOURCES:
+        logger.info(f"Trying source: {source}")
+        entries = process_source(source)
+        all_entries.extend(entries)
         if entries:
-            all_entries.extend(entries)
-        else:
-            logger.warning("Single source failed, trying multi-sources")
-            for source in MULTI_SOURCES:
-                entries = process_source(source)
-                all_entries.extend(entries)
-    else:
-        for source in SOURCES:
-            entries = process_source(source)
-            all_entries.extend(entries)
+            logger.info(f"Got entries from {source}, stopping source fetch")
+            break
 
     # If no entries, try static M3U
     if not all_entries:
@@ -203,7 +193,7 @@ def main():
     individual_files = {}
     for channel_name, (extinf, original_url) in unique_streams.items():
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/LiveTV/{channel_name}.m3u8"
-        # Single stream first, then variants
+        # Single stream for fallback, variants for others
         single_content = f"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n{original_url}"
         variant_content = [
             "#EXTM3U",
@@ -213,7 +203,6 @@ def main():
             f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={VARIANTS['hd']},RESOLUTION=1280x720",
             original_url
         ]
-        # Use variants if channel isn't fallback
         content = "\n".join(variant_content) if channel_name != FALLBACK_STREAM["name"] else single_content
         individual_files[f"{BASE_PATH}/{channel_name}.m3u8"] = content
         final_m3u_content.append(f"{extinf}\n{github_url}")
