@@ -22,15 +22,12 @@ MAX_STREAMS_PER_SOURCE = 50
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
 # Default single source
-DEFAULT_SOURCE = "https://iptv-org.github.io/iptv/countries/bd.m3u"
+DEFAULT_SOURCE = "https://iptv-org.github.io/iptv/countries/in.m3u"
 
 # Source M3U playlist(s) - primary and fallbacks
 SOURCES = [DEFAULT_SOURCE]
 FALLBACK_SOURCES = [
-    "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
-    "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-    "https://raw.githubusercontent.com/skjahangirkabir/Bdix-549.m3u/refs/heads/main/BDIX-549.m3u8",
-    "https://aynaxpranto.vercel.app/files/playlist.m3u",
+    "https://raw.githubusercontent.com/SUBHASHM3U8/M3u/refs/heads/main/README.md",    
 ]
 
 # Static fallback M3U if all sources fail
@@ -43,7 +40,7 @@ http://iptv-org.github.io/iptv/sample.m3u8
 # Fallback test stream
 FALLBACK_STREAM = {
     "extinf": f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}" group-title="TEST",Test Stream',
-    "url": "http://iptv-org.github.io/iptv/sample.m3u8",
+    "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
     "name": "test_stream"
 }
 
