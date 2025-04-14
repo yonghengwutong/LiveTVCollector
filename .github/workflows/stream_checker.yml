@@ -25,6 +25,9 @@ jobs:
       - name: Run stream processor
         run: python process_streams.py
 
+      - name: Show logs
+        run: cat /tmp/*.log || echo "No logs found"
+
       - name: Commit changes
         run: |
           git config user.name "GitHub Actions Bot"
