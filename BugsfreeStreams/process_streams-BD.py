@@ -21,7 +21,7 @@ DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs
 
 # Sources
 DEFAULT_SOURCE = "https://aynaxpranto.vercel.app/files/playlist.m3u"
-FALLBACK_SOURCE = "https://iptv-org.github.io/iptv/countries/us.m3u"
+FALLBACK_SOURCE = "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott"
 SOURCES = DEFAULT_SOURCE
 MULTI_SOURCES = [
     "https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/Aynaott",
