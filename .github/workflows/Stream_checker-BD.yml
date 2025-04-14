@@ -8,6 +8,7 @@ on:
 jobs:
   check-streams:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
@@ -20,18 +21,19 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          echo "requests==2.32.3" > requirements.txt
+          pip install -r requirements.txt
 
       - name: Run stream processor
-        run: python BugsfreeStreams/process_streams-BD.py
+        run: python process_streams-BD.py
 
       - name: Show logs
-        run: cat /tmp/*.log || echo "No logs found"
+        run: cat *.log || echo "No logs found"
 
       - name: Commit changes
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add BugsfreeStreams/
-          git diff --staged --quiet || git commit -m "Update stream links"
-          git push origin main || echo "No changes to push"
+          git diff --staged --quiet || (git commit -m "Update stream links" && git push origin main) || echo "No changes to push"
