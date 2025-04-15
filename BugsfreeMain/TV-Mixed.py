@@ -260,6 +260,7 @@ def main():
         "https://raw.githubusercontent.com/LiveTvWorldwide/IPTV/refs/heads/main/live.m3u",
         "https://raw.githubusercontent.com/pandvan/rakuten-m3u-generator/refs/heads/master/output/rakuten.m3u",
         "https://raw.githubusercontent.com/zagomedia/televizor/refs/heads/main/iptvlist.m3u",
+        "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
     ]
 
     # Set check_links=False for super speed, True for accuracy
