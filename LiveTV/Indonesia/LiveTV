@@ -710,8 +710,8 @@
   {
     "name": "Cinema World",
     "type": "Movies",
-    "url": "https://raw.githubusercontent.com/hendroagung2904/IDH/refs/heads/main/IDH-CinemaWorld.m3u8",
-    "img": "https://www.lyngsat.com/logo/tv/cc/cinema_world_asia.png"
+    "url": "http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/165082",
+    "img": "http://s3.i3ns.net:2052/portal/picon/2023-05/67979916a84e98b9942945379c1e648b.png"
   },
   {
     "name": "FMN",
@@ -732,12 +732,6 @@
     "img": "https://www.visionplus.id/images/repository/001/50001-SNAPSHOT-l.png"
   },
   {
-    "name": "K+",
-    "type": "Movies",
-    "url": "http://210.210.155.35/uq2663/h/h08/01.m3u8?fluxustv.m3u8",
-    "img": "https://i.ibb.co/smpNq8Z/xgnf.png"
-  },
-  {
     "name": "TVN Movies",
     "type": "Movies",
     "url": "http://op-group1-swiftservehd-1.dens.tv/h/h21/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=tvN_Movies_HD|user-agent=Mozilla/5.0",
@@ -748,6 +742,18 @@
     "type": "Movies",
     "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/ZeeBIOSKOP/sa_dash/ZeeBIOSKOP.mpd",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_23.png"
+  },
+  {
+    "name": "Galaxy",
+    "type": "Movies",
+    "url": "http://cempedak-cdn-fly.mncnow.id/live/eds/Galaxy-HD/sa_dash/Galaxy-HD.mpd",
+    "img": "https://www.mncvision.id/userfiles/image/channel/channel_13.png"
+  },
+  {
+    "name": "Galaxy Premium",
+    "type": "Movies",
+    "url": "http://cempedak-cdn-fly.mncnow.id/live/eds/GalaxyPremium-HD/sa_dash/GalaxyPremium-HD.mpd",
+    "img": "https://www.mncvision.id/userfiles/image/channel/channel_12.png"
   },
   {
     "name": "GEM",
@@ -806,14 +812,8 @@
   {
     "name": "FLIK",
     "type": "Movies",
-    "url": "https://raw.githubusercontent.com/hendroagung2904/IDH/refs/heads/main/IDH-Flik.m3u8",
+    "url": "http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/165095",
     "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNpFz93R9j5x0A1BzdwNM7w1aRjZawF5iHH-kSHgFZdeXF1L0nSkU5qPHbC2W4DX7L8ZeKODNVsYCNIT-jolR4LQA5y6YquJm1lW9h8FnNjgGTVvk9rDE2s_LjmW9wL3T-OboK6aRJ2Oo/s479-Ic42/Flik%252520TV.png"
-  },
-  {
-    "name": "HITS NOW",
-    "type": "Movies",
-    "url": "https://cors.lim.workers.dev/https://cdn08jtedge.indihometv.com/dassdvr/134/hitsnow/manifest.mpd",
-    "img": "https://dl.dropbox.com/scl/fi/o4bua2l1bvbumzh9ayym3/Hitsnow.jpg?rlkey=xrjhmzd58v42r5mcjbe1czl7s&dl=0"
   },
   {
     "name": "SONY PIX",
@@ -1458,66 +1458,6 @@
     "img": "https://t3.ftcdn.net/jpg/02/13/23/24/360_F_213232423_6LKkQZ7uB0r9qBQVDLAflYgi6Ty7K0xH.jpg"
   },
   {
-    "name": "TNT Sports 1 UK",
-    "type": "Sports",
-    "url": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-    "img": "https://www.lyngsat.com/logo/tv/tt/tnt-sports-uk-us-uk.png"
-  },
-  {
-    "name": "TNT Sports 2 UK",
-    "type": "Sports",
-    "url": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
-    "img": "https://www.lyngsat.com/logo/tv/tt/tnt-sports-uk-us-uk.png"
-  },
-  {
-    "name": "TNT Sports 3 UK",
-    "type": "Sports",
-    "url": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
-    "img": "https://www.lyngsat.com/logo/tv/tt/tnt-sports-uk-us-uk.png"
-  },
-  {
-    "name": "TNT Sports 4 UK",
-    "type": "Sports",
-    "url": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
-    "img": "https://www.lyngsat.com/logo/tv/tt/tnt-sports-uk-us-uk.png"
-  },
-  {
-    "name": "TNT Sports 5 UK",
-    "type": "Sports",
-    "url": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/gesdwrdncn/out/v1/79e752f1eccd4e18b6a8904a0bc01f2d/cenc.mpd",
-    "img": "https://www.lyngsat.com/logo/tv/tt/tnt-sports-uk-us-uk.png"
-  },
-  {
-    "name": "TSN1",
-    "type": "Sports",
-    "url": "https://webhdrunns.mizhls.ru/lb/premium111/index.m3u8|referer=https://lewblivehdplay.ru/&user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-    "img": "http://s3.i3ns.net:2052/portal/picon/2021-05/1fba41bf57803049ca52a3131bf7b749.png"
-  },
-  {
-    "name": "TSN2",
-    "type": "Sports",
-    "url": "https://webhdrunns.mizhls.ru/lb/premium112/index.m3u8|referer=https://lewblivehdplay.ru/&user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-    "img": "http://s3.i3ns.net:2052/portal/picon/2021-05/4b4253c607eecccc31f0ada0140f70c8.png"
-  },
-  {
-    "name": "TSN3",
-    "type": "Sports",
-    "url": "https://webhdrunns.mizhls.ru/lb/premium113/index.m3u8|referer=https://lewblivehdplay.ru/&user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-    "img": "http://s3.i3ns.net:2052/portal/picon/2021-05/524a82ac877c54d21ea7d3132de37ed7.png"
-  },
-  {
-    "name": "TSN4",
-    "type": "Sports",
-    "url": "https://webhdrunns.mizhls.ru/lb/premium114/index.m3u8|referer=https://lewblivehdplay.ru/&user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-    "img": "http://s3.i3ns.net:2052/portal/picon/2021-05/d8a2cfab425dd04c3cf3d811ed48b338.png"
-  },
-  {
-    "name": "TSN5",
-    "type": "Sports",
-    "url": "https://webhdrunns.mizhls.ru/lb/premium115/index.m3u8|referer=https://lewblivehdplay.ru/&user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-    "img": "http://s3.i3ns.net:2052/portal/picon/2021-05/e1e3ffe429c6873b30cf62cdf0f0b4ae.png"
-  },
-  {
     "name": "Horizon Sport",
     "type": "Sports",
     "url": "https://op-group1-swiftservehd-1.dens.tv/h/h127/live.m3u8",
@@ -1570,6 +1510,54 @@
     "type": "Sports",
     "url": "https://ssc-extra3-enc.edgenextcdn.net/out/v1/8f1c6c3f05ef4284a64b342891bd85ae/index.mpd",
     "img": "http://guki.my.id/logo/sports/scex3.jpg"
+  },
+  {
+    "name": "S Motorsport",
+    "type": "Sports",
+    "url": "http://supersonictv.live:8080/227058/272105/86879",
+    "img": "https://i.imgur.com/lhRJvvV.png"
+  },
+  {
+    "name": "True Premier 1",
+    "type": "Sports",
+    "url": "https://iptv2.wirdy.workers.dev/02_PremierHD1_720p/chunklist.m3u8",
+    "img": "https://fn.dmpcdn.com/TrueIDWeb/Home/Campaigns/Channel-True-Premier-Football-HD1.png"
+  },
+  {
+    "name": "True Premier 2",
+    "type": "Sports",
+    "url": "https://iptv2.wirdy.workers.dev/02_PremierHD2_720p/chunklist.m3u8",
+    "img": "https://fn.dmpcdn.com/TrueIDWeb/Home/Campaigns/Channel-True-Premier-Football-HD2.png"
+  },
+  {
+    "name": "True Sports 1",
+    "type": "Sports",
+    "url": "http://geogersr.itilstrem.workers.dev/http://www.livedoomovies.com:4432/02_2sporthd1_720p/chunklist.m3u8",
+    "img": "https://cms.dmpcdn.com/livetv/2022/01/12/27f34e20-7374-11ec-b576-afbb0a1303ef_webp_320.png"
+  },
+  {
+    "name": "True Sports 2",
+    "type": "Sports",
+    "url": "http://geogersr.itilstrem.workers.dev/http://www.livedoomovies.com:4432/02_2sporthd2_720p/chunklist.m3u8",
+    "img": "https://cms.dmpcdn.com/livetv/2019/10/28/8c23b890-f972-11e9-9d60-a7e46cdf4330_320.png"
+  },
+  {
+    "name": "True Sports 3",
+    "type": "Sports",
+    "url": "http://geogersr.itilstrem.workers.dev/http://www.livedoomovies.com:4432/02_2sporthd3_720p/chunklist.m3u8",
+    "img": "https://cms.dmpcdn.com/livetv/2022/01/12/28a5ae30-7374-11ec-91d2-797a50c5a656_webp_320.webp"
+  },
+  {
+    "name": "FOX SPORTS 1",
+    "type": "Sports",
+    "url": "http://38b891c9.rossteleccom.net/iptv/SQNLRPBE7FFE8V/7322/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/1200px-2015_Fox_Sports_1_logo.svg.png"
+  },
+  {
+    "name": "FOX SPORTS 2",
+    "type": "Sports",
+    "url": "http://38b891c9.rossteleccom.net/iptv/SQNLRPBE7FFE8V/7323/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/800px-FS2_logo_2015.svg.png"
   },
   {
     "name": "Dunia Games TV (720p) [Not 24/7] [Geo-blocked]",
@@ -3500,7 +3488,7 @@
   {
     "name": "MNC TV",
     "type": "TV Nasional Indonesia",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd|referer=https://www.visionplus.id",
+    "url": "https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv",
     "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/MNC%20TV.jpg"
   },
   {
@@ -3520,6 +3508,12 @@
     "type": "TV Nasional Indonesia",
     "url": "https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png"
+  },
+  {
+    "name": "Trans TV",
+    "type": "TV Nasional Indonesia",
+    "url": "https://video.detik.com/transtv/smil:transtv.smil/chunklist_w2108851844_b344100_sleng.m3u8",
+    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/TransTV.jpg"
   },
   {
     "name": "Trans7 HD",
@@ -3548,7 +3542,7 @@
   {
     "name": "Kompas TV",
     "type": "TV Nasional Indonesia",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd|referer=https://www.visionplus.id",
+    "url": "http://op-group1-swiftservehd-1.dens.tv/s/s104/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=Kompas_TV",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_106.png"
   },
   {
@@ -3562,12 +3556,6 @@
     "type": "TV Nasional Indonesia",
     "url": "https://cempedak-live-cdn.mncnow.id/live/eds/MNCnews-HDD/sa_dash_vmx/MNCnews-HDD.mpd|referer=https://www.visionplus.id",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_84.png"
-  },
-  {
-    "name": "Mentari TV",
-    "type": "TV Nasional Indonesia",
-    "url": "https://raw.githubusercontent.com/hendroagung2904/IDH/refs/heads/main/IDH-MentariTV.m3u8",
-    "img": "https://images.indihometv.com/logo_mentaritv_small.png"
   },
   {
     "name": "NET TV",
@@ -3592,96 +3580,6 @@
     "type": "TV Nasional Indonesia",
     "url": "https://raw.githubusercontent.com/hendroagung2904/IDH/refs/heads/main/IDH-SeruChannel.m3u8",
     "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/Channel%20Seru!.jpg"
-  },
-  {
-    "name": "Trans TV",
-    "type": "Uncategorized",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd|referer=https://www.visionplus.id",
-    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/TransTV.jpg"
-  },
-  {
-    "name": "Jak TV",
-    "type": "Uncategorized",
-    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/JakTV/sa_dash_vmx/JakTV.mpd|referer=https://www.visionplus.id",
-    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/Jak%20tv.jpg"
-  },
-  {
-    "name": "Balikapan TV",
-    "type": "Uncategorized",
-    "url": "https://5bf7b725107e5.streamlock.net/btv/btv/playlist.m3u8",
-    "img": "https://i.ibb.co/q9n0G6v/Btv-hometv.jpg"
-  },
-  {
-    "name": "Batam TV",
-    "type": "Uncategorized",
-    "url": "https://cdn.renotv.my.id/tvd/playy.m3u8?id=batamtv",
-    "img": "https://i.imgur.com/lo7YXnW.png"
-  },
-  {
-    "name": "Elshinta TV",
-    "type": "Uncategorized",
-    "url": "https://op-group2-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8",
-    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/ELSHINTA.png"
-  },
-  {
-    "name": "Inspira TV",
-    "type": "Uncategorized",
-    "url": "https://inspiratv.siar.us/inspiratv/live/playlist.m3u8",
-    "img": "https://i.ibb.co/ZhSmHq5/Inspiratv-hometv.jpg"
-  },
-  {
-    "name": "Nasional TV",
-    "type": "Uncategorized",
-    "url": "https://wow.nasionaltv.com/ntvlive/tracks-v1a1/mono.m3u8",
-    "img": "https://i.imgur.com/84svEUM.png"
-  },
-  {
-    "name": "Padang TV",
-    "type": "Uncategorized",
-    "url": "https://cdn.renotv.my.id/tvd/playy.m3u8?id=padangtv",
-    "img": "https://i.ibb.co/TwXz4tK/Padang-tv-hometv.jpg"
-  },
-  {
-    "name": "UGTV",
-    "type": "Uncategorized",
-    "url": "https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8",
-    "img": "https://i.imgur.com/iEKDH26.png"
-  },
-  {
-    "name": "Dunia Lain",
-    "type": "Uncategorized",
-    "url": "https://raw.githubusercontent.com/hendroagung2904/IDH/refs/heads/main/IDH-DuniaLain.m3u8",
-    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/Dunia%20Lain.jpg"
-  },
-  {
-    "name": "Music TV",
-    "type": "Uncategorized",
-    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/MusicChannel/sa_dash/MusicChannel.mpd|referer=https://www.visionplus.id",
-    "img": "https://i.imgur.com/nUVl7tS.png"
-  },
-  {
-    "name": "Lingua Channel",
-    "type": "Uncategorized",
-    "url": "https://cdn08jtedge.indihometv.com/dassdvr/133/lingua/manifest.mpd",
-    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/Lingua.jpg"
-  },
-  {
-    "name": "IndiKids",
-    "type": "Uncategorized",
-    "url": "https://cdn08jtedge.indihometv.com/dassdvr/134/indikids/manifest.mpd",
-    "img": "https://i.imgur.com/gnhn867.png"
-  },
-  {
-    "name": "Dunia Anak (Usee)",
-    "type": "Uncategorized",
-    "url": "https://inditv.openwindow042.workers.dev/https://cdn09jtedge.indihometv.com/joss/130/duniaanak/index.m3u8",
-    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/Dunia%20Anak.jpg"
-  },
-  {
-    "name": "Horee!",
-    "type": "Uncategorized",
-    "url": "https://inditv.openwindow042.workers.dev/https://cdn09jtedge.indihometv.com/joss/130/horee/index.m3u8?c",
-    "img": "https://i.imgur.com/S4aoHg8.png"
   },
   {
     "name": "RCTI +",
@@ -3712,12 +3610,6 @@
     "type": "🔴DENS TV",
     "url": "http://op-group1-swiftservehd-1.dens.tv/h/h40/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=tvOne",
     "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxTKuPVKXn_RBQ5ebV179yuSLUL_U3NWSo80n5SjEF420QzmQhyQZlz1fz_lOjIOLc0MXZfSnzUYddjzhGYy6WaoJm99hV2YZVmAd26zLuq65PwusxbnxUDR55FcxjKvNuOYMdz00HQGcWvmNt-5o9SK9bPynzFnA8l0CrZDlgxxK19tWIzKQm5hpwfWb3/s700/TVONE.png"
-  },
-  {
-    "name": "KOMPAS TV",
-    "type": "🔴DENS TV",
-    "url": "http://op-group1-swiftservehd-1.dens.tv/s/s104/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=Kompas_TV",
-    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4S8ncj0jUU__dY6xhxtOLIcvsxg_8KuHKBkjcNi4u6t4ooU09mESxfGueK91oI5ErDNbOyP8dZobrjGCzTb7HfBVc0KexuXB5VP7ISiBz38Xvtrrt_Q8NNiGovWjkQiSaPqShp6ClbIEmKKexjTjB4i3-4vwKIHyKck-0nYaghChkd1r7GQqqerlDOp6F/s700/KOMPAS%20TV.png"
   },
   {
     "name": "BTV",
@@ -4200,6 +4092,90 @@
     "img": "https://i.imgur.com/tbtF40p.png"
   },
   {
+    "name": "Jak TV",
+    "type": "Uncategorized",
+    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/JakTV/sa_dash_vmx/JakTV.mpd|referer=https://www.visionplus.id",
+    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/Jak%20tv.jpg"
+  },
+  {
+    "name": "Balikapan TV",
+    "type": "Uncategorized",
+    "url": "https://5bf7b725107e5.streamlock.net/btv/btv/playlist.m3u8",
+    "img": "https://i.ibb.co/q9n0G6v/Btv-hometv.jpg"
+  },
+  {
+    "name": "Batam TV",
+    "type": "Uncategorized",
+    "url": "https://cdn.renotv.my.id/tvd/playy.m3u8?id=batamtv",
+    "img": "https://i.imgur.com/lo7YXnW.png"
+  },
+  {
+    "name": "Elshinta TV",
+    "type": "Uncategorized",
+    "url": "https://op-group2-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8",
+    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/ELSHINTA.png"
+  },
+  {
+    "name": "Inspira TV",
+    "type": "Uncategorized",
+    "url": "https://inspiratv.siar.us/inspiratv/live/playlist.m3u8",
+    "img": "https://i.ibb.co/ZhSmHq5/Inspiratv-hometv.jpg"
+  },
+  {
+    "name": "Nasional TV",
+    "type": "Uncategorized",
+    "url": "https://wow.nasionaltv.com/ntvlive/tracks-v1a1/mono.m3u8",
+    "img": "https://i.imgur.com/84svEUM.png"
+  },
+  {
+    "name": "Padang TV",
+    "type": "Uncategorized",
+    "url": "https://cdn.renotv.my.id/tvd/playy.m3u8?id=padangtv",
+    "img": "https://i.ibb.co/TwXz4tK/Padang-tv-hometv.jpg"
+  },
+  {
+    "name": "UGTV",
+    "type": "Uncategorized",
+    "url": "https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8",
+    "img": "https://i.imgur.com/iEKDH26.png"
+  },
+  {
+    "name": "Dunia Lain",
+    "type": "Uncategorized",
+    "url": "http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/298524",
+    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/Dunia%20Lain.jpg"
+  },
+  {
+    "name": "Music TV",
+    "type": "Uncategorized",
+    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/MusicChannel/sa_dash/MusicChannel.mpd|referer=https://www.visionplus.id",
+    "img": "https://i.imgur.com/nUVl7tS.png"
+  },
+  {
+    "name": "Lingua Channel",
+    "type": "Uncategorized",
+    "url": "https://cdn08jtedge.indihometv.com/dassdvr/133/lingua/manifest.mpd",
+    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/Lingua.jpg"
+  },
+  {
+    "name": "IndiKids",
+    "type": "Uncategorized",
+    "url": "http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/298539",
+    "img": "https://i.imgur.com/gnhn867.png"
+  },
+  {
+    "name": "Dunia Anak (Usee)",
+    "type": "Uncategorized",
+    "url": "http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/264753",
+    "img": "https://raw.githubusercontent.com/IPTV-Digital/Channel/main/Logo%20IPTV/Dunia%20Anak.jpg"
+  },
+  {
+    "name": "Horee!",
+    "type": "Uncategorized",
+    "url": "http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/264750",
+    "img": "https://i.imgur.com/S4aoHg8.png"
+  },
+  {
     "name": "Berita Satu News",
     "type": "TV Berita Indonesia",
     "url": "http://khano.nng.cloudns.us/live/m3u8/id/270f72deeb5843e.m3u8",
@@ -4376,7 +4352,7 @@
   {
     "name": "BIOSKOP INDONESIA",
     "type": "Hiburan & Gaya Hidup",
-    "url": "https://raw.githubusercontent.com/hendroagung2904/IDH/refs/heads/main/IDH-BioskopIndonesia.m3u8",
+    "url": "http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/264801",
     "img": "https://dl.dropboxusercontent.com/s/8xkpm1bnsuglgvu/bioskop.png"
   },
   {
@@ -4604,7 +4580,7 @@
   {
     "name": "History Asia",
     "type": "Pengetahuan Umum",
-    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/History/sa_dash/History.mpd|referer=https://www.visionplus.id",
+    "url": "http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/162519",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_206.png"
   },
   {
@@ -4646,7 +4622,7 @@
   {
     "name": "DreamWorks",
     "type": "Anak² & Kartun",
-    "url": "https://d1abp075u76pbq.cloudfront.net/live/eds/Dreamwork-HD/sa_dash_vmx/Dreamwork-HD.mpd",
+    "url": "http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/157610",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_47.png"
   },
   {
@@ -4660,12 +4636,6 @@
     "type": "Anak² & Kartun",
     "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/BeSmart/sa_dash/BeSmart.mpd|referer=https://www.visionplus.id",
     "img": "https://www.mncvision.id/userfiles/image/channel/channel_112.png"
-  },
-  {
-    "name": "ZooMoo",
-    "type": "Anak² & Kartun",
-    "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/Boomerang/sa_dash/Boomerang.mpd|referer=https://www.visionplus.id",
-    "img": "https://seeklogo.com/images/Z/zoomoo-logo-FA728C7940-seeklogo.com.png"
   },
   {
     "name": "CBeebies",
@@ -4698,6 +4668,18 @@
     "img": "https://www.mncvision.id/userfiles/image/channel/nickelodeon.png"
   },
   {
+    "name": "Disney Channel",
+    "type": "Anak² & Kartun",
+    "url": "https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/out/v1/ca3534bfe4f148298b36719204d108e0/cenc.mpd",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png"
+  },
+  {
+    "name": "Disney Junior",
+    "type": "Anak² & Kartun",
+    "url": "https://a181aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/0qvo3uakfd/out/v1/d62a555c1e5945f3bae88ae4018321d4/cenc.mpd",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Disney_Junior_2019_logo.png/640px-Disney_Junior_2019_logo.png"
+  },
+  {
     "name": "My Kids",
     "type": "Anak² & Kartun",
     "url": "http://rr.dens.tv/h/h191/index.m3u8?app_type=web&userid=50n13N0v14nd1&tkn=829341hrjhaq0q30q&chname=My_Kidz_HD",
@@ -4712,26 +4694,8 @@
   {
     "name": "Moonbug Kids",
     "type": "Anak² & Kartun",
-    "url": "https://moonbug-rokuus.amagi.tv/playlist.m3u8",
+    "url": "https://cempedak-live-cdn.mncnow.id/live/eds/BabyTV-NewHD/sa_dash_vmx/BabyTV-NewHD.mpd",
     "img": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/012020/moonbug_kids_on_white.png?N15F03k4i.bbYpm4vkwIU0HwhRsSA4YX&itok=zAZIL7t_"
-  },
-  {
-    "name": "DISNEY CHANNEL",
-    "type": "Anak² & Kartun",
-    "url": "https://m7rovideolive.solocoo.tv/blueskylivedash/bluedisneyro/Manifest.mpd",
-    "img": "https://i.ibb.co/NyMzNn3/disneych.png"
-  },
-  {
-    "name": "DISNEY JR",
-    "type": "Anak² & Kartun",
-    "url": "https://m7rovideolive.solocoo.tv/blueskylivedash/bluedisneyjuniorro/Manifest.mpd",
-    "img": "https://i.ibb.co/GdQY7KX/disneyjr.png"
-  },
-  {
-    "name": "Boomerang",
-    "type": "Anak² & Kartun",
-    "url": "http://gcp-dash.ngslbs.com/TVD037/index.mpd",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/9/94/Boomerang_tv_%282000-2004%29.png"
   },
   {
     "name": "Bali TV",
@@ -5062,6 +5026,12 @@
     "type": "ANAK",
     "url": "https://cempedak-live-cdn.mncnow.id/live/eds/Kids-HD/sa_dash_vmx/Kids-HD.mpd",
     "img": "https://i.imgur.com/3vQAhUK.jpeg"
+  },
+  {
+    "name": "Moonbug Kids",
+    "type": "ANAK",
+    "url": "https://moonbug-rokuus.amagi.tv/playlist.m3u8",
+    "img": "https://i.imgur.com/JVMAQA2.jpeg "
   },
   {
     "name": "Nickelodeon Junior 1 ON",
