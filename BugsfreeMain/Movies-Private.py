@@ -260,6 +260,7 @@ def main():
         "https://adultiptv.net/chs.m3u",
         "https://raw.githubusercontent.com/3thAn9u/yang-m3u/refs/heads/main/A.m3u",
         "https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/xxx.m3u",
+        "https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/18plus.m3u",
     ]
 
     # Set check_links=False for super speed, True for accuracy
