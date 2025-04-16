@@ -265,6 +265,8 @@ def main():
         "https://raw.githubusercontent.com/Arunjunan20/My-IPTV/refs/heads/main/index.html",
         "https://raw.githubusercontent.com/AHIL44444/GAZI-LIVE-TV-M3U8/refs/heads/main/index.html",
         "https://aynaxpranto.vercel.app/files/playlist.m3u",
+        "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
+        "https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)",
         "https://iptv-org.github.io/iptv/countries/bd.m3u",
     ]
 
