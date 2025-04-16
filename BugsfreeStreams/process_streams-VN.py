@@ -22,7 +22,7 @@ MAX_STREAMS_PER_SOURCE = 50
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
 # Default single source
-DEFAULT_SOURCE = "https://iptv-org.github.io/iptv/countries/in.m3u"
+DEFAULT_SOURCE = "https://iptv-org.github.io/iptv/countries/vn.m3u"
 
 # Source M3U playlist(s) - primary and fallbacks
 SOURCES = [DEFAULT_SOURCE]
