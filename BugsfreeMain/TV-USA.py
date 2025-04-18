@@ -260,6 +260,7 @@ def main():
         "https://iptv-org.github.io/iptv/countries/us.m3u",
         "https://raw.githubusercontent.com/clseibold/tubi-m3u/refs/heads/main/tubi_playlist_us.m3u",
         "https://raw.githubusercontent.com/aceray50/iptv/refs/heads/main/tv.m3u",
+        "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/thetvapp.m3u8",
     ]
 
     # Set check_links=False for super speed, True for accuracy
