@@ -261,6 +261,7 @@ def main():
         "https://raw.githubusercontent.com/moasisantonio/Moasis/refs/heads/main/moasisantonio.m3u",
         "https://raw.githubusercontent.com/denimaung/nontontv/refs/heads/main/playlist.M3U",
         "https://raw.githubusercontent.com/okasahisnu/IPTV/refs/heads/main/Main",
+        "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
         "https://iptv-org.github.io/iptv/countries/id.m3u",
     ]
 
