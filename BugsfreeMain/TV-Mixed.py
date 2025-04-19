@@ -261,6 +261,7 @@ def main():
         "https://raw.githubusercontent.com/pandvan/rakuten-m3u-generator/refs/heads/master/output/rakuten.m3u",
         "https://raw.githubusercontent.com/zagomedia/televizor/refs/heads/main/iptvlist.m3u",
         "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "https://raw.githubusercontent.com/PuteraPerlis74/Tv/refs/heads/main/MYTV.m3u",
     ]
 
     # Set check_links=False for super speed, True for accuracy
