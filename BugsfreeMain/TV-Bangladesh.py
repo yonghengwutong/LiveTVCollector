@@ -267,6 +267,7 @@ def main():
         "https://aynaxpranto.vercel.app/files/playlist.m3u",
         "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
         "https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)",
+        "https://raw.githubusercontent.com/Shaharum1010/SmartFlix_Tv_Web/refs/heads/main/SmartFlixtv",
         "https://iptv-org.github.io/iptv/countries/bd.m3u",
     ]
 
