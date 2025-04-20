@@ -651,12 +651,6 @@ https://aynaxpranto.vercel.app/api/stream/a9791899-66f2-4b94-9521-c333498f7ab9.m
 https://aynaxpranto.vercel.app/api/stream/3830c379-539b-4e18-9943-9664574c850b.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/4ff26fcdc9c7fdebcd79d61893271f69" group-title="Uncategorized",Nickjr
 https://aynaxpranto.vercel.app/api/stream/c197b1bc-8909-4176-a50f-f855a4a51c1f.m3u8
-#EXTINF:-1 tvg-logo="https://static.epg.best/in/StarGold.in.png" group-title="Uncategorized",STAR GOLD HD
-https://www.tbn24.com/api/video/4029_0.m3u8
-#EXTINF:-1 tvg-logo="https://static.epg.best/in/StarBharat.in.png" group-title="Uncategorized",STAR BHARAT HD
-https://www.tbn24.com/api/video/4032_0.m3u8
-#EXTINF:-1 tvg-logo="https://static.epg.best/in/StarPlus.in.png" group-title="Uncategorized",STAR PLUS HD
-https://www.tbn24.com/api/video/4039_0.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Uncategorized",TSPORTS
 http://116.204.149.16/t_sports/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Uncategorized",LIVE SPORTS
@@ -1321,6 +1315,8 @@ http://125.209.88.166:45793/BRN/GeoKahani.stream/chunklist_w484598437.m3u8
 http://125.209.88.166:45793/BRN/GeoSuper.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/d0fWLPZR/1677040358634-BTVogo.png" group-title="Bangladesh",BTV HD
 https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1709/output/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/zHGC2gbF/BTV-News-Logo.png" group-title="Bangladesh",BTV NEWS
+https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/zTgqxTzv/somoy-tv-logo-png-seeklogo-536972.png" group-title="Bangladesh",SOMOY TV
 https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1702/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/Hpddjjy4/channels4-profile.jpg" group-title="Bangladesh",INDEPNDENT HD
@@ -1337,17 +1333,31 @@ http://38.96.178.201/live/ChannelI/index.m3u8
 http://103.163.247.39/local_out/asiantv/video.m3u8?token=At5F1MFZYnciB3
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/q3QxC1nw/images-8.jpg" group-title="Bangladesh",NEXUS TV HD
 http://38.96.178.201/live/NexusTV/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/39mqJq82/Logo-of-Bijoy-TV-svg.png" group-title="Bangladesh",BIJOY TV
+http://38.96.178.201/live/BijoyTV/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/Z1Sf2fwL/images-1.jpg" group-title="Bangladesh",SATV
+http://38.96.178.201/live/SATV/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/k267DrN2/channels4-profile-1.jpg" group-title="Bangladesh",BANGLA TV
+http://38.96.178.201/live/BanglaTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XxKjGBHf/images-7.jpg" group-title="Bangladesh",GTV HD
 https://www.tbn24.com/api/video/4027_0.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XZdWGJcr/images-9.jpg" group-title="Bangladesh",JALSHA MOVIES
 http://38.96.178.201/live/JalshaMovies/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XZdWGJcr/images-9.jpg" group-title="Bangladesh",JALSHA MOVIES HD
 http://gotit14.xyz:80/live/2F635BX/ZJX02CY/34725.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/8n2qMTmR/unnamed.jpg" group-title="Bangladesh",STAR GOLD HD
+https://www.tbn24.com/api/video/4029_0.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/k2LzmV4N/download-1.jpg" group-title="Bangladesh",STAR BHARAT HD
+https://www.tbn24.com/api/video/4032_0.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/dsRRMM8r/images-4.jpg" group-title="Bangladesh",STAR PLUS HD
+https://www.tbn24.com/api/video/4039_0.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/GN8TVjX/images-2.png" group-title="Bangladesh",DISNEP
+http://38.96.178.201/live/Disney/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/q3870F8P/images.png" group-title="Bangladesh",NATIONAL
 http://88.212.15.19/live/test_ngc/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/1Gny5NSv/images-1.jpg" group-title="Bangladesh",WILD
 http://88.212.15.29/live/test_ngw/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/8n4VVBGm/images.jpg" group-title="Bangladesh",Unnamed Channel
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/8n4VVBGm/images.jpg" group-title="Bangladesh",WILD EARTH
 https://wildearth-plex.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/BKGkcw3b/Channel-S-Bangladesh-Logo.png" group-title="BANGLADESH",S TV
 http://38.96.178.201/live/ChannelS/index.m3u8
