@@ -268,6 +268,7 @@ def main():
         "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
         "https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)",
         "https://raw.githubusercontent.com/Shaharum1010/SmartFlix_Tv_Web/refs/heads/main/SmartFlixtv",
+        "https://raw.githubusercontent.com/mr-masudrana/LiveTV/refs/heads/main/Bangla_Playlist.m3u",
         "https://iptv-org.github.io/iptv/countries/bd.m3u",
     ]
 
