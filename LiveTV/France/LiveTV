@@ -140,7 +140,7 @@
   {
     "name": "AFRICANEWS FR",
     "type": "Uncategorized",
-    "url": "https://rakuten-africanews-2-be.samsung.wurl.tv/manifest/playlist.m3u8",
+    "url": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8",
     "img": "https://i.ibb.co/XSYtYHZ/africanews.png"
   },
   {
@@ -274,6 +274,12 @@
     "type": "Uncategorized",
     "url": "https://livestream.zazerconer.workers.dev/channel/UCT67YOMntJxfRnO_9bXDpvw.m3u8",
     "img": "https://i.ibb.co/ZBqk6mK/lemedia.jpg"
+  },
+  {
+    "name": "TV5MONDE INFO (backup)",
+    "type": "Uncategorized",
+    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=7433",
+    "img": "https://i.ibb.co/drk4BWw/tv5inf.png"
   },
   {
     "name": "EURONEWS FR (backup)",
@@ -472,6 +478,12 @@
     "type": "Uncategorized",
     "url": "https://d352zobhe5lhe6.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-j7m6inrqe6jat/master.m3u8",
     "img": "https://i.ibb.co/sq11nQ1/rdicanada.png"
+  },
+  {
+    "name": "AFRICANEWS FR (backup)",
+    "type": "Uncategorized",
+    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=10951",
+    "img": "https://i.ibb.co/XSYtYHZ/africanews.png"
   },
   {
     "name": "AFRICANEWS FR (backup)",
@@ -1122,6 +1134,12 @@
     "img": "https://i.ibb.co/vxqS6F0/tv5voyage.png"
   },
   {
+    "name": "TV5MONDE VOYAGE",
+    "type": "Uncategorized",
+    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=11074",
+    "img": "https://i.ibb.co/vxqS6F0/tv5voyage.png"
+  },
+  {
     "name": "VOYAGES ET SAVEURS",
     "type": "Uncategorized",
     "url": "https://amg01821-amg01821c24-samsung-fr-5157.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-voyagesandsaveurs-samsungfr/playlist.m3u8",
@@ -1167,6 +1185,12 @@
     "name": "ALLO CINÉ",
     "type": "Uncategorized",
     "url": "https://d1yl6bf4hrzbr0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5km3zs4zs9sp0/allo.m3u8",
+    "img": "https://i.ibb.co/2SHJGsj/allocine.png"
+  },
+  {
+    "name": "ALLO CINÉ",
+    "type": "Uncategorized",
+    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=10840",
     "img": "https://i.ibb.co/2SHJGsj/allocine.png"
   },
   {
@@ -2334,6 +2358,18 @@
     "img": "https://i.ibb.co/tHBB7zv/icimontreal.png"
   },
   {
+    "name": "TRT HABER",
+    "type": "Uncategorized",
+    "url": "https://ensonhaber-live.ercdn.net/trthaber/trthaber.m3u8",
+    "img": "https://i.ibb.co/Bt6frts/trthaber.png"
+  },
+  {
+    "name": "SÖZCÜ TV",
+    "type": "Uncategorized",
+    "url": "https://trn03.tulix.tv/gt-sozcu-tv/index.m3u8",
+    "img": "https://i.ibb.co/B40rjP3/szc1.png"
+  },
+  {
     "name": "SÖZCÜ TV",
     "type": "Uncategorized",
     "url": "http://koprulu2.global.ssl.fastly.net/yt.m3u8/?id=ztmY_cCtUl0.m3u8",
@@ -2384,7 +2420,7 @@
   {
     "name": "ULUSAL KANAL",
     "type": "Uncategorized",
-    "url": "https://rpn3.bozztv.com/dvrfl05/gin-ulusalkanal/playlist.m3u8",
+    "url": "https://trn03.tulix.tv/gt-ulusaltv/playlist.m3u8",
     "img": "https://i.ibb.co/tXdf2YF/ulusal22.png"
   },
   {
@@ -2416,6 +2452,18 @@
     "type": "Uncategorized",
     "url": "http://116.202.238.88/CNNTURK_TR/index.m3u8",
     "img": "https://i.ibb.co/JqWCczW/cnnturk1.png"
+  },
+  {
+    "name": "CNN TÜRK",
+    "type": "Uncategorized",
+    "url": "https://b.fulltvizle.com/cnn/playlist.m3u8",
+    "img": "https://i.ibb.co/JqWCczW/cnnturk1.png"
+  },
+  {
+    "name": "KRT",
+    "type": "Uncategorized",
+    "url": "https://trn03.tulix.tv/gt-krt-tv/index.m3u8",
+    "img": "https://i.ibb.co/jZShqBM/Krt24v2.png"
   },
   {
     "name": "GZT",
@@ -2472,16 +2520,22 @@
     "img": "https://i.ibb.co/1X8nWHc/ahaber.png"
   },
   {
-    "name": "KRT",
+    "name": "A HABER",
     "type": "Uncategorized",
-    "url": "http://trn03.tulix.tv/gt-krttv/tracks-v1a1/mono.m3u8",
-    "img": "https://i.ibb.co/jZShqBM/Krt24v2.png"
+    "url": "https://b.fulltvizle.com/ahaber/playlist.m3u8",
+    "img": "https://i.ibb.co/1X8nWHc/ahaber.png"
   },
   {
     "name": "LİDER HABER TV",
     "type": "Uncategorized",
     "url": "http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8",
     "img": "https://i.ibb.co/mHt7rQf/Tryerel.png"
+  },
+  {
+    "name": "TÜRK HABER",
+    "type": "Uncategorized",
+    "url": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
+    "img": "https://i.ibb.co/j9Pmc2qN/thhaber.jpg"
   },
   {
     "name": "BUSINESS CHANNEL TÜRK",
@@ -2530,12 +2584,6 @@
     "type": "Uncategorized",
     "url": "http://mtulqxgomrllive.mediatriple.net/mtulqxgomrllive/broadcast_59f9c0c785b88.smil/playlist.m3u8",
     "img": "https://i.ibb.co/jLd8Fcb/aa.png"
-  },
-  {
-    "name": "TRT HABER (backup)",
-    "type": "Uncategorized",
-    "url": "https://ensonhaber-live.ercdn.net/trthaber/trthaber.m3u8",
-    "img": "https://i.ibb.co/Bt6frts/trthaber.png"
   },
   {
     "name": "TRT HABER (backup)",
@@ -2846,13 +2894,13 @@
   {
     "name": "NOW",
     "type": "Uncategorized",
-    "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=XjmvCoCob0iFKzZr20QKwQ&e=1745230898",
+    "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=OVVToWA0DwiHCPQe7dRx3g&e=1745262815",
     "img": "https://i.ibb.co/0DpKtzT/nowtvturk.png"
   },
   {
     "name": "NOW",
     "type": "Uncategorized",
-    "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=XjmvCoCob0iFKzZr20QKwQ&e=1745230898",
+    "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=OVVToWA0DwiHCPQe7dRx3g&e=1745262815",
     "img": "https://i.ibb.co/0DpKtzT/nowtvturk.png"
   },
   {
@@ -5235,12 +5283,6 @@
     "name": "TEMPO TV",
     "type": "Uncategorized",
     "url": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8",
-    "img": "https://i.ibb.co/mHt7rQf/Tryerel.png"
-  },
-  {
-    "name": "TH HABER",
-    "type": "Uncategorized",
-    "url": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
     "img": "https://i.ibb.co/mHt7rQf/Tryerel.png"
   },
   {
@@ -12687,6 +12729,12 @@
     "name": "PJ TV",
     "type": "Uncategorized",
     "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
+    "img": "https://i.ibb.co/tqkV2sn/irflag.png"
+  },
+  {
+    "name": "PMC TV",
+    "type": "Uncategorized",
+    "url": "https://hls.pmc.live/hls/stream.m3u8",
     "img": "https://i.ibb.co/tqkV2sn/irflag.png"
   },
   {
