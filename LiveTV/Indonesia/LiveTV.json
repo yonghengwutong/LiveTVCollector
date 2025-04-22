@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-22 13:46:44",
+  "date": "2025-04-22 21:44:58",
   "channels": {
     "INDONESIA": [
       {
@@ -6297,6 +6297,27 @@
         "url": "https://cdn09jtedge.indihometv.com/joss/133/tvnmovies/index.m3u8?c"
       },
       {
+        "name": "Hits",
+        "logo": "https://alkhalifitv.github.io/TV/big/hits.png",
+        "group": "FILM",
+        "source": "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
+        "url": "https://cdn08jtedge.indihometv.com/dassdvr/133/hits/manifest.mpd"
+      },
+      {
+        "name": "HITS Movies",
+        "logo": "https://alkhalifitv.github.io/TV/big/hitsmovies.png",
+        "group": "FILM",
+        "source": "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
+        "url": "https://cdn08jtedge.indihometv.com/dassdvr/133/hitsmovie/manifest.mpd"
+      },
+      {
+        "name": "ZEE BIOSKOP",
+        "logo": "http://alkhalifitv.github.io/TV/big/zbioskop.png",
+        "group": "FILM",
+        "source": "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
+        "url": "http://cdn10jtedge.indihometv.com//atm/DASH/zbioskop/manifest.mpd"
+      },
+      {
         "name": "Celestial Movies Indonesia",
         "logo": "https://alkhalifitv.github.io/TV/big/cm.png",
         "group": "FILM",
@@ -8042,7 +8063,7 @@
         "logo": "https://alkhalifitv.github.io/TV/big/inews.png",
         "group": "BERITA",
         "source": "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
-        "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd"
+        "url": "https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews"
       },
       {
         "name": "Berita Satu",
@@ -8543,25 +8564,11 @@
         "url": "http://op-group1-swiftservehd-1.dens.tv/s/s07/index.m3u8"
       },
       {
-        "name": "MNCTV HD",
-        "logo": "https://alkhalifitv.github.io/TV/big/mnctv.png",
-        "group": "LOKAL",
-        "source": "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
-        "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/MNCTV-HD/sa_dash/MNCTV-HD.mpd"
-      },
-      {
         "name": "INDOSIAR",
         "logo": "https://alkhalifitv.github.io/TV/big/indosiar.png",
         "group": "LOKAL",
         "source": "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
         "url": "https://cdn10jtedge.indihometv.com/atm/DASH/indosiar/playlist.mpd"
-      },
-      {
-        "name": "RCTI HD",
-        "logo": "http://alkhalifitv.github.io/TV/big/rcti.png",
-        "group": "LOKAL",
-        "source": "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
-        "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/RCTI-DD/sa_dash/RCTI-DD.mpd"
       },
       {
         "name": "SCTV HD",
