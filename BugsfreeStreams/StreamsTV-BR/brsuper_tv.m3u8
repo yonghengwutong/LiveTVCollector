@@ -2,3 +2,7 @@
 #EXT-X-VERSION:3
 #EXT-X-SBREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000,RESOLUTION=Original
 http://brsupertv.brsuper.com.br:9080/hls/brsupertv.m3u8
+#EXT-X-SBREAM-INF:PROGRAM-ID=1,BANDWIDTH=1000000,RESOLUTION=480p
+http://brsupertv.brsuper.com.br:9080/hls/480p.m3u8
+#EXT-X-SBREAM-INF:PROGRAM-ID=1,BANDWIDTH=2000000,RESOLUTION=720p
+http://brsupertv.brsuper.com.br:9080/hls/720p.m3u8
