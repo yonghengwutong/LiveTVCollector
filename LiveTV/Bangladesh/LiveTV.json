@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-23 13:42:36",
+  "date": "2025-04-23 21:41:29",
   "channels": {
     "BANGLA": [
       {
@@ -7,7 +7,7 @@
         "logo": "https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png",
         "group": "BANGLA",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://103.230.105.252:1935/live/btv/manifest.m3u8"
+        "url": "http://38.96.178.201/live/BTV/index.m3u8"
       },
       {
         "name": "BTV World",
@@ -28,14 +28,14 @@
         "logo": "https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png",
         "group": "BANGLA",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://103.163.247.39/local_out/somoytv/video.m3u8?token=At5F1MFZYnciB3"
+        "url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1702/output/1702.m3u8"
       },
       {
         "name": "SOMOY TV-[2]",
         "logo": "https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png",
         "group": "BANGLA",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1702/output/1702.m3u8"
+        "url": "http://103.163.247.39/local_out/somoytv/video.m3u8?token=At5F1MFZYnciB3"
       },
       {
         "name": "Ekattor TV",
@@ -56,7 +56,7 @@
         "logo": "https://upload.wikimedia.org/wikipedia/en/0/0d/Ekhon_Logo.png",
         "group": "BANGLA",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://kst.moonplex.net:8080/CH7/tracks-v1a1/mono.m3u8"
+        "url": "http://38.96.178.201/live/EkhonTV/index.m3u8"
       },
       {
         "name": "Channel 24",
@@ -133,7 +133,7 @@
         "logo": "https://s4.gifyu.com/images/image9f4a0ee9cd069bad.png",
         "group": "BANGLA",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://103.163.247.39/local_out/satv/video.m3u8?token=At5F1MFZYnciB3"
+        "url": "http://38.96.178.201/live/SATV/index.m3u8"
       },
       {
         "name": "BOISHAKHI TV",
@@ -175,7 +175,7 @@
         "logo": "https://i.ibb.co/xgfM1sf/2021-06-14-fff22-19-07.jpg",
         "group": "BANGLA",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://kst.moonplex.net:8080/CH6/tracks-v1a1/mono.m3u8"
+        "url": "http://38.96.178.201/live/Channel9/index.m3u8"
       },
       {
         "name": "Desh TV",
@@ -570,7 +570,7 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png/revision/latest/scale-to-width-down/250?cb=20180908084350",
         "group": "Indian-Bangla",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/starjalsha/master/chunklist.m3u8"
+        "url": "http://38.96.178.201/live/STARJALSHA/index.m3u8"
       },
       {
         "name": "Star Jalsha SD",
@@ -584,7 +584,7 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png/revision/latest?cb=20190806073703",
         "group": "Indian-Bangla",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://xtv.ooo:8080/213112/213112/245900"
+        "url": "http://38.96.178.201/live/JalshaMovies/index.m3u8"
       },
       {
         "name": "Jalsha Movies SD",
@@ -612,7 +612,7 @@
         "logo": "https://dl.dropbox.com/s/44vdhjj6fja02co/CBHD.jpg",
         "group": "Indian-Bangla",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://xtv.ooo:8080/213112/213112/245895"
+        "url": "http://38.96.178.201/live/ColorsBangla/index.m3u8"
       },
       {
         "name": "Colors Bangla Cinema",
@@ -627,6 +627,13 @@
         "group": "Indian-Bangla",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
         "url": "http://xtv.ooo:8080/213112/213112/245906"
+      },
+      {
+        "name": "Sony Aath",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sony_Aath_logo.svg/1200px-Sony_Aath_logo.svg.png",
+        "group": "Indian-Bangla",
+        "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
+        "url": "http://38.96.178.201/live/SonyAath/index.m3u8"
       },
       {
         "name": "TARA BANGLA CINEMA",
@@ -705,7 +712,7 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/1/1f/Sangeet_Bangla.jpg/revision/latest?cb=20200804091515",
         "group": "MUSIC",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://xtv.ooo:8080/213112/213112/245933"
+        "url": "http://38.96.178.201/live/SangeetBangla/index.m3u8"
       },
       {
         "name": "Zoom",
@@ -1033,7 +1040,7 @@
         "logo": "https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png",
         "group": "SPORTS",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://kst.moonplex.net:8080/CH2/tracks-v1a1/mono.m3u8"
+        "url": "http://38.96.178.201/live/TSports/index.m3u8"
       },
       {
         "name": "T-Sports [2]",
@@ -1048,6 +1055,13 @@
         "group": "SPORTS",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
         "url": "https://tvs2.aynaott.com/tsportshd/tracks-v1/index.fmp4.m3u8"
+      },
+      {
+        "name": "GAZI TV",
+        "logo": "https://i.ibb.co/pQGXzMP/images-1-removebg-preview.png",
+        "group": "SPORTS",
+        "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
+        "url": "http://38.96.178.201/live/GaziTV/index.m3u8"
       },
       {
         "name": "Star Sports 1",
@@ -1075,7 +1089,7 @@
         "logo": "https://i.ytimg.com/vi/CXTxw-69Ch8/maxresdefault.jpg",
         "group": "SPORTS",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "https://bongoflixbd.top/crichd/stream.php?id=star1in&e=.m3u8"
+        "url": "http://xtv.ooo:8080/live/danyear12/am809100/109988.ts"
       },
       {
         "name": "Star Sports 2",
@@ -1155,6 +1169,13 @@
         "url": "http://xtv.ooo:8080/danyear12/am809100/167595"
       },
       {
+        "name": "Sony Sports-5 SD",
+        "logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png",
+        "group": "SPORTS",
+        "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
+        "url": "http://172.19.178.49:18190/sonysportsten5/tracks-v1/index.fmp4.m3u8?token=9770790ff6d186eb8ca32fde5f21d46059710ac7-3086f0691870ece8a1fe886e24f0db53-1745409316-1745398516"
+      },
+      {
         "name": "Sony Sports-5 HD",
         "logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png",
         "group": "SPORTS",
@@ -1173,7 +1194,7 @@
         "logo": "https://upload.wikimedia.org/wikipedia/en/e/e4/PTV_Sports.png",
         "group": "SPORTS",
         "source": "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my",
-        "url": "http://xtv.ooo:8080/danyear12/am809100/220062"
+        "url": "http://38.96.178.201/live/PTVSports/index.m3u8"
       },
       {
         "name": "Ten Sports",
@@ -2428,6 +2449,13 @@
         "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8"
       },
       {
+        "name": "BTV",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)",
+        "url": "http://103.230.105.252:1935/live/btv/manifest.m3u8"
+      },
+      {
         "name": "Ekattor TV",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
@@ -2482,6 +2510,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)",
         "url": "http://103.163.247.39/local_out/banglavision/video.m3u8?token=At5F1MFZYnciB3"
+      },
+      {
+        "name": "SATV",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)",
+        "url": "http://103.163.247.39/local_out/satv/video.m3u8?token=At5F1MFZYnciB3"
       },
       {
         "name": "Saudi Quran",
@@ -2587,6 +2622,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)",
         "url": "http://xtv.ooo:8080/danyear12/am809100/167590"
+      },
+      {
+        "name": "Star Sports 1",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)",
+        "url": "http://xtv.ooo:8080/danyear12/am809100/220062"
       },
       {
         "name": "Star Sports 1-[2]",
@@ -2937,6 +2979,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)",
         "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8"
+      },
+      {
+        "name": "jalsha",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)",
+        "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/starjalsha/master/chunklist.m3u8"
       },
       {
         "name": "ABP Ananda",
@@ -4859,7 +4908,7 @@
         "logo": "https://i.ibb.co.com/zHGC2gbF/BTV-News-Logo.png",
         "group": "Bangladesh",
         "source": "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
-        "url": "http://xott.live/live/259862/259861/245922.ts"
+        "url": "http://opplex.ch:8080/live/789456123/789456123/245922.ts"
       },
       {
         "name": "SOMOY TV",
@@ -4925,13 +4974,6 @@
         "url": "http://38.96.178.201/live/BijoyTV/index.m3u8"
       },
       {
-        "name": "SATV",
-        "logo": "https://i.ibb.co.com/Z1Sf2fwL/images-1.jpg",
-        "group": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
-        "url": "http://38.96.178.201/live/SATV/index.m3u8"
-      },
-      {
         "name": "BANGLA TV",
         "logo": "https://i.ibb.co.com/k267DrN2/channels4-profile-1.jpg",
         "group": "Bangladesh",
@@ -4978,21 +5020,28 @@
         "logo": "https://i.ibb.co.com/XZtyCx3d/Motu-Patlu.jpg",
         "group": "Bangladesh",
         "source": "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
-        "url": "http://xott.live/live/259862/259861/311373.ts"
+        "url": "http://opplex.ch:8080/live/789456123/789456123/307079.ts"
+      },
+      {
+        "name": "MOTU-PATLU 2",
+        "logo": "https://i.ibb.co.com/XZtyCx3d/Motu-Patlu.jpg",
+        "group": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
+        "url": "http://opplex.ch:8080/live/789456123/789456123/311373.ts"
       },
       {
         "name": "DORAMON",
         "logo": "https://i.ibb.co.com/b5G5GvqL/Doraemon-character.png",
         "group": "Bangladesh",
         "source": "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
-        "url": "http://xott.live/live/259862/259861/388459.ts"
+        "url": "http://opplex.ch:8080/live/789456123/789456123/388459.ts"
       },
       {
         "name": "HUNGAMA",
         "logo": "https://i.ibb.co.com/bj6skF3M/images-3.jpg",
         "group": "Bangladesh",
         "source": "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
-        "url": "http://xott.live/live/259862/259861/307079.ts"
+        "url": "http://atg100.xyz/live/443432469215731/4362020837/510267.ts"
       },
       {
         "name": "DISNEP CHANNEL",
@@ -5000,6 +5049,13 @@
         "group": "Bangladesh",
         "source": "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
         "url": "http://38.76.152.22:8000/play/a070/index.m3u8"
+      },
+      {
+        "name": "T SPORTS HD",
+        "logo": "https://i.ibb.co.com/RkfpnmWd/download-2.jpg",
+        "group": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
+        "url": "http://kst.moonplex.net:8080/CH2/tracks-v1a1/mono.m3u8"
       },
       {
         "name": "NATIONAL",
@@ -5041,13 +5097,6 @@
         "url": "https://d2dsoyvkr33m05.cloudfront.net/index_5.m3u8"
       },
       {
-        "name": "STAR JALSHA HD",
-        "logo": "https://i.postimg.cc/V6q8yDDy/Star-Jalsha-HD.jpg",
-        "group": "Indian Bangla",
-        "source": "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
-        "url": "http://38.96.178.201/live/STARJALSHA/index.m3u8"
-      },
-      {
         "name": "COLORS BANGLA HD",
         "logo": "https://i.postimg.cc/LsyGKzFC/Colors-Bangla-HD.jpg",
         "group": "Indian Bangla",
@@ -5059,7 +5108,7 @@
         "logo": "https://i.postimg.cc/cHRc7hTk/Sun-Bangla.jpg",
         "group": "Indian Bangla",
         "source": "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u",
-        "url": "http://xtv.ooo:8080/Jawad1994/03112371534/245906"
+        "url": "http://atg100.xyz/live/443432469215731/4362020837/510486.ts"
       },
       {
         "name": "ENTER 10 BANGLA",
