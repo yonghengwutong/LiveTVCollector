@@ -5342,19 +5342,19 @@
   {
     "name": "Hits",
     "type": "FILM",
-    "url": "https://cdn08jtedge.indihometv.com/dassdvr/133/hits/manifest.mpd",
+    "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/HITS/sa_dash/HITS.mpd",
     "img": "https://alkhalifitv.github.io/TV/big/hits.png"
   },
   {
     "name": "HITS Movies",
     "type": "FILM",
-    "url": "https://cdn08jtedge.indihometv.com/dassdvr/133/hitsmovie/manifest.mpd",
+    "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/HitsMovies/sa_dash/HitsMovies.mpd",
     "img": "https://alkhalifitv.github.io/TV/big/hitsmovies.png"
   },
   {
     "name": "ZEE BIOSKOP",
     "type": "FILM",
-    "url": "http://cdn10jtedge.indihometv.com//atm/DASH/zbioskop/manifest.mpd",
+    "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/ZeeBIOSKOP/sa_dash/ZeeBIOSKOP.mpd",
     "img": "http://alkhalifitv.github.io/TV/big/zbioskop.png"
   },
   {
@@ -6816,9 +6816,9 @@
     "img": "https://alkhalifitv.github.io/TV/big/tvone.png"
   },
   {
-    "name": "INEWS",
+    "name": "INEWS HD",
     "type": "BERITA",
-    "url": "https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews",
+    "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd",
     "img": "https://alkhalifitv.github.io/TV/big/inews.png"
   },
   {
@@ -7242,16 +7242,34 @@
     "img": "https://alkhalifitv.github.io/TV/big/antv.png"
   },
   {
+    "name": "MNCTV HD",
+    "type": "LOKAL",
+    "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/MNCTV-HD/sa_dash/MNCTV-HD.mpd",
+    "img": "https://alkhalifitv.github.io/TV/big/mnctv.png"
+  },
+  {
     "name": "INDOSIAR",
     "type": "LOKAL",
     "url": "https://cdn10jtedge.indihometv.com/atm/DASH/indosiar/playlist.mpd",
     "img": "https://alkhalifitv.github.io/TV/big/indosiar.png"
   },
   {
+    "name": "RCTI HD",
+    "type": "LOKAL",
+    "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/RCTI-DD/sa_dash/RCTI-DD.mpd",
+    "img": "http://alkhalifitv.github.io/TV/big/rcti.png"
+  },
+  {
     "name": "SCTV HD",
     "type": "LOKAL",
     "url": "https://cdn10jtedge.indihometv.com/atm/DASH/sctv/playlist.mpd",
     "img": "https://alkhalifitv.github.io/TV/big/sctv.png"
+  },
+  {
+    "name": "GTV HD",
+    "type": "LOKAL",
+    "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/GTV-HD/sa_dash/GTV-HD.mpd",
+    "img": "https://alkhalifitv.github.io/TV/big/gtv.png"
   },
   {
     "name": "GTV",

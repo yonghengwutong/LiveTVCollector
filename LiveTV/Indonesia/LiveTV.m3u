@@ -1780,11 +1780,11 @@ https://cempedak-live-cdn.mncnow.id/live/eds/MyCinema-Asia/sa_dash_vmx/MyCinema-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/SR1YPbD.jpeg" group-title="FILM",tvN Movies HD 2 ON (I)
 https://cdn09jtedge.indihometv.com/joss/133/tvnmovies/index.m3u8?c
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/hits.png" group-title="FILM",Hits
-https://cdn08jtedge.indihometv.com/dassdvr/133/hits/manifest.mpd
+https://dsgtq5sngxkde.cloudfront.net/live/eds/HITS/sa_dash/HITS.mpd
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/hitsmovies.png" group-title="FILM",HITS Movies
-https://cdn08jtedge.indihometv.com/dassdvr/133/hitsmovie/manifest.mpd
+https://dsgtq5sngxkde.cloudfront.net/live/eds/HitsMovies/sa_dash/HitsMovies.mpd
 #EXTINF:-1 tvg-logo="http://alkhalifitv.github.io/TV/big/zbioskop.png" group-title="FILM",ZEE BIOSKOP
-http://cdn10jtedge.indihometv.com//atm/DASH/zbioskop/manifest.mpd
+https://dsgtq5sngxkde.cloudfront.net/live/eds/ZeeBIOSKOP/sa_dash/ZeeBIOSKOP.mpd
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/cm.png" group-title="FILM",Celestial Movies Indonesia
 http://op-group1-swiftservehd-1.dens.tv/h/h14/index.m3u8
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/ccm.png" group-title="FILM",Celestial Classic Movies
@@ -2271,8 +2271,8 @@ https://atemeshield1-voe.sysln.id/live/eds/RaiItalia/mpd/RaiItalia.mpd
 https://cempedak-live-cdn.mncnow.id/live/eds/AustraliaPlus/sa_dash_vmx/AustraliaPlus.mpd
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/tvone.png" group-title="BERITA",TVONE HD
 http://op-group1-swiftservehd-1.dens.tv/h/h40/index.m3u8
-#EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/inews.png" group-title="BERITA",INEWS
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
+#EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/inews.png" group-title="BERITA",INEWS HD
+https://dsgtq5sngxkde.cloudfront.net/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/btv.png" group-title="BERITA",Berita Satu
 http://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/kompastv.png" group-title="BERITA",KOMPAS TV
@@ -2413,10 +2413,16 @@ http://extraott.com:900/live/3162523972/3791698850/13127.m3u8
 https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/antv.png" group-title="LOKAL",ANTV
 http://op-group1-swiftservehd-1.dens.tv/s/s07/index.m3u8
+#EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/mnctv.png" group-title="LOKAL",MNCTV HD
+https://dsgtq5sngxkde.cloudfront.net/live/eds/MNCTV-HD/sa_dash/MNCTV-HD.mpd
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/indosiar.png" group-title="LOKAL",INDOSIAR
 https://cdn10jtedge.indihometv.com/atm/DASH/indosiar/playlist.mpd
+#EXTINF:-1 tvg-logo="http://alkhalifitv.github.io/TV/big/rcti.png" group-title="LOKAL",RCTI HD
+https://dsgtq5sngxkde.cloudfront.net/live/eds/RCTI-DD/sa_dash/RCTI-DD.mpd
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/sctv.png" group-title="LOKAL",SCTV HD
 https://cdn10jtedge.indihometv.com/atm/DASH/sctv/playlist.mpd
+#EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/gtv.png" group-title="LOKAL",GTV HD
+https://dsgtq5sngxkde.cloudfront.net/live/eds/GTV-HD/sa_dash/GTV-HD.mpd
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/gtv.png" group-title="LOKAL",GTV
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 #EXTINF:-1 tvg-logo="https://alkhalifitv.github.io/TV/big/rtv.png" group-title="LOKAL",RTV
