@@ -20,7 +20,7 @@
   {
     "name": "TVI",
     "type": "TV",
-    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDQ6NzozNyBQTSZoYXNoX3ZhbHVlPVlGc2JDVnBlSURaTTZhdnhJek9HQWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD03YWMyMTM4My0yOTlkLTQ4NDQtYTdhYi0zNGY1OTUyNDJhZDU=/",
+    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMy8yMDI1IDEyOjI5OjggQU0maGFzaF92YWx1ZT1IMmhzTlFYK1h5UGZoRlc3d3hiVzVRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjZlYmJkZGUtYmYzNi00ZmZiLWFiNWItN2MyMjk2MWVkNTAw/",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png"
   },
   {
@@ -38,7 +38,7 @@
   {
     "name": "CNN Portugal",
     "type": "TV",
-    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDQ6NzozOCBQTSZoYXNoX3ZhbHVlPWtkeDZHRHJQMlRIeGlhbWJQTGFjdWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yYTcyYTQ1OC04MWNiLTRkZTAtOWUyZC01N2EzZTk0YjhhZTY=/",
+    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMy8yMDI1IDEyOjI5OjggQU0maGFzaF92YWx1ZT0xck9FOUxJeW1uQ2NURWQreTJ6anhnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MmJjNWI4ZTYtMGEzMi00NWYzLTg4ZTYtOTIxMzE5OGNkMzJl/",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png"
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "TVI Internacional",
     "type": "TV",
-    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDQ6NzozOSBQTSZoYXNoX3ZhbHVlPWx4YWY4SWQybFoxQkRVa0ZrMngyR3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xNmM5MDFhZi00ODc1LTQwM2MtOThkYi02NTkxYjUzMDQ2ZGY=/",
+    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMy8yMDI1IDEyOjI5OjkgQU0maGFzaF92YWx1ZT1hSEh5UUZ3Q2tTa0FHcTNKODhWeTF3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDEyZDUzMWEtMmYwMS00MGRkLThmODItZTdkODkyMmM5ODRh/",
     "img": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png"
   },
   {
@@ -582,18 +582,6 @@
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BabyFirst.png"
   },
   {
-    "name": "Retrô Cartoon",
-    "type": "TV",
-    "url": "https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8",
-    "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Retro-TV.png"
-  },
-  {
-    "name": "Anime TV",
-    "type": "TV",
-    "url": "https://stmv1.srvif.com/animetv/animetv/playlist.m3u8",
-    "img": "https://i.imgur.com/CFSSTID.png"
-  },
-  {
     "name": "Geekdot",
     "type": "TV",
     "url": "https://stream.ichibantv.com:3764/hybrid/play.m3u8",
@@ -632,7 +620,7 @@
   {
     "name": "Rádio Sines",
     "type": "TV",
-    "url": "https://streamer-a01.videos.sapo.pt/live/radiosinesdireto/index.m3u8",
+    "url": "https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Rádio-Sines.png"
   },
   {
@@ -5078,13 +5066,13 @@
   {
     "name": "Rádio Regional Arouca",
     "type": "Rádios",
-    "url": "http://centova.radio.com.pt:8485/;",
+    "url": "http://centova.radio.com.pt:8485/",
     "img": "http://www.radioregionaldearouca.com/site/wp-content/uploads/2015/06/logo-radio1.png"
   },
   {
     "name": "Rádio Sines",
     "type": "Rádios",
-    "url": "https://ssl.evsportugal.net:7166/stream",
+    "url": "https://sp0.redeaudio.com/9580/stream",
     "img": "https://radiosines.sapo.pt/assets/dist/img/logo.png"
   },
   {
@@ -5544,12 +5532,6 @@
     "img": "https://i.imgur.com/DwziwMY.png"
   },
   {
-    "name": "Rádio Sines (720p) [Geo-blocked]",
-    "type": "General",
-    "url": "https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8",
-    "img": "https://i.imgur.com/Oe6F1nL.png"
-  },
-  {
     "name": "RecordTV Europa (720p) [Geo-blocked]",
     "type": "General",
     "url": "https://live-recordeuropa.visioncdn.com/live/recordeuropa/master.m3u8",
@@ -5690,7 +5672,7 @@
   {
     "name": "TVI Internacionalᶠᴴᴰ 🇵🇹",
     "type": "🌈🆁™Portugal 🇵🇹🇲🇴🇲🇿",
-    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDE6MDoxIFBNJmhhc2hfdmFsdWU9MThrM1J4OUpZTHBMcTlyTzBxQzh4dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTcwODM3MTA1LWZhZGMtNGFjOS04MTllLWEyNjZhMTJjZmQ5Nw==/",
+    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDg6Mzg6MjMgUE0maGFzaF92YWx1ZT1xTFpJNzFCMUxSdnc3djFGZTBjSEdBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MzI4ZTBjOTUtMTAwOC00YmJkLWFhMzktYzlmMGZlZmIwZDVh/",
     "img": "https://logo.iptveditor.com/tviinternacional.png"
   },
   {
@@ -5702,7 +5684,7 @@
   {
     "name": "TVI 🇵🇹",
     "type": "🌈🆁™Portugal 🇵🇹🇲🇴🇲🇿",
-    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDE6MDowIFBNJmhhc2hfdmFsdWU9SXpLM1oxUTdJTm9CTW5MYkYxL2lhUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTQ4MjIyYTBjLWQyNGMtNDUyMy1hZDg5LTM5ZTlhMTY3OGRkOA==/",
+    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDg6Mzg6MjEgUE0maGFzaF92YWx1ZT1CNDlGMFdidDlrc2R1VURIbUZVQVR3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Y2E3MWU0YWUtMGQ0NC00ZjRhLWEyZGYtZDBkMjUzNGYyYjIw/",
     "img": "https://github.com/inspirationlinks/m3u/raw/live/LogosTv/tvi.webp"
   },
   {
@@ -5756,7 +5738,7 @@
   {
     "name": "CNN Portugal 🇵🇹",
     "type": "🌈🆁™News 🇵🇹🇧🇷",
-    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDE6MDoxIFBNJmhhc2hfdmFsdWU9QWdIYXNGMktFL2F6ZjVQUkpEck5vdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTc4YThiNDhhLWRmNzEtNDdkOS05NDFlLWRmMGMyOWFhNmNmZg==/",
+    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDg6Mzg6MjIgUE0maGFzaF92YWx1ZT0yd3RTbjdxMjJDNS9pYitRL20xeCtnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YzZlYzRlYzQtNzk2Ni00MWU5LWE1NWEtMTJjMDU4NjFiNWVh/",
     "img": "https://github.com/inspirationlinks/m3u/raw/live/LogosTv/CNNPortugal.webp"
   },
   {
@@ -6594,6 +6576,12 @@
     "img": "https://images.pluto.tv/channels/63dd5c904e83e700088fb68a/colorLogoPNG.png"
   },
   {
+    "name": "Retro Cartoon 🇧🇷",
+    "type": "🌈🆁™Kids 🧒🌎",
+    "url": "https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8",
+    "img": "https://raw.githubusercontent.com/mariosanthos/arquivos/main/rc.png"
+  },
+  {
     "name": "Desenhos Clássicos 🇧🇷",
     "type": "🌈🆁™Kids 🧒🌎",
     "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/655e5c4d2c46f3000877a54b/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=inspirationiptv&deviceDNT=1",
@@ -6892,6 +6880,12 @@
     "type": "🌈🆁™Anime 🇧🇷 🎎",
     "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/604b79c558393100078faeef/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1",
     "img": "https://images.pluto.tv/channels/604b79c558393100078faeef/colorLogoPNG.png"
+  },
+  {
+    "name": "Anime TV 🇧🇷",
+    "type": "🌈🆁™Anime 🇧🇷 🎎",
+    "url": "https://stmv1.srvif.com/animetv/animetv/playlist.m3u8",
+    "img": "https://logo.com/image-cdn/images/kts928pd/production/a6dfe8cb484e8581a7f5cee1abb39d6814855920-731x731.png"
   },
   {
     "name": "Hallo! Anime 🇧🇷",
