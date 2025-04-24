@@ -5,10 +5,11 @@ import shutil
 import logging
 import hashlib
 import concurrent.futures
+import time
 from urllib.parse import urlparse
 
 # Setup logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger()
 
 # Configuration
@@ -17,8 +18,8 @@ REPO_NAME = "LiveTVCollector"
 BRANCH = "main"
 BASE_PATH = os.path.abspath("BugsfreeStreams/StreamsTV-IND")
 FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/StreamLinks-IND.m3u")
-MAX_STREAMS = 1000  # Increased
-MAX_STREAMS_PER_SOURCE = 1000  # Increased
+MAX_STREAMS = 1000
+MAX_STREAMS_PER_SOURCE = 1000
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
 # Default single source
@@ -27,7 +28,7 @@ DEFAULT_SOURCE = "https://iptv-org.github.io/iptv/countries/in.m3u"
 # Source M3U playlist(s) - primary and fallbacks
 SOURCES = [DEFAULT_SOURCE]
 FALLBACK_SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/India/LiveTV.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/India/LiveTV.m3u",
 ]
 
 # Static fallback M3U if all sources fail
@@ -46,26 +47,35 @@ FALLBACK_STREAM = {
 
 # Validate a source URL
 def validate_source(url):
-    try:
-        response = requests.head(url, timeout=7, allow_redirects=True)
-        content_type = response.headers.get("content-type", "").lower()
-        logger.debug(f"Source {url}: status={response.status_code}, content-type={content_type}")
-        return response.status_code == 200 and ("text" in content_type or "m3u" in content_type)
-    except requests.RequestException as e:
-        logger.warning(f"Source {url} unreachable: {e}")
-        return False
+    for attempt in range(3):
+        try:
+            response = requests.head(url, timeout=7, allow_redirects=True)
+            content_type = response.headers.get("content-type", "").lower()
+            logger.debug(f"Source {url}: status={response.status_code}, content-type={content_type}")
+            return response.status_code == 200 and ("text" in content_type or "m3u" in content_type)
+        except requests.RequestException as e:
+            logger.warning(f"Attempt {attempt+1} failed for source {url}: {e}")
+            if attempt < 2:
+                time.sleep(1)
+    logger.error(f"Source {url} unreachable after retries")
+    return False
 
 # Check if a URL is likely an active .m3u8 stream
 def is_stream_active(url):
     if url.lower().endswith(".m3u8"):
-        return True  # Skip validation for .m3u8
-    try:
-        response = requests.get(url, timeout=5, stream=True)  # Increased timeout
-        logger.debug(f"Checking stream {url}: status={response.status_code}")
-        return response.status_code in (200, 206)
-    except requests.RequestException as e:
-        logger.warning(f"Failed to check stream {url}: {e}")
-        return False
+        logger.debug(f"Skipping validation for .m3u8: {url}")
+        return True
+    for attempt in range(3):
+        try:
+            response = requests.get(url, timeout=5, stream=True)
+            logger.debug(f"Checking stream {url}: status={response.status_code}")
+            return response.status_code in (200, 206)
+        except requests.RequestException as e:
+            logger.warning(f"Attempt {attempt+1} failed for {url}: {e}")
+            if attempt < 2:
+                time.sleep(1)
+    logger.debug(f"Stream inactive after retries: {url}")
+    return False
 
 # Fetch variant streams from a master M3U8
 def get_variant_streams(master_url):
@@ -185,7 +195,7 @@ def main():
     os.makedirs(os.path.dirname(FINAL_M3U_FILE), exist_ok=True)
 
     # Fetch sources
-    all_entries = fetch_all_sources(SOURCES + FALLBACK_SOURCES)  # Process all sources
+    all_entries = fetch_all_sources(SOURCES + FALLBACK_SOURCES)
     logger.info(f"Total entries collected: {len(all_entries)}")
 
     # If no entries, use static M3U
