@@ -17,8 +17,8 @@ REPO_NAME = "LiveTVCollector"
 BRANCH = "main"
 BASE_PATH = os.path.abspath("BugsfreeStreams/StreamsTV-IND")
 FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/StreamLinks-IND.m3u")
-MAX_STREAMS = 500
-MAX_STREAMS_PER_SOURCE = 50
+MAX_STREAMS = 1000  # Increased
+MAX_STREAMS_PER_SOURCE = 200  # Increased
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
 # Default single source
@@ -27,7 +27,7 @@ DEFAULT_SOURCE = "https://iptv-org.github.io/iptv/countries/in.m3u"
 # Source M3U playlist(s) - primary and fallbacks
 SOURCES = [DEFAULT_SOURCE]
 FALLBACK_SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/India/LiveTV.m3u",    
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/India/LiveTV.m3u",
 ]
 
 # Static fallback M3U if all sources fail
@@ -58,9 +58,9 @@ def validate_source(url):
 # Check if a URL is likely an active .m3u8 stream
 def is_stream_active(url):
     if url.lower().endswith(".m3u8"):
-        return True  # Skip HTTP check for .m3u8 URLs
+        return True  # Skip validation for .m3u8
     try:
-        response = requests.get(url, timeout=3, stream=True)
+        response = requests.get(url, timeout=5, stream=True)  # Increased timeout
         logger.debug(f"Checking stream {url}: status={response.status_code}")
         return response.status_code in (200, 206)
     except requests.RequestException as e:
@@ -101,13 +101,6 @@ def get_variant_streams(master_url):
                                 "url": variant_url,
                                 "bandwidth": bandwidth
                             })
-        else:
-            # Simulate SD and HD variants
-            base_url = master_url.rsplit("/", 1)[0]
-            variants.extend([
-                {"resolution": "480p", "url": f"{base_url}/480p.m3u8", "bandwidth": 1000000},
-                {"resolution": "720p", "url": f"{base_url}/720p.m3u8", "bandwidth": 2000000}
-            ])
         return [v for v in variants if is_stream_active(v["url"])]
     except Exception as e:
         logger.warning(f"Failed to fetch variants for {master_url}: {e}")
@@ -119,7 +112,7 @@ def clean_channel_name(name, url):
         return f"channel_{hashlib.md5(url.encode()).hexdigest()[:8]}"
     name = re.sub(r'[^a-zA-Z0-9\s]', '', name).strip().lower().replace(' ', '_')
     name = re.sub(r'_+', '_', name)
-    return name or f"channel_{hashlib.md5(url.encode()).hexdigest()[:8]}"
+    return f"{name}_{hashlib.md5(url.encode()).hexdigest()[:8]}" if name else f"channel_{hashlib.md5(url.encode()).hexdigest()[:8]}"
 
 # Add default logo to EXTINF if missing
 def ensure_logo(extinf):
@@ -145,7 +138,7 @@ def parse_m3u(content):
             entries.append((extinf, line))
             extinf = None
     logger.info(f"Parsed {len(entries)} entries")
-    return entries[:MAX_STREAMS_PER_SOURCE]  # Limit per source
+    return entries[:MAX_STREAMS_PER_SOURCE]
 
 # Fetch and parse a single source
 def process_source(source):
@@ -169,7 +162,7 @@ def process_source(source):
 # Fetch sources concurrently
 def fetch_all_sources(sources):
     all_entries = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:  # Increased workers
         future_to_source = {executor.submit(process_source, source): source for source in sources}
         for future in concurrent.futures.as_completed(future_to_source):
             source = future_to_source[future]
@@ -220,13 +213,15 @@ def main():
                 unique_streams[channel_name] = (ensure_logo(extinf), url, variants)
                 logger.info(f"Added valid stream: {channel_name} with {len(variants)} variants")
 
+    logger.info(f"Total unique valid streams: {len(unique_streams)}")
+
     # Add fallback if no streams
     if not unique_streams:
         logger.warning("No valid streams found, adding fallback")
         variants = get_variant_streams(FALLBACK_STREAM["url"])
         unique_streams[FALLBACK_STREAM["name"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"], variants)
 
-    logger.info(f"Total unique valid streams: {len(unique_streams)}")
+    logger.info(f"Final unique streams: {len(unique_streams)}")
 
     # Prepare outputs
     final_m3u_content = ["#EXTM3U"]
