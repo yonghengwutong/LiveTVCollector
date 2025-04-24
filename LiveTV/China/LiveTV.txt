@@ -213,13 +213,13 @@ Source: https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 --------------------------------------------------
 
 Group: Uncategorized
-Name: Ando TV
-URL: http://stream.qhbtv.com/adws/sd/live.m3u8
+Name: Ando TV (576p)
+URL: http://119.1.122.186:4022/rtp/238.255.2.189:5999
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
-Name: Ando TV (576p)
-URL: http://119.1.122.186:4022/rtp/238.255.2.189:5999
+Name: Ando TV
+URL: http://stream.qhbtv.com/adws/sd/live.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
@@ -1083,11 +1083,6 @@ URL: http://183.207.248.71/cntv/live1/donghuawg/donghuawg
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
-Name: 北京卫视 [Not 24/7]
-URL: http://ivi.bupt.edu.cn/hls/btv1.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
---------------------------------------------------
 Name: 北京卫视 (1080p)
 URL: http://39.134.115.163:8080/PLTV/88888910/224/3221225673/index.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
@@ -1155,6 +1150,11 @@ Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
 Name: 北京卫视 (576p)
 URL: http://183.207.248.71/gitv/live1/G_BEIJING/G_BEIJING
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+--------------------------------------------------
+Name: 北京卫视 [Not 24/7]
+URL: http://ivi.bupt.edu.cn/hls/btv1.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
@@ -2503,11 +2503,6 @@ URL: http://121.19.134.246:808/hls/24/index.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
-Name: 河北农民
-URL: http://121.19.134.246:808/hls/25/index.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
---------------------------------------------------
 Name: 河北农民 (576p)
 URL: http://hbzx.chinashadt.com:2036/zhibo/stream:hbnm.stream/playlist.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
@@ -2515,6 +2510,11 @@ Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
 Name: 河北农民 (360p)
 URL: http://hbzx.chinashadt.com:2036/zhibo/stream:hbnm.stream_360p/playlist.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+--------------------------------------------------
+Name: 河北农民
+URL: http://121.19.134.246:808/hls/25/index.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
@@ -2723,11 +2723,6 @@ URL: http://183.207.248.71/gitv/live1/G_ZHEJIANG/G_ZHEJIANG
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
-Name: 浙江国际
-URL: https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
---------------------------------------------------
 Name: 浙江国际 (1080p)
 URL: https://ct-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
@@ -2738,8 +2733,8 @@ URL: https://qiniup-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
-Name: 浙江少儿
-URL: https://ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+Name: 浙江国际
+URL: https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
@@ -2750,6 +2745,11 @@ Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
 Name: 浙江少儿 (1080p) [Not 24/7]
 URL: https://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+--------------------------------------------------
+Name: 浙江少儿
+URL: https://ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
@@ -2803,11 +2803,6 @@ URL: https://hw-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
-Name: 浙江钱江
-URL: https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
---------------------------------------------------
 Name: 浙江钱江 (1080p)
 URL: https://hw-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
@@ -2815,6 +2810,11 @@ Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
 Name: 浙江钱江 (1080p) [Not 24/7]
 URL: https://hw-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+--------------------------------------------------
+Name: 浙江钱江
+URL: https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
@@ -3383,13 +3383,13 @@ URL: https://video.blivenyc.com/broadcast/prod/2061/22/desktop-playlist.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
-Name: 耀才财经
-URL: http://202.69.67.66/webcast/bshdlive-pc/playlist.m3u8
+Name: 耀才财经 (288p)
+URL: http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
-Name: 耀才财经 (288p)
-URL: http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
+Name: 耀才财经
+URL: http://202.69.67.66/webcast/bshdlive-pc/playlist.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------

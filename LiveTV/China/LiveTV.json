@@ -1,20 +1,20 @@
 {
-  "date": "2025-04-24 06:10:59",
+  "date": "2025-04-24 13:42:08",
   "channels": {
     "Uncategorized": [
-      {
-        "name": "Ando TV",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "http://stream.qhbtv.com/adws/sd/live.m3u8"
-      },
       {
         "name": "Ando TV (576p)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://119.1.122.186:4022/rtp/238.255.2.189:5999"
+      },
+      {
+        "name": "Ando TV",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://stream.qhbtv.com/adws/sd/live.m3u8"
       },
       {
         "name": "Animation Show Channel",
@@ -1221,13 +1221,6 @@
         "url": "http://183.207.248.71/cntv/live1/donghuawg/donghuawg"
       },
       {
-        "name": "北京卫视 [Not 24/7]",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "http://ivi.bupt.edu.cn/hls/btv1.m3u8"
-      },
-      {
         "name": "北京卫视 (1080p)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
@@ -1324,6 +1317,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://183.207.248.71/gitv/live1/G_BEIJING/G_BEIJING"
+      },
+      {
+        "name": "北京卫视 [Not 24/7]",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://ivi.bupt.edu.cn/hls/btv1.m3u8"
       },
       {
         "name": "北京紀實 (1080p)",
@@ -3209,13 +3209,6 @@
         "url": "http://121.19.134.246:808/hls/24/index.m3u8"
       },
       {
-        "name": "河北农民",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "http://121.19.134.246:808/hls/25/index.m3u8"
-      },
-      {
         "name": "河北农民 (576p)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
@@ -3228,6 +3221,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://hbzx.chinashadt.com:2036/zhibo/stream:hbnm.stream_360p/playlist.m3u8"
+      },
+      {
+        "name": "河北农民",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://121.19.134.246:808/hls/25/index.m3u8"
       },
       {
         "name": "河北卫视 (576p)",
@@ -3517,13 +3517,6 @@
         "url": "http://183.207.248.71/gitv/live1/G_ZHEJIANG/G_ZHEJIANG"
       },
       {
-        "name": "浙江国际",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
-      },
-      {
         "name": "浙江国际 (1080p)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
@@ -3538,11 +3531,11 @@
         "url": "https://qiniup-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
       },
       {
-        "name": "浙江少儿",
+        "name": "浙江国际",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "https://ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
+        "url": "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
       },
       {
         "name": "浙江少儿 (1080p)",
@@ -3557,6 +3550,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "https://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8"
+      },
+      {
+        "name": "浙江少儿",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "https://ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
       },
       {
         "name": "浙江影视 (720p)",
@@ -3629,13 +3629,6 @@
         "url": "https://hw-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
       },
       {
-        "name": "浙江钱江",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
-      },
-      {
         "name": "浙江钱江 (1080p)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
@@ -3648,6 +3641,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "https://hw-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8"
+      },
+      {
+        "name": "浙江钱江",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
       },
       {
         "name": "海南卫视 (720p) [Not 24/7]",
@@ -4441,18 +4441,18 @@
         "url": "https://video.blivenyc.com/broadcast/prod/2061/22/desktop-playlist.m3u8"
       },
       {
-        "name": "耀才财经",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "http://202.69.67.66/webcast/bshdlive-pc/playlist.m3u8"
-      },
-      {
         "name": "耀才财经 (288p)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8"
+      },
+      {
+        "name": "耀才财经",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://202.69.67.66/webcast/bshdlive-pc/playlist.m3u8"
       },
       {
         "name": "肃州电视台 (1080p)",
