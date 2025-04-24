@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-24 06:18:51",
+  "date": "2025-04-24 13:44:12",
   "channels": {
     "1. |FR|🇫🇷 INFORMATION": [
       {
@@ -3390,14 +3390,14 @@
         "logo": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=NBOALoT1raoZ-MSSJzj8WQ&e=1745457205"
+        "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=ulKflFHL__s4tt6JJbjtSQ&e=1745490089"
       },
       {
         "name": "NOW",
         "logo": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=NBOALoT1raoZ-MSSJzj8WQ&e=1745457205"
+        "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=ulKflFHL__s4tt6JJbjtSQ&e=1745490089"
       },
       {
         "name": "TV8",
@@ -4268,11 +4268,18 @@
         "url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8"
       },
       {
-        "name": "DİYANET ÇOCUK TV",
-        "logo": "https://i.ibb.co/DM1tZ9Q/diyncc.png",
+        "name": "MİNİKA GO (sometimes)",
+        "logo": "https://i.ibb.co/R2Zgy7F/minikago.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://new.cache-stream.workers.dev/stream/UCCfTktnzWK__FUN4gj0zIpA/live.m3u8"
+        "url": "https://trkvz-live.daioncdn.net/minikago/minikago.m3u8"
+      },
+      {
+        "name": "MİNİKA ÇOCUK (sometimes)",
+        "logo": "https://i.ibb.co/L8ftBdN/minikacocuk.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://trkvz-live.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8"
       },
       {
         "name": "GALATASARAY TV",
@@ -4503,21 +4510,7 @@
         "logo": "https://i.ibb.co/R2Zgy7F/minikago.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://trkvz-live.daioncdn.net/minikago/minikago.m3u8"
-      },
-      {
-        "name": "MİNİKA GO (backoff)",
-        "logo": "https://i.ibb.co/R2Zgy7F/minikago.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://trkvz.daioncdn.net/minikago/minikago.m3u8?app=web&ce=3"
-      },
-      {
-        "name": "MİNİKA ÇOCUK (backoff)",
-        "logo": "https://i.ibb.co/L8ftBdN/minikacocuk.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://trkvz-live.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8"
       },
       {
         "name": "MİNİKA ÇOCUK (backoff)",
@@ -6473,6 +6466,13 @@
         "url": "https://spor.kuzeykibris.tv/m3u8/tv_ada.m3u8"
       },
       {
+        "name": "ADA TV",
+        "logo": "https://i.ibb.co/y8p46cM/Kktc.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8"
+      },
+      {
         "name": "KANAL T",
         "logo": "https://i.ibb.co/y8p46cM/Kktc.png",
         "group": "Uncategorized",
@@ -7066,6 +7066,27 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8"
+      },
+      {
+        "name": "RIK 1",
+        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "http://l6.cloudskep.com/rikct/rik1/playlist.m3u8"
+      },
+      {
+        "name": "RIK 2",
+        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "http://l6.cloudskep.com/rikct/rik2/playlist.m3u8"
+      },
+      {
+        "name": "RIK HD",
+        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "http://l6.cloudskep.com/rikct/rikhd/playlist.m3u8"
       },
       {
         "name": "ACTION 24",
