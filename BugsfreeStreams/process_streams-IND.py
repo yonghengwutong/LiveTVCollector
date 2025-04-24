@@ -18,7 +18,7 @@ BRANCH = "main"
 BASE_PATH = os.path.abspath("BugsfreeStreams/StreamsTV-IND")
 FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/StreamLinks-IND.m3u")
 MAX_STREAMS = 1000  # Increased
-MAX_STREAMS_PER_SOURCE = 200  # Increased
+MAX_STREAMS_PER_SOURCE = 1000  # Increased
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
 # Default single source
@@ -162,7 +162,7 @@ def process_source(source):
 # Fetch sources concurrently
 def fetch_all_sources(sources):
     all_entries = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:  # Increased workers
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         future_to_source = {executor.submit(process_source, source): source for source in sources}
         for future in concurrent.futures.as_completed(future_to_source):
             source = future_to_source[future]
@@ -185,19 +185,15 @@ def main():
     os.makedirs(os.path.dirname(FINAL_M3U_FILE), exist_ok=True)
 
     # Fetch sources
-    all_entries = fetch_all_sources(SOURCES)
+    all_entries = fetch_all_sources(SOURCES + FALLBACK_SOURCES)  # Process all sources
+    logger.info(f"Total entries collected: {len(all_entries)}")
 
-    # If no entries, try fallback sources
-    if not all_entries:
-        logger.warning("No entries from primary sources, trying fallbacks")
-        all_entries = fetch_all_sources(FALLBACK_SOURCES)
-
-    # If still no entries, use static M3U
+    # If no entries, use static M3U
     if not all_entries:
         logger.warning("No entries from sources, using static M3U")
         all_entries = parse_m3u(STATIC_M3U)
 
-    logger.info(f"Total entries collected: {len(all_entries)}")
+    logger.info(f"Processing {len(all_entries)} entries for uniqueness")
 
     # Validate streams and remove duplicates
     unique_streams = {}
@@ -205,13 +201,17 @@ def main():
         if len(unique_streams) >= MAX_STREAMS:
             logger.info(f"Reached MAX_STREAMS limit: {MAX_STREAMS}")
             break
-        if is_stream_active(url):
-            match = re.search(r',(.+)$', extinf)
-            channel_name = clean_channel_name(match.group(1) if match else "", url)
-            if channel_name not in unique_streams:
-                variants = get_variant_streams(url)
-                unique_streams[channel_name] = (ensure_logo(extinf), url, variants)
-                logger.info(f"Added valid stream: {channel_name} with {len(variants)} variants")
+        if not is_stream_active(url):
+            logger.debug(f"Stream inactive: {url}")
+            continue
+        match = re.search(r',(.+)$', extinf)
+        channel_name = clean_channel_name(match.group(1) if match else "", url)
+        if channel_name in unique_streams:
+            logger.debug(f"Skipping duplicate stream: {channel_name}")
+            continue
+        variants = get_variant_streams(url)
+        unique_streams[channel_name] = (ensure_logo(extinf), url, variants)
+        logger.info(f"Added valid stream: {channel_name} with {len(variants)} variants")
 
     logger.info(f"Total unique valid streams: {len(unique_streams)}")
 
