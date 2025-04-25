@@ -1,4 +1,4 @@
-name: Stream Checker-INDO
+name: Stream Checker-ID
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
 jobs:
   check-streams:
     runs-on: ubuntu-latest
-    timeout-minutes: 20  # Increased
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -26,7 +26,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run stream processor
-        run: python BugsfreeStreams/process_streams-INDO.py
+        run: python BugsfreeStreams/process_streams-ID.py
 
       - name: Show logs
         run: cat *.log || echo "No logs found"
