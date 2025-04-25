@@ -7,6 +7,8 @@ import hashlib
 import concurrent.futures
 import time
 from urllib.parse import urlparse
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -20,12 +22,12 @@ BASE_PATH = os.path.abspath("BugsfreeStreams/StreamsTV-BD")
 FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/StreamLinks-BD.m3u")
 MAX_STREAMS = 600  # Target 500+ channels
 MAX_STREAMS_PER_SOURCE = 1000
+VALIDATION_TIMEOUT = 60  # Max 60 seconds for validation
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
 
-# Source M3U playlists
+# Source M3U playlist
 SOURCES = [
     "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Bangladesh/LiveTV.m3u",
-    "https://iptv-org.github.io/iptv/countries/bd.m3u",
 ]
 FALLBACK_SOURCES = [
     "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Bangladesh/LiveTV.m3u",
@@ -45,10 +47,19 @@ FALLBACK_STREAM = {
     "name": "test_stream"
 }
 
+# Create a session with retries
+def create_session():
+    session = requests.Session()
+    retries = Retry(total=3, backoff_factor=0.5, status_forcelist=[429, 500, 502, 503, 504])
+    adapter = HTTPAdapter(max_retries=retries)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    return session
+
 # Validate a source URL
-def validate_source(url):
+def validate_source(url, session):
     try:
-        response = requests.head(url, timeout=5, allow_redirects=True)
+        response = session.head(url, timeout=5, allow_redirects=True)
         content_type = response.headers.get("content-type", "").lower()
         return response.status_code == 200 and ("text" in content_type or "m3u" in content_type)
     except requests.RequestException as e:
@@ -56,22 +67,29 @@ def validate_source(url):
         return False
 
 # Check if a URL is active
-def is_stream_active(url):
-    for attempt in range(2):
-        try:
-            response = requests.head(url, timeout=2, allow_redirects=True)
-            return response.status_code in (200, 206, 301, 302)
-        except requests.RequestException:
-            if attempt < 1:
-                time.sleep(0.5)
-    return False
+def is_stream_active(url, session):
+    if not url.lower().endswith(".m3u8"):
+        return False  # Skip non-.m3u8 initially
+    try:
+        response = session.head(url, timeout=1, allow_redirects=True)
+        if response.status_code in (200, 206, 301, 302):
+            return True
+        # Fallback to GET for .m3u8 if HEAD fails
+        response = session.get(url, timeout=3, allow_redirects=True)
+        return response.status_code == 200 and "#EXTM3U" in response.text[:100]
+    except requests.RequestException:
+        return False
 
 # Validate streams concurrently
-def validate_streams_concurrently(entries):
+def validate_streams_concurrently(entries, session):
     valid_streams = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-        future_to_entry = {executor.submit(is_stream_active, url): (extinf, url) for extinf, url in entries}
+    start_time = time.time()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+        future_to_entry = {executor.submit(is_stream_active, url, session): (extinf, url) for extinf, url in entries}
         for future in concurrent.futures.as_completed(future_to_entry):
+            if time.time() - start_time > VALIDATION_TIMEOUT:
+                logger.warning("Validation timeout reached")
+                break
             extinf, url = future_to_entry[future]
             try:
                 if future.result():
@@ -81,12 +99,12 @@ def validate_streams_concurrently(entries):
     return valid_streams
 
 # Fetch variant streams
-def get_variant_streams(master_url):
+def get_variant_streams(master_url, session):
     variants = [{"resolution": "Original", "url": master_url, "bandwidth": 2560000}]
-    if not master_url.lower().endswith(".m3u8") or not is_stream_active(master_url):
+    if not master_url.lower().endswith(".m3u8") or not is_stream_active(master_url, session):
         return variants
     try:
-        response = requests.get(master_url, timeout=5)
+        response = session.get(master_url, timeout=3)
         if response.status_code != 200:
             return variants
         content = response.text
@@ -114,7 +132,7 @@ def get_variant_streams(master_url):
                                 "url": variant_url,
                                 "bandwidth": bandwidth
                             })
-        return [v for v in variants if is_stream_active(v["url"])] or variants
+        return [v for v in variants if is_stream_active(v["url"], session)] or variants
     except Exception:
         return variants
 
@@ -153,13 +171,13 @@ def parse_m3u(content):
     return entries[:MAX_STREAMS_PER_SOURCE]
 
 # Fetch and parse a source
-def process_source(source):
-    if not validate_source(source):
+def process_source(source, session):
+    if not validate_source(source, session):
         logger.error(f"Source {source} invalid, skipping")
         return []
     try:
         logger.info(f"Fetching {source}")
-        response = requests.get(source, timeout=5)
+        response = session.get(source, timeout=5)
         if response.status_code == 200:
             content = response.text
             entries = parse_m3u(content)
@@ -172,10 +190,10 @@ def process_source(source):
     return []
 
 # Fetch sources concurrently
-def fetch_all_sources(sources):
+def fetch_all_sources(sources, session):
     all_entries = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
-        future_to_source = {executor.submit(process_source, source): source for source in sources}
+        future_to_source = {executor.submit(process_source, source, session): source for source in sources}
         for future in concurrent.futures.as_completed(future_to_source):
             source = future_to_source[future]
             try:
@@ -189,6 +207,9 @@ def fetch_all_sources(sources):
 def main():
     logger.info("Starting stream processing")
     
+    # Create session with retries
+    session = create_session()
+
     # Clean up old files
     if os.path.exists(BASE_PATH):
         shutil.rmtree(BASE_PATH)
@@ -197,7 +218,7 @@ def main():
     os.makedirs(os.path.dirname(FINAL_M3U_FILE), exist_ok=True)
 
     # Fetch sources
-    all_entries = fetch_all_sources(SOURCES + FALLBACK_SOURCES)
+    all_entries = fetch_all_sources(SOURCES + FALLBACK_SOURCES, session)
     logger.info(f"Total entries collected: {len(all_entries)}")
 
     # If no entries, use static M3U
@@ -207,7 +228,7 @@ def main():
 
     # Validate streams
     logger.info(f"Validating {len(all_entries)} streams concurrently")
-    all_entries = validate_streams_concurrently(all_entries)
+    all_entries = validate_streams_concurrently(all_entries, session)
     logger.info(f"Found {len(all_entries)} active streams after validation")
 
     # Sort to prioritize .m3u8
@@ -232,7 +253,7 @@ def main():
             continue
         match = re.search(r',(.+)$', extinf)
         channel_name = clean_channel_name(match.group(1) if match else "", url)
-        variants = get_variant_streams(url)
+        variants = get_variant_streams(url, session)
         unique_streams[url] = (ensure_logo(extinf), url, variants, channel_name)
         logger.info(f"Added valid stream: {channel_name} for URL {url}")
 
@@ -242,7 +263,7 @@ def main():
     # Add fallback if no streams
     if not unique_streams:
         logger.warning("No valid streams found, adding fallback")
-        variants = get_variant_streams(FALLBACK_STREAM["url"])
+        variants = get_variant_streams(FALLBACK_STREAM["url"], session)
         unique_streams[FALLBACK_STREAM["url"]] = (FALLBACK_STREAM["extinf"], FALLBACK_STREAM["url"], variants, FALLBACK_STREAM["name"])
 
     logger.info(f"Final unique streams: {len(unique_streams)}")
