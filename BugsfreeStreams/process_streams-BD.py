@@ -6,6 +6,8 @@ import logging
 import hashlib
 import concurrent.futures
 import time
+import json
+from datetime import datetime, timedelta
 from urllib.parse import urlparse
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -20,9 +22,11 @@ REPO_NAME = "LiveTVCollector"
 BRANCH = "main"
 BASE_PATH = os.path.abspath("BugsfreeStreams/StreamsTV-BD")
 FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/StreamLinks-BD.m3u")
+PROCESSED_LINKS_FILE = os.path.abspath("BugsfreeStreams/processed_links.json")
 MAX_STREAMS = 600  # Target 500+ channels
 MAX_STREAMS_PER_SOURCE = 1000
 VALIDATION_TIMEOUT = 60  # Max 60 seconds for validation
+REVALIDATION_INTERVAL = 24 * 3600  # Revalidate every 24 hours
 DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/BugsfreeLogo/default-logo.png"
 
 # Source M3U playlist
@@ -56,6 +60,25 @@ def create_session():
     session.mount("https://", adapter)
     return session
 
+# Load processed links
+def load_processed_links():
+    if os.path.exists(PROCESSED_LINKS_FILE):
+        try:
+            with open(PROCESSED_LINKS_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Failed to load {PROCESSED_LINKS_FILE}: {e}")
+    return {}
+
+# Save processed links
+def save_processed_links(processed_links):
+    try:
+        with open(PROCESSED_LINKS_FILE, "w", encoding="utf-8") as f:
+            json.dump(processed_links, f, indent=2)
+        logger.info(f"Saved {len(processed_links)} processed links to {PROCESSED_LINKS_FILE}")
+    except Exception as e:
+        logger.error(f"Failed to save {PROCESSED_LINKS_FILE}: {e}")
+
 # Validate a source URL
 def validate_source(url, session):
     try:
@@ -69,23 +92,35 @@ def validate_source(url, session):
 # Check if a URL is active
 def is_stream_active(url, session):
     if not url.lower().endswith(".m3u8"):
-        return False  # Skip non-.m3u8 initially
+        return False  # Skip non-.m3u8
     try:
         response = session.head(url, timeout=1, allow_redirects=True)
         if response.status_code in (200, 206, 301, 302):
             return True
-        # Fallback to GET for .m3u8 if HEAD fails
         response = session.get(url, timeout=3, allow_redirects=True)
         return response.status_code == 200 and "#EXTM3U" in response.text[:100]
     except requests.RequestException:
         return False
 
 # Validate streams concurrently
-def validate_streams_concurrently(entries, session):
+def validate_streams_concurrently(entries, processed_links, session):
     valid_streams = []
-    start_time = time.time()
+    to_validate = []
+    now = time.time()
+    start_time = now
+
+    for extinf, url in entries:
+        if url in processed_links:
+            last_checked = processed_links[url].get("last_checked", 0)
+            is_active = processed_links[url].get("is_active", False)
+            if is_active and (now - last_checked) < REVALIDATION_INTERVAL:
+                valid_streams.append((extinf, url))
+                logger.info(f"Skipped validation for cached active stream: {url}")
+                continue
+        to_validate.append((extinf, url))
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
-        future_to_entry = {executor.submit(is_stream_active, url, session): (extinf, url) for extinf, url in entries}
+        future_to_entry = {executor.submit(is_stream_active, url, session): (extinf, url) for extinf, url in to_validate}
         for future in concurrent.futures.as_completed(future_to_entry):
             if time.time() - start_time > VALIDATION_TIMEOUT:
                 logger.warning("Validation timeout reached")
@@ -94,8 +129,20 @@ def validate_streams_concurrently(entries, session):
             try:
                 if future.result():
                     valid_streams.append((extinf, url))
+                    processed_links[url] = {
+                        "last_checked": time.time(),
+                        "is_active": True
+                    }
+                else:
+                    processed_links[url] = {
+                        "last_checked": time.time(),
+                        "is_active": False
+                    }
             except Exception:
-                pass
+                processed_links[url] = {
+                    "last_checked": time.time(),
+                    "is_active": False
+                }
     return valid_streams
 
 # Fetch variant streams
@@ -144,13 +191,18 @@ def clean_channel_name(name, url):
     name = re.sub(r'_+', '_', name)
     return f"{name}_{hashlib.md5(url.encode()).hexdigest()[:8]}" if name else f"channel_{hashlib.md5(url.encode()).hexdigest()[:8]}"
 
-# Add default logo
+# Add default logo and last-checked timestamp
 def ensure_logo(extinf):
+    now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S+00:00")
     if 'tvg-logo="' not in extinf or 'tvg-logo=""' in extinf:
         match = re.search(r'(#EXTINF:-?\d+\s+)(.*?),(.+)$', extinf)
         if match:
-            return f'{match.group(1)}tvg-logo="{DEFAULT_LOGO}" {match.group(2)},{match.group(3)}'
-        return extinf.replace('#EXTINF:', f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}" ')
+            return f'{match.group(1)}tvg-logo="{DEFAULT_LOGO}" tvg-last-checked="{now}" {match.group(2)},{match.group(3)}'
+        return extinf.replace('#EXTINF:', f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}" tvg-last-checked="{now}" ')
+    if 'tvg-last-checked="' not in extinf:
+        match = re.search(r'(#EXTINF:-?\d+\s+.*?)(,.*)$', extinf)
+        if match:
+            return f'{match.group(1)} tvg-last-checked="{now}"{match.group(2)}'
     return extinf
 
 # Parse M3U content
@@ -210,6 +262,9 @@ def main():
     # Create session with retries
     session = create_session()
 
+    # Load processed links
+    processed_links = load_processed_links()
+
     # Clean up old files
     if os.path.exists(BASE_PATH):
         shutil.rmtree(BASE_PATH)
@@ -228,8 +283,11 @@ def main():
 
     # Validate streams
     logger.info(f"Validating {len(all_entries)} streams concurrently")
-    all_entries = validate_streams_concurrently(all_entries, session)
+    all_entries = validate_streams_concurrently(all_entries, processed_links, session)
     logger.info(f"Found {len(all_entries)} active streams after validation")
+
+    # Save processed links
+    save_processed_links(processed_links)
 
     # Sort to prioritize .m3u8
     all_entries.sort(key=lambda x: 0 if x[1].lower().endswith(".m3u8") else 1)
@@ -269,7 +327,8 @@ def main():
     logger.info(f"Final unique streams: {len(unique_streams)}")
 
     # Prepare outputs
-    final_m3u_content = ["#EXTM3U"]
+    now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S+00:00")
+    final_m3u_content = [f'#EXTM3U tvg-updated="{now}"']
     individual_files = {}
     for url, (extinf, original_url, variants, channel_name) in unique_streams.items():
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/BugsfreeStreams/StreamsTV-BD/{channel_name}.m3u8"
