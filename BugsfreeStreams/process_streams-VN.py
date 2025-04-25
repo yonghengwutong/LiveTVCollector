@@ -18,8 +18,8 @@ logger = logging.getLogger()
 REPO_OWNER = "bugsfreeweb"
 REPO_NAME = "LiveTVCollector"
 BRANCH = "main"
-BASE_PATH = os.path.abspath("BugsfreeStreams/StreamsTV-WW")
-FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/StreamLinks-WW.m3u")
+BASE_PATH = os.path.abspath("BugsfreeStreams/StreamsTV-VN")
+FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/StreamLinks-VN.m3u")
 MAX_STREAMS = 600  # Target 500+ channels
 MAX_STREAMS_PER_SOURCE = 1000
 VALIDATION_TIMEOUT = 60  # Max 60 seconds for validation
@@ -27,10 +27,10 @@ DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRA
 
 # Source M3U playlist
 SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Worldwide/LiveTV.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Vietnam/LiveTV.m3u",
 ]
 FALLBACK_SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Worldwide/LiveTV.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Vietnam/LiveTV.m3u",
 ]
 
 # Static fallback M3U
@@ -272,7 +272,7 @@ def main():
     final_m3u_content = ["#EXTM3U"]
     individual_files = {}
     for url, (extinf, original_url, variants, channel_name) in unique_streams.items():
-        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/BugsfreeStreams/StreamsTV-WW/{channel_name}.m3u8"
+        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/BugsfreeStreams/StreamsTV-VN/{channel_name}.m3u8"
         file_path = os.path.join(BASE_PATH, f"{channel_name}.m3u8")
         m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
         for variant in variants:
