@@ -272,7 +272,7 @@ def main():
     final_m3u_content = ["#EXTM3U"]
     individual_files = {}
     for url, (extinf, original_url, variants, channel_name) in unique_streams.items():
-        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsTV-EG/{channel_name}.m3u8"
+        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/BugsfreeStreams/StreamsTV-EG/{channel_name}.m3u8"
         file_path = os.path.join(BASE_PATH, f"{channel_name}.m3u8")
         m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
         for variant in variants:
