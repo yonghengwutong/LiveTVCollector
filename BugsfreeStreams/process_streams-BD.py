@@ -26,9 +26,13 @@ DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs
 DEFAULT_SOURCE = "https://iptv-org.github.io/iptv/countries/bd.m3u"
 
 # Source M3U playlist(s) - primary and fallbacks
-SOURCES = [DEFAULT_SOURCE]
+SOURCES = [
+    "https://iptv-org.github.io/iptv/countries/bd.m3u",
+    "https://iptv-org.github.io/iptv/categories/sports.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/main/channels/bd.m3u",
+]
 FALLBACK_SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Bangladesh/LiveTV.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Bangladesh/LiveTV.m3u",  # Verify path
 ]
 
 # Static fallback M3U if all sources fail
@@ -65,14 +69,14 @@ def is_stream_active(url):
     if url.lower().endswith(".m3u8"):
         logger.debug(f"Skipping validation for .m3u8: {url}")
         return True
-    for attempt in range(3):
+    for attempt in range(2):
         try:
-            response = requests.get(url, timeout=5, stream=True)
+            response = requests.head(url, timeout=5, allow_redirects=True)
             logger.debug(f"Checking stream {url}: status={response.status_code}")
-            return response.status_code in (200, 206)
+            return response.status_code in (200, 206, 301, 302)
         except requests.RequestException as e:
             logger.warning(f"Attempt {attempt+1} failed for {url}: {e}")
-            if attempt < 2:
+            if attempt < 1:
                 time.sleep(1)
     logger.debug(f"Stream inactive after retries: {url}")
     return False
@@ -82,8 +86,10 @@ def get_variant_streams(master_url):
     variants = [
         {"resolution": "Original", "url": master_url, "bandwidth": 2560000}
     ]
+    if not master_url.lower().endswith(".m3u8"):
+        return variants
     try:
-        response = requests.get(master_url, timeout=5)
+        response = requests.get(master_url, timeout=7)
         if response.status_code != 200:
             return variants
         content = response.text
@@ -111,7 +117,7 @@ def get_variant_streams(master_url):
                                 "url": variant_url,
                                 "bandwidth": bandwidth
                             })
-        return [v for v in variants if is_stream_active(v["url"])]
+        return [v for v in variants if is_stream_active(v["url"])] or variants
     except Exception as e:
         logger.warning(f"Failed to fetch variants for {master_url}: {e}")
         return variants
@@ -172,7 +178,7 @@ def process_source(source):
 # Fetch sources concurrently
 def fetch_all_sources(sources):
     all_entries = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         future_to_source = {executor.submit(process_source, source): source for source in sources}
         for future in concurrent.futures.as_completed(future_to_source):
             source = future_to_source[future]
@@ -206,14 +212,23 @@ def main():
     logger.info(f"Processing {len(all_entries)} entries for uniqueness")
 
     # Validate streams and remove duplicates
+    m3u8_count = 0
+    non_m3u8_count = 0
     unique_streams = {}
-    for extinf, url in all_entries:
+    for i, (extinf, url) in enumerate(all_entries):
         if len(unique_streams) >= MAX_STREAMS:
             logger.info(f"Reached MAX_STREAMS limit: {MAX_STREAMS}")
             break
+        if i % 100 == 0:
+            logger.info(f"Processed {i} of {len(all_entries)} entries, {len(unique_streams)} valid streams so far")
+        if url.lower().endswith(".m3u8"):
+            m3u8_count += 1
+        else:
+            non_m3u8_count += 1
         if not is_stream_active(url):
             logger.debug(f"Stream inactive: {url}")
             continue
+        time.sleep(0.1)
         match = re.search(r',(.+)$', extinf)
         channel_name = clean_channel_name(match.group(1) if match else "", url)
         if channel_name in unique_streams:
@@ -223,6 +238,7 @@ def main():
         unique_streams[channel_name] = (ensure_logo(extinf), url, variants)
         logger.info(f"Added valid stream: {channel_name} with {len(variants)} variants")
 
+    logger.info(f"Processed {m3u8_count} .m3u8 streams and {non_m3u8_count} non-.m3u8 streams")
     logger.info(f"Total unique valid streams: {len(unique_streams)}")
 
     # Add fallback if no streams
