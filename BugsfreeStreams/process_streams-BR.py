@@ -23,7 +23,7 @@ FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/StreamLinks-BR.m3u")
 MAX_STREAMS = 600  # Target 500+ channels
 MAX_STREAMS_PER_SOURCE = 1000
 VALIDATION_TIMEOUT = 60  # Max 60 seconds for validation
-DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeLogo/default-logo.png"
+DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/BugsfreeLogo/default-logo.png"
 
 # Source M3U playlist
 SOURCES = [
@@ -272,7 +272,7 @@ def main():
     final_m3u_content = ["#EXTM3U"]
     individual_files = {}
     for url, (extinf, original_url, variants, channel_name) in unique_streams.items():
-        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsTV-BR/{channel_name}.m3u8"
+        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/BugsfreeStreams/StreamsTV-BR/{channel_name}.m3u8"
         file_path = os.path.join(BASE_PATH, f"{channel_name}.m3u8")
         m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
         for variant in variants:
