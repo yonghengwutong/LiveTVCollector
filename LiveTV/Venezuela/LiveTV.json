@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-25 21:49:35",
+  "date": "2025-04-26 06:43:44",
   "channels": {
     "News": [
       {
@@ -43,6 +43,20 @@
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
         "url": "http://200.115.193.177/live/26hd-720/playlist.m3u8"
+      },
+      {
+        "name": "DW Español (1080p)",
+        "logo": "https://i.imgur.com/8MRNFb9.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8"
+      },
+      {
+        "name": "France 24 Español (1080p)",
+        "logo": "https://i.imgur.com/u8N6uoj.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8"
       },
       {
         "name": "Hispan TV",
@@ -292,11 +306,11 @@
         "url": "https://seo.tv.bo/tv/SEOTV_1FHD.m3u8"
       },
       {
-        "name": "Siembra TV [Not 24/7]",
+        "name": "Siembra TV (720p)",
         "logo": "https://i.imgur.com/zRX91Xr.png",
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
-        "url": "https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8"
+        "url": "https://streamunoapp.com:3809/live/siembratvlive.m3u8"
       },
       {
         "name": "Somos TV (720p) [Not 24/7]",
@@ -509,6 +523,13 @@
         "group": "Music",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
         "url": "https://server80.servistreaming.com:3074/hybrid/play.m3u8"
+      },
+      {
+        "name": "VH1",
+        "logo": "https://i.imgur.com/ZZEvehR.png",
+        "group": "Music",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://streamer1.nexgen.bz/VH1/index.m3u8"
       }
     ],
     "Entertainment": [
@@ -534,6 +555,13 @@
         "url": "https://vcp.myplaytv.com/panavision/panavision/chunklist_w1563195636.m3u8"
       },
       {
+        "name": "FX",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png",
+        "group": "Entertainment",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://streamer1.nexgen.bz/FX/index.m3u8"
+      },
+      {
         "name": "Guaro TV (1080p)",
         "logo": "https://i.ibb.co/LN92K6h/IMG-20230705-154347.jpg",
         "group": "Entertainment",
@@ -555,11 +583,25 @@
         "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8"
       },
       {
+        "name": "Lifetime",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png",
+        "group": "Entertainment",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://streamer1.nexgen.bz/LIFETIME/index.m3u8"
+      },
+      {
         "name": "Más Talk (1080p)",
         "logo": "https://i.imgur.com/unE2LGz.jpg",
         "group": "Entertainment",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
         "url": "https://vod2live.univtec.com/manifest/89290956-94ab-4950-accb-a54bbd7e176f.m3u8"
+      },
+      {
+        "name": "MTV",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",
+        "group": "Entertainment",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://streamer1.nexgen.bz/MTV/index.m3u8"
       },
       {
         "name": "RCN Más (1080p)",
@@ -611,6 +653,13 @@
         "group": "Religious",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
         "url": "https://videolatam.com:3516/live/tjjqdqurlive.m3u8"
+      },
+      {
+        "name": "Angel TV Spanish (720p)",
+        "logo": "https://i.imgur.com/qKLEGU7.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelspanish_all/playlist.m3u8"
       },
       {
         "name": "Audaz TV (432p) [Not 24/7]",
@@ -669,6 +718,13 @@
         "group": "Culture",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
         "url": "https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8"
+      },
+      {
+        "name": "Suyai TV (1080p)",
+        "logo": "https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png",
+        "group": "Culture",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://signal.suyaitv.cl/live/35/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe"
       }
     ],
     "Sports": [
@@ -980,6 +1036,43 @@
         "url": "https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8"
       }
     ],
+    "Undefined": [
+      {
+        "name": "BET",
+        "logo": "https://i.imgur.com/iHOvR4e.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://streamer1.nexgen.bz/BET/index.m3u8"
+      },
+      {
+        "name": "Golden Edge Panregional (576p)",
+        "logo": "https://i.imgur.com/SlSbcp3.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://linear-407.frequency.stream/mt/studio/407/hls/master/playlist.m3u8"
+      },
+      {
+        "name": "Telefe Internacional (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/HNcCX3h.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://siloh-mcdn.plutotv.net/lilo/production/TelefePluto/master.m3u8"
+      },
+      {
+        "name": "TVE Internacional America (1080p)",
+        "logo": "https://i.imgur.com/iODADvi.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://rtvelivestream.akamaized.net/rtvesec/int/tvei_ame_main.m3u8"
+      },
+      {
+        "name": "UCL (720p)",
+        "logo": "https://i.imgur.com/BzQphbw.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8"
+      }
+    ],
     "Kids": [
       {
         "name": "Clan TVE Internacional (1080p)",
@@ -1126,6 +1219,15 @@
         "url": "https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8"
       }
     ],
+    "Culture;Music": [
+      {
+        "name": "Radio Suyai TV (1080p)",
+        "logo": "https://radio.suyaitv.cl/wp-content/uploads/2024/04/cropped-radiosuyaitvcuadrado512.png",
+        "group": "Culture;Music",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://signal.suyaitv.cl/live/26/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe"
+      }
+    ],
     "Entertainment;Lifestyle;Music": [
       {
         "name": "Spectrum Channel (720p)",
@@ -1142,29 +1244,6 @@
         "group": "Cooking",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
         "url": "https://tastemadees16intl-samsungmexico.amagi.tv/playlist.m3u8"
-      }
-    ],
-    "Undefined": [
-      {
-        "name": "Telefe Internacional (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/HNcCX3h.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
-        "url": "https://siloh-mcdn.plutotv.net/lilo/production/TelefePluto/master.m3u8"
-      },
-      {
-        "name": "TVE Internacional America (1080p)",
-        "logo": "https://i.imgur.com/iODADvi.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
-        "url": "https://rtvelivestream.akamaized.net/rtvesec/int/tvei_ame_main.m3u8"
-      },
-      {
-        "name": "UCL (720p)",
-        "logo": "https://i.imgur.com/BzQphbw.png",
-        "group": "Undefined",
-        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
-        "url": "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8"
       }
     ],
     "Business": [

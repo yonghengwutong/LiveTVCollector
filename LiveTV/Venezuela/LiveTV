@@ -36,6 +36,18 @@
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png"
   },
   {
+    "name": "DW Español (1080p)",
+    "type": "News",
+    "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+    "img": "https://i.imgur.com/8MRNFb9.png"
+  },
+  {
+    "name": "France 24 Español (1080p)",
+    "type": "News",
+    "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
+    "img": "https://i.imgur.com/u8N6uoj.png"
+  },
+  {
     "name": "Hispan TV",
     "type": "News",
     "url": "https://cdnlive.presstv.ir/live/smil:live.smil/playlist.m3u8",
@@ -246,9 +258,9 @@
     "img": "https://i.imgur.com/aTcJ5p3.png"
   },
   {
-    "name": "Siembra TV [Not 24/7]",
+    "name": "Siembra TV (720p)",
     "type": "General",
-    "url": "https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8",
+    "url": "https://streamunoapp.com:3809/live/siembratvlive.m3u8",
     "img": "https://i.imgur.com/zRX91Xr.png"
   },
   {
@@ -432,6 +444,12 @@
     "img": "https://i.imgur.com/h48pwLn.png"
   },
   {
+    "name": "VH1",
+    "type": "Music",
+    "url": "https://streamer1.nexgen.bz/VH1/index.m3u8",
+    "img": "https://i.imgur.com/ZZEvehR.png"
+  },
+  {
     "name": "Aguacate TV (480p)",
     "type": "Entertainment",
     "url": "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8",
@@ -448,6 +466,12 @@
     "type": "Entertainment",
     "url": "https://vcp.myplaytv.com/panavision/panavision/chunklist_w1563195636.m3u8",
     "img": "https://i.imgur.com/qj1qBn1.png"
+  },
+  {
+    "name": "FX",
+    "type": "Entertainment",
+    "url": "https://streamer1.nexgen.bz/FX/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png"
   },
   {
     "name": "Guaro TV (1080p)",
@@ -468,10 +492,22 @@
     "img": "https://i.imgur.com/WIeZMKT.png"
   },
   {
+    "name": "Lifetime",
+    "type": "Entertainment",
+    "url": "https://streamer1.nexgen.bz/LIFETIME/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png"
+  },
+  {
     "name": "Más Talk (1080p)",
     "type": "Entertainment",
     "url": "https://vod2live.univtec.com/manifest/89290956-94ab-4950-accb-a54bbd7e176f.m3u8",
     "img": "https://i.imgur.com/unE2LGz.jpg"
+  },
+  {
+    "name": "MTV",
+    "type": "Entertainment",
+    "url": "https://streamer1.nexgen.bz/MTV/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png"
   },
   {
     "name": "RCN Más (1080p)",
@@ -514,6 +550,12 @@
     "type": "Religious",
     "url": "https://videolatam.com:3516/live/tjjqdqurlive.m3u8",
     "img": "https://i.imgur.com/veeuqS1.png"
+  },
+  {
+    "name": "Angel TV Spanish (720p)",
+    "type": "Religious",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelspanish_all/playlist.m3u8",
+    "img": "https://i.imgur.com/qKLEGU7.png"
   },
   {
     "name": "Audaz TV (432p) [Not 24/7]",
@@ -562,6 +604,12 @@
     "type": "Culture",
     "url": "https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8",
     "img": "https://i.imgur.com/kWR3END.png"
+  },
+  {
+    "name": "Suyai TV (1080p)",
+    "type": "Culture",
+    "url": "https://signal.suyaitv.cl/live/35/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe",
+    "img": "https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png"
   },
   {
     "name": "MotorSport TV (480p)",
@@ -810,6 +858,36 @@
     "img": "https://pandamax.cl/assets/img/pandalogo2.png"
   },
   {
+    "name": "BET",
+    "type": "Undefined",
+    "url": "https://streamer1.nexgen.bz/BET/index.m3u8",
+    "img": "https://i.imgur.com/iHOvR4e.png"
+  },
+  {
+    "name": "Golden Edge Panregional (576p)",
+    "type": "Undefined",
+    "url": "https://linear-407.frequency.stream/mt/studio/407/hls/master/playlist.m3u8",
+    "img": "https://i.imgur.com/SlSbcp3.png"
+  },
+  {
+    "name": "Telefe Internacional (720p) [Not 24/7]",
+    "type": "Undefined",
+    "url": "https://siloh-mcdn.plutotv.net/lilo/production/TelefePluto/master.m3u8",
+    "img": "https://i.imgur.com/HNcCX3h.png"
+  },
+  {
+    "name": "TVE Internacional America (1080p)",
+    "type": "Undefined",
+    "url": "https://rtvelivestream.akamaized.net/rtvesec/int/tvei_ame_main.m3u8",
+    "img": "https://i.imgur.com/iODADvi.png"
+  },
+  {
+    "name": "UCL (720p)",
+    "type": "Undefined",
+    "url": "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8",
+    "img": "https://i.imgur.com/BzQphbw.png"
+  },
+  {
     "name": "Clan TVE Internacional (1080p)",
     "type": "Kids",
     "url": "https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8",
@@ -918,6 +996,12 @@
     "img": "https://i.imgur.com/OSet4en.png"
   },
   {
+    "name": "Radio Suyai TV (1080p)",
+    "type": "Culture;Music",
+    "url": "https://signal.suyaitv.cl/live/26/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe",
+    "img": "https://radio.suyaitv.cl/wp-content/uploads/2024/04/cropped-radiosuyaitvcuadrado512.png"
+  },
+  {
     "name": "Spectrum Channel (720p)",
     "type": "Entertainment;Lifestyle;Music",
     "url": "https://panel.miplay.cl:8082/spectrumchannel/index.m3u8",
@@ -928,24 +1012,6 @@
     "type": "Cooking",
     "url": "https://tastemadees16intl-samsungmexico.amagi.tv/playlist.m3u8",
     "img": "https://i.imgur.com/8s6aRwv.png"
-  },
-  {
-    "name": "Telefe Internacional (720p) [Not 24/7]",
-    "type": "Undefined",
-    "url": "https://siloh-mcdn.plutotv.net/lilo/production/TelefePluto/master.m3u8",
-    "img": "https://i.imgur.com/HNcCX3h.png"
-  },
-  {
-    "name": "TVE Internacional America (1080p)",
-    "type": "Undefined",
-    "url": "https://rtvelivestream.akamaized.net/rtvesec/int/tvei_ame_main.m3u8",
-    "img": "https://i.imgur.com/iODADvi.png"
-  },
-  {
-    "name": "UCL (720p)",
-    "type": "Undefined",
-    "url": "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8",
-    "img": "https://i.imgur.com/BzQphbw.png"
   },
   {
     "name": "Tevex (720p) [Not 24/7]",
