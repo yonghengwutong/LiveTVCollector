@@ -767,6 +767,18 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.p
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 
+Group: Business
+Name: Bloomberg TV EMEA Live Event (720p)
+URL: https://bloomberg.com/media-manifest/streams/eu-event.m3u8
+Logo: https://i.imgur.com/OuogLHx.png
+Source: https://iptv-org.github.io/iptv/countries/pt.m3u
+--------------------------------------------------
+Name: Bloomberg TV Europe (720p)
+URL: https://bloomberg.com/media-manifest/streams/eu.m3u8
+Logo: https://i.imgur.com/OuogLHx.png
+Source: https://iptv-org.github.io/iptv/countries/pt.m3u
+--------------------------------------------------
+
 Group: Culture
 Name: Museum TV English (1080p)
 URL: https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xiaomi/playlist.m3u8
@@ -1568,8 +1580,13 @@ URL: https://jmp2.uk/sam-ESBC4700001GR.m3u8
 Logo: https://i.imgur.com/gRFQ35W.png
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
-Name: Nickelodeon (Spain) (576p)
-URL: http://185.189.225.150:85/nickelodeon/index.m3u8
+Name: Nick Ukraine
+URL: http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/622882350f6aad0008c76e77/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1f3871-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=27a14e4a-a17d-41ca-bcdb-02eba6ccff9a
+Logo: https://i.imgur.com/MvZxboI.png
+Source: https://iptv-org.github.io/iptv/countries/pt.m3u
+--------------------------------------------------
+Name: Nickelodeon (480p)
+URL: http://181.78.109.48:8000/play/a05a/index.m3u8
 Logo: https://i.imgur.com/E84jnP8.png
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
@@ -1636,6 +1653,11 @@ Group: News
 Name: 24 Horas Internacional [Geo-blocked]
 URL: https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
 Logo: https://i.imgur.com/IUVRm5L.png
+Source: https://iptv-org.github.io/iptv/countries/pt.m3u
+--------------------------------------------------
+Name: like Gecko) Mobile/15E148",BBC World News (480p) [Not 24/7]
+URL: http://ott-cdn.ucom.am/s24/index.m3u8
+Logo: https://i.imgur.com/vSz2WEp.png
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
 Name: Polsat News Polityka (1080p)
@@ -3100,6 +3122,11 @@ URL: https://streamer-a03.videos.sapo.pt/live/sobrenaturaltv_3/playlist.m3u8
 Logo: https://i.ibb.co/HGfTJwt/ADBTV.jpg
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
+Name: Angel TV Portuguese (720p)
+URL: https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelportuguese_all/playlist.m3u8
+Logo: https://i.imgur.com/qKLEGU7.png
+Source: https://iptv-org.github.io/iptv/countries/pt.m3u
+--------------------------------------------------
 Name: iesTV (1080p)
 URL: https://iescc.ddns.net/iestv/stream.m3u8
 Logo: https://i.imgur.com/zYj5pU5.png
@@ -4119,6 +4146,13 @@ Logo: https://cdn.iol.pt/img/logostvi/branco/tvificcao.png
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
 
+Group: Sports
+Name: FIFA+ (720p)
+URL: https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+Logo: https://i.imgur.com/l5iax42.png
+Source: https://iptv-org.github.io/iptv/countries/pt.m3u
+--------------------------------------------------
+
 Group: TV
 Name: RTP 1
 URL: http://streaming-live-app.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd
@@ -4136,7 +4170,7 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: TVI
-URL: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNS8yMDI1IDQ6Nzo1MSBQTSZoYXNoX3ZhbHVlPS9qUzgzWlVqZGV5NEh3VkdaWGpUbEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1hMDhlODAxMi1lMTkxLTRmMjEtYjk0Mi0yYjIxNGY5Nzc4Yjg=/
+URL: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNi8yMDI1IDEyOjI4OjQwIEFNJmhhc2hfdmFsdWU9UWtFcDdXUFArTTY1VkhSeVBtSlhqZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWNkYmVjMTMxLTc5OTctNDI5YS04YzM0LWU3NWRlNDhmZDAyYg==/
 Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -4151,7 +4185,7 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: CNN Portugal
-URL: https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNS8yMDI1IDQ6Nzo1MiBQTSZoYXNoX3ZhbHVlPXFUakp4eDJjZWI2Mlc5UmZGNnp2Q3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xMDZjZjU5ZC04OGFiLTRhMWMtYmMyOS1kZTg3OTZkYjFjZjA=/
+URL: https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNi8yMDI1IDEyOjI4OjQwIEFNJmhhc2hfdmFsdWU9b3AyV1dqWUVwUEhMM3JRYmt6M0VWdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWNmYzBiNzFmLTUzNjUtNDRmMi1hYTQ5LWE4ZDNiNGZlYmEzMA==/
 Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -4196,7 +4230,7 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacio
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: TVI Internacional
-URL: https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNS8yMDI1IDQ6Nzo1MyBQTSZoYXNoX3ZhbHVlPTZDME9TVnc1MjVMWSs3QTBKZmErUnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lNDBiN2M1NS1kNDMxLTRkOTUtODhkNi0xNzhjMzAyMzFmNzc=/
+URL: https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNi8yMDI1IDEyOjI4OjQxIEFNJmhhc2hfdmFsdWU9SStRbmVlcjgzZkpOK3RMWHQ3T0dRdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWRmN2EwNDNkLTEzZjEtNDYzOS1hOGI0LTk3MTBlM2MwNmNlMg==/
 Logo: https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -4817,11 +4851,6 @@ URL: https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66
 Logo: https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/bd356b80-79d9-46ff-9674-e69aaf10022f-width200-quality90.jpeg
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
-Name: FIFA+ (720p)
-URL: https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-Logo: https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/a27208c4-021a-45e8-a250-11f8ffab36c8-width200-quality90.jpeg
-Source: https://iptv-org.github.io/iptv/countries/pt.m3u
---------------------------------------------------
 Name: Grjngo (720p)
 URL: https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_GrjngoWesterny/playlist.m3u8
 Logo: https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/22c730ab-2e9f-47dc-b35a-ad8c081fec40-width200-quality90.jpeg
@@ -4837,8 +4866,8 @@ URL: https://3ee905090d464be5a51478fd9c642e93.mediatailor.us-east-1.amazonaws.co
 Logo: https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/9da0ec4d-85ea-45f4-b3f9-ae917d1714f9-width200-quality90.jpeg
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
-Name: Monster Jam (720p)
-URL: https://4b9627c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vbnN0ZXJKYW1fSExT/playlist.m3u8
+Name: Monster Jam
+URL: http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c33f833ef47d00084f47ad/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1e7521-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8a8e6e9e-1da8-4436-9538-aa678b671447
 Logo: https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
@@ -4847,8 +4876,8 @@ URL: https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U
 Logo: https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/1cc9ab7e-8283-4c32-a3f3-e2a4d0e1d33f-width200-quality90.jpeg
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
-Name: PFL MMA (720p)
-URL: https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8
+Name: PFL MMA
+URL: http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/654a620d53fc9700083b2e21/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e074d40-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8f8fcc86-3a94-4ce2-9955-c103e94fd2b9
 Logo: https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/f4058a54-67b9-432c-b80e-3bfcf8d2d6d1-width200-quality90.jpeg
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
@@ -4872,13 +4901,18 @@ URL: http://178.219.128.68:64888/RTL2
 Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/512px-RTLZWEI_Logo_2019.svg.png
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
-Name: Shades of Black (1080p)
-URL: https://rakutenaa-fusemedia-shadesofblack-rakutena-giu24.amagi.tv/playlist/rakutenAA-fusemedia-shadesofblack-rakutenA/playlist.m3u8
+Name: Shades of Black
+URL: http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63920159db0dea0007dd9932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c0251-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93b44734-079b-4fec-a58c-6406103089cd
 Logo: https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e989f6d8-1ea1-44fe-97a5-9715c22c98b9-width200-quality90.jpeg
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
-Name: TNA Wrestling Channel (720p)
-URL: https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
+Name: Strongman Champions League
+URL: https://rightsboosterltd-scl-1-nl.samsung.wurl.tv/playlist.m3u8
+Logo: https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/30ccc088-dca7-4458-ad5a-328fef06e1ca-width200-quality90.png
+Source: https://iptv-org.github.io/iptv/countries/pt.m3u
+--------------------------------------------------
+Name: TNA Wrestling
+URL: http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62ea4dadce395f0007086df2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c7788-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=649aa9eb-97bb-42d6-85e0-d0595821c87a
 Logo: https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
@@ -4923,7 +4957,14 @@ Logo: https://images-2.rakuten.tv/storage/global-live-channel/translation/artwor
 Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Billard & Snooker 🎱
+Group: ​​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Tv Series 📺
+Name: Masterchef 🇧🇷
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6077045b6031bd00078de127/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Billard & Snooker 🎱
 Name: SportStak 🇺🇸
 URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00585-sportstribaltv-sportstak-sportstribal/playlist.m3u8
 Logo: https://a.jsrdn.com/hls/22964/sportstak/logo_20240813_222015_68.png
@@ -4940,7 +4981,7 @@ Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/BilliardsPlus.web
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: World Billiards tv 🇺🇸
-URL: https://bit.ly/3JYZmO5?profile=inspirationFreetv.m3u8
+URL: https://bit.ly/3JYZmO5?profile=inspirationLinks.m3u8
 Logo: https://www.sportstribal.tv/home/wp-content/uploads/2022/01/World-Billiards-TV_Logo_sml.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -4955,7 +4996,12 @@ Logo: https://images.pluto.tv/channels/65df112b66eec8000897b965/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Celebrities 🤩
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Celebrities 🤩
+Name: The TMZ Channel 🇺🇸
+URL: https://apollo.production-public.tubi.io/live/ac-tmz.m3u8
+Logo: https://canvas-lb.tubitv.com/opts/bX6Ju5cXjY5SMw==/ac6425fe-0808-4566-ba6a-066d22dc3829/CHgQeDoFMS4xLjZAAQ==
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 Name: ¡HOLA! Play 🇪🇸
 URL: https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6433/master.m3u8
 Logo: https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/48/ESBA1400008NE_20210512T003430.png
@@ -4991,14 +5037,9 @@ URL: https://30a-tv.com/sidewalks.m3u8
 Logo: https://www.sidewalkstv.com/wp-content/uploads/2021/03/Sidewalks-Entertainment-logo-size-500.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Fashion Midnightᶠᴴᴰ 🇺🇸
-URL: https://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b3500000_t64MTA4MHA=.m3u8
-Logo: https://upload.wikimedia.org/wikipedia/fr/thumb/c/c7/Fashion_TV_Logo.png/280px-Fashion_TV_Logo.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: GQ 🇺🇸
-URL: https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991137
-Logo: https://www.pngall.com/wp-content/uploads/15/Gq-Logo-PNG-Image.png
+Name: E! Keeping Up 🇺🇸
+URL: https://d3f4oii5n0oeqi.cloudfront.net/11701/88814610/hls/master.m3u8?ads.xumo_channelId=88814610&ads.xumo_streamId=88814610
+Logo: https://provider-static.plex.tv/4/epg/channels/logos/gracenote/4d7860467260498b2b98fb2f2b554793.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Vogue 🇺🇸
@@ -5006,13 +5047,160 @@ URL: https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83
 Logo: https://www.pngall.com/wp-content/uploads/13/Vogue-Logo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
+Name: GQ 🇺🇸
+URL: https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991137
+Logo: https://www.pngall.com/wp-content/uploads/15/Gq-Logo-PNG-Image.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Made In Hollywood 🇺🇸
+URL: https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-60db63d29ec966002c9ea6f0.m3u8
+Logo: https://provider-static.plex.tv/epg/cms/production/cd2f9be3-7222-4b75-9653-1c9a988258dc/WHITE_LOGO_Made_Mona_Lapides.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 Name: Popstar! TV 🇺🇸
 URL: https://linear-10.frequency.stream/dist/stirr/10/hls/master/playlist.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/popstartv.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
+Name: Fashion Midnightᶠᴴᴰ 🇺🇸
+URL: https://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b3500000_t64MTA4MHA=.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/fr/thumb/c/c7/Fashion_TV_Logo.png/280px-Fashion_TV_Logo.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Combat & Box 🥊
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Clássicos & Western 🤠
+Name: Nost Network (vᴘɴ 🇺🇸)
+URL: https://dai.google.com/linear/hls/event/wnQPvAN9QBODw9hP-H0rZA/master.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/NOST-1080x1080.jpg/800px-NOST-1080x1080.jpg
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Classic Cinema by WBtv 🇺🇸
+URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,WBD-Classic-Cinema.m3u8
+Logo: https://canvas.tubitv.com/opts/n101qdscaAvbSg==/e1b1d4ba-dfdb-4441-a534-b34b25ce8654/CNIHEMAEOgUxLjEuMg==
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Samuel Goldwyn Classics 🇺🇸 [ʀᴏkυ]
+URL: https://samuelgoldwyn-classics-1-us.roku.wurl.tv/playlist.m3u8
+Logo: https://provider-static.plex.tv/epg/cms/production/a3e63712-9262-428d-9e1c-a00c179a5454/samuel-goldwyn-channel-logo.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: FilmStream 🇺🇸
+URL: https://spi-filmstream-1-nl.samsung.wurl.tv/playlist.m3u8
+Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBAJ4900011Y4_20220323T071426SQUARE.png_20220323071430.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: FilmRise Classic TV 🇺🇸
+URL: https://d3fmqi91qduj7.cloudfront.net/11401/88814514/hls/master.m3u8?ads.xumo_channelId=88814514&ads.xumo_streamId=88814514
+Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700008QA_20220824T022329SQUARE.png_20220824022330.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: 00S REPLAY 🇬🇧
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62ba60f059624e000781c436/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: 90S Throwback 🇬🇧
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f4d86f519358a00072b978e/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://images.pluto.tv/channels/5f4d86f519358a00072b978e/colorLogoPNG.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: 80S Rewind 🇬🇧
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ca525b650be2571e3943c63/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://images.pluto.tv/channels/5ca525b650be2571e3943c63/colorLogoPNG.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Non-Stop '90s 🇺🇸 [ʟᴏcᴀʟɴᴏw]
+URL: https://s9host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/dist/localnow/744/hls/master/playlist.m3u8?ads.cdnhost=s9host3.localnow.api.cms.amdvids.com&ads.playbackid=E2B93420-EB36-4052-B789-2AD8286E402B&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1714063241&ads.n3=qp_content_id&ads.v3=E2B93420-EB36-4052-B789-2AD8286E402B
+Logo: https://provider-static.plex.tv/epg/cms/production/fd2fb28b-86b2-4134-81ba-49a0b10a4e7e/Nonstop90s_1920x1080_-_Paige_Sherman__1_.jpg
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Western Bound 🇺🇸 [sᴛɪʀʀ]
+URL: https://jmp2.uk/str-6595.m3u8
+Logo: https://vcz-ktest2-cloud-vodlix-com.b-cdn.net/u/ktest2/files/thumbs/2025/01/31/1738363007dPIHvjze44-512x512-square.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: SHOUT! TV 🇺🇸
+URL: https://d1e3a0zkn06gu7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-pkf1jz7l0hork/playlist.m3u8
+Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200021JM_20241022T004347CIRCLE.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Universal Monsters 🇺🇸[ᴘʟυᴛᴏ]
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65a9b20f0c7ff50008d3a3b6/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900002QK_20240910T003815SQUARE.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Cinevault 80s 🇺🇸
+URL: https://apollo.production-public.tubi.io/live/ac-cinevault-80s.m3u8
+Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ30000148W_20240730T222508SQUARE.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Cinevault Classics 🇺🇸
+URL: https://gsn-cinevault-classics-1-us.roku.wurl.tv/playlist.m3u8
+Logo: https://canvas-lb.tubitv.com/opts/Skmb-4dsXftLLw==/07448ddf-973b-4340-8779-32376a973248/CHgQeDoFMS4xLjJAAQ==
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Action Hollywood Movies 🇺🇸
+URL: https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
+Logo: https://i.mjh.nz/.images/ahm-FAST.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: TCM 🇺🇸
+URL: http://143.244.60.30/TCM/index.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/5/58/Tcm_logo_red.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: RCM 🇮🇹🇺🇸
+URL: https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-rialto-samsungnz/playlist.m3u8
+Logo: https://provider-static.plex.tv/epg/cms/production/8e9e9106-bf71-4255-a888-f89b1b8f3bd1/RCM_artwork_horizontal_-_Angela_ChanRDX.jpg
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Charlie Silence Movie 🇺🇸
+URL: https://amogonetworx-charlie-1-br.tcl.wurl.tv/playlist.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Chaplin_cartoon.jpg/220px-Chaplin_cartoon.jpg
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: TVS Drive in Movie 🇺🇸🇮🇹
+URL: https://bozztv.com/gusa/gusa-tvsdriveinmovie/tracks-v1a1/mono.m3u8
+Logo: https://www.watchyour.tv/channels/logo/tvs-drive-in-movie.jpg
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Pluto Classic Movies 🇺🇸
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/561c5b0dada51f8004c4d855/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://images.pluto.tv/channels/561c5b0dada51f8004c4d855/colorLogoPNG.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Cowboy Movie Channel [sᴛɪʀʀ]
+URL: https://streams2.sofast.tv/ptnr-stirr/genre-Entertainment/lang-English/ctgr-Movies/title-COWBOY-MOVIE-CHANNEL-ENG/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/manifest.m3u8
+Logo: https://vcz-ktest2-cloud-vodlix-com.b-cdn.net/u/ktest2/files/thumbs/2024/04/08/1712614492V41m7Es0qF-512x512-square.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: CineWestern 🇺🇸
+URL: https://2ff966dcc4f34213a59732a80e87635a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-ch_WP/playlist.m3u8?ads.wurl_channel=933&ads.wurl_name=WP&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
+Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHAJ3500001Z8_20240214T040042SQUARE.png_20240214040043.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Cinevault Westerns 🇺🇸
+URL: https://gsn-cinevault-westerns-1-us.lg.wurl.tv/playlist.m3u8
+Logo: https://canvas-lb.tubitv.com/opts/BSRHayGaLjPoXA==/bda0dfca-9c16-4b67-8930-324a4b7a0dbd/CHgQeDoFMS4xLjVAAQ==
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: LoneStar 🇺🇸
+URL: https://lonestar-rakuten.amagi.tv/playlist.m3u8
+Logo: https://is.gd/noEcbn
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Wild West tv 🇺🇸
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/664e640a0120f40008be4582/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://images.pluto.tv/channels/664e640a0120f40008be4582/thumbnail.jpg
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: TVS Western Movie 🇺🇸🇮🇹
+URL: https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
+Logo: https://www.watchyour.tv/channels/logo/.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Combat & Box 🥊
 Name: WOW Women of Wrestling 🇺🇸
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/66b66b9e14a2bb000872f606/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
 Logo: https://images.pluto.tv/channels/66b66b9e14a2bb000872f606/colorLogoPNG.png
@@ -5038,19 +5226,9 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/668c5d3bfd9eb200
 Logo: https://images.pluto.tv/channels/668c5d3bfd9eb2000882bb50/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: WBTV HBO Boxing 🇺🇸
-URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,WBD-HBO-Boxing.m3u8
-Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/WBHBOBoxing.jpg
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 Name: Boxing TV
 URL: https://1180885077.rsc.cdn77.org/HLS/BOXINGTV.m3u8
 Logo: https://streamstak.com/boxingtv/wp-content/uploads/sites/17/2024/04/boxing-tv-logo-white.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: AXS tv 🇺🇸
-URL: https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
-Logo: https://axs.tv/wp-content/uploads/2024/05/axs-bug-300x122.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Swerve Combat 🇺🇸 [ʟᴏcᴀʟɴᴏw]
@@ -5059,18 +5237,13 @@ Logo: https://provider-static.plex.tv/epg/cms/production/aa449194-1789-42d6-8a03
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Professional Fighters League 🇺🇸
-URL: https://bit.ly/3NjCdK6?profile=inspirationFreetv.m3u8
+URL: https://bit.ly/3NjCdK6?profile=inspirationLinks.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/en/3/32/ProfessionalFightersLeagueShieldLogo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: PFL MMA 🇺🇸
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6334a574605f140007e233c4/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
 Logo: https://images.pluto.tv/channels/6334a574605f140007e233c4/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Strongman Champion League 🇺🇸
-URL: https://rightsboosterltd-scl-1-nl.samsung.wurl.tv/playlist.m3u8
-Logo: https://images.pluto.tv/channels/5e1452156c07b50009d0230e/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: XFC MMA 🇺🇸
@@ -5094,7 +5267,7 @@ Logo: https://images.pluto.tv/channels/63d8dcefda71180008829bcd/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Crimes Files 📁
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Crimes Files 📁
 Name: I Survived… 🇺🇸
 URL: https://d1ewp56x5c748d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-h8q4vtuq45uml/v1/aenetworks_i_survived_1/samsungheadend_us/latest/main/hls/playlist.m3u8
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700008H9_20240520T221515SQUARE.png
@@ -5105,7 +5278,7 @@ URL: https://d3ja4g4lkxnrni.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b7
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300011V9_20241112T002055SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: WBTV Living With Evil 🇺🇸
+Name: Living With Evil by WBtv 🇺🇸
 URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,WBD-Living-with-Evil.m3u8
 Logo: https://canvas-lb.tubitv.com/opts/GmtBToqtn8AmaA==/e4f84ab2-4935-4063-ad29-cc852b91e3b7/CHgQeDoFMS4xLjZAAQ==
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -5116,13 +5289,13 @@ Logo: https://images.pluto.tv/channels/5dae0b4841a7d0000938ddbd/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Law & Crime 🇺🇸
-URL: https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/law-crime/playlist_scte.m3u8
-Logo: https://vcz-ktest2-cloud-vodlix-com.b-cdn.net/u/ktest2/files/thumbs/2024/05/10/1715322161KLh9b4MrYo-512x512-square.png
+URL: https://cdn.lawandcrime.net/rewind/playlist_scte.m3u8
+Logo: https://provider-static.plex.tv/epg/cms/production/1d64d76f-d178-4f6e-83f3-05f9c1054ddf/lc-plex-1500x1000-white-color.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Law & Crime 🇺🇸 [sᴛɪʀʀ]
-URL: https://cdn.lawandcrime.net/rewind/playlist_scte.m3u8
-Logo: https://vcz-ktest2-cloud-vodlix-com.b-cdn.net/u/ktest2/files/thumbs/2024/05/10/1715322161KLh9b4MrYo-512x512-square.png
+Name: TruBlue 🇺🇸
+URL: https://5b53689367b9416f8a130fcca166455b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/TCLTVPlus_TruBlu/playlist.m3u8
+Logo: https://provider-static.plex.tv/epg/cms/production/e0cf5ed8-54af-49b5-8df3-782eaf253618/Plex_Channel_Logo_Lito_Caraballo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: COPS 🇺🇸
@@ -5137,7 +5310,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: JAIL 🇺🇸
 URL: https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-6448ba1baf92c31f4a190c27.m3u8
-Logo: https://provider-static.plex.tv/epg/cms/production/a13ba7a8-630b-41ac-9d6b-6be4eff4f017/JAIL_-_coverArt_-_1920x1080_James_Roebuck.jpg
+Logo: https://provider-static.plex.tv/epg/cms/production/08872b9b-a4a7-4533-a19b-d2c24a7bf2f1/JAIL_-_channel_logo_-_light_-_dark_-_1500x1000.png_James_Roebuck.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Cold Case Files by A&E 🇺🇸
@@ -5152,7 +5325,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: American Crimes 🇺🇸
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65492fc7056b9700088560b5/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
-Logo: https://images.pluto.tv/channels/65492fc7056b9700088560b5/colorLogoPNG.png
+Logo: https://provider-static.plex.tv/2/epg/channels/logos/gracenote/283cd8df7cd9aced05f980443e201452.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: True Crime UK 🇬🇧
@@ -5182,17 +5355,17 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Filmrise True Crime 🇺🇸
 URL: https://d3fmqi91qduj7.cloudfront.net/11401/88814506/hls/master.m3u8?ads.xumo_channelId=88814506&ads.xumo_streamId=88814506
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ27000079E_20241112T231514SQUARE.png
+Logo: https://provider-static.plex.tv/epg/cms/production/452f1693-0c65-4d2d-8fb2-de1ef429164f/FilmRiseTrueCrime_Logo_Color.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Filmrise Forensic Files 🇺🇸
 URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Forensic-Files.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200017MY_20240520T221217SQUARE.png
+Logo: https://provider-static.plex.tv/epg/cms/production/3f79b58a-d938-4555-bed6-f64107110e63/FilmRise_ForensicFiles_Color_Logo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: FilmRise Unsolved Mysteries 🇺🇸
 URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Unsolved-Mysteries.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200018Q6_20240520T221352SQUARE.png
+Logo: https://provider-static.plex.tv/epg/cms/production/3dfda714-2c2e-409d-a54a-c386f8110a3d/FilmRise_UnsolvedMysteries_Color_Logo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Crime Investigation Australia 🇦🇺
@@ -5256,7 +5429,7 @@ Logo: https://images.pluto.tv/channels/5cb6f6f9a461406ffe4022cf/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Doc & History 🏛️
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Doc & History 🏛️
 Name: TV Investigação 🇧🇷
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f32cf37c9ff2b00082adbc8/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
 Logo: https://images.pluto.tv/channels/5f32cf37c9ff2b00082adbc8/colorLogoPNG.png
@@ -5275,16 +5448,6 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 Name: Quebrando o Tabu (cc 🇧🇷)
 URL: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/62cd9e5a5c38c00007f5669a/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=Revolucioniptv&deviceDNT=1
 Logo: https://images.pluto.tv/channels/62cd9e5a5c38c00007f5669a/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Porta dos Fundos 🇧🇷
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f36f2346ede750007332d11/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/5f36f2346ede750007332d11/colorLogoPNG-1602877726414.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Masterchef 🇧🇷
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6077045b6031bd00078de127/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Urban Doc 🇧🇷
@@ -5337,9 +5500,9 @@ URL: https://da8eq3kpws4wh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD35000428O_20240528T020941SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Music Legends 🇺🇸 (vᴘɴ 🇺🇸)
+Name: Music Legends 🇺🇸
 URL: https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-6196c8c01d310bf925e02615.m3u8
-Logo: https://provider-static.plex.tv/epg/cms/production/10fa00f9-1e92-4991-ac14-e391416f6a7c/Music_Legends_artwork_horizontalrdx2.jpg
+Logo: https://provider-static.plex.tv/epg/cms/production/318f5578-72c7-4398-932f-1d993fc9d5f2/Music_Legends_logo_light.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Intervention by A&E 🇺🇸
@@ -5348,21 +5511,16 @@ Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: PBS Digital Studios 🇺🇸
-URL: https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991160
+URL: https://jmp2.uk/sam-USBB800001O7.m3u8
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB800001O7_20240520T214624SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: PBS Digital Studios 🇺🇸 [sᴀᴍsυɴɢᴛᴠᴘʟυs]
-URL: https://d1nlhbqjulacw7.cloudfront.net/hls/samsungtvplus_us_pbsdigitalstudios_002.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB800001O7_20240520T214624SQUARE.png
+Name: Titanic tv 🇺🇸
+URL: https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/titanic-tv/master.m3u8
+Logo: https://d14c63magvk61v.cloudfront.net/hls/22719/titanic-tv/thumbh_20200717_232723.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: House of Docs 🇮🇹
-URL: https://stitcher.pluto.tv/stitch/hls/channel/6536608b4f123d000876b78b/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=89549daf-7b18-11ef-ba05-de36f43a927a
-Logo: https://images.pluto.tv/channels/6536608b4f123d000876b78b/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: WBTV Mysteries Worlds [ᴛυʙɪ]
+Name: Mysteries Worlds by WBtv 🇺🇸
 URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,WBD-Mysteries.m3u8
 Logo: https://canvas.tubitv.com/opts/Mp7hCTYVBwW1MQ==/418647ca-40a0-41bf-be9b-936ab3ed08db/CIACEPACOgUxLjEuMg==
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -5404,7 +5562,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Documentary+ 🇺🇸
 URL: https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/documentary/master.m3u8
-Logo: https://provider-static.plex.tv/epg/cms/production/f9a845dc-b33b-49af-b7dd-1de1b50a61d3/documentaryplus_logo_dark_1_.png
+Logo: https://provider-static.plex.tv/epg/cms/production/24df67bc-967c-4662-a975-6f54c9c0657a/documentaryplus_logo_dark_1_WHT.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: History Hit 🇺🇸
@@ -5448,10 +5606,25 @@ Logo: https://images.pluto.tv/channels/5bb3fea0f711fd76340eebff/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Fanny & Comedy 😂
-Name: Tales From the Clip't 🇺🇸
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Fanny & Comedy 😂
+Name: Mr.Bean 🇪🇸🇬🇧 [ʀᴀkυᴛᴇɴ]
+URL: https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/Mr%20Bean.webp
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Mr. Bean 🇮🇹🇬🇧
+URL: https://amg00627-amg00627c27-samsung-au-3944.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanko-samsungau/playlist.m3u8
+Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900001A7_20241106T142453SQUARE.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Porta dos Fundos 🇧🇷
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f36f2346ede750007332d11/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://images.pluto.tv/channels/5f36f2346ede750007332d11/colorLogoPNG-1602877726414.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Always Funny 🇺🇸
 URL: https://d2hnz12weo628w.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/AFV2-prod/samsung.m3u8
-Logo: https://images.pluto.tv/channels/554158e864526b29254ff105/colorLogoPNG.png
+Logo: https://provider-static.plex.tv/epg/cms/production/1bfcb8e4-9593-4914-aa02-14b966a2ec7e/AF_Logo_for_Light_BG__transparent__-_Jose_RiveraRDX.png group-title=
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Comedy Central Roast 🇺🇸
@@ -5470,112 +5643,10 @@ Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Filmes Clássicos 📼
-Name: Nost Network (vᴘɴ 🇺🇸)
-URL: https://dai.google.com/linear/hls/event/wnQPvAN9QBODw9hP-H0rZA/master.m3u8
-Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/NOST-1080x1080.jpg/800px-NOST-1080x1080.jpg
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: WBTV Classic Cinema 🇺🇸
-URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,WBD-Classic-Cinema.m3u8
-Logo: https://canvas.tubitv.com/opts/n101qdscaAvbSg==/e1b1d4ba-dfdb-4441-a534-b34b25ce8654/CNIHEMAEOgUxLjEuMg==
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: FilmStream 🇺🇸
-URL: https://spi-filmstream-1-nl.samsung.wurl.tv/playlist.m3u8
-Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBAJ4900011Y4_20220323T071426SQUARE.png_20220323071430.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: FilmRise Classic TV 🇺🇸
-URL: https://d3fmqi91qduj7.cloudfront.net/11401/88814514/hls/master.m3u8?ads.xumo_channelId=88814514&ads.xumo_streamId=88814514
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700008QA_20220824T022329SQUARE.png_20220824022330.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: FilmRise Classic TV 🇺🇸
-URL: https://d3bpiam1on3fys.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yq6a0kzddrjxn/webvtt/v1/18584c3f3a2a4df8/88866005/master.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700008QA_20220824T022329SQUARE.png_20220824022330.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: 00S REPLAY 🇬🇧
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62ba60f059624e000781c436/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: 90S Throwback 🇬🇧
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f4d86f519358a00072b978e/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/5f4d86f519358a00072b978e/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: 80S Rewind 🇬🇧
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ca525b650be2571e3943c63/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/5ca525b650be2571e3943c63/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Non-Stop '90s 🇺🇸 [ʟᴏcᴀʟɴᴏw]
-URL: https://s9host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/dist/localnow/744/hls/master/playlist.m3u8?ads.cdnhost=s9host3.localnow.api.cms.amdvids.com&ads.playbackid=E2B93420-EB36-4052-B789-2AD8286E402B&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1714063241&ads.n3=qp_content_id&ads.v3=E2B93420-EB36-4052-B789-2AD8286E402B
-Logo: https://provider-static.plex.tv/epg/cms/production/fd2fb28b-86b2-4134-81ba-49a0b10a4e7e/Nonstop90s_1920x1080_-_Paige_Sherman__1_.jpg
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Western Bound 🇺🇸 [sᴛɪʀʀ]
-URL: https://jmp2.uk/str-6595.m3u8
-Logo: https://vcz-ktest2-cloud-vodlix-com.b-cdn.net/u/ktest2/files/thumbs/2025/01/31/1738363007dPIHvjze44-512x512-square.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: SHOUT! TV 🇺🇸
-URL: https://d1e3a0zkn06gu7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-pkf1jz7l0hork/playlist.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200021JM_20241022T004347CIRCLE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Universal Monsters 🇺🇸[ᴘʟυᴛᴏ]
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65a9b20f0c7ff50008d3a3b6/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900002QK_20240910T003815SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Cinevault 80s 🇺🇸
-URL: https://apollo.production-public.tubi.io/live/ac-cinevault-80s.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ30000148W_20240730T222508SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Cinevault Classics 🇺🇸 [ᴛυʙɪ]
-URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,CINEVAULT-Classics.m3u8
-Logo: https://canvas-lb.tubitv.com/opts/Skmb-4dsXftLLw==/07448ddf-973b-4340-8779-32376a973248/CHgQeDoFMS4xLjJAAQ==
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Cinevault Classics 🇺🇸 [ʀᴏkυ]
-URL: https://gsn-cinevault-classics-1-us.roku.wurl.tv/playlist.m3u8
-Logo: https://canvas-lb.tubitv.com/opts/Skmb-4dsXftLLw==/07448ddf-973b-4340-8779-32376a973248/CHgQeDoFMS4xLjJAAQ==
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Action Hollywood Movies 🇺🇸
-URL: https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
-Logo: https://i.mjh.nz/.images/ahm-FAST.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: TCM 🇺🇸
-URL: http://143.244.60.30/TCM/index.m3u8
-Logo: https://upload.wikimedia.org/wikipedia/commons/5/58/Tcm_logo_red.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: RCM 🇮🇹🇺🇸
-URL: https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-rialto-samsungnz/playlist.m3u8
-Logo: https://provider-static.plex.tv/epg/cms/production/8e9e9106-bf71-4255-a888-f89b1b8f3bd1/RCM_artwork_horizontal_-_Angela_ChanRDX.jpg
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Charlie Silence Movie 🇺🇸
-URL: https://amogonetworx-charlie-1-br.tcl.wurl.tv/playlist.m3u8
-Logo: https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Chaplin_cartoon.jpg/220px-Chaplin_cartoon.jpg
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: TVS Drive in Movie 🇺🇸🇮🇹
-URL: https://bozztv.com/gusa/gusa-tvsdriveinmovie/tracks-v1a1/mono.m3u8
-Logo: https://www.watchyour.tv/channels/logo/tvs-drive-in-movie.jpg
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Filmes Terror 😱
-Name: Paranormal 👽 🇧🇷
-URL: https://stitcher.pluto.tv/stitch/hls/channel/656e2a81954b020008ed17a4/master.m3u8?deviceType=web&servertSideAds=true&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=ab3b5982-6948-11ef-ae29-0647e4d345b9
-Logo: https://images.pluto.tv/channels/656e2a81954b020008ed17a4/colorLogoPNG.png
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Filmes Terror 😱
+Name: Dark Matter 🇺🇸
+URL: https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dark-matter-tv/master.m3u8
+Logo: https://images.pluto.tv/channels/5e843d849109b700075d5ada/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Clube de Terror 🇧🇷
@@ -5638,12 +5709,12 @@ URL: https://bloodydisgustingtv-localnow-cinedigm-com.akamaized.net/index.m3u8
 Logo: https://img2.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/screambox_500x500_011924.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Watch it Scream 🇺🇸 [ᴏᴛᴛᴇʀᴀ]
+Name: Watch it Scream 🇺🇸
 URL: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2257
 Logo: https://img1.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/watchitscream_500x500_011924.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: TCL Horror 🇺🇸 [ᴏᴛᴛᴇʀᴀ]
+Name: TCL Horror 🇺🇸
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=12075
 Logo: https://m.media-amazon.com/images/M/MV5BMDU3ZGUxNzYtNzI2Yi00MDNkLTgxYzYtMDcyOGI0ZmEwMGEzXkEyXkFqcGc@._V1_.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -5698,8 +5769,8 @@ URL: https://e9ee87fcc9f2409f998e7aa106f64672.mediatailor.us-east-1.amazonaws.co
 Logo: https://provider-static.plex.tv/epg/cms/production/af69a56a-b26a-42d5-8978-176bbace29a8/SHUD_FastChanel_Plex_HorizontalArt_3840x2160.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Freetv Terror (vᴘɴ 🇺🇸)
-URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-enghorrorfy-freetv/playlist.m3u8
+Name: Freetv Terror 🇨🇱
+URL: http://nxt.plus:8080//live/olmos/1234guz/252777.m3u8
 Logo: https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/freetv_horror_1080x1080_02092024.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -5718,55 +5789,8 @@ URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubipr
 Logo: https://image.roku.com/developer_channels/prod/1d2d97093f7a391b79c46ee5c2c4c5403df2baa84deabf2641f15b4c2234da05.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Fear Zone 🇺🇸
-URL: https://d2poaftv7vl6fy.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6sd5tbxf0p3kk-ssai-prd/amgholidaymovie/playlist.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1300012VK_20241014T232248SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Filmes Western 🤠
-Name: Pluto Classic Movies 🇺🇸
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/561c5b0dada51f8004c4d855/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/561c5b0dada51f8004c4d855/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Cowboy Movie Channel [sᴛɪʀʀ]
-URL: https://streams2.sofast.tv/ptnr-stirr/genre-Entertainment/lang-English/ctgr-Movies/title-COWBOY-MOVIE-CHANNEL-ENG/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/manifest.m3u8
-Logo: https://vcz-ktest2-cloud-vodlix-com.b-cdn.net/u/ktest2/files/thumbs/2024/04/08/1712614492V41m7Es0qF-512x512-square.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: CineWestern 🇺🇸
-URL: https://2ff966dcc4f34213a59732a80e87635a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-ch_WP/playlist.m3u8?ads.wurl_channel=933&ads.wurl_name=WP&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
-Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHAJ3500001Z8_20240214T040042SQUARE.png_20240214040043.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Cinevault Westerns 🇺🇸
-URL: https://gsn-cinevault-westerns-1-us.lg.wurl.tv/playlist.m3u8
-Logo: https://canvas-lb.tubitv.com/opts/BSRHayGaLjPoXA==/bda0dfca-9c16-4b67-8930-324a4b7a0dbd/CHgQeDoFMS4xLjVAAQ==
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: LoneStar 🇺🇸
-URL: https://lonestar-rakuten.amagi.tv/playlist.m3u8
-Logo: https://is.gd/noEcbn
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Wild West tv 🇺🇸
-URL: https://linear-799.frequency.stream/mt/studio/799/hls/master/playlist.m3u8
-Logo: https://images.pluto.tv/channels/664e640a0120f40008be4582/thumbnail.jpg
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Wild West tv 🇺🇸
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/664e640a0120f40008be4582/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/664e640a0120f40008be4582/thumbnail.jpg
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: TVS Western Movie 🇺🇸🇮🇹
-URL: https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
-Logo: https://www.watchyour.tv/channels/logo/.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Filmes 📽️
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Filmes 📽️
 Name: Channel 1 🇧🇷
 URL: https://stmv1.srvif.com/movies1/movies1/playlist.m3u8
 Logo: https://raw.githubusercontent.com/mariosanthos/arquivos/main/channel1.png
@@ -5802,49 +5826,34 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5fa1612a669ba000
 Logo: https://images.pluto.tv/channels/5fa1612a669ba0000702017b/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Runtime Tv 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Runtime Tv & Filmes 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153
 Logo: https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Runtime Tv & Filmes 🇧🇷
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62c5d32e2c48f9000715b6e9livestitch/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Runtime Família 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Runtime Família 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=5589
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/runtime.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Runtime Comedia 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Runtime Comedia 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=2553
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/runtime.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Runtime CinEspanto 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Runtime CinEspanto 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=4865
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/runtime.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Runtime Crime 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Runtime Crime 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=4864
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/runtime.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Runtime Action 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Runtime Action 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=2552
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/runtime.webp
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Runtime Action 🇧🇷
-URL: https://d3vx6kwn4pkd9t.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fj2q06aizeppd-prod/run/rt_ra/rt_ra.m3u8
-Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/runtime.webp
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Dark Matter 🇧🇷
-URL: https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_br_darkmatter_002.m3u8
-Logo: https://images.pluto.tv/channels/5e843d849109b700075d5ada/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Pluto Comédia 🇧🇷
@@ -5852,7 +5861,7 @@ URL: https://stitcher.pluto.tv/stitch/hls/channel/620d1512c7986a0007220213/maste
 Logo: https://images.pluto.tv/channels/6001f3018502100007f528ac/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Tv Club
+Name: Tv Club 🇧🇷
 URL: https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8
 Logo: https://play-lh.googleusercontent.com/Ljv6jExK7D7eY9l157ZVUNpfpuMaODwReMerYF1jBEaRvdFDgarJ1q1lj1e4Jgb3IZc=w0
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -5872,6 +5881,11 @@ URL: https://video04.logicahost.com.br/soumaispop/soumaispop/playlist.m3u8
 Logo: https://soumaispop.com.br/storage/642/config/Z1uNOZZ3rKAkhyogFhAHaBYFnkOooDbEIu8rFoSY.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
+Name: Trailers 🇪🇸
+URL: https://bit.ly/3WChqoj?ESBC1700004PX.m3u8
+Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA3300048YJ_20240709T045109SQUARE.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 Name: Family Movie Club 🇬🇧
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5dc3fc6b9133f500099c7d98/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=github.com/inspirationlinks&deviceDNT=1
 Logo: https://images.pluto.tv/channels/5dc3fc6b9133f500099c7d98/colorLogoPNG.png
@@ -5879,7 +5893,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Tubi Originals 🇺🇸
 URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Tubi-Originals.m3u8
-Logo: https://static.wikia.nocookie.net/logopedia/images/1/12/Tubi_Originals_2021.png
+Logo: https://canvas-lb.tubitv.com/opts/dPPQ6xMjYinbvg==/741d881e-657c-4a15-8ba8-847bab267f6e/CHgQeDoFMS4xLjZAAQ==
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Viafree Movies 🇺🇸
@@ -5892,19 +5906,9 @@ URL: https://d1h1d6qoy9vnra.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743
 Logo: https://i.imgur.com/KbmXdjm.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Rakuten British Films 🇬🇧
-URL: https://rakuten-british-films-1-gb.vidaa.wurl.tv/playlist.m3u8
-Logo: https://yt3.googleusercontent.com/sC6_eDb_dPx9GKys5Ewglk_pCmHzdOpMeaq0OV_l2Kbxp2nhC4pThY_a-sbLh0xz3ohVqcvMhQ=s900-c-k-c0x00ffffff-no-rj
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Rakuten Thriller 🇬🇧
-URL: https://rakuten-thriller-1-gb.vidaa.wurl.tv/playlist.m3u8
-Logo: https://yt3.googleusercontent.com/sC6_eDb_dPx9GKys5Ewglk_pCmHzdOpMeaq0OV_l2Kbxp2nhC4pThY_a-sbLh0xz3ohVqcvMhQ=s900-c-k-c0x00ffffff-no-rj
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 Name: CinePride 🇺🇸
 URL: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2250
-Logo: https://provider-static.plex.tv/epg/cms/production/4729689c-cf27-4e2b-886c-165b4656c006/Cinepride_artwork_horizontal.jpeg
+Logo: https://provider-static.plex.tv/epg/cms/production/f9b44328-8571-4e8a-9066-022bd8665082/cinepride-logo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Cine Drama 🇪🇸
@@ -5964,7 +5968,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Miramax Movies Cnannel 🇺🇸
 URL: https://linear-798.frequency.stream/mt/plex/798/hls/master/playlist.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US18000163F_20240716T002709SQUARE.png
+Logo: https://provider-static.plex.tv/epg/cms/production/39d7cc81-90e2-4ffa-a5f3-8cdc69c86db6/MIRAMAX_LOGO_VARIATION_2_-_Gabe_Evans.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: FilmRise 🇺🇸
@@ -5994,7 +5998,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Gravitas Movies 🇺🇸
 URL: https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991312
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700011RE_20240520T222902SQUARE.png
+Logo: https://provider-static.plex.tv/epg/cms/production/e33abab2-b500-4189-820b-b4448eaec393/1500x1000_Christmas_Channel_Logo_TRANSPARENTRDX.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Paramount Movie Channel 🇺🇸
@@ -6010,6 +6014,11 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 Name: MovieSphere by Lionsgate 🇺🇸
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/64a3d96f060e830008af6745/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
 Logo: https://images.pluto.tv/channels/64a3d96f060e830008af6745/colorLogoPNG.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Stars Films & Series 🇮🇹
+URL: https://stitcher.pluto.tv/stitch/hls/channel/6536608b4f123d000876b78b/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=89549daf-7b18-11ef-ba05-de36f43a927
+Logo: https://images.pluto.tv/channels/6536608b4f123d000876b78b/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: MovieDome 🇬🇧
@@ -6037,9 +6046,9 @@ URL: https://d3l10ju7ii2sha.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b7
 Logo: https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/07/31/USBB19000017U_20210525T051431.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Movieitaly Channel 🇺🇸🇮🇹
+Name: Movie Italy Channel 🇺🇸🇮🇹
 URL: https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-65d90ec99c7a6da8c3ce57eb.m3u8
-Logo: https://provider-static.plex.tv/epg/cms/production/6f847490-8a69-42db-8e89-3e0cc53f4168/HORIZONtalMI_O_-_Simona_Campobasso.jpg
+Logo: https://provider-static.plex.tv/epg/cms/production/cd9cec29-1cdc-4cd0-b7c2-cdd8fc377536/Color_White_MI_LOGO1_-_Simona_CampobassoRDX.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Midnight Pulp 🇺🇸🇰🇷
@@ -6054,12 +6063,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Samuel Goldwyn Films 🇺🇸 [ʀᴏkυ]
 URL: https://samuelgoldwyn-films-1-us.roku.wurl.tv/playlist.m3u8
-Logo: https://i.imgur.com/XC30JAF.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Samuel Goldwyn Classic Films 🇺🇸 [ʀᴏkυ]
-URL: https://samuelgoldwyn-classics-1-us.roku.wurl.tv/playlist.m3u8
-Logo: https://upload.wikimedia.org/wikipedia/en/1/12/SamuelGoldwyn.jpg
+Logo: https://provider-static.plex.tv/epg/cms/production/a3e63712-9262-428d-9e1c-a00c179a5454/samuel-goldwyn-channel-logo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Filmzie 🇺🇸
@@ -6079,7 +6083,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: 24 Hour Free Movies 🇺🇸
 URL: https://d1b5mlajbmvkjv.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/UDU-DistroTV/145.m3u8
-Logo: https://provider-static.plex.tv/epg/images/ott_channels/arts/24hrfreemovies_artwork_horizontal-v2.jpg
+Logo: https://provider-static.plex.tv/epg/images/ott_channels/logos/24hrfreemovies_logo_dark.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Bigtime Peliculas Gratis 🇲🇽
@@ -6087,18 +6091,8 @@ URL: https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.co
 Logo: https://provider-static.plex.tv/epg/cms/production/69cadeae-c655-4fcf-bd79-32db7a817365/Bigtime_Logo_WithArtwork_3840x2160_Daniel_Hotovy__Amogo_Networx_.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Freetv Acción 🇨🇱 [ʀᴏkυ]
-URL: https://aka-live553.delivery.roku.com/b762280f-781a-4038-b656-37160fd5e8af/t2-origin/out/v1/live.m3u8
-Logo: https://provider-static.plex.tv/epg/cms/production/b55e7498-db05-435b-b2df-2eb737aeeeb8/FreeTVAction_Circle_1500x1000_-_Ralph_Campillo.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Freetv Live 🇨🇱 (vᴘɴ 🇺🇸)
-URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-freetvcl-lgcl/playlist.m3u8
-Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/abb2072bbd91067dea9ef6dd9be705de.webp
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Food & Travel 🍽️✈️
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Food & Travel 🍽️✈️
 Name: Love Wineᶠᴴᴰ 🇺🇸
 URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovewineusuk-lgau/playlist.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/Lovewine.webp
@@ -6121,7 +6115,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: The Jamie Oliver Channel 🇺🇸
 URL: https://stitcher.pluto.tv/stitch/hls/channel/64dab9df3d48f40008868091/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=80f90cf7-7a92-11ef-97cb-02e0fd7f02bc
-Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC4000002H3_20231213T103959SQUARE.png_20231213104000.png
+Logo: https://canvas-lb.tubitv.com/opts/vzcpEKO218Lk8Q==/bb725ad2-1855-4a84-bfa6-a0b7ea8482c4/CHgQeDoFMS4xLjZAAQ==
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Cozinha 🇧🇷
@@ -6149,7 +6143,7 @@ URL: https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8
 Logo: https://www.andaluciacocina.com/wp-content/uploads/ACocina.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Cocina Familiar 🇪🇸 [ᴏᴛᴛᴇʀᴀ]
+Name: Cocina Familiar 🇪🇸
 URL: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12108
 Logo: https://graph.facebook.com/cocinafamiliarjr/picture?width=200&height=200
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -6204,17 +6198,17 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60511efd71ec4300
 Logo: https://images.pluto.tv/channels/60511efd71ec430007f50d97/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Andalucía Turismo 🇪🇸 [ᴏᴛᴛᴇʀᴀ]
+Name: Andalucía Turismo 🇪🇸
 URL: https://stream-us-east-1.getpublica.com/playlist.m3u8?&network_id=12685&live=1
 Logo: https://yt3.googleusercontent.com/ytc/APkrFKYsl5e6jEIMtXIoTUHvkJqXxDfASrvQP_QFRRww=s200
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: WBTV Travel + Adventure 🇺🇸 [ᴛυʙɪ]
+Name: Travel + Adventure by WBtv 🇺🇸
 URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,WBD-Travel-and-Adventure.m3u8
 Logo: https://tap9.myagentgenie.com/mrdramatic08/wp-content/uploads/sites/7785/2024/02/wbtravel-png-e1710719840364.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Travel and food 🇬🇧 [ᴏᴛᴛᴇʀᴀ]
+Name: Travel and food 🇬🇧
 URL: https://linear-795.frequency.stream/mt/studio/795/hls/master/playlist.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -6240,7 +6234,7 @@ Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/Travel%26Living.w
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: 4k Travel tv 🇺🇸
-URL: https://bit.ly/3NiZ1tp?profile=inspirationFreetv.m3u8
+URL: https://bit.ly/3NiZ1tp?profile=inspirationLinks.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/travel4k.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -6285,7 +6279,7 @@ Logo: https://yt3.ggpht.com/ytc/AAUvwnhqCnqNTdS0PrE_H0yC2ZQ9cibQr1-JD4Pg6mCVLQ=s
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Golf 🏌️
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Golf 🏌️
 Name: NBC Golf 🇺🇸
 URL: http://49.0.64.96:8007/GOLF
 Logo: https://upload.wikimedia.org/wikipedia/commons/0/08/Golf_Channel_Logo.png
@@ -6332,12 +6326,7 @@ Logo: https://www.jsports.co.jp/favicon.ico
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Hunt & Fishing 🐗🎣
-Name: Fishtv 🇧🇷
-URL: http://15.235.11.7:14165/FishitvSD
-Logo: https://logo.iptveditor.com/fishtv.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Hunt & Fishing 🐗🎣
 Name: Italian Fishing TV 🇮🇹
 URL: https://d2n1ucuifwse4q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5nki8b8udz6dm/index.m3u8
 Logo: https://logo.iptveditor.com/italianfishing.png
@@ -6404,8 +6393,8 @@ Logo: https://provider-static.plex.tv/epg/images/ott_channels/logos/waypointtv_l
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Lifestyles 🛍️
-Name: BelAiR tv 🇺🇸
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Lifestyles 🛍️
+Name: Museum tv 🇺🇸
 URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-tcl/playlist.m3u8
 Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA3300064WS_20241015T035833SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -6421,13 +6410,13 @@ Logo: https://images.pluto.tv/channels/66d71485167a8b0008fd3345/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: 5 Minute Crafts 🇺🇸
-URL: https://bit.ly/3QLfTvi?profile=inspirationFreetv.m3u8
+URL: https://bit.ly/3QLfTvi?profile=inspirationLinks.m3u8
 Logo: https://provider-static.plex.tv/epg/cms/production/52b33d5e-f48e-472d-896c-94759eccc1e4/5-Minute_Crafts_1500x1000_White.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Wellbeing TV 🇫🇷
-URL: https://stitcher.pluto.tv/stitch/hls/channel/62f21f7e0f61420008273b9e/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=b72fc4e7-6948-11ef-b196-e6200563439a
-Logo: https://images.pluto.tv/channels/62f21f7e0f61420008273b9e/colorLogoPNG.png
+Name: Cirque du Soleil 🇫🇷🇺🇸
+URL: https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-67642f277c5e3b38af72dcdb.m3u8
+Logo: https://provider-static.plex.tv/3/epg/channels/logos/gracenote/38945a2afcb8ce8ae6b5fe557e908b2f.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Bravo Vault 🇺🇸
@@ -6455,14 +6444,19 @@ URL: https://d3ouy9idpr6kd5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b7
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200009HX_20250121T094858SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
+Name: The Boat Show 🇮🇹
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/63eb58aa60bc8f0008caa8f8/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://provider-static.plex.tv/epg/images/ott_channels/logos/vitor_theboatshow_1.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ MotorSports 🏎️🏍
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ MotorSports 🏎️🏍
 Name: MAVTV Brasil (cc 🇧🇷)[ᴘʟυᴛᴏ]
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65a6818c7bdc8d0008457b21livestitch/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
 Logo: https://images.pluto.tv/channels/65a6818c7bdc8d0008457b21/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Nascar
+Name: Nascar [vpn 🇺🇸]
 URL: https://apollo.production-public.tubi.io/live/nascar-XG7L6P.m3u8
 Logo: https://canvas-lb.tubitv.com/opts/awq0Ipvigmlm5A==/7739dd1a-423d-4a56-92c7-d27129356eb0/CHgQeDoFMS4xLjZAAQ==
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -6552,7 +6546,7 @@ URL: https://stitcher.pluto.tv/stitch/hls/channel/63b48016d9dd51000828fa37/maste
 Logo: https://images.pluto.tv/channels/63b48016d9dd51000828fa37/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Motorvision 🇺🇸 [ᴏᴛᴛᴇʀᴀ]
+Name: Motorvision 🇺🇸
 URL: https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8
 Logo: https://images.pluto.tv/channels/60e5ea9a9bb4200008376f76/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -6583,7 +6577,17 @@ Logo: https://images.pluto.tv/channels/5f760c3d41aa2d0007bfde19/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Paranormal 👽
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Paranormal 👽
+Name: Paranormal 👽 🇧🇷
+URL: https://stitcher.pluto.tv/stitch/hls/channel/656e2a81954b020008ed17a4/master.m3u8?deviceType=web&servertSideAds=true&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=ab3b5982-6948-11ef-ae29-0647e4d345b9
+Logo: https://images.pluto.tv/channels/656e2a81954b020008ed17a4/colorLogoPNG.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Fear Zone 🇺🇸
+URL: https://d2poaftv7vl6fy.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6sd5tbxf0p3kk-ssai-prd/amgholidaymovie/playlist.m3u8
+Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1300012VK_20241014T232248SQUARE.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 Name: Unidentified 🇺🇸
 URL: https://d3ify425qsio2d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/Unidentified-prod/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai=SSSLIVE
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB10000047W_20240520T214719SQUARE.png
@@ -6594,12 +6598,12 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5adf96e3e738977e
 Logo: https://images.pluto.tv/channels/5adf96e3e738977e2c31cb04/colorLogoPNG-1646155426722.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: WB TV Paranormal 🇺🇸
+Name: Paranormal by WBtv 🇺🇸
 URL: https://mediapackage-azf5-source.fullscreen.nz/index.m3u8
 Logo: https://cdn.fullscreen.nz/threenow/prod/channels/livestream/1700521701602/20231121T120842_paranormallogo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: WB TV Ghosts Are real 🇺🇸 [ᴛυʙɪ]
+Name: Ghosts Are real by WBtv 🇺🇸 [ᴛυʙɪ]
 URL: https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,WBD-Supernatural.m3u8
 Logo: https://provider-static.plex.tv/epg/cms/production/77d3a610-a796-44fc-b5e7-8b414bbf032a/16x9.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -6612,6 +6616,11 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 Name: Beyond Belief Fact or Fiction 🇺🇸
 URL: https://stitcher.pluto.tv/stitch/hls/channel/611f85396abc84000738417b/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=9438b638-7b18-11ef-9825-de7fcdd69a13
 Logo: https://images.pluto.tv/channels/611f85396abc84000738417b/colorLogoPNG.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Ghost Dimension 🇺🇸
+URL: https://dr2t9f8nivbc6.cloudfront.net/hls/WZBGXZA/20D476E24693/m.m3u8
+Logo: https://player.api.stv.tv/v1/images/650124/rendition/?redirect=true&width=1000&height=1000
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Ghost Hunters 🇺🇸
@@ -6645,7 +6654,7 @@ Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Pets 🐶
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Pets 🐶
 Name: AKC Dogs tv 🇺🇸
 URL: https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
 Logo: https://web.akctvcontrol.com/webapp/assets/AKCtv-masthead-wTM-min.png
@@ -6682,7 +6691,7 @@ Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/PetClubtv.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Barktv 🇺🇸
-URL: https://bit.ly/41putuh?profile=inspirationFreetv.m3u8
+URL: https://bit.ly/41putuh?profile=inspirationLinks.m3u8
 Logo: https://streamstak.com/barktv/wp-content/uploads/sites/55/2024/04/barktv_logo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -6707,7 +6716,7 @@ Logo: https://images.pluto.tv/channels/599375885ceaac3cabccbed7/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Poker 🃏
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Poker 🃏
 Name: Triton Poker 🇺🇸
 URL: https://stitcher.pluto.tv/stitch/hls/channel/661827ffe8fba800086b217d/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=cb5874fc-6948-11ef-b8e3-ea3db3d97a96
 Logo: https://images.pluto.tv/channels/661827ffe8fba800086b217d/colorLogoPNG.png
@@ -6739,9 +6748,14 @@ Logo: https://images.pluto.tv/channels/5fc54366b04b2300072e31af/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Radical 🏄⛷️
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Radical 🏄⛷️
 Name: Canal Off 🇧🇷
 URL: http://15.235.11.7:14075/CanalOFF
+Logo: https://logo.iptveditor.com/canaloff.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Canal Off 🇧🇷
+URL: https://onplaytv.net/canaloff/index.m3u8
 Logo: https://logo.iptveditor.com/canaloff.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -6750,7 +6764,7 @@ URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbr-samsungb
 Logo: https://provider-static.plex.tv/6/epg/channels/logos/gracenote/6d37acb509ed72b6cc59cdb32828cbc0.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: EN).no" tvg-logo="https://github.com/inspirationlinks/m3u/raw/live/LogosTv/fuel.webp" group-title="​🅿🅻🆄🆃🅾 🌎|☆ Radical 🏄⛷️",Fuel tv 🇺🇸
+Name: EN).no" tvg-logo="https://github.com/inspirationlinks/m3u/raw/live/LogosTv/fuel.webp" group-title="​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Radical 🏄⛷️",Fuel tv 🇺🇸
 URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeaen-lggb/playlist.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/fuel.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -6801,7 +6815,7 @@ Logo: https://images.pluto.tv/channels/63c9550df13a9b00078677a7/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Nitro Circus tv 🇺🇸
-URL: https://bit.ly/3ts1jzy?profile=inspirationFreetv.m3u8
+URL: https://bit.ly/3ts1jzy?profile=inspirationLinks.m3u8
 Logo: https://encurtador.com.br/HGlKl
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -6816,7 +6830,7 @@ Logo: https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/55/
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Horizon Sports 🇺🇸
-URL: https://b.link/6pi6fjcx?profile=inspirationFreetv.m3u8
+URL: https://b.link/6pi6fjcx?profile=inspirationLinks.m3u8
 Logo: https://horizonsports.tv/assets/imgs/HsLogo45.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -6851,8 +6865,8 @@ Logo: https://provider-static.plex.tv/epg/cms/production/f477c6bf-6e85-45d0-bd00
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Sports Gaming 🎮
-Name: Ubisoft tv 🇧🇷 🎮 [ᴏᴛᴛᴇʀᴀ]
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Sports Gaming 🎮
+Name: Ubisoft tv 🇧🇷 🎮
 URL: https://ubl-ut-samsung.otteravision.com/ubl/ut/ut.m3u8
 Logo: https://images.pluto.tv/channels/64c815e8a1c6130008fef928/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -6883,7 +6897,7 @@ Logo: https://images.pluto.tv/channels/5fb554d87a0c480007c8dada/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Sports Horse Racing 🐴
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Sports Horse Racing 🐴
 Name: Horse and Country 🇬🇧
 URL: https://amg00810-hctvltd-hncfree-localnow-t4eey.amagi.tv/playlist.m3u8
 Logo: https://horseandcountry.tv/img/logo/hnc-desktop-white.png
@@ -6900,19 +6914,7 @@ Logo: https://i.imgur.com/CZ2wQig.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Sports NBA
-Name: NBA Fast Channel 🇺🇸
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6792c30abc03978b9b8bb832/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/6792c30abc03978b9b8bb832/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: NBA Fast Channel (vᴘɴ 🇺🇸)
-URL: https://apollo.production-public.tubi.io/live/nba-xveaQ4.m3u8
-Logo: https://canvas-lb.tubitv.com/opts/M21SbPNaRf7XiQ==/7d258341-afc7-4022-acd4-ce330c6db573/CHgQeDoFMS4xLjJAAQ==
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Sports 🇬🇧🇺🇸🇩🇪
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Sports 🇬🇧🇺🇸🇩🇪
 Name: MUTV 🇬🇧
 URL: https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/MUTV.webp
@@ -6963,19 +6965,14 @@ URL: https://dhernglcdl9xo.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73
 Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB26000118T_20241017T132811SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: DFB Play TV 🇬🇧🇪🇸 [sᴀᴍsυɴɢᴛᴠᴘʟυs]
-URL: https://d2t2ysriy83qdz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-e8pyyaxy3l7mo/dfbtv.m3u8
-Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB26000118T_20241017T132811SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Fubo Sports Network (vᴘɴ 🇺🇸)[ᴛυʙɪ]
-URL: https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Cloudfront-Fubo.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ2200023Z0_20240520T220026SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Fubo Sports Network (vᴘɴ 🇺🇸)[ᴛᴀʙʟᴏ]
+Name: Fubo Sports Network (vᴘɴ 🇺🇸)
 URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00242-fubotvinc-fubosports-tablo/playlist.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ2200023Z0_20240520T220026SQUARE.png
+Logo: https://provider-static.plex.tv/0/epg/channels/logos/gracenote/06c47ba211d9363a6b220b9ab6301be0.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Unbeaten Sports Channel 🇺🇸
+URL: https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00721-inverleigh-unbeaten-xiaomi/playlist.m3u8
+Logo: https://images.pluto.tv/channels/639b549d69e63c0007854fa0/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: European League of Football 🇺🇸
@@ -7010,7 +7007,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Pac 12 Insider 🇺🇸 [sᴀᴍsυɴɢᴛᴠᴘʟυs]
 URL: https://bit.ly/3u6nprG?USBA300034DB.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300034DB_20240520T215920SQUARE.png
+Logo: https://provider-static.plex.tv/epg/cms/production/a3c09b3c-9f7e-40e9-b14e-5174a45ad551/P12_Insider_blue_-_Sean_Kent.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Origin Sports 🇺🇸 [sᴀᴍsυɴɢᴛᴠᴘʟυs]
@@ -7043,29 +7040,19 @@ URL: https://amg01416-faststudios-womensnetwork-plex-rzxxu.amagi.tv/playlist/amg
 Logo: https://womenssports.com/wp-content/uploads/2024/07/smallWSNShortLogoFuego-1.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Women's Sports Network 🇺🇸 [ᴛυʙɪ]
-URL: https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Fast-Studios-Womens-Sports.m3u8
-Logo: https://womenssports.com/wp-content/uploads/2024/07/smallWSNShortLogoFuego-1.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Women's Sports Network 🇺🇸 [ᴠɪzɪᴏ]
-URL: https://womensnetwork-vizio.amagi.tv/hls/amagi_hls_data_vizioAAAA-womensnetwork-vizio/CDN/playlist.m3u8
-Logo: https://womenssports.com/wp-content/uploads/2024/07/smallWSNShortLogoFuego-1.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Women's Sports Network 🇺🇸 [ᴛcʟ]
+Name: Women's Sports Network 🇺🇸
 URL: https://faststudios-womensnetwork-tcl.amagi.tv/playlist.m3u8
 Logo: https://womenssports.com/wp-content/uploads/2024/07/smallWSNShortLogoFuego-1.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: NBA Fast Channel 🇺🇸
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6792c30abc03978b9b8bb832/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://images.pluto.tv/channels/6792c30abc03978b9b8bb832/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Scooore 🇩🇪
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/660e97bce8fba8000853d43f/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=github.com/inspirationlinks&deviceDNT=1
 Logo: https://images.pluto.tv/channels/660e97bce8fba8000853d43f/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Fifa+ 🇬🇧
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/66997d18a1b69e00082ee85f/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD12000255B_20241014T232204SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Cricket Gold 🇬🇧
@@ -7080,7 +7067,12 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Sports Grid 🇺🇸
 URL: https://sportsgrid-tribal.amagi.tv/hls/amagi_hls_data_sportstri-sportsgrid-sportstribal/CDN/playlist.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300031OT_20241105T024243SQUARE.png
+Logo: https://provider-static.plex.tv/epg/cms/production/ed88a8cc-a1f4-445a-a2bc-9fbb4c7104de/SG-LIVE-WHITE-ON-ALPHA-1500x1000.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: MSG SportsZone 🇺🇸
+URL: https://d2a31kzot4f8t3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8c6otsdsok8vf/v1/amc_msgsportszone_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300021B8_20240520T220114SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Lacrosse Channel 🇺🇸
@@ -7098,7 +7090,7 @@ URL: https://amg00585-sportstribal-amg00585c2-sportstribal-emea-2176.playouts.no
 Logo: https://media.unreel.me/prod/sportsplus/logo/d3788f01-fb30-4115-b199-6cd822680176
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Table Soccer [ᴏᴛᴛᴇʀᴀ]
+Name: Table Soccer
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=7333
 Logo: https://graph.facebook.com/ITSF.tablesoccer/picture?width=200&height=200
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -7109,7 +7101,7 @@ Logo: https://dupvhm5r1oaxt.cloudfront.net/uploads/2020/02/cropped-cropped-favic
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Sports 🇲🇽🇪🇸
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Sports 🇲🇽🇪🇸
 Name: Real Madrid Tv 🇬🇧
 URL: https://rmtv-canela.amagi.tv/playlist.m3u8
 Logo: https://www.realmadrid.com/apple-icon-120x120.png
@@ -7190,30 +7182,20 @@ URL: https://vdo.grupolimalive.com:3398/stream/play.m3u8
 Logo: https://play-lh.googleusercontent.com/cpWdFlXAmAfzx6XC7m3BPJ4g-5epEcJvAQqKzQsG1gCBYoVZgMbdKyV7Srv4RnIwRQ=w240-h480-rw
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Tigo Sports 🇬🇹 [ᴏᴛᴛᴇʀᴀ]
+Name: Tigo Sports 🇬🇹
 URL: https://cnm-tsl.otteravision.com/cnm/tsl/tsl.m3u8
 Logo: https://play-lh.googleusercontent.com/6hNBaZu9_Ss-aBT6NOib7gTdU6fokNFqhOVCvGkIBjuLKXK6USX5fBfWsDfQjrD0L-A
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Fifa+₂ 🇬🇧
+Name: Fifa+ 🇲🇽
 URL: https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD12000255B_20241014T232204SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Fifa+₃ 🇬🇧 [ᴘʟᴇx]
-URL: https://is.gd/7PhGkV?5e20b730f2f8d5003d739db7-66628d4a8dfc36b8c8a399c4.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD12000255B_20241014T232204SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Fifa+₄ 🇬🇧
-URL: https://9923722c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VENMVFZQbHVzX0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD12000255B_20241014T232204SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Tennis 🎾🏸🏓
-Name: Tennis Channel Internacional 🇺🇸 🎾 [ʀᴀkυᴛᴇɴ]
-URL: https://tennischanneldeu-rakuten.amagi.tv/playlist.m3u8
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Tennis 🎾🏸🏓
+Name: Tennis Channel 🇺🇸 🎾
+URL: https://amg01444-tennischannelth-tennischannelspain-samsungspain-f7b4o.amagi.tv/playlist/amg01444-tennischannelth-tennischannelspain-samsungspain/playlist.m3u8
 Logo: https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/11/GBBA33000529G_20220323T071122.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -7222,9 +7204,9 @@ URL: https://d3qg0hadt0dkov.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b7
 Logo: https://provider-static.plex.tv/epg/cms/production/f03c74c1-e873-4346-beb0-804372660176/T2_1_1500_x_1000___Logo_Dark_BG_-_Ari_Brock.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Court Sports Network 🇺🇸 🎾 [ʟᴏcᴀʟɴᴏw]
-URL: https://is.gd/SwgJ8x?5e20b730f2f8d5003d739db7-652875586425fdb1f32d2169.m3u8
-Logo: https://provider-static.plex.tv/epg/cms/production/830c9987-f7cf-4f21-8da2-3a834c5ac4a9/plex-key-art-169_-_Douglas_Neiman-HOR.jpg
+Name: Tennis+ 🇺🇸
+URL: https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-6761f91555e174e95ccc4e4c.m3u8
+Logo: https://provider-static.plex.tv/epg/cms/production/704e7af1-90a0-4ad4-94de-af2559c19fa6/1_Tennis_Plus_Logo__Dark_Mode__1500x1000px.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Pickleball TV 🇺🇸 [sᴀᴍsυɴɢᴛᴠᴘʟυs]
@@ -7232,18 +7214,23 @@ URL: https://dk9k3t9vof80w.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD4200016QR_20240520T220130SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: PickleballTV (vᴘɴ 🇺🇸)
+Name: PickleballTV 🇺🇸
 URL: https://amg01444-amg01444c3-localnow-us-3483.playouts.now.amagi.tv/playlist/amg01444-tennischannelfast-pickleball-localnowus/playlist.m3u8
 Logo: https://provider-static.plex.tv/epg/cms/production/358f03ec-e12a-4e95-b444-baab53ac4cdf/pbtv_5_1920_x_1080_Horizontal_Art_with_Logo_-_Ari_Brock.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: PadelTime 🇺🇸
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65c2424eec452d0008987459/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/65c2424eec452d0008987459/colorLogoPNG.png
+Name: Court Sports Network 🇺🇸 🎾
+URL: https://is.gd/SwgJ8x?5e20b730f2f8d5003d739db7-652875586425fdb1f32d2169.m3u8
+Logo: https://provider-static.plex.tv/epg/cms/production/01a1743b-ef22-4549-84a5-84d044fe11a8/Sports-Court-Network_WHITE_-_Douglas_NeimanRDX.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: PickleTV 🇺🇸
+URL: https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-63ec0b739866d8d2120ac759.m3u8
+Logo: https://provider-static.plex.tv/epg/cms/production/9bcbd116-5f47-4868-a002-5dbc5ecf5ed7/PickleTV_1500x1000_3_ChannelLogoLight_Casey_Murawskirdx.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Tv Series 📺
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Tv Series 📺
 Name: Sony One Emoções 🇧🇷
 URL: https://spt-sonyoneemocoes-1-br.samsung.wurl.tv/playlist.m3u8
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/BRBA380003886_20230524T004006SQUARE.png_20230524004007.png
@@ -7321,7 +7308,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: National Lampoon 🇺🇸
 URL: https://linear-758.frequency.stream/dist/tcltv/758/hls/master/playlist.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800015K5_20240709T002207SQUARE.png
+Logo: https://provider-static.plex.tv/epg/cms/production/c6de5fd0-3b71-4e86-8909-bc280408a8c2/NATIONAL_LAMPOON_LOGO_VARIATION_1_-_Gabe_Evans.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Murder She Wrote 🇺🇸
@@ -7459,11 +7446,6 @@ URL: https://scripps-ionmystery-1-us.xumo.wurl.tv/playlist_4300k.m3u8
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000223S_20241014T232219SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: ION Mystery 🇺🇸 [xυᴍᴏ]
-URL: https://scripps-ionmystery-1-us.xumo.wurl.tv/playlist.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000223S_20241014T232219SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 Name: Nonstop Drama 🇺🇸
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62fb9ade112ca70007d8441d/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=Revolucioniptv&deviceDNT=1
 Logo: https://images.pluto.tv/channels/62fb9ade112ca70007d8441d/colorLogoPNG.png
@@ -7575,7 +7557,7 @@ Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Tv Shows 📺
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Tv Shows 📺
 Name: Conan O'Brien TVᶠᴴᴰ 🇺🇸
 URL: https://dsvt0yq4k5a5x.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zkvjbxpwh4s5n/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=GB300001QO
 Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB300001QO_20240319T052351SQUARE.png
@@ -7622,7 +7604,7 @@ Logo: https://images.pluto.tv/channels/64ddcf8e9c1e390008349fc8/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
-Group: ​🅿🅻🆄🆃🅾 🌎|☆ Vida Selvagem 🐘
+Group: ​𝐏𝐥𝐮𝐭𝐨 🌎|☆ Vida Selvagem 🐘
 Name: Love Nature 🇧🇷
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1213ba0ecebc00070e170f/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
 Logo: https://images.pluto.tv/channels/5f1213ba0ecebc00070e170f/colorLogoPNG.png
@@ -7648,14 +7630,14 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5cabdf1437b88b26
 Logo: https://images.pluto.tv/channels/5cabdf1437b88b26947346b2/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: BBC Earth 🇬🇧 [ʟɢ]
+Name: BBC Earth 🇬🇧
 URL: https://amg00793-bbcstudios-amg00793c3-lg-us-2528.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/BBCEarth.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: BBC Earth 🇬🇧
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/656535fc2c46f30008870fae/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=Revolucioniptv&deviceDNT=1
-Logo: https://images.pluto.tv/channels/656535fc2c46f30008870fae/colorLogoPNG.png
+Name: Wild Nature 🇬🇧
+URL: https://dg5rg8emlfy55.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-WildNature2/491.m3u8
+Logo: https://i0.wp.com/hanscostudio.com/wp-content/uploads/2020/08/Buchery-3.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Love The Planet 🇮🇹 [xɪᴀᴏᴍɪ]
@@ -7666,11 +7648,6 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 Name: Earthday 365 🇺🇸
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/650b69cfd1f20c0008586bac/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=Revolucioniptv&deviceDNT=1
 Logo: https://images.pluto.tv/channels/650b69cfd1f20c0008586bac/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Wild Earth 🇺🇸🇧🇷 [ʀᴏkυ]
-URL: https://wildearth-roku.amagi.tv/masterR720P.m3u8
-Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA3300046KE_20230426T015628SQUARE.png_20230426015630.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Earth Touch tv 🇺🇸 [ʟɢ]
@@ -7731,7 +7708,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 
 Group: 🌈🆁™ Musica 🎧
 Name: ONFM 🇵🇹
-URL: https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8?profile=inspirationFreetv.m3u8
+URL: https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8?profile=inspirationLinks.m3u8
 Logo: https://onfm.pt/wp-content/uploads/2023/09/logo-on-fm.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -7791,7 +7768,7 @@ Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: BIS 🇧🇷
-URL: http://15.235.11.7:14162/BisSD
+URL: http://185.236.183.117:14067/BISfhd
 Logo: https://logo.iptveditor.com/bis.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -7801,18 +7778,13 @@ Logo: https://s3cdn.panda-os.com/8611/upload/ezgifcomgifmakerpng
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: AfrobeatsTVᶠᴴᴰ
-URL: https://stream.ecable.tv/afrobeats/tracks-v1a1/mono.m3u8?profile=inspirationFreetv.m3u8
+URL: https://stream.ecable.tv/afrobeats/tracks-v1a1/mono.m3u8?profile=inspirationLinks.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/Afrobeats.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Mezzo 🇫🇷
 URL: http://ott-cdn.ucom.am/s35/index.m3u8
 Logo: https://i.imgur.com/auNdGeW.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: MTV On Tour 🇬🇧
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/67b4a4e41a5ca7608025da79/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://images.pluto.tv/channels/67b4a4e41a5ca7608025da79/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Qwest Playlist
@@ -7870,14 +7842,9 @@ URL: https://samsunguk-lightning-now80s-samsunguk-n908q.amagi.tv/playlist/samsun
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/NOW80s.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: NOW 80 🇬🇧
-URL: https://bit.ly/42sWhyD?profile=inspirationFreetv.m3u8
-Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/NOW80s.webp
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Vevo Country 🇬🇧
-URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600001RQ_20241112T001851SQUARE.png
+Name: NOW ROCK 🇬🇧
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6568a78d635c3c0008765f41/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/NowRock.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Vevo 80s 🇬🇧
@@ -7915,14 +7882,14 @@ URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevo2kau-samsunga
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4400015F5_20241112T001845SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
+Name: Vevo Countryᶠᴴᴰ
+URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8
+Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600001RQ_20241112T001851SQUARE.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 Name: XITE Celebrates
 URL: https://dt1s4l2cmiyit.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fcwpee1h7t5cs/XITE_Celebrates.m3u8
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD350003932_20250121T101057SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: XITE Hits
-URL: https://xite-samsung-de.amagi.tv/playlist.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300004RH_20241105T024203SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: XITE Hitsᶠᴴᴰ
@@ -7930,14 +7897,14 @@ URL: https://xite-hitsuk-lg.amagi.tv/playlist.m3u8
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300004RH_20241105T024203SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: XITE Gospel
-URL: https://stitcher.pluto.tv/stitch/hls/channel/623b93628e6ded0007337d4d/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=cb5874fc-6948-11ef-b8e3-ea3db3d97a96
-Logo: https://images.pluto.tv/channels/623b93628e6ded0007337d4d/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 Name: XITE Rock X Metal
 URL: https://stitcher.pluto.tv/stitch/hls/channel/623a1b5188ecdc0007c9ef5a/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=80f90cf7-7a92-11ef-97cb-02e0fd7f02bc
 Logo: https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: XITE Gospel
+URL: https://stitcher.pluto.tv/stitch/hls/channel/623b93628e6ded0007337d4d/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=cb5874fc-6948-11ef-b8e3-ea3db3d97a96
+Logo: https://images.pluto.tv/channels/623b93628e6ded0007337d4d/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Staccs Music TV Greatest Hits
@@ -8016,7 +7983,7 @@ Logo: https://i.imgur.com/UTStxDW.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: 51 Radio Tvᴸᴼᵂ 🇮🇹
-URL: http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8?profile=inspirationFreetv.m3u8
+URL: http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8?profile=inspirationLinks.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/51radiotv.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8026,7 +7993,7 @@ Logo: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Log
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Retro tvᴸᴼᵂ 🇨🇿
-URL: http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8?profile=inspirationFreetv.m3u8
+URL: http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8?profile=inspirationLinks.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/retromusic.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8070,9 +8037,9 @@ URL: https://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/commons/9/9a/Traceurban2022.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: NOW ROCK 🇬🇧
-URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6568a78d635c3c0008765f41/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&deviceMake=github.com/inspirationlinks&deviceDNT=1
-Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/NowRock.webp
+Name: MTV On Tour 🇬🇧
+URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/67b4a4e41a5ca7608025da79/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=github.com/inspirationlinks&deviceDNT=1
+Logo: https://images.pluto.tv/channels/67b4a4e41a5ca7608025da79/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: MTV Best Off 🇬🇧
@@ -8259,39 +8226,39 @@ URL: https://cdn-3.nxplay.com.br/HALLOANIME/tracks-v1a1/mono.m3u8
 Logo: https://nxplay-images.comets.com.br/resize/671658e85c258_c749ffaf216581a39a55bc9876f76098.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Anime Onegai₁ 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Anime Onegai₁ 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=11777
 Logo: https://nxplay-images.comets.com.br/resize/671658e85c258_c749ffaf216581a39a55bc9876f76098.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Anime Onegai₂ 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Anime Onegai₂ 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=11776
 Logo: https://nxplay-images.comets.com.br/resize/671658e85c258_c749ffaf216581a39a55bc9876f76098.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Anime Onegai₃ 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Anime Onegai₃ 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=11775
 Logo: https://nxplay-images.comets.com.br/resize/671658e85c258_c749ffaf216581a39a55bc9876f76098.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Anime Onegai₄ 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Anime Onegai₄ 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=11774
 Logo: https://nxplay-images.comets.com.br/resize/671658e85c258_c749ffaf216581a39a55bc9876f76098.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Anime Onegai₅ 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Anime Onegai₅ 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=11773
 Logo: https://nxplay-images.comets.com.br/resize/671658e85c258_c749ffaf216581a39a55bc9876f76098.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
 Group: 🌈🆁™Brasil Legendados 🇧🇷🇵🇹
-Name: FreeTv Crime (cc 🇧🇷) [ᴏᴛᴛᴇʀᴀ]
+Name: FreeTv Crime (cc 🇧🇷)
 URL: https://oly-ftvcbr.otteravision.com/oly/ftvcbr/ftvcbr.m3u8
 Logo: https://provider-static.plex.tv/epg/cms/production/0237441b-2b02-405a-a0c3-49b0ed3ca82d/FreeTVCrime_cover_1920x1080_-_Ralph_Campillo.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: FreeTv Drama (cc 🇧🇷) [ᴏᴛᴛᴇʀᴀ]
+Name: FreeTv Drama (cc 🇧🇷)
 URL: https://oly-ftvdrbr.otteravision.com/oly/ftvdrbr/ftvdrbr.m3u8
 Logo: https://provider-static.plex.tv/epg/cms/production/9a2c0242-bbe7-4cce-8cb3-aab334d39ea5/FreeTVDrama_Circle_1500x1000_-_Ralph_Campillo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -8334,7 +8301,7 @@ Logo: https://logo.iptveditor.com/universalpremiere.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Telecine Premium 🇧🇷
-URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/TvcPremium.m3u8
+URL: http://185.236.183.117:14686/tlcPremiumfhd
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-premium-br.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8343,13 +8310,23 @@ URL: https://s2.100mundial.icu/fontes/nossoplayer/telecinepremium.m3u8
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-premium-br.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
+Name: Telecine Premium 🇧🇷
+URL: https://onplaytv.net/tcpremium/video.m3u8
+Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-premium-br.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Telecine Pipoca 🇧🇷
+URL: http://185.236.183.117:14682/TelecinePipocafhd
+Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-pipoca-br.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 Name: Telecine Pipoca 🇧🇷
 URL: https://s2.100mundial.icu/fontes/nossoplayer/telecinepipoca.m3u8
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-pipoca-br.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Telecine Pipoca 🇧🇷
-URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/TvcPipoca.m3u8
+URL: https://onplaytv.net/tcpipoca/video.m3u8
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-pipoca-br.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8359,7 +8336,7 @@ Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/t
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Telecine Action 🇧🇷
-URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/TvcAction.m3u8
+URL: https://onplaytv.net/tcaction/video.m3u8
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-action-br.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8369,13 +8346,18 @@ Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/t
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Telecine Touch 🇧🇷
-URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/TvcTouch.m3u8
+URL: https://onplaytv.net/tctouch/video.m3u8
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-touch-br.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Telecine Cult 🇧🇷
-URL: http://tv.trexiptv.com/play/live.php?mac=00:1A:79:A8:F4:F9&stream=59175&extension=ts
+URL: https://onplaytv.net/tccult/video.m3u8
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-cult-br.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Telecine Fun 🇧🇷
+URL: https://onplaytv.net/tcfun/video.m3u8
+Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-fun-br.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Telecine Fun 🇧🇷
@@ -8384,12 +8366,12 @@ Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/t
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Telecine Fun 🇧🇷
-URL: http://tv.trexiptv.com/play/live.php?mac=00:1A:79:A8:F4:F9&stream=59174&extension=ts
+URL: http://185.236.183.117:14679/tlcfunfhd
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tele-cine-fun-br.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: HBO 🇧🇷
-URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/HBObr.m3u8
+URL: http://15.235.50.112:14186/HBOSD
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/HBO.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8409,7 +8391,7 @@ Logo: https://logo.iptveditor.com/hbopop.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: HBO 2 🇧🇷
-URL: http://15.235.50.112:14189/HBO2
+URL: http://15.235.50.112:14189/HBO2sd
 Logo: https://logo.iptveditor.com/hbo2.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8449,12 +8431,12 @@ Logo: https://logo.iptveditor.com/tnt.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: TNT 🇧🇷 ⚽️
-URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/TNTbr.m3u8
+URL: https://new.m3u8.one/tnt/index.m3u8
 Logo: https://logo.iptveditor.com/tnt.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: TNT Series 🇧🇷
-URL: http://tv.trexiptv.com/play/live.php?mac=00:1A:79:A8:F4:F9&stream=59168&extension=ts
+URL: http://tv14s.xyz:8080//live/5ThaSM/484504/164958.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8464,7 +8446,7 @@ Logo: https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.p
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Arte1 (cc 🇧🇷)
-URL: http://tv.trexiptv.com/play/live.php?mac=00:1A:79:A8:F4:F9&stream=59299&extension=ts
+URL: http://185.236.183.117:14018/Arte1fhd
 Logo: https://logo.iptveditor.com/arte1.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8474,12 +8456,12 @@ Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/PrimeBoxBrazil20
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: MultiShow 🇧🇷
-URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/MultiShow.m3u8
+URL: http://nxt.plus:8080//live/olmos/1234guz/51500.m3u8
 Logo: https://logo.iptveditor.com/multishow.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Comedy Central 🇧🇷
-URL: https://s2.100mundial.icu/fontes/nossoplayer/comedycentral.m3u8
+URL: http://185.236.183.117:14129/Comedycentralfhd
 Logo: https://logo.iptveditor.com/comedycentral.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8494,22 +8476,22 @@ Logo: https://upload.wikimedia.org/wikipedia/commons/5/5e/Warner2018LA.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: AXN 🇧🇷
-URL: https://futebolhoje.org/axn/index.m3u8
+URL: https://onplaytv.net/axn/index.m3u8
 Logo: https://logo.iptveditor.com/axn.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: AXN 🇧🇷
-URL: http://79.127.238.228:14563/axnHD
+URL: http://185.236.183.117:14022/axnHD
 Logo: https://logo.iptveditor.com/axn.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: AMC 🇧🇷
-URL: http://tv.trexiptv.com/play/live.php?mac=00:1A:79:A8:F4:F9&stream=59301&extension=ts
+URL: http://185.236.183.117:14009/AMCfhd
 Logo: https://logo.iptveditor.com/amc.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: AMC 🇧🇷
-URL: https://futebolhoje.org/amc/index.m3u8
+URL: https://onplaytv.net/amc/index.m3u8
 Logo: https://logo.iptveditor.com/amc.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8521,6 +8503,11 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 Name: Paramount Network 🇧🇷
 URL: https://s2.100mundial.icu/fontes/nossoplayer/paramountnetwork/index.m3u8
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/paramount-network-br.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Sony Channel 🇧🇷
+URL: http://185.236.183.117:14635/SonyChannelfhd
+Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sony-channel-br.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Sony Channel 🇧🇷
@@ -8539,18 +8526,33 @@ Logo: https://logo.iptveditor.com/universal.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Cinemax 🇧🇷
-URL: https://s2.100mundial.icu/fontes/nossoplayer/cinemax.m3u8
+URL: http://185.236.183.117:14114/Cinemaxfhd
 Logo: https://logo.iptveditor.com/cinemax.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Space 🇧🇷
-URL: https://s2.100mundial.icu/fontes/nossoplayer/space.m3u8
+URL: http://185.236.183.117:14640/Spacefhd
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/space-br.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: USA Network 🇧🇷
+URL: http://185.236.183.117:14663/USAfhd
+Logo: https://www.usanetwork.com/generetic/generated/images/22cb4c7e029716aa34d858d6f9fb18f3.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: SYFY 🇧🇷
+URL: https://onplaytv.net/syfy/index.m3u8
+Logo: https://logo.iptveditor.com/syfy.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: SYFY 🇧🇷
 URL: http://tv.trexiptv.com/play/live.php?mac=00:1A:79:A8:F4:F9&stream=59180&extension=ts
 Logo: https://logo.iptveditor.com/syfy.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: TCM 🇧🇷
+URL: https://onplaytv.net/tcm/index.m3u8
+Logo: https://logo.iptveditor.com/tcm.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Megapix 🇧🇷
@@ -8588,8 +8590,13 @@ URL: http://15.235.11.7:14151/E!
 Logo: https://logo.iptveditor.com/e.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
+Name: E! 🇧🇷
+URL: https://onplaytv.net/e/index.m3u8
+Logo: https://logo.iptveditor.com/e.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 Name: gnt 🇧🇷
-URL: http://79.127.238.228:14402/GNTHD
+URL: http://185.236.183.117:14388/gntfhd
 Logo: https://logo.iptveditor.com/gnt.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8599,7 +8606,7 @@ Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/256
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: A&E 🇧🇷
-URL: http://79.127.238.228:14551/A&Ehd
+URL: http://185.236.183.117:14003/A&EFHD
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/a-and-e-br.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8619,12 +8626,12 @@ Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-s
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: HGTV 🇧🇷
-URL: http://15.235.11.7:14144/HGTVHD
+URL: http://185.236.183.117:14431/hgtvfhd
 Logo: https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hgtv-us.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: History 🇧🇷
-URL: http://15.235.11.7:14132/HISTORYSD
+URL: http://185.236.183.117:14392/historyhd
 Logo: https://logo.iptveditor.com/history.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8689,27 +8696,22 @@ Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/ID.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: IDiscovery 🇧🇷
-URL: http://15.235.50.112:14115/IDsd
+URL: http://185.236.183.117:14440/IDhd
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/ID.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: IDiscovery 🇧🇷
-URL: http://tv.trexiptv.com/play/live.php?mac=00:1A:79:A8:F4:F9&stream=59222&extension=ts
+URL: http://15.235.50.112:14115/IDsd
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/ID.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Animal Planet Disc 🇧🇷
-URL: https://new.m3u8.one/animalplanet/index.m3u8
+URL: http://185.236.183.117:14014/animalPlanetfhd
 Logo: https://logo.iptveditor.com/animalplanet.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Animal Planet Disc 🇧🇷
 URL: https://s2.100mundial.icu/fontes/nossoplayer/animalplanet.m3u8
-Logo: https://logo.iptveditor.com/animalplanet.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Animal Planet Disc 🇧🇷
-URL: http://79.127.238.228:14386/DiscoveryAnimal
 Logo: https://logo.iptveditor.com/animalplanet.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8728,18 +8730,13 @@ URL: http://79.127.238.228:14217/GloboHD
 Logo: https://logo.iptveditor.com/globo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Globo sᴘ 🇧🇷 ⚽️
-URL: http://185.246.208.74:14679/GloboHD
-Logo: https://logo.iptveditor.com/globo.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 Name: Globo ʙᴀ 🇧🇷 ⚽️
 URL: http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 Logo: https://logo.iptveditor.com/globo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Record sᴘ 🇧🇷
-URL: https://alanza.iptv2022.com/sh/RecordTV/index.m3u8
+URL: http://185.236.183.117:14567/Recordhd
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/recordtv.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8754,17 +8751,17 @@ Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/recordtv.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Band ⚽️🏎️
-URL: https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist.m3u8
+URL: http://185.236.183.117:14033/Bandfhd
 Logo: https://logo.iptveditor.com/band.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Band ⚽️🏎️
-URL: http://15.235.50.115:14522/Band
+URL: https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist.m3u8
 Logo: https://logo.iptveditor.com/band.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: SBT Internacional 🇧🇷 ⚽️
-URL: http://185.246.208.74:14367/SBTHD
+URL: http://185.236.183.117:14597/SBTfhd
 Logo: https://logodownload.org/wp-content/uploads/2013/12/sbt-logo-2.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8774,7 +8771,7 @@ Logo: https://logodownload.org/wp-content/uploads/2013/12/sbt-logo-2.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: SBT Interior 🇧🇷
-URL: https://aovivo.maissbt.com/index.m3u8
+URL: https://stream.amsolution.net.br:8443/live/66db1cf131d45/index.m3u8
 Logo: https://logodownload.org/wp-content/uploads/2013/12/sbt-logo-2.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -8863,7 +8860,7 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/66296e755a402e00
 Logo: https://images.pluto.tv/channels/66296e755a402e00086a2c47/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Canal L!ke 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Canal L!ke 🇧🇷
 URL: https://cnl-cl-samsung.otteravision.com/cnl/cl_h265/cl_h265.m3u8
 Logo: https://canallike.com.br/wp-content/uploads/2020/12/canal-like-logo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -9010,8 +9007,8 @@ URL: https://streaming.indihometv.com/atm/DASH/warner/manifest.mpd
 Logo: https://logo.iptveditor.com/warner.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: NY" tvg-id="abc-wabc-new-york-ny" tvg-logo="https://i.postimg.cc/rwQGRGhB/imag.png" group-title="🌈🆁™English 🇬🇧🇺🇸🇨🇦",ABC (WABC) New York, NY
-URL: https://tvpass.org/live/WABCDT1/sd
+Name: MeTV Wjlp New Jerseynew York
+URL: https://tvpass.org/live/metv-wjlp-new-jerseynew-york/sd
 Logo: https://i.postimg.cc/rwQGRGhB/imag.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -9322,11 +9319,6 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: LOGO East
 URL: https://tvpass.org/live/LogoEast/sd
-Logo: https://i.postimg.cc/rwQGRGhB/imag.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: MeTV Wjlp New Jerseynew York
-URL: https://tvpass.org/live/metv-wjlp-new-jerseynew-york/sd
 Logo: https://i.postimg.cc/rwQGRGhB/imag.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -9724,6 +9716,11 @@ URL: http://185.189.225.150:85/AXN/index.m3u8
 Logo: https://logo.iptveditor.com/axn.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
+Name: DKiss
+URL: http://nxt.plus:8080//live/olmos/1234guz/56896.m3u8
+Logo: https://i.ibb.co/5xr17yD/DKISS.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 Name: Odisea 🇪🇸
 URL: http://185.189.225.150:85/odisea/index.m3u8
 Logo: https://logo.iptveditor.com/odisea.png
@@ -9742,6 +9739,11 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 Name: Nat Geo Wild 🇪🇸
 URL: http://185.189.225.150:85/natgeowild/index.m3u8
 Logo: https://logo.iptveditor.com/natgeowild.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Energy
+URL: http://nxt.plus:8080//live/olmos/1234guz/52883.m3u8
+Logo: https://i.ibb.co/WP34vMP/ENERGY.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Neox 🇪🇸
@@ -10462,9 +10464,14 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 
 Group: 🌈🆁™Kids 🧒🌎
-Name: BabyFirts 🇧🇷
+Name: GLN 🇧🇷
+URL: https://stmv1.paineltv.net/glnfilmes/glnfilmes/playlist.m3u8
+Logo: https://d14vd6r4ppsx57.cloudfront.net/media/brand/LOGO_PNG_DIMENS%C3%A2O_100X100_-_GLN_TV_reduz_zKzqMEP.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Duky tv 🇧🇷
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=7617
-Logo: https://images.pluto.tv/channels/5f4fb4cf605ddf000748e16f/colorLogoPNG.png
+Logo: https://upload.wikimedia.org/wikipedia/en/5/53/Ducktv-logo.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Pica Pau 🇧🇷
@@ -10482,7 +10489,7 @@ URL: https://cdn-3.nxplay.com.br/HTO_KIDS/index.m3u8
 Logo: https://s3minio.webativa.com.br/redeitv/thumb-hto-kids.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Pocoyo 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Pocoyo 🇧🇷
 URL: https://ani-pocptbr-samsungtvplus-ptbr.otteravision.com/ani/pocptbr_h265/pocptbr_h265.m3u8
 Logo: https://media.tvup.cloud/canales/color_lg_61ea6fef709aaf001a5581ae.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -10522,9 +10529,9 @@ URL: https://s2.100mundial.icu/fontes/nossoplayer/cartoonnetwork.m3u8
 Logo: https://logo.iptveditor.com/cartoonnet.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: DreamWorks 🇧🇷
-URL: https://s2.100mundial.icu/fontes/nossoplayer/dreamworkschannel.m3u8
-Logo: https://www.dreamworks.com/images/favicon/android-icon-192x192.png
+Name: Toomcast 🇧🇷
+URL: http://185.236.183.117:14711/Toomcasthd
+Logo: https://logo.iptveditor.com/tooncast.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Tom & Jerry 🇧🇷🇺🇸
@@ -10542,7 +10549,7 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62545c0b002f4b00
 Logo: https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Toon Goggles 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Toon Goggles 🇧🇷
 URL: https://tg-tg-br-samsung.otteravision.com/tg/tg_br_h265/tg_br_h265.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/en/d/da/Toon_Goggles_logo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -10647,12 +10654,12 @@ URL: https://d26xbpvvy0tj0m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b7
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA800001ZX_20250121T094909SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Camp Spoopy 🇺🇸 [ᴏᴛᴛᴇʀᴀ]
+Name: Camp Spoopy 🇺🇸
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
 Logo: https://i.imgur.com/8PUbPVU.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: TG Junior Kids 🇺🇸 [ᴏᴛᴛᴇʀᴀ]
+Name: TG Junior Kids 🇺🇸
 URL: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=31
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3600001R6_20240520T214655SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -10767,44 +10774,14 @@ URL: https://d3nnqrdb77sy13.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b7
 Logo: https://upload.wikimedia.org/wikipedia/commons/5/5d/Tve_clan.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Clan 🇪🇸
-URL: https://d3nnqrdb77sy13.cloudfront.net/Clan_ES.m3u8
-Logo: https://upload.wikimedia.org/wikipedia/commons/5/5d/Tve_clan.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Clan 🇪🇸
-URL: https://ztnr.rtve.es/ztnr/5466990.m3u8
-Logo: https://upload.wikimedia.org/wikipedia/commons/5/5d/Tve_clan.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 Name: TVG Xabarin 🇪🇸
 URL: https://crtvg-infantil-schlive.flumotion.cloud/crtvglive/smil:channel5PRG.smil/playlist.m3u8
 Logo: https://crtvg.gal/documents/2915657/2918041/Xabar%C3%ADn+logo+con+G+e+texto+con+sombra.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Mr.Bean 🇪🇸🇬🇧 [ʀᴀkυᴛᴇɴ]
-URL: https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
-Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/Mr%20Bean.webp
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Mr. Bean 🇮🇹🇬🇧 [sᴀᴍsυɴɢᴛᴠᴘʟυs]
-URL: https://amg00627-amg00627c27-samsung-au-3944.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanko-samsungau/playlist.m3u8
-Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900001A7_20241106T142453SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 Name: Pequeradio TV 🇪🇸
 URL: https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8
 Logo: https://graph.facebook.com/Pequeradio/picture?width=200&height=200
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: GLN 🇧🇷
-URL: https://stmv1.paineltv.net/glnfilmes/glnfilmes/playlist.m3u8
-Logo: https://d14vd6r4ppsx57.cloudfront.net/media/brand/LOGO_PNG_DIMENS%C3%A2O_100X100_-_GLN_TV_reduz_zKzqMEP.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Trailers 🇪🇸 🇧🇷
-URL: https://bit.ly/3WChqoj?ESBC1700004PX.m3u8
-Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA3300048YJ_20240709T045109SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
@@ -10856,7 +10833,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Goltv 🇪🇨
 URL: http://tv.iprotv.live:80//live/canales-ProYeCtoX998/NuevacanalesProyectoRw/149786.m3u8
-Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/goltv.webp
+Logo: https://logo.iptveditor.com/goltv.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Goltv 🇺🇸
@@ -10864,9 +10841,9 @@ URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/goltv.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/goltv.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Goltv 🇺🇸
-URL: http://190.60.34.46:9999/play/a0p8/index.m3u8
-Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/goltv.webp
+Name: Dasse1 🇺🇸
+URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/Dass1.m3u8
+Logo: https://logo.iptveditor.com/dazn1.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Fussball SportDigital 🇩🇪
@@ -10880,7 +10857,7 @@ Logo: https://i.postimg.cc/VNdQNj3H/fuss.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Eleven sports 2 🇵🇱
-URL: http://89.187.167.247/elevensports2.stream/playlist.m3u8
+URL: http://pro-solut-xi.eu:5436//live/live:dinjo79/SkypeDinjo@telon.al/16498.ts
 Logo: https://logo.iptveditor.com/elevensport2.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -10889,13 +10866,13 @@ URL: http://pro-solut-xi.eu:5436//live/live:dinjo79/SkypeDinjo@telon.al/16499.m3
 Logo: https://logo.iptveditor.com/elevensport3.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Espetinho de frutas Caramelizadas 2 🇵🇹 [Test]
-URL: http://tv.iprotv.live:80//live/canales-ProYeCtoX998/NuevacanalesProyectoRw/96439.m3u8
+Name: Chapa 1
+URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/chapa1.m3u8
 Logo: https://logo.iptveditor.com/sporttv2.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Macarrão com Queijo 3 🇵🇹 [Test]
-URL: http://tv.iprotv.live:80//live/canales-ProYeCtoX998/NuevacanalesProyectoRw/96440.m3u8
+Name: Chapa 2
+URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/chapa2.m3u8
 Logo: https://logo.iptveditor.com/sporttv3.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -10914,6 +10891,11 @@ URL: https://windnew.newkso.ru/wind/premium916/mono.m3u8
 Logo: https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/cytavision-sports.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
+Name: Champions 2 🇺🇸🇮🇳
+URL: https://sweet-night-1d1d.worst.workers.dev/?id=17939&type=dash
+Logo: https://logo.iptveditor.com/championstv2.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 Name: SSC1 🇸🇦
 URL: https://ssc1-ak.akamaized.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd
 Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Ssc_sports.png/1024px-Ssc_sports.png
@@ -10929,11 +10911,6 @@ URL: https://ssc-extra1-ak.akamaized.net/out/v1/647c58693f1d46af92bd7e69f17912cb
 Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Ssc_sports.png/1024px-Ssc_sports.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Champions 2 🇺🇸🇮🇳
-URL: https://sweet-night-1d1d.worst.workers.dev/?id=17939&type=dash
-Logo: https://logo.iptveditor.com/championstv2.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 
 Group: 🌈🆁™Meteorology 🇺🇸🇨🇦
 Name: WeatherSpy 🇺🇸
@@ -10941,9 +10918,9 @@ URL: https://d12gab6t5iutxf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b7
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3400014LK_20240520T214723SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: .IL.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/1200px-Fox_Weather_logo.svg.png" group-title="🌈🆁™Meteorology 🇺🇸🇨🇦",Fox Weather 🇺🇸
+Name: .IL.us" tvg-logo="https://canvas-lb.tubitv.com/opts/DyF3heUTu-BZ7Q==/ac3a8a9b-0068-488b-a5c6-380f373cc446/CHgQeDoFMS4xLjZAAQ==" group-title="🌈🆁™Meteorology 🇺🇸🇨🇦",Fox Weather 🇺🇸
 URL: https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Fox-Weather.m3u8
-Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/1200px-Fox_Weather_logo.svg.png
+Logo: https://canvas-lb.tubitv.com/opts/DyF3heUTu-BZ7Q==/ac3a8a9b-0068-488b-a5c6-380f373cc446/CHgQeDoFMS4xLjZAAQ==
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: AccuWeather Network 🇺🇸
@@ -11005,37 +10982,37 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 
 Group: 🌈🆁™Musica Stingray 🔊
-Name: Stingray Easy Listening [ᴏᴛᴛᴇʀᴀ]
+Name: Stingray Easy Listening
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=3021
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/9f8a5d1175a0cd11b6d54498a15dceee.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Stingray Rock Alternative [ᴏᴛᴛᴇʀᴀ]
+Name: Stingray Rock Alternative
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=3026
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/cee6c0652aa03a78f32bb57b366056fd.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Stingray Hit List [ᴏᴛᴛᴇʀᴀ]
+Name: Stingray Hit List
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=1388
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/001b906dca037ab144566908216de346.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Stingray Smooth Jazz [ᴏᴛᴛᴇʀᴀ]
+Name: Stingray Smooth Jazz
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=3022
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/923d780c4165f6cbec21aacb1ef916f0.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Stingray Y2K [ᴏᴛᴛᴇʀᴀ]
+Name: Stingray Y2K
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=3020
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/0f1b6d936b7f3fbe210fb3d2b95ea5ef.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Stingray Today's K-Pop [ᴏᴛᴛᴇʀᴀ]
+Name: Stingray Today's K-Pop
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=3018
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/0f1b6d936b7f3fbe210fb3d2b95ea5ef.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Stingray Nothing' But 90s [ᴏᴛᴛᴇʀᴀ]
+Name: Stingray Nothing' But 90s
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=3028
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/958d16460d189722978074cb0bb2ed59.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -11055,12 +11032,12 @@ URL: https://d1gblbamdkwl5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b7
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/306ee143a9a210ab3a9b1247c90c8265.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Stingray Éxitos del Momento [ᴏᴛᴛᴇʀᴀ]
+Name: Stingray Éxitos del Momento
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=3025
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/823131838a2ee1be8616ae7d28cb8911.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Stingray Pop Adult [ᴏᴛᴛᴇʀᴀ]
+Name: Stingray Pop Adult
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=3023
 Logo: https://www.cxtv.com.br/img/Tvs/Logo/webp-l/c9274ced11768aab7ef96be3a7875727.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -11078,7 +11055,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 
 Group: 🌈🆁™News 🇵🇹🇧🇷
 Name: RTP 3 🇵🇹
-URL: http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:13:52:EF&stream=107529&extension=ts&play_token=JX2CgBozT4
+URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/rtp3.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/commons/b/b9/Rtp3.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -11098,7 +11075,7 @@ Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/CNNPortugal.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: CNN Portugal 🇵🇹
-URL: https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNS8yMDI1IDE6MDo2IFBNJmhhc2hfdmFsdWU9SGl4MXZIRjB0MDgzMCtKQXJ0MkE0QT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTQ2ZmZlMmFjLTRhNDItNDIwNC1hYmFjLTg0OTllNmJiNzFmZA==/
+URL: https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNS8yMDI1IDg6Mzc6NTQgUE0maGFzaF92YWx1ZT1FZEptRkZpNi9QSXNpbk5URzZESjN3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NjNjZTQ2NjgtYzliOC00ZTg0LWE4MDMtMTM5MzdiOWY3MWZj/
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/CNNPortugal.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -11128,7 +11105,7 @@ Logo: https://images.pluto.tv/channels/645a99282858cb0008ea8378/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Band News 🇧🇷
-URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/BandNews.m3u8
+URL: http://185.236.183.117:14043/BandNewsfhd
 Logo: https://logo.iptveditor.com/bandnews.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -11160,22 +11137,12 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 
 Group: 🌈🆁™News 🌍
 Name: 24h 🇪🇸
-URL: https://rtvelivestream-clnx.rtve.es/rtvesec/24h/24h_main_720.m3u8
-Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/24Horas.webp
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: 24h 🇪🇸
 URL: https://d3pfmk89wc0vm9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-nlow3qkp9tmdm/24H_ES.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/24Horas.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: El Pais 🇪🇸
 URL: https://d2xqbi89ghm9hh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-79fx3huimw4xc-ssai-prd/fast-channel-el-pais.m3u8
-Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC39000033J_20240925T141414SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: El Pais 🇪🇸
-URL: https://jerrymoz.wordpress.com?SUBSTITUIRNOVAFONTE_BREVEMENTE
 Logo: https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC39000033J_20240925T141414SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -11214,19 +11181,9 @@ URL: https://linear-254.frequency.stream/mt/studio/254/hls/master/playlist.m3u8
 Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700014QU_20241228T011529SQUARE.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Noticias Univision 24/7 🇲🇽
-URL: https://d2c043ja5c3fzo.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kbmx2rye8x0uq/server/distrib/0d5L5aFqyXYNTJbA/zuvPJYoOOdEMDNF2j2mvmg.XD-5XW7bmDpD5yWfV328oU9NWPX1Y7dhiYqJY3ymkerRKjKvBm9YaKmRu09CS8ak3vKkgVwPUO3_k0fGhRTEqm9C52Akmi0bMrtkdFN-ApwGS5bzMeefjZWDmajrGpA-z7QefASsKjTkWAe3BlRJ_vz3lQhvxyaR-gTRDOtaBmPVj7kcBaZplJ2o86Rm6t4OZaOmdnH6WiW1GoB__4qhQJvpE8uBN8i_t4EJLrXsgpMTqttdcsGYmhH3W1nRYhFZ7tHSwWnrpfbk73-fLrtWcw/manifest.m3u8
-Logo: https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700014QU_20241228T011529SQUARE.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 Name: Estrella TV News 🇲🇽
 URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellanews-estrellamedia/playlist.m3u8
 Logo: https://graph.facebook.com/EstrellaTVNetwork/picture?width=200&height=200
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Rai News 24 🇮🇹
-URL: http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
-Logo: https://logo.iptveditor.com/rainews24.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: TG Norba24 🇮🇹
@@ -11240,23 +11197,8 @@ Logo: https://pt.euronews.com/favicon-192x192.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: France Info 🇫🇷
-URL: https://accesiptv.com//live/Mzkc5Hm6eq/HYj6954jZZ/102.m3u8
-Logo: https://www.francetvinfo.fr/assets/common/images/pwa/ios/180-1797f52d.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: France Info 🇫🇷
 URL: https://github.com/LeBazarDeBryan/XTVZ_/raw/main/Stream/Live/franceinfo.m3u8
 Logo: https://www.francetvinfo.fr/assets/common/images/pwa/ios/180-1797f52d.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: France Info 🇫🇷
-URL: https://live.tntdirect.tv//live/9CM2pADCxF/w5BA32MP6P/27.m3u8
-Logo: https://www.francetvinfo.fr/assets/common/images/pwa/ios/180-1797f52d.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: Tv5 Monde Info 🇫🇷
-URL: https://ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8
-Logo: https://logo.iptveditor.com/tv5mondeinfo.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Tv5 Monde Info 🇫🇷
@@ -11366,11 +11308,6 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: .CA.us" tvg-logo="https://canvas-lb.tubitv.com/opts/j3hLujT-3xnc-g==/0eb089c0-a74d-41dd-9d20-58b99dd39e8f/CHgQeDoFMS4xLjJAAQ==" group-title="🌈🆁™News 🌍",FOX 11 Los Angeles 🇺🇸
 URL: https://apollo.production-public.tubi.io/live/ac-kttv.m3u8
-Logo: https://canvas-lb.tubitv.com/opts/j3hLujT-3xnc-g==/0eb089c0-a74d-41dd-9d20-58b99dd39e8f/CHgQeDoFMS4xLjJAAQ==
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: .CA.us" tvg-logo="https://canvas-lb.tubitv.com/opts/j3hLujT-3xnc-g==/0eb089c0-a74d-41dd-9d20-58b99dd39e8f/CHgQeDoFMS4xLjJAAQ==" group-title="🌈🆁™News 🌍",FOX 11 Los Angeles 🇺🇸
-URL: https://live-manifest.production-public.tubi.io/live/346a3973-426a-45dc-85fd-a598cc9d1487/playlist.m3u8
 Logo: https://canvas-lb.tubitv.com/opts/j3hLujT-3xnc-g==/0eb089c0-a74d-41dd-9d20-58b99dd39e8f/CHgQeDoFMS4xLjJAAQ==
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -11514,7 +11451,7 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65d92a8c8b24c800
 Logo: https://images.pluto.tv/channels/65d92a8c8b24c80008e285c0/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: BBC News 🇺🇸
+Name: BBC News₂ 🇬🇧
 URL: https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
 Logo: https://images.pluto.tv/channels/65d92a8c8b24c80008e285c0/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -11541,7 +11478,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Cnews 🇺🇸
 URL: https://github.com/LeBazarDeBryan/XTVZ_/raw/main/Stream/Live/CNews.m3u8
-Logo: https://www.generationlibre.eu/wp-content/uploads/2020/01/Logo-CNEWS-détouré.png
+Logo: https://www.cnews.fr/themes/cnews/cnews-logo-mobile.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: NHK World 🇬🇧
@@ -11549,14 +11486,14 @@ URL: https://nhkwlive-ojp.nhkworld.jp/hls/live/2003459/nhkwlive-ojp-en/index.m3u
 Logo: https://i.ibb.co/JCjsXZm/nhk.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
+Name: Das Erste 🇩🇪
+URL: https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/index.m3u8
+Logo: https://logo.iptveditor.com/daserste.png
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
 Name: Channel News Asia
 URL: http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 Logo: https://logo.iptveditor.com/cna.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
-Name: C News 🇫🇷
-URL: https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8
-Logo: https://static.epg.best/fr/CNews.fr.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 
@@ -11567,7 +11504,7 @@ Logo: https://logo.iptveditor.com/viva.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: TNT Novelas 🇧🇷
-URL: https://s2.100mundial.icu/fontes/nossoplayer/tntnovelas.m3u8
+URL: http://185.236.183.117:14668/TNTNovelasfhd
 Logo: https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -11586,7 +11523,7 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f512365abe1f500
 Logo: https://images.pluto.tv/channels/5f512365abe1f50007d3ff56/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Novelisima 🇧🇷 [ᴏᴛᴛᴇʀᴀ]
+Name: Novelisima 🇧🇷
 URL: https://cis-no-samsung.otteravision.com/cis/no/no_h265.m3u8
 Logo: https://play-lh.googleusercontent.com/_UxyN3kvZpoAYKdJqAauf73K4_eShG0gZNT_UHT2E1jkIabNL7x3bv7bEm2tyIQCUVEB=w0
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -11598,6 +11535,11 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 Name: Rakuten viki 🇺🇸🇰🇷 [ʟɢ]
 URL: https://newidco-rakutenviki-2-us.lg.wurl.tv/playlist.m3u8
+Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/rakutenviki.webp
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Rakuten viki 🇲🇽🇰🇷 [ʟɢ]
+URL: https://newidco-rakutenviki-3-mx.lg.wurl.tv/playlist.m3u8
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/rakutenviki.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -11671,7 +11613,7 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6474a7e7f77b6100
 Logo: https://images.pluto.tv/channels/6474a7e7f77b6100080a89e7/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Novelisima 🇲🇽 [ᴏᴛᴛᴇʀᴀ]
+Name: Novelisima 🇲🇽
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=2380
 Logo: https://play-lh.googleusercontent.com/_UxyN3kvZpoAYKdJqAauf73K4_eShG0gZNT_UHT2E1jkIabNL7x3bv7bEm2tyIQCUVEB=w0
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -11686,7 +11628,7 @@ URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5e84db2db3851800
 Logo: https://images.pluto.tv/channels/5e84db2db3851800077c871e/colorLogoPNG.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Canela Telenovelas 🇲🇽 [ᴏᴛᴛᴇʀᴀ]
+Name: Canela Telenovelas 🇲🇽
 URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=1152
 Logo: https://provider-static.plex.tv/epg/cms/production/a527acd3-e02c-4c29-81f9-d6e5e3e67f94/CM-Amagi-Artwork_9-1920x1080_-_Camila_Conti.jpg
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
@@ -11744,7 +11686,7 @@ Logo: https://portaltvportuguesa.com.br/wp-content/uploads/2022/08/portaltv_b1_w
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: RTP Internacional 🇵🇹
-URL: http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:13:52:EF&stream=970725&extension=ts&play_token=PEvb3e3IjO
+URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/RTPi.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/fr/c/cf/RTP_Internacional_logo_2012.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -11759,12 +11701,12 @@ Logo: https://upload.wikimedia.org/wikipedia/commons/c/c5/RTP2_logo_2016.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: RTP Memoria 🇵🇹
-URL: http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:13:52:EF&stream=107445&extension=ts&play_token=L79jum6Yuv
+URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/RTPm.m3u8
 Logo: https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-memoria-pt.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: RTP Madeira 🇵🇹
-URL: http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:13:52:EF&stream=107446&extension=ts&play_token=86VOKBd9yT
+URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/RTPmad.m3u8
 Logo: https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-madeira-pt.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -11789,7 +11731,7 @@ Logo: https://logo.iptveditor.com/tviinternacional.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: TVI Internacionalᶠᴴᴰ 🇵🇹
-URL: https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNS8yMDI1IDE6MDo3IFBNJmhhc2hfdmFsdWU9c3lVaitVTGE3bmFiNStOUmVRTHRSZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTI5NGM3ODY4LWM3ZTEtNDFhNC05ZmY5LTBkZmRmMjM0ODE0Mw==/
+URL: https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNS8yMDI1IDg6Mzc6NTUgUE0maGFzaF92YWx1ZT02SXIreXdxVkM4cDAzOU52M1hRQU9nPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Nzg4YTNlNTQtZGEyNC00ZDA1LTlkZjAtZWQwMjE1NzRmNTA0/
 Logo: https://logo.iptveditor.com/tviinternacional.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -11799,13 +11741,18 @@ Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/tvi.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: TVI 🇵🇹
-URL: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNS8yMDI1IDE6MDo2IFBNJmhhc2hfdmFsdWU9UkZvb2ZNdG9aSEdqWWpTWWM2Z3ptZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTIxMzkxM2E5LWJjOGEtNDhiOS1iYzVhLWU3YmFjYzcxMTVjYg==/
+URL: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNS8yMDI1IDg6Mzc6NTQgUE0maGFzaF92YWx1ZT1BUUJTQWRkenpJMzJPUFhGNlA3cHB3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDc3NTRhZWMtNjU0Zi00YTIzLTliZGMtZjZmMGIzZmRjY2U0/
 Logo: https://github.com/inspirationlinks/m3u/raw/live/LogosTv/tvi.webp
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: TVI Ficção 🇵🇹
-URL: https://bit.ly/3gejKxf?profile=inspirationFreetv.m3u8
-Logo: https://logo.iptveditor.com/tvificcao.png
+Name: Onetoro 🇪🇸
+URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/Onetoro.m3u8
+Logo: https://onetoro.tv/assets/icon/favicon.ico
+Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
+--------------------------------------------------
+Name: Caça & Pesca 🇵🇹🇪🇸
+URL: https://github.com/inspirationlinks/m3u/raw/live/Streams/c%26p.m3u8
+Logo: https://logo.iptveditor.com/cacaepesca.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Teledifusão de Macau 🇲🇴🇵🇹
@@ -11867,11 +11814,6 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 --------------------------------------------------
 
 Group: 🌈🆁™South Park 🇧🇷
-Name: South Park (Rock and Roll) 🇧🇷
-URL: https://futebolhoje.org/adultswim/index.m3u8
-Logo: https://images.pluto.tv/channels/66ba7c8814a2bb000875cff0/colorLogoPNG.png
-Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
---------------------------------------------------
 Name: South Park (Coleção Cartman) 🇧🇷
 URL: https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65df71008b24c80008f04281/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=samsung-tvplus&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
 Logo: https://images.pluto.tv/channels/65df71008b24c80008f04281/colorLogoPNG.png
@@ -12187,7 +12129,7 @@ Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/F
 
 Group: 🌈🆁™Sports 🇧🇷🇪🇸
 Name: Band Sport 🇧🇷
-URL: https://new.m3u8.one/bandsport/index.m3u8
+URL: http://185.236.183.117:14048/Bandsporthd
 Logo: https://logo.iptveditor.com/bandsports.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -12197,7 +12139,7 @@ Logo: https://logo.iptveditor.com/bandsports.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Sportv 🇧🇷
-URL: https://new.ejaculacaoretardada.site/sportv/index.m3u8
+URL: http://185.236.183.117:14644/Sportvfhd
 Logo: https://logo.iptveditor.com/sportv.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -12207,7 +12149,7 @@ Logo: https://logo.iptveditor.com/sportv.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Sportv 2 🇧🇷
-URL: https://new.ejaculacaoretardada.site/sportv2/index.m3u8
+URL: http://185.236.183.117:14647/Sportv2fhd
 Logo: https://logo.iptveditor.com/sportv.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -12217,12 +12159,12 @@ Logo: https://logo.iptveditor.com/sportv.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Sportv 3 🇧🇷 🥊🏎️
-URL: https://new.ejaculacaoretardada.site/sportv3/index.m3u8
+URL: http://185.236.183.117:14651/Sportv3fhd
 Logo: https://logo.iptveditor.com/sportv.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Sportv 3 🇧🇷 🥊🏎️
-URL: https://abc3orwaaaaaaaamlrvha3owl7xs4.otte.live.cf.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/lsibg7bnq3/out/v1/70a4b797529f4989b66345b359f96947/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase
+URL: https://onplaytv.net/sportv3/video.m3u8
 Logo: https://logo.iptveditor.com/sportv.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
@@ -12236,14 +12178,14 @@ URL: https://abc3orwaaaaaaaamgyske232j4one.ottb.live.cf.ww.aiv-cdn.net/gru-nitro
 Logo: https://logo.iptveditor.com/premiere.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Premiere 🇧🇷
-URL: http://zutufo.in:80/live/781487031/K788a6763d/21269._m3u8
-Logo: https://logo.iptveditor.com/premiere.png
+Name: Combate 🇧🇷
+URL: http://185.236.183.117:14124/Comatefhd
+Logo: https://logo.iptveditor.com/combate.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
-Name: Cazé tv Eventos 🇧🇷 ⚽️
-URL: https://abc3orwaaaaaaaampb5zelh6d3hy6.otte.live.cf.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd
-Logo: https://yt3.googleusercontent.com/6ZtRoT9LpJKkC9lne_BySbrnGfomGIf-_rfNsU5fHft8nYx8gCJiY9W2TH55Kc28K0VJovkAiw=w0
+Name: Fishtv 🇧🇷
+URL: http://185.236.183.117:14205/Fishtvfhd
+Logo: https://logo.iptveditor.com/fishtv.png
 Source: https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/Freetv.m3u
 --------------------------------------------------
 Name: Cazé tv Eventos 🇧🇷 ⚽️
