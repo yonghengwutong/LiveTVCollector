@@ -1,4 +1,14 @@
 Group: Business
+Name: Bloomberg TV Asia (720p)
+URL: https://bloomberg.com/media-manifest/streams/asia.m3u8
+Logo: https://i.imgur.com/OuogLHx.png
+Source: https://iptv-org.github.io/iptv/countries/th.m3u
+--------------------------------------------------
+Name: Bloomberg TV Asia Live Event (720p)
+URL: https://bloomberg.com/media-manifest/streams/asia-event.m3u8
+Logo: https://i.imgur.com/OuogLHx.png
+Source: https://iptv-org.github.io/iptv/countries/th.m3u
+--------------------------------------------------
 Name: CNBC Asia HD (720p) [Geo-blocked]
 URL: https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8
 Logo: https://i.imgur.com/Mn8Rsup.png
@@ -140,8 +150,8 @@ URL: https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8
 Logo: https://i.imgur.com/wOIaqg7.png
 Source: https://iptv-org.github.io/iptv/countries/th.m3u
 --------------------------------------------------
-Name: Channel 7
-URL: http://streaming-hwc.ch7.com/livech7hd/HD.m3u8
+Name: Channel 7 (1080p)
+URL: http://streaming-hwc.ch7.com/livech7hd/HD_1080p.m3u8
 Logo: https://i.imgur.com/SBCIwek.png
 Source: https://iptv-org.github.io/iptv/countries/th.m3u
 --------------------------------------------------
@@ -168,6 +178,11 @@ Source: https://iptv-org.github.io/iptv/countries/th.m3u
 Name: NBT 2HD (720p)
 URL: https://cdn-edge-ott.prd.go.th/live_vlc/smil:c30f-97f7-c767-ca64-98aa/chunklist.m3u8
 Logo: https://i.imgur.com/IJh6SHb.png
+Source: https://iptv-org.github.io/iptv/countries/th.m3u
+--------------------------------------------------
+Name: NBT 11 Central (720p)
+URL: https://cdn-edge-ott.prd.go.th/live_vlc/smil:01f1-8b4b-971e-aa35-d5fa.smil/playlist.m3u8?DVR=
+Logo: https://i.imgur.com/8hYQIxS.png
 Source: https://iptv-org.github.io/iptv/countries/th.m3u
 --------------------------------------------------
 Name: ONE HD 31 (720p)
@@ -307,6 +322,13 @@ Logo: https://i.ibb.co/wcT2VqP/man.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
 
+Group: Kids
+Name: Nickelodeon Asia (720p)
+URL: http://178.128.214.60:1234/stream/astro/nickelodeon/master.m3u8
+Logo: https://i.imgur.com/E84jnP8.png
+Source: https://iptv-org.github.io/iptv/countries/th.m3u
+--------------------------------------------------
+
 Group: Legislative
 Name: Thai Parliament TV (1080p) [Not 24/7]
 URL: https://tv-live.tpchannel.org/live/tv.m3u8
@@ -347,6 +369,11 @@ Source: https://iptv-org.github.io/iptv/countries/th.m3u
 Name: ASTV News 1 (720p) [Not 24/7]
 URL: http://news1.live14.com/stream/news1.m3u8
 Logo: https://i.imgur.com/NNxzCPk.png
+Source: https://iptv-org.github.io/iptv/countries/th.m3u
+--------------------------------------------------
+Name: BBC News Asia Pacific (720p)
+URL: https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
+Logo: https://i.imgur.com/vSz2WEp.png
 Source: https://iptv-org.github.io/iptv/countries/th.m3u
 --------------------------------------------------
 Name: JKN 18 (1080p)
@@ -538,6 +565,11 @@ Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
 
 Group: Religious
+Name: Angel TV Far East (720p)
+URL: https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelfareast_all/playlist.m3u8
+Logo: https://i.imgur.com/qKLEGU7.png
+Source: https://iptv-org.github.io/iptv/countries/th.m3u
+--------------------------------------------------
 Name: Boonniyom TV
 URL: https://live.x2.co.th/live/bntv.m3u8
 Logo: https://i.imgur.com/KvdFCD5.png

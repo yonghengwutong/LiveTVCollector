@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-25 21:56:19",
+  "date": "2025-04-26 07:11:40",
   "channels": {
     "VTV": [
       {
@@ -1353,11 +1353,11 @@
         "url": "https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8"
       },
       {
-        "name": "Channel 7",
+        "name": "Channel 7 (1080p)",
         "logo": "https://i.imgur.com/SBCIwek.png",
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
-        "url": "http://streaming-hwc.ch7.com/livech7hd/HD.m3u8"
+        "url": "http://streaming-hwc.ch7.com/livech7hd/HD_1080p.m3u8"
       },
       {
         "name": "Channel 8 (1080p) [Not 24/7]",
@@ -1395,6 +1395,13 @@
         "url": "https://cdn-edge-ott.prd.go.th/live_vlc/smil:c30f-97f7-c767-ca64-98aa/chunklist.m3u8"
       },
       {
+        "name": "NBT 11 Central (720p)",
+        "logo": "https://i.imgur.com/8hYQIxS.png",
+        "group": "General",
+        "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
+        "url": "https://cdn-edge-ott.prd.go.th/live_vlc/smil:01f1-8b4b-971e-aa35-d5fa.smil/playlist.m3u8?DVR="
+      },
+      {
         "name": "ONE HD 31 (720p)",
         "logo": "https://i.imgur.com/HXFNbuc.png",
         "group": "General",
@@ -1423,6 +1430,13 @@
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
         "url": "http://news1.live14.com/stream/news1.m3u8"
+      },
+      {
+        "name": "BBC News Asia Pacific (720p)",
+        "logo": "https://i.imgur.com/vSz2WEp.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
+        "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8"
       },
       {
         "name": "JKN 18 (1080p)",
@@ -1790,6 +1804,13 @@
     ],
     "Religious": [
       {
+        "name": "Angel TV Far East (720p)",
+        "logo": "https://i.imgur.com/qKLEGU7.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
+        "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelfareast_all/playlist.m3u8"
+      },
+      {
         "name": "Boonniyom TV",
         "logo": "https://i.imgur.com/KvdFCD5.png",
         "group": "Religious",
@@ -1811,6 +1832,29 @@
         "url": "https://vdo.plathong.net/tvmuslim/tvmuslim/playlist.m3u8"
       }
     ],
+    "Business": [
+      {
+        "name": "Bloomberg TV Asia (720p)",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
+        "url": "https://bloomberg.com/media-manifest/streams/asia.m3u8"
+      },
+      {
+        "name": "Bloomberg TV Asia Live Event (720p)",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
+        "url": "https://bloomberg.com/media-manifest/streams/asia-event.m3u8"
+      },
+      {
+        "name": "CNBC Asia HD (720p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/Mn8Rsup.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
+        "url": "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8"
+      }
+    ],
     "Movies": [
       {
         "name": "CinemaWorld (576p)",
@@ -1825,15 +1869,6 @@
         "group": "Movies",
         "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
         "url": "http://210.210.155.37/dr9445/h/h21/index.m3u8"
-      }
-    ],
-    "Business": [
-      {
-        "name": "CNBC Asia HD (720p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/Mn8Rsup.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
-        "url": "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8"
       }
     ],
     "Shop": [
@@ -1852,6 +1887,15 @@
         "group": "Series",
         "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
         "url": "https://n-edge-1-th.v2h-cdn.com/rama_m/rama/playlist.m3u8"
+      }
+    ],
+    "Kids": [
+      {
+        "name": "Nickelodeon Asia (720p)",
+        "logo": "https://i.imgur.com/E84jnP8.png",
+        "group": "Kids",
+        "source": "https://iptv-org.github.io/iptv/countries/th.m3u",
+        "url": "http://178.128.214.60:1234/stream/astro/nickelodeon/master.m3u8"
       }
     ],
     "Sports": [
