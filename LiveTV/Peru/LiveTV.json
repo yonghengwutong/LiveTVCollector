@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-25 21:52:16",
+  "date": "2025-04-26 06:51:16",
   "channels": {
     "News": [
       {
@@ -45,11 +45,25 @@
         "url": "https://servilive.com:3114/live/liveulive.m3u8"
       },
       {
+        "name": "DW Español (1080p)",
+        "logo": "https://i.imgur.com/8MRNFb9.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8"
+      },
+      {
         "name": "Exitosa (720p)",
         "logo": "https://i.imgur.com/pu0BSB7.png",
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
         "url": "https://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8"
+      },
+      {
+        "name": "France 24 Español (1080p)",
+        "logo": "https://i.imgur.com/u8N6uoj.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8"
       },
       {
         "name": "Hispan TV",
@@ -732,7 +746,7 @@
         "logo": "https://i.imgur.com/5j8Jupeb.jpg",
         "group": "General",
         "source": "https://raw.githubusercontent.com/antholyber1a/lista-iptv-peru/refs/heads/main/iptvperu.m3u",
-        "url": "https://live-evg4.tv360.bitel.com.pe/zCQI1CftYGUtsH89Tr7L4Q/1745632161/bitel/americatv/bitel/americatv_ori_source/chunks.m3u8"
+        "url": "https://live-evg4.tv360.bitel.com.pe/bm9pkYn5NvG-MBPo39pI4g/1745690613/bitel/americatv/bitel/americatv_ori_source/chunks.m3u8"
       },
       {
         "name": "ATV HD",
@@ -919,6 +933,13 @@
         "url": "https://stmv1.voxhdnet.com/tvsicuani/tvsicuani/playlist.m3u8"
       },
       {
+        "name": "Angel TV Spanish (720p)",
+        "logo": "https://i.imgur.com/qKLEGU7.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelspanish_all/playlist.m3u8"
+      },
+      {
         "name": "Enlace (720p)",
         "logo": "https://i.imgur.com/YwUVTmS.png",
         "group": "Religious",
@@ -1077,6 +1098,13 @@
         "url": "https://5c3fb01839654.streamlock.net:1963/iptvcentraltv/livecentraltvtv/playlist.m3u8"
       },
       {
+        "name": "FX",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png",
+        "group": "Entertainment",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://streamer1.nexgen.bz/FX/index.m3u8"
+      },
+      {
         "name": "Impacto Televisión (360p) [Not 24/7]",
         "logo": "https://i.imgur.com/bkpCGP6.png",
         "group": "Entertainment",
@@ -1089,6 +1117,20 @@
         "group": "Entertainment",
         "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
         "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8"
+      },
+      {
+        "name": "Lifetime",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png",
+        "group": "Entertainment",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://streamer1.nexgen.bz/LIFETIME/index.m3u8"
+      },
+      {
+        "name": "MTV",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",
+        "group": "Entertainment",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://streamer1.nexgen.bz/MTV/index.m3u8"
       },
       {
         "name": "Panc TV Peru (1080p)",
@@ -1182,6 +1224,13 @@
         "group": "Culture",
         "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
         "url": "https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8"
+      },
+      {
+        "name": "Suyai TV (1080p)",
+        "logo": "https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png",
+        "group": "Culture",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://signal.suyaitv.cl/live/35/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe"
       },
       {
         "name": "USMPTV (720p) [Not 24/7]",
@@ -1389,6 +1438,13 @@
         "url": "https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8"
       },
       {
+        "name": "VH1",
+        "logo": "https://i.imgur.com/ZZEvehR.png",
+        "group": "Music",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://streamer1.nexgen.bz/VH1/index.m3u8"
+      },
+      {
         "name": "Visión TV Música (720p) [Not 24/7]",
         "logo": "https://i.imgur.com/AihIIGn.png",
         "group": "Music",
@@ -1447,6 +1503,13 @@
     ],
     "Undefined": [
       {
+        "name": "BET",
+        "logo": "https://i.imgur.com/iHOvR4e.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://streamer1.nexgen.bz/BET/index.m3u8"
+      },
+      {
         "name": "Cadena TV (720p)",
         "logo": "https://i.imgur.com/stvzqzd.png",
         "group": "Undefined",
@@ -1466,6 +1529,13 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
         "url": "https://live.obslivestream.com/controversiatv/index.m3u8"
+      },
+      {
+        "name": "Golden Edge Panregional (576p)",
+        "logo": "https://i.imgur.com/SlSbcp3.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://linear-407.frequency.stream/mt/studio/407/hls/master/playlist.m3u8"
       },
       {
         "name": "Hechicera TV (720p)",
@@ -1747,6 +1817,13 @@
         "url": "https://live.obslivestream.com/cdeportivo/index.m3u8"
       },
       {
+        "name": "DirecTV Sports (480p) [Geo-blocked]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/512px-DirecTV_Sports_Latin_America_%282018%29.png",
+        "group": "Sports",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "http://190.210.221.119/Processor3_9_chunklist_b1300000.m3u8"
+      },
+      {
         "name": "Monterrico TV (1080p) [Not 24/7]",
         "logo": "https://i.imgur.com/SuVO9T7.png",
         "group": "Sports",
@@ -1840,6 +1917,15 @@
         "url": "https://video06.logicahost.com.br/retroplussenal3/retroplussenal3/chunklist_w1062652673.m3u8"
       }
     ],
+    "Animation;Kids": [
+      {
+        "name": "Disney Junior Latin America (480p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Disney_Jr._2024.svg/512px-Disney_Jr._2024.svg.png",
+        "group": "Animation;Kids",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "http://168.181.122.234:8000/play/a037/index.m3u8"
+      }
+    ],
     "Comedy": [
       {
         "name": "Distrito Comedia (576p)",
@@ -1875,6 +1961,13 @@
       }
     ],
     "Documentary": [
+      {
+        "name": "History",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png",
+        "group": "Documentary",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://streamer1.nexgen.bz/HISTORY/index.m3u8"
+      },
       {
         "name": "History 2 Latin America",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/512px-History2_logo_%282022%29.svg.png",
@@ -1993,6 +2086,15 @@
         "group": "Travel",
         "source": "https://raw.githubusercontent.com/antholyber1a/lista-iptv-peru/refs/heads/main/iptvperu.m3u",
         "url": "https://stmv.streamingvip.click/rutasdelperutv/rutasdelperutv/chunklist_w2137045211.m3u8"
+      }
+    ],
+    "Culture;Music": [
+      {
+        "name": "Radio Suyai TV (1080p)",
+        "logo": "https://radio.suyaitv.cl/wp-content/uploads/2024/04/cropped-radiosuyaitvcuadrado512.png",
+        "group": "Culture;Music",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://signal.suyaitv.cl/live/26/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe"
       }
     ],
     "Entertainment;Lifestyle;Music": [

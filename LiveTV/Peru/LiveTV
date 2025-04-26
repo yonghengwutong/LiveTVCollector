@@ -36,10 +36,22 @@
     "img": "https://i.imgur.com/cfHaLt2.png"
   },
   {
+    "name": "DW Español (1080p)",
+    "type": "News",
+    "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+    "img": "https://i.imgur.com/8MRNFb9.png"
+  },
+  {
     "name": "Exitosa (720p)",
     "type": "News",
     "url": "https://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8",
     "img": "https://i.imgur.com/pu0BSB7.png"
+  },
+  {
+    "name": "France 24 Español (1080p)",
+    "type": "News",
+    "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
+    "img": "https://i.imgur.com/u8N6uoj.png"
   },
   {
     "name": "Hispan TV",
@@ -620,7 +632,7 @@
   {
     "name": "America TV",
     "type": "General",
-    "url": "https://live-evg4.tv360.bitel.com.pe/zCQI1CftYGUtsH89Tr7L4Q/1745632161/bitel/americatv/bitel/americatv_ori_source/chunks.m3u8",
+    "url": "https://live-evg4.tv360.bitel.com.pe/bm9pkYn5NvG-MBPo39pI4g/1745690613/bitel/americatv/bitel/americatv_ori_source/chunks.m3u8",
     "img": "https://i.imgur.com/5j8Jupeb.jpg"
   },
   {
@@ -780,6 +792,12 @@
     "img": "https://i.imgur.com/CsW4Op8.png"
   },
   {
+    "name": "Angel TV Spanish (720p)",
+    "type": "Religious",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelspanish_all/playlist.m3u8",
+    "img": "https://i.imgur.com/qKLEGU7.png"
+  },
+  {
     "name": "Enlace (720p)",
     "type": "Religious",
     "url": "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8",
@@ -912,6 +930,12 @@
     "img": "https://i.imgur.com/cWE1deh.png"
   },
   {
+    "name": "FX",
+    "type": "Entertainment",
+    "url": "https://streamer1.nexgen.bz/FX/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png"
+  },
+  {
     "name": "Impacto Televisión (360p) [Not 24/7]",
     "type": "Entertainment",
     "url": "https://cloudvideo.servers10.com:8081/impactotv/index.m3u8",
@@ -922,6 +946,18 @@
     "type": "Entertainment",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8",
     "img": "https://i.imgur.com/WIeZMKT.png"
+  },
+  {
+    "name": "Lifetime",
+    "type": "Entertainment",
+    "url": "https://streamer1.nexgen.bz/LIFETIME/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png"
+  },
+  {
+    "name": "MTV",
+    "type": "Entertainment",
+    "url": "https://streamer1.nexgen.bz/MTV/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png"
   },
   {
     "name": "Panc TV Peru (1080p)",
@@ -1000,6 +1036,12 @@
     "type": "Culture",
     "url": "https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8",
     "img": "https://i.imgur.com/kWR3END.png"
+  },
+  {
+    "name": "Suyai TV (1080p)",
+    "type": "Culture",
+    "url": "https://signal.suyaitv.cl/live/35/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe",
+    "img": "https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png"
   },
   {
     "name": "USMPTV (720p) [Not 24/7]",
@@ -1176,6 +1218,12 @@
     "img": "https://i.imgur.com/dht94P4.png"
   },
   {
+    "name": "VH1",
+    "type": "Music",
+    "url": "https://streamer1.nexgen.bz/VH1/index.m3u8",
+    "img": "https://i.imgur.com/ZZEvehR.png"
+  },
+  {
     "name": "Visión TV Música (720p) [Not 24/7]",
     "type": "Music",
     "url": "https://videoserver.tmcreativos.com:1936/visionmusica/visionmusica/playlist.m3u8",
@@ -1224,6 +1272,12 @@
     "img": "https://i.imgur.com/5G5kian.png"
   },
   {
+    "name": "BET",
+    "type": "Undefined",
+    "url": "https://streamer1.nexgen.bz/BET/index.m3u8",
+    "img": "https://i.imgur.com/iHOvR4e.png"
+  },
+  {
     "name": "Cadena TV (720p)",
     "type": "Undefined",
     "url": "https://servilive.com:3079/live/cdnatvlive.m3u8",
@@ -1240,6 +1294,12 @@
     "type": "Undefined",
     "url": "https://live.obslivestream.com/controversiatv/index.m3u8",
     "img": "https://i.imgur.com/X7cPyP2.png"
+  },
+  {
+    "name": "Golden Edge Panregional (576p)",
+    "type": "Undefined",
+    "url": "https://linear-407.frequency.stream/mt/studio/407/hls/master/playlist.m3u8",
+    "img": "https://i.imgur.com/SlSbcp3.png"
   },
   {
     "name": "Hechicera TV (720p)",
@@ -1476,6 +1536,12 @@
     "img": "https://i.imgur.com/bBnWaq2.png"
   },
   {
+    "name": "DirecTV Sports (480p) [Geo-blocked]",
+    "type": "Sports",
+    "url": "http://190.210.221.119/Processor3_9_chunklist_b1300000.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/512px-DirecTV_Sports_Latin_America_%282018%29.png"
+  },
+  {
     "name": "Monterrico TV (1080p) [Not 24/7]",
     "type": "Sports",
     "url": "https://ed3od.live.opencaster.com/jcpstream_hd720/index.m3u8",
@@ -1554,6 +1620,12 @@
     "img": "https://i.imgur.com/i0rZsgG.png"
   },
   {
+    "name": "Disney Junior Latin America (480p)",
+    "type": "Animation;Kids",
+    "url": "http://168.181.122.234:8000/play/a037/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Disney_Jr._2024.svg/512px-Disney_Jr._2024.svg.png"
+  },
+  {
     "name": "Distrito Comedia (576p)",
     "type": "Comedy",
     "url": "https://linear-405.frequency.stream/mt/studio/405/hls/master/playlist.m3u8",
@@ -1576,6 +1648,12 @@
     "type": "Science",
     "url": "https://stmv5.voxtvhd.com.br/hiperconectados/hiperconectados/playlist.m3u8",
     "img": "https://i.imgur.com/CBbbrkI.png"
+  },
+  {
+    "name": "History",
+    "type": "Documentary",
+    "url": "https://streamer1.nexgen.bz/HISTORY/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png"
   },
   {
     "name": "History 2 Latin America",
@@ -1666,6 +1744,12 @@
     "type": "Travel",
     "url": "https://stmv.streamingvip.click/rutasdelperutv/rutasdelperutv/chunklist_w2137045211.m3u8",
     "img": "https://i.imgur.com/88Iyvm8.png"
+  },
+  {
+    "name": "Radio Suyai TV (1080p)",
+    "type": "Culture;Music",
+    "url": "https://signal.suyaitv.cl/live/26/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe",
+    "img": "https://radio.suyaitv.cl/wp-content/uploads/2024/04/cropped-radiosuyaitvcuadrado512.png"
   },
   {
     "name": "Spectrum Channel (720p)",
