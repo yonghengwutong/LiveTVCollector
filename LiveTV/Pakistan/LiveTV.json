@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-25 21:48:22",
+  "date": "2025-04-26 06:39:03",
   "channels": {
     "News": [
       {
@@ -8,6 +8,13 @@
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
         "url": "http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8"
+      },
+      {
+        "name": "BBC News Asia Pacific (720p)",
+        "logo": "https://i.imgur.com/vSz2WEp.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8"
       },
       {
         "name": "City News HD (1080p)",
@@ -192,6 +199,20 @@
       }
     ],
     "Business": [
+      {
+        "name": "Bloomberg TV Asia (720p)",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "url": "https://bloomberg.com/media-manifest/streams/asia.m3u8"
+      },
+      {
+        "name": "Bloomberg TV Asia Live Event (720p)",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+        "url": "https://bloomberg.com/media-manifest/streams/asia-event.m3u8"
+      },
       {
         "name": "CNBC Asia HD (720p) [Geo-blocked]",
         "logo": "https://i.imgur.com/Mn8Rsup.png",
