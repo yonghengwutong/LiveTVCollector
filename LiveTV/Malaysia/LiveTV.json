@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-25 21:57:01",
+  "date": "2025-04-26 07:14:02",
   "channels": {
     "siaranMy": [
       {
@@ -886,14 +886,14 @@
         "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8"
       },
       {
-        "name": "Astro Riyo test only",
+        "name": "Astro Rio percubaan",
         "logo": "https://aqfadtv.xyz/logos/Astro Ria (2024).png",
         "group": "Brunei",
         "source": "https://raw.githubusercontent.com/hazrulamin/iptv/refs/heads/main/iptv.m3u",
         "url": "https://l16.dp.sooka.my/1004/linear/index.mpd"
       },
       {
-        "name": "Astro Prymo test only",
+        "name": "Astro Primo percubaan",
         "logo": "https://aqfadtv.xyz/logos/Astro Prima (2024).png",
         "group": "Brunei",
         "source": "https://raw.githubusercontent.com/hazrulamin/iptv/refs/heads/main/iptv.m3u",
@@ -1384,6 +1384,13 @@
         "group": "Kids",
         "source": "https://raw.githubusercontent.com/hazrulamin/iptv/refs/heads/main/iptv.m3u",
         "url": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5c3f8f12a93c2d61b9990a4e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus"
+      },
+      {
+        "name": "Nickelodeon Asia (720p)",
+        "logo": "https://i.imgur.com/E84jnP8.png",
+        "group": "Kids",
+        "source": "https://iptv-org.github.io/iptv/countries/my.m3u",
+        "url": "http://178.128.214.60:1234/stream/astro/nickelodeon/master.m3u8"
       }
     ],
     "News": [
@@ -1456,6 +1463,13 @@
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/my.m3u",
         "url": "https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8"
+      },
+      {
+        "name": "BBC News Asia Pacific (720p)",
+        "logo": "https://i.imgur.com/vSz2WEp.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/my.m3u",
+        "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8"
       },
       {
         "name": "RTM ASEAN",
@@ -12192,6 +12206,22 @@
         "url": "https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/5c912c75ba74fe65548cba69_hbovodsd/dash0/MYS_index.mpd"
       }
     ],
+    "Religious": [
+      {
+        "name": "Angel TV Far East (720p)",
+        "logo": "https://i.imgur.com/qKLEGU7.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/my.m3u",
+        "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelfareast_all/playlist.m3u8"
+      },
+      {
+        "name": "Kanal 10 Asia (540p)",
+        "logo": "https://i.imgur.com/tY7IJva.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/my.m3u",
+        "url": "http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8"
+      }
+    ],
     "General": [
       {
         "name": "Awesome TV [Geo-blocked]",
@@ -12317,20 +12347,25 @@
     ],
     "Business": [
       {
+        "name": "Bloomberg TV Asia (720p)",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/my.m3u",
+        "url": "https://bloomberg.com/media-manifest/streams/asia.m3u8"
+      },
+      {
+        "name": "Bloomberg TV Asia Live Event (720p)",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/my.m3u",
+        "url": "https://bloomberg.com/media-manifest/streams/asia-event.m3u8"
+      },
+      {
         "name": "CNBC Asia HD (720p) [Geo-blocked]",
         "logo": "https://i.imgur.com/Mn8Rsup.png",
         "group": "Business",
         "source": "https://iptv-org.github.io/iptv/countries/my.m3u",
         "url": "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8"
-      }
-    ],
-    "Religious": [
-      {
-        "name": "Kanal 10 Asia (540p)",
-        "logo": "https://i.imgur.com/tY7IJva.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/my.m3u",
-        "url": "http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8"
       }
     ],
     "Legislative": [
