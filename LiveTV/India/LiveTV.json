@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-25 21:57:00",
+  "date": "2025-04-26 07:14:03",
   "channels": {
     "Music": [
       {
@@ -43,6 +43,13 @@
         "group": "Music",
         "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
         "url": "https://live.hungama.com/linear/artist-aloud/playlist.m3u8"
+      },
+      {
+        "name": "B4U Music India (576p)",
+        "logo": "https://i.imgur.com/KSxPLJA.png",
+        "group": "Music",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "http://183.89.246.119:8881/play/a08o/index.m3u8"
       },
       {
         "name": "Balle Balle (720p)",
@@ -208,11 +215,11 @@
         "url": "https://5b48d7e1b4bce.streamlock.net/myapp/a1live/playlist.m3u8"
       },
       {
-        "name": "Aaj Tak",
+        "name": "Aaj Tak (404p)",
         "logo": "https://i.imgur.com/RpIdCB3.png",
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
-        "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8"
+        "url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8"
       },
       {
         "name": "ABP Ganga (1080p)",
@@ -297,6 +304,13 @@
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
         "url": "https://badakhabar.livebox.co.in/Badakhabarhls/live.m3u8"
+      },
+      {
+        "name": "BBC News Asia Pacific (720p)",
+        "logo": "https://i.imgur.com/vSz2WEp.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8"
       },
       {
         "name": "Bharat Samachar TV (360p)",
@@ -775,11 +789,11 @@
         "url": "http://rtmp.logichost.in:1935/timevision/timevision/playlist.m3u8"
       },
       {
-        "name": "Times Now [Geo-blocked]",
+        "name": "Times Now (480p) [Geo-blocked]",
         "logo": "https://i.imgur.com/C6QK1LB.png",
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
-        "url": "https://pubads.g.doubleclick.net/ssai/event/1mR1QUQ3Tg-VuKfiyjwNuA/master.m3u8"
+        "url": "https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8"
       },
       {
         "name": "Times Now Navbharat [Geo-blocked]",
@@ -873,6 +887,13 @@
         "group": "Religious",
         "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
         "url": "https://mediaserver.abnvideos.com/streams/abntvindia.m3u8"
+      },
+      {
+        "name": "Angel TV India (720p)",
+        "logo": "https://i.imgur.com/qKLEGU7.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelindia_all/playlist.m3u8"
       },
       {
         "name": "Ashrafi Channel (484p) [Not 24/7]",
@@ -1094,11 +1115,11 @@
         "url": "http://103.124.251.164:28015/play/a02m/index.m3u8"
       },
       {
-        "name": "Nick HD+",
+        "name": "Nick HD+ (1080p)",
         "logo": "https://i.imgur.com/nJPbTet.png",
         "group": "Kids",
         "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
-        "url": "http://103.68.28.58:5001/live/1226.m3u8"
+        "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Nick_HD_Plus_voot_MOB/Fallback/index.m3u8"
       },
       {
         "name": "Nick Jr India (1080p)",
@@ -1359,6 +1380,13 @@
         "url": "http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8"
       },
       {
+        "name": "B4U Movies India (576p)",
+        "logo": "https://i.imgur.com/M9kMFJl.png",
+        "group": "Movies",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "http://183.89.246.119:8881/play/a08n/index.m3u8"
+      },
+      {
         "name": "B4U Plus (576p)",
         "logo": "https://i.imgur.com/ly8hBqS.png",
         "group": "Movies",
@@ -1406,6 +1434,57 @@
         "group": "Movies",
         "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
         "url": "http://103.81.104.118/hls/stream19.m3u8"
+      }
+    ],
+    "Business": [
+      {
+        "name": "Bloomberg TV Asia (720p)",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "https://bloomberg.com/media-manifest/streams/asia.m3u8"
+      },
+      {
+        "name": "Bloomberg TV Asia Live Event (720p)",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "https://bloomberg.com/media-manifest/streams/asia-event.m3u8"
+      },
+      {
+        "name": "CNBC Asia HD (720p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/Mn8Rsup.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8"
+      },
+      {
+        "name": "CNBC Bajar (504p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/cORao6C.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "https://cnbcbazar-lh.akamaihd.net/i/cnbcbajar_1@178933/index_5_av-p.m3u8"
+      },
+      {
+        "name": "ET Now (720p)",
+        "logo": "https://i.imgur.com/ueI0VwW.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "https://etnowweblive.akamaized.net/hls/live/2034678/ETNOWMSL4/chunklist_2.m3u8"
+      },
+      {
+        "name": "NDTV Profit (480p)",
+        "logo": "https://i.imgur.com/WK4tZ6p.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680-b/ndtvprofit/master.m3u8"
+      },
+      {
+        "name": "Zee Business (720p)",
+        "logo": "https://i.imgur.com/vkWBtL4.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_5.m3u8"
       }
     ],
     "Undefined": [
@@ -2021,43 +2100,6 @@
         "url": "https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363"
       }
     ],
-    "Business": [
-      {
-        "name": "CNBC Asia HD (720p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/Mn8Rsup.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
-        "url": "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8"
-      },
-      {
-        "name": "CNBC Bajar (504p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/cORao6C.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
-        "url": "https://cnbcbazar-lh.akamaihd.net/i/cnbcbajar_1@178933/index_5_av-p.m3u8"
-      },
-      {
-        "name": "ET Now (720p)",
-        "logo": "https://i.imgur.com/ueI0VwW.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
-        "url": "https://etnowweblive.akamaized.net/hls/live/2034678/ETNOWMSL4/chunklist_2.m3u8"
-      },
-      {
-        "name": "NDTV Profit [Geo-blocked]",
-        "logo": "https://i.imgur.com/WK4tZ6p.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
-        "url": "https://ndtv.live-s.cdn.bitgravity.com/cdn-live/_definst_/ndtv/live/ndtv_profit.smil/playlist.m3u8"
-      },
-      {
-        "name": "Zee Business (720p)",
-        "logo": "https://i.imgur.com/vkWBtL4.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
-        "url": "https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_5.m3u8"
-      }
-    ],
     "Culture": [
       {
         "name": "DD Punjabi",
@@ -2065,6 +2107,13 @@
         "group": "Culture",
         "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
         "url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/20c8ad14-a158-4a42-8889-e032d070856e/2.m3u8"
+      },
+      {
+        "name": "Hulchul TV (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/LvkdhRw.png",
+        "group": "Culture",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "http://cdn12.henico.net:8080/live/jbani/index.m3u8"
       },
       {
         "name": "Hyder TV",
@@ -2140,6 +2189,13 @@
         "group": "Family",
         "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
         "url": "https://live.wmncdn.net/nambikkaitv/live.stream/index.m3u8"
+      },
+      {
+        "name": "The Pet Collective",
+        "logo": "https://i.imgur.com/yH7n2dF.png",
+        "group": "Family",
+        "source": "https://iptv-org.github.io/iptv/countries/in.m3u",
+        "url": "https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8"
       }
     ],
     "Culture;Religious": [
