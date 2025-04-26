@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-25 22:00:48",
+  "date": "2025-04-26 07:26:31",
   "channels": {
     "Uncategorized": [
       {
@@ -1046,6 +1046,29 @@
         "url": "https://HaNoiIPTV.short.gy/HaNoiIPTVPlus-Phat_thanh_Phuong_Rung_Thong-Thanh_pho_Thanh_Hoa"
       }
     ],
+    "Religious": [
+      {
+        "name": "Angel TV Far East (720p)",
+        "logo": "https://i.imgur.com/qKLEGU7.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
+        "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelfareast_all/playlist.m3u8"
+      },
+      {
+        "name": "Dhammasapha TV (1080p)",
+        "logo": "https://i.imgur.com/TWJgMuE.jpg",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
+        "url": "https://livefta.malimarcdn.com/ftaedge00/dhammasapha.stream/playlist.m3u8"
+      },
+      {
+        "name": "Kanal 10 Asia (540p)",
+        "logo": "https://i.imgur.com/tY7IJva.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
+        "url": "http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8"
+      }
+    ],
     "Undefined": [
       {
         "name": "ANTV (480p)",
@@ -1244,6 +1267,22 @@
         "url": "http://125hvt.ddns.net:21585/vtv6/playlist.m3u8"
       }
     ],
+    "News": [
+      {
+        "name": "BBC News Asia Pacific (720p)",
+        "logo": "https://i.imgur.com/vSz2WEp.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
+        "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8"
+      },
+      {
+        "name": "RTM ASEAN",
+        "logo": "https://i.imgur.com/skAiUxg.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
+        "url": "https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8"
+      }
+    ],
     "General;News": [
       {
         "name": "Binh Phuoc TV 1 (720p)",
@@ -1265,6 +1304,29 @@
         "group": "General;News",
         "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
         "url": "http://125hvt.ddns.net:21585/htv9/index.m3u8"
+      }
+    ],
+    "Business": [
+      {
+        "name": "Bloomberg TV Asia (720p)",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
+        "url": "https://bloomberg.com/media-manifest/streams/asia.m3u8"
+      },
+      {
+        "name": "Bloomberg TV Asia Live Event (720p)",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
+        "url": "https://bloomberg.com/media-manifest/streams/asia-event.m3u8"
+      },
+      {
+        "name": "CNBC Asia HD (720p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/Mn8Rsup.png",
+        "group": "Business",
+        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
+        "url": "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8"
       }
     ],
     "General": [
@@ -1453,15 +1515,6 @@
         "url": "http://210.210.155.37/dr9445/h/h21/index.m3u8"
       }
     ],
-    "Business": [
-      {
-        "name": "CNBC Asia HD (720p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/Mn8Rsup.png",
-        "group": "Business",
-        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
-        "url": "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8"
-      }
-    ],
     "Entertainment": [
       {
         "name": "Crime + Investigation Asia HD (720p) [Geo-blocked]",
@@ -1483,22 +1536,6 @@
         "group": "Entertainment",
         "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
         "url": "https://5dcabf026b188.streamlock.net/SET22/livestream/playlist.m3u8"
-      }
-    ],
-    "Religious": [
-      {
-        "name": "Dhammasapha TV (1080p)",
-        "logo": "https://i.imgur.com/TWJgMuE.jpg",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
-        "url": "https://livefta.malimarcdn.com/ftaedge00/dhammasapha.stream/playlist.m3u8"
-      },
-      {
-        "name": "Kanal 10 Asia (540p)",
-        "logo": "https://i.imgur.com/tY7IJva.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
-        "url": "http://cdn-kanal10.crossnet.net:1935/kanal10/kanal10asia/playlist.m3u8"
       }
     ],
     "Entertainment;Sports": [
@@ -1556,13 +1593,13 @@
         "url": "https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8"
       }
     ],
-    "News": [
+    "Kids": [
       {
-        "name": "RTM ASEAN",
-        "logo": "https://i.imgur.com/skAiUxg.png",
-        "group": "News",
+        "name": "Nickelodeon Asia (720p)",
+        "logo": "https://i.imgur.com/E84jnP8.png",
+        "group": "Kids",
         "source": "https://iptv-org.github.io/iptv/countries/vn.m3u",
-        "url": "https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8"
+        "url": "http://178.128.214.60:1234/stream/astro/nickelodeon/master.m3u8"
       }
     ]
   }
