@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-25 21:48:36",
+  "date": "2025-04-26 06:40:48",
   "channels": {
     "": [
       {
@@ -4903,11 +4903,11 @@
         "url": "https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8"
       },
       {
-        "name": "Record News",
+        "name": "Record News (720p)",
         "logo": "https://i.imgur.com/HZDRG0K.png",
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116"
+        "url": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8"
       },
       {
         "name": "Rede Web TV (720p)",
@@ -5849,11 +5849,25 @@
         "url": "https://stmv1.srvsite.com/ely/ely/playlist.m3u8"
       },
       {
+        "name": "Lifetime",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png",
+        "group": "Entertainment",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://streamer1.nexgen.bz/LIFETIME/index.m3u8"
+      },
+      {
         "name": "Pluto TV MTV (Brazil) (720p)",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",
         "group": "Entertainment",
         "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
         "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1212fb81e85c00077ae9ef/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+      },
+      {
+        "name": "Pluto TV Retrô (684p)",
+        "logo": "https://i.imgur.com/wztO3GM.png",
+        "group": "Entertainment",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1212ad1728050007a523b8/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
       },
       {
         "name": "Rede Mundo TV (720p)",
@@ -6182,6 +6196,13 @@
         "url": "https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8"
       },
       {
+        "name": "TV Cultura Nacional",
+        "logo": "https://i.ibb.co/nm0jXMM/cultura-3x.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://d28367vmhj4ljz.cloudfront.net/out/v1/f26e176ce67244de862cd9b21d823934/index.m3u8"
+      },
+      {
         "name": "TV Difusora São Luis (432p)",
         "logo": "https://i.imgur.com/kQpZy8h.png",
         "group": "Undefined",
@@ -6343,6 +6364,85 @@
         "url": "http://painelvj.com.br:1935/tvnbrasil/tvnbrasil.sdp/playlist.m3u8"
       }
     ],
+    "Religious": [
+      {
+        "name": "Angel TV Portuguese (720p)",
+        "logo": "https://i.imgur.com/qKLEGU7.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelportuguese_all/playlist.m3u8"
+      },
+      {
+        "name": "Fonte TV (1080p) [Not 24/7]",
+        "logo": "https://i.imgur.com/7q2BmNc.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8"
+      },
+      {
+        "name": "Gospel Movie TV (360p)",
+        "logo": "https://i.imgur.com/cQN3nWt.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8"
+      },
+      {
+        "name": "IMPD TV (720p)",
+        "logo": "https://i.imgur.com/23m7LHH.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://58a4464faef53.streamlock.net/impd/ngrp:impd_all/playlist.m3u8"
+      },
+      {
+        "name": "Rede Brasil de Comunicação (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/iiJufN2.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "http://rbc.directradios.com:1935/rbc/rbc/live.m3u8"
+      },
+      {
+        "name": "TV Evangelizar (480p)",
+        "logo": "https://i.imgur.com/IrYR7Kp.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://5f593df7851db.streamlock.net/evangelizar/tv/playlist.m3u8"
+      },
+      {
+        "name": "TV Gideoes (1080p) [Not 24/7]",
+        "logo": "https://i.imgur.com/dDomKND.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://streaming01.zas.media/gideoes/programacao/playlist.m3u8"
+      },
+      {
+        "name": "TV Maná Brasil (1080p)",
+        "logo": "https://i.imgur.com/AFb712e.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8"
+      },
+      {
+        "name": "TV Pai Eterno (480p)",
+        "logo": "https://i.imgur.com/iuoXchN.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://59f1cbe63db89.streamlock.net:1443/teste01/_definst_/teste01/chunklist.m3u8"
+      },
+      {
+        "name": "TV Terceiro Anjo (360p)",
+        "logo": "https://i.imgur.com/PExKWNv.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8"
+      },
+      {
+        "name": "TV Universal (480p)",
+        "logo": "https://i.imgur.com/TIsk5zN.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8"
+      }
+    ],
     "Legislative": [
       {
         "name": "Assembleia Legislativa do Estado de Mato Grosso (720p)",
@@ -6431,6 +6531,13 @@
         "url": "http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test"
       },
       {
+        "name": "VH1",
+        "logo": "https://i.imgur.com/ZZEvehR.png",
+        "group": "Music",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://streamer1.nexgen.bz/VH1/index.m3u8"
+      },
+      {
         "name": "Virtual TV (720p)",
         "logo": "https://i.imgur.com/e1b0TTP.png",
         "group": "Music",
@@ -6452,6 +6559,20 @@
         "group": "Education",
         "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
         "url": "https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8"
+      },
+      {
+        "name": "Pluto TV Natureza (720p)",
+        "logo": "https://i.imgur.com/RuyQQ6M.png",
+        "group": "Education",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1213ba0ecebc00070e170f/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+      },
+      {
+        "name": "Pluto TV Vida Real (720p)",
+        "logo": "https://i.imgur.com/dRbBbxP.png",
+        "group": "Education",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f32d4d9ec194100070c7449/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
       },
       {
         "name": "Rede Minas (1080p) [Not 24/7]",
@@ -6551,6 +6672,20 @@
         "url": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8"
       },
       {
+        "name": "Pluto TV Cine Drama (720p)",
+        "logo": "https://i.imgur.com/AQBtheU.png",
+        "group": "Movies",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1210d14ae1f80007bafb1d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+      },
+      {
+        "name": "Pluto TV Cine Família (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/r9UhBfV.png",
+        "group": "Movies",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f171f032cd22e0007f17f3d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+      },
+      {
         "name": "TV Cinec (240p) [Not 24/7]",
         "logo": "https://i.imgur.com/Svm5pun.png",
         "group": "Movies",
@@ -6592,78 +6727,6 @@
         "url": "https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8"
       }
     ],
-    "Religious": [
-      {
-        "name": "Fonte TV (1080p) [Not 24/7]",
-        "logo": "https://i.imgur.com/7q2BmNc.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8"
-      },
-      {
-        "name": "Gospel Movie TV (360p)",
-        "logo": "https://i.imgur.com/cQN3nWt.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8"
-      },
-      {
-        "name": "IMPD TV (720p)",
-        "logo": "https://i.imgur.com/23m7LHH.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "https://58a4464faef53.streamlock.net/impd/ngrp:impd_all/playlist.m3u8"
-      },
-      {
-        "name": "Rede Brasil de Comunicação (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/iiJufN2.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "http://rbc.directradios.com:1935/rbc/rbc/live.m3u8"
-      },
-      {
-        "name": "TV Evangelizar (480p)",
-        "logo": "https://i.imgur.com/IrYR7Kp.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "https://5f593df7851db.streamlock.net/evangelizar/tv/playlist.m3u8"
-      },
-      {
-        "name": "TV Gideoes (1080p) [Not 24/7]",
-        "logo": "https://i.imgur.com/dDomKND.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "https://streaming01.zas.media/gideoes/programacao/playlist.m3u8"
-      },
-      {
-        "name": "TV Maná Brasil (1080p)",
-        "logo": "https://i.imgur.com/AFb712e.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8"
-      },
-      {
-        "name": "TV Pai Eterno (480p)",
-        "logo": "https://i.imgur.com/iuoXchN.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "https://59f1cbe63db89.streamlock.net:1443/teste01/_definst_/teste01/chunklist.m3u8"
-      },
-      {
-        "name": "TV Terceiro Anjo (360p)",
-        "logo": "https://i.imgur.com/PExKWNv.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8"
-      },
-      {
-        "name": "TV Universal (480p)",
-        "logo": "https://i.imgur.com/TIsk5zN.png",
-        "group": "Religious",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8"
-      }
-    ],
     "Comedy": [
       {
         "name": "Fora Tédio TV (720p) [Not 24/7]",
@@ -6696,6 +6759,13 @@
         "group": "Documentary",
         "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
         "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HISTORY2/index.m3u8"
+      },
+      {
+        "name": "Pluto TV Investigação (720p)",
+        "logo": "https://i.imgur.com/JlQq0YJ.png",
+        "group": "Documentary",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f32cf37c9ff2b00082adbc8/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
       }
     ],
     "Animation;Entertainment": [
@@ -6757,6 +6827,15 @@
         "url": "https://59f1cbe63db89.streamlock.net:1443/ntvnet/_definst_/ntvnet/playlist.m3u8"
       }
     ],
+    "Culture;Music": [
+      {
+        "name": "Radio Suyai TV (1080p)",
+        "logo": "https://radio.suyaitv.cl/wp-content/uploads/2024/04/cropped-radiosuyaitvcuadrado512.png",
+        "group": "Culture;Music",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://signal.suyaitv.cl/live/26/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe"
+      }
+    ],
     "Classic": [
       {
         "name": "Retrô Cartoon (480p) [Not 24/7]",
@@ -6784,6 +6863,38 @@
         "url": "https://panel.miplay.cl:8082/spectrumchannel/index.m3u8"
       }
     ],
+    "Culture": [
+      {
+        "name": "Suyai TV (1080p)",
+        "logo": "https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png",
+        "group": "Culture",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://signal.suyaitv.cl/live/35/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe"
+      },
+      {
+        "name": "TV das Artes (360p)",
+        "logo": "https://i.imgur.com/fSWaiKt.png",
+        "group": "Culture",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "http://tv02.logicahost.com.br:1935/tvdasartes/tvdasartes/playlist.m3u8"
+      },
+      {
+        "name": "TV Omindaré (360p)",
+        "logo": "https://i.imgur.com/naZZUIT.png",
+        "group": "Culture",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://video01.kshost.com.br/lourdes52007/lourdes52007/playlist.m3u8"
+      }
+    ],
+    "Cooking": [
+      {
+        "name": "Tastemade Brasil (1080p)",
+        "logo": "https://i.imgur.com/FPy4zF4.png",
+        "group": "Cooking",
+        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
+        "url": "https://tastemade-pt16intl-samsungbrazil.amagi.tv/playlist.m3u8"
+      }
+    ],
     "Family;Movies;Series": [
       {
         "name": "Tela Viva (360p)",
@@ -6809,22 +6920,6 @@
         "group": "Legislative;News",
         "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
         "url": "https://livefocamundo.com:8081/tvcidada/index.m3u8"
-      }
-    ],
-    "Culture": [
-      {
-        "name": "TV das Artes (360p)",
-        "logo": "https://i.imgur.com/fSWaiKt.png",
-        "group": "Culture",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "http://tv02.logicahost.com.br:1935/tvdasartes/tvdasartes/playlist.m3u8"
-      },
-      {
-        "name": "TV Omindaré (360p)",
-        "logo": "https://i.imgur.com/naZZUIT.png",
-        "group": "Culture",
-        "source": "https://iptv-org.github.io/iptv/countries/br.m3u",
-        "url": "https://video01.kshost.com.br/lourdes52007/lourdes52007/playlist.m3u8"
       }
     ],
     "Travel": [

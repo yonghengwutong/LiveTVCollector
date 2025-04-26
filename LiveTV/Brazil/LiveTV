@@ -4176,9 +4176,9 @@
     "img": "https://i.imgur.com/lH4RT7b.png"
   },
   {
-    "name": "Record News",
+    "name": "Record News (720p)",
     "type": "News",
-    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116",
+    "url": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
     "img": "https://i.imgur.com/HZDRG0K.png"
   },
   {
@@ -4980,10 +4980,22 @@
     "img": "https://i.imgur.com/1eHNe91.png"
   },
   {
+    "name": "Lifetime",
+    "type": "Entertainment",
+    "url": "https://streamer1.nexgen.bz/LIFETIME/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png"
+  },
+  {
     "name": "Pluto TV MTV (Brazil) (720p)",
     "type": "Entertainment",
     "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1212fb81e85c00077ae9ef/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png"
+  },
+  {
+    "name": "Pluto TV Retrô (684p)",
+    "type": "Entertainment",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1212ad1728050007a523b8/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
+    "img": "https://i.imgur.com/wztO3GM.png"
   },
   {
     "name": "Rede Mundo TV (720p)",
@@ -5262,6 +5274,12 @@
     "img": "https://i.imgur.com/CpXjcyE.png"
   },
   {
+    "name": "TV Cultura Nacional",
+    "type": "Undefined",
+    "url": "https://d28367vmhj4ljz.cloudfront.net/out/v1/f26e176ce67244de862cd9b21d823934/index.m3u8",
+    "img": "https://i.ibb.co/nm0jXMM/cultura-3x.png"
+  },
+  {
     "name": "TV Difusora São Luis (432p)",
     "type": "Undefined",
     "url": "https://stream.amsolution.net.br:8443/live/60ce4ae4b9d4c/index.m3u8",
@@ -5400,6 +5418,72 @@
     "img": "https://i.imgur.com/XZS13xD.png"
   },
   {
+    "name": "Angel TV Portuguese (720p)",
+    "type": "Religious",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelportuguese_all/playlist.m3u8",
+    "img": "https://i.imgur.com/qKLEGU7.png"
+  },
+  {
+    "name": "Fonte TV (1080p) [Not 24/7]",
+    "type": "Religious",
+    "url": "http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8",
+    "img": "https://i.imgur.com/7q2BmNc.png"
+  },
+  {
+    "name": "Gospel Movie TV (360p)",
+    "type": "Religious",
+    "url": "https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8",
+    "img": "https://i.imgur.com/cQN3nWt.png"
+  },
+  {
+    "name": "IMPD TV (720p)",
+    "type": "Religious",
+    "url": "https://58a4464faef53.streamlock.net/impd/ngrp:impd_all/playlist.m3u8",
+    "img": "https://i.imgur.com/23m7LHH.png"
+  },
+  {
+    "name": "Rede Brasil de Comunicação (720p) [Not 24/7]",
+    "type": "Religious",
+    "url": "http://rbc.directradios.com:1935/rbc/rbc/live.m3u8",
+    "img": "https://i.imgur.com/iiJufN2.png"
+  },
+  {
+    "name": "TV Evangelizar (480p)",
+    "type": "Religious",
+    "url": "https://5f593df7851db.streamlock.net/evangelizar/tv/playlist.m3u8",
+    "img": "https://i.imgur.com/IrYR7Kp.png"
+  },
+  {
+    "name": "TV Gideoes (1080p) [Not 24/7]",
+    "type": "Religious",
+    "url": "https://streaming01.zas.media/gideoes/programacao/playlist.m3u8",
+    "img": "https://i.imgur.com/dDomKND.png"
+  },
+  {
+    "name": "TV Maná Brasil (1080p)",
+    "type": "Religious",
+    "url": "https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8",
+    "img": "https://i.imgur.com/AFb712e.png"
+  },
+  {
+    "name": "TV Pai Eterno (480p)",
+    "type": "Religious",
+    "url": "https://59f1cbe63db89.streamlock.net:1443/teste01/_definst_/teste01/chunklist.m3u8",
+    "img": "https://i.imgur.com/iuoXchN.png"
+  },
+  {
+    "name": "TV Terceiro Anjo (360p)",
+    "type": "Religious",
+    "url": "https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8",
+    "img": "https://i.imgur.com/PExKWNv.png"
+  },
+  {
+    "name": "TV Universal (480p)",
+    "type": "Religious",
+    "url": "https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8",
+    "img": "https://i.imgur.com/TIsk5zN.png"
+  },
+  {
     "name": "Assembleia Legislativa do Estado de Mato Grosso (720p)",
     "type": "Legislative",
     "url": "https://streaming.al.mt.gov.br/test/index.m3u8",
@@ -5472,6 +5556,12 @@
     "img": "https://i.imgur.com/zNscEST.png"
   },
   {
+    "name": "VH1",
+    "type": "Music",
+    "url": "https://streamer1.nexgen.bz/VH1/index.m3u8",
+    "img": "https://i.imgur.com/ZZEvehR.png"
+  },
+  {
     "name": "Virtual TV (720p)",
     "type": "Music",
     "url": "https://59f1cbe63db89.streamlock.net:1443/mundotv2/_definst_/mundotv2/playlist.m3u8",
@@ -5488,6 +5578,18 @@
     "type": "Education",
     "url": "https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8",
     "img": "https://i.imgur.com/RUKVrOH.png"
+  },
+  {
+    "name": "Pluto TV Natureza (720p)",
+    "type": "Education",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1213ba0ecebc00070e170f/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
+    "img": "https://i.imgur.com/RuyQQ6M.png"
+  },
+  {
+    "name": "Pluto TV Vida Real (720p)",
+    "type": "Education",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f32d4d9ec194100070c7449/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
+    "img": "https://i.imgur.com/dRbBbxP.png"
   },
   {
     "name": "Rede Minas (1080p) [Not 24/7]",
@@ -5568,6 +5670,18 @@
     "img": "https://i.imgur.com/aiGQtzI.png"
   },
   {
+    "name": "Pluto TV Cine Drama (720p)",
+    "type": "Movies",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1210d14ae1f80007bafb1d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
+    "img": "https://i.imgur.com/AQBtheU.png"
+  },
+  {
+    "name": "Pluto TV Cine Família (720p) [Not 24/7]",
+    "type": "Movies",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f171f032cd22e0007f17f3d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
+    "img": "https://i.imgur.com/r9UhBfV.png"
+  },
+  {
     "name": "TV Cinec (240p) [Not 24/7]",
     "type": "Movies",
     "url": "http://tv01.logicahost.com.br:1935/tvcinec/tvcinec/live.m3u8",
@@ -5598,66 +5712,6 @@
     "img": "https://pandamax.cl/assets/img/pandalogo2.png"
   },
   {
-    "name": "Fonte TV (1080p) [Not 24/7]",
-    "type": "Religious",
-    "url": "http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8",
-    "img": "https://i.imgur.com/7q2BmNc.png"
-  },
-  {
-    "name": "Gospel Movie TV (360p)",
-    "type": "Religious",
-    "url": "https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8",
-    "img": "https://i.imgur.com/cQN3nWt.png"
-  },
-  {
-    "name": "IMPD TV (720p)",
-    "type": "Religious",
-    "url": "https://58a4464faef53.streamlock.net/impd/ngrp:impd_all/playlist.m3u8",
-    "img": "https://i.imgur.com/23m7LHH.png"
-  },
-  {
-    "name": "Rede Brasil de Comunicação (720p) [Not 24/7]",
-    "type": "Religious",
-    "url": "http://rbc.directradios.com:1935/rbc/rbc/live.m3u8",
-    "img": "https://i.imgur.com/iiJufN2.png"
-  },
-  {
-    "name": "TV Evangelizar (480p)",
-    "type": "Religious",
-    "url": "https://5f593df7851db.streamlock.net/evangelizar/tv/playlist.m3u8",
-    "img": "https://i.imgur.com/IrYR7Kp.png"
-  },
-  {
-    "name": "TV Gideoes (1080p) [Not 24/7]",
-    "type": "Religious",
-    "url": "https://streaming01.zas.media/gideoes/programacao/playlist.m3u8",
-    "img": "https://i.imgur.com/dDomKND.png"
-  },
-  {
-    "name": "TV Maná Brasil (1080p)",
-    "type": "Religious",
-    "url": "https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8",
-    "img": "https://i.imgur.com/AFb712e.png"
-  },
-  {
-    "name": "TV Pai Eterno (480p)",
-    "type": "Religious",
-    "url": "https://59f1cbe63db89.streamlock.net:1443/teste01/_definst_/teste01/chunklist.m3u8",
-    "img": "https://i.imgur.com/iuoXchN.png"
-  },
-  {
-    "name": "TV Terceiro Anjo (360p)",
-    "type": "Religious",
-    "url": "https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8",
-    "img": "https://i.imgur.com/PExKWNv.png"
-  },
-  {
-    "name": "TV Universal (480p)",
-    "type": "Religious",
-    "url": "https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8",
-    "img": "https://i.imgur.com/TIsk5zN.png"
-  },
-  {
     "name": "Fora Tédio TV (720p) [Not 24/7]",
     "type": "Comedy",
     "url": "http://stream.foratedio.com/foratedio/foratedio/playlist.m3u8",
@@ -5680,6 +5734,12 @@
     "type": "Documentary",
     "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HISTORY2/index.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/512px-History2_logo_%282022%29.svg.png"
+  },
+  {
+    "name": "Pluto TV Investigação (720p)",
+    "type": "Documentary",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f32cf37c9ff2b00082adbc8/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
+    "img": "https://i.imgur.com/JlQq0YJ.png"
   },
   {
     "name": "Kanade (1080p)",
@@ -5724,6 +5784,12 @@
     "img": "https://i.imgur.com/n79nkVC.png"
   },
   {
+    "name": "Radio Suyai TV (1080p)",
+    "type": "Culture;Music",
+    "url": "https://signal.suyaitv.cl/live/26/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe",
+    "img": "https://radio.suyaitv.cl/wp-content/uploads/2024/04/cropped-radiosuyaitvcuadrado512.png"
+  },
+  {
     "name": "Retrô Cartoon (480p) [Not 24/7]",
     "type": "Classic",
     "url": "https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8",
@@ -5742,6 +5808,30 @@
     "img": "https://cdn.energeek.cl/logos/spectrumtv-512.png"
   },
   {
+    "name": "Suyai TV (1080p)",
+    "type": "Culture",
+    "url": "https://signal.suyaitv.cl/live/35/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe",
+    "img": "https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png"
+  },
+  {
+    "name": "TV das Artes (360p)",
+    "type": "Culture",
+    "url": "http://tv02.logicahost.com.br:1935/tvdasartes/tvdasartes/playlist.m3u8",
+    "img": "https://i.imgur.com/fSWaiKt.png"
+  },
+  {
+    "name": "TV Omindaré (360p)",
+    "type": "Culture",
+    "url": "https://video01.kshost.com.br/lourdes52007/lourdes52007/playlist.m3u8",
+    "img": "https://i.imgur.com/naZZUIT.png"
+  },
+  {
+    "name": "Tastemade Brasil (1080p)",
+    "type": "Cooking",
+    "url": "https://tastemade-pt16intl-samsungbrazil.amagi.tv/playlist.m3u8",
+    "img": "https://i.imgur.com/FPy4zF4.png"
+  },
+  {
     "name": "Tela Viva (360p)",
     "type": "Family;Movies;Series",
     "url": "https://srv4.zcast.com.br/telavivatv/telavivatv/playlist.m3u8",
@@ -5758,18 +5848,6 @@
     "type": "Legislative;News",
     "url": "https://livefocamundo.com:8081/tvcidada/index.m3u8",
     "img": "https://i.imgur.com/m8J8zhr.png"
-  },
-  {
-    "name": "TV das Artes (360p)",
-    "type": "Culture",
-    "url": "http://tv02.logicahost.com.br:1935/tvdasartes/tvdasartes/playlist.m3u8",
-    "img": "https://i.imgur.com/fSWaiKt.png"
-  },
-  {
-    "name": "TV Omindaré (360p)",
-    "type": "Culture",
-    "url": "https://video01.kshost.com.br/lourdes52007/lourdes52007/playlist.m3u8",
-    "img": "https://i.imgur.com/naZZUIT.png"
   },
   {
     "name": "TV Paraná Turismo (720p) [Not 24/7]",
