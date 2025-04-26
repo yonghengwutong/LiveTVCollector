@@ -1050,9 +1050,9 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "2M Monde (360p)",
+    "name": "2M Monde (720p)",
     "type": "General",
-    "url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8",
+    "url": "https://d3g87jnubafe6a.cloudfront.net/out/v1/1fa0fb3c8dec402994a6f7a7f6492b82/index.m3u8",
     "img": "https://i.imgur.com/MvpntzA.png"
   },
   {
@@ -1120,6 +1120,18 @@
     "type": "Religious",
     "url": "https://mediaserver.abnvideos.com/streams/abnafrica.m3u8",
     "img": "https://yt3.googleusercontent.com/BhFbqwxiQN89UGI2cpoffye2UuKtblDDUwJHce0fzjpdrMkb0CtKf_42ZVTiLX2Ulwbjey4YZQ=s512-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "name": "Angel TV Africa (720p)",
+    "type": "Religious",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelafrica_all/playlist.m3u8",
+    "img": "https://i.imgur.com/qKLEGU7.png"
+  },
+  {
+    "name": "Angel TV Arabia (720p)",
+    "type": "Religious",
+    "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelarabia_all/playlist.m3u8",
+    "img": "https://i.imgur.com/qKLEGU7.png"
   },
   {
     "name": "Elbeshara GTV (1080p) [Not 24/7]",
@@ -1194,10 +1206,22 @@
     "img": "https://i.imgur.com/AkFFrS7.png"
   },
   {
+    "name": "DW Arabic (1080p)",
+    "type": "News",
+    "url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
+    "img": "https://i.imgur.com/8MRNFb9.png"
+  },
+  {
     "name": "For You TV (480p)",
     "type": "News",
     "url": "https://stream.az-multimedia.com:3793/live/foryoutvlive.m3u8",
     "img": "https://i.imgur.com/1oMboXL.png"
+  },
+  {
+    "name": "France 24 Arabic (1080p)",
+    "type": "News",
+    "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
+    "img": "https://i.imgur.com/u8N6uoj.png"
   },
   {
     "name": "Medi 1 TV Afrique (1080p) [Not 24/7]",
@@ -1312,6 +1336,12 @@
     "type": "Music",
     "url": "https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8",
     "img": "https://i.imgur.com/nLtiXNf.png"
+  },
+  {
+    "name": "Bloomberg TV EMEA Live Event (720p)",
+    "type": "Business",
+    "url": "https://bloomberg.com/media-manifest/streams/eu-event.m3u8",
+    "img": "https://i.imgur.com/OuogLHx.png"
   },
   {
     "name": "CNBC Africa (480p)",
