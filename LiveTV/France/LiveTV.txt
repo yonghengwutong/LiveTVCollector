@@ -2947,16 +2947,6 @@ URL: https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8
 Logo: https://i.ibb.co/tHBB7zv/icimontreal.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: TRT HABER
-URL: https://ensonhaber-live.ercdn.net/trthaber/trthaber.m3u8
-Logo: https://i.ibb.co/Bt6frts/trthaber.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: SÖZCÜ TV
-URL: https://trn03.tulix.tv/gt-sozcu-tv/index.m3u8
-Logo: https://i.ibb.co/B40rjP3/szc1.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
 Name: SÖZCÜ TV
 URL: http://koprulu2.global.ssl.fastly.net/yt.m3u8/?id=ztmY_cCtUl0.m3u8
 Logo: https://i.ibb.co/B40rjP3/szc1.png
@@ -3033,7 +3023,7 @@ Logo: https://i.ibb.co/JqWCczW/cnnturk1.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: KRT
-URL: https://trn03.tulix.tv/gt-krt-tv/index.m3u8
+URL: https://trn03.tulix.tv/gt-krt/index.m3u8
 Logo: https://i.ibb.co/jZShqBM/Krt24v2.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -3135,6 +3125,16 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: AA (feed)
 URL: http://mtulqxgomrllive.mediatriple.net/mtulqxgomrllive/broadcast_59f9c0c785b88.smil/playlist.m3u8
 Logo: https://i.ibb.co/jLd8Fcb/aa.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: TRT HABER
+URL: https://ensonhaber-live.ercdn.net/trthaber/trthaber.m3u8
+Logo: https://i.ibb.co/Bt6frts/trthaber.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: SÖZCÜ TV
+URL: https://trn03.tulix.tv/gt-sozcu-tv/index.m3u8
+Logo: https://i.ibb.co/B40rjP3/szc1.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TRT HABER (backup)
@@ -3398,12 +3398,12 @@ Logo: https://i.ibb.co/BrGNZJ4/showtv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW
-URL: https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=VDlgR3liYoUdn5JGYqavjA&e=1745749308
+URL: https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=_crtd6PxbAHqMdSJF4h99Q&e=1745781255
 Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW
-URL: https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=VDlgR3liYoUdn5JGYqavjA&e=1745749308
+URL: https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=_crtd6PxbAHqMdSJF4h99Q&e=1745781255
 Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -5667,6 +5667,11 @@ URL: https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 Logo: https://i.ibb.co/cXd3MBV/symkr.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: ZAROK
+URL: https://iko-live.akamaized.net/ZarokTV/master.m3u8
+Logo: https://i.ibb.co/cXd3MBV/symkr.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: TRT KURDÎ
 URL: https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 Logo: https://i.ibb.co/cXd3MBV/symkr.png
@@ -5714,6 +5719,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 Name: KURDSAT
 URL: https://kurdsat.akamaized.net/hls/kurdsat.m3u8
+Logo: https://i.ibb.co/cXd3MBV/symkr.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: KURDSAT
+URL: https://iko-live.akamaized.net/KurdsatTV/master.m3u8
 Logo: https://i.ibb.co/cXd3MBV/symkr.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
