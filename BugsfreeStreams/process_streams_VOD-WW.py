@@ -31,10 +31,10 @@ DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRA
 
 # Source M3U playlist
 SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Bangladesh/LiveTV.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/Movies/Worldwide/Movies.m3u",
 ]
 FALLBACK_SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Bangladesh/LiveTV.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/Movies/Worldwide/Movies.m3u",
 ]
 
 # Static fallback M3U
