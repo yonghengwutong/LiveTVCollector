@@ -31,10 +31,10 @@ DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRA
 
 # Source M3U playlist
 SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",  # Replaced 404 URL
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",
 ]
 FALLBACK_SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",
+    "https://iptv-org.github.io/iptv/categories/movies.m3u",
 ]
 
 # Static fallback M3U
@@ -45,7 +45,7 @@ http://iptv-org.github.io/iptv/sample.m3u8
 #EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Movie MP4
 https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
 #EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Movie MKV
-https://archive.org/download/ElephantsDream/ed_1024.mkv
+https://archive.org/download/ElephantsDream/ed_1024.ogv
 """
 
 # Fallback test stream
@@ -167,12 +167,12 @@ def validate_streams_concurrently(entries, processed_links, session):
                         "last_checked": time.time(),
                         "is_active": False
                     }
-            except Exception as e:
-                logger.error(f"Validation error for {url}: {e}")
-                processed_links[url] = {
-                    "last_checked": time.time(),
-                    "is_active": False
-                }
+                except Exception as e:
+                    logger.error(f"Validation error for {url}: {e}")
+                    processed_links[url] = {
+                        "last_checked": time.time(),
+                        "is_active": False
+                    }
     return valid_streams
 
 # Fetch variant streams (only for .m3u8)
@@ -377,7 +377,15 @@ def main():
     final_m3u_content = [f'#EXTM3U tvg-updated="{now}"']
     individual_files = {}
     for url, (extinf, original_url, variants, channel_name) in unique_streams.items():
-        file_ext = ".m3u"
+        # Determine file extension based on source URL
+        if original_url.lower().endswith(".m3u8"):
+            file_ext = ".m3u8"
+        elif original_url.lower().endswith(".mp4"):
+            file_ext = ".mp4"
+        elif original_url.lower().endswith((".mkv", ".ogv")):
+            file_ext = ".mkv"
+        else:
+            file_ext = ".m3u"  # Fallback for unknown extensions
         github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}{file_ext}"
         file_path = os.path.join(BASE_PATH, f"{channel_name}{file_ext}")
         m3u_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
