@@ -34,7 +34,7 @@ SOURCES = [
     "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",
 ]
 FALLBACK_SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",
+    "https://iptv-org.github.io/iptv/categories/movies.m3u",
 ]
 
 # Static fallback M3U
@@ -386,15 +386,16 @@ def main():
             file_ext = ".mkv"
         else:
             file_ext = ".m3u"  # Fallback for unknown extensions
-        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}{file_ext}"
+        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}{file_ext}?format=m3u"
         file_path = os.path.join(BASE_PATH, f"{channel_name}{file_ext}")
-        m3u_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
+        m3u_content = ["#EXTM3U", "#EXT-X-VERSION:3", "#EXT-X-TARGETDURATION:0"]
         for variant in variants:
             resolution = variant["resolution"]
             bandwidth = variant["bandwidth"]
             variant_url = variant["url"]
             m3u_content.append(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={bandwidth},RESOLUTION={resolution}")
             m3u_content.append(variant_url)
+        m3u_content.append("#EXT-X-ENDLIST")
         individual_files[file_path] = "\n".join(m3u_content)
         final_m3u_content.append(f"{extinf}\n{github_url}")
         logger.info(f"Prepared file {file_path} for {channel_name}")
