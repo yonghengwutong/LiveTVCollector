@@ -23,7 +23,7 @@ BRANCH = "main"
 BASE_PATH = os.path.abspath("BugsfreeStreams/StreamsVOD-WW")
 FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/Movies/VODLinks-WW.m3u")
 PROCESSED_LINKS_FILE = os.path.abspath("BugsfreeStreams/VOD_processed_links-WW.json")
-MAX_STREAMS = 600  # Target 500+ channels
+MAX_STREAMS = 600  # Target 500+ streams
 MAX_STREAMS_PER_SOURCE = 1000
 VALIDATION_TIMEOUT = 60  # Max 60 seconds for validation
 REVALIDATION_INTERVAL = 24 * 3600  # Revalidate every 24 hours
@@ -40,15 +40,15 @@ FALLBACK_SOURCES = [
 # Static fallback M3U
 STATIC_M3U = """
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Channel
+#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Movie
 http://iptv-org.github.io/iptv/sample.m3u8
 """
 
 # Fallback test stream
 FALLBACK_STREAM = {
-    "extinf": f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}" group-title="TEST",Test Stream',
+    "extinf": f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}" group-title="TEST",Test Movie',
     "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-    "name": "test_stream"
+    "name": "test_movie"
 }
 
 # Create a session with retries
@@ -91,14 +91,23 @@ def validate_source(url, session):
 
 # Check if a URL is active
 def is_stream_active(url, session):
-    if not url.lower().endswith(".m3u8"):
-        return False  # Skip non-.m3u8
+    valid_extensions = (".m3u8", ".mp4", ".mkv")
+    if not url.lower().endswith(valid_extensions):
+        return False  # Skip invalid extensions
     try:
         response = session.head(url, timeout=1, allow_redirects=True)
         if response.status_code in (200, 206, 301, 302):
-            return True
-        response = session.get(url, timeout=3, allow_redirects=True)
-        return response.status_code == 200 and "#EXTM3U" in response.text[:100]
+            content_type = response.headers.get("content-type", "").lower()
+            if url.lower().endswith(".m3u8"):
+                return content_type.startswith("application/vnd.apple.mpegurl") or content_type.startswith("text")
+            elif url.lower().endswith(".mp4"):
+                return content_type.startswith("video/mp4")
+            elif url.lower().endswith(".mkv"):
+                return content_type.startswith("video/x-matroska")
+        if url.lower().endswith(".m3u8"):
+            response = session.get(url, timeout=3, allow_redirects=True)
+            return response.status_code == 200 and "#EXTM3U" in response.text[:100]
+        return False
     except requests.RequestException:
         return False
 
@@ -145,7 +154,7 @@ def validate_streams_concurrently(entries, processed_links, session):
                 }
     return valid_streams
 
-# Fetch variant streams
+# Fetch variant streams (only for .m3u8)
 def get_variant_streams(master_url, session):
     variants = [{"resolution": "Original", "url": master_url, "bandwidth": 2560000}]
     if not master_url.lower().endswith(".m3u8") or not is_stream_active(master_url, session):
@@ -186,10 +195,10 @@ def get_variant_streams(master_url, session):
 # Clean channel name
 def clean_channel_name(name, url):
     if not name:
-        return f"channel_{hashlib.md5(url.encode()).hexdigest()[:8]}"
+        return f"movie_{hashlib.md5(url.encode()).hexdigest()[:8]}"
     name = re.sub(r'[^a-zA-Z0-9\s]', '', name).strip().lower().replace(' ', '_')
     name = re.sub(r'_+', '_', name)
-    return f"{name}_{hashlib.md5(url.encode()).hexdigest()[:8]}" if name else f"channel_{hashlib.md5(url.encode()).hexdigest()[:8]}"
+    return f"{name}_{hashlib.md5(url.encode()).hexdigest()[:8]}" if name else f"movie_{hashlib.md5(url.encode()).hexdigest()[:8]}"
 
 # Add default logo and last-checked timestamp
 def ensure_logo(extinf):
@@ -211,7 +220,7 @@ def parse_m3u(content):
     lines = content.splitlines()
     extinf = None
     for line in lines:
-        line = line.strip()
+        line = strip()
         if not line:
             continue
         if line.startswith("#EXTINF:"):
@@ -289,13 +298,23 @@ def main():
     # Save processed links
     save_processed_links(processed_links)
 
-    # Sort to prioritize .m3u8
-    all_entries.sort(key=lambda x: 0 if x[1].lower().endswith(".m3u8") else 1)
+    # Sort to prioritize .m3u8, then .mp4, then .mkv
+    def sort_key(entry):
+        url = entry[1].lower()
+        if url.endswith(".m3u8"):
+            return 0
+        elif url.endswith(".mp4"):
+            return 1
+        elif url.endswith(".mkv"):
+            return 2
+        return 3
+    all_entries.sort(key=sort_key)
 
     # Process for uniqueness
     logger.info(f"Processing {len(all_entries)} entries for uniqueness")
     m3u8_count = 0
-    non_m3u8_count = 0
+    mp4_count = 0
+    mkv_count = 0
     unique_streams = {}
     for i, (extinf, url) in enumerate(all_entries):
         if len(unique_streams) >= MAX_STREAMS:
@@ -305,8 +324,10 @@ def main():
             logger.info(f"Processed {i} of {len(all_entries)} entries, {len(unique_streams)} valid streams")
         if url.lower().endswith(".m3u8"):
             m3u8_count += 1
-        else:
-            non_m3u8_count += 1
+        elif url.lower().endswith(".mp4"):
+            mp4_count += 1
+        elif url.lower().endswith(".mkv"):
+            mkv_count += 1
         if url in unique_streams:
             continue
         match = re.search(r',(.+)$', extinf)
@@ -315,7 +336,7 @@ def main():
         unique_streams[url] = (ensure_logo(extinf), url, variants, channel_name)
         logger.info(f"Added valid stream: {channel_name} for URL {url}")
 
-    logger.info(f"Processed {m3u8_count} .m3u8 streams and {non_m3u8_count} non-.m3u8 streams")
+    logger.info(f"Processed {m3u8_count} .m3u8 streams, {mp4_count} .mp4 streams, {mkv_count} .mkv streams")
     logger.info(f"Total unique valid streams: {len(unique_streams)}")
 
     # Add fallback if no streams
@@ -331,16 +352,19 @@ def main():
     final_m3u_content = [f'#EXTM3U tvg-updated="{now}"']
     individual_files = {}
     for url, (extinf, original_url, variants, channel_name) in unique_streams.items():
-        github_url = f"https://bugsfreeweb.github.io/{REPO_NAME}/BugsfreeStreams/StreamsVOD-WW/{channel_name}.m3u8"
-        file_path = os.path.join(BASE_PATH, f"{channel_name}.m3u8")
-        m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
-        for variant in variants:
-            resolution = variant["resolution"]
-            bandwidth = variant["bandwidth"]
-            variant_url = variant["url"]
-            m3u8_content.append(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={bandwidth},RESOLUTION={resolution}")
-            m3u8_content.append(variant_url)
-        individual_files[file_path] = "\n".join(m3u8_content)
+        if original_url.lower().endswith(".m3u8"):
+            github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}.m3u8"
+            file_path = os.path.join(BASE_PATH, f"{channel_name}.m3u8")
+            m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
+            for variant in variants:
+                resolution = variant["resolution"]
+                bandwidth = variant["bandwidth"]
+                variant_url = variant["url"]
+                m3u8_content.append(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={bandwidth},RESOLUTION={resolution}")
+                m3u8_content.append(variant_url)
+            individual_files[file_path] = "\n".join(m3u8_content)
+        else:
+            github_url = original_url  # Direct URL for .mp4 and .mkv
         final_m3u_content.append(f"{extinf}\n{github_url}")
 
     # Write files
