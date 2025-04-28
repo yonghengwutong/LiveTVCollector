@@ -20,7 +20,7 @@
   {
     "name": "TVI",
     "type": "TV",
-    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI1IDQ6Njo0MSBQTSZoYXNoX3ZhbHVlPUNkaW1OY1NvOEJEUTBOWDBxMUNIOWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01ZWRjYWIyOS04NjE0LTRhY2QtOTAxYS00ZDAwM2M1OGIyY2E=/",
+    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yOC8yMDI1IDEyOjMxOjggQU0maGFzaF92YWx1ZT1BYkgweUo3TUhjNCsxRmdBMDVBRitRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZTdhNGU1ZGUtMWVjMC00MTE1LThlNmEtMGMzMjQwY2ZhYTAx/",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png"
   },
   {
@@ -38,7 +38,7 @@
   {
     "name": "CNN Portugal",
     "type": "TV",
-    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI1IDQ6Njo0MSBQTSZoYXNoX3ZhbHVlPXhlOWRUWDhMckxkLzlYVjRpenE1ZWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD00MzRmYjkxYy03ZjRhLTQ0MzUtOTdhMi04MDRhYjI4ZmRkM2M=/",
+    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yOC8yMDI1IDEyOjMxOjkgQU0maGFzaF92YWx1ZT1nK3dHVFJDaFZHb016ZG5PdWdTQVJBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjVmZTYzNTEtZjYyZS00Nzg1LThmYmUtODE4ZGM3ZDQ0ZmEx/",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png"
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "TVI Internacional",
     "type": "TV",
-    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI1IDQ6Njo0MiBQTSZoYXNoX3ZhbHVlPWtqdHhHbHEwQ2Izakh6QXFidnJ4Y1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1jMzQzZmEwYy1lMmZlLTQ1YWYtOGFkMi1iNmE1MWIxODI3Mjc=/",
+    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yOC8yMDI1IDEyOjMxOjkgQU0maGFzaF92YWx1ZT1wNEJxRXdLT2RudUo1M0Y3VEFMV2RRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MmM5NTZhNTMtZjMyZi00NmNjLWI2MDQtOTZiZjM3MmQ4MGRh/",
     "img": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png"
   },
   {
@@ -2562,6 +2562,12 @@
     "img": "https://m3upt.com/logos/O-outro-lado.jpg"
   },
   {
+    "name": "Eixo do Mal - 24/4/2025",
+    "type": "Eixo do Mal",
+    "url": "https://videos.impresa.pt/videos/hls/sicnot/2025/04/24/25fca476-865d-42bd-883d-2e9868abb5d5/video.m3u8",
+    "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Eixo-do-Mal.jpg"
+  },
+  {
     "name": "Eixo do Mal - 17/4/2025",
     "type": "Eixo do Mal",
     "url": "https://videos.impresa.pt/videos/hls/sicnot/2025/04/17/dba836a6-7bca-4d70-98d7-00de651ed0aa/video.m3u8",
@@ -3408,6 +3414,12 @@
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Eixo-do-Mal.jpg"
   },
   {
+    "name": "PCNELID - 25/4/2025",
+    "type": "PCNELID",
+    "url": "https://videos.impresa.pt/videos/hls/sicnot/2025/04/25/e52eff8b-4a11-44bd-9ce3-e611b3782bce/video.m3u8",
+    "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/PCNELID.jpg"
+  },
+  {
     "name": "PCNELID - 18/4/2025",
     "type": "PCNELID",
     "url": "https://videos.impresa.pt/videos/hls/sicnot/2025/04/18/d0a271bc-d7be-4099-97a1-28c55f176a8b/video.m3u8",
@@ -4252,6 +4264,12 @@
     "type": "PCNELID",
     "url": "https://cdn.jwplayer.com/manifests/v8e6Ytdz.m3u8",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/PCNELID.jpg"
+  },
+  {
+    "name": "IEGCQT S11E15 13-04-2025",
+    "type": "IEGCQT",
+    "url": "https://cfvod.kaltura.com/edash/p/4526593/sp/452659300/serveFlavor/entryId/1_cgav0m5k/v/11/ev/14/flavorId/1_,7islhxh6,4bjurmf5,32mjoydd,d4xihvtg,1adz6vl0,untxnfwc,/forceproxy/true/name/a.mp4.urlset/manifest.mpd",
+    "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8a/IeGcQT.png/800px-IeGcQT.png"
   },
   {
     "name": "IEGCQT S11E14 06-04-2025",
@@ -5708,7 +5726,7 @@
   {
     "name": "TVI Internacionalᶠᴴᴰ 🇵🇹",
     "type": "🌈🆁™ Portugal 🇵🇹🇲🇴🇲🇿",
-    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI1IDEyOjU1OjM5IFBNJmhhc2hfdmFsdWU9ZkZKY1NEYjlHZnZSK1RoS0haUVlNdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWNhMWU0YjJhLWVhMjgtNDgzYy1iN2U5LWZhZjUyYjg4OTk1Zg==/",
+    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI1IDg6MzU6MzEgUE0maGFzaF92YWx1ZT1YQ1I0UTFnSlRjWFhpNjRDMENiTTJRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWE5MWVmZjYtOTUzYy00N2IzLWEwM2ItMzZmZTczMTE2NzVh/",
     "img": "https://logo.iptveditor.com/tviinternacional.png"
   },
   {
@@ -5720,7 +5738,7 @@
   {
     "name": "TVI 🇵🇹",
     "type": "🌈🆁™ Portugal 🇵🇹🇲🇴🇲🇿",
-    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI1IDEyOjU1OjM4IFBNJmhhc2hfdmFsdWU9Ly96bUF3WGdWSVpmb2hySUZhcy9NUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTdjODBiMzMyLTk2ODYtNDcxOS04YTMwLWQ1ZmIyNmI5NTBlOA==/",
+    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI1IDg6MzU6MzAgUE0maGFzaF92YWx1ZT16c2RxeUs5b1VpZlBZWDFNend1RFlBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjU0NjQ3MDQtNDkyMi00Y2M3LWJkY2QtZTNkYTM4ZjFlMWUz/",
     "img": "https://github.com/inspirationlinks/m3u/raw/live/LogosTv/tvi.webp"
   },
   {
@@ -5742,10 +5760,10 @@
     "img": "https://logo.iptveditor.com/tvcineaction.png"
   },
   {
-    "name": "TV Moçambique 🇲🇿",
+    "name": "TVNozes 🇵🇹",
     "type": "🌈🆁™ Portugal 🇵🇹🇲🇴🇲🇿",
-    "url": "http://196.28.226.121:1935/live/smil:Channel1.smil/chunklist_w695546362_b714000_slpor.m3u8",
-    "img": "https://tvm.co.mz/templates/templatetvmmain/favicon.ico"
+    "url": "https://github.com/inspirationlinks/m3u/raw/live/Streams/tvnozes.m3u8",
+    "img": "https://raw.githubusercontent.com/inspirationlinks/m3u/live/LogosTv/NOSStudios.webp"
   },
   {
     "name": "Teledifusão de Macau 🇲🇴🇵🇹",
@@ -5786,7 +5804,7 @@
   {
     "name": "CNN Portugal 🇵🇹",
     "type": "🌈🆁™ News 🇵🇹🇧🇷",
-    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI1IDEyOjU1OjM4IFBNJmhhc2hfdmFsdWU9OXJsOW11RXkra2JRbXFmdXBHRjgvQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTk4ZDRlMDNhLTU5ZmQtNDRhYy04MDg1LTIyNjhjODkyZWQ3OQ==/",
+    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI1IDg6MzU6MzAgUE0maGFzaF92YWx1ZT1QS0E3N2ZmcDhkYnJCczBibmtCcnNnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NzliMjUyMWYtZGJiMC00MDRkLWFmYWUtNTUxMTVmOTRiMjk3/",
     "img": "https://github.com/inspirationlinks/m3u/raw/live/LogosTv/CNNPortugal.webp"
   },
   {
@@ -7800,10 +7818,10 @@
     "img": "https://i.pinimg.com/280x280_RS/8b/86/22/8b86223eee0d9cb0e735dc32739356b6.jpg"
   },
   {
-    "name": "CGTN Español 🇪🇸",
+    "name": "101 Andalucía 🇪🇸",
     "type": "🌈🆁™ Espanha 🇪🇸",
-    "url": "https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8",
-    "img": "https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200"
+    "url": "https://www.streaming101tv.es:19360/antequera/antequera.m3u8",
+    "img": "https://files-101tv-londres.s3-accelerate.amazonaws.com/2024/09/cropped-Img-Perfil-1-1-180x180.png"
   },
   {
     "name": "A3Player Multicine 🇪🇸",
@@ -8238,10 +8256,10 @@
     "img": "https://cdn.m3u.cl/logo/1400_Torococo_TV.png"
   },
   {
-    "name": "English Club TV 🇬🇧",
+    "name": "Channel 4 🇬🇧",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "http://iptv.prosto.tv:7000/ch206/video.m3u8",
-    "img": "https://logo.iptveditor.com/englishclubtv.png"
+    "url": "https://wowza5.leisertv.com/live/channel4hd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/channel4.png"
   },
   {
     "name": "E4 Channel 🇬🇧",
@@ -8334,31 +8352,19 @@
     "img": "https://logo.iptveditor.com/warner.png"
   },
   {
-    "name": "MeTV Wjlp New Jerseynew York",
+    "name": "MeTV 🇺🇸",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/metv-wjlp-new-jerseynew-york/sd",
     "img": "https://logo.iptveditor.com/metv.png"
   },
   {
-    "name": "AMC Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/AMCEast/sd",
-    "img": "https://logo.iptveditor.com/amc.png"
-  },
-  {
-    "name": "Animal Planet US East",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/AnimalPlanetEast/sd",
-    "img": "https://logo.iptveditor.com/animalplanet.png"
-  },
-  {
-    "name": "HBO",
+    "name": "HBO 🇺🇸",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/HBOEast/sd",
     "img": "https://logo.iptveditor.com/hbo.png"
   },
   {
-    "name": "HBO 2",
+    "name": "HBO 2 🇺🇸",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/HBO2East/sd",
     "img": "https://logo.iptveditor.com/hbo2.png"
@@ -8388,73 +8394,49 @@
     "img": "https://logo.iptveditor.com/hbozone.png"
   },
   {
-    "name": "Bravo Eastern Feed",
+    "name": "Sky Cinema Premiere 🇬🇧",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/BravoEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
+    "url": "https://wowza5.leisertv.com/live/skymoviespremierehd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/skymoviespremiere.png"
   },
   {
-    "name": "C-SPAN",
+    "name": "Sky Cinema Drama 🇬🇧",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/CSPAN/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
+    "url": "https://wowza5.leisertv.com/live/skymoviesdramahd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/skymoviesdrama.png"
   },
   {
-    "name": "C-SPAN 2",
+    "name": "Sky Cinema Thriller 🇬🇧",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/CSPAN2/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
+    "url": "https://wowza5.leisertv.com/live/skymoviesthrillerhd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/skymoviesthriller.png"
   },
   {
-    "name": "Cartoon Network Eastern Feed",
+    "name": "Sky Cinema Sci-Fi Horror 🇬🇧",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/CartoonNetworkEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
+    "url": "https://wowza5.leisertv.com/live/skymoviesscifihd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/skycinemascifihorror.png"
   },
   {
-    "name": "CBS (KCBS) Los Angeles",
+    "name": "Animal Planet 🇬🇧",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/cbs-kcbs-los-angeles-ca/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
+    "url": "https://wowza2.leisertv.com/live/animalhd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/animalplanet.png"
   },
   {
-    "name": "NY\" tvg-id=\"cbs-wcbs-new-york-ny\" tvg-logo=\"https://i.postimg.cc/rwQGRGhB/imag.png\" group-title=\"🌈🆁™ English 🇬🇧🇺🇸🇨🇦\",CBS (WCBS) New York, NY",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/WCBSDT1/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Cinemax Eastern Feed",
+    "name": "Cinemax",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/CinemaxEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "CMT US Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/CMTEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "CMT US Eastern Feed",
+    "name": "CMT US",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://dokko1new.newkso.ru/dokko1/premium647/mono.m3u8",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "CNBC",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/CNBC/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "CNN US",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/CNN/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Comedy Central (US) Eastern Feed",
+    "name": "Comedy Central (US)",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/ComedyCentralEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
@@ -8466,25 +8448,7 @@
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "CW (KFMB-TV2) San Diego",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/cw-kfmbtv2-san-diego-ca/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "CW (WDCW) District of Columbia",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/cw-wdcw-district-of-columbia/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Destination America",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/DestinationAmerica/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Discovery Channel (US) Eastern Feed",
+    "name": "Discovery Channel (US)",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/DiscoveryChannelEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
@@ -8499,72 +8463,6 @@
     "name": "Discovery Life Channel",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/DiscoveryLife/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Disney Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/DisneyChannelEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Disney Junior East",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/DisneyJuniorEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Disney XD Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/DisneyXDEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "E! Entertainment Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/EEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Food Network Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/FoodNetworkEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "FOX (KTTV) Los Angeles",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/fox-kttv-los-angeles-ca/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "NY\" tvg-id=\"fox-wnyw-new-york-ny\" tvg-logo=\"https://i.postimg.cc/rwQGRGhB/imag.png\" group-title=\"🌈🆁™ English 🇬🇧🇺🇸🇨🇦\",FOX (WNYW) New York, NY",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/WNYWDT1/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Fox Business",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/FoxBusiness/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Fox News",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/FoxNewsChannel/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Freeform East Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/FreeformEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "FUSE TV Eastern feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/FuseEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
@@ -8592,87 +8490,21 @@
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "Game Show Network East",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/game-show-network-east/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Hallmark Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/HallmarkChannelEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Hallmark Family",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/HallmarkDrama/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Hallmark Mystery Eastern",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/HallmarkMoviesMysteriesEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "HGTV Eastern Feed",
+    "name": "HGTV",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/HGTVEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "History Channel US Eastern Feed",
+    "name": "History Channel US",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/HistoryEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "HLN",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/HLN/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Independent Film Channel US",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/IFCEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
     "name": "Investigation Discovery Eastern",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/InvestigationDiscoveryEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "ION Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/IONTVEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Lifetime Movies East",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/LifetimeMoviesEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Lifetime Network US Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/LifetimeEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "LOGO East",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/LogoEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "MoreMax Eastern",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/MoreMaxEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
@@ -8688,24 +8520,6 @@
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "MSG Madison Square Gardens",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/msg-madison-square-gardens/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "MSG Plus",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/msg-plus/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "MSNBC",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/MSNBC/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
     "name": "National Geographic US Eastern",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/NationalGeographicEast/sd",
@@ -8718,75 +8532,9 @@
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "NBC (KNBC) Los Angeles",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/nbc-knbc-los-angeles-ca/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "NY\" tvg-id=\"nbc-wnbc-new-york-ny\" tvg-logo=\"https://i.postimg.cc/rwQGRGhB/imag.png\" group-title=\"🌈🆁™ English 🇬🇧🇺🇸🇨🇦\",NBC (WNBC) New York, NY",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/WNBCDT1/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "NewsMax TV",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/NewsmaxTV/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Nick Jr. East",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/NickJrEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Nickelodeon East Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/NickelodeonEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Nicktoons East",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/NicktoonsEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Oprah Winfrey Network Eastern",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/OWNEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
     "name": "Outdoor Channel US",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/OutdoorChannel/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Oxygen Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/OxygenEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "NY\" tvg-id=\"pbs-wnet-new-york-ny\" tvg-logo=\"https://i.postimg.cc/rwQGRGhB/imag.png\" group-title=\"🌈🆁™ English 🇬🇧🇺🇸🇨🇦\",PBS (WNET) New York, NY",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/WNET/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "ReelzChannel",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/Reelz/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Science",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/Science/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
@@ -8796,7 +8544,7 @@
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "Showtime Eastern Feed",
+    "name": "Showtime",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/ShowtimeEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
@@ -8808,31 +8556,7 @@
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "SNY Sportsnet New York Comcast",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/sny-sportsnet-new-york-comcast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Space City Home Network",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/space-city-home-network/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Starz Eastern",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/StarzEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "SundanceTV East",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/SundanceTVEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Syfy Eastern Feed",
+    "name": "Syfy",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/SyfyEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
@@ -8844,27 +8568,9 @@
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "TeenNick Eastern",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/TeenNickEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Telemundo Eastern Feed",
+    "name": "Telemundo",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/TelemundoEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "The Cooking Channel",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/CookingChannel/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "The Weather Channel",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/TheWeatherChannel/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
@@ -8874,27 +8580,15 @@
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "TMC (US) Eastern Feed",
+    "name": "TMC (US)",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/TheMovieChannelEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "TNT Eastern Feed",
+    "name": "TNT",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/TNTEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Travel US East",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/TravelChannelEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "truTV Eastern",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/truTVEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
@@ -8904,61 +8598,19 @@
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "TV Land Eastern",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/tv-land-eastern/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "TV One",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/TVOne/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Universal Kids",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/UniversalKidsEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "Univision Eastern Feed",
+    "name": "Univision",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/UnivisionEast/sd",
     "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
   },
   {
-    "name": "USA Network East Feed",
+    "name": "USA Network 🇺🇸",
     "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
     "url": "https://tvpass.org/live/USANetworkEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
+    "img": "https://logo.iptveditor.com/us079usanetwork.png"
   },
   {
-    "name": "VH1 Eastern Feed",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/VH1East/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "VICE",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/VICETV/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "WE (Women's Entertainment) Eastern",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/WeTVEast/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "WPIX New York (SUPERSTATION)",
-    "type": "🌈🆁™ English 🇬🇧🇺🇸🇨🇦",
-    "url": "https://tvpass.org/live/WPIX/sd",
-    "img": "https://i.postimg.cc/rwQGRGhB/imag.png"
-  },
-  {
-    "name": "MTV",
+    "name": "MTV 🇧🇷",
     "type": "🌈🆁™  Musica 🎧",
     "url": "http://15.235.9.200:14858/MTVbrhd",
     "img": "https://logo.iptveditor.com/mtv.png"
@@ -9548,7 +9200,7 @@
   {
     "name": "France 2 🇫🇷",
     "type": "🌈🆁™ France 🇫🇷",
-    "url": "https://accesiptv.com//Mzkc5Hm6eq/HYj6954jZZ/64",
+    "url": "http://69.64.57.208:8080/france2/index.m3u8",
     "img": "https://accesiptv.com:443/images/zvNMmvNGhgPLVLrqmx7yjhY9sCJTw_T_yOXEYuf33brMAzYPMO-ZrKgM_mM6aqkL.png"
   },
   {
@@ -10556,7 +10208,7 @@
   {
     "name": "ESPN Deportes 🇲🇽",
     "type": "🌈🆁™ Sports 🇧🇷🇪🇸",
-    "url": "http://tv.iprotv.live:80//live/canales-ProYeCtoX998/NuevacanalesProyectoRw/149901.m3u8",
+    "url": "https://tvpass.org/live/espn-deportes/sd",
     "img": "https://logo.iptveditor.com/espndeportes.png"
   },
   {
@@ -10614,6 +10266,48 @@
     "img": "https://logo.iptveditor.com/nba.png"
   },
   {
+    "name": "Sky Sports Premier League 🇬🇧",
+    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
+    "url": "https://wowza5.leisertv.com/live/skyportspremierleaguehd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/skysportspremierleague.png"
+  },
+  {
+    "name": "PremierSports 1 🇬🇧",
+    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
+    "url": "https://wowza1.leisertv.com/live/premiersport1hd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/premiersports.png"
+  },
+  {
+    "name": "PremierSports 2 🏉 🇬🇧",
+    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
+    "url": "https://wowza1.leisertv.com/live/premiersport2hd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/premiersports2.png"
+  },
+  {
+    "name": "TNT Sport 1 🇬🇧",
+    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
+    "url": "https://wowza5.leisertv.com/live/btsports1hd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/tntsports1.png"
+  },
+  {
+    "name": "TNT Sport 2 🇬🇧",
+    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
+    "url": "https://wowza5.leisertv.com/live/btsports2hd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/tntsports2.png"
+  },
+  {
+    "name": "TNT Sport 3 🇬🇧",
+    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
+    "url": "https://wowza5.leisertv.com/live/btsports3hd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/tntsports3.png"
+  },
+  {
+    "name": "TNT Sport 4 🇬🇧",
+    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
+    "url": "https://wowza1.leisertv.com/live/btsportsespnhd.stream/.m3u8",
+    "img": "https://logo.iptveditor.com/tntsports4.png"
+  },
+  {
     "name": "TSN 1 🇨🇦",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/tsn1/sd",
@@ -10668,18 +10362,6 @@
     "img": "https://logo.iptveditor.com/fs2.png"
   },
   {
-    "name": "NBC Sports Bay Area 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/nbc-sports-bay-area/sd",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/NBC_Sports_Network_logo.svg/1200px-NBC_Sports_Network_logo.svg.png"
-  },
-  {
-    "name": "NBC Sports Boston 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/nbc-sports-boston/sd",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/NBC_Sports_Network_logo.svg/1200px-NBC_Sports_Network_logo.svg.png"
-  },
-  {
     "name": "NBC Sports California 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/nbc-sports-california/sd",
@@ -10695,31 +10377,31 @@
     "name": "New England Sports Network 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/new-england-sports-network/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
+    "img": "https://logo.iptveditor.com/newenglandsportsnetwork.png"
   },
   {
     "name": "NFL Network 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/NFLNetwork/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
+    "img": "https://logo.iptveditor.com/nflnetwork.png"
   },
   {
     "name": "NFL RedZone 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/NFLRedZone/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
+    "img": "https://logo.iptveditor.com/nflredzone.png"
   },
   {
     "name": "NHL Network 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/NHLNetwork/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
+    "img": "https://logo.iptveditor.com/nhlnetwork.png"
   },
   {
     "name": "The Tennis Channel 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/TennisChannel/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
+    "img": "https://logo.iptveditor.com/tennis.png"
   },
   {
     "name": "Golf Channel 🇺🇸",
@@ -10734,63 +10416,27 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Midatlantic Sports Network 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/midatlantic-sports-network/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "MLB Network 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/MLBNetwork/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Monumental Sports Network 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/monumental-sports-network/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "ACC Network 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/ACCNetwork/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Altitude Sports Denver 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/altitude-sports-denver/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
+    "img": "https://logo.iptveditor.com/mlbnetwork.png"
   },
   {
     "name": "Big Ten Network 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/BTN/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
+    "img": "https://logo.iptveditor.com/cbssportsnetwork.png"
   },
   {
     "name": "CBS Sports Network 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/CBSSportsNetworkUSA/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Chicago Sports Network 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/chicago-sports-network/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
+    "img": "https://logo.iptveditor.com/cbssportsnetwork.png"
   },
   {
     "name": "ESPN 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/ESPN/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "ESPN Deportes 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/espn-deportes/sd",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10917,60 +10563,6 @@
     "name": "Fanduel Sports Tennessee East 🇺🇸",
     "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
     "url": "https://tvpass.org/live/fanduel-sports-tennessee-east/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Spectrum SportsNet LA 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/spectrum-sportsnet-la/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Spectrum Sportsnet Lakers 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/spectrum-sportsnet/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Sportsnet (East) 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/sportsnet-east/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Sportsnet 360 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/sportsnet-360/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Sportsnet One 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/sportsnet-one/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Sportsnet Ontario 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/sportsnet-ontario/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Sportsnet Pacific 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/sportsnet-pacific/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Sportsnet Pittsburgh 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/sportsnet-pittsburgh/sd",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Sportsnet West 🇺🇸",
-    "type": "🌈🆁™ Sports 🇺🇸🇬🇧🇨🇦",
-    "url": "https://tvpass.org/live/sportsnet-west/sd",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
