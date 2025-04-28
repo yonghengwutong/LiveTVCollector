@@ -31,21 +31,21 @@ DEFAULT_LOGO = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRA
 
 # Source M3U playlist
 SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/Movies/Worldwide/Movies.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",  # Replaced 404 URL
 ]
 FALLBACK_SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/Movies/Worldwide/Movies.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",
 ]
 
 # Static fallback M3U
 STATIC_M3U = """
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Movie
+#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Movie M3U8
 http://iptv-org.github.io/iptv/sample.m3u8
-#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample MP4
-https://videos.gia.tv/giatv/movies/playlist/208538/0_5_dibujos.mp4
-#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample MKV
-https://archive.org/download/big-buck-bunny_202005/bbb_sunflower_1080p_60fps_normal.mp4
+#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Movie MP4
+https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
+#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Movie MKV
+https://archive.org/download/ElephantsDream/ed_1024.ogv
 """
 
 # Fallback test stream
@@ -100,13 +100,14 @@ def validate_source(url, session):
 
 # Check if a URL is active
 def is_stream_active(url, session):
-    valid_extensions = (".m3u8", ".mp4", ".mkv")
+    valid_extensions = (".m3u8", ".mp4", ".mkv", ".ogv")
     if not url.lower().endswith(valid_extensions):
         logger.debug(f"Skipping invalid extension for {url}")
         return False
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     try:
-        logger.debug(f"Validating {url}")
-        response = session.get(url, timeout=3, allow_redirects=True, stream=True)
+        logger.debug(f"Validating {url} with GET")
+        response = session.get(url, timeout=3, allow_redirects=True, stream=True, headers=headers)
         if response.status_code in (200, 206, 301, 302):
             if url.lower().endswith(".m3u8"):
                 content = response.text[:100]
@@ -115,9 +116,16 @@ def is_stream_active(url, session):
                     return True
                 logger.debug(f"Failed .m3u8 validation for {url}: no #EXTM3U")
             else:
-                logger.debug(f"Validated {url} with status {response.status_code}")
-                return True  # Relaxed validation for .mp4 and .mkv
-        logger.debug(f"Failed validation for {url}: status {response.status_code}")
+                logger.debug(f"Validated {url} with GET status {response.status_code}")
+                return True
+        logger.debug(f"Failed GET validation for {url}: status {response.status_code}, headers: {response.headers}")
+        # Fallback to HEAD
+        logger.debug(f"Retrying {url} with HEAD")
+        response = session.head(url, timeout=3, allow_redirects=True, headers=headers)
+        if response.status_code in (200, 206, 301, 302):
+            logger.debug(f"Validated {url} with HEAD status {response.status_code}")
+            return True
+        logger.debug(f"Failed HEAD validation for {url}: status {response.status_code}, headers: {response.headers}")
         return False
     except requests.RequestException as e:
         logger.debug(f"Failed validation for {url}: {e}")
@@ -173,7 +181,8 @@ def get_variant_streams(master_url, session):
     if not master_url.lower().endswith(".m3u8") or not is_stream_active(master_url, session):
         return variants
     try:
-        response = session.get(master_url, timeout=3)
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        response = session.get(master_url, timeout=3, headers=headers)
         if response.status_code != 200:
             return variants
         content = response.text
@@ -252,7 +261,8 @@ def process_source(source, session):
         return []
     try:
         logger.info(f"Fetching {source}")
-        response = session.get(source, timeout=7)
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        response = session.get(source, timeout=7, headers=headers)
         if response.status_code == 200:
             content = response.text
             logger.info(f"Fetched {len(content)} bytes from {source}")
@@ -320,7 +330,7 @@ def main():
             return 0
         elif url.endswith(".mp4"):
             return 1
-        elif url.endswith(".mkv"):
+        elif url.endswith((".mkv", ".ogv")):
             return 2
         return 3
     all_entries.sort(key=sort_key)
@@ -341,7 +351,7 @@ def main():
             m3u8_count += 1
         elif url.lower().endswith(".mp4"):
             mp4_count += 1
-        elif url.lower().endswith(".mkv"):
+        elif url.lower().endswith((".mkv", ".ogv")):
             mkv_count += 1
         if url in unique_streams:
             continue
