@@ -13,7 +13,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # Setup logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger()
 
 # Configuration
@@ -42,6 +42,10 @@ STATIC_M3U = """
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Movie
 http://iptv-org.github.io/iptv/sample.m3u8
+#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample MP4
+https://videos.gia.tv/giatv/movies/playlist/208538/0_5_dibujos.mp4
+#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample MKV
+https://archive.org/download/big-buck-bunny_202005/bbb_sunflower_1080p_60fps_normal.mp4
 """
 
 # Fallback test stream
@@ -102,18 +106,15 @@ def is_stream_active(url, session):
         return False
     try:
         logger.debug(f"Validating {url}")
-        response = session.head(url, timeout=1, allow_redirects=True)
+        response = session.get(url, timeout=3, allow_redirects=True, stream=True)
         if response.status_code in (200, 206, 301, 302):
-            content_type = response.headers.get("content-type", "").lower()
             if url.lower().endswith(".m3u8"):
-                if content_type.startswith("application/vnd.apple.mpegurl") or content_type.startswith("text"):
+                content = response.text[:100]
+                if "#EXTM3U" in content:
                     logger.debug(f"Validated .m3u8 {url}")
                     return True
-                response = session.get(url, timeout=3, allow_redirects=True)
-                if response.status_code == 200 and "#EXTM3U" in response.text[:100]:
-                    logger.debug(f"Validated .m3u8 {url} via GET")
-                    return True
-            elif url.lower().endswith((".mp4", ".mkv")):
+                logger.debug(f"Failed .m3u8 validation for {url}: no #EXTM3U")
+            else:
                 logger.debug(f"Validated {url} with status {response.status_code}")
                 return True  # Relaxed validation for .mp4 and .mkv
         logger.debug(f"Failed validation for {url}: status {response.status_code}")
@@ -346,7 +347,7 @@ def main():
             continue
         match = re.search(r',(.+)$', extinf)
         channel_name = clean_channel_name(match.group(1) if match else "", url)
-        variants = get_variant_streams(url, session)
+        variants = get_variant_streams(url, session) if url.lower().endswith(".m3u8") else [{"resolution": "Original", "url": url, "bandwidth": 2560000}]
         unique_streams[url] = (ensure_logo(extinf), url, variants, channel_name)
         logger.info(f"Added valid stream: {channel_name} for URL {url}")
 
@@ -366,28 +367,17 @@ def main():
     final_m3u_content = [f'#EXTM3U tvg-updated="{now}"']
     individual_files = {}
     for url, (extinf, original_url, variants, channel_name) in unique_streams.items():
-        if original_url.lower().endswith(".m3u8"):
-            file_ext = ".m3u8"
-            github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}{file_ext}"
-            file_path = os.path.join(BASE_PATH, f"{channel_name}{file_ext}")
-            m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
-            for variant in variants:
-                resolution = variant["resolution"]
-                bandwidth = variant["bandwidth"]
-                variant_url = variant["url"]
-                m3u8_content.append(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={bandwidth},RESOLUTION={resolution}")
-                m3u8_content.append(variant_url)
-            individual_files[file_path] = "\n".join(m3u8_content)
-        elif original_url.lower().endswith(".mp4"):
-            file_ext = ".mp4"
-            github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}{file_ext}"
-            file_path = os.path.join(BASE_PATH, f"{channel_name}{file_ext}")
-            individual_files[file_path] = original_url
-        elif original_url.lower().endswith(".mkv"):
-            file_ext = ".mkv"
-            github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}{file_ext}"
-            file_path = os.path.join(BASE_PATH, f"{channel_name}{file_ext}")
-            individual_files[file_path] = original_url
+        file_ext = ".m3u"
+        github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}{file_ext}"
+        file_path = os.path.join(BASE_PATH, f"{channel_name}{file_ext}")
+        m3u_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
+        for variant in variants:
+            resolution = variant["resolution"]
+            bandwidth = variant["bandwidth"]
+            variant_url = variant["url"]
+            m3u_content.append(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={bandwidth},RESOLUTION={resolution}")
+            m3u_content.append(variant_url)
+        individual_files[file_path] = "\n".join(m3u_content)
         final_m3u_content.append(f"{extinf}\n{github_url}")
         logger.info(f"Prepared file {file_path} for {channel_name}")
 
