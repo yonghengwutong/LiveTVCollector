@@ -34,7 +34,7 @@ SOURCES = [
     "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",
 ]
 FALLBACK_SOURCES = [
-    "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",
 ]
 
 # Static fallback M3U
@@ -167,12 +167,12 @@ def validate_streams_concurrently(entries, processed_links, session):
                         "last_checked": time.time(),
                         "is_active": False
                     }
-                except Exception as e:
-                    logger.error(f"Validation error for {url}: {e}")
-                    processed_links[url] = {
-                        "last_checked": time.time(),
-                        "is_active": False
-                    }
+            except Exception as e:
+                logger.error(f"Validation error for {url}: {e}")
+                processed_links[url] = {
+                    "last_checked": time.time(),
+                    "is_active": False
+                }
     return valid_streams
 
 # Fetch variant streams (only for .m3u8)
