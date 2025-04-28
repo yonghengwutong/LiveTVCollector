@@ -1,5 +1,5 @@
 {
-  "date": "2025-04-28 07:30:39",
+  "date": "2025-04-28 14:52:20",
   "channels": {
     "STREAMING": [
       {
@@ -2081,7 +2081,7 @@
       },
       {
         "name": "CDO",
-        "logo": "https://americatvlistings.com/img/cl/logo/canal-cdo.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/CDO_Premium.png",
         "group": "DEPORTES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://live1.cl.cdn.lla.vtrplay.com/cdohdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
@@ -2129,15 +2129,8 @@
         "url": "http://181.78.27.128:8000/play/a02u/index.m3u8"
       },
       {
-        "name": "WIN SPORTS",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "DEPORTES",
-        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://181.78.208.25:8000/play/a02e/index.m3u8"
-      },
-      {
         "name": "L1MAX",
-        "logo": "https://images.seeklogo.com/logo-png/51/1/l1max-logo-png_seeklogo-519693.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/L1MAX-LOGO.svg/1280px-L1MAX-LOGO.svg.png",
         "group": "DEPORTES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://live1.cl.cdn.lla.vtrplay.com/l1maxhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
@@ -2363,7 +2356,7 @@
       },
       {
         "name": "UNIVERSAL TV",
-        "logo": "https://brandlogos.net/wp-content/uploads/2018/10/universal-tv-logo.png",
+        "logo": "https://spng.pngfind.com/pngs/s/527-5278647_universal-studios-tv-logo-hd-png-downloadg",
         "group": "CINE Y SERIES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://live1.cl.cdn.lla.vtrplay.com/universaltvhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
@@ -2418,6 +2411,13 @@
         "group": "INFANTILES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://live1.cl.cdn.lla.vtrplay.com/etctvhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+      },
+      {
+        "name": "DREAMWORKS",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "INFANTILES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://live1.cl.cdn.lla.vtrplay.com/dreamworkshdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
       },
       {
         "name": "CARTOON NETWORK",
@@ -2476,11 +2476,11 @@
         "url": "http://190.11.130.46/mnp/tooncast/output.mpd"
       },
       {
-        "name": "DREAMWORKS",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "name": "SENPAI TV",
+        "logo": "https://cdn-w.tvdaldia.cl/img/logos/senpaitv.png",
         "group": "INFANTILES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://live1.cl.cdn.lla.vtrplay.com/dreamworkshdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+        "url": "http://live1.cl.cdn.lla.vtrplay.com/senpaitvhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
       },
       {
         "name": "ZTV ANIME",
