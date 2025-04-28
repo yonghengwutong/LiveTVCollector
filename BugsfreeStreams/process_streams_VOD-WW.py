@@ -98,22 +98,28 @@ def validate_source(url, session):
 def is_stream_active(url, session):
     valid_extensions = (".m3u8", ".mp4", ".mkv")
     if not url.lower().endswith(valid_extensions):
-        return False  # Skip invalid extensions
+        logger.debug(f"Skipping invalid extension for {url}")
+        return False
     try:
+        logger.debug(f"Validating {url}")
         response = session.head(url, timeout=1, allow_redirects=True)
         if response.status_code in (200, 206, 301, 302):
             content_type = response.headers.get("content-type", "").lower()
             if url.lower().endswith(".m3u8"):
-                return content_type.startswith("application/vnd.apple.mpegurl") or content_type.startswith("text")
-            elif url.lower().endswith(".mp4"):
-                return content_type.startswith("video/mp4")
-            elif url.lower().endswith(".mkv"):
-                return content_type.startswith("video/x-matroska")
-        if url.lower().endswith(".m3u8"):
-            response = session.get(url, timeout=3, allow_redirects=True)
-            return response.status_code == 200 and "#EXTM3U" in response.text[:100]
+                if content_type.startswith("application/vnd.apple.mpegurl") or content_type.startswith("text"):
+                    logger.debug(f"Validated .m3u8 {url}")
+                    return True
+                response = session.get(url, timeout=3, allow_redirects=True)
+                if response.status_code == 200 and "#EXTM3U" in response.text[:100]:
+                    logger.debug(f"Validated .m3u8 {url} via GET")
+                    return True
+            elif url.lower().endswith((".mp4", ".mkv")):
+                logger.debug(f"Validated {url} with status {response.status_code}")
+                return True  # Relaxed validation for .mp4 and .mkv
+        logger.debug(f"Failed validation for {url}: status {response.status_code}")
         return False
-    except requests.RequestException:
+    except requests.RequestException as e:
+        logger.debug(f"Failed validation for {url}: {e}")
         return False
 
 # Validate streams concurrently
@@ -152,7 +158,8 @@ def validate_streams_concurrently(entries, processed_links, session):
                         "last_checked": time.time(),
                         "is_active": False
                     }
-            except Exception:
+            except Exception as e:
+                logger.error(f"Validation error for {url}: {e}")
                 processed_links[url] = {
                     "last_checked": time.time(),
                     "is_active": False
@@ -231,6 +238,7 @@ def parse_m3u(content):
         if line.startswith("#EXTINF:"):
             extinf = line
         elif line.startswith("http") and extinf:
+            logger.debug(f"Parsed URL: {line}")
             entries.append((extinf, line))
             extinf = None
     logger.info(f"Parsed {len(entries)} entries")
