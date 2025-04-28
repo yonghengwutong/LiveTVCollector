@@ -45,7 +45,7 @@ http://iptv-org.github.io/iptv/sample.m3u8
 #EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Movie MP4
 https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
 #EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TEST",Sample Movie MKV
-https://archive.org/download/ElephantsDream/ed_1024.ogv
+https://archive.org/download/ElephantsDream/ed_1024.mkv
 """
 
 # Fallback test stream
