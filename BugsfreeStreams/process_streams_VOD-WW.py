@@ -54,7 +54,7 @@ FALLBACK_STREAM = {
 # Create a session with retries
 def create_session():
     session = requests.Session()
-    retries = Retry(total=3, backoff_factor=0.5, status_forcelist=[429, 500, 502, 503, 504])
+    retries = Retry(total=5, backoff_factor=0.5, status_forcelist=[429, 500, 502, 503, 504])
     adapter = HTTPAdapter(max_retries=retries)
     session.mount("http://", adapter)
     session.mount("https://", adapter)
@@ -67,7 +67,12 @@ def load_processed_links():
             with open(PROCESSED_LINKS_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception as e:
-            logger.error(f"Failed to load {PROCESSED_LINKS_FILE}: {e}")
+            logger.error(f"Failed to load {PROCESSED_LINKS_FILE}: {e}. Deleting corrupted file.")
+            try:
+                os.remove(PROCESSED_LINKS_FILE)
+                logger.info(f"Deleted corrupted {PROCESSED_LINKS_FILE}")
+            except OSError as e:
+                logger.error(f"Failed to delete {PROCESSED_LINKS_FILE}: {e}")
     return {}
 
 # Save processed links
@@ -82,7 +87,7 @@ def save_processed_links(processed_links):
 # Validate a source URL
 def validate_source(url, session):
     try:
-        response = session.head(url, timeout=5, allow_redirects=True)
+        response = session.head(url, timeout=7, allow_redirects=True)
         content_type = response.headers.get("content-type", "").lower()
         return response.status_code == 200 and ("text" in content_type or "m3u" in content_type)
     except requests.RequestException as e:
@@ -220,7 +225,7 @@ def parse_m3u(content):
     lines = content.splitlines()
     extinf = None
     for line in lines:
-        line = strip()
+        line = line.strip()
         if not line:
             continue
         if line.startswith("#EXTINF:"):
@@ -238,9 +243,10 @@ def process_source(source, session):
         return []
     try:
         logger.info(f"Fetching {source}")
-        response = session.get(source, timeout=5)
+        response = session.get(source, timeout=7)
         if response.status_code == 200:
             content = response.text
+            logger.info(f"Fetched {len(content)} bytes from {source}")
             entries = parse_m3u(content)
             logger.info(f"Found {len(entries)} entries in {source}")
             return entries
