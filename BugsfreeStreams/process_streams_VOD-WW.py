@@ -359,8 +359,9 @@ def main():
     individual_files = {}
     for url, (extinf, original_url, variants, channel_name) in unique_streams.items():
         if original_url.lower().endswith(".m3u8"):
-            github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}.m3u8"
-            file_path = os.path.join(BASE_PATH, f"{channel_name}.m3u8")
+            file_ext = ".m3u8"
+            github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}{file_ext}"
+            file_path = os.path.join(BASE_PATH, f"{channel_name}{file_ext}")
             m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
             for variant in variants:
                 resolution = variant["resolution"]
@@ -369,15 +370,25 @@ def main():
                 m3u8_content.append(f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH={bandwidth},RESOLUTION={resolution}")
                 m3u8_content.append(variant_url)
             individual_files[file_path] = "\n".join(m3u8_content)
-        else:
-            github_url = original_url  # Direct URL for .mp4 and .mkv
+        elif original_url.lower().endswith(".mp4"):
+            file_ext = ".mp4"
+            github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}{file_ext}"
+            file_path = os.path.join(BASE_PATH, f"{channel_name}{file_ext}")
+            individual_files[file_path] = original_url
+        elif original_url.lower().endswith(".mkv"):
+            file_ext = ".mkv"
+            github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/heads/{BRANCH}/BugsfreeStreams/StreamsVOD-WW/{channel_name}{file_ext}"
+            file_path = os.path.join(BASE_PATH, f"{channel_name}{file_ext}")
+            individual_files[file_path] = original_url
         final_m3u_content.append(f"{extinf}\n{github_url}")
+        logger.info(f"Prepared file {file_path} for {channel_name}")
 
     # Write files
     for file_path, content in individual_files.items():
         try:
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(content)
+            logger.info(f"Wrote {file_path}")
         except OSError as e:
             logger.error(f"Failed to write {file_path}: {e}")
     try:
