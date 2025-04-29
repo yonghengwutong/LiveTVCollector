@@ -260,6 +260,7 @@ def main():
         "https://iptv-org.github.io/iptv/countries/it.m3u",
         "https://raw.githubusercontent.com/gRullo/italym3u/refs/heads/main/italy.m3u",
         "https://raw.githubusercontent.com/kiekostui/IPTV/refs/heads/main/playlist.m3u8",
+        "https://raw.githubusercontent.com/pandvan/rakuten-m3u-generator/refs/heads/master/output/rakuten.m3u",
     ]
 
     # Set check_links=False for super speed, True for accuracy
