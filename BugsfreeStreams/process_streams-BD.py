@@ -331,7 +331,7 @@ def main():
     final_m3u_content = [f'#EXTM3U tvg-updated="{now}"']
     individual_files = {}
     for url, (extinf, original_url, variants, channel_name) in unique_streams.items():
-        github_url = f"https://bugsfreeweb.github.io/{REPO_NAME}/BugsfreeStreams/StreamsTV-TBD/{channel_name}.m3u8"
+        github_url = f"https://bugsfreeweb.github.io/{REPO_NAME}/BugsfreeStreams/StreamsTV-BD/{channel_name}.m3u8"
         file_path = os.path.join(BASE_PATH, f"{channel_name}.m3u8")
         m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
         for variant in variants:
