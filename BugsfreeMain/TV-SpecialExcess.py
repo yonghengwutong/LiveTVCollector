@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class M3UCollector:
-    def __init__(self, country="Bangladesh", base_dir="LiveTV", check_links=True):
+    def __init__(self, country="SpecialExcess", base_dir="LiveTV", check_links=True):
         self.channels = defaultdict(list)
         self.default_logo = "https://buddytv.netlify.app/img/no-logo.png"
         self.seen_urls = set()
@@ -266,7 +266,7 @@ def main():
     ]
 
     # Set check_links=False for super speed, True for accuracy
-    collector = M3UCollector(country="Bangladesh", check_links=False)
+    collector = M3UCollector(country="SpecialExcess", check_links=False)
     collector.process_sources(source_urls)
     
     # Export files
@@ -277,7 +277,7 @@ def main():
     
     total_channels = sum(len(ch) for ch in collector.channels.values())
     mumbai_time = datetime.now(pytz.timezone('Asia/Kolkata'))
-    logging.info(f"[{mumbai_time}] Collected {total_channels} unique channels for Bangladesh")
+    logging.info(f"[{mumbai_time}] Collected {total_channels} unique channels for SpecialExcess")
     logging.info(f"Groups found: {len(collector.channels)}")
 
 if __name__ == "__main__":
