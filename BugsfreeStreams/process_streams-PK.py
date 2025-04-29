@@ -22,7 +22,7 @@ REPO_NAME = "LiveTVCollector"
 BRANCH = "main"
 BASE_PATH = os.path.abspath("BugsfreeStreams/StreamsTV-PK")
 FINAL_M3U_FILE = os.path.abspath("BugsfreeStreams/Output/StreamLinks-PK.m3u")
-PROCESSED_LINKS_FILE = os.path.abspath("BugsfreeStreams/processed_links-PK.json")
+PROCESSED_LINKS_FILE = os.path.abspath("BugsfreeStreams/Records/processed_links-PK.json")
 MAX_STREAMS = 600  # Target 500+ channels
 MAX_STREAMS_PER_SOURCE = 1000
 VALIDATION_TIMEOUT = 60  # Max 60 seconds for validation
@@ -331,7 +331,7 @@ def main():
     final_m3u_content = [f'#EXTM3U tvg-updated="{now}"']
     individual_files = {}
     for url, (extinf, original_url, variants, channel_name) in unique_streams.items():
-        github_url = f"https://bugsfreeweb.github.io/{REPO_NAME}/BugsfreeStreams/StreamsTV-TBD/{channel_name}.m3u8"
+        github_url = f"https://bugsfreeweb.github.io/{REPO_NAME}/BugsfreeStreams/StreamsTV-PK/{channel_name}.m3u8"
         file_path = os.path.join(BASE_PATH, f"{channel_name}.m3u8")
         m3u8_content = ["#EXTM3U", "#EXT-X-VERSION:3"]
         for variant in variants:
