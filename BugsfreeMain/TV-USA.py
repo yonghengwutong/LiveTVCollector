@@ -261,6 +261,7 @@ def main():
         "https://raw.githubusercontent.com/clseibold/tubi-m3u/refs/heads/main/tubi_playlist_us.m3u",
         "https://raw.githubusercontent.com/aceray50/iptv/refs/heads/main/tv.m3u",
         "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/thetvapp.m3u8",
+        "https://raw.githubusercontent.com/HelmerLuzo/PlutoTV_HL/refs/heads/main/tv/m3u/PlutoTV_tv_US.m3u",
     ]
 
     # Set check_links=False for super speed, True for accuracy
