@@ -260,6 +260,7 @@ def main():
         "https://iptv-org.github.io/iptv/countries/in.m3u",
         "https://raw.githubusercontent.com/ar-rony/smartiptv-playlist/refs/heads/master/aurno-iptv.m3u",
         "https://raw.githubusercontent.com/SUBHASHM3U8/M3u/refs/heads/main/README.md",
+        "https://raw.githubusercontent.com/usernameplay/playlistghd.m3u/refs/heads/main/ghdply.m3u",
     ]
 
     # Set check_links=False for super speed, True for accuracy
