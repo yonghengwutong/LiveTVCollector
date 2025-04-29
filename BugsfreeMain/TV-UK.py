@@ -256,7 +256,8 @@ class M3UCollector:
 
 def main():
     # Specific M3U sources (12 sources)
-    source_urls = [        
+    source_urls = [   
+        "https://raw.githubusercontent.com/HelmerLuzo/PlutoTV_HL/refs/heads/main/tv/m3u/PlutoTV_tv_GB.m3u",
         "https://iptv-org.github.io/iptv/countries/uk.m3u",
     ]
 
