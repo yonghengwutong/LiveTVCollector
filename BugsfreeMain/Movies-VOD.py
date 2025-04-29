@@ -217,8 +217,7 @@ class M3UCollector:
 def main():
     # Specific M3U sources
     source_urls = [        
-        "https://raw.githubusercontent.com/BrianRVP/Bflix34567/refs/heads/main/Star",
-        "https://raw.githubusercontent.com/BrianRVP/Bflix34567/refs/heads/main/Terror",
+        "https://raw.githubusercontent.com/HelmerLuzo/PlutoTV_HL/refs/heads/main/vod/m3u/PlutoTV_vod_ES.m3u",        
     ]
 
     collector = M3UCollector(country="VOD")
