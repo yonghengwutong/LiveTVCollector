@@ -12798,6 +12798,12 @@
     "img": "https://alkhalifitv.github.io/TV/big/tvone.png"
   },
   {
+    "name": "INEWS",
+    "type": "BERITA",
+    "url": "https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews",
+    "img": "https://alkhalifitv.github.io/TV/big/inews.png"
+  },
+  {
     "name": "INEWS HD",
     "type": "BERITA",
     "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd",
@@ -13338,57 +13344,21 @@
     "img": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch643_170_122"
   },
   {
-    "name": "BEIN SPORT 4",
-    "type": "SPORTS INDO",
-    "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd",
-    "img": "https://i.ibb.co.com/b7vxrzY/Beinsport4.png"
-  },
-  {
-    "name": "BEIN SPORT 5",
-    "type": "SPORTS INDO",
-    "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd",
-    "img": "https://i.ibb.co.com/4273HXd/Beinsport5.png"
-  },
-  {
-    "name": "Champions TV 2",
-    "type": "SPORTS INDO",
-    "url": "https://sweet-night-1d1d.worst.workers.dev/play.mpd?id=6686&type=dash",
-    "img": "https://iili.io/2lP43sS.png"
-  },
-  {
     "name": "Soccer Channel",
     "type": "SPORTS INDO",
-    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd|referrer=https://visionplus.id/",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
     "img": "https://i.imgur.com/68y2OmC.png"
-  },
-  {
-    "name": "Sportstars 1 HD",
-    "type": "SPORTS INDO",
-    "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd|referrer=https://visionplus.id/",
-    "img": "https://i.imgur.com/OkQzNhc.png"
-  },
-  {
-    "name": "Sportstars 3",
-    "type": "SPORTS INDO",
-    "url": "https://dusk.biz.id/rp/index.mpd?id=114",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sportstars_3.png"
-  },
-  {
-    "name": "SPORTSTARS 4 HD",
-    "type": "SPORTS INDO",
-    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd|referrer=https://visionplus.id/",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Sportstars_4.png"
   },
   {
     "name": "SPOTV V+",
     "type": "SPORTS INDO",
-    "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd|referrer=https://visionplus.id/",
+    "url": "https://terabit.web.id/media.mpd?id=119&type=dash|referrer=https://visionplus.id/",
     "img": "https://i.imgur.com/BYw9xVW.png"
   },
   {
     "name": "SPOTV2 V+",
     "type": "SPORTS INDO",
-    "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd|referrer=https://visionplus.id/",
+    "url": "https://terabit.web.id/media.mpd?id=120&type=dash|referrer=https://visionplus.id/",
     "img": "https://i.imgur.com/xXCBKAM.png"
   },
   {
@@ -13878,6 +13848,18 @@
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Google_Stadia_logo.svg/320px-Google_Stadia_logo.svg.png"
   },
   {
+    "name": "SPOTV V+",
+    "type": "No SignaL 📺",
+    "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd|referrer=https://visionplus.id/",
+    "img": "https://i.imgur.com/BYw9xVW.png"
+  },
+  {
+    "name": "SPOTV2 V+",
+    "type": "No SignaL 📺",
+    "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd|referrer=https://visionplus.id/",
+    "img": "https://i.imgur.com/xXCBKAM.png"
+  },
+  {
     "name": "Sports TV",
     "type": "No SignaL 📺",
     "url": "http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8",
@@ -13886,8 +13868,20 @@
   {
     "name": "Soccer Channel",
     "type": "No SignaL 📺",
-    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/6/6a/SoccerChannel2020.png"
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd|referrer=https://visionplus.id/",
+    "img": "https://i.imgur.com/68y2OmC.png"
+  },
+  {
+    "name": "Sportstars 3",
+    "type": "No SignaL 📺",
+    "url": "https://dusk.biz.id/rp/index.mpd?id=114",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sportstars_3.png"
+  },
+  {
+    "name": "SPORTSTARS 4 HD",
+    "type": "No SignaL 📺",
+    "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd|referrer=https://visionplus.id/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Sportstars_4.png"
   },
   {
     "name": "RCTI",
@@ -14280,6 +14274,18 @@
     "img": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Bein_sports.png"
   },
   {
+    "name": "beIN Sports 4",
+    "type": "No SignaL 📺",
+    "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd",
+    "img": "https://www.visionplus.id/images/repository/897/198897-LOGO-m.png"
+  },
+  {
+    "name": "beIN Sports 5",
+    "type": "No SignaL 📺",
+    "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd",
+    "img": "https://www.visionplus.id/images/repository/898/198898-LOGO-m.png"
+  },
+  {
     "name": "BEIN SPORTS EXTRA",
     "type": "No SignaL 📺",
     "url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8",
@@ -14314,6 +14320,12 @@
     "type": "No SignaL 📺",
     "url": "https://cempedak-cdn-fly.mncnow.id/live/eds/BEIN05/sa_dash/BEIN05.mpd",
     "img": "https://www.visionplus.id/images/repository/898/198898-LOGO-m.png"
+  },
+  {
+    "name": "Champions TV 2",
+    "type": "No SignaL 📺",
+    "url": "https://sweet-night-1d1d.worst.workers.dev/play.mpd?id=6686&type=dash",
+    "img": "https://iili.io/2lP43sS.png"
   },
   {
     "name": "beIN Sports 1 ID",
@@ -15892,12 +15904,6 @@
     "type": "Nasional 🇮🇩",
     "url": "https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd|referrer=https://visionplus.id/",
     "img": "https://i.imgur.com/1zcrM6F.png"
-  },
-  {
-    "name": "iNews ʳ",
-    "type": "Nasional 🇮🇩",
-    "url": "https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews",
-    "img": "https://i.imgur.com/cNj0zNL.png"
   },
   {
     "name": "Metro TV",
