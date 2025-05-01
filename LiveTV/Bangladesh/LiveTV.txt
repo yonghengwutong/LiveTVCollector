@@ -520,11 +520,6 @@ URL: https://cdn8.aliflailabd.com/Sangsad-tv/index.m3u8
 Logo: https://www.lyngsat.com/logo/tv/ss/sangshad-tv-bd.png
 Source: https://raw.githubusercontent.com/mr-masudrana/LiveTV/refs/heads/main/Bangla_Playlist.m3u
 --------------------------------------------------
-Name: ATN BANGLA
-URL: https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1722/output/index.m3u8
-Logo: https://www.lyngsat.com/logo/tv/aa/atn_bangla.png
-Source: https://raw.githubusercontent.com/mr-masudrana/LiveTV/refs/heads/main/Bangla_Playlist.m3u
---------------------------------------------------
 Name: GAAN BANGLA
 URL: https://livess.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gaanbangla-8-orgd.stream/playlist.m3u8
 Logo: https://www.lyngsat.com/logo/tv/gg/gaan_bangla_tv_bd.png
@@ -546,13 +541,6 @@ Logo: https://www.lyngsat.com/logo/tv/cc/channel-s-bd.png
 Source: https://raw.githubusercontent.com/mr-masudrana/LiveTV/refs/heads/main/Bangla_Playlist.m3u
 --------------------------------------------------
 
-Group: Bangla News
-Name: INDEPENDENT TV
-URL: https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1704/output/index.m3u8
-Logo: https://www.lyngsat.com/logo/tv/ii/independent_tv.png
-Source: https://raw.githubusercontent.com/mr-masudrana/LiveTV/refs/heads/main/Bangla_Playlist.m3u
---------------------------------------------------
-
 Group: Bangladesh
 Name: BTV HD
 URL: https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1709/output/index.m3u8
@@ -570,8 +558,13 @@ Logo: https://i.ibb.co.com/zTgqxTzv/somoy-tv-logo-png-seeklogo-536972.png
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: INDEPNDENT HD
-URL: http://38.96.178.201/live/Independent/index.m3u8
+URL: https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1704/output/index.m3u8
 Logo: https://i.ibb.co.com/Hpddjjy4/channels4-profile.jpg
+Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
+--------------------------------------------------
+Name: JAMUNA HD
+URL: https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1701/output/index.m3u8
+Logo: https://i.ibb.co.com/8gxQRNKH/images-1.png
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: CHANNEL 24
@@ -584,18 +577,33 @@ URL: https://www.tbn24.com/api/video/4043_0.m3u8
 Logo: https://i.ibb.co.com/SXt4ZHHb/channels4-profile-1.jpg
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
+Name: CHANNEL I
+URL: https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1723/output/index.m3u8
+Logo: https://i.ibb.co.com/4n91Q8fz/images-3.jpg
+Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
+--------------------------------------------------
 Name: ASIAN TV
-URL: http://103.163.247.39/local_out/asiantv/video.m3u8?token=At5F1MFZYnciB3
+URL: https://www.tbn24.com/api/video/405_0.m3u8
 Logo: https://i.ibb.co.com/4Z6ckxQG/images-5.jpg
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
+Name: ATN BNAGLA
+URL: https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1722/output/index.m3u8
+Logo: https://i.ibb.co.com/Txvf5cwN/images.jpg
+Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
+--------------------------------------------------
+Name: SATV
+URL: https://www.tbn24.com/api/video/4015_0.m3u8
+Logo: https://i.ibb.co.com/Z1Sf2fwL/images-1.jpg
+Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
+--------------------------------------------------
 Name: DBC
-URL: http://opplex.ch:8080/live/789456123/789456123/245914.ts
+URL: https://www.tbn24.com/api/video/4010_0.m3u8
 Logo: https://i.ibb.co.com/fJ0GSb1/images.png
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: BANGLA TV
-URL: http://38.96.178.201/live/BanglaTV/index.m3u8
+URL: https://www.tbn24.com/api/video/406_0.m3u8
 Logo: https://i.ibb.co.com/k267DrN2/channels4-profile-1.jpg
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
@@ -626,22 +634,27 @@ Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3
 --------------------------------------------------
 Name: MOTU-PATLU 1
 URL: http://opplex.ch:8080/live/789456123/789456123/307079.ts
-Logo: https://i.ibb.co.com/XZtyCx3d/Motu-Patlu.jpg
+Logo: https://i.ibb.co.com/3mhm3Tjm/images-1.jpg
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: MOTU-PATLU 2
 URL: http://opplex.ch:8080/live/789456123/789456123/311373.ts
-Logo: https://i.ibb.co.com/XZtyCx3d/Motu-Patlu.jpg
+Logo: https://i.ibb.co.com/1G9K3MV5/download.jpg
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: DORAMON
 URL: http://opplex.ch:8080/live/789456123/789456123/388459.ts
-Logo: https://i.ibb.co.com/b5G5GvqL/Doraemon-character.png
+Logo: https://i.ibb.co.com/Ngr5Vvw0/images.jpg
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: HUNGAMA
 URL: http://atg100.xyz/live/443432469215731/4362020837/510267.ts
 Logo: https://i.ibb.co.com/bj6skF3M/images-3.jpg
+Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
+--------------------------------------------------
+Name: SUPER HUNGAMA
+URL: http://tv.bdiptv.store/live/restream/restream25/159.m3u8
+Logo: https://i.ibb.co.com/HszssGV/images-3.jpg
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: DISNEP CHANNEL
@@ -650,12 +663,12 @@ Logo: https://i.ibb.co.com/GN8TVjX/images-2.png
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: T SPORTS HD
-URL: http://kst.moonplex.net:8080/CH2/tracks-v1a1/mono.m3u8
+URL: http://tv.bdiptv.store/live/restream/restream25/15263.m3u8
 Logo: https://i.ibb.co.com/RkfpnmWd/download-2.jpg
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: NATIONAL
-URL: http://88.212.15.19/live/test_ngc/playlist.m3u8
+URL: http://opplex.tv:8080/live/mother/mother/245967.ts
 Logo: https://i.ibb.co.com/q3870F8P/images.png
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
@@ -1832,11 +1845,6 @@ URL: http://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png
 Source: https://raw.githubusercontent.com/skjahangirkabir/Bdix-549.m3u/refs/heads/main/BDIX-549.m3u8
 --------------------------------------------------
-Name: TRAVEL HD
-URL: https://travelxp-travelxp-3-nl.samsung.wurl.tv/playlist.m3u8
-Logo: https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Travel%20XP.png
-Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
---------------------------------------------------
 Name: ANIMAL PLANET HD
 URL: https://github.com/rahul979854/Channels/raw/main/AnimalsPlanetHd.m3u8
 Logo: https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Animal%20Planet.png
@@ -1939,7 +1947,7 @@ Logo: https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Cartoon%20Netwo
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: DISCOVERY KIDS
-URL: https://otttv.co.in/d2h/livestream/discovery-kids/manifest.mpd
+URL: http://tv.bdiptv.store/live/restream/restream25/98.m3u8
 Logo: https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Discovery%20Kids.png
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
@@ -2914,12 +2922,12 @@ Source: https://raw.githubusercontent.com/MohammadJoyChy/BDIXTV/refs/heads/main/
 --------------------------------------------------
 Name: STAR SPORTS 1 HD
 URL: https://raw.githubusercontent.com/rahul979854/Channels/refs/heads/main/StarSport1Hd.m3u8
-Logo: https://tstatic.akash-go.com/cms-ui/images/custom-content/1735043602147.png
+Logo: https://i.ibb.co.com/gZpvGJmt/images-2.jpg
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: STAR SPORTS 2 HD
 URL: https://github.com/rahul979854/Channels/raw/main/Sports18Hd.m3u8
-Logo: https://tstatic.akash-go.com/cms-ui/images/custom-content/1735045174734.png
+Logo: https://i.ibb.co.com/G4y3H76D/Sports18-1-HD.png
 Source: https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u
 --------------------------------------------------
 Name: STAR SPORTS 1 HD
@@ -3811,6 +3819,11 @@ Source: https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%2
 --------------------------------------------------
 Name: Live Sports-4
 URL: http://xtv.ooo:8080/danyear12/am809100/233178
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)
+--------------------------------------------------
+Name: T-Sports [1]
+URL: http://kst.moonplex.net:8080/CH2/tracks-v1a1/mono.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/shuvo880/iptv/refs/heads/master/MiME%20(SHUVO)
 --------------------------------------------------
