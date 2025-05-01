@@ -223,12 +223,12 @@ Logo: https://assets.iprofesional.com/assets/jpg/2020/06/497527.jpg?5.6.0.5
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: A&E
-URL: http://190.11.130.46/mnp/ae/output.mpd
+URL: http://181.78.27.128:8000/play/a01v/index.m3u8
 Logo: https://i.ibb.co/Ld3vtST/a-e.png
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: AXN
-URL: http://190.11.130.46/mnp/axn/output.mpd
+URL: http://181.78.27.128:8000/play/a01w/index.m3u8
 Logo: https://i.ibb.co/5jBfMj7/axn.png
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
@@ -363,7 +363,7 @@ Logo: https://pbs.twimg.com/media/Fo4or_BXsAAsJIL.png
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: TCM
-URL: http://190.11.130.46/mnp/tcm/output.mpd
+URL: http://181.188.234.21:8000/play/a03d/index.m3u8
 Logo: https://upload.wikimedia.org/wikipedia/commons/e/ef/Turner_Classic_Movies_%28TCM%2C_Latin_America%29_-_2015_logo.png
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
@@ -405,13 +405,13 @@ Logo: https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6b65
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: COMEDY CENTRAL
-URL: http://190.11.130.46/mnp/comedy/output.mpd
+URL: http://181.78.27.128:8000/play/a02h/index.m3u8
 Logo: https://logowik.com/content/uploads/images/comedy-central.jpg
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: DOCU
 URL: http://live1.cl.cdn.lla.vtrplay.com/docuhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-Logo: https://buddytv.netlify.app/img/no-logo.png
+Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcThf-YvMnXLh_lzwER9k3nIjpaiSVfIRUZg&s
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: DISCOVERY H&H
@@ -420,7 +420,7 @@ Logo: https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6924
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: DISCOVERY ID
-URL: http://181.78.208.25:8000/play/a01k/index.m3u8
+URL: http://181.78.27.128:8000/play/a02w/index.m3u8
 Logo: https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6b54c6c7c38bc2c1c5f_investigation.png
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
@@ -444,24 +444,19 @@ URL: http://live1.cl.cdn.lla.vtrplay.com/discscihdchi/vxfmt=dp/playlist.m3u8?dev
 Logo: https://cdn.imgbin.com/22/8/14/imgbin-science-channel-logo-discovery-channel-brand-discovery-of-achilles-on-skyros-JWTPWAGmYmMau2PDtzcFEc6PS.jpg
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
-Name: EL GOURMET
-URL: http://161.132.194.88:6178/play/a0sm/index.m3u8
-Logo: https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f68bb5e4ea711e0b73e7_elgourmet.png
-Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
---------------------------------------------------
 Name: FOOD NETWORK
 URL: http://live1.cl.cdn.lla.vtrplay.com/foodnetworkhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 Logo: https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f69af8210c7c02966209_food.png
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
-Name: HISTORY
-URL: http://190.11.130.46/mnp/history/output.mpd
-Logo: https://i.imgur.com/J897iGL.jpg
+Name: HOLA TV
+URL: http://181.78.208.25:8000/play/a01k/index.m3u8
+Logo: https://spotlight-cl.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F06%2F40%2F6402338_F2F85E917E131706.png&height=60&resize=RATIO&format=PNG
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
-Name: HISTORY 2
-URL: http://190.60.38.114:1010/play/a04j/index.m3u8
-Logo: https://i.imgur.com/ypR4tvy.jpg
+Name: HISTORY
+URL: http://181.78.27.128:8000/play/a04j/index.m3u8
+Logo: https://i.imgur.com/J897iGL.jpg
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: LAS ESTRELLAS
@@ -479,19 +474,9 @@ URL: http://live1.cl.cdn.lla.vtrplay.com/maschichdchi/vxfmt=dp/playlist.m3u8?dev
 Logo: https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f68c41ede02cb91875fe_maschic.png
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
-Name: TLC
-URL: http://181.78.208.25:8000/play/a00y/index.m3u8
-Logo: https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f693d4f95adf0c078506_tlc.png
-Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
---------------------------------------------------
 Name: NATGEO
 URL: http://live1.cl.cdn.lla.vtrplay.com/natgeohdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-Logo: https://1000logos.net/wp-content/uploads/2017/04/National-Geographic-Logo.png
-Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
---------------------------------------------------
-Name: SUN CHANNEL
-URL: http://181.78.208.25:8000/play/a02x/index.m3u8
-Logo: https://thafd.bing.com/th/id/OIP.OQxmydNuqRrpQcwaMDatcAHaHJ?rs=1&pid=ImgDetMain
+Logo: https://cdn.worldvectorlogo.com/logos/national-geographic.svg
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: PASIONES
@@ -1462,7 +1447,7 @@ Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: DREAMWORKS
 URL: http://live1.cl.cdn.lla.vtrplay.com/dreamworkshdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-Logo: https://buddytv.netlify.app/img/no-logo.png
+Logo: https://cdn.prod.website-files.com/605a3cacba514a77ca2e6ab5/638e573e3704612374867e59_dreamworks.jpg
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: CARTOON NETWORK
@@ -1496,12 +1481,12 @@ Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS53RWf-EsAx2vqSe6HzP
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: NICKELODEON
-URL: http://190.11.130.46/mnp/nickelodeon/output.mpd
+URL: http://181.78.27.128:8000/play/a037/index.m3u8
 Logo: https://i.ibb.co/Vjw3R8m/nick.png
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
 Name: NICK JR
-URL: http://190.11.130.46/mnp/nickjr/output.mpd
+URL: http://181.78.27.128:8000/play/a036/index.m3u8
 Logo: https://i.ibb.co/5j96nsY/nick-jr.png
 Source: https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv
 --------------------------------------------------
