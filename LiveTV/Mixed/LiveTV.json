@@ -1,5 +1,5 @@
 {
-  "date": "2025-05-03 07:25:43",
+  "date": "2025-05-03 13:58:27",
   "channels": {
     "STREAMING": [
       {
@@ -2084,21 +2084,21 @@
         "logo": "https://spotlight-cl.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F18%2F12%2F18120538_C879B6958D9AC767.png&height=60&resize=RATIO&format=PNG",
         "group": "DEPORTES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://181.78.208.25:8000/play/a024/index.m3u8"
+        "url": "http://179.49.163.34:45000/play/a02a/index.m3u8"
       },
       {
         "name": "ESPN 6",
         "logo": "https://spotlight-cl.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F18%2F12%2F18120540_B7604BB1E7F6FE82.png&height=60&resize=RATIO&format=PNG",
         "group": "DEPORTES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://live1.cl.cdn.lla.vtrplay.com/foxsports3hdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+        "url": "http://179.49.163.34:45000/play/a01s/index.m3u8"
       },
       {
         "name": "ESPN 7",
         "logo": "https://spotlight-cl.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F18%2F12%2F18120542_D5E98ACC166EE489.png&height=60&resize=RATIO&format=PNG",
         "group": "DEPORTES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://live1.cl.cdn.lla.vtrplay.com/foxsports2hdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+        "url": "http://190.60.38.114:1010/play/a02o/index.m3u8"
       },
       {
         "name": "CDO",
@@ -2229,11 +2229,18 @@
         "url": "http://200.60.124.19:29000/play/a02b/index.m3u8"
       },
       {
+        "name": "CINE LATINO",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CINE Y SERIES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a01i/index.m3u8"
+      },
+      {
         "name": "STAR CHANNEL",
         "logo": "https://i.ibb.co/kBS1sFh/star-channel.png",
         "group": "CINE Y SERIES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://live1.cl.cdn.lla.vtrplay.com/starchannelhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+        "url": "http://181.78.27.128:8000/play/a03r/index.m3u8"
       },
       {
         "name": "HBO",
@@ -2292,11 +2299,32 @@
         "url": "https://cdn-live.mundogo.cl/depelicula/depelicula.mpd"
       },
       {
+        "name": "DHE",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CINE Y SERIES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a00o/index.m3u8"
+      },
+      {
         "name": "FX HD",
         "logo": "https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6af58a448a45cf1557f_fxhd.png",
         "group": "CINE Y SERIES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://live1.cl.cdn.lla.vtrplay.com/fxhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+      },
+      {
+        "name": "GOLDEN",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CINE Y SERIES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a00u/index.m3u8 GOLDEN"
+      },
+      {
+        "name": "GOLDEN EDGE",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CINE Y SERIES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a00v/index.m3u8"
       },
       {
         "name": "MULTIPREMIER",
@@ -2306,6 +2334,27 @@
         "url": "http://179.49.163.34:45000/play/a016/index.m3u8"
       },
       {
+        "name": "MC",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CINE Y SERIES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a01w/index.m3u8"
+      },
+      {
+        "name": "FMH MOVIES",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CINE Y SERIES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a03j/index.m3u8"
+      },
+      {
+        "name": "FMH FAMILY",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CINE Y SERIES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a03m/index.m3u8"
+      },
+      {
         "name": "PARAMOUNT CHANNEL HD",
         "logo": "https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/638e597d941bc3acf1bdcdf9_paramount.png",
         "group": "CINE Y SERIES",
@@ -2313,11 +2362,18 @@
         "url": "https://cdn-live.mundogo.cl/paramount/paramount.mpd"
       },
       {
+        "name": "REWIND",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CINE Y SERIES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a03o/index.m3u8"
+      },
+      {
         "name": "SPACE",
         "logo": "https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6b3a567a9c9259721e3_space.png",
         "group": "CINE Y SERIES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://live1.cl.cdn.lla.vtrplay.com/spacehdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+        "url": "https://cdn-live.mundogo.cl/spacehd/spacehd.mpd"
       },
       {
         "name": "SONY CHANNEL",
@@ -2373,7 +2429,7 @@
         "logo": "https://th.bing.com/th/id/R.a6d6190c1d3fa0a6809e31a7abc4c61a?rik=hRLC4SrNYXu9bQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fthumb%2fd%2fd7%2fUSA_Network_logo_(2016).svg%2f220px-USA_Network_logo_(2016).svg.png&ehk=m%2fHWMjyk6xJcJ2s4jXN2hSFbYGfsDgoivmAvGJAQGHM%3d&risl=&pid=ImgRaw&r=0",
         "group": "CINE Y SERIES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://181.188.234.21:8000/play/a03i/index.m3u8"
+        "url": "http://179.49.163.34:45000/play/a00y/index.m3u8"
       },
       {
         "name": "STUDIO UNIVERSAL",
@@ -2416,6 +2472,13 @@
         "group": "CINE Y SERIES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://live1.cl.cdn.lla.vtrplay.com/warnerhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+      },
+      {
+        "name": "FMH KIDS",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CINE Y SERIES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a03i/index.m3u8"
       }
     ],
     "INFANTILES": [
@@ -2427,11 +2490,11 @@
         "url": "http://live1.cl.cdn.lla.vtrplay.com/babyfirsthdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
       },
       {
-        "name": "ETC TV",
-        "logo": "https://th.bing.com/th/id/R.ec5dd1fd030db6b73224174742c977d5?rik=ySlA4iArk%2f%2bGNg&riu=http%3a%2f%2ftv-online.cl%2fetc-tv-chile-en-vivo.jpg%3f210107074358&ehk=vL4NWZiWxJ3KT%2f%2fJePyrdv%2ft6KsTCHSCiWZd3JU%2fjcc%3d&risl=&pid=ImgRaw&r=0",
+        "name": "BITME",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "INFANTILES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://live1.cl.cdn.lla.vtrplay.com/etctvhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+        "url": "http://179.49.163.34:45000/play/a02m/index.m3u8"
       },
       {
         "name": "DREAMWORKS",
@@ -2487,7 +2550,7 @@
         "logo": "https://i.ibb.co/Vjw3R8m/nick.png",
         "group": "INFANTILES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://clubtv.link/may0105/phpcode/android0.php?c=645&token=Tecnoplus11&f=.m3u8"
+        "url": "http://200.60.124.19:29000/play/a01i/index.m3u8"
       },
       {
         "name": "NICK JR",
@@ -2495,27 +2558,6 @@
         "group": "INFANTILES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://181.78.27.128:8000/play/a036/index.m3u8"
-      },
-      {
-        "name": "NICKTEEN",
-        "logo": "https://i.ibb.co/5j96nsY/nick-jr.png",
-        "group": "INFANTILES",
-        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://clubtv.link/may0105/phpcode/android0.php?c=646&token=Tecnoplus11&f=.m3u8"
-      },
-      {
-        "name": "PLIM PLIN",
-        "logo": "https://cdn.storage.foromedios.com/monthly_2024_01/large.ElCanaldelPayasoPlimPlim(2023-).png.86c6cbf2fc741312e0c244f84eec14e6.png",
-        "group": "INFANTILES",
-        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://live1.cl.cdn.lla.vtrplay.com/plimplimhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
-      },
-      {
-        "name": "TOONCAST",
-        "logo": "https://i.ibb.co/BfmgWb6/tooncast.png",
-        "group": "INFANTILES",
-        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://190.11.130.46/mnp/tooncast/output.mpd"
       },
       {
         "name": "SENPAI TV",
@@ -2555,6 +2597,13 @@
         "url": "http://live1.cl.cdn.lla.vtrplay.com/docuhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
       },
       {
+        "name": "TELENOVELAS",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CULTURA Y ENTRETENIMIENTO",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a00d/index.m3u8"
+      },
+      {
         "name": "DISCOVERY H&H",
         "logo": "https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6924cdade706debff8d_homeandhealth.png",
         "group": "CULTURA Y ENTRETENIMIENTO",
@@ -2566,7 +2615,14 @@
         "logo": "https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6b54c6c7c38bc2c1c5f_investigation.png",
         "group": "CULTURA Y ENTRETENIMIENTO",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://181.78.27.128:8000/play/a02w/index.m3u8"
+        "url": "http://179.49.163.34:45000/play/a01d/index.m3u8"
+      },
+      {
+        "name": "KOSMOS",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CULTURA Y ENTRETENIMIENTO",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a03l/index.m3u8"
       },
       {
         "name": "DISCOVERY THEATER",
@@ -2580,7 +2636,7 @@
         "logo": "https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6949d391879f262fe42_turbo.png",
         "group": "CULTURA Y ENTRETENIMIENTO",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://live1.cl.cdn.lla.vtrplay.com/discoveryturbosdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_SD"
+        "url": "http://179.49.163.34:45000/play/a01a/index.m3u8"
       },
       {
         "name": "DISCOVERY WORLD",
@@ -2609,6 +2665,13 @@
         "group": "CULTURA Y ENTRETENIMIENTO",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://live1.cl.cdn.lla.vtrplay.com/foodnetworkhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+      },
+      {
+        "name": "HOLA TV",
+        "logo": "https://spotlight-cl.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F06%2F40%2F6402338_F2F85E917E131706.png&height=60&resize=RATIO&format=PNG",
+        "group": "CULTURA Y ENTRETENIMIENTO",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a02p/index.m3u8"
       },
       {
         "name": "HISTORY",
@@ -2646,6 +2709,20 @@
         "url": "http://live1.cl.cdn.lla.vtrplay.com/maschichdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
       },
       {
+        "name": "TLC",
+        "logo": "https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f693d4f95adf0c078506_tlc.png",
+        "group": "CULTURA Y ENTRETENIMIENTO",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://200.60.124.19:29000/play/a01b/index.m3u8"
+      },
+      {
+        "name": "LIFETIME",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "CULTURA Y ENTRETENIMIENTO",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://179.49.163.34:45000/play/a01o/index.m3u8"
+      },
+      {
         "name": "NATGEO",
         "logo": "https://cdn.worldvectorlogo.com/logos/national-geographic.svg",
         "group": "CULTURA Y ENTRETENIMIENTO",
@@ -2657,7 +2734,7 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Pasiones_Tv_logo.svg/2560px-Pasiones_Tv_logo.svg.png",
         "group": "CULTURA Y ENTRETENIMIENTO",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://181.78.208.25:8000/play/a02k/index.m3u8"
+        "url": "http://179.49.163.34:45000/play/a00f/index.m3u8"
       },
       {
         "name": "PLAY",
@@ -2665,20 +2742,6 @@
         "group": "CULTURA Y ENTRETENIMIENTO",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://live1.cl.cdn.lla.vtrplay.com/playboyhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
-      },
-      {
-        "name": "VENUS",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "CULTURA Y ENTRETENIMIENTO",
-        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://live1.cl.cdn.lla.vtrplay.com/venussdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_SD"
-      },
-      {
-        "name": "SEXTREME",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "CULTURA Y ENTRETENIMIENTO",
-        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://live1.cl.cdn.lla.vtrplay.com/sextremesdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_SD"
       }
     ],
     "PALESTINE🇵🇸": [
