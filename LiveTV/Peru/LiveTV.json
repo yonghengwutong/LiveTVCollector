@@ -1,5 +1,5 @@
 {
-  "date": "2025-05-02 21:52:23",
+  "date": "2025-05-03 06:52:58",
   "channels": {
     "News": [
       {
@@ -504,13 +504,6 @@
         "url": "http://190.2.212.209:8050/play/a0p5"
       },
       {
-        "name": "Perú Channel (720p)",
-        "logo": "https://i.imgur.com/01KEiEp.png",
-        "group": "General",
-        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
-        "url": "https://a.cdni.live/peruchanel/peruchanel/playlist.m3u8"
-      },
-      {
         "name": "Primavera 15 (720p)",
         "logo": "https://i.imgur.com/wsJ8Ag2.png",
         "group": "General",
@@ -903,6 +896,13 @@
         "url": "https://v4.tustreaming.cl/odtvgo/tracks-v1a1/mono.m3u8"
       },
       {
+        "name": "Perú Channel",
+        "logo": "https://i.imgur.com/01KEiEp.png",
+        "group": "General",
+        "source": "https://raw.githubusercontent.com/antholyber1a/lista-iptv-peru/refs/heads/main/iptvperu.m3u",
+        "url": "https://a.cdni.live/peruchanel/peruchanel/playlist.m3u8"
+      },
+      {
         "name": "Trivu (Lima)",
         "logo": "https://i.imgur.com/QrUYjOS.png",
         "group": "General",
@@ -940,6 +940,13 @@
         "url": "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8"
       },
       {
+        "name": "EWTN el Canal Católico (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/sua70RO.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8"
+      },
+      {
         "name": "JN19 (1080p) [Not 24/7]",
         "logo": "https://i.imgur.com/dudxyqk.png",
         "group": "Religious",
@@ -966,13 +973,6 @@
         "group": "Religious",
         "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
         "url": "https://dacastmmd.mmdlive.lldns.net/dacastmmd/acda902f73a646daac3fdc9dcddbc971/playlist.m3u8"
-      },
-      {
-        "name": "EWTN el Canal Católico (720p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png",
-        "group": "Religious",
-        "source": "https://raw.githubusercontent.com/antholyber1a/lista-iptv-peru/refs/heads/main/iptvperu.m3u",
-        "url": "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8"
       },
       {
         "name": "La Luz TV (720p)",
@@ -1529,6 +1529,13 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
         "url": "https://linear-407.frequency.stream/mt/studio/407/hls/master/playlist.m3u8"
+      },
+      {
+        "name": "Golden TV (240p) [Not 24/7]",
+        "logo": "https://i.imgur.com/NNd1lYl.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://bozztv.com/gusa/gusa-goldentv/index.m3u8"
       },
       {
         "name": "Hechicera TV (720p)",
