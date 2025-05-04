@@ -261,6 +261,7 @@ def main():
         "https://iptv.wwkejishe.top/tv.m3u",
         "https://iptv.wwkejishe.top/Sub.m3u",
         "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u",
+        "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
     ]
 
     # Set check_links=False for super speed, True for accuracy
