@@ -24,12 +24,6 @@
     "img": "https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png"
   },
   {
-    "name": "SOMOY TV-[2]",
-    "type": "BANGLA",
-    "url": "http://103.163.247.39/local_out/somoytv/video.m3u8?token=At5F1MFZYnciB3",
-    "img": "https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png"
-  },
-  {
     "name": "Ekattor TV",
     "type": "BANGLA",
     "url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1705/output/1705.m3u8",
@@ -102,12 +96,6 @@
     "img": "https://www.ntvbd.com/sites/default/files/aggregator/2020/02/17/ntv-channel_0.jpg"
   },
   {
-    "name": "RTV",
-    "type": "BANGLA",
-    "url": "http://103.163.247.39/local_out/rtv/video.m3u8?token=At5F1MFZYnciB3",
-    "img": "https://s4.gifyu.com/images/image29282f9d45a183d6.png"
-  },
-  {
     "name": "Banglavision",
     "type": "BANGLA",
     "url": "http://38.96.178.201/live/BanglaVision/index.m3u8",
@@ -156,12 +144,6 @@
     "img": "https://i.ibb.co/xgfM1sf/2021-06-14-fff22-19-07.jpg"
   },
   {
-    "name": "Desh TV",
-    "type": "BANGLA",
-    "url": "http://103.163.247.39/local_out/deshtv/video.m3u8?token=At5F1MFZYnciB3",
-    "img": "https://www.tradebangla.com.bd/images/business/profile/2017/12/12/222121217071805.jpg"
-  },
-  {
     "name": "MY TV HD",
     "type": "BANGLA",
     "url": "https://mytvbangla.com/0.m3u8",
@@ -170,7 +152,7 @@
   {
     "name": "Bangla TV",
     "type": "BANGLA",
-    "url": "http://103.163.247.39/local_out/banglatv/video.m3u8?token=At5F1MFZYnciB3",
+    "url": "http://xtv.ooo:8080/213112/213112/245910",
     "img": "https://s6.gifyu.com/images/image87250d092deb08a2.png"
   },
   {
@@ -890,7 +872,7 @@
   {
     "name": "T-Sports [2]",
     "type": "SPORTS",
-    "url": "https://www.tbn24.com/api/video/4031_0.m3u8",
+    "url": "https://live.tsports.com/?bitrate=1024000&channel=tsports_live_2_720&res=720",
     "img": "https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png"
   },
   {
@@ -914,7 +896,7 @@
   {
     "name": "Star Sports 1-[2]",
     "type": "SPORTS",
-    "url": "http://103.163.247.39/local_out/starsports1HD/video.m3u8?token=At5F1MFZYnciB3",
+    "url": "http://xtv.ooo:8080/danyear12/am809100/167575",
     "img": "https://i.ytimg.com/vi/CXTxw-69Ch8/maxresdefault.jpg"
   },
   {
@@ -938,7 +920,7 @@
   {
     "name": "Star Sports 3",
     "type": "SPORTS",
-    "url": "http://fcluster.mytvxweb.com:8880/4151820/index.m3u8?token=CP3Q3MDSVQVIP",
+    "url": "http://xtv.ooo:8080/danyear12/am809100/167577",
     "img": "https://static.wikia.nocookie.net/logopedia/images/2/2a/StarSports3India.jpg/revision/latest?cb=20191214234112"
   },
   {
@@ -956,19 +938,13 @@
   {
     "name": "Star Sports Select 2",
     "type": "SPORTS",
-    "url": "http://103.122.74.6:8888/hls/STAR.SPORTS.SEL.2.HD.m3u8",
-    "img": "https://imgur.com/pFgUCZF.png"
-  },
-  {
-    "name": "Star Sports Select 2",
-    "type": "SPORTS",
     "url": "http://xtv.ooo:8080/danyear12/am809100/167579",
     "img": "https://imgur.com/pFgUCZF.png"
   },
   {
     "name": "Sports-18",
     "type": "SPORTS",
-    "url": "http://172.16.88.30:18190/sports18/tracks-v1a1/mono.m3u8",
+    "url": "http://xtv.ooo:8080/danyear12/am809100/382205",
     "img": "https://upload.wikimedia.org/wikipedia/en/d/d3/Sports18_logo.svg"
   },
   {
@@ -994,12 +970,6 @@
     "type": "SPORTS",
     "url": "http://xtv.ooo:8080/danyear12/am809100/167595",
     "img": "https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen4_HD.png"
-  },
-  {
-    "name": "Sony Sports-5 SD",
-    "type": "SPORTS",
-    "url": "http://172.19.178.49:18190/sonysportsten5/tracks-v1/index.fmp4.m3u8?token=9770790ff6d186eb8ca32fde5f21d46059710ac7-3086f0691870ece8a1fe886e24f0db53-1745409316-1745398516",
-    "img": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png"
   },
   {
     "name": "Sony Sports-5 HD",
@@ -1812,6 +1782,12 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
+    "name": "SOMOY TV",
+    "type": "Uncategorized",
+    "url": "http://103.163.247.39/local_out/somoytv/video.m3u8?token=At5F1MFZYnciB3",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "Ekattor TV",
     "type": "Uncategorized",
     "url": "http://103.163.247.39/local_out/ekattortv/video.m3u8?token=At5F1MFZYnciB3",
@@ -1854,6 +1830,12 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
+    "name": "RTV",
+    "type": "Uncategorized",
+    "url": "http://103.163.247.39/local_out/rtv/video.m3u8?token=At5F1MFZYnciB3",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "Banglavision",
     "type": "Uncategorized",
     "url": "http://103.163.247.39/local_out/banglavision/video.m3u8?token=At5F1MFZYnciB3",
@@ -1869,6 +1851,18 @@
     "name": "Channel I",
     "type": "Uncategorized",
     "url": "http://103.163.247.39/local_out/channeli/video.m3u8?token=At5F1MFZYnciB3",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Desh TV",
+    "type": "Uncategorized",
+    "url": "http://103.163.247.39/local_out/deshtv/video.m3u8?token=At5F1MFZYnciB3",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Bangla TV",
+    "type": "Uncategorized",
+    "url": "http://103.163.247.39/local_out/banglatv/video.m3u8?token=At5F1MFZYnciB3",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -1977,24 +1971,6 @@
     "name": "Star Sports 1",
     "type": "Uncategorized",
     "url": "http://xtv.ooo:8080/danyear12/am809100/220062",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Star Sports 1-[2]",
-    "type": "Uncategorized",
-    "url": "http://xtv.ooo:8080/danyear12/am809100/167575",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Star Sports 3",
-    "type": "Uncategorized",
-    "url": "http://xtv.ooo:8080/danyear12/am809100/167577",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Sports-18",
-    "type": "Uncategorized",
-    "url": "http://xtv.ooo:8080/danyear12/am809100/382205",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -2722,6 +2698,12 @@
     "type": "Entertainment",
     "url": "https://otttv.co.in/d2h/livestream/zee-tv/manifest.mpd",
     "img": "https://otapp.store/uploads/tv_image/sm/zee-tv-hd.png"
+  },
+  {
+    "name": "ZEE BANGLA",
+    "type": "Entertainment",
+    "url": "http://tv.bdiptv.store/live/restream/restreamkak/14.m3u8",
+    "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735046738565.png"
   },
   {
     "name": "ZEE BANGLA HD",
@@ -3626,7 +3608,7 @@
   {
     "name": "DISCOVERY KIDS",
     "type": "KIDS",
-    "url": "http://tv.bdiptv.store/live/restream/restream25/98.m3u8",
+    "url": "https://otttv.co.in/d2h/livestream/discovery-kids/manifest.mpd",
     "img": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Discovery%20Kids.png"
   },
   {
@@ -3918,6 +3900,12 @@
     "img": "https://i.ibb.co.com/SXt4ZHHb/channels4-profile-1.jpg"
   },
   {
+    "name": "MAASRANGA HD",
+    "type": "Bangladesh",
+    "url": "http://tv.bdiptv.store/live/restream/restreamkak/97.m3u8",
+    "img": "https://i.ibb.co.com/Z6L6yKsL/download.png"
+  },
+  {
     "name": "CHANNEL I",
     "type": "Bangladesh",
     "url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1723/output/index.m3u8",
@@ -3944,7 +3932,7 @@
   {
     "name": "ASIAN TV",
     "type": "Bangladesh",
-    "url": "https://www.tbn24.com/api/video/405_0.m3u8",
+    "url": "http://tv.bdiptv.store/live/restream/restreamkak/78.m3u8",
     "img": "https://i.ibb.co.com/4Z6ckxQG/images-5.jpg"
   },
   {
@@ -3980,7 +3968,7 @@
   {
     "name": "JALSHA MOVIES HD",
     "type": "Bangladesh",
-    "url": "http://gotit14.xyz:80/live/2F635BX/ZJX02CY/34725.ts",
+    "url": "http://tv.bdiptv.store/live/restream/restreamkak/81.m3u8",
     "img": "https://i.ibb.co.com/XZdWGJcr/images-9.jpg"
   },
   {
@@ -4096,6 +4084,12 @@
     "type": "Indian Bangla",
     "url": "https://live.drmlive-02.workers.dev/zee/zeebanglacinema.m3u8",
     "img": "https://i.postimg.cc/DZkPVJfM/Zee-Bangla-Cinema.jpg"
+  },
+  {
+    "name": "STAR JALSHA SD",
+    "type": "Kolkata Bangla",
+    "url": "http://opplex.ch:8080/live/789456123/789456123/245898.ts",
+    "img": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Jalsha.png"
   },
   {
     "name": "SONY MAX HD",
