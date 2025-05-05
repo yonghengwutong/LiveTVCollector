@@ -4188,7 +4188,7 @@ Logo: https://alkhalifitv.github.io/TV/big/mycinemaasia.png
 Source: https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist
 --------------------------------------------------
 Name: My Cinema Europe
-URL: http://op-group1-swiftservehd-1.dens.tv/h/h208/index.m3u8
+URL: http://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8
 Logo: https://alkhalifitv.github.io/TV/big/mycinemaeurope.png
 Source: https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist
 --------------------------------------------------
@@ -6988,6 +6988,11 @@ URL: http://op-group1-swiftservesd-1.dens.tv/s/s11/index.m3u8
 Logo: https://alkhalifitv.github.io/TV/big/tvri.png
 Source: https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist
 --------------------------------------------------
+Name: Jowo Channel
+URL: https://op-group1-swiftservehd-1.dens.tv/h/h208/02.m3u8
+Logo: https://alkhalifitv.github.io/TV/big/jowo.png
+Source: https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist
+--------------------------------------------------
 Name: Da Ai TV
 URL: http://dacastmmd.mmdlive.lldns.net/dacastmmd/683cc426c19442a4ba31c53be5c963bb/index.m3u8
 Logo: https://alkhalifitv.github.io/TV/big/daaitv.png
@@ -9640,14 +9645,14 @@ URL: https://inews-cutv.rctiplus.id/inews-sdi.m3u8
 Logo: https://i.ibb.co.com/WxdZ1KH/inews.png
 Source: https://raw.githubusercontent.com/abidinrj/nontontv/refs/heads/main/playlist
 --------------------------------------------------
-Name: 18.GTV T
-URL: https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e8eda22394/manifest.mpd
-Logo: https://www.gtv.id/assets/esport/logo-gtv.png
+Name: 18.GTV
+URL: https://gtv-cutv.rctiplus.id/gtv-sdi.m3u8
+Logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GTV_logo_%282017%29.png/1200px-GTV_logo_%282017%29.png
 Source: https://raw.githubusercontent.com/abidinrj/nontontv/refs/heads/main/playlist
 --------------------------------------------------
-Name: 15.MNCTV T
-URL: https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6ebd82f2396/manifest.mpd
-Logo: https://bit.ly/IndonesiaEpg
+Name: 15.MNC TV
+URL: https://mnctv-cutv.rctiplus.id/mnctv-sdi.m3u8
+Logo: https://i.ibb.co.com/nbBkVwX/MNC.png
 Source: https://raw.githubusercontent.com/abidinrj/nontontv/refs/heads/main/playlist
 --------------------------------------------------
 Name: 17.SCTV
@@ -9824,14 +9829,24 @@ URL: https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
 Logo: https://i.imgur.com/aKmRvdb.png
 Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL
 --------------------------------------------------
-Name: IDX ᵛ
-URL: https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd|referrer=https://visionplus.id/
+Name: IDX
+URL: https://dsgtq5sngxkde.cloudfront.net/live/eds/IDX/sa_dash/IDX.mpd
 Logo: https://i.imgur.com/1zcrM6F.png
+Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL
+--------------------------------------------------
+Name: iNews
+URL: http://dsgtq5sngxkde.cloudfront.net/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd
+Logo: https://i.imgur.com/cNj0zNL.png
 Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL
 --------------------------------------------------
 Name: Metro TV
 URL: http://op-group1-swiftservehd-1.dens.tv/h/h12/02.m3u8
 Logo: https://i.imgur.com/ynGX4PT.png
+Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL
+--------------------------------------------------
+Name: MNC TV ʳ⁺
+URL: https://mnctv-cutv.rctiplus.id/mnctv-sdi-avc1_800000=7-mp4a_96000=1.m3u8
+Logo: https://i.imgur.com/mR4Ey2E.png
 Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL
 --------------------------------------------------
 Name: SCTV ⁱ
@@ -9852,6 +9867,11 @@ Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/
 Name: TVR Parlemen
 URL: http://103.18.181.69:1935/golive/livestream/playlist.m3u8
 Logo: https://i.imgur.com/JtN4fgn.png
+Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL
+--------------------------------------------------
+Name: VTV
+URL: https://raw.githubusercontent.com/AFDigitalTV/Channel/refs/heads/main/PL/vtv.m3u8
+Logo: https://i.imgur.com/KENRFLZ.png
 Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL
 --------------------------------------------------
 
@@ -18063,6 +18083,11 @@ Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/
 --------------------------------------------------
 
 Group: TransVision
+Name: MNC TV
+URL: https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6ebd82f2396/manifest.mpd
+Logo: https://www.transtv.co.id/livetv/anytv/MNC_TV_live_streaming_tv.jpg
+Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL
+--------------------------------------------------
 Name: INDOSIAR
 URL: https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e773b02392/manifest.mpd
 Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWU_NbuJa40h-W8kJNpTnYjhn0MFJ_Z_xqdFIMOwzOEiLfHn1TM9jwNob0&s=10
@@ -18076,6 +18101,11 @@ Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/
 Name: SCTV
 URL: https://cdnjkt913.transvision.co.id:1000/live/master/2/4028c6856c3db2cc016cd6e647532391/manifest.mpd
 Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ5lk599q2KyBvDElidSDQwkAudqO5tpNVGA&s
+Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL
+--------------------------------------------------
+Name: GTV
+URL: https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e8eda22394/manifest.mpd
+Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSul436uCmHMIpge6PzLn_kyCWYGBs9p2u5CGCrSRBkuPCvIh4QRyxdUECP&s=10
 Source: https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL
 --------------------------------------------------
 Name: ANTV

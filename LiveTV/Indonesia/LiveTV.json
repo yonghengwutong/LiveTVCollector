@@ -1,5 +1,5 @@
 {
-  "date": "2025-05-05 13:48:19",
+  "date": "2025-05-05 21:46:22",
   "channels": {
     "INDONESIA": [
       {
@@ -12918,18 +12918,18 @@
         "url": "https://inews-cutv.rctiplus.id/inews-sdi.m3u8"
       },
       {
-        "name": "18.GTV T",
-        "logo": "https://www.gtv.id/assets/esport/logo-gtv.png",
+        "name": "18.GTV",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GTV_logo_%282017%29.png/1200px-GTV_logo_%282017%29.png",
         "group": "NASIONAL",
         "source": "https://raw.githubusercontent.com/abidinrj/nontontv/refs/heads/main/playlist",
-        "url": "https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e8eda22394/manifest.mpd"
+        "url": "https://gtv-cutv.rctiplus.id/gtv-sdi.m3u8"
       },
       {
-        "name": "15.MNCTV T",
-        "logo": "https://bit.ly/IndonesiaEpg",
+        "name": "15.MNC TV",
+        "logo": "https://i.ibb.co.com/nbBkVwX/MNC.png",
         "group": "NASIONAL",
         "source": "https://raw.githubusercontent.com/abidinrj/nontontv/refs/heads/main/playlist",
-        "url": "https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6ebd82f2396/manifest.mpd"
+        "url": "https://mnctv-cutv.rctiplus.id/mnctv-sdi.m3u8"
       },
       {
         "name": "17.SCTV",
@@ -13406,7 +13406,7 @@
         "logo": "https://alkhalifitv.github.io/TV/big/mycinemaeurope.png",
         "group": "FILM",
         "source": "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
-        "url": "http://op-group1-swiftservehd-1.dens.tv/h/h208/index.m3u8"
+        "url": "http://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8"
       },
       {
         "name": "My Family Channel",
@@ -15597,6 +15597,13 @@
         "group": "LOKAL",
         "source": "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
         "url": "http://op-group1-swiftservesd-1.dens.tv/s/s11/index.m3u8"
+      },
+      {
+        "name": "Jowo Channel",
+        "logo": "https://alkhalifitv.github.io/TV/big/jowo.png",
+        "group": "LOKAL",
+        "source": "https://raw.githubusercontent.com/alkhalifitv/TV/refs/heads/master/playlist",
+        "url": "https://op-group1-swiftservehd-1.dens.tv/h/h208/02.m3u8"
       },
       {
         "name": "Da Ai TV",
@@ -18699,11 +18706,18 @@
         "url": "https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8"
       },
       {
-        "name": "IDX ᵛ",
+        "name": "IDX",
         "logo": "https://i.imgur.com/1zcrM6F.png",
         "group": "Nasional 🇮🇩",
         "source": "https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL",
-        "url": "https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd|referrer=https://visionplus.id/"
+        "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/IDX/sa_dash/IDX.mpd"
+      },
+      {
+        "name": "iNews",
+        "logo": "https://i.imgur.com/cNj0zNL.png",
+        "group": "Nasional 🇮🇩",
+        "source": "https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL",
+        "url": "http://dsgtq5sngxkde.cloudfront.net/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd"
       },
       {
         "name": "Metro TV",
@@ -18711,6 +18725,13 @@
         "group": "Nasional 🇮🇩",
         "source": "https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL",
         "url": "http://op-group1-swiftservehd-1.dens.tv/h/h12/02.m3u8"
+      },
+      {
+        "name": "MNC TV ʳ⁺",
+        "logo": "https://i.imgur.com/mR4Ey2E.png",
+        "group": "Nasional 🇮🇩",
+        "source": "https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL",
+        "url": "https://mnctv-cutv.rctiplus.id/mnctv-sdi-avc1_800000=7-mp4a_96000=1.m3u8"
       },
       {
         "name": "SCTV ⁱ",
@@ -18739,6 +18760,13 @@
         "group": "Nasional 🇮🇩",
         "source": "https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL",
         "url": "http://103.18.181.69:1935/golive/livestream/playlist.m3u8"
+      },
+      {
+        "name": "VTV",
+        "logo": "https://i.imgur.com/KENRFLZ.png",
+        "group": "Nasional 🇮🇩",
+        "source": "https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL",
+        "url": "https://raw.githubusercontent.com/AFDigitalTV/Channel/refs/heads/main/PL/vtv.m3u8"
       }
     ],
     "Daerah": [
@@ -21030,6 +21058,13 @@
     ],
     "TransVision": [
       {
+        "name": "MNC TV",
+        "logo": "https://www.transtv.co.id/livetv/anytv/MNC_TV_live_streaming_tv.jpg",
+        "group": "TransVision",
+        "source": "https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL",
+        "url": "https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6ebd82f2396/manifest.mpd"
+      },
+      {
         "name": "INDOSIAR",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWU_NbuJa40h-W8kJNpTnYjhn0MFJ_Z_xqdFIMOwzOEiLfHn1TM9jwNob0&s=10",
         "group": "TransVision",
@@ -21049,6 +21084,13 @@
         "group": "TransVision",
         "source": "https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL",
         "url": "https://cdnjkt913.transvision.co.id:1000/live/master/2/4028c6856c3db2cc016cd6e647532391/manifest.mpd"
+      },
+      {
+        "name": "GTV",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSul436uCmHMIpge6PzLn_kyCWYGBs9p2u5CGCrSRBkuPCvIh4QRyxdUECP&s=10",
+        "group": "TransVision",
+        "source": "https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL",
+        "url": "https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e8eda22394/manifest.mpd"
       },
       {
         "name": "ANTV",

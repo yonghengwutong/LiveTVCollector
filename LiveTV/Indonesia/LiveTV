@@ -11022,16 +11022,16 @@
     "img": "https://i.ibb.co.com/WxdZ1KH/inews.png"
   },
   {
-    "name": "18.GTV T",
+    "name": "18.GTV",
     "type": "NASIONAL",
-    "url": "https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e8eda22394/manifest.mpd",
-    "img": "https://www.gtv.id/assets/esport/logo-gtv.png"
+    "url": "https://gtv-cutv.rctiplus.id/gtv-sdi.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GTV_logo_%282017%29.png/1200px-GTV_logo_%282017%29.png"
   },
   {
-    "name": "15.MNCTV T",
+    "name": "15.MNC TV",
     "type": "NASIONAL",
-    "url": "https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6ebd82f2396/manifest.mpd",
-    "img": "https://bit.ly/IndonesiaEpg"
+    "url": "https://mnctv-cutv.rctiplus.id/mnctv-sdi.m3u8",
+    "img": "https://i.ibb.co.com/nbBkVwX/MNC.png"
   },
   {
     "name": "17.SCTV",
@@ -11432,7 +11432,7 @@
   {
     "name": "My Cinema Europe",
     "type": "FILM",
-    "url": "http://op-group1-swiftservehd-1.dens.tv/h/h208/index.m3u8",
+    "url": "http://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8",
     "img": "https://alkhalifitv.github.io/TV/big/mycinemaeurope.png"
   },
   {
@@ -13270,6 +13270,12 @@
     "type": "LOKAL",
     "url": "http://op-group1-swiftservesd-1.dens.tv/s/s11/index.m3u8",
     "img": "https://alkhalifitv.github.io/TV/big/tvri.png"
+  },
+  {
+    "name": "Jowo Channel",
+    "type": "LOKAL",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h208/02.m3u8",
+    "img": "https://alkhalifitv.github.io/TV/big/jowo.png"
   },
   {
     "name": "Da Ai TV",
@@ -15912,16 +15918,28 @@
     "img": "https://i.imgur.com/aKmRvdb.png"
   },
   {
-    "name": "IDX ᵛ",
+    "name": "IDX",
     "type": "Nasional 🇮🇩",
-    "url": "https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd|referrer=https://visionplus.id/",
+    "url": "https://dsgtq5sngxkde.cloudfront.net/live/eds/IDX/sa_dash/IDX.mpd",
     "img": "https://i.imgur.com/1zcrM6F.png"
+  },
+  {
+    "name": "iNews",
+    "type": "Nasional 🇮🇩",
+    "url": "http://dsgtq5sngxkde.cloudfront.net/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd",
+    "img": "https://i.imgur.com/cNj0zNL.png"
   },
   {
     "name": "Metro TV",
     "type": "Nasional 🇮🇩",
     "url": "http://op-group1-swiftservehd-1.dens.tv/h/h12/02.m3u8",
     "img": "https://i.imgur.com/ynGX4PT.png"
+  },
+  {
+    "name": "MNC TV ʳ⁺",
+    "type": "Nasional 🇮🇩",
+    "url": "https://mnctv-cutv.rctiplus.id/mnctv-sdi-avc1_800000=7-mp4a_96000=1.m3u8",
+    "img": "https://i.imgur.com/mR4Ey2E.png"
   },
   {
     "name": "SCTV ⁱ",
@@ -15946,6 +15964,12 @@
     "type": "Nasional 🇮🇩",
     "url": "http://103.18.181.69:1935/golive/livestream/playlist.m3u8",
     "img": "https://i.imgur.com/JtN4fgn.png"
+  },
+  {
+    "name": "VTV",
+    "type": "Nasional 🇮🇩",
+    "url": "https://raw.githubusercontent.com/AFDigitalTV/Channel/refs/heads/main/PL/vtv.m3u8",
+    "img": "https://i.imgur.com/KENRFLZ.png"
   },
   {
     "name": "Riau TV",
@@ -17898,6 +17922,12 @@
     "img": "https://static.mytuner.mobi/media/radios-150px/6AA32NhxbU.png"
   },
   {
+    "name": "MNC TV",
+    "type": "TransVision",
+    "url": "https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6ebd82f2396/manifest.mpd",
+    "img": "https://www.transtv.co.id/livetv/anytv/MNC_TV_live_streaming_tv.jpg"
+  },
+  {
     "name": "INDOSIAR",
     "type": "TransVision",
     "url": "https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e773b02392/manifest.mpd",
@@ -17914,6 +17944,12 @@
     "type": "TransVision",
     "url": "https://cdnjkt913.transvision.co.id:1000/live/master/2/4028c6856c3db2cc016cd6e647532391/manifest.mpd",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ5lk599q2KyBvDElidSDQwkAudqO5tpNVGA&s"
+  },
+  {
+    "name": "GTV",
+    "type": "TransVision",
+    "url": "https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e8eda22394/manifest.mpd",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSul436uCmHMIpge6PzLn_kyCWYGBs9p2u5CGCrSRBkuPCvIh4QRyxdUECP&s=10"
   },
   {
     "name": "ANTV",
