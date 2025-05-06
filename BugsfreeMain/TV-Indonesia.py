@@ -266,6 +266,7 @@ def main():
         "https://raw.githubusercontent.com/abidinrj/nontontv/refs/heads/main/playlist",
         "https://raw.githubusercontent.com/KiTVNoSignaL/PlayList/refs/heads/main/NoSignaL",
         "https://raw.githubusercontent.com/emonnaja/Indonesian-IPTV/refs/heads/main/index.m3u",
+        "https://raw.githubusercontent.com/ojiwzrd10/iptv/refs/heads/main/id.json",
         "https://iptv-org.github.io/iptv/countries/id.m3u",
     ]
 
