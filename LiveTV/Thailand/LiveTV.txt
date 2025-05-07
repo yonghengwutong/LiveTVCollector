@@ -539,7 +539,7 @@ Logo: https://i.imgur.com/OuogLHx.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
 Name: CNA
-URL: https://live.fptplay53.net/fnxhd2/newsasia_hls.smil/chunklist_b2500000.m3u8
+URL: https://live.fptplay53.net/fnxhd2/newsasia_hls.smil/chunklist.m3u8
 Logo: https://i.imgur.com/awIDugE.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
@@ -549,12 +549,12 @@ Logo: https://i.imgur.com/05S3yYZ.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
 Name: CNBC
-URL: https://live.fptplay53.net/fnxsd1/cnbc_hls.smil/chunklist_b2500000.m3u8
+URL: https://live.fptplay53.net/fnxsd1/cnbc_hls.smil/chunklist.m3u8
 Logo: https://i.ibb.co/h7xsfby/cnbc.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
 Name: Deutsche Welle English
-URL: http://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
+URL: https://live.fptplay53.net/fnxhd2/dwenglish_hls.smil/chunklist.m3u8
 Logo: https://i.imgur.com/A1xzjOI.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
@@ -579,7 +579,7 @@ Logo: https://i.imgur.com/jP0rB8j.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
 Name: TV5Monde ASIE
-URL: https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
+URL: https://live.fptplay53.net/fnxhd2/tv5_hls.smil/chunklist.m3u8
 Logo: https://i.imgur.com/FRsRXRR.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
@@ -589,12 +589,12 @@ Logo: https://i.imgur.com/Et3vExm.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
 Name: Arirang
-URL: https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8
+URL: https://live.fptplay53.net/fnxhd2/arirang_hls.smil/chunklist.m3u8
 Logo: https://i.ibb.co/nbzwz4w/arirang.jpg
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
 Name: KBS World
-URL: https://xem.TruyenHinh.Click/CoBan/kbsworld/TuyetDoiKhongKinhDoanh.m3u8
+URL: https://live.fptplay53.net/epzhd2/kbs_hls.smil/chunklist.m3u8
 Logo: https://i.imgur.com/vylHBC8.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
@@ -792,6 +792,11 @@ URL: https://lb1-live-mv.v2h-cdn.com/hls/fffb/5hd/5hd.m3u8
 Logo: https://i.imgur.com/x1FTvdC.png
 Source: https://iptv-org.github.io/iptv/countries/th.m3u
 --------------------------------------------------
+Name: TV5 Monde Asia (Asie) (1080p) [Geo-blocked]
+URL: https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
+Logo: https://i.imgur.com/FRsRXRR.png
+Source: https://iptv-org.github.io/iptv/countries/th.m3u
+--------------------------------------------------
 Name: TV5Monde Pacifique (1080p) [Geo-blocked]
 URL: https://ott.tv5monde.com/Content/HLS/Live/channel(pacifique)/variant.m3u8
 Logo: https://i.imgur.com/mfZOYZI.png
@@ -891,6 +896,11 @@ URL: https://xem.TruyenHinh.Click/CoBan/vtvcab2hd/TuyetDoiKhongKinhDoanh.m3u8
 Logo: https://i.imgur.com/MPNlpzb.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
+Name: ON Sports
+URL: https://xem.TruyenHinh.Click/BoSung/vtvcab3hd/TruyenHinh.Click
+Logo: https://img.lichphatsong.xyz/logo/on-sports.jpg
+Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
+--------------------------------------------------
 Name: ON Movies
 URL: https://xem.TruyenHinh.Click/CoBan/vtvcab4hd/TuyetDoiKhongKinhDoanh.m3u8
 Logo: https://i.imgur.com/765Y3jw.png
@@ -899,6 +909,11 @@ Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 Name: ON E Channel
 URL: https://xem.TruyenHinh.Click/CoBan/vtvcab5hd/TuyetDoiKhongKinhDoanh.m3u8
 Logo: https://i.imgur.com/87JEXEQ.png
+Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
+--------------------------------------------------
+Name: ON Sports+
+URL: https://xem.TruyenHinh.Click/BoSung/vtvcab6hd/TruyenHinh.Click
+Logo: https://img.lichphatsong.xyz/logo/on-sportsplus.jpg
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
 Name: ON O2TV
@@ -931,9 +946,19 @@ URL: https://xem.TruyenHinh.Click/CoBan/vtvcab15hd/TuyetDoiKhongKinhDoanh.m3u8
 Logo: https://i.imgur.com/45BXPY3.png
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
+Name: ON Football
+URL: https://xem.TruyenHinh.Click/BoSung/vtvcab16hd/TruyenHinh.Click
+Logo: https://img.lichphatsong.xyz/logo/on-football.jpg
+Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
+--------------------------------------------------
 Name: ON Trending TV
 URL: https://xem.TruyenHinh.Click/CoBan/vtvcab17hd/TuyetDoiKhongKinhDoanh.m3u8
 Logo: https://i.imgur.com/hHYzxmS.png
+Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
+--------------------------------------------------
+Name: ON Sports News
+URL: https://xem.TruyenHinh.Click/BoSung/vtvcab18hd/TruyenHinh.Click
+Logo: https://img.lichphatsong.xyz/logo/on-sportsnews.jpg
 Source: https://raw.githubusercontent.com/kupjta/iptv/refs/heads/main/kupjtv.m3u
 --------------------------------------------------
 Name: ON Vie DRAMAS
