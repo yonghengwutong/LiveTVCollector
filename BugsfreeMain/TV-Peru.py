@@ -258,7 +258,8 @@ def main():
     # Specific M3U sources (12 sources)
     source_urls = [        
         "https://iptv-org.github.io/iptv/countries/pe.m3u",
-        "https://raw.githubusercontent.com/antholyber1a/lista-iptv-peru/refs/heads/main/iptvperu.m3u",        
+        "https://raw.githubusercontent.com/antholyber1a/lista-iptv-peru/refs/heads/main/iptvperu.m3u",
+        "https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u",
     ]
 
     # Set check_links=False for super speed, True for accuracy
