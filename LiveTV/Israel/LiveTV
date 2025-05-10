@@ -3236,19 +3236,19 @@
   {
     "name": "VOV1",
     "type": "VIỆT NAM",
-    "url": "https://str.vov.gov.vn/vovlive/vov1vov5Vietnamese.sdp_aac/playlist.m3u8",
+    "url": "http://113.164.229.226:7001/stream",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQTZ7dJbMy7bUpaKXlaY4CvUoxz7IzQasYg&s"
   },
   {
     "name": "VOV2",
     "type": "VIỆT NAM",
-    "url": "https://str.vov.gov.vn/vovlive/vov2.sdp_aac/chunklist_w1431660907.m3u8",
+    "url": "http://113.164.229.226:7003/stream",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRy8DNT2EyV0vPm1oye3N2o43VUthJ0_IdA&s"
   },
   {
     "name": "VOV3",
     "type": "VIỆT NAM",
-    "url": "https://str.vov.gov.vn/vovlive/vov3.sdp_aac/chunklist_w300591965.m3u8",
+    "url": "http://113.164.229.226:7005/stream",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQx1QbZewLeQWABiffxfgjp17UIRByi-lvag&s"
   },
   {
@@ -3578,7 +3578,7 @@
   {
     "name": "BTV-FM BINH DUONG (FM92.5MHz)",
     "type": "VIỆT NAM",
-    "url": "http://sohoa.truyenthanhthongminh.vn/sohoabinhduong",
+    "url": "https://btvfm011220.cdn.vnns.io/0de12fc91cfbb45a00d30f2f4bf18d561746851096/btv-fm.tms/playlist.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -3642,70 +3642,184 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
+    "name": "ZingRadio 1 - Vpop",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/odi6UBatld4/zhls/playback-realtime/6ddadf76e3330a6d5322/index.m3u8",
+    "img": "https://photo-zmp3.zmdcdn.me/cover_rect/5/0/8/f/508fb88137284723e67c83b9c9fede28.jpg"
+  },
+  {
+    "name": "ZingRadio 2 - Chạm FM",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/eHjZAdAk-sk/zhls/playback-realtime/59a2ee0ed24b3b15625a/index.m3u8",
+    "img": "https://photo-zmp3.zmdcdn.me/avatars/7/7/8/d/778d152062edfbe0e4c4abf151858bf0.jpg"
+  },
+  {
+    "name": "ZingRadio 3 - Kpop",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/rTbzjcKEO1A/zhls/playback-realtime/6600baac86e96fb736f8/index.m3u8",
+    "img": "https://photo-zmp3.zmdcdn.me/cover_rect/e/1/8/8/e1887a2c79f9d3d04984905cbf443a29.jpg"
+  },
+  {
+    "name": "ZingRadio 4 - USUK",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/-XosZVJX9XA/zhls/playback-realtime/f49e38320477ed29b466/index.m3u8",
+    "img": "https://photo-zmp3.zmdcdn.me/cover_rect/3/1/0/d/310df4f53c1026d4cb2844dc96cc01d3.jpg"
+  },
+  {
+    "name": "ZingRadio 5 - CPop",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/_TAVBRh_ce4/zhls/playback-realtime/97b35e1f625a8b04d24b/index.m3u8",
+    "img": "https://photo-zmp3.zmdcdn.me/cover_rect/1/5/c/2/15c2abf5f4554b416384d4f675b2151e.jpg"
+  },
+  {
+    "name": "ZingRadio 6 - EDM",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/lupi_x8-Su4/zhls/playback-realtime/7386bb2a876f6e31377e/index.m3u8",
+    "img": "https://photo-zmp3.zmdcdn.me/cover_rect/a/6/f/4/a6f4712ca91e9cc15530960ab44611da.jpg"
+  },
+  {
+    "name": "ZingRadio 7 - Acoustic",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/AiekixzmitQ/zhls/playback-realtime/9b7b55d7699280ccd983/index.m3u8",
+    "img": "https://photo-zmp3.zmdcdn.me/cover_rect/8/1/d/6/81d6bc7e9ced5d11d01f6da4b440f146.jpg"
+  },
+  {
+    "name": "ZingRadio 8 - Bolero",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/ioZs7yhxUxk/zhls/playback-realtime/5bace800d4453d1b6454/index.m3u8",
+    "img": "https://photo-zmp3.zmdcdn.me/cover_rect/d/6/7/4/d6746d1bbff609111133449abb9e622b.jpg"
+  },
+  {
+    "name": "ZingRadio 9 - Rap Việt",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/XHOosOJ-f8g/zhls/playback-realtime/cef1015d3d18d4468d09/index.m3u8",
+    "img": "https://photo-zmp3.zmdcdn.me/cover_rect/0/c/2/e/0c2ee7cb5ef72b5db673341864312a2a.jpg"
+  },
+  {
+    "name": "ZingRadio 10 - Indie",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/VV55kkJD6Qo/zhls/playback-realtime/eeff2a531616ff48a607/index.m3u8",
+    "img": "https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_jpeg/cover/9/5/5/b/955b98868b8b29e1e782fc0913d857d2.jpg"
+  },
+  {
+    "name": "ZingRadio 11 - Thiếu Nhi",
+    "type": "VIỆT NAM",
+    "url": "https://multi-playlist-zmp3.zmdcdn.me/UKk_cQEl314/zhls/playback-realtime/ef512afd16b8ffe6a6a9/index.m3u8",
+    "img": "https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_jpeg/cover/e/d/d/6/edd6b56e8f79898dd98acfcf55c5564a.jpg"
+  },
+  {
+    "name": "Scientific Sounds Asia",
+    "type": "VIỆT NAM",
+    "url": "http://carol.epichosts.co.uk:8270/live.mp3",
+    "img": "https://static2.mytuner.mobi/media/tvos_radios/svztgcvwrjew.png"
+  },
+  {
     "name": "BBC World Service Asia",
     "type": "QUỐC TẾ",
-    "url": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service_east_asia",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_31623735/live/ww/bbc_world_service_east_asia/bbc_world_service_east_asia.isml/bbc_world_service_east_asia-audio%3d320000.norewind.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BBC_World_Service_2022_%28Boxed%29.svg/1920px-BBC_World_Service_2022_%28Boxed%29.svg.png"
   },
   {
     "name": "BBC Radio 1",
     "type": "QUỐC TẾ",
-    "url": "http://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8",
-    "img": "https://wisebuddahjingles.com/media/8551/original"
+    "url": "http://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d320000.norewind.m3u8",
+    "img": "https://cdn-profiles.tunein.com/s24939/images/logog.png?t=2409"
   },
   {
     "name": "BBC Radio 1Xtra",
     "type": "QUỐC TẾ",
     "url": "http://as-hls-ww-live.akamaized.net/pool_92079267/live/ww/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio%3d96000.norewind.m3u8",
-    "img": "https://pbs.twimg.com/profile_images/1615333100497551361/JUU6kRz9_400x400.jpg"
+    "img": "https://cdn-profiles.tunein.com/s20277/images/logog.png?t=2408"
   },
   {
     "name": "BBC Radio 1 Dance",
     "type": "QUỐC TẾ",
-    "url": "http://as-hls-ww-live.akamaized.net/pool_62063831/live/ww/bbc_radio_one_dance/bbc_radio_one_dance.isml/bbc_radio_one_dance-audio%3d96000.norewind.m3u8",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_62063831/live/ww/bbc_radio_one_dance/bbc_radio_one_dance.isml/bbc_radio_one_dance-audio%3d320000.norewind.m3u8",
     "img": "https://ukradiolive.com/public/uploads/radio_img/bbc-radio-1-dance/play_250_250.webp"
   },
   {
     "name": "BBC Radio 2",
     "type": "QUỐC TẾ",
-    "url": "http://as-hls-ww-live.akamaized.net/pool_74208725/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d96000.norewind.m3u8",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_74208725/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d320000.norewind.m3u8",
     "img": "https://uk.radio.net/images/broadcasts/88/e1/3244/1/c300.png"
   },
   {
     "name": "BBC Radio 3",
     "type": "QUỐC TẾ",
-    "url": "http://as-hls-ww-live.akamaized.net/pool_23461179/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d96000.norewind.m3u8",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_23461179/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d320000.norewind.m3u8",
     "img": "https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_radio_three/blocks-colour_600x600.png"
   },
   {
     "name": "BBC Radio 4",
     "type": "QUỐC TẾ",
-    "url": "http://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d96000.norewind.m3u8",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d320000.norewind.m3u8",
     "img": "https://ie.radio.net/images/broadcasts/d3/09/3246/1/c300.png"
   },
   {
     "name": "BBC Radio 4 Extra",
     "type": "QUỐC TẾ",
-    "url": "http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio%3d96000.norewind.m3u8",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_26173715/live/ww/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio%3d320000.norewind.m3u8",
     "img": "https://uk.radio.net/images/broadcasts/f6/75/12534/1/c300.png"
   },
   {
     "name": "BBC Radio 5 Live",
     "type": "QUỐC TẾ",
-    "url": "http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d96000.norewind.m3u8",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d320000.norewind.m3u8",
     "img": "https://static.mytuner.mobi/media/tvos_radios/EgCmT9UNSr.png"
   },
   {
     "name": "BBC Radio 6",
     "type": "QUỐC TẾ",
-    "url": "http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d96000.norewind.m3u8",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d320000.norewind.m3u8",
     "img": "https://ygo-assets-entities-emea.yougov.net/762d8e8a-ce07-11e8-a722-affcf7e3f830.jpg"
   },
   {
-    "name": "BBC Newsradio",
+    "name": "BBC Asian Network",
+    "type": "QUỐC TẾ",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_22108647/live/ww/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d320000.norewind.m3u8",
+    "img": "https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_asian_network/blocks-colour_600x600.png"
+  },
+  {
+    "name": "BBC Sounds News",
     "type": "QUỐC TẾ",
     "url": "https://as-hls-ww-live.akamaized.net/pool_53367543/live/ww/bbc_sounds_news/bbc_sounds_news.isml/bbc_sounds_news-audio=96000.norewind.m3u8",
     "img": "https://ichef.bbci.co.uk/images/ic/320x320/p0l0jrdh.jpg.webp"
+  },
+  {
+    "name": "BBC Radio Wales FM",
+    "type": "QUỐC TẾ",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_97517794/live/ww/bbc_radio_wales_fm/bbc_radio_wales_fm.isml/bbc_radio_wales_fm-audio%3d320000.norewind.m3u8",
+    "img": "https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_wales/blocks-colour_600x600.png"
+  },
+  {
+    "name": "BBC Radio Cymru",
+    "type": "QUỐC TẾ",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_24792333/live/ww/bbc_radio_cymru/bbc_radio_cymru.isml/bbc_radio_cymru-audio%3d320000.norewind.m3u8",
+    "img": "https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_cymru/blocks-colour_600x600.png"
+  },
+  {
+    "name": "BBC Radio Cymru 2",
+    "type": "QUỐC TẾ",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_98610936/live/ww/bbc_radio_cymru_2/bbc_radio_cymru_2.isml/bbc_radio_cymru_2-audio%3d320000.norewind.m3u8",
+    "img": "https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_cymru_2/blocks-colour_600x600.png"
+  },
+  {
+    "name": "BBC Radio Scotland",
+    "type": "QUỐC TẾ",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_43322914/live/ww/bbc_radio_scotland_fm/bbc_radio_scotland_fm.isml/bbc_radio_scotland_fm-audio%3d320000.norewind.m3u8",
+    "img": "https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_scotland/blocks-colour_600x600.png"
+  },
+  {
+    "name": "BBC Radio nan Gaidheal",
+    "type": "QUỐC TẾ",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_01935182/live/ww/bbc_radio_nan_gaidheal/bbc_radio_nan_gaidheal.isml/bbc_radio_nan_gaidheal-audio%3d320000.norewind.m3u8",
+    "img": "https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_nan_gaidheal/blocks-colour_600x600.png"
+  },
+  {
+    "name": "BBC Radio Ulster",
+    "type": "QUỐC TẾ",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_31244774/live/ww/bbc_radio_ulster/bbc_radio_ulster.isml/bbc_radio_ulster-audio%3d320000.norewind.m3u8",
+    "img": "hhttps://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_ulster/blocks-colour_600x600.png"
   },
   {
     "name": "BFBS Radio UK",
@@ -3796,6 +3910,90 @@
     "type": "QUỐC TẾ",
     "url": "http://radio.talksport.com/stream?aisGetOriginalStream=true",
     "img": "https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png"
+  },
+  {
+    "name": "RTE Radio 1",
+    "type": "QUỐC TẾ",
+    "url": "https://icecast.rte.ie/radio1",
+    "img": "https://i1.sndcdn.com/avatars-000150249392-s07rb1-t1080x1080.jpg"
+  },
+  {
+    "name": "RTE Radio 1 Extra",
+    "type": "QUỐC TẾ",
+    "url": "https://icecast1.rte.ie/radio1extra",
+    "img": "https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png"
+  },
+  {
+    "name": "RTE 2FM",
+    "type": "QUỐC TẾ",
+    "url": "https://icecast.rte.ie/2fm",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJH5d0W6A2MNLhVnQmp-3PUOKqoR_LCWcyLQ&s"
+  },
+  {
+    "name": "RTE Raidió na Gaeltachta",
+    "type": "QUỐC TẾ",
+    "url": "https://icecast2.rte.ie/rnag",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqUFBX1h92nkOPBXfxymO7cBNc9WO8W6c99WIC0-fGCCgKPMUsi2yyOrFqvP26whASoiI&usqp=CAU"
+  },
+  {
+    "name": "RTE Lyric FM",
+    "type": "QUỐC TẾ",
+    "url": "https://icecast.rte.ie/lyric",
+    "img": "https://yt3.googleusercontent.com/ytc/AIdro_mNaB0zybpJWqE4b8EOJe_0Vbh_H1Tdur_AZdyR3GLwN9Q=s900-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "name": "RTE 2XM",
+    "type": "QUỐC TẾ",
+    "url": "https://icecast2.rte.ie/2xm",
+    "img": "https://mytunein.com/images/logos/rte2xm.jpg"
+  },
+  {
+    "name": "RTE Junior/RTE Chill",
+    "type": "QUỐC TẾ",
+    "url": "https://icecast2.rte.ie/junior",
+    "img": "https://i.ibb.co/TBQgNYX5/Untitled-design.png"
+  },
+  {
+    "name": "RTE Pulse",
+    "type": "QUỐC TẾ",
+    "url": "https://icecast1.rte.ie/pulse",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnA4HJAzHYUogGHXafC3UWJ5qBiUGM8cJMxIEYuaA1e8ZwSgcZCOB1cGIaMeGNRRgcF_M&usqp=CAU"
+  },
+  {
+    "name": "Today FM",
+    "type": "QUỐC TẾ",
+    "url": "https://ingest1.gocaster.net/td",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Today_FM_Logo_2017.jpg"
+  },
+  {
+    "name": "Classic Hits FM",
+    "type": "QUỐC TẾ",
+    "url": "https://edge2.audioxi.com/CLASSIC",
+    "img": "https://play-lh.googleusercontent.com/Eqs-Yo4wwnN8397XoCpSWfg0-yD5VkR6S2sEBH_P1dgIlSmZFrHB2lw4-EqHPM0-29SY"
+  },
+  {
+    "name": "Beat 102-103",
+    "type": "QUỐC TẾ",
+    "url": "https://stream.audioxi.com/BEAT",
+    "img": "https://i1.sndcdn.com/artworks-000043593664-xv45kh-t500x500.jpg"
+  },
+  {
+    "name": "Spin Southwest",
+    "type": "QUỐC TẾ",
+    "url": "https://stream.audioxi.com/SW",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmht33AY7HESlV5IR8b3stnqHtwwwYkY5yEA&s"
+  },
+  {
+    "name": "NewsTalk",
+    "type": "QUỐC TẾ",
+    "url": "https://edge2.audioxi.com/NT",
+    "img": "https://cdn-radiotime-logos.tunein.com/s15123g.png"
+  },
+  {
+    "name": "98FM",
+    "type": "QUỐC TẾ",
+    "url": "https://stream.audioxi.com/98",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoq__Ch6oJyLqwYeiPZlRCjoVXhyIfqbiptw&s"
   },
   {
     "name": "RFI Monde",
@@ -3934,6 +4132,12 @@
     "type": "QUỐC TẾ",
     "url": "http://icestreaming.rai.it/5.mp3",
     "img": "https://au.radio.net/300/raiclassica.png?version=6a49c116445a7df8c72eec47733dc310"
+  },
+  {
+    "name": "Rai No Name Radio",
+    "type": "QUỐC TẾ",
+    "url": "https://radiodueindie-live.akamaized.net/hls/live/2032593/radiodueindie/radiodueindie/playlist.m3u8",
+    "img": "https://www.fm-world.it/wp-content/uploads/2022/12/noname-300x300.jpg"
   },
   {
     "name": "RNE Radio Nacional",
@@ -4218,7 +4422,7 @@
     "img": "https://uk.radio.net/images/broadcasts/47/68/17023/c300.png"
   },
   {
-    "name": "RADIO ROMÂNIA CULTURAL",
+    "name": "RADIO ROMANIA CULTURAL",
     "type": "QUỐC TẾ",
     "url": "http://stream2.srr.ro:8016/;",
     "img": "https://yt3.googleusercontent.com/AWJivQTQDWIelrr1fjiOAOl704W2m9QqAEhRnbZr6ZIqmBP0TkcoJFUyYBXg4eRluGjYhr2yhMU=s900-c-k-c0x00ffffff-no-rj"
@@ -4278,22 +4482,22 @@
     "img": "https://upload.wikimedia.org/wikipedia/en/8/86/Logo_Kiss_FM.png"
   },
   {
+    "name": "RADIO ROSSII",
+    "type": "QUỐC TẾ",
+    "url": "http://icecast.vgtrk.cdnvideo.ru/rrzonam",
+    "img": "https://i.imgur.com/P0In2kv.png"
+  },
+  {
     "name": "RADIO VESTI",
     "type": "QUỐC TẾ",
-    "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps",
+    "url": "https://icecast-vgtrk.cdnvideo.ru/vestifm",
     "img": "https://i.imgur.com/iFbX0ZH.png"
   },
   {
     "name": "RADIO MAYAK",
     "type": "QUỐC TẾ",
-    "url": "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps",
+    "url": "https://icecast-vgtrk.cdnvideo.ru/mayakfm",
     "img": "https://i.imgur.com/Wr2gxLl.png"
-  },
-  {
-    "name": "RADIO ROSSII",
-    "type": "QUỐC TẾ",
-    "url": "http://icecast.vgtrk.cdnvideo.ru/rrzonam_mp3_128kbps",
-    "img": "https://i.imgur.com/P0In2kv.png"
   },
   {
     "name": "RADIO ZVEZDA",
@@ -4352,13 +4556,13 @@
   {
     "name": "Radio Evropa Plus",
     "type": "QUỐC TẾ",
-    "url": "https://ep128.hostingradio.ru:8030/ep128",
+    "url": "https://cast.fmprod.ru/europa_bsk",
     "img": "https://i.imgur.com/PlAiIoT.png"
   },
   {
     "name": "Avtoradio",
     "type": "QUỐC TẾ",
-    "url": "http://ic7.101.ru:8000/v3_1",
+    "url": "https://pub0201.101.ru:8000/stream/reg/mp3/128/region_avto_86",
     "img": "https://i.imgur.com/SPaSFKm.png"
   },
   {
@@ -4368,10 +4572,10 @@
     "img": "https://i.imgur.com/ViOHdFW.png"
   },
   {
-    "name": "RFE/RL Radio Svoboda Rossiya",
+    "name": "Russkoe Radio",
     "type": "QUỐC TẾ",
-    "url": "https://rfe04.akacast.akamaistream.net/7/509/437762/v1/ibb.akacast.akamaistream.net/rfe04",
-    "img": "https://www.usagm.gov/wp-content/uploads/2022/01/Avatar_RGB_primary-brandmark.png"
+    "url": "https://rusradio.hostingradio.ru/rusradio128.mp",
+    "img": "https://www.radio.net/300/russkoe.png?version=ea90bb2478e4c6ce273e29cac1c5245c"
   },
   {
     "name": "BR Pershy Kanal",
@@ -4482,6 +4686,12 @@
     "img": "https://static2.mytuner.mobi/media/tvos_radios/B7dTgwMGWB.png"
   },
   {
+    "name": "CMBF Radio Musical Nacional",
+    "type": "QUỐC TẾ",
+    "url": "https://icecast.teveo.cu/Nbtz7HT3",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgGTM4xaW5frQmhEC_q_zbAN11RLCIwCtfCQ&s"
+  },
+  {
     "name": "Radio Enciclopedia",
     "type": "QUỐC TẾ",
     "url": "https://icecast.teveo.cu/9Rnrbjzq",
@@ -4496,7 +4706,7 @@
   {
     "name": "Radio Metropolitana",
     "type": "QUỐC TẾ",
-    "url": "https://icecast.teveo.cu/ktW3mW74ư",
+    "url": "https://icecast.teveo.cu/ktW3mW74",
     "img": "https://static2.mytuner.mobi/media/tvos_radios/baydw5wnqmru.png"
   },
   {
@@ -5628,6 +5838,12 @@
     "img": "https://i.iheart.com/v3/re/assets.streams/67511bf6e4ad771fa5251851"
   },
   {
+    "name": "RNZ National",
+    "type": "QUỐC TẾ",
+    "url": "https://i.mjh.nz/.r/radio-rv-rnznational247-eec039.m3u8",
+    "img": "https://images.mediaworks.nz/rova/Content/apps/images/RNZ_National_Generic_600x600_Sq.png"
+  },
+  {
     "name": "RNZ Concert",
     "type": "QUỐC TẾ",
     "url": "https://i.mjh.nz/.r/radio-rv-rnzconcert-98091b.m3u8",
@@ -6024,6 +6240,72 @@
     "img": "https://i.mjh.nz/.images/radio-plains-fm.png"
   },
   {
+    "name": "CBC Radio 1 Atlantic",
+    "type": "QUỐC TẾ",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBQTFM_CBC.mp3",
+    "img": "https://cdn-profiles.tunein.com/s25276/images/logog.png?t=1"
+  },
+  {
+    "name": "CBC Radio 1 Pacific",
+    "type": "QUỐC TẾ",
+    "url": "https://cbcradiolive.akamaized.net/hls/live/2041050/ES_R1PVC/master.m3u8",
+    "img": "https://cdn-profiles.tunein.com/s25276/images/logog.png?t=1"
+  },
+  {
+    "name": "CBC Music Atlantic",
+    "type": "QUỐC TẾ",
+    "url": "https://cbcradiolive.akamaized.net/hls/live/2041057/ES_R2ETR/master.m3u8",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSem467MjooDcq4KHIV25xHTiqhyvATtxTpvw&s"
+  },
+  {
+    "name": "CBC Music Pacific",
+    "type": "QUỐC TẾ",
+    "url": "https://cbcradiolive.akamaized.net/hls/live/2041059/ES_R2PVC/master.m3u8",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSem467MjooDcq4KHIV25xHTiqhyvATtxTpvw&s"
+  },
+  {
+    "name": "ICI Radio-Canada Première Atlantique",
+    "type": "QUỐC TẾ",
+    "url": "https://rcavliveaudio.akamaized.net/hls/live/2006635/P-2QMTL0_MTL/master.m3u8",
+    "img": "https://images.radiovolna.net/_files/images/stations/422593/362659433be651ef4353f137f601f207.png"
+  },
+  {
+    "name": "ICI Radio-Canada Première Pacifique",
+    "type": "QUỐC TẾ",
+    "url": "https://rcavliveaudio.akamaized.net/hls/live/2006975/P-2BVAN0_VAN/master.m3u8",
+    "img": "https://images.radiovolna.net/_files/images/stations/422593/362659433be651ef4353f137f601f207.png"
+  },
+  {
+    "name": "ICI Musique Atlantique",
+    "type": "QUỐC TẾ",
+    "url": "https://rcavliveaudio.akamaized.net/hls/live/2006979/M-7QMTL0_MTL/master.m3u8",
+    "img": "https://i.mjh.nz/.images/radio-plains-fm.png"
+  },
+  {
+    "name": "ICI Musique Pacifique",
+    "type": "QUỐC TẾ",
+    "url": "https://rcavliveaudio.akamaized.net/hls/live/2006996/M-7BVAN0_VAN/master.m3u8",
+    "img": "https://yt3.googleusercontent.com/ytc/AIdro_kHwHZ6Qupe73xqPLrhbDiI3dO8gh-q9Yqt5PBBKGbGCGo=s900-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "name": "Energy 98.5",
+    "type": "QUỐC TẾ",
+    "url": "https://entry-amms-1.leanstream-hd.com:2112/CINGFM-MP3-2",
+    "img": "https://globalnews.ca/wp-content/uploads/2019/03/untitled-1-1.jpg?quality=85&strip=all"
+  },
+  {
+    "name": "Capitale Rock",
+    "type": "QUỐC TẾ",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CHGO_FM",
+    "img": "https://upload.wikimedia.org/wikipedia/fr/2/2e/CapitaleRock.png"
+  },
+  {
+    "name": "Q 98",
+    "type": "QUỐC TẾ",
+    "url": "https://stream.jpbgdigital.com/CJCQ.m3u8",
+    "img": "https://www.radio.net/300/cjcq.png?version=6a2adf4b5bb9a580f98e7984c0d1a0bf"
+  },
+  {
     "name": "AIR Vividh Bharati",
     "type": "QUỐC TẾ",
     "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8",
@@ -6192,28 +6474,28 @@
     "img": "https://img.imbc.com/broad/radio/s9_2015_main/quick/__icsFiles/afieldfile/2023/06/16/m_1_1.png"
   },
   {
-    "name": "NHKWorld-Radio (Multi-Language)",
+    "name": "NHK World Radio",
     "type": "QUỐC TẾ",
-    "url": "https://nhkworld-radio.akamaized.net/hls/live/2115820/nhkworld-radio-rs5/index_rs5.m3u8",
+    "url": "https://nhkwlive-radio.akamaized.net/hls/live/2032384/radio-rs5/index_07.m3u8",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s"
   },
   {
-    "name": "NHKWorld-Japan Radio",
+    "name": "NHK Radio 1",
     "type": "QUỐC TẾ",
-    "url": "https://nhkworld-radio.akamaized.net/hls/live/2115821/nhkworld-radio-rs4/index_rs4.m3u8",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s"
-  },
-  {
-    "name": "NHK RADIO-1",
-    "type": "QUỐC TẾ",
-    "url": "https://radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8",
+    "url": "https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8",
     "img": "https://static.wikia.nocookie.net/logopedia/images/b/bf/NHK_Radio_1_%282020%29.svg/revision/latest?cb=20210516114917"
   },
   {
-    "name": "NHK-FM",
+    "name": "NHK Radio 2",
     "type": "QUỐC TẾ",
-    "url": "https://radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8",
+    "url": "https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023501/nhkradiruakr2/master48k.m3u8",
     "img": "http://gg.gg/19dbe9"
+  },
+  {
+    "name": "NHK FM",
+    "type": "QUỐC TẾ",
+    "url": "https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8",
+    "img": "http://gg.gg/19dbed"
   },
   {
     "name": "American Forces Radio Tokyo",
@@ -7248,6 +7530,30 @@
     "img": "https://rtb-images.glueapi.io/320x0/radio/nasional-title.png"
   },
   {
+    "name": "Radyo Pilipinas - Radyo Publiko",
+    "type": "QUỐC TẾ",
+    "url": "http://58.97.187.52:5001/rp1",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/8/87/RP-RadyoPubliko-logo.png"
+  },
+  {
+    "name": "Radyo Pilipinas - Radyo Magasin",
+    "type": "QUỐC TẾ",
+    "url": "http://122.53.138.32:8000/dzrm.mp3",
+    "img": "https://upload.wikimedia.org/wikipedia/en/8/83/DZRM_Radyo_Magasin_1278_2025_logo.png"
+  },
+  {
+    "name": "87.5 Republika ni Juan",
+    "type": "QUỐC TẾ",
+    "url": "http://58.97.187.52:5001/fm1",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/875republikanijuan.jpg/500px-875republikanijuan.jpg"
+  },
+  {
+    "name": "104.3 The Capital",
+    "type": "QUỐC TẾ",
+    "url": "http://58.97.187.52:5007/fm2",
+    "img": "https://iili.io/JmSTuh7.png"
+  },
+  {
     "name": "Super Radyo DZBB",
     "type": "QUỐC TẾ",
     "url": "http://stream.gmanews.tv/ioslive/livestream/playlist.m3u8",
@@ -7262,19 +7568,19 @@
   {
     "name": "DWPM Radyo 630",
     "type": "QUỐC TẾ",
-    "url": "https://23683.live.streamtheworld.com/DZMMAAC.aac?dist=tunein",
+    "url": "http://us1.amfmph.com:8852/stream",
     "img": "https://iili.io/JmSTHep.png"
   },
   {
     "name": "Wish 107.5",
     "type": "QUỐC TẾ",
-    "url": "https://untv.mmdlive.lldns.net/untv/f55dcf9ae0f542d6a7614893d0c2dd83/manifest.m3u8",
+    "url": "https://radio.wish1075.com/web/stream/wish.m3u8",
     "img": "https://iili.io/JmST2II.png"
   },
   {
     "name": "DZRH News",
     "type": "QUỐC TẾ",
-    "url": "https://streamingv2.shoutcast.com/dzrhmanila?type=.mp3",
+    "url": "https://a4.asurahosting.com:6540/stream/1/",
     "img": "https://iili.io/JmST3Xt.png"
   },
   {
@@ -7286,7 +7592,7 @@
   {
     "name": "Monster RX 93.1",
     "type": "QUỐC TẾ",
-    "url": "https://ph-icecast-win.eradioportal.com:8443/monsterrx",
+    "url": "https://in-icecast.eradioportal.com:8443/monsterrrx",
     "img": "https://iili.io/JmSTn2f.png"
   },
   {
@@ -7304,25 +7610,25 @@
   {
     "name": "Love Radio",
     "type": "QUỐC TẾ",
-    "url": "https://s3.radio.co/sd43d6cc6d/listen",
+    "url": "https://28153.live.streamtheworld.com/LOVERADIO_MNL.mp3",
     "img": "https://iili.io/JmSTq1s.png"
   },
   {
     "name": "MOR Entertainment",
     "type": "QUỐC TẾ",
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MORFM_S01AAC_48.aac",
+    "url": "https://stream.zeno.fm/0ha8ftewqp8uv?type=.aac",
     "img": "https://iili.io/JmSTo74.png"
   },
   {
     "name": "Myx Radio",
     "type": "QUỐC TẾ",
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MYXFMAAC_48.aac",
+    "url": "https://28093.live.streamtheworld.com/MYXFMAAC.aac",
     "img": "https://iili.io/JmSTzp2.png"
   },
   {
     "name": "Play FM",
     "type": "QUỐC TẾ",
-    "url": "https://stream-14.zeno.fm/ktsuntffnpeuv",
+    "url": "https://play995.radioca.st/stream/",
     "img": "https://iili.io/JmSTTIS.png"
   },
   {
@@ -7334,7 +7640,7 @@
   {
     "name": "V81 Radio",
     "type": "QUỐC TẾ",
-    "url": "http://162.244.80.52:5960/;stream.aac",
+    "url": "https://cast4.servcast.net/proxy/v81radioworldwide/live",
     "img": "https://iili.io/JmSTAQ9.png"
   },
   {
@@ -7346,7 +7652,7 @@
   {
     "name": "Yes 101.1",
     "type": "QUỐC TẾ",
-    "url": "https://s2.radio.co/sa85100da7/listen",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/YESTHEBEST_MNL_SC",
     "img": "https://iili.io/JmSTFLX.png"
   },
   {
@@ -7454,7 +7760,7 @@
   {
     "name": "Prambors Radio",
     "type": "QUỐC TẾ",
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PRAMBORS_FMAAC.aac?dist=onlineradiobox",
+    "url": "https://s1.cloudmu.id/listen/prambors_makassar/stream",
     "img": "https://iili.io/JmophJV.png"
   },
   {
@@ -8856,10 +9162,22 @@
     "img": "https://vayofm.com/images/vayofm.png"
   },
   {
-    "name": "RNZ National",
-    "type": "Nz",
-    "url": "https://i.mjh.nz/.r/radio-rv-rnznational247-eec039.m3u8",
-    "img": "https://images.mediaworks.nz/rova/Content/apps/images/RNZ_National_Generic_600x600_Sq.png"
+    "name": "RTTL.EP Rádio Timor Leste",
+    "type": "QUỐC TẾ",
+    "url": "https://mediacp-id1.arenastreaming.com:2020/stream/awrtimorleste",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-H1io7ii6Zf1jsDG-c-Lc1D22gnmhJB74i808kNJmXj3gx6kzqHvtxXsrPKEG_RTcUE4&usqp=CAU"
+  },
+  {
+    "name": "Rádio Voz FM",
+    "type": "QUỐC TẾ",
+    "url": "https://stream.rcast.net/67902",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfKk3Wc_UNMv5dyPQ__W08rmWYgt0LPm1gpw&s"
+  },
+  {
+    "name": "Radio Liberdade Dili",
+    "type": "QUỐC TẾ",
+    "url": "https://streaming.kalohan.net/proxy/raliber?mp=/stream",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4sD7pO03FxwiZCWjkhPwKOxTdE9TehxMX0Q&s"
   },
   {
     "name": "XZTV西藏卫视 (The iDOLM@STER 2005 Arcade / Truyền Hình Vệ Tinh Vùng Tây Tạng)",

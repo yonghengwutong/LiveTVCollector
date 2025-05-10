@@ -1078,11 +1078,11 @@ https://radio.bbs.bt/mix-ch
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="RADIO",BBS-2 BHUTAN
 https://radio.bbs.bt/dz-ch
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQTZ7dJbMy7bUpaKXlaY4CvUoxz7IzQasYg&s" group-title="VIỆT NAM",VOV1
-https://str.vov.gov.vn/vovlive/vov1vov5Vietnamese.sdp_aac/playlist.m3u8
+http://113.164.229.226:7001/stream
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRy8DNT2EyV0vPm1oye3N2o43VUthJ0_IdA&s" group-title="VIỆT NAM",VOV2
-https://str.vov.gov.vn/vovlive/vov2.sdp_aac/chunklist_w1431660907.m3u8
+http://113.164.229.226:7003/stream
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQx1QbZewLeQWABiffxfgjp17UIRByi-lvag&s" group-title="VIỆT NAM",VOV3
-https://str.vov.gov.vn/vovlive/vov3.sdp_aac/chunklist_w300591965.m3u8
+http://113.164.229.226:7005/stream
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkevQ4B-uXkprvQZ6wKCcSqdGnERaSazGVw&s" group-title="VIỆT NAM",VOV MINORITIES SERVICE NORTH
 https://stream.vovmedia.vn/vov4tb
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc0FaMCi9-I6Ni1xsAZ6ReQfQQRvSeCVa2lA&s" group-title="VIỆT NAM",VOV MINORITIES SERVICE HIGHLANDS
@@ -1192,7 +1192,7 @@ http://118.107.85.4:1935/radio/lamdong_aac/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="VIỆT NAM",BPTV-FM (FM89.4MHz)
 https://live.baobinhphuoc.com.vn/bptvlive/radio.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="VIỆT NAM",BTV-FM BINH DUONG (FM92.5MHz)
-http://sohoa.truyenthanhthongminh.vn/sohoabinhduong
+https://btvfm011220.cdn.vnns.io/0de12fc91cfbb45a00d30f2f4bf18d561746851096/btv-fm.tms/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="VIỆT NAM",DONG NAI RADIO (FM97.5MHz)
 http://118.107.85.5:1935/radio/dongnai_aac/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="VIỆT NAM",LONG AN (FM96.9MHz)
@@ -1213,28 +1213,66 @@ http://tv.kgtv.vn/live/kgaudio/kgaudio.m3u8
 https://tv.thbl.vn/live/radio/radio.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="VIỆT NAM",CA MAU FM (FM94.6MHz)
 http://tv.ctvcamau.vn/live/radio/radio.m3u8
+#EXTINF:-1 tvg-logo="https://photo-zmp3.zmdcdn.me/cover_rect/5/0/8/f/508fb88137284723e67c83b9c9fede28.jpg" group-title="VIỆT NAM",ZingRadio 1 - Vpop
+https://multi-playlist-zmp3.zmdcdn.me/odi6UBatld4/zhls/playback-realtime/6ddadf76e3330a6d5322/index.m3u8
+#EXTINF:-1 tvg-logo="https://photo-zmp3.zmdcdn.me/avatars/7/7/8/d/778d152062edfbe0e4c4abf151858bf0.jpg" group-title="VIỆT NAM",ZingRadio 2 - Chạm FM
+https://multi-playlist-zmp3.zmdcdn.me/eHjZAdAk-sk/zhls/playback-realtime/59a2ee0ed24b3b15625a/index.m3u8
+#EXTINF:-1 tvg-logo="https://photo-zmp3.zmdcdn.me/cover_rect/e/1/8/8/e1887a2c79f9d3d04984905cbf443a29.jpg" group-title="VIỆT NAM",ZingRadio 3 - Kpop
+https://multi-playlist-zmp3.zmdcdn.me/rTbzjcKEO1A/zhls/playback-realtime/6600baac86e96fb736f8/index.m3u8
+#EXTINF:-1 tvg-logo="https://photo-zmp3.zmdcdn.me/cover_rect/3/1/0/d/310df4f53c1026d4cb2844dc96cc01d3.jpg" group-title="VIỆT NAM",ZingRadio 4 - USUK
+https://multi-playlist-zmp3.zmdcdn.me/-XosZVJX9XA/zhls/playback-realtime/f49e38320477ed29b466/index.m3u8
+#EXTINF:-1 tvg-logo="https://photo-zmp3.zmdcdn.me/cover_rect/1/5/c/2/15c2abf5f4554b416384d4f675b2151e.jpg" group-title="VIỆT NAM",ZingRadio 5 - CPop
+https://multi-playlist-zmp3.zmdcdn.me/_TAVBRh_ce4/zhls/playback-realtime/97b35e1f625a8b04d24b/index.m3u8
+#EXTINF:-1 tvg-logo="https://photo-zmp3.zmdcdn.me/cover_rect/a/6/f/4/a6f4712ca91e9cc15530960ab44611da.jpg" group-title="VIỆT NAM",ZingRadio 6 - EDM
+https://multi-playlist-zmp3.zmdcdn.me/lupi_x8-Su4/zhls/playback-realtime/7386bb2a876f6e31377e/index.m3u8
+#EXTINF:-1 tvg-logo="https://photo-zmp3.zmdcdn.me/cover_rect/8/1/d/6/81d6bc7e9ced5d11d01f6da4b440f146.jpg" group-title="VIỆT NAM",ZingRadio 7 - Acoustic
+https://multi-playlist-zmp3.zmdcdn.me/AiekixzmitQ/zhls/playback-realtime/9b7b55d7699280ccd983/index.m3u8
+#EXTINF:-1 tvg-logo="https://photo-zmp3.zmdcdn.me/cover_rect/d/6/7/4/d6746d1bbff609111133449abb9e622b.jpg" group-title="VIỆT NAM",ZingRadio 8 - Bolero
+https://multi-playlist-zmp3.zmdcdn.me/ioZs7yhxUxk/zhls/playback-realtime/5bace800d4453d1b6454/index.m3u8
+#EXTINF:-1 tvg-logo="https://photo-zmp3.zmdcdn.me/cover_rect/0/c/2/e/0c2ee7cb5ef72b5db673341864312a2a.jpg" group-title="VIỆT NAM",ZingRadio 9 - Rap Việt
+https://multi-playlist-zmp3.zmdcdn.me/XHOosOJ-f8g/zhls/playback-realtime/cef1015d3d18d4468d09/index.m3u8
+#EXTINF:-1 tvg-logo="https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_jpeg/cover/9/5/5/b/955b98868b8b29e1e782fc0913d857d2.jpg" group-title="VIỆT NAM",ZingRadio 10 - Indie
+https://multi-playlist-zmp3.zmdcdn.me/VV55kkJD6Qo/zhls/playback-realtime/eeff2a531616ff48a607/index.m3u8
+#EXTINF:-1 tvg-logo="https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_jpeg/cover/e/d/d/6/edd6b56e8f79898dd98acfcf55c5564a.jpg" group-title="VIỆT NAM",ZingRadio 11 - Thiếu Nhi
+https://multi-playlist-zmp3.zmdcdn.me/UKk_cQEl314/zhls/playback-realtime/ef512afd16b8ffe6a6a9/index.m3u8
+#EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/svztgcvwrjew.png" group-title="VIỆT NAM",Scientific Sounds Asia
+http://carol.epichosts.co.uk:8270/live.mp3
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BBC_World_Service_2022_%28Boxed%29.svg/1920px-BBC_World_Service_2022_%28Boxed%29.svg.png" group-title="QUỐC TẾ",BBC World Service Asia
-https://stream.live.vc.bbcmedia.co.uk/bbc_world_service_east_asia
-#EXTINF:-1 tvg-logo="https://wisebuddahjingles.com/media/8551/original" group-title="QUỐC TẾ",BBC Radio 1
-http://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1615333100497551361/JUU6kRz9_400x400.jpg" group-title="QUỐC TẾ",BBC Radio 1Xtra
+http://as-hls-ww-live.akamaized.net/pool_31623735/live/ww/bbc_world_service_east_asia/bbc_world_service_east_asia.isml/bbc_world_service_east_asia-audio%3d320000.norewind.m3u8
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s24939/images/logog.png?t=2409" group-title="QUỐC TẾ",BBC Radio 1
+http://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d320000.norewind.m3u8
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s20277/images/logog.png?t=2408" group-title="QUỐC TẾ",BBC Radio 1Xtra
 http://as-hls-ww-live.akamaized.net/pool_92079267/live/ww/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio%3d96000.norewind.m3u8
 #EXTINF:-1 tvg-logo="https://ukradiolive.com/public/uploads/radio_img/bbc-radio-1-dance/play_250_250.webp" group-title="QUỐC TẾ",BBC Radio 1 Dance
-http://as-hls-ww-live.akamaized.net/pool_62063831/live/ww/bbc_radio_one_dance/bbc_radio_one_dance.isml/bbc_radio_one_dance-audio%3d96000.norewind.m3u8
+http://as-hls-ww-live.akamaized.net/pool_62063831/live/ww/bbc_radio_one_dance/bbc_radio_one_dance.isml/bbc_radio_one_dance-audio%3d320000.norewind.m3u8
 #EXTINF:-1 tvg-logo="https://uk.radio.net/images/broadcasts/88/e1/3244/1/c300.png" group-title="QUỐC TẾ",BBC Radio 2
-http://as-hls-ww-live.akamaized.net/pool_74208725/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d96000.norewind.m3u8
+http://as-hls-ww-live.akamaized.net/pool_74208725/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d320000.norewind.m3u8
 #EXTINF:-1 tvg-logo="https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_radio_three/blocks-colour_600x600.png" group-title="QUỐC TẾ",BBC Radio 3
-http://as-hls-ww-live.akamaized.net/pool_23461179/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d96000.norewind.m3u8
+http://as-hls-ww-live.akamaized.net/pool_23461179/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d320000.norewind.m3u8
 #EXTINF:-1 tvg-logo="https://ie.radio.net/images/broadcasts/d3/09/3246/1/c300.png" group-title="QUỐC TẾ",BBC Radio 4
-http://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d96000.norewind.m3u8
+http://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d320000.norewind.m3u8
 #EXTINF:-1 tvg-logo="https://uk.radio.net/images/broadcasts/f6/75/12534/1/c300.png" group-title="QUỐC TẾ",BBC Radio 4 Extra
-http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio%3d96000.norewind.m3u8
+http://as-hls-ww-live.akamaized.net/pool_26173715/live/ww/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio%3d320000.norewind.m3u8
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/EgCmT9UNSr.png" group-title="QUỐC TẾ",BBC Radio 5 Live
-http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d96000.norewind.m3u8
+http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d320000.norewind.m3u8
 #EXTINF:-1 tvg-logo="https://ygo-assets-entities-emea.yougov.net/762d8e8a-ce07-11e8-a722-affcf7e3f830.jpg" group-title="QUỐC TẾ",BBC Radio 6
-http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d96000.norewind.m3u8
-#EXTINF:-1 tvg-logo="https://ichef.bbci.co.uk/images/ic/320x320/p0l0jrdh.jpg.webp" group-title="QUỐC TẾ",BBC Newsradio
+http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d320000.norewind.m3u8
+#EXTINF:-1 tvg-logo="https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_asian_network/blocks-colour_600x600.png" group-title="QUỐC TẾ",BBC Asian Network
+http://as-hls-ww-live.akamaized.net/pool_22108647/live/ww/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d320000.norewind.m3u8
+#EXTINF:-1 tvg-logo="https://ichef.bbci.co.uk/images/ic/320x320/p0l0jrdh.jpg.webp" group-title="QUỐC TẾ",BBC Sounds News
 https://as-hls-ww-live.akamaized.net/pool_53367543/live/ww/bbc_sounds_news/bbc_sounds_news.isml/bbc_sounds_news-audio=96000.norewind.m3u8
+#EXTINF:-1 tvg-logo="https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_wales/blocks-colour_600x600.png" group-title="QUỐC TẾ",BBC Radio Wales FM
+http://as-hls-ww-live.akamaized.net/pool_97517794/live/ww/bbc_radio_wales_fm/bbc_radio_wales_fm.isml/bbc_radio_wales_fm-audio%3d320000.norewind.m3u8
+#EXTINF:-1 tvg-logo="https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_cymru/blocks-colour_600x600.png" group-title="QUỐC TẾ",BBC Radio Cymru
+http://as-hls-ww-live.akamaized.net/pool_24792333/live/ww/bbc_radio_cymru/bbc_radio_cymru.isml/bbc_radio_cymru-audio%3d320000.norewind.m3u8
+#EXTINF:-1 tvg-logo="https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_cymru_2/blocks-colour_600x600.png" group-title="QUỐC TẾ",BBC Radio Cymru 2
+http://as-hls-ww-live.akamaized.net/pool_98610936/live/ww/bbc_radio_cymru_2/bbc_radio_cymru_2.isml/bbc_radio_cymru_2-audio%3d320000.norewind.m3u8
+#EXTINF:-1 tvg-logo="https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_scotland/blocks-colour_600x600.png" group-title="QUỐC TẾ",BBC Radio Scotland
+http://as-hls-ww-live.akamaized.net/pool_43322914/live/ww/bbc_radio_scotland_fm/bbc_radio_scotland_fm.isml/bbc_radio_scotland_fm-audio%3d320000.norewind.m3u8
+#EXTINF:-1 tvg-logo="https://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_nan_gaidheal/blocks-colour_600x600.png" group-title="QUỐC TẾ",BBC Radio nan Gaidheal
+http://as-hls-ww-live.akamaized.net/pool_01935182/live/ww/bbc_radio_nan_gaidheal/bbc_radio_nan_gaidheal.isml/bbc_radio_nan_gaidheal-audio%3d320000.norewind.m3u8
+#EXTINF:-1 tvg-logo="hhttps://sounds.files.bbci.co.uk/3.8.0/networks/bbc_radio_ulster/blocks-colour_600x600.png" group-title="QUỐC TẾ",BBC Radio Ulster
+http://as-hls-ww-live.akamaized.net/pool_31244774/live/ww/bbc_radio_ulster/bbc_radio_ulster.isml/bbc_radio_ulster-audio%3d320000.norewind.m3u8
 #EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s14137/images/logod.png?t=638367220310000000" group-title="QUỐC TẾ",BFBS Radio UK
 https://edge-audio-01-cr.sharp-stream.com/ssvcbfbs1.aac
 #EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s13888/images/logod.png?t=637735785970000000" group-title="QUỐC TẾ",BFBS Radio 2
@@ -1265,6 +1303,34 @@ https://ice-sov.musicradio.com/SmoothUKHD?hdauth=:2000000000:a290d4b39a16153061d
 https://edge-bauerall-01-gos2.sharp-stream.com/hits.aac
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png" group-title="QUỐC TẾ",TalkSport
 http://radio.talksport.com/stream?aisGetOriginalStream=true
+#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-000150249392-s07rb1-t1080x1080.jpg" group-title="QUỐC TẾ",RTE Radio 1
+https://icecast.rte.ie/radio1
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png" group-title="QUỐC TẾ",RTE Radio 1 Extra
+https://icecast1.rte.ie/radio1extra
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJH5d0W6A2MNLhVnQmp-3PUOKqoR_LCWcyLQ&s" group-title="QUỐC TẾ",RTE 2FM
+https://icecast.rte.ie/2fm
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqUFBX1h92nkOPBXfxymO7cBNc9WO8W6c99WIC0-fGCCgKPMUsi2yyOrFqvP26whASoiI&usqp=CAU" group-title="QUỐC TẾ",RTE Raidió na Gaeltachta
+https://icecast2.rte.ie/rnag
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_mNaB0zybpJWqE4b8EOJe_0Vbh_H1Tdur_AZdyR3GLwN9Q=s900-c-k-c0x00ffffff-no-rj" group-title="QUỐC TẾ",RTE Lyric FM
+https://icecast.rte.ie/lyric
+#EXTINF:-1 tvg-logo="https://mytunein.com/images/logos/rte2xm.jpg" group-title="QUỐC TẾ",RTE 2XM
+https://icecast2.rte.ie/2xm
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TBQgNYX5/Untitled-design.png" group-title="QUỐC TẾ",RTE Junior/RTE Chill
+https://icecast2.rte.ie/junior
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnA4HJAzHYUogGHXafC3UWJ5qBiUGM8cJMxIEYuaA1e8ZwSgcZCOB1cGIaMeGNRRgcF_M&usqp=CAU" group-title="QUỐC TẾ",RTE Pulse
+https://icecast1.rte.ie/pulse
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bf/Today_FM_Logo_2017.jpg" group-title="QUỐC TẾ",Today FM
+https://ingest1.gocaster.net/td
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/Eqs-Yo4wwnN8397XoCpSWfg0-yD5VkR6S2sEBH_P1dgIlSmZFrHB2lw4-EqHPM0-29SY" group-title="QUỐC TẾ",Classic Hits FM
+https://edge2.audioxi.com/CLASSIC
+#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/artworks-000043593664-xv45kh-t500x500.jpg" group-title="QUỐC TẾ",Beat 102-103
+https://stream.audioxi.com/BEAT
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmht33AY7HESlV5IR8b3stnqHtwwwYkY5yEA&s" group-title="QUỐC TẾ",Spin Southwest
+https://stream.audioxi.com/SW
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s15123g.png" group-title="QUỐC TẾ",NewsTalk
+https://edge2.audioxi.com/NT
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoq__Ch6oJyLqwYeiPZlRCjoVXhyIfqbiptw&s" group-title="QUỐC TẾ",98FM
+https://stream.audioxi.com/98
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RFI_logo_2013.svg/800px-RFI_logo_2013.svg.png" group-title="QUỐC TẾ",RFI Monde
 https://rfimonde-96k.ice.infomaniak.ch/rfimonde-96k.mp3
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RFI_logo_2013.svg/800px-RFI_logo_2013.svg.png" group-title="QUỐC TẾ",RFI Anglais
@@ -1311,6 +1377,8 @@ http://icestreaming.rai.it/2.mp3
 http://icestreaming.rai.it/3.mp3
 #EXTINF:-1 tvg-logo="https://au.radio.net/300/raiclassica.png?version=6a49c116445a7df8c72eec47733dc310" group-title="QUỐC TẾ",Rai Radio 3 Classica
 http://icestreaming.rai.it/5.mp3
+#EXTINF:-1 tvg-logo="https://www.fm-world.it/wp-content/uploads/2022/12/noname-300x300.jpg" group-title="QUỐC TẾ",Rai No Name Radio
+https://radiodueindie-live.akamaized.net/hls/live/2032593/radiodueindie/radiodueindie/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.radio.net/300/rneradionacional.png?version=9979372343a43d86df0ff67cedbaef2e" group-title="QUỐC TẾ",RNE Radio Nacional
 https://rtvelivestream.akamaized.net/rtvesec/rne/rne_r1_main.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzz0TjtZVDEUfOhfzSmulcH8bFp0bQjwN5-Q&s" group-title="QUỐC TẾ",RNE Radio Clasica
@@ -1405,7 +1473,7 @@ http://stream002.radio.hu/mr7.aac
 https://icast.connectmedia.hu/5202/live.mp3
 #EXTINF:-1 tvg-logo="https://uk.radio.net/images/broadcasts/47/68/17023/c300.png" group-title="QUỐC TẾ",RADIO ROMANIA ACTUALITATI
 http://stream2.srr.ro:8006/;
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/AWJivQTQDWIelrr1fjiOAOl704W2m9QqAEhRnbZr6ZIqmBP0TkcoJFUyYBXg4eRluGjYhr2yhMU=s900-c-k-c0x00ffffff-no-rj" group-title="QUỐC TẾ",RADIO ROMÂNIA CULTURAL
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/AWJivQTQDWIelrr1fjiOAOl704W2m9QqAEhRnbZr6ZIqmBP0TkcoJFUyYBXg4eRluGjYhr2yhMU=s900-c-k-c0x00ffffff-no-rj" group-title="QUỐC TẾ",RADIO ROMANIA CULTURAL
 http://stream2.srr.ro:8016/;
 #EXTINF:-1 tvg-logo="https://www.radio.net/images/broadcasts/b6/95/13557/c300.png" group-title="QUỐC TẾ",RADIO ROMANIA MUZICAL
 http://stream2.srr.ro:8026/;
@@ -1425,12 +1493,12 @@ http://astreaming.edi.ro:8443/EuropaFM_aac
 http://astreaming.virginradio.ro:8000/VirginRadio_aac
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/86/Logo_Kiss_FM.png" group-title="QUỐC TẾ",KISS FM ROMANIA
 https://live.rockfm.ro/kissfm.aacp
-#EXTINF:-1 tvg-logo="https://i.imgur.com/iFbX0ZH.png" group-title="QUỐC TẾ",RADIO VESTI
-http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Wr2gxLl.png" group-title="QUỐC TẾ",RADIO MAYAK
-http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps
 #EXTINF:-1 tvg-logo="https://i.imgur.com/P0In2kv.png" group-title="QUỐC TẾ",RADIO ROSSII
-http://icecast.vgtrk.cdnvideo.ru/rrzonam_mp3_128kbps
+http://icecast.vgtrk.cdnvideo.ru/rrzonam
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iFbX0ZH.png" group-title="QUỐC TẾ",RADIO VESTI
+https://icecast-vgtrk.cdnvideo.ru/vestifm
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Wr2gxLl.png" group-title="QUỐC TẾ",RADIO MAYAK
+https://icecast-vgtrk.cdnvideo.ru/mayakfm
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Zvezda_Radio.jpg/800px-Zvezda_Radio.jpg" group-title="QUỐC TẾ",RADIO ZVEZDA
 https://zvezdafm.hostingradio.ru/zvezdafm128.mp3
 #EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/radio/ss/sputnik_international_ru.png" group-title="QUỐC TẾ",SPUTNIK (English)
@@ -1450,13 +1518,13 @@ http://chanson.hostingradio.ru:8041/chanson256.mp3
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wG8KyeG.png" group-title="QUỐC TẾ",Radio Strana
 http://icecast.stranafm.cdnvideo.ru/stranafm
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PlAiIoT.png" group-title="QUỐC TẾ",Radio Evropa Plus
-https://ep128.hostingradio.ru:8030/ep128
+https://cast.fmprod.ru/europa_bsk
 #EXTINF:-1 tvg-logo="https://i.imgur.com/SPaSFKm.png" group-title="QUỐC TẾ",Avtoradio
-http://ic7.101.ru:8000/v3_1
+https://pub0201.101.ru:8000/stream/reg/mp3/128/region_avto_86
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ViOHdFW.png" group-title="QUỐC TẾ",Radio Orfey
 https://orfeyfm.hostingradio.ru:8034/orfeyfm128.mp3
-#EXTINF:-1 tvg-logo="https://www.usagm.gov/wp-content/uploads/2022/01/Avatar_RGB_primary-brandmark.png" group-title="QUỐC TẾ",RFE/RL Radio Svoboda Rossiya
-https://rfe04.akacast.akamaistream.net/7/509/437762/v1/ibb.akacast.akamaistream.net/rfe04
+#EXTINF:-1 tvg-logo="https://www.radio.net/300/russkoe.png?version=ea90bb2478e4c6ce273e29cac1c5245c" group-title="QUỐC TẾ",Russkoe Radio
+https://rusradio.hostingradio.ru/rusradio128.mp
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/be/f/f9/%D0%9F%D0%9D%D0%9A%D0%91%D0%A0_%28%D0%BB%D0%B0%D0%B3%D0%B0%D1%82%D1%8B%D0%BF%29.jpeg" group-title="QUỐC TẾ",BR Pershy Kanal
 http://stream2.datacenter.by:8005/1kanal
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/be/1/18/%D0%9A%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0_%28%D0%BB%D0%B0%D0%B3%D0%B0%D1%82%D1%8B%D0%BF%29.png" group-title="QUỐC TẾ",BR Kanal Kultura
@@ -1493,12 +1561,14 @@ https://icecast.teveo.cu/zrXXWK9F
 https://icecast.teveo.cu/XjfW7qWN
 #EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/B7dTgwMGWB.png" group-title="QUỐC TẾ",Radio Reloj
 https://icecast.teveo.cu/b3jbfThq
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgGTM4xaW5frQmhEC_q_zbAN11RLCIwCtfCQ&s" group-title="QUỐC TẾ",CMBF Radio Musical Nacional
+https://icecast.teveo.cu/Nbtz7HT3
 #EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/p2utfs56zyhz.jpg" group-title="QUỐC TẾ",Radio Enciclopedia
 https://icecast.teveo.cu/9Rnrbjzq
 #EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/dKNYQcwff4.jpg" group-title="QUỐC TẾ",Radio Taino
 https://icecast.teveo.cu/3MCwWg3V
 #EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/baydw5wnqmru.png" group-title="QUỐC TẾ",Radio Metropolitana
-https://icecast.teveo.cu/ktW3mW74ư
+https://icecast.teveo.cu/ktW3mW74
 #EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/wqv46bsr447r.png" group-title="QUỐC TẾ",Radio Cadena Habana
 https://icecast.teveo.cu/Jdq3Rbrg
 #EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/assets/images/3c268c71-295d-47d8-8015-5eb0c766295c.png" group-title="QUỐC TẾ",KIIS 101.1
@@ -1875,6 +1945,8 @@ https://i.mjh.nz/.r/radio-ih-9199
 https://i.mjh.nz/.r/radio-ih-6465.aac
 #EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/assets.streams/67511bf6e4ad771fa5251851" group-title="QUỐC TẾ",LoveFM - FM99.4
 https://i.mjh.nz/.r/radio-ih-7073
+#EXTINF:-1 tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/RNZ_National_Generic_600x600_Sq.png" group-title="QUỐC TẾ",RNZ National
+https://i.mjh.nz/.r/radio-rv-rnznational247-eec039.m3u8
 #EXTINF:-1 tvg-logo="https://images.mediaworks.nz/rnzconcert_network/Content/shows/images/1738181882339_rnz-concert-1x1.png?width=[width]&height=[height]&crop=auto" group-title="QUỐC TẾ",RNZ Concert
 https://i.mjh.nz/.r/radio-rv-rnzconcert-98091b.m3u8
 #EXTINF:-1 tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/tahi_now_playing.jpg" group-title="QUỐC TẾ",TAHI
@@ -2007,6 +2079,28 @@ https://i.mjh.nz/.r/radio-radio-xpd
 https://i.mjh.nz/.r/radio-sport-nation-akl.m3u8
 #EXTINF:-1 tvg-logo="https://i.mjh.nz/.images/radio-plains-fm.png" group-title="QUỐC TẾ",Plains FM
 https://i.mjh.nz/.r/radio-plains-fm.m3u8
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s25276/images/logog.png?t=1" group-title="QUỐC TẾ",CBC Radio 1 Atlantic
+https://playerservices.streamtheworld.com/api/livestream-redirect/CBQTFM_CBC.mp3
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s25276/images/logog.png?t=1" group-title="QUỐC TẾ",CBC Radio 1 Pacific
+https://cbcradiolive.akamaized.net/hls/live/2041050/ES_R1PVC/master.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSem467MjooDcq4KHIV25xHTiqhyvATtxTpvw&s" group-title="QUỐC TẾ",CBC Music Atlantic
+https://cbcradiolive.akamaized.net/hls/live/2041057/ES_R2ETR/master.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSem467MjooDcq4KHIV25xHTiqhyvATtxTpvw&s" group-title="QUỐC TẾ",CBC Music Pacific
+https://cbcradiolive.akamaized.net/hls/live/2041059/ES_R2PVC/master.m3u8
+#EXTINF:-1 tvg-logo="https://images.radiovolna.net/_files/images/stations/422593/362659433be651ef4353f137f601f207.png" group-title="QUỐC TẾ",ICI Radio-Canada Première Atlantique
+https://rcavliveaudio.akamaized.net/hls/live/2006635/P-2QMTL0_MTL/master.m3u8
+#EXTINF:-1 tvg-logo="https://images.radiovolna.net/_files/images/stations/422593/362659433be651ef4353f137f601f207.png" group-title="QUỐC TẾ",ICI Radio-Canada Première Pacifique
+https://rcavliveaudio.akamaized.net/hls/live/2006975/P-2BVAN0_VAN/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.mjh.nz/.images/radio-plains-fm.png" group-title="QUỐC TẾ",ICI Musique Atlantique
+https://rcavliveaudio.akamaized.net/hls/live/2006979/M-7QMTL0_MTL/master.m3u8
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kHwHZ6Qupe73xqPLrhbDiI3dO8gh-q9Yqt5PBBKGbGCGo=s900-c-k-c0x00ffffff-no-rj" group-title="QUỐC TẾ",ICI Musique Pacifique
+https://rcavliveaudio.akamaized.net/hls/live/2006996/M-7BVAN0_VAN/master.m3u8
+#EXTINF:-1 tvg-logo="https://globalnews.ca/wp-content/uploads/2019/03/untitled-1-1.jpg?quality=85&strip=all" group-title="QUỐC TẾ",Energy 98.5
+https://entry-amms-1.leanstream-hd.com:2112/CINGFM-MP3-2
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/2/2e/CapitaleRock.png" group-title="QUỐC TẾ",Capitale Rock
+https://playerservices.streamtheworld.com/api/livestream-redirect/CHGO_FM
+#EXTINF:-1 tvg-logo="https://www.radio.net/300/cjcq.png?version=6a2adf4b5bb9a580f98e7984c0d1a0bf" group-title="QUỐC TẾ",Q 98
+https://stream.jpbgdigital.com/CJCQ.m3u8
 #EXTINF:-1 tvg-logo="https://onlineradiofm.in/assets/image/radio/100/vividh_bharati.webp" group-title="QUỐC TẾ",AIR Vividh Bharati
 https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://airdco.pc.cdn.bitgravity.com/images/fm-rainbow.jpg" group-title="QUỐC TẾ",AIR Rainbow FM Delhi
@@ -2063,14 +2157,14 @@ https://radio.bsod.kr/stream/playback.pls?stn=mbc&ch=sfm
 https://radio.bsod.kr/stream/playback.pls?stn=mbc&ch=chm
 #EXTINF:-1 tvg-logo="https://img.imbc.com/broad/radio/s9_2015_main/quick/__icsFiles/afieldfile/2023/06/16/m_1_1.png" group-title="QUỐC TẾ",AFN FM Humphreys
 https://radio.bsod.kr/stream/playback.pls?stn=afn&city=humphreys
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s" group-title="QUỐC TẾ",NHKWorld-Radio (Multi-Language)
-https://nhkworld-radio.akamaized.net/hls/live/2115820/nhkworld-radio-rs5/index_rs5.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s" group-title="QUỐC TẾ",NHKWorld-Japan Radio
-https://nhkworld-radio.akamaized.net/hls/live/2115821/nhkworld-radio-rs4/index_rs4.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bf/NHK_Radio_1_%282020%29.svg/revision/latest?cb=20210516114917" group-title="QUỐC TẾ",NHK RADIO-1
-https://radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8
-#EXTINF:-1 tvg-logo="http://gg.gg/19dbe9" group-title="QUỐC TẾ",NHK-FM
-https://radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s" group-title="QUỐC TẾ",NHK World Radio
+https://nhkwlive-radio.akamaized.net/hls/live/2032384/radio-rs5/index_07.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bf/NHK_Radio_1_%282020%29.svg/revision/latest?cb=20210516114917" group-title="QUỐC TẾ",NHK Radio 1
+https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8
+#EXTINF:-1 tvg-logo="http://gg.gg/19dbe9" group-title="QUỐC TẾ",NHK Radio 2
+https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023501/nhkradiruakr2/master48k.m3u8
+#EXTINF:-1 tvg-logo="http://gg.gg/19dbed" group-title="QUỐC TẾ",NHK FM
+https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8
 #EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s287011g.png" group-title="QUỐC TẾ",American Forces Radio Tokyo
 https://playerservices.streamtheworld.com/api/livestream-redirect/AFNP_TKO.mp3
 #EXTINF:-1 tvg-logo="https://mmo.aiircdn.com/387/5e763a347e800.png" group-title="QUỐC TẾ",J1 Hits
@@ -2415,40 +2509,48 @@ https://d2kziuzkf9oizb.cloudfront.net/rd003/chunklist.m3u8
 https://d2kziuzkf9oizb.cloudfront.net/rd004/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://rtb-images.glueapi.io/320x0/radio/nasional-title.png" group-title="QUỐC TẾ",RTB Nasional
 https://d2kziuzkf9oizb.cloudfront.net/rd005/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/87/RP-RadyoPubliko-logo.png" group-title="QUỐC TẾ",Radyo Pilipinas - Radyo Publiko
+http://58.97.187.52:5001/rp1
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/83/DZRM_Radyo_Magasin_1278_2025_logo.png" group-title="QUỐC TẾ",Radyo Pilipinas - Radyo Magasin
+http://122.53.138.32:8000/dzrm.mp3
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/875republikanijuan.jpg/500px-875republikanijuan.jpg" group-title="QUỐC TẾ",87.5 Republika ni Juan
+http://58.97.187.52:5001/fm1
+#EXTINF:-1 tvg-logo="https://iili.io/JmSTuh7.png" group-title="QUỐC TẾ",104.3 The Capital
+http://58.97.187.52:5007/fm2
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTuh7.png" group-title="QUỐC TẾ",Super Radyo DZBB
 http://stream.gmanews.tv/ioslive/livestream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JmUqxg2.png" group-title="QUỐC TẾ",Radyo5 True FM
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/radyo5_qp.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTHep.png" group-title="QUỐC TẾ",DWPM Radyo 630
-https://23683.live.streamtheworld.com/DZMMAAC.aac?dist=tunein
+http://us1.amfmph.com:8852/stream
 #EXTINF:-1 tvg-logo="https://iili.io/JmST2II.png" group-title="QUỐC TẾ",Wish 107.5
-https://untv.mmdlive.lldns.net/untv/f55dcf9ae0f542d6a7614893d0c2dd83/manifest.m3u8
+https://radio.wish1075.com/web/stream/wish.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JmST3Xt.png" group-title="QUỐC TẾ",DZRH News
-https://streamingv2.shoutcast.com/dzrhmanila?type=.mp3
+https://a4.asurahosting.com:6540/stream/1/
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTxkl.png" group-title="QUỐC TẾ",Magic 89.9
 https://stream.zeno.fm/fw1368t3vc9uv
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTn2f.png" group-title="QUỐC TẾ",Monster RX 93.1
-https://ph-icecast-win.eradioportal.com:8443/monsterrx
+https://in-icecast.eradioportal.com:8443/monsterrrx
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTfBn.png" group-title="QUỐC TẾ",Energy 106.7
 http://ph-icecast.eradioportal.com:8000/energyfm_manila
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTBrG.png" group-title="QUỐC TẾ",Home Radio
 https://hrmanila.radioca.st/stream
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTq1s.png" group-title="QUỐC TẾ",Love Radio
-https://s3.radio.co/sd43d6cc6d/listen
+https://28153.live.streamtheworld.com/LOVERADIO_MNL.mp3
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTo74.png" group-title="QUỐC TẾ",MOR Entertainment
-https://playerservices.streamtheworld.com/api/livestream-redirect/MORFM_S01AAC_48.aac
+https://stream.zeno.fm/0ha8ftewqp8uv?type=.aac
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTzp2.png" group-title="QUỐC TẾ",Myx Radio
-https://playerservices.streamtheworld.com/api/livestream-redirect/MYXFMAAC_48.aac
+https://28093.live.streamtheworld.com/MYXFMAAC.aac
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTTIS.png" group-title="QUỐC TẾ",Play FM
-https://stream-14.zeno.fm/ktsuntffnpeuv
+https://play995.radioca.st/stream/
 #EXTINF:-1 tvg-logo="https://iili.io/JmST5Be.png" group-title="QUỐC TẾ",Star FM
 https://stream.zeno.fm/536cwdq78heuv
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTAQ9.png" group-title="QUỐC TẾ",V81 Radio
-http://162.244.80.52:5960/;stream.aac
+https://cast4.servcast.net/proxy/v81radioworldwide/live
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTJmN.png" group-title="QUỐC TẾ",Win Radio
 https://streamingv2.shoutcast.com/915-win-radio-manila
 #EXTINF:-1 tvg-logo="https://iili.io/JmSTFLX.png" group-title="QUỐC TẾ",Yes 101.1
-https://s2.radio.co/sa85100da7/listen
+https://playerservices.streamtheworld.com/api/livestream-redirect/YESTHEBEST_MNL_SC
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3wlZFX7.png" group-title="QUỐC TẾ",RRI Pro 1
 https://stream-node1.rri.co.id/streaming/25/9025/rrijakartapro1.mp3
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ckGonAq.png" group-title="QUỐC TẾ",RRI Pro 2
@@ -2484,7 +2586,7 @@ https://svara-stream.radioddns.net:8443/surabaya_mercuryfm-aac
 #EXTINF:-1 tvg-logo="https://iili.io/JmopJVa.png" group-title="QUỐC TẾ",Most 1058
 https://wz.mari.co.id:1936/web_mostfm/mostfm/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JmophJV.png" group-title="QUỐC TẾ",Prambors Radio
-https://playerservices.streamtheworld.com/api/livestream-redirect/PRAMBORS_FMAAC.aac?dist=onlineradiobox
+https://s1.cloudmu.id/listen/prambors_makassar/stream
 #EXTINF:-1 tvg-logo="https://iili.io/Jmx9vcv.png" group-title="QUỐC TẾ",Delta FM
 https://stream.cloudmu.id/listen/delta_fm/stream?icy=http
 #EXTINF:-1 tvg-logo="https://iili.io/JmomnGj.png" group-title="QUỐC TẾ",iRadio Jakarta
@@ -2951,8 +3053,12 @@ http://radio99.servradio.com:9308/;
 http://110.74.192.88:8080/stream/54/;?nocache=344&type=http
 #EXTINF:-1 tvg-logo="https://vayofm.com/images/vayofm.png" group-title="QUỐC TẾ",Vayo FM
 http://50.21.176.38:8010/vayofm
-#EXTINF:-1 tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/RNZ_National_Generic_600x600_Sq.png" group-title="Nz",RNZ National
-https://i.mjh.nz/.r/radio-rv-rnznational247-eec039.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-H1io7ii6Zf1jsDG-c-Lc1D22gnmhJB74i808kNJmXj3gx6kzqHvtxXsrPKEG_RTcUE4&usqp=CAU" group-title="QUỐC TẾ",RTTL.EP Rádio Timor Leste
+https://mediacp-id1.arenastreaming.com:2020/stream/awrtimorleste
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfKk3Wc_UNMv5dyPQ__W08rmWYgt0LPm1gpw&s" group-title="QUỐC TẾ",Rádio Voz FM
+https://stream.rcast.net/67902
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4sD7pO03FxwiZCWjkhPwKOxTdE9TehxMX0Q&s" group-title="QUỐC TẾ",Radio Liberdade Dili
+https://streaming.kalohan.net/proxy/raliber?mp=/stream
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/IMAS2010Logo.svg/revision/latest?cb=20220806031108" group-title="iDOLM@STER",XZTV西藏卫视 (The iDOLM@STER 2005 Arcade / Truyền Hình Vệ Tinh Vùng Tây Tạng)
 http://36.32.174.67:60080/newlive/live/hls/48/live.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/IMAS2010Logo.svg/revision/latest?cb=20220806031108" group-title="iDOLM@STER",XZTV藏语卫视 (The iDOLM@STER 2005 Arcade / Truyền Hình Vệ Tinh Vùng Tây Tạng)
