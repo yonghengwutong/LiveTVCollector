@@ -1,5 +1,5 @@
 {
-  "date": "2025-05-12 21:51:16",
+  "date": "2025-05-13 06:49:11",
   "channels": {
     "News": [
       {
@@ -292,11 +292,11 @@
         "url": "http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8"
       },
       {
-        "name": "Siembra TV (720p)",
+        "name": "Siembra TV [Not 24/7]",
         "logo": "https://i.imgur.com/zRX91Xr.png",
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
-        "url": "https://streamunoapp.com:3809/live/siembratvlive.m3u8"
+        "url": "https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8"
       },
       {
         "name": "Somos TV (720p) [Not 24/7]",
@@ -562,13 +562,6 @@
         "url": "https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8"
       },
       {
-        "name": "Kanal D Drama (1080p)",
-        "logo": "https://i.imgur.com/WIeZMKT.png",
-        "group": "Entertainment",
-        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
-        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8"
-      },
-      {
         "name": "Lifetime",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png",
         "group": "Entertainment",
@@ -609,6 +602,13 @@
         "group": "Entertainment",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
         "url": "https://latv-rcn-xtra-1-mx.tcl.wurl.tv/playlist.m3u8"
+      },
+      {
+        "name": "Vive Kanal D Drama (1080p)",
+        "logo": "https://i.imgur.com/WIeZMKT.png",
+        "group": "Entertainment",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://thema-vivekanald-rakuten.amagi.tv/playlist.m3u8"
       }
     ],
     "Religious": [
