@@ -6348,7 +6348,7 @@
     "img": "https://live.fanmingming.cn/tv/睛彩广场舞.png"
   },
   {
-    "name": "纪实科教8K",
+    "name": "北京纪实科教8K",
     "type": "数字频道",
     "url": "https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
@@ -6687,6 +6687,12 @@
     "name": "HOY TV",
     "type": "港澳台频道",
     "url": "http://cdn.132.us.kg/live/hoy/stream.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "凤凰电影",
+    "type": "港澳台频道",
+    "url": "https://ali.hlspull.yximgs.com/live/diyp_fhdy.flv",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9276,12 +9282,6 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "北京新闻",
-    "type": "地方频道",
-    "url": "https://satellitepull.cnr.cn/live/wxbjxwgb/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "北京生活",
     "type": "地方频道",
     "url": "https://wstvcpudali.v.myalicdn.com/wstvcpud/udrmbtv7_1/index.m3u8?adapt=0&BR=audio",
@@ -9528,18 +9528,6 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "无锡娱乐",
-    "type": "地方频道",
-    "url": "https://stream.thmz.com/wxtv2/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "无锡经济",
-    "type": "地方频道",
-    "url": "https://stream.thmz.com/wxtv5/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "昌黎",
     "type": "地方频道",
     "url": "https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8",
@@ -9666,21 +9654,9 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "湖州文化娱乐",
-    "type": "地方频道",
-    "url": "https://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "灌阳新闻综合",
     "type": "地方频道",
     "url": "https://ls.qingting.fm/live/5043/64k.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "甘南县综合",
-    "type": "地方频道",
-    "url": "https://rmplive.hljtv.com/live/gannan.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10497,72 +10473,42 @@
     "name": "BBC",
     "type": "国际",
     "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8",
-    "img": "https://ghp.ci/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/BBCNEWS.png"
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "CNN",
     "type": "国际",
-    "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58646_dark_360w_270h.png"
+    "url": "https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "ABC7",
+    "type": "国际",
+    "url": "http://fl1.moveonjoy.com/ABC_EAST/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "ABC News Live",
+    "type": "国际",
+    "url": "https://livetv-fa.tubi.video/abc-news/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "CGTN",
     "type": "国际",
     "url": "https://english-livebkws.cgtn.com/live/encgtn.m3u8",
-    "img": "https://epg.112114.xyz/logo/CGTN.png"
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "CGTN Documentary",
     "type": "国际",
     "url": "https://english-livebkali.cgtn.com/live/doccgtn.m3u8",
-    "img": "https://live.fanmingming.com/tv/CGTN纪录.png"
-  },
-  {
-    "name": "ABC News Live",
-    "type": "国际",
-    "url": "https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png"
-  },
-  {
-    "name": "GB News",
-    "type": "国际",
-    "url": "https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8",
-    "img": "https://echolin73.github.io/logo/tvg-logo/gbnews.png"
-  },
-  {
-    "name": "Comedy Dynamics",
-    "type": "国际",
-    "url": "https://aegis-cloudfront-1.tubi.video/427cd05d-a47b-4b16-a2fe-5e739da93966/playlist.m3u8",
-    "img": "https://i.imgur.com/1lEvUOa.png"
-  },
-  {
-    "name": "One American News",
-    "type": "国际",
-    "url": "http://oneamericanews-roku-us.amagi.tv/playlist.m3u8",
-    "img": "http://cdn.tvpassport.com/image/station/240x135/oan-news.png"
-  },
-  {
-    "name": "Kids TV",
-    "type": "国际",
-    "url": "https://jansonmedia-kidstv-1-us.xiaomi.wurl.tv/playlist.m3u8",
-    "img": "https://rubbyguntara.github.io/src/img/kidstv.png"
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "RT Documentary",
     "type": "国际",
     "url": "https://rt-rtd.rttv.com/live/rtdoc/playlist_4500Kb.m3u8",
-    "img": "https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RTDoc.png"
-  },
-  {
-    "name": "Mytime",
-    "type": "国际",
-    "url": "https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8",
-    "img": "https://epg.112114.xyz/logo/MYTIMEMOVIE.png"
-  },
-  {
-    "name": "ION Plus",
-    "type": "国际",
-    "url": "https://dbrb49pjoymg4.cloudfront.net/10001/9999614/hls/playlist.m3u8?ads.xumo_channelId=9999614",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10575,43 +10521,31 @@
     "name": "Travel XP",
     "type": "国际",
     "url": "https://travelxp-travelxp-1-eu.xiaomi.wurl.tv/playlist.m3u8",
-    "img": "https://raw.githubusercontent.com/RW1986/IPTV/main/logos/TravelXP.png"
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "Food",
     "type": "国际",
     "url": "https://food-eu.xiaomi.wurl.tv/playlist.m3u8",
-    "img": "https://imgur.com/HTLo1GG"
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Tastemade",
+    "name": "TNT",
     "type": "国际",
-    "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tmintlaus-samsungnz/playlist.m3u8?checkedby:alliptvlinks.com",
-    "img": "https://github.com/inspirationlinks/m3u/raw/live/Logos/TastemadeTravel.webp"
-  },
-  {
-    "name": "Rakuten VIKI",
-    "type": "国际",
-    "url": "https://dce1408e0efa4bc4b6ca1366c56911fb.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Plex_RakutenViki/playlist.m3u8?ads.wurl_channel=843&ads.wurl_name=RakutenViki&ads.coppa=0&ads.us_privacy=1---&ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&ads.targetopt=0&ads.plex_token=tzFRBf5UEBHD_vbznsUx&ads.plex_id=60d4edd8b2fdec002c14112f&ads.ua=okhttp/4.9.0&ads.app_bundle=com.plexapp.android&ads.app_store_url=https://play.google.com/store/apps/details?id=com.plexapp.android&ads.gdpr=0&ads.consent=0&ads.device_type=handset&ads.device_id_type=&checkedby:alliptvlinks.com",
-    "img": "https://github.com/inspirationlinks/m3u/raw/live/Logos/rakutenviki.png"
-  },
-  {
-    "name": "Sky Sports F1",
-    "type": "国际",
-    "url": "http://cord-cutter.net:8080/25464931/30585186/35244?checkedby:alliptvlinks.com",
-    "img": "https://github.com/inspirationlinks/m3u/raw/live/LogosTv/skySportPlus.webp"
+    "url": "http://fl5.moveonjoy.com/NBA_1/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "AMC",
     "type": "国际",
     "url": "http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10021_dark_360w_270h.png"
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "Cooking Channel",
     "type": "国际",
     "url": "http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30156_dark_360w_270h.png"
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "California Music Channel",
@@ -10623,547 +10557,157 @@
     "name": "Xplore TV",
     "type": "国际",
     "url": "https://aegis-cloudfront-1.tubi.video/8d2bf7b1-0e93-405f-8c15-ac0756d05f66/playlist.m3u8",
-    "img": "https://github.com/inspirationlinks/m3u/raw/live/Logos/Xplore.png"
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "MovieSphere",
     "type": "国际",
     "url": "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8",
-    "img": "https://images.pluto.tv/channels/6401d85a49839300087b116c/colorLogoPNG.png"
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Kevin Hart's LOL! Network",
+    "name": "American Heroes Channel",
     "type": "国际",
-    "url": "https://lol-lolnetwork-2-nl.samsung.wurl.tv/playlist.m3u8",
-    "img": "https://i.imgur.com/Tiy3Ur2.png"
+    "url": "http://fl3.moveonjoy.com/American_Heroes_Channel/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "A&E",
+    "name": "Aspire",
     "type": "国际",
-    "url": "https://v5.thetvapp.to/hls/AEEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/a-and-e-us.png"
+    "url": "http://fl3.moveonjoy.com/Aspire/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "AMC - Eastern Feed",
+    "name": "Bounce",
     "type": "国际",
-    "url": "https://v16.thetvapp.to/hls/AMCEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10021_dark_360w_270h.png"
+    "url": "http://fl3.moveonjoy.com/BOUNCE_TV/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Altitude Sports Denver",
+    "name": "Buzzr",
     "type": "国际",
-    "url": "https://v2.thetvapp.to/hls/altitude-sports-denver/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/altitude-sports-us.png?raw=true"
+    "url": "http://fl3.moveonjoy.com/Buzzr/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Animal Planet US - East",
+    "name": "CBS News",
     "type": "国际",
-    "url": "https://v4.thetvapp.to/hls/AnimalPlanetEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/animal-planet-us.png"
+    "url": "http://fl3.moveonjoy.com/CBS_News/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "BBC News - North America HD",
+    "name": "Cleo TV",
     "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/BBCWorldNewsNorthAmerica/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png"
+    "url": "http://fl3.moveonjoy.com/Cleo_TV/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Big Ten Network",
+    "name": "CMT",
     "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/BTN/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/big-ten-network-us.png?raw=true"
+    "url": "http://fl3.moveonjoy.com/CMT/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "BRAVO USA",
+    "name": "CNBC FHD",
     "type": "国际",
-    "url": "https://v4.thetvapp.to/hls/BravoEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10057_dark_360w_270h.png"
+    "url": "http://fl5.moveonjoy.com/CNBC/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "C-SPAN",
+    "name": "Comedy Central",
     "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/CSPAN/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png"
+    "url": "http://fl3.moveonjoy.com/Comedy_Central/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "C-SPAN 2",
+    "name": "COMET",
     "type": "国际",
-    "url": "https://v13.thetvapp.to/hls/CSPAN2/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/c-span-2-us.png"
+    "url": "http://fl3.moveonjoy.com/COMET/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": ".CA.us\" tvg-logo=\"https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/us-local/cbs-2-kcbs-us.png\" group-title=\"国际\",CBSLA (KCBS) Los Angeles",
+    "name": "COZI TV",
     "type": "国际",
-    "url": "https://v18.thetvapp.to/hls/cbs-kcbs-los-angeles-ca/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/us-local/cbs-2-kcbs-us.png"
+    "url": "http://fl3.moveonjoy.com/COZI_TV/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": ".NY.us\" tvg-logo=\"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/us-local/cbs-2-wcbs-us.png\" group-title=\"国际\",CBSNY (WCBS) New York",
+    "name": "Crime Investigation",
     "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/WCBSDT1/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/us-local/cbs-2-wcbs-us.png"
+    "url": "http://fl3.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "CMT US - Eastern Feed",
+    "name": "Destination America",
     "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/CMTEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10138_dark_360w_270h.png"
+    "url": "http://fl3.moveonjoy.com/Destination_America/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "CNBC USA",
+    "name": "Discovery Channel",
     "type": "国际",
-    "url": "https://v16.thetvapp.to/hls/CNBC/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10139_dark_360w_270h.png"
+    "url": "http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "CW (WDCW) District of Columbia",
+    "name": "Discovery Science",
     "type": "国际",
-    "url": "https://v4.thetvapp.to/hls/cw-wdcw-district-of-columbia/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cw-us.png"
+    "url": "http://fl3.moveonjoy.com/Discovery_Science/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "CARTOON NETWORK USA - Eastern Feed",
+    "name": "FOX (WNYW)",
     "type": "国际",
-    "url": "https://v5.thetvapp.to/hls/CartoonNetworkEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12131_dark_360w_270h.png"
+    "url": "http://fl1.moveonjoy.com/FOX_EAST/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Chicago Sports Network",
+    "name": "FOX Soul",
     "type": "国际",
-    "url": "https://v2.thetvapp.to/hls/chicago-sports-network/tracks-v1a1/mono.m3u8",
-    "img": "https://upload.wikimedia.org/wikipedia/en/6/68/Chicago_Sports_Network_Logo.png"
+    "url": "http://fl1.moveonjoy.com/FOX_SOUL/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "CINEMAX - Eastern Feed",
+    "name": "ION Plus",
     "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/CinemaxEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cinemax-us.png"
+    "url": "http://fl3.moveonjoy.com/ION_Plus/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "COMEDY CENTRAL (US) - Eastern Feed",
+    "name": "MSG",
     "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/ComedyCentralEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10149_dark_360w_270h.png"
+    "url": "http://fl3.moveonjoy.com/MSG/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Crime + Investigation USA HD",
+    "name": "NBA TV",
     "type": "国际",
-    "url": "https://v5.thetvapp.to/hls/CrimePlusInvestigation/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true"
+    "url": "http://fl5.moveonjoy.com/NBA_TV/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "DISCOVERY FAMILY CHANNEL",
+    "name": "Sony Movie",
     "type": "国际",
-    "url": "https://v13.thetvapp.to/hls/DiscoveryFamily/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16618_dark_360w_270h.png"
+    "url": "http://fl3.moveonjoy.com/Sony_Movie_Channel/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "DISNEY CHANNEL - Eastern Feed",
+    "name": "WeTV",
     "type": "国际",
-    "url": "https://v15.thetvapp.to/hls/DisneyChannelEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10171_dark_360w_270h.png"
+    "url": "http://fl1.moveonjoy.com/WE_TV/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Disney JR USA - East",
+    "name": "Sky Sports Mix",
     "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/DisneyJuniorEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/635e715cb2f2c6d28e9691861d3d331dd040285b/countries/united-states/disney-junior-us.png"
+    "url": "https://x4new.newkso.ru/x4/skymix/mono.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Disney XD USA - Eastern Feed",
+    "name": "HBO",
     "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/DisneyXDEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/disney-xd-us.png"
-  },
-  {
-    "name": "E! Entertainment Television USA - Eastern Feed",
-    "type": "国际",
-    "url": "https://v13.thetvapp.to/hls/EEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/635e715cb2f2c6d28e9691861d3d331dd040285b/countries/united-states/e-entertainment-us.png"
-  },
-  {
-    "name": "ESPN",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/ESPN/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/espn-us.png"
-  },
-  {
-    "name": ".CA.us\" tvg-logo=\"https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/us-local/fox-11-kttv-us.png\" group-title=\"国际\",FOX (KTTV) Los Angeles",
-    "type": "国际",
-    "url": "https://v13.thetvapp.to/hls/fox-kttv-los-angeles-ca/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/us-local/fox-11-kttv-us.png"
-  },
-  {
-    "name": ".NY.us\" tvg-logo=\"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-us.png\" group-title=\"国际\",FOXNY",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/WNYWDT1/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-us.png"
-  },
-  {
-    "name": "FX Movie Channel",
-    "type": "国际",
-    "url": "https://v15.thetvapp.to/hls/FXMovieChannel/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fxm-movie-channel-us.png"
-  },
-  {
-    "name": "FX Networks East Coast",
-    "type": "国际",
-    "url": "https://v12.thetvapp.to/hls/FXEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14321_dark_360w_270h.png"
-  },
-  {
-    "name": "FXX USA - Eastern",
-    "type": "国际",
-    "url": "https://v15.thetvapp.to/hls/FXXEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fxx-us.png"
-  },
-  {
-    "name": "FYI USA - Eastern",
-    "type": "国际",
-    "url": "https://v15.thetvapp.to/hls/FYIEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fyi-us.png"
-  },
-  {
-    "name": "FanDuel SN Oklahoma",
-    "type": "国际",
-    "url": "https://v5.thetvapp.to/hls/fanduel-sports-network-oklahoma/tracks-v1a1/mono.m3u8",
-    "img": "https://i.imgur.com/mx7lyh5.png"
-  },
-  {
-    "name": "Fox Business Network",
-    "type": "国际",
-    "url": "https://v1.thetvapp.to/hls/FoxBusiness/index.m3u8",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/512px-Fox_Business.svg.png"
-  },
-  {
-    "name": "FOOD NETWORK USA - Eastern Feed",
-    "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/FoodNetworkEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12574_dark_360w_270h.png"
-  },
-  {
-    "name": "Fox Sports 2",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/FoxSports2/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-sports-2-us.png"
-  },
-  {
-    "name": "HBO - Eastern Feed",
-    "type": "国际",
-    "url": "https://v18.thetvapp.to/hls/HBOEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-us.png"
-  },
-  {
-    "name": "HBO 2 - Eastern Feed",
-    "type": "国际",
-    "url": "https://v16.thetvapp.to/hls/HBO2East/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68140_dark_360w_270h.png"
-  },
-  {
-    "name": "HBO Family - Eastern Feed",
-    "type": "国际",
-    "url": "https://v13.thetvapp.to/hls/HBOFamilyEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16585_dark_360w_270h.png"
-  },
-  {
-    "name": "HBO Signature (HBO 3) - Eastern",
-    "type": "国际",
-    "url": "https://v15.thetvapp.to/hls/HBOSignatureEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-signature-us.png"
-  },
-  {
-    "name": "HBO Zone HD - East",
-    "type": "国际",
-    "url": "https://v4.thetvapp.to/hls/HBOZoneEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18431_dark_360w_270h.png"
-  },
-  {
-    "name": "HGTV USA - Eastern Feed",
-    "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/HGTVEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14902_dark_360w_270h.png"
-  },
-  {
-    "name": "HLN",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/HLN/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10145_dark_360w_270h.png"
-  },
-  {
-    "name": "Hallmark Mystery - HD",
-    "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/HallmarkMoviesMysteriesEast/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-mystery-us.png?raw=true"
-  },
-  {
-    "name": "ION - Eastern Feed",
-    "type": "国际",
-    "url": "https://v8.thetvapp.to/hls/IONTVEast/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/ion-television-us.png?raw=true"
-  },
-  {
-    "name": "IFC Independent Film Channel US",
-    "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/IFCEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/ifc-us.png"
-  },
-  {
-    "name": "LOGO - East",
-    "type": "国际",
-    "url": "https://v8.thetvapp.to/hls/LogoEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/logo-us.png"
-  },
-  {
-    "name": "Lifetime Movies Network - East",
-    "type": "国际",
-    "url": "https://v12.thetvapp.to/hls/LifetimeMoviesEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18480_dark_360w_270h.png"
-  },
-  {
-    "name": "Lifetime Network US - Eastern Feed",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/LifetimeEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/lifetime-us.png"
-  },
-  {
-    "name": "MLB Network",
-    "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/MLBNetwork/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62081_dark_360w_270h.png"
-  },
-  {
-    "name": "MSG Madison Square Gardens",
-    "type": "国际",
-    "url": "https://v16.thetvapp.to/hls/msg-madison-square-gardens/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/msg-us.png"
-  },
-  {
-    "name": "MTV 2 East",
-    "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/MTVEast/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-2-us.png?raw=true"
-  },
-  {
-    "name": "Marquee Sports Network",
-    "type": "国际",
-    "url": "https://v8.thetvapp.to/hls/marquee-sports-network/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/marquee-sports-network-us.png"
-  },
-  {
-    "name": "MeTV Toons (WJLP2) New Jersey",
-    "type": "国际",
-    "url": "https://v2.thetvapp.to/hls/metv-toons/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/me-tv-toons-us.png"
-  },
-  {
-    "name": "Midatlantic Sports Network",
-    "type": "国际",
-    "url": "https://v13.thetvapp.to/hls/midatlantic-sports-network/tracks-v1a1/mono.m3u8",
-    "img": "https://upload.wikimedia.org/wikipedia/en/e/e5/MASN-Logo.png"
-  },
-  {
-    "name": "Monumental Sports Network",
-    "type": "国际",
-    "url": "https://v5.thetvapp.to/hls/monumental-sports-network/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/monumental-sports-network-us.png"
-  },
-  {
-    "name": "CINEMAX MOREMAX Eastern",
-    "type": "国际",
-    "url": "https://v18.thetvapp.to/hls/MoreMaxEast/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moremax-us.png?raw=true"
-  },
-  {
-    "name": "Motor Trend HD",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/Motortrend/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/motor-trend-us.png"
-  },
-  {
-    "name": "MovieMax (Max 6) - East",
-    "type": "国际",
-    "url": "https://v16.thetvapp.to/hls/MovieMaxEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cinemax-moviemax-us.png"
-  },
-  {
-    "name": "NBA TV USA",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/NBATV/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nba-tv-us.png?raw=true"
-  },
-  {
-    "name": ".CA.us\" tvg-logo=\"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/us-local/nbc-4-knbc-us.png\" group-title=\"国际\",NBC (KNBC) Los Angeles",
-    "type": "国际",
-    "url": "https://v13.thetvapp.to/hls/nbc-knbc-los-angeles-ca/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/us-local/nbc-4-knbc-us.png"
-  },
-  {
-    "name": ".NY.us\" tvg-logo=\"https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-flat-us.png?raw=true\" group-title=\"国际\",NY",
-    "type": "国际",
-    "url": "https://v12.thetvapp.to/hls/WNBCDT1/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-flat-us.png?raw=true"
-  },
-  {
-    "name": "NBC Sports Bay Area",
-    "type": "国际",
-    "url": "https://v13.thetvapp.to/hls/nbc-sports-bay-area/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-sports-us.png?raw=true"
-  },
-  {
-    "name": "NBC Sports Boston",
-    "type": "国际",
-    "url": "https://v12.thetvapp.to/hls/nbc-sports-boston/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-sports-us.png?raw=true"
-  },
-  {
-    "name": "NBC Sports California",
-    "type": "国际",
-    "url": "https://v16.thetvapp.to/hls/nbc-sports-california/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbcsn-california-us.png?raw=true"
-  },
-  {
-    "name": "NBC Sports Philadelphia",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/nbc-sports-philadelphia/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbcsn-philadelphia-us.png?raw=true"
-  },
-  {
-    "name": "NFL RedZone",
-    "type": "国际",
-    "url": "https://v13.thetvapp.to/hls/NFLRedZone/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-red-zone-hz-us.png?raw=true"
-  },
-  {
-    "name": "NHL Network USA",
-    "type": "国际",
-    "url": "https://v17.thetvapp.to/hls/NHLNetwork/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/nhl-network-us.png"
-  },
-  {
-    "name": "National Geographic US - Eastern",
-    "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/NationalGeographicEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png"
-  },
-  {
-    "name": "National Geographic Wild",
-    "type": "国际",
-    "url": "https://v5.thetvapp.to/hls/NationalGeographicWildEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s66804_dark_360w_270h.png"
-  },
-  {
-    "name": "New England Sports Network",
-    "type": "国际",
-    "url": "https://v8.thetvapp.to/hls/new-england-sports-network/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/nesn-us.png"
-  },
-  {
-    "name": "Newsmax TV",
-    "type": "国际",
-    "url": "https://v8.thetvapp.to/hls/NewsmaxTV/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/635e715cb2f2c6d28e9691861d3d331dd040285b/countries/united-states/newsmax-tv-us.png"
-  },
-  {
-    "name": "NICK JR. - East",
-    "type": "国际",
-    "url": "https://v4.thetvapp.to/hls/NickJrEast/tracks-v1a1/mono.m3u8",
-    "img": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/nick-jr-us.png"
-  },
-  {
-    "name": "Nickelodeon USA - East Feed",
-    "type": "国际",
-    "url": "https://v15.thetvapp.to/hls/NickelodeonEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11006_dark_360w_270h.png"
-  },
-  {
-    "name": "Outdoor Channel US",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/OutdoorChannel/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14776_dark_360w_270h.png"
-  },
-  {
-    "name": "Oxygen - Eastern Feed",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/OxygenEast/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/oxygen-us.png?raw=true"
-  },
-  {
-    "name": "Showtime - Eastern Feed",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/ShowtimeEast/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true"
-  },
-  {
-    "name": "Starz - Eastern",
-    "type": "国际",
-    "url": "https://v8.thetvapp.to/hls/StarzEast/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true"
-  },
-  {
-    "name": "SYFY - Eastern Feed",
-    "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/SyfyEast/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/syfy-us.png?raw=true"
-  },
-  {
-    "name": "TBS - East",
-    "type": "国际",
-    "url": "https://v13.thetvapp.to/hls/TBSEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11867_dark_360w_270h.png"
-  },
-  {
-    "name": "TLC USA - Eastern",
-    "type": "国际",
-    "url": "https://v16.thetvapp.to/hls/TLCEast/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11158_dark_360w_270h.png"
-  },
-  {
-    "name": "TSN 2",
-    "type": "国际",
-    "url": "https://v4.thetvapp.to/hls/tsn2/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-2-ca.png?raw=true"
-  },
-  {
-    "name": "TSN 3",
-    "type": "国际",
-    "url": "https://v3.thetvapp.to/hls/tsn3/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-3-ca.png?raw=true"
-  },
-  {
-    "name": "TSN 4",
-    "type": "国际",
-    "url": "https://v2.thetvapp.to/hls/tsn4/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-4-ca.png?raw=true"
-  },
-  {
-    "name": "TSN 5",
-    "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/tsn5/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-5-ca.png?raw=true"
-  },
-  {
-    "name": "The Cooking Channel",
-    "type": "国际",
-    "url": "https://v18.thetvapp.to/hls/CookingChannel/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30156_dark_360w_270h.png"
-  },
-  {
-    "name": "VH1 - Eastern Feed",
-    "type": "国际",
-    "url": "https://v17.thetvapp.to/hls/VH1East/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11218_dark_360w_270h.png"
-  },
-  {
-    "name": "VICE",
-    "type": "国际",
-    "url": "https://v12.thetvapp.to/hls/VICETV/tracks-v1a1/mono.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18822_dark_360w_270h.png"
-  },
-  {
-    "name": "WETV (Women's Entertainment) - Eastern",
-    "type": "国际",
-    "url": "https://v14.thetvapp.to/hls/WeTVEast/tracks-v1a1/mono.m3u8",
-    "img": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/we-tv-us.png?raw=true"
+    "url": "https://x4new.newkso.ru/x4/ustvhbo/mono.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "精品体育",
@@ -11196,139 +10740,43 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "丽江古城大研花巷观景",
+    "name": "乌镇蓝印花布",
     "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/ljgcdyhxgjt_1/index.m3u8",
+    "url": "https://gcalic.v.myalicdn.com/gc/zjwzlyhb_1/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "云南大理崇圣寺三塔中景",
+    "name": "乌镇西市河",
     "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/dlst03_1/index.m3u8",
+    "url": "https://gcalic.v.myalicdn.com/gc/zjwzbblh_1/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "云南大理崇圣寺三塔远景",
+    "name": "四川峨眉山远眺贡嘎雪山",
     "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/dlst01_1/index.m3u8",
+    "url": "https://gcalic.v.myalicdn.com/gc/emsyh_1/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "五彩池",
+    "name": "天涯石",
     "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/hlwcc_1/index.m3u8",
+    "url": "https://gcalic.v.myalicdn.com/gc/tyhjtys_1/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "厦门鼓浪屿",
+    "name": "泰山主峰",
     "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/gly01_1/index.m3u8",
+    "url": "https://gcalic.v.myalicdn.com/gc/taishan01_1/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "四川峨眉山普贤菩萨铜像",
+    "name": "泰山白云亭悬崖",
     "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/emspxps_1/index.m3u8",
+    "url": "https://gcalic.v.myalicdn.com/gc/hkts02_1/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "四川峨眉山远眺万佛顶",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/emswfs_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "广西桂林漓江景区",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/gllj01_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "江苏徐州云龙湖风景区云龙山观景台西",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/ylh04_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "泰山大观峰",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/taishan03_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "泰山太平岭",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/hkts09_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "泰山玉皇顶",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/taishan06_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "泰山碧霞祠",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/hkts03_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "湖南张家界天门山西线玻璃栈道",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/tms05_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "湖南张家界水绕四门",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/zjjsrsm_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "福建武夷山玉女峰",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/wysynf_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "陕西洋县国宝朱鹮02",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/zh02_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "雪乡大石碑",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/mdjxxdsb_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "雪乡梦幻家园",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/mdjxxmhjyxj_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "青岛崂山八水河",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/qdls02_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "青岛崂山双福",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/qdls03_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "黄山始信新道",
-    "type": "直播中国",
-    "url": "https://gcalic.v.myalicdn.com/gc/hsyg_1/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "2025-05-14 12:33:31",
+    "name": "2025-05-14 18:39:29",
     "type": "更新时间",
     "url": "https://vd3.bdstatic.com/mda-rdh9curp2kc75hrq/720p/h264/1744958251391294564/mda-rdh9curp2kc75hrq.mp4",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
