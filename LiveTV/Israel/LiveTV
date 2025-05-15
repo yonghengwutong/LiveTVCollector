@@ -2,7 +2,7 @@
   {
     "name": "CNBC (US)",
     "type": "Market Open and Close",
-    "url": "https://v14.thetvapp.to/hls/CNBC/tracks-v2a1/mono.m3u8?token=b2u1ee4VnbsyWKHbIZbX1w&expires=1746690669&user_id=aWlORlc2MHRGY3lSZTRKakVZMFMxZXplNXNrVFpaVmV2bnk1cG12Vw==",
+    "url": "https://v5.thetvapp.to/hls/CNBC/tracks-v2a1/mono.m3u8?token=BKRwry3sx5CSlEh3qa4dTw&expires=1747320209&user_id=ZzFNZ3V4cHF1aWxqQ0Vrd0ZJelBIYmxsUm02M1VwaDFLb2laOGFJWg==",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -86,7 +86,7 @@
   {
     "name": "FOX BUSINESS CHANNEL",
     "type": "Market Open and Close",
-    "url": "https://v1.thetvapp.to/hls/FoxBusiness/index.m3u8",
+    "url": "https://v12.thetvapp.to/hls/FoxBusiness/tracks-v2a1/mono.m3u8?token=a2Tb3tvKBeymxwb5CaA2_Q&expires=1747320302&user_id=ZzFNZ3V4cHF1aWxqQ0Vrd0ZJelBIYmxsUm02M1VwaDFLb2laOGFJWg==",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -177,6 +177,12 @@
     "name": "DW English",
     "type": "TIN TỨC QUỐC TẾ",
     "url": "http://p1.cvtv.xyz:81/dw?token=live",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/1200px-Deutsche_Welle_symbol_2012.svg.png"
+  },
+  {
+    "name": "FOX NEWS US",
+    "type": "TIN TỨC QUỐC TẾ",
+    "url": "https://v17.thetvapp.to/hls/FoxNewsChannel/tracks-v2a1/mono.m3u8?token=yTqp7NACrKHuItjlL2aoQQ&expires=1747320351&user_id=ZzFNZ3V4cHF1aWxqQ0Vrd0ZJelBIYmxsUm02M1VwaDFLb2laOGFJWg==",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/1200px-Deutsche_Welle_symbol_2012.svg.png"
   },
   {
@@ -1562,7 +1568,7 @@
   {
     "name": "Korean Central Television / Đài Truyền Hình Trung uơng Triều Tiên (KCTV)",
     "type": "Uncategorized",
-    "url": "http://aktv_stream.m16tv.cfd/stream/nknews/null/AKTV.m3u8",
+    "url": "https://tv.nknews.org/tvdash/stream.mpd",
     "img": "https://i.imgur.com/p02AEOF.png"
   },
   {
@@ -2631,6 +2637,18 @@
     "name": "Amazing Huế",
     "type": "Youtube Live",
     "url": "https://www.youtube.com/channel/UCe7O-UJ6fWL9P6hkLPyMHig/live",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Sekretariat President",
+    "type": "Youtube Live",
+    "url": "https://www.youtube.com/@SekretariatPresiden/live",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "ASEAN Secretariat",
+    "type": "Youtube Live",
+    "url": "https://www.youtube.com/@aseansecretariatofficial/live",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -4101,19 +4119,19 @@
     "name": "Radio Vatican Italiano",
     "type": "QUỐC TẾ",
     "url": "https://radio.vaticannews.va/stream-it",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMkSARXTUSTGAUZWgpf6UcbRH6Q-v9q2a0HQYq7RevrmwFpRDu5ZmIhuoseLAqpmzl6g&usqp=CAU"
+    "img": "https://i.ibb.co/9kXMnkYN/2.jpg"
   },
   {
     "name": "Radio Vatican English",
     "type": "QUỐC TẾ",
     "url": "https://radio.vaticannews.va/stream-en",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMkSARXTUSTGAUZWgpf6UcbRH6Q-v9q2a0HQYq7RevrmwFpRDu5ZmIhuoseLAqpmzl6g&usqp=CAU"
+    "img": "https://i.ibb.co/354QKwt7/3.jpg"
   },
   {
     "name": "Radio Vatican Tieng Viet",
     "type": "QUỐC TẾ",
     "url": "https://radio.vaticannews.va/stream-vi",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMkSARXTUSTGAUZWgpf6UcbRH6Q-v9q2a0HQYq7RevrmwFpRDu5ZmIhuoseLAqpmzl6g&usqp=CAU"
+    "img": "https://i.ibb.co/YBWjdh7X/1.jpg"
   },
   {
     "name": "Rai Radio 1",
@@ -4606,6 +4624,12 @@
     "type": "QUỐC TẾ",
     "url": "https://stream2.datacenter.by/radiusfm_main",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGjdTHd0tOsN48OKDz000SwRfIdHc6RopyTM6u3QvRUpCEma8j6Z_lIbcRNcy-YQZZkg&usqp=CAU"
+  },
+  {
+    "name": "Center FM",
+    "type": "QUỐC TẾ",
+    "url": "https://centrfm.dc.beltelecom.by/centrfm/livestream/playlist.m3u8",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmuObFlsTJwmGjrfGA_K3UT7r5OfLKiTg0AA&s"
   },
   {
     "name": "Aplus FM",
@@ -6488,19 +6512,19 @@
   {
     "name": "NHK Radio 1",
     "type": "QUỐC TẾ",
-    "url": "https://radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8",
+    "url": "https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8",
     "img": "https://static.wikia.nocookie.net/logopedia/images/b/bf/NHK_Radio_1_%282020%29.svg/revision/latest?cb=20210516114917"
   },
   {
     "name": "NHK Radio 2",
     "type": "QUỐC TẾ",
-    "url": "https://radio-stream.nhk.jp/hls/live/2023501/nhkradiruakr2/master48k.m3u8",
+    "url": "https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023501/nhkradiruakr2/master48k.m3u8",
     "img": "http://gg.gg/19dbe9"
   },
   {
     "name": "NHK FM",
     "type": "QUỐC TẾ",
-    "url": "https://radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8",
+    "url": "https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8",
     "img": "http://gg.gg/19dbed"
   },
   {
@@ -6924,7 +6948,7 @@
     "img": "https://live.fanmingming.cn/radio/rthk.png"
   },
   {
-    "name": "RTHK Putonghua",
+    "name": "RTHK Radio Putonghua",
     "type": "QUỐC TẾ",
     "url": "https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/index_56_a-p.m3u8",
     "img": "https://live.fanmingming.cn/radio/rthk.png"
@@ -6954,40 +6978,52 @@
     "img": "https://cdn-radiotime-logos.tunein.com/s120798g.png"
   },
   {
+    "name": "Radio Lantau",
+    "type": "QUỐC TẾ",
+    "url": "https://radio.dripfeed.net/listen/radiolantau/radio.mp3",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK8he6l8vxdRHBBcqFUGMMjH-1jWBBSQxANw&s"
+  },
+  {
     "name": "Digital Radio Hong Kong",
     "type": "QUỐC TẾ",
     "url": "http://ice.digitalradiohk.net:8000/drhk",
     "img": "https://cdn-radiotime-logos.tunein.com/s189322d.png"
   },
   {
-    "name": "D100 Radio 1",
+    "name": "D100 PBS Channel",
     "type": "QUỐC TẾ",
     "url": "http://live.d100.net:8000/Channel1-128AAC",
-    "img": "https://upload.wikimedia.org/wikipedia/zh/d/dc/D100_Logo1.pngg"
+    "img": "https://i.ibb.co/qM1p8jBj/4.jpg"
   },
   {
-    "name": "D100 Radio 2",
+    "name": "D100 Radio HK",
     "type": "QUỐC TẾ",
     "url": "http://live.d100.net:8000/Channel2-128AAC-Backup",
-    "img": "https://upload.wikimedia.org/wikipedia/zh/d/dc/D100_Logo1.png"
+    "img": "https://i.ibb.co/wFsr1rYs/5.jpg"
   },
   {
     "name": "D100 Radio 3",
     "type": "QUỐC TẾ",
     "url": "http://live.d100.net:8000/Channel3-128AAC-Backup",
-    "img": "https://upload.wikimedia.org/wikipedia/zh/d/dc/D100_Logo1.png"
+    "img": "https://i.ibb.co/7NGm0gVg/6.jpg"
   },
   {
     "name": "D100 Radio 4",
     "type": "QUỐC TẾ",
     "url": "http://live.d100.net:8000/Channel4-128AAC-Backup",
-    "img": "https://upload.wikimedia.org/wikipedia/zh/d/dc/D100_Logo1.png"
+    "img": "https://i.ibb.co/xSCVxcGx/7.jpg"
   },
   {
     "name": "AXR HONG KONG",
     "type": "QUỐC TẾ",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/AXR_HONGKONGAAC.aac",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6y-B29nNPSl53I2a21cDH72Uvl5JE2r5RgA&s"
+  },
+  {
+    "name": "CapitalDisko Hong Kong",
+    "type": "QUỐC TẾ",
+    "url": "https://sr2.inmystream.it/proxy/capitaldisko?mp=/stream/;stream.mp3",
+    "img": "https://i1.sndcdn.com/artworks-oizE6Zuak9ePJhMW-mLUb3g-t500x500.jpg"
   },
   {
     "name": "TDM Radio Cantonese",
@@ -7536,16 +7572,34 @@
     "img": "https://rtb-images.glueapi.io/320x0/radio/nasional-title.png"
   },
   {
-    "name": "Radyo Pilipinas - Radyo Publiko",
+    "name": "Kristal FM",
     "type": "QUỐC TẾ",
-    "url": "http://58.97.187.52:5001/rp1",
+    "url": "https://play.thestreamtech.com:7038",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRga_Xcqnjioxy2B5-yZ26Fcw0qaFVtDwb-0A&s"
+  },
+  {
+    "name": "Radyo Pilipinas 1 - Radyo Publiko",
+    "type": "QUỐC TẾ",
+    "url": "https://audio.amfm.link:8020/radyopilipinas1",
     "img": "https://upload.wikimedia.org/wikipedia/commons/8/87/RP-RadyoPubliko-logo.png"
   },
   {
-    "name": "Radyo Pilipinas - Radyo Magasin",
+    "name": "Radyo Pilipinas 2 - Radyo Sport",
     "type": "QUỐC TẾ",
-    "url": "http://122.53.138.32:8000/dzrm.mp3",
+    "url": "https://audio.amfm.link:8020/radyopilipinas2",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/8/87/RP-RadyoPubliko-logo.png"
+  },
+  {
+    "name": "Radyo Pilipinas 3 - Radyo Magasin",
+    "type": "QUỐC TẾ",
+    "url": "https://audio.amfm.link:8020/radyopilipinas3",
     "img": "https://upload.wikimedia.org/wikipedia/en/8/83/DZRM_Radyo_Magasin_1278_2025_logo.png"
+  },
+  {
+    "name": "Radyo Pilipinas World Service",
+    "type": "QUỐC TẾ",
+    "url": "http://58.97.187.52:5007/rp4",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3b/DZRP-SW_Radyo_Pilipinas_World_Service_Logo.jpg"
   },
   {
     "name": "87.5 Republika ni Juan",
@@ -7558,6 +7612,12 @@
     "type": "QUỐC TẾ",
     "url": "http://58.97.187.52:5007/fm2",
     "img": "https://iili.io/JmSTuh7.png"
+  },
+  {
+    "name": "Radio Veritas Vietnamese",
+    "type": "QUỐC TẾ",
+    "url": "https://livestream.rvasia.org:8443/Vietnamese.mp3",
+    "img": "https://images.radiosonline.app/64605/wrejaelanp.png"
   },
   {
     "name": "Super Radyo DZBB",
@@ -9168,7 +9228,7 @@
     "img": "https://vayofm.com/images/vayofm.png"
   },
   {
-    "name": "RTTL.EP Rádio Timor Leste",
+    "name": "RTTL Rádio Timor Leste",
     "type": "QUỐC TẾ",
     "url": "https://mediacp-id1.arenastreaming.com:2020/stream/awrtimorleste",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-H1io7ii6Zf1jsDG-c-Lc1D22gnmhJB74i808kNJmXj3gx6kzqHvtxXsrPKEG_RTcUE4&usqp=CAU"
