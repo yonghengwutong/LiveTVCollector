@@ -2192,7 +2192,7 @@ Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/C
 
 Group: Music
 Name: PMC (1080p)
-URL: https://hls.pmchd.live/hls/stream.m3u8
+URL: https://hls.pmc.live/hls/stream.m3u8
 Logo: https://i.imgur.com/AbrHI7K.png
 Source: https://iptv-org.github.io/iptv/countries/il.m3u
 --------------------------------------------------
@@ -4569,13 +4569,18 @@ URL: https://radio.bsod.kr/stream/playback.pls?stn=afn&city=humphreys
 Logo: https://img.imbc.com/broad/radio/s9_2015_main/quick/__icsFiles/afieldfile/2023/06/16/m_1_1.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: NHK World Radio
-URL: https://nhkwlive-radio.akamaized.net/hls/live/2032384/radio-rs5/index_07.m3u8
+Name: NHKWorld-Radio (Multi-Language)
+URL: https://nhkworld-radio.akamaized.net/hls/live/2115820/nhkworld-radio-rs5/index_rs5.m3u8
 Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: NHK Radio 1
-URL: https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8
+Name: NHKWorld-Japan Radio
+URL: https://nhkworld-radio.akamaized.net/hls/live/2115821/nhkworld-radio-rs4/index_rs4.m3u8
+Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: NHK-RADIO 1
+URL: https://radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8
 Logo: https://static.wikia.nocookie.net/logopedia/images/b/bf/NHK_Radio_1_%282020%29.svg/revision/latest?cb=20210516114917
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
@@ -4584,8 +4589,8 @@ URL: https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023501/nhkradiruakr2/
 Logo: http://gg.gg/19dbe9
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: NHK FM
-URL: https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8
+Name: NHK-FM
+URL: https://radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8
 Logo: http://gg.gg/19dbed
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
@@ -7177,32 +7182,37 @@ URL: https://strm.voh.com.vn/radio/channel5/playlist.m3u8
 Logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBTaAefBUzSTsL7Y6jjkcJAMzr8S8-lCxekg&s
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: LAI CHAU (FM94.1MHz)
+Name: LTV-FM - Truyền Hình Lai Châu (FM94.1MHz)
 URL: https://cloudstreamhntv.tek4tv.vn/events/laichau_radio/playlist.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: SON LA (FM96MHz)
-URL: https://cdn.sonlatv.vn/live/28595222e707a364251b8724717894baa46/playlist.m3u8
+Name: STV-FM - Truyền Hình Sơn La (FM96MHz)
+URL: https://cdn.sonlatv.vn/live/285bfb76d0d7a3c4615b853fe7a698e150c/chunklist.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: YEN BAI (FM92.1MHz)
+Name: YTV-FM - Truyền Hình Yên Bái (FM92.1MHz)
 URL: https://bk.yenbaitv.org.vn/hls/audio/livestream.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: HGTV-FM (FM92MHz)
+Name: HGTV-FM - Truyền Hình Hà Giang (FM92MHz)
 URL: https://hagiangtv.vn/radio-live
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: TUYEN QUANG RADIO (FM95.6MHz)
+Name: THLC-FM - Truyền hình Lào Cai
+URL: http://sohoa.truyenthanhthongminh.vn:80/sohoatinhlaocai
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: TTV-FM - Truyền Hình Tuyên Quang (FM95.6MHz)
 URL: https://streaming.tuyenquangtv.vn/channel/tuyenquang_radio/chunks.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: THAI NGUYEN (FM106.5MHz)
+Name: TN1-FM - Truyền Hình Thái Nguyên (FM106.5MHz)
 URL: https://radio.thainguyentv.vn/hls/livestream.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
@@ -7222,28 +7232,28 @@ URL: https://live.mediatech.vn/live/28584e20827396945f5a4fd57fadd4be21a/chunklis
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: QNR1 (FM97.8MHz)
+Name: QNR1 - TTTT Tỉnh Quảng Ninh (FM97.8MHz)
 URL: https://live.baoquangninh.vn/qtvlive/qnr1.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: QNR2 (FM94.7MHz)
+Name: QNR2 - TTTT Tỉnh Quảng Ninh (FM94.7MHz)
 URL: https://live.baoquangninh.vn/qtvlive/qnr2.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: HANOI90
+Name: HANOI90-FM - Truyền Hình Hà Nội
 URL: http://14.162.146.90:8000/HANOI90
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: HANOI96
+Name: HANOI96-FM - Truyền Hình Hà Nội
 URL: http://222.252.21.96:8000/HANOI96
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
-Name: HA NAM FM
-URL: http://sohoa.truyenthanhthongminh.vn/sohoatinhhanam
+Name: THHN-FM - Truyền hình Hà Nam
+URL: http://sohoa.truyenthanhthongminh.vn:80/sohoatinhhanam
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
@@ -7278,7 +7288,7 @@ Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
 Name: NAM DINH FM (FM97MHz)
-URL: http://sohoa.truyenthanhthongminh.vn/sohoanamdinh
+URL: http://sohoa.truyenthanhthongminh.vn:80/sohoanamdinh
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
@@ -7368,7 +7378,7 @@ Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
 Name: LAM DONG (FM97MHz)
-URL: http://118.107.85.4:1935/radio/lamdong_aac/playlist.m3u8
+URL: http://sohoa.truyenthanhthongminh.vn:80/lamdong
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------

@@ -3360,37 +3360,43 @@
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBTaAefBUzSTsL7Y6jjkcJAMzr8S8-lCxekg&s"
   },
   {
-    "name": "LAI CHAU (FM94.1MHz)",
+    "name": "LTV-FM - Truyền Hình Lai Châu (FM94.1MHz)",
     "type": "VIỆT NAM",
     "url": "https://cloudstreamhntv.tek4tv.vn/events/laichau_radio/playlist.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "SON LA (FM96MHz)",
+    "name": "STV-FM - Truyền Hình Sơn La (FM96MHz)",
     "type": "VIỆT NAM",
-    "url": "https://cdn.sonlatv.vn/live/28595222e707a364251b8724717894baa46/playlist.m3u8",
+    "url": "https://cdn.sonlatv.vn/live/285bfb76d0d7a3c4615b853fe7a698e150c/chunklist.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "YEN BAI (FM92.1MHz)",
+    "name": "YTV-FM - Truyền Hình Yên Bái (FM92.1MHz)",
     "type": "VIỆT NAM",
     "url": "https://bk.yenbaitv.org.vn/hls/audio/livestream.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "HGTV-FM (FM92MHz)",
+    "name": "HGTV-FM - Truyền Hình Hà Giang (FM92MHz)",
     "type": "VIỆT NAM",
     "url": "https://hagiangtv.vn/radio-live",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "TUYEN QUANG RADIO (FM95.6MHz)",
+    "name": "THLC-FM - Truyền hình Lào Cai",
+    "type": "VIỆT NAM",
+    "url": "http://sohoa.truyenthanhthongminh.vn:80/sohoatinhlaocai",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "TTV-FM - Truyền Hình Tuyên Quang (FM95.6MHz)",
     "type": "VIỆT NAM",
     "url": "https://streaming.tuyenquangtv.vn/channel/tuyenquang_radio/chunks.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "THAI NGUYEN (FM106.5MHz)",
+    "name": "TN1-FM - Truyền Hình Thái Nguyên (FM106.5MHz)",
     "type": "VIỆT NAM",
     "url": "https://radio.thainguyentv.vn/hls/livestream.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
@@ -3414,33 +3420,33 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "QNR1 (FM97.8MHz)",
+    "name": "QNR1 - TTTT Tỉnh Quảng Ninh (FM97.8MHz)",
     "type": "VIỆT NAM",
     "url": "https://live.baoquangninh.vn/qtvlive/qnr1.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "QNR2 (FM94.7MHz)",
+    "name": "QNR2 - TTTT Tỉnh Quảng Ninh (FM94.7MHz)",
     "type": "VIỆT NAM",
     "url": "https://live.baoquangninh.vn/qtvlive/qnr2.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "HANOI90",
+    "name": "HANOI90-FM - Truyền Hình Hà Nội",
     "type": "VIỆT NAM",
     "url": "http://14.162.146.90:8000/HANOI90",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "HANOI96",
+    "name": "HANOI96-FM - Truyền Hình Hà Nội",
     "type": "VIỆT NAM",
     "url": "http://222.252.21.96:8000/HANOI96",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "HA NAM FM",
+    "name": "THHN-FM - Truyền hình Hà Nam",
     "type": "VIỆT NAM",
-    "url": "http://sohoa.truyenthanhthongminh.vn/sohoatinhhanam",
+    "url": "http://sohoa.truyenthanhthongminh.vn:80/sohoatinhhanam",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -3482,7 +3488,7 @@
   {
     "name": "NAM DINH FM (FM97MHz)",
     "type": "VIỆT NAM",
-    "url": "http://sohoa.truyenthanhthongminh.vn/sohoanamdinh",
+    "url": "http://sohoa.truyenthanhthongminh.vn:80/sohoanamdinh",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -3590,7 +3596,7 @@
   {
     "name": "LAM DONG (FM97MHz)",
     "type": "VIỆT NAM",
-    "url": "http://118.107.85.4:1935/radio/lamdong_aac/playlist.m3u8",
+    "url": "http://sohoa.truyenthanhthongminh.vn:80/lamdong",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -6504,15 +6510,21 @@
     "img": "https://img.imbc.com/broad/radio/s9_2015_main/quick/__icsFiles/afieldfile/2023/06/16/m_1_1.png"
   },
   {
-    "name": "NHK World Radio",
+    "name": "NHKWorld-Radio (Multi-Language)",
     "type": "QUỐC TẾ",
-    "url": "https://nhkwlive-radio.akamaized.net/hls/live/2032384/radio-rs5/index_07.m3u8",
+    "url": "https://nhkworld-radio.akamaized.net/hls/live/2115820/nhkworld-radio-rs5/index_rs5.m3u8",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s"
   },
   {
-    "name": "NHK Radio 1",
+    "name": "NHKWorld-Japan Radio",
     "type": "QUỐC TẾ",
-    "url": "https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8",
+    "url": "https://nhkworld-radio.akamaized.net/hls/live/2115821/nhkworld-radio-rs4/index_rs4.m3u8",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s"
+  },
+  {
+    "name": "NHK-RADIO 1",
+    "type": "QUỐC TẾ",
+    "url": "https://radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8",
     "img": "https://static.wikia.nocookie.net/logopedia/images/b/bf/NHK_Radio_1_%282020%29.svg/revision/latest?cb=20210516114917"
   },
   {
@@ -6522,9 +6534,9 @@
     "img": "http://gg.gg/19dbe9"
   },
   {
-    "name": "NHK FM",
+    "name": "NHK-FM",
     "type": "QUỐC TẾ",
-    "url": "https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8",
+    "url": "https://radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8",
     "img": "http://gg.gg/19dbed"
   },
   {
@@ -9860,7 +9872,7 @@
   {
     "name": "PMC (1080p)",
     "type": "Music",
-    "url": "https://hls.pmchd.live/hls/stream.m3u8",
+    "url": "https://hls.pmc.live/hls/stream.m3u8",
     "img": "https://i.imgur.com/AbrHI7K.png"
   },
   {
