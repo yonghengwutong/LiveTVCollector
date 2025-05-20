@@ -1766,6 +1766,11 @@ Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
 
 Group: O Outro Lado
+Name: O Outro Lado - S10E18 19/5/2025
+URL: https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p14403/p14403_1_20250519000000e018t3845.mp4,.urlset/master.m3u8
+Logo: https://m3upt.com/logos/O-outro-lado.jpg
+Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
+--------------------------------------------------
 Name: O Outro Lado - S10E17 12/5/2025
 URL: https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p14403/p14403_1_20250512000000e017t1641.mp4,.urlset/master.m3u8
 Logo: https://m3upt.com/logos/O-outro-lado.jpg
@@ -3213,38 +3218,6 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/PCNELID.jpg
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 
-Group: RTP DRM test
-Name: RTP 1 (Site)
-URL: http://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd
-Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png
-Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
---------------------------------------------------
-Name: RTP 2 (App)
-URL: http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd
-Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png
-Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
---------------------------------------------------
-Name: RTP 2 (Site)
-URL: http://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd
-Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png
-Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
---------------------------------------------------
-Name: RTP 3 (App - liverepeater)
-URL: http://streaming-live-app.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8
-Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png
-Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
---------------------------------------------------
-Name: RTP 3 (App - livetvhlsDVR)
-URL: http://streaming-live-app.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
-Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png
-Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
---------------------------------------------------
-Name: RTP 3 (Site - liverepeater)
-URL: http://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8
-Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png
-Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
---------------------------------------------------
-
 Group: Religious
 Name: ADB TV (1080p)
 URL: https://streamer-a03.videos.sapo.pt/live/sobrenaturaltv_3/playlist.m3u8
@@ -4102,12 +4075,12 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: TVI
-URL: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDg6OTo0MCBBTSZoYXNoX3ZhbHVlPVRlT1ZrSFVCV0xDUkZCa2NYUUhHZUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wYjBhZDNkMy1kZjk5LTQ5NjUtYTlmZC0yZDBlYjI1Y2IxM2I=/
+URL: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDQ6ODo5IFBNJmhhc2hfdmFsdWU9T3p6QzFkbVRISSszeUwvQ0Vvcmhrdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWQ0NTlkNDM0LTFiOGMtNDE4MS1iNTkxLWM2ZjRhNjI2ZjRjYw==/
 Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: RTP 3
-URL: http://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
+URL: https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -4117,7 +4090,7 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: CNN Portugal
-URL: https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDg6OTo0MSBBTSZoYXNoX3ZhbHVlPWI3U0FvWjNDbWdKU25yU1RJZStZNnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zMDM2MTI1Mi05ZmFkLTRiODctYTNlNS1iMzI2MWVjMTczNWY=/
+URL: https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDQ6ODoxMCBQTSZoYXNoX3ZhbHVlPU1qWnRGSWkzYmR6U1A2WmxCRGd2RGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD03YjQ2MmQ1Ni01NGZjLTRhMjItYmVlYy01NmMxYWE5NThhOTE=/
 Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -4162,7 +4135,7 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacio
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: TVI Internacional
-URL: https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDg6OTo0MiBBTSZoYXNoX3ZhbHVlPXVuVXRnMGNudFd2RFl5UWFIUXFEZUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wOTE0YjcyZi01NjdlLTQ3MTMtYjljYy00N2NmMTMzZDM4NTQ=/
+URL: https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDQ6ODoxMCBQTSZoYXNoX3ZhbHVlPWlzR3VHa2pIZ2pWUk9yYkRITkNDMnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zNmM3NWRmNC04NTMxLTRkZDMtYmM5NC1hNWI2ODI2YTNhMGM=/
 Logo: https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------

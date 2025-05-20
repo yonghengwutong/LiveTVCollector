@@ -20,13 +20,13 @@
   {
     "name": "TVI",
     "type": "TV",
-    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDg6OTo0MCBBTSZoYXNoX3ZhbHVlPVRlT1ZrSFVCV0xDUkZCa2NYUUhHZUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wYjBhZDNkMy1kZjk5LTQ5NjUtYTlmZC0yZDBlYjI1Y2IxM2I=/",
+    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDQ6ODo5IFBNJmhhc2hfdmFsdWU9T3p6QzFkbVRISSszeUwvQ0Vvcmhrdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWQ0NTlkNDM0LTFiOGMtNDE4MS1iNTkxLWM2ZjRhNjI2ZjRjYw==/",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png"
   },
   {
     "name": "RTP 3",
     "type": "TV",
-    "url": "http://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
+    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png"
   },
   {
@@ -38,7 +38,7 @@
   {
     "name": "CNN Portugal",
     "type": "TV",
-    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDg6OTo0MSBBTSZoYXNoX3ZhbHVlPWI3U0FvWjNDbWdKU25yU1RJZStZNnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zMDM2MTI1Mi05ZmFkLTRiODctYTNlNS1iMzI2MWVjMTczNWY=/",
+    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDQ6ODoxMCBQTSZoYXNoX3ZhbHVlPU1qWnRGSWkzYmR6U1A2WmxCRGd2RGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD03YjQ2MmQ1Ni01NGZjLTRhMjItYmVlYy01NmMxYWE5NThhOTE=/",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png"
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "TVI Internacional",
     "type": "TV",
-    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDg6OTo0MiBBTSZoYXNoX3ZhbHVlPXVuVXRnMGNudFd2RFl5UWFIUXFEZUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wOTE0YjcyZi01NjdlLTQ3MTMtYjljYy00N2NmMTMzZDM4NTQ=/",
+    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDQ6ODoxMCBQTSZoYXNoX3ZhbHVlPWlzR3VHa2pIZ2pWUk9yYkRITkNDMnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zNmM3NWRmNC04NTMxLTRkZDMtYmM5NC1hNWI2ODI2YTNhMGM=/",
     "img": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png"
   },
   {
@@ -1762,6 +1762,12 @@
     "type": "O Planeta Vivo",
     "url": "https://streaming-vod.rtp.pt/drm-dash/nas2.share,/pt/h264/512x384/p13613/p13613_1_20240717161005e003t1334d_lo.mp4,/pt/h264/512x384/p13613/p13613_1_20240717161005e003t1334d.mp4,.urlset/manifest.mpd",
     "img": "https://cdn-images.rtp.pt/EPG/imagens/45929_73117_64439.jpg"
+  },
+  {
+    "name": "O Outro Lado - S10E18 19/5/2025",
+    "type": "O Outro Lado",
+    "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p14403/p14403_1_20250519000000e018t3845.mp4,.urlset/master.m3u8",
+    "img": "https://m3upt.com/logos/O-outro-lado.jpg"
   },
   {
     "name": "O Outro Lado - S10E17 12/5/2025",
@@ -5278,42 +5284,6 @@
     "type": "Rádios",
     "url": "https://uk2.streamingpulse.com/ssl/vcr2",
     "img": "https://cdn-profiles.tunein.com/s95144/images/logod.png"
-  },
-  {
-    "name": "RTP 1 (Site)",
-    "type": "RTP DRM test",
-    "url": "http://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd",
-    "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png"
-  },
-  {
-    "name": "RTP 2 (App)",
-    "type": "RTP DRM test",
-    "url": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
-    "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png"
-  },
-  {
-    "name": "RTP 2 (Site)",
-    "type": "RTP DRM test",
-    "url": "http://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
-    "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png"
-  },
-  {
-    "name": "RTP 3 (App - liverepeater)",
-    "type": "RTP DRM test",
-    "url": "http://streaming-live-app.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8",
-    "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png"
-  },
-  {
-    "name": "RTP 3 (App - livetvhlsDVR)",
-    "type": "RTP DRM test",
-    "url": "http://streaming-live-app.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
-    "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png"
-  },
-  {
-    "name": "RTP 3 (Site - liverepeater)",
-    "type": "RTP DRM test",
-    "url": "http://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8",
-    "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png"
   },
   {
     "name": "24 Horas Internacional [Geo-blocked]",
