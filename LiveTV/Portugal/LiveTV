@@ -8,7 +8,7 @@
   {
     "name": "RTP 2",
     "type": "TV",
-    "url": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
+    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png"
   },
   {
@@ -20,13 +20,13 @@
   {
     "name": "TVI",
     "type": "TV",
-    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xOS8yMDI1IDQ6ODoyIFBNJmhhc2hfdmFsdWU9bllEWUlqZlR3SXFoQjIyelF1ZDUvQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWFiNjhmM2E1LTkzYmEtNDdiZS1iOTA1LWY1NTYwMTIzODZhMw==/",
+    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDEyOjMxOjMwIEFNJmhhc2hfdmFsdWU9VTB3VFRDYnNyWGp4RXR5Um1WSUNkQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWFkODBiMGVjLTZkNGQtNGNjYS04YWM5LWRmMGQyYTBiNTE0ZA==/",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png"
   },
   {
     "name": "RTP 3",
     "type": "TV",
-    "url": "http://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8",
+    "url": "http://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png"
   },
   {
@@ -38,7 +38,7 @@
   {
     "name": "CNN Portugal",
     "type": "TV",
-    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xOS8yMDI1IDQ6ODozIFBNJmhhc2hfdmFsdWU9YU5halVKM1dmdmZaNjZ1b0t4bmtGZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTYwMGU3ZWY3LWY2NDktNDk3YS04OWQ2LWE4NjdmNjQ0OTYxMA==/",
+    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDEyOjMxOjMxIEFNJmhhc2hfdmFsdWU9OUtSTmRYTnBsZDJOajM1ODY3bWRwdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTg3YWMwZGQ2LThhM2EtNDY4MC1iY2JmLTIxZTU5N2ZkMGJiYg==/",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png"
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "TVI Internacional",
     "type": "TV",
-    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xOS8yMDI1IDQ6ODozIFBNJmhhc2hfdmFsdWU9UzVpOFg3ZVpYNnhtM3RIOW9Mb2JSdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTdhZGFhYWZlLWNmNTgtNDMwNy04YzZlLWEyNmRiMjRmOTlmMA==/",
+    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMC8yMDI1IDEyOjMxOjMyIEFNJmhhc2hfdmFsdWU9TVdGRnFYZm5aMUZxNmRSdWNUL29JUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTI0Mzg1MTgyLWQ0YjEtNGJjMC1iYmFlLTUxY2MxODllNDJjMw==/",
     "img": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png"
   },
   {
@@ -5286,6 +5286,12 @@
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png"
   },
   {
+    "name": "RTP 2 (App)",
+    "type": "RTP DRM test",
+    "url": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
+    "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png"
+  },
+  {
     "name": "RTP 2 (Site)",
     "type": "RTP DRM test",
     "url": "http://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
@@ -5304,9 +5310,9 @@
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png"
   },
   {
-    "name": "RTP 3 (Site - livetvhlsDVR)",
+    "name": "RTP 3 (Site - liverepeater)",
     "type": "RTP DRM test",
-    "url": "http://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
+    "url": "http://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8",
     "img": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png"
   },
   {
