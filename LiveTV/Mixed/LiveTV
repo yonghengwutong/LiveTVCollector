@@ -626,7 +626,7 @@
   {
     "name": "Euronews IN DIRETTA",
     "type": "notizie",
-    "url": "https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiNWUwNTUzNDUtOGE0Ny00NzgxLWFhNDYtZDNlN2RlMTc5YmQxIiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8",
+    "url": "https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiZmNlM2RmZDctNzkwZS00YjA1LWI3NWEtMzI0NTA1YjEzOWFlIiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -656,7 +656,7 @@
   {
     "name": "Africanews",
     "type": "notizie",
-    "url": "https://africanews-eng-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiMTVmNDcwMmQtNDNlMC00MmZiLWE2NzMtNGEyZGE3M2Y5ZmU1IiwibWt0IjoiaXQiLCJjaCI6NjU4NywicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8",
+    "url": "https://africanews-eng-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiMzAwNzFmYTktMWVlZS00YjI2LTg0ZGYtM2NjYmJmMjI3ODIyIiwibWt0IjoiaXQiLCJjaCI6NjU4NywicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -7416,6 +7416,18 @@
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/1200px-Deutsche_Welle_symbol_2012.svg.png"
   },
   {
+    "name": "LLHZ Ground (Herzliya Airport)",
+    "type": "HÓNG TIN CHIẾN SỰ",
+    "url": "https://www.liveatc.net/play/llhz2_gnd.pls",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "LLHZ Tower (Herzliya Airport)",
+    "type": "HÓNG TIN CHIẾN SỰ",
+    "url": "https://www.liveatc.net/play/llhz2_twr.pls",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "GLZ Israel Army Radio",
     "type": "HÓNG TIN CHIẾN SỰ",
     "url": "http://glzwizzlv.bynetcdn.com/glz_mp3",
@@ -12840,21 +12852,27 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
+    "name": "Kuzoo Radio (Dzhongkha)",
+    "type": "RADIO",
+    "url": "http://43.241.137.236:8000/kuzoodzo",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "VOV1",
     "type": "VIỆT NAM",
-    "url": "http://113.164.229.226:7001/stream",
+    "url": "http://media.kythuatvov.vn:7001/listen.pls",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQTZ7dJbMy7bUpaKXlaY4CvUoxz7IzQasYg&s"
   },
   {
     "name": "VOV2",
     "type": "VIỆT NAM",
-    "url": "http://113.164.229.226:7003/stream",
+    "url": "http://media.kythuatvov.vn:7003/listen.pls",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRy8DNT2EyV0vPm1oye3N2o43VUthJ0_IdA&s"
   },
   {
     "name": "VOV3",
     "type": "VIỆT NAM",
-    "url": "http://113.164.229.226:7005/stream",
+    "url": "http://media.kythuatvov.vn:7005/listen.pls",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQx1QbZewLeQWABiffxfgjp17UIRByi-lvag&s"
   },
   {
@@ -12876,6 +12894,12 @@
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQNhiNTxVkpJRnrGLfGs6MG5H2tqSW4_S9A&s"
   },
   {
+    "name": "VOV MINORITIES SERVICE HCMC",
+    "type": "VIỆT NAM",
+    "url": "http://media.kythuatvov.vn:7033/listen.pls",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQNhiNTxVkpJRnrGLfGs6MG5H2tqSW4_S9A&s"
+  },
+  {
     "name": "VOV MINORITIES SERVICE MEKONG",
     "type": "VIỆT NAM",
     "url": "http://media.kythuatvov.vn:8031",
@@ -12890,19 +12914,19 @@
   {
     "name": "VOV ENGLISH SERVICE",
     "type": "VIỆT NAM",
-    "url": "https://stream-cdn.vov.vn/live/vov24_7-audio_only.m3u8",
+    "url": "https://str.vov.gov.vn/vovlive/vov247vov5English.sdp_aac/playlist.m3u8",
     "img": "https://img.radios.com.br/radio/xl/radio140193_1660315263.jpg"
   },
   {
     "name": "VOVGT HANOI",
     "type": "VIỆT NAM",
-    "url": "https://play.vovgiaothong.vn/live/gthn/playlist.m3u8",
+    "url": "http://media.kythuatvov.vn:7025/listen.pls",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLBmnLZ3-_NqDwr3upo_xYCff3upAVlIRJlw&s"
   },
   {
     "name": "VOVGT TPHCM",
     "type": "VIỆT NAM",
-    "url": "https://play.vovgiaothong.vn/live/gthcm/playlist.m3u8",
+    "url": "http://media.kythuatvov.vn:7023/listen.pls",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLBmnLZ3-_NqDwr3upo_xYCff3upAVlIRJlw&s"
   },
   {
@@ -18860,7 +18884,7 @@
   {
     "name": "东南卫视 / The iDOLM@STER Cinderella Girls Starlight Stage  (DERESUTE-TV/デレステテレビ) - Truyền Hình Đông Nam Phúc Kiến",
     "type": "iDOLM@STER",
-    "url": "http://sport.pendy.dpdns.org/migu/614961829?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA",
+    "url": "http://sport.pendy.dpdns.org/migu/849116810?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA",
     "img": "https://dmg.cinderella-sl-stage.idolmaster-official.jp/_nuxt/images/logo_stage-14dc23a.png"
   },
   {
@@ -18916,6 +18940,12 @@
     "type": "iDOLM@STER",
     "url": "http://58.57.40.22:9901/tsfile/live/1042_1.m3u8",
     "img": "https://cdn.akamai.steamstatic.com/steam/apps/1046480/capsule_616x353.jpg?t=1703662641"
+  },
+  {
+    "name": "JLTV吉林卫视 - Truyền Hình Vệ Tinh Cát Lâm / LoveLive School Idol Project",
+    "type": "LoveLive",
+    "url": "http://sport.pendy.dpdns.org/migu/947472500?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Love_Live%21_logo_with_line.svg/640px-Love_Live%21_logo_with_line.svg.png"
   },
   {
     "name": "CQTV重庆卫视 (Truyền hình Vệ tinh Trùng Khánh / Aqours)",
@@ -19016,7 +19046,7 @@
   {
     "name": "陕西卫视 / Vocaloid News Network - Truyền Hình Vệ Tinh Thểm Tây",
     "type": "PJSK-TV",
-    "url": "http://satellitepull.cnr.cn/live/wxsxxws/playlist.m3u8",
+    "url": "http://sport.pendy.dpdns.org/migu/738910838?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA",
     "img": "https://www.vocaloidnews.net/wp-content/uploads/2016/08/VNNFrench-A2.png"
   },
   {
@@ -19100,7 +19130,7 @@
   {
     "name": "JXTV江西卫视 (Truyền Hình Vệ tinh Giang Tây /Nijisanji Cover Corp)",
     "type": "Nijisanji",
-    "url": "http://58.57.40.22:9901/tsfile/live/1043_1.m3u8",
+    "url": "http://sport.pendy.dpdns.org/migu/783847495?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Nijisanji_EN_logo.svg/560px-Nijisanji_EN_logo.svg.png?20240308190751"
   },
   {
@@ -19396,5 +19426,35 @@
     "type": "Idol Radio Channel",
     "url": "https://satellitepull.cnr.cn/live/wxybwyshgb/playlist.m3u8",
     "img": "https://static.tvtropes.org/pmwiki/pub/images/photonmaiden.png"
+  },
+  {
+    "name": "Gamindustri Security Radio",
+    "type": "Idol Radio Channel",
+    "url": "http://lnwradio.hostsevenplus.com/9654/player.php",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Radio Watan",
+    "type": "Turkmen Radio",
+    "url": "https://radio.telecom.tm/watan.mp3",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Radio Çar Tarapdan",
+    "type": "Turkmen Radio",
+    "url": "https://radio.telecom.tm/tarap.mp3",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Radio Miras",
+    "type": "Turkmen Radio",
+    "url": "https://radio.telecom.tm/miras.mp3",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Radio Owazy",
+    "type": "Turkmen Radio",
+    "url": "https://radio.telecom.tm/owaz.mp3",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   }
 ]

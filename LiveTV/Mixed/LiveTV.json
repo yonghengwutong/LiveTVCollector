@@ -1,5 +1,5 @@
 {
-  "date": "2025-05-22 22:01:35",
+  "date": "2025-05-23 07:30:48",
   "channels": {
     "STREAMING": [
       {
@@ -763,7 +763,7 @@
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "notizie",
         "source": "https://raw.githubusercontent.com/pandvan/rakuten-m3u-generator/refs/heads/master/output/rakuten.m3u",
-        "url": "https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiNWUwNTUzNDUtOGE0Ny00NzgxLWFhNDYtZDNlN2RlMTc5YmQxIiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8"
+        "url": "https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiZmNlM2RmZDctNzkwZS00YjA1LWI3NWEtMzI0NTA1YjEzOWFlIiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8"
       },
       {
         "name": "The Reuters 60",
@@ -798,7 +798,7 @@
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "notizie",
         "source": "https://raw.githubusercontent.com/pandvan/rakuten-m3u-generator/refs/heads/master/output/rakuten.m3u",
-        "url": "https://africanews-eng-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiMTVmNDcwMmQtNDNlMC00MmZiLWE2NzMtNGEyZGE3M2Y5ZmU1IiwibWt0IjoiaXQiLCJjaCI6NjU4NywicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8"
+        "url": "https://africanews-eng-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiMzAwNzFmYTktMWVlZS00YjI2LTg0ZGYtM2NjYmJmMjI3ODIyIiwibWt0IjoiaXQiLCJjaCI6NjU4NywicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8"
       },
       {
         "name": "CGTN",
@@ -8761,6 +8761,20 @@
     ],
     "HÓNG TIN CHIẾN SỰ": [
       {
+        "name": "LLHZ Ground (Herzliya Airport)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "HÓNG TIN CHIẾN SỰ",
+        "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
+        "url": "https://www.liveatc.net/play/llhz2_gnd.pls"
+      },
+      {
+        "name": "LLHZ Tower (Herzliya Airport)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "HÓNG TIN CHIẾN SỰ",
+        "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
+        "url": "https://www.liveatc.net/play/llhz2_twr.pls"
+      },
+      {
         "name": "GLZ Israel Army Radio",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "HÓNG TIN CHIẾN SỰ",
@@ -15123,6 +15137,13 @@
         "group": "RADIO",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
         "url": "https://radio.bbs.bt/dz-ch"
+      },
+      {
+        "name": "Kuzoo Radio (Dzhongkha)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "RADIO",
+        "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
+        "url": "http://43.241.137.236:8000/kuzoodzo"
       }
     ],
     "VIỆT NAM": [
@@ -15131,21 +15152,21 @@
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQTZ7dJbMy7bUpaKXlaY4CvUoxz7IzQasYg&s",
         "group": "VIỆT NAM",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
-        "url": "http://113.164.229.226:7001/stream"
+        "url": "http://media.kythuatvov.vn:7001/listen.pls"
       },
       {
         "name": "VOV2",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRy8DNT2EyV0vPm1oye3N2o43VUthJ0_IdA&s",
         "group": "VIỆT NAM",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
-        "url": "http://113.164.229.226:7003/stream"
+        "url": "http://media.kythuatvov.vn:7003/listen.pls"
       },
       {
         "name": "VOV3",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQx1QbZewLeQWABiffxfgjp17UIRByi-lvag&s",
         "group": "VIỆT NAM",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
-        "url": "http://113.164.229.226:7005/stream"
+        "url": "http://media.kythuatvov.vn:7005/listen.pls"
       },
       {
         "name": "VOV MINORITIES SERVICE NORTH",
@@ -15169,6 +15190,13 @@
         "url": "http://media.kythuatvov.vn:8035"
       },
       {
+        "name": "VOV MINORITIES SERVICE HCMC",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQNhiNTxVkpJRnrGLfGs6MG5H2tqSW4_S9A&s",
+        "group": "VIỆT NAM",
+        "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
+        "url": "http://media.kythuatvov.vn:7033/listen.pls"
+      },
+      {
         "name": "VOV MINORITIES SERVICE MEKONG",
         "logo": "https://dvw7f7sqjk3ag.cloudfront.net/images/radio/64904.png",
         "group": "VIỆT NAM",
@@ -15187,21 +15215,21 @@
         "logo": "https://img.radios.com.br/radio/xl/radio140193_1660315263.jpg",
         "group": "VIỆT NAM",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
-        "url": "https://stream-cdn.vov.vn/live/vov24_7-audio_only.m3u8"
+        "url": "https://str.vov.gov.vn/vovlive/vov247vov5English.sdp_aac/playlist.m3u8"
       },
       {
         "name": "VOVGT HANOI",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLBmnLZ3-_NqDwr3upo_xYCff3upAVlIRJlw&s",
         "group": "VIỆT NAM",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
-        "url": "https://play.vovgiaothong.vn/live/gthn/playlist.m3u8"
+        "url": "http://media.kythuatvov.vn:7025/listen.pls"
       },
       {
         "name": "VOVGT TPHCM",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLBmnLZ3-_NqDwr3upo_xYCff3upAVlIRJlw&s",
         "group": "VIỆT NAM",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
-        "url": "https://play.vovgiaothong.vn/live/gthcm/playlist.m3u8"
+        "url": "http://media.kythuatvov.vn:7023/listen.pls"
       },
       {
         "name": "VOV MEKONGFM (VOVGT MEKONG)",
@@ -22158,7 +22186,7 @@
         "logo": "https://dmg.cinderella-sl-stage.idolmaster-official.jp/_nuxt/images/logo_stage-14dc23a.png",
         "group": "iDOLM@STER",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
-        "url": "http://sport.pendy.dpdns.org/migu/614961829?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA"
+        "url": "http://sport.pendy.dpdns.org/migu/849116810?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA"
       },
       {
         "name": "海峡卫视 / The iDOLM@STER Cinderella Girls Starlight Stage  (DERESUTE-TV/デレステテレビ) - Truyền Hình Đông Nam Phúc Kiến",
@@ -22225,6 +22253,13 @@
       }
     ],
     "LoveLive": [
+      {
+        "name": "JLTV吉林卫视 - Truyền Hình Vệ Tinh Cát Lâm / LoveLive School Idol Project",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Love_Live%21_logo_with_line.svg/640px-Love_Live%21_logo_with_line.svg.png",
+        "group": "LoveLive",
+        "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
+        "url": "http://sport.pendy.dpdns.org/migu/947472500?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA"
+      },
       {
         "name": "CQTV重庆卫视 (Truyền hình Vệ tinh Trùng Khánh / Aqours)",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Aqours_logo.svg/1200px-Aqours_logo.svg.png",
@@ -22348,7 +22383,7 @@
         "logo": "https://www.vocaloidnews.net/wp-content/uploads/2016/08/VNNFrench-A2.png",
         "group": "PJSK-TV",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
-        "url": "http://satellitepull.cnr.cn/live/wxsxxws/playlist.m3u8"
+        "url": "http://sport.pendy.dpdns.org/migu/738910838?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA"
       },
       {
         "name": "SBS苏州新闻综合频道频道 / Project Sekai VBS-TV (Vivid Bad Squad / Truyền hình Tô Châu, tỉnh Giang Tô)",
@@ -22456,7 +22491,7 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Nijisanji_EN_logo.svg/560px-Nijisanji_EN_logo.svg.png?20240308190751",
         "group": "Nijisanji",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
-        "url": "http://58.57.40.22:9901/tsfile/live/1043_1.m3u8"
+        "url": "http://sport.pendy.dpdns.org/migu/783847495?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA"
       }
     ],
     "Idol Radio Channel": [
@@ -22802,6 +22837,43 @@
         "group": "Idol Radio Channel",
         "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
         "url": "https://satellitepull.cnr.cn/live/wxybwyshgb/playlist.m3u8"
+      },
+      {
+        "name": "Gamindustri Security Radio",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Idol Radio Channel",
+        "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
+        "url": "http://lnwradio.hostsevenplus.com/9654/player.php"
+      }
+    ],
+    "Turkmen Radio": [
+      {
+        "name": "Radio Watan",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Turkmen Radio",
+        "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
+        "url": "https://radio.telecom.tm/watan.mp3"
+      },
+      {
+        "name": "Radio Çar Tarapdan",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Turkmen Radio",
+        "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
+        "url": "https://radio.telecom.tm/tarap.mp3"
+      },
+      {
+        "name": "Radio Miras",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Turkmen Radio",
+        "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
+        "url": "https://radio.telecom.tm/miras.mp3"
+      },
+      {
+        "name": "Radio Owazy",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Turkmen Radio",
+        "source": "https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u",
+        "url": "https://radio.telecom.tm/owaz.mp3"
       }
     ]
   }
