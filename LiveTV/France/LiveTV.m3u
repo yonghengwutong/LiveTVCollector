@@ -175,14 +175,12 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr4.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/N9d4yXt/fr5bl.png" group-title="Uncategorized",FRANCE 5
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/fr5.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/8rcTV8C/festcannes.jpg" group-title="Uncategorized",FESTIVAL DE CANNES TV
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/festival-de-cannes.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/9rmSGqP/frsr.png" group-title="Uncategorized",FRANCE TV SÉRIES
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/frserv2.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/kJjHW61/frdocs.png" group-title="Uncategorized",FRANCE TV DOCUMENTAIRES
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/frdocv2.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/kgMKnQVx/rolangarros.jpg" group-title="Uncategorized",FRANCE TV ROLAND GARROS
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/rg/rg.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/rg/rgcdirecttv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BPpZPBn/arte.png" group-title="Uncategorized",ARTE
 https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BPpZPBn/arte.png" group-title="Uncategorized",ARTE -0,5H
@@ -986,9 +984,9 @@ https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BrGNZJ4/showtv.png" group-title="Uncategorized",SHOW
 https://bloomberght-live.daioncdn.net/showtv/showtv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="Uncategorized",NOW
-https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=vksFY3O2EbYjtakiRUVXkw&e=1748222096
+https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=5VfQ_ICiTSDlRdO6FYC_BQ&e=1748254939
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="Uncategorized",NOW
-https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=vksFY3O2EbYjtakiRUVXkw&e=1748222096
+https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=5VfQ_ICiTSDlRdO6FYC_BQ&e=1748254939
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tXKXNDz/tv8.png" group-title="Uncategorized",TV8
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tXKXNDz/tv8.png" group-title="Uncategorized",TV8
@@ -3993,12 +3991,32 @@ https://stream.rtl.lu/data/live/tele/channel2/playlist.m3u8
 https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/r29pMj4B/Ylew.png" group-title="Uncategorized",YLE TV WORLD
 https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yhjqqNQ/tvppol.png" group-title="Uncategorized",TVP POLONIA
-http://rr3.tvdosug.net/~109e1a3c05fcad5b22d13b9453dc0db5122/10094/hls/pl.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yhjqqNQ/tvppol.png" group-title="Uncategorized",TVP POLONIA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6cPg4sDK/tvpolonia.png" group-title="Uncategorized",TVP POLONIA
+https://raw.githubusercontent.com/fraudiay79/strm/refs/heads/main/platforms/links/pl/tvppolonia.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6cPg4sDK/tvpolonia.png" group-title="Uncategorized",TVP POLONIA
 https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tvpol.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/pxSC2HJ/tvpinfo.png" group-title="Uncategorized",TVP INFO
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6cPg4sDK/tvpolonia.png" group-title="Uncategorized",TVP POLONIA
+http://rr3.tvdosug.net/~109e1a3c05fcad5b22d13b9453dc0db5122/10094/hls/pl.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mCR9kjjf/tvpinf.png" group-title="Uncategorized",TVP INFO
+https://raw.githubusercontent.com/fraudiay79/strm/refs/heads/main/platforms/links/tvpinfo.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mCR9kjjf/tvpinf.png" group-title="Uncategorized",TVP INFO
+https://raw.githubusercontent.com/fraudiay79/strm/refs/heads/main/platforms/links/pl/tvpinfo.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mCR9kjjf/tvpinf.png" group-title="Uncategorized",TVP INFO
 https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tvpin.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4wL8Hxgs/tvpkultu.png" group-title="Uncategorized",TVP KULTURA
+https://raw.githubusercontent.com/fraudiay79/strm/refs/heads/main/platforms/links/pl/tvpkultura.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/xtTSh70W/tvpkultu2.png" group-title="Uncategorized",TVP KULTURA 2
+https://raw.githubusercontent.com/fraudiay79/strm/refs/heads/main/platforms/links/pl/tvpkultura2.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/LdZttgv0/tvphist.png" group-title="Uncategorized",TVP HISTORIA
+https://raw.githubusercontent.com/fraudiay79/strm/refs/heads/main/platforms/links/pl/tvphistoria.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/vvDGM62d/tvhist2.png" group-title="Uncategorized",TVP HISTORIA 2
+https://raw.githubusercontent.com/fraudiay79/strm/refs/heads/main/platforms/links/pl/tvphistoria2.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/46QnrG9/tvp1.png" group-title="Uncategorized",TVP 1
+https://cdndai.pl/tvp1hd/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/23wHr2St/tvp2.png" group-title="Uncategorized",TVP 2
+https://cdndai.pl/tvp2hd/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CpvvBMmp/tvp3.png" group-title="Uncategorized",TVP3 WARSZAWA
+https://raw.githubusercontent.com/fraudiay79/strm/refs/heads/main/platforms/links/pl/tvp3warszawa.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/kx2RQ5V/polsatnews1.png" group-title="Uncategorized",POLSAT NEWS
 http://cdn-s-lb2.pluscdn.pl/lv/1517830/349/hls/f03a76f3/masterlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VxLFYSj/euronews.png" group-title="Uncategorized",EURONEWS PL
@@ -4067,6 +4085,8 @@ https://muzzik-live.morescreens.com/mts-3/playlist.m3u8
 https://muzzik-live.morescreens.com/mts-4/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/W4zhWby6/Zztv.png" group-title="Uncategorized",ZZ TV
 https://muzzik-live.morescreens.com/mts-a4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6cKjj4xT/karolinacr.png" group-title="Uncategorized",KAROLINA RD/TV
+https://peer2.tdiradio.com/static/streaming-playlists/hls/4207de1d-52e8-4591-ad9e-218069b864d1/0.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5x1cbJqN/rtcg.png" group-title="Uncategorized",TVCG 1
 http://cdn3.bcdn.rs:1935/cg1/smil:cg1.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5x1cbJqN/rtcg.png" group-title="Uncategorized",TVCG 2
@@ -4139,6 +4159,8 @@ https://amtv.tulixcdn.com/amtv3/am3abr/index.m3u8
 https://amtvusdvr.tulix.tv/am3abr/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tmkv6RC/armflag.png" group-title="Uncategorized",SONG ARM
 https://songtv.hls.iptvdc.com/web-armenia/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/tmkv6RC/armflag.png" group-title="Uncategorized",KENTRON TV
+https://live20.bozztv.com/trn03/gin-kentron/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tmkv6RC/armflag.png" group-title="Uncategorized",FRESH ARM
 https://freshtv-live.ru/FreshTV/index.m3u8?token=livestream
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tmkv6RC/armflag.png" group-title="Uncategorized",USA ARMENIA
@@ -4725,8 +4747,10 @@ https://cdn.nhkworld.jp/www11/nhkworld-tv/pre/hlscomp.m3u8
 https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/nP9xpck/trtw.png" group-title="Uncategorized",TRT WORLD
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/NrN5Gy2/tvpworld.png" group-title="Uncategorized",TVP WORLD
+#EXTINF:-1 tvg-logo="https://i.ibb.co/3y1gyyBD/tvpworld.png" group-title="Uncategorized",TVP WORLD
 https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tvpwd.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/3y1gyyBD/tvpworld.png" group-title="Uncategorized",TVP WORLD
+https://raw.githubusercontent.com/fraudiay79/strm/refs/heads/main/platforms/links/pl/tvpworld.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/MGW5Vv9/aljaz.png" group-title="Uncategorized",AL JAZEERA NEWS
 https://live-hls-web-aje.getaj.net/AJE/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/MGW5Vv9/aljaz.png" group-title="Uncategorized",AL JAZEERA NEWS
