@@ -1300,11 +1300,6 @@ URL: https://dai.google.com/linear/hls/event/sFuxwI37R9KMTs-KywMcBg/master.m3u8
 Logo: https://i.imgur.com/8dUS3Ih.png
 Source: https://iptv-org.github.io/iptv/countries/pe.m3u
 --------------------------------------------------
-Name: TVE Star HD (1080p)
-URL: https://rtvelivestream.akamaized.net/rtvesec/int/star_main.m3u8
-Logo: https://i.imgur.com/zsCZHMh.png
-Source: https://iptv-org.github.io/iptv/countries/pe.m3u
---------------------------------------------------
 Name: Kanal D Drama (1080p)
 URL: https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
 Logo: https://i.imgur.com/WIeZMKT.png
@@ -1396,6 +1391,11 @@ Group: TV ESPANA
 Name: 1 | 24HORAS ᴴᴰ |
 URL: https://ztnr.rtve.es/ztnr/1694255.m3u8
 Logo: https://i.imgur.com/fMZeVvR.jpeg
+Source: https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u
+--------------------------------------------------
+Name: 2 | TVE TV ᴴᴰ |
+URL: https://rtvelivestream.akamaized.net/rtvesec/int/tvei_ame_main.m3u8
+Logo: https://i.imgur.com/bnPjl4K.jpeg
 Source: https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u
 --------------------------------------------------
 Name: 3 | LA 1 ᴴᴰ |
@@ -2504,6 +2504,11 @@ URL: https://play.agenciastreaming.com:8081/planeatv/tracks-v1a1/playlist.m3u8
 Logo: https://raw.githubusercontent.com/jesaro15/iptv/main/images/Planea3.jpg
 Source: https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u
 --------------------------------------------------
+Name: 58 | PLANEA JAEN TV |
+URL: https://7.innovatestream.pe:19360/planetajaen/planetajaen.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u
+--------------------------------------------------
 Name: 59 | GF TV |
 URL: https://live.obslivestream.com/regionaltv/tracks-v1a1/mono.m3u8
 Logo: https://raw.githubusercontent.com/jesaro15/iptv/main/images/GfTelevision.jpg
@@ -2850,6 +2855,11 @@ URL: https://live.obslivestream.com/planetatv/index.m3u8
 Logo: https://i.imgur.com/mL3lLAF.png
 Source: https://iptv-org.github.io/iptv/countries/pe.m3u
 --------------------------------------------------
+Name: Rai Italia Americas
+URL: https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8
+Logo: https://i.imgur.com/1nN4rEP.png
+Source: https://iptv-org.github.io/iptv/countries/pe.m3u
+--------------------------------------------------
 Name: Región TV Callao (480p) [Not 24/7]
 URL: https://servilive.com:3757/live/regiontvlive.m3u8
 Logo: https://i.imgur.com/I4grcqk.png
@@ -2888,11 +2898,6 @@ Source: https://iptv-org.github.io/iptv/countries/pe.m3u
 Name: Tumpis TV (720p)
 URL: https://servilive.com:3531/stream/play.m3u8
 Logo: https://i.imgur.com/KZFWGwV.png
-Source: https://iptv-org.github.io/iptv/countries/pe.m3u
---------------------------------------------------
-Name: TVE Internacional America (1080p)
-URL: https://rtvelivestream.akamaized.net/rtvesec/int/tvei_ame_main.m3u8
-Logo: https://i.imgur.com/iODADvi.png
 Source: https://iptv-org.github.io/iptv/countries/pe.m3u
 --------------------------------------------------
 Name: UCL (720p)
