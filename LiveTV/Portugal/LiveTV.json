@@ -1,5 +1,5 @@
 {
-  "date": "2025-05-26 21:49:06",
+  "date": "2025-05-27 06:46:45",
   "channels": {
     "TV": [
       {
@@ -28,7 +28,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
         "group": "TV",
         "source": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u",
-        "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yNi8yMDI1IDQ6Nzo0OCBQTSZoYXNoX3ZhbHVlPVRNVElXS3JXV2VtY3J3WWs5di9FOVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zOGMwMWFhNC04ZDliLTRmNTEtYWIzNi1mZTEyZmNjM2M3Zjc=/"
+        "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yNy8yMDI1IDEyOjMwOjUgQU0maGFzaF92YWx1ZT1LcmNJWCtoZ3Q2cFMvQjFRT2xOcHVBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjI5MTMyY2UtYjgyYS00YzYxLTlkMGMtODNiMTIyOTA0MTgw/"
       },
       {
         "name": "RTP 3",
@@ -49,7 +49,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
         "group": "TV",
         "source": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u",
-        "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yNi8yMDI1IDQ6Nzo0OCBQTSZoYXNoX3ZhbHVlPXZKd3h2V25XeEJPOXNwaHoxbDd3TkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01OWNmMjliYi0yMDc4LTQwMDItOGU4NS04ZjBmMjExODdlMDQ=/"
+        "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yNy8yMDI1IDEyOjMwOjYgQU0maGFzaF92YWx1ZT03MUpsdTdRekxWaDNnS2pHbm8vcFpBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MmYyMzIxMzItYjVhOC00ZTNmLTkyYmQtNjE1Y2UzNjlhODk2/"
       },
       {
         "name": "CNN Brasil",
@@ -112,7 +112,7 @@
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
         "group": "TV",
         "source": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u",
-        "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yNi8yMDI1IDQ6Nzo0OSBQTSZoYXNoX3ZhbHVlPVpOVERwUlVVNU0xNmtKK2VYV2hCWVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1iMTA2MTRmMS1lNDk3LTRkY2QtOGRhZS01NDdiYWUzNWUyOWQ=/"
+        "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yNy8yMDI1IDEyOjMwOjYgQU0maGFzaF92YWx1ZT1IZC9ZNDVmRjBNbDRYS0lmVWhyNXFnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDMzZDUxMTktZTU0My00YjkyLWI0MWYtZWE5YzE3YmUyNjNm/"
       },
       {
         "name": "TVI África",
@@ -5104,6 +5104,13 @@
     ],
     "IEGCQT": [
       {
+        "name": "IEGCQT S11E29 25-05-2025",
+        "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8a/IeGcQT.png/800px-IeGcQT.png",
+        "group": "IEGCQT",
+        "source": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u",
+        "url": "https://cdnapisec.kaltura.com/p/4526593/sp/452659300/playManifest/entryId/1_dari4vmm/protocol/https/format/mpegdash/flavorIds/1_564sf8jr,1_q4d1n3z0,1_tn3ntlll,1_misq9kfw,1_28h0b4rd,1_tvvcvivf/a.mpd"
+      },
+      {
         "name": "IEGCQT S11E28 16-05-2025",
         "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8a/IeGcQT.png/800px-IeGcQT.png",
         "group": "IEGCQT",
@@ -6472,6 +6479,13 @@
         "group": "Undefined",
         "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
         "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/654a620d53fc9700083b2e21/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e074d40-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8f8fcc86-3a94-4ce2-9955-c103e94fd2b9"
+      },
+      {
+        "name": "Rai Italia",
+        "logo": "https://i.imgur.com/1nN4rEP.png",
+        "group": "Undefined",
+        "source": "https://iptv-org.github.io/iptv/countries/pt.m3u",
+        "url": "https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8"
       },
       {
         "name": "Red Carpet TV International (1080p)",
