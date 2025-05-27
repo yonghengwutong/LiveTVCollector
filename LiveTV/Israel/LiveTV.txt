@@ -1334,7 +1334,7 @@ Source: https://iptv-org.github.io/iptv/countries/il.m3u
 --------------------------------------------------
 Name: PMC Royale (720p) [Not 24/7]
 URL: https://rohls.pmc.live/hls/stream.m3u8
-Logo: https://i.imgur.com/kuYMKgG.png
+Logo: https://www.lyngsat.com/logo/tv/pp/pmc-royale-ch.png
 Source: https://iptv-org.github.io/iptv/countries/il.m3u
 --------------------------------------------------
 
@@ -1721,22 +1721,32 @@ Logo: https://upload.wikimedia.org/wikipedia/en/5/54/Logo_NRJ_2016.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
 Name: Radio Vatican Italiano
-URL: https://radio.vaticannews.va/stream-it
+URL: https://radio.vaticannews.va/stream-it.m3u
 Logo: https://i.ibb.co/9kXMnkYN/2.jpg
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
 Name: Radio Vatican English
-URL: https://radio.vaticannews.va/stream-en
+URL: https://radio.vaticannews.va/stream-en.m3u
 Logo: https://i.ibb.co/354QKwt7/3.jpg
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
 Name: Radio Vatican Tieng Viet
-URL: https://radio.vaticannews.va/stream-vi
+URL: https://radio.vaticannews.va/stream-vi.m3u
 Logo: https://i.ibb.co/YBWjdh7X/1.jpg
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: RAI GR Parlamento
+URL: http://icestreaming.rai.it/7.mp3.m3u
+Logo: https://www.radio.net/300/rairadiouno.png?version=d70c9f4ae01df08c62b9726cf35556e0
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
 Name: Rai Radio 1
 URL: http://icestreaming.rai.it/1.mp3
+Logo: https://www.radio.net/300/rairadiouno.png?version=d70c9f4ae01df08c62b9726cf35556e0
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: Rai Radio Sports 1
+URL: http://icestreaming.rai.it/13.mp3.m3u
 Logo: https://www.radio.net/300/rairadiouno.png?version=d70c9f4ae01df08c62b9726cf35556e0
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
@@ -1787,6 +1797,11 @@ Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/C
 --------------------------------------------------
 Name: RNE Radio Exterior de España
 URL: https://rtvelivestream.akamaized.net/rtvesec/rne/rne_re_main.m3u8
+Logo: https://assets.radioplayer.org/724/724505/600/600/kywx5mfr.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: Onda Madrid
+URL: https://tvradio-1-23.secure2.footprint.net/bitrate_1.m3u8
 Logo: https://assets.radioplayer.org/724/724505/600/600/kywx5mfr.png
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
@@ -1937,6 +1952,16 @@ Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/C
 --------------------------------------------------
 Name: Radio Poland English
 URL: http://mp3.polskieradio.pl:8908/;
+Logo: https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0001/6862/brand.gif?tuZbnYzHpCuxRlkN8e_XMwS3TUWd4mET&itok=L4cFGrbG
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: Radio Złote Przeboje
+URL: https://radiostream.pl/tuba8936-1.mp3
+Logo: https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0001/6862/brand.gif?tuZbnYzHpCuxRlkN8e_XMwS3TUWd4mET&itok=L4cFGrbG
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: Radio Pogoda
+URL: https://radiostream.pl/tuba140-1.mp3
 Logo: https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0001/6862/brand.gif?tuZbnYzHpCuxRlkN8e_XMwS3TUWd4mET&itok=L4cFGrbG
 Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
 --------------------------------------------------
@@ -6137,6 +6162,56 @@ Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/C
 --------------------------------------------------
 
 Group: RADIO
+Name: ORTB Radio Bênin
+URL: http://listen.radioking.com/radio/47608/stream/84430
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: EBC RADIO National - Bang Dream MYGO-RADIO (Ethiopia)
+URL: https://stream.zeno.fm/ad402tap7yzuv
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: EBC RADIO FM97.1 - Bang Dream Ave Mujica The Die is Cast Radio Station (Ethiopia)
+URL: https://stream.zeno.fm/rb6wbrap7yzuv
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: EBC RADIO FM104.7 - D4DJ Happy Around FM104.7 (Ethiopia)
+URL: https://stream.zeno.fm/2xguamap7yzuv
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: NEPAL TRAFFIC RADIO
+URL: https://betelgeuse.dribbcast.com/proxy/trafficradio?mp=/stream
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: ERT PROTO AMPHOREUS RADIO
+URL: https://radiostreaming.ert.gr/ert-proto
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: ERT DEFTERO AMPHOREUS RADIO
+URL: https://radiostreaming.ert.gr/ert-deftero
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: ERT TRITO AMPHOREUS RADIO
+URL: https://radiostreaming.ert.gr/ert-trito
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: ERT SPOR AMPHOREUS RADIO
+URL: https://radiostreaming.ert.gr/ert-erasport
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
+Name: AMPHOREUS Hypnerion Radio
+URL: https://stream12.hosterion.pl/stream/hypnosradio/stream
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/phamanhquan2001/IPTV/refs/heads/main/Conflict%20Zone.m3u
+--------------------------------------------------
 Name: PAKISTAN WORLD SERVICE
 URL: https://whmsonic.radio.gov.pk:7005/stream?type=http&nocache=12
 Logo: https://buddytv.netlify.app/img/no-logo.png
