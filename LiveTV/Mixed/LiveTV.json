@@ -1,5 +1,5 @@
 {
-  "date": "2025-05-27 07:30:05",
+  "date": "2025-05-27 14:03:11",
   "channels": {
     "STREAMING": [
       {
@@ -2183,6 +2183,20 @@
         "url": "http://live1.cl.cdn.lla.vtrplay.com/viaxhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
       },
       {
+        "name": "UCV",
+        "logo": "https://cdn.m3u.cl/logo/54_UCV.png",
+        "group": "NACIONAL",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8?PlaylistM3UCL"
+      },
+      {
+        "name": "UCV 2",
+        "logo": "https://cdn.m3u.cl/logo/1152_UCV_2.png",
+        "group": "NACIONAL",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "https://unlimited1-cl-isp.dps.live/ucvtveventos/ucvtveventos.smil/playlist.m3u8?PlaylistM3UCL"
+      },
+      {
         "name": "MEGA2",
         "logo": "https://static.wikia.nocookie.net/tvcable/images/c/c4/Logomega2.png/revision/latest?cb=20240327172424&path-prefix=es",
         "group": "NACIONAL",
@@ -2209,6 +2223,13 @@
         "group": "NACIONAL",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://playtvpremium.xyz:2095/live/56984699680w1/310724zplayer/99506.m3u8"
+      },
+      {
+        "name": "TVN3",
+        "logo": "https://cdn.m3u.cl/logo/1437_TVN3.png",
+        "group": "NACIONAL",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8?PlaylistM3UCL"
       },
       {
         "name": "VIVE",
@@ -2246,6 +2267,13 @@
         "url": "https://marine2.miplay.cl/molinatv/playlist.m3u8?PlaylistM3UCL"
       },
       {
+        "name": "Nova TV",
+        "logo": "https://cdn.m3u.cl/logo/1497_Nova_TV_Canal_7.png",
+        "group": "NACIONAL",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "https://freya.mivideo.pro/novatv/index.fmp4.m3u8?PlaylistM3UCL"
+      },
+      {
         "name": "CANAL 13 FESTIVALES",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTowo87mrhzwoe77DwRiHJud3e_OEVw19MUCQ&s",
         "group": "NACIONAL",
@@ -2260,6 +2288,13 @@
         "url": "https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8"
       },
       {
+        "name": "13 INTERNACIONAL",
+        "logo": "https://cdn.m3u.cl/logo/1685_13_Internacional.png",
+        "group": "NACIONAL",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "https://redirector.dps.live/hls/13intav/playlist.m3u8?PlaylistM3UCL"
+      },
+      {
         "name": "CANAL 13 TELESERIES",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKXPKA1lKIXYGWJ9EGYBOFdf7pp8DTsi1cbUq7iOBGSMsJbKSqMfCGr4PXcjiXcnYfFEM&usqp=CAU",
         "group": "NACIONAL",
@@ -2272,6 +2307,41 @@
         "group": "NACIONAL",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8"
+      },
+      {
+        "name": "Retro Plus TV",
+        "logo": "https://cdn.m3u.cl/logo/4_Retro_Plus_TV.png",
+        "group": "NACIONAL",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "https://tls-cl.cdnz.cl/retroplus16@grupoz.cl_retrolive/live/playlist.m3u8?PlaylistM3UCL"
+      },
+      {
+        "name": "Retro Plus TV Señal 2",
+        "logo": "https://cdn.m3u.cl/logo/5_Retro_Plus_TV_Senal_2.png",
+        "group": "NACIONAL",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "https://ssh101.bozztv.com/ssh101/retroplustv2/playlist.m3u8?PlaylistM3UCL"
+      },
+      {
+        "name": "Retro Plus TV Señal 3",
+        "logo": "https://cdn.m3u.cl/logo/465_Retro_Plus_TV_Senal_3.png",
+        "group": "NACIONAL",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "https://ssh101.bozztv.com/ssh101/retroplustv03/playlist.m3u8?PlaylistM3UCL"
+      },
+      {
+        "name": "VClassicTV",
+        "logo": "https://cdn.m3u.cl/logo/1160_VClassicTV.png",
+        "group": "NACIONAL",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8?PlaylistM3UCL"
+      },
+      {
+        "name": "VClassicTV Tropical",
+        "logo": "https://cdn.m3u.cl/logo/1255_VClassicTV_Tropical.png",
+        "group": "NACIONAL",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "https://5eaccbab48461.streamlock.net:1936/8076/8076/playlist.m3u8?PlaylistM3UCL"
       }
     ],
     "DEPORTES": [
@@ -2455,7 +2525,7 @@
         "logo": "https://logowik.com/content/uploads/images/goltv2532.jpg",
         "group": "DEPORTES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://181.78.27.128:8000/play/a02u/index.m3u8"
+        "url": "http://181.188.234.21:8000/play/a042/index.m3u8"
       },
       {
         "name": "L1MAX",
@@ -2535,20 +2605,18 @@
         "url": "http://higherpro.xyz:8080/live/56956478056/270924ztv/464.m3u8"
       },
       {
+        "name": "DIRECTV SPORTS+",
+        "logo": "https://i.postimg.cc/7Lb92ddX/directvsports.png",
+        "group": "DEPORTES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://higherpro.xyz:8080/live/56956478056/270924ztv/466.m3u8"
+      },
+      {
         "name": "WIN SPORTS +",
         "logo": "https://img.hidra.app/deportes/winsportsplus.png",
         "group": "DEPORTES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
         "url": "http://hidra.live:80/eufTQNgNXv/ojxBLcjY/34691"
-      }
-    ],
-    "→ DEPORTES LATINOS ←": [
-      {
-        "name": "DEP• DIRECTV SPORTS+ AR (HD) »2«",
-        "logo": "https://i.postimg.cc/7Lb92ddX/directvsports.png",
-        "group": "→ DEPORTES LATINOS ←",
-        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://higherpro.xyz:8080/live/56956478056/270924ztv/466.m3u8"
       }
     ],
     "CINE Y SERIES": [
@@ -2840,11 +2908,18 @@
         "url": "http://179.49.163.34:45000/play/a00y/index.m3u8"
       },
       {
+        "name": "NETFLIX",
+        "logo": "https://static.vecteezy.com/system/resources/previews/014/018/573/non_2x/netflix-logo-on-transparent-background-free-vector.jpg",
+        "group": "CINE Y SERIES",
+        "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
+        "url": "http://playtvpremium.xyz:2095/live/56984699680w1/310724zplayer/322809.m3u8"
+      },
+      {
         "name": "+CINE",
         "logo": "https://cdn.m3u.cl/logo/1435__Cine.png",
         "group": "CINE Y SERIES",
         "source": "https://raw.githubusercontent.com/demons-777/miptv/refs/heads/main/miptv",
-        "url": "http://playtvpremium.xyz:2095/live/56984699680w1/310724zplayer/322809.m3u8"
+        "url": "https://tv.arkeo.cl:19360/8128/8128.m3u8?PlaylistM3UCL"
       },
       {
         "name": "STUDIO UNIVERSAL",
