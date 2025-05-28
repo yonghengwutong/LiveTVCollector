@@ -1530,6 +1530,13 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Eixo-do-Mal.jp
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 
+Group: Entertainment
+Name: Peretz International
+URL: https://cdn4.skygo.mn/live/disk1/Che/HLS-FTA/Che.m3u8
+Logo: https://i.imgur.com/On6ggLe.png
+Source: https://iptv-org.github.io/iptv/countries/pt.m3u
+--------------------------------------------------
+
 Group: Family
 Name: The Pet Collective (720p)
 URL: https://6ec8627d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RoZVBldENvbGxlY3RpdmVfSExT/playlist.m3u8
@@ -1591,7 +1598,7 @@ Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 
 Group: IEGCQT
 Name: IEGCQT S11E29 25-05-2025
-URL: https://cdnapisec.kaltura.com/p/4526593/sp/452659300/playManifest/entryId/1_dari4vmm/protocol/https/format/mpegdash/flavorIds/1_564sf8jr,1_q4d1n3z0,1_tn3ntlll,1_misq9kfw,1_28h0b4rd,1_tvvcvivf/a.mpd
+URL: https://cfvod.kaltura.com/edash/p/4526593/sp/452659300/serveFlavor/entryId/1_dari4vmm/v/11/ev/14/flavorId/1_,564sf8jr,q4d1n3z0,tn3ntlll,misq9kfw,28h0b4rd,tvvcvivf,/forceproxy/true/name/a.mp4.urlset/manifest.mpd
 Logo: https://upload.wikimedia.org/wikipedia/pt/thumb/8/8a/IeGcQT.png/800px-IeGcQT.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -1769,6 +1776,11 @@ Source: https://iptv-org.github.io/iptv/countries/pt.m3u
 --------------------------------------------------
 
 Group: O Outro Lado
+Name: O Outro Lado - S10E19 26/5/2025
+URL: https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p14403/p14403_1_20250526000000e019t2556.mp4,.urlset/master.m3u8
+Logo: https://m3upt.com/logos/O-outro-lado.jpg
+Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
+--------------------------------------------------
 Name: O Outro Lado - S10E18 19/5/2025
 URL: https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p14403/p14403_1_20250519000000e018t3845.mp4,.urlset/master.m3u8
 Logo: https://m3upt.com/logos/O-outro-lado.jpg
@@ -4083,7 +4095,7 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: TVI
-URL: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yNy8yMDI1IDQ6ODozMCBQTSZoYXNoX3ZhbHVlPXRhRlhpc2NQR1h4K25HUzluSWhScHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD02YjRhYmRlNC03ODMwLTQ3YWYtOTNjMi03YzQ4MDFmZjk1OWY=/
+URL: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yOC8yMDI1IDEyOjMwOjM4IEFNJmhhc2hfdmFsdWU9YU1xWVRZZVRFdTZ1L1RmVTFHYkVaQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWEyYzI2NTg0LWFmMjktNGVjZC04NDM5LTI2ZDllYzdmNjlmMA==/
 Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -4098,7 +4110,7 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: CNN Portugal
-URL: https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yNy8yMDI1IDQ6ODozMSBQTSZoYXNoX3ZhbHVlPWNvY1BUbFZwREJ2M0hORWxsTUFHMmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1hY2Y4ZmRkYi0wMjdlLTQ1ZTQtYTQ2My0wNjE2OTY3NjBjMDg=/
+URL: https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yOC8yMDI1IDEyOjMwOjM4IEFNJmhhc2hfdmFsdWU9Yk9lcVhPczRnSmREbENicjgzaE5oZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTViMjllYjQ0LTViMDAtNGZiZi1hNGM1LWVlNzliNjE0OTA0Yw==/
 Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
@@ -4143,7 +4155,7 @@ Logo: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacio
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
 Name: TVI Internacional
-URL: https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yNy8yMDI1IDQ6ODozMiBQTSZoYXNoX3ZhbHVlPWk0TkJwSVphYWxxT2NzZ29JYWNlY0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD02NTBjZDBiOS1jYTQ0LTQ3YTgtYTViMS1kOTM1NTAwZjBiNDY=/
+URL: https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yOC8yMDI1IDEyOjMwOjM5IEFNJmhhc2hfdmFsdWU9VjJzaFVEUFdXQTlva2k4Skt4ckRYQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWMyNGE4ZjkyLWYyYTktNDFkNy04NjMzLTJlMTE2MDllN2ZkMQ==/
 Logo: https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png
 Source: https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/M3UPT.m3u
 --------------------------------------------------
