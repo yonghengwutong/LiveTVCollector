@@ -1,5 +1,5 @@
 {
-  "date": "2025-05-27 21:54:00",
+  "date": "2025-05-28 06:57:35",
   "channels": {
     "News": [
       {
@@ -362,6 +362,13 @@
         "group": "General",
         "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
         "url": "https://tv.ondadigital.pe/ondadigital/index.m3u8"
+      },
+      {
+        "name": "RadioTV Oriente",
+        "logo": "https://i.imgur.com/iHaFLHX.png",
+        "group": "General",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://live.obslivestream.com/tvoriente/index.m3u8"
       },
       {
         "name": "TELE 6",
@@ -1608,6 +1615,15 @@
         "url": "https://stmv6.voxtvhd.com.br/elhistonautatv/elhistonautatv/chunklist_w368121454.m3u8"
       }
     ],
+    "Legislative": [
+      {
+        "name": "JNE TV",
+        "logo": "https://i.imgur.com/b25XfCj.png",
+        "group": "Legislative",
+        "source": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+        "url": "https://live20.bozztv.com/akamaissh101/ssh101/jnetv/playlist.m3u8"
+      }
+    ],
     "Animation;Entertainment": [
       {
         "name": "Kanade (1080p)",
@@ -2219,18 +2235,18 @@
         "url": "https://live.obslivestream.com/yurivision/tracks-v1a1/mono.m3u8"
       },
       {
-        "name": "33 | BH TV |",
-        "logo": "https://raw.githubusercontent.com/jesaro15/iptv/main/images/bhTV.jpg",
-        "group": "TV PERU",
-        "source": "https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u",
-        "url": "https://sc1.wasidata.com/Bhtv/tracks-v1a1/mono.m3u8"
-      },
-      {
-        "name": "34 | VZ TV |",
+        "name": "31 | VZ TV/DEPORTES |",
         "logo": "https://raw.githubusercontent.com/jesaro15/iptv/main/images/vzTV.jpg",
         "group": "TV PERU",
         "source": "https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u",
         "url": "https://vztv.online/live/mysteam_web.m3u8"
+      },
+      {
+        "name": "34 | BH TV |",
+        "logo": "https://raw.githubusercontent.com/jesaro15/iptv/main/images/bhTV.jpg",
+        "group": "TV PERU",
+        "source": "https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u",
+        "url": "https://sc1.wasidata.com/Bhtv/tracks-v1a1/mono.m3u8"
       },
       {
         "name": "39 | KARIBEÑA TV |",

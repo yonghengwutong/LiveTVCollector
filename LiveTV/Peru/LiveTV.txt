@@ -428,6 +428,11 @@ URL: https://tv.ondadigital.pe/ondadigital/index.m3u8
 Logo: https://i.imgur.com/3R2emx7.jpg
 Source: https://iptv-org.github.io/iptv/countries/pe.m3u
 --------------------------------------------------
+Name: RadioTV Oriente
+URL: https://live.obslivestream.com/tvoriente/index.m3u8
+Logo: https://i.imgur.com/iHaFLHX.png
+Source: https://iptv-org.github.io/iptv/countries/pe.m3u
+--------------------------------------------------
 Name: TELE 6
 URL: https://envivo.bolivia-link.com:3337/live/tele6live.m3u8
 Logo: https://i.imgur.com/p7tt72X.png
@@ -725,6 +730,13 @@ Group: Kids
 Name: Clan TVE Internacional (1080p)
 URL: https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
 Logo: https://i.imgur.com/03jFV68.png
+Source: https://iptv-org.github.io/iptv/countries/pe.m3u
+--------------------------------------------------
+
+Group: Legislative
+Name: JNE TV
+URL: https://live20.bozztv.com/akamaissh101/ssh101/jnetv/playlist.m3u8
+Logo: https://i.imgur.com/b25XfCj.png
 Source: https://iptv-org.github.io/iptv/countries/pe.m3u
 --------------------------------------------------
 
@@ -2444,14 +2456,14 @@ URL: https://live.obslivestream.com/yurivision/tracks-v1a1/mono.m3u8
 Logo: http://imgfz.com/i/e1K9mWZ.jpeg
 Source: https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u
 --------------------------------------------------
-Name: 33 | BH TV |
-URL: https://sc1.wasidata.com/Bhtv/tracks-v1a1/mono.m3u8
-Logo: https://raw.githubusercontent.com/jesaro15/iptv/main/images/bhTV.jpg
-Source: https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u
---------------------------------------------------
-Name: 34 | VZ TV |
+Name: 31 | VZ TV/DEPORTES |
 URL: https://vztv.online/live/mysteam_web.m3u8
 Logo: https://raw.githubusercontent.com/jesaro15/iptv/main/images/vzTV.jpg
+Source: https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u
+--------------------------------------------------
+Name: 34 | BH TV |
+URL: https://sc1.wasidata.com/Bhtv/tracks-v1a1/mono.m3u8
+Logo: https://raw.githubusercontent.com/jesaro15/iptv/main/images/bhTV.jpg
 Source: https://raw.githubusercontent.com/jesaro15/iptv/refs/heads/main/play.m3u
 --------------------------------------------------
 Name: 39 | KARIBEÑA TV |
