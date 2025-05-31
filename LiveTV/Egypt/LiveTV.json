@@ -1,5 +1,5 @@
 {
-  "date": "2025-05-30 22:00:08",
+  "date": "2025-05-31 07:24:33",
   "channels": {
     "Uncategorized": [
       {
@@ -1620,57 +1620,6 @@
         "url": "https://goccn.cloud/hls/amanitv/index.m3u8"
       }
     ],
-    "Music": [
-      {
-        "name": "Bblack! Africa (1080p)",
-        "logo": "https://i.imgur.com/s1kLdBG.png",
-        "group": "Music",
-        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
-        "url": "http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8"
-      },
-      {
-        "name": "MBC FM (1080p)",
-        "logo": "https://i.imgur.com/lF8UxvR.png",
-        "group": "Music",
-        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
-        "url": "https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8"
-      },
-      {
-        "name": "MTV Hits Europe",
-        "logo": "https://i.imgur.com/zNscEST.png",
-        "group": "Music",
-        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
-        "url": "http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test"
-      },
-      {
-        "name": "PMC (1080p)",
-        "logo": "https://i.imgur.com/AbrHI7K.png",
-        "group": "Music",
-        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
-        "url": "https://hls.pmc.live/hls/stream.m3u8"
-      },
-      {
-        "name": "PMC Royale (720p) [Not 24/7]",
-        "logo": "https://www.lyngsat.com/logo/tv/pp/pmc-royale-ch.png",
-        "group": "Music",
-        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
-        "url": "https://rohls.pmc.live/hls/stream.m3u8"
-      },
-      {
-        "name": "Qwest TV (1080p)",
-        "logo": "https://i.imgur.com/DjgNNHK.png",
-        "group": "Music",
-        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
-        "url": "https://qwestjazz-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-qwestjazz-rakuten/CDN/master.m3u8"
-      },
-      {
-        "name": "Wanasah (1080p)",
-        "logo": "https://i.imgur.com/nLtiXNf.png",
-        "group": "Music",
-        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
-        "url": "https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8"
-      }
-    ],
     "Business": [
       {
         "name": "Bloomberg TV EMEA Live Event (720p)",
@@ -1774,6 +1723,50 @@
         "group": "Family",
         "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
         "url": "https://shls-mbc5-prod-dub.shahid.net/out/v1/2720564b6a4641658fdfb6884b160da2/index.m3u8"
+      }
+    ],
+    "Music": [
+      {
+        "name": "MBC FM (1080p)",
+        "logo": "https://i.imgur.com/lF8UxvR.png",
+        "group": "Music",
+        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
+        "url": "https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8"
+      },
+      {
+        "name": "MTV Hits Europe",
+        "logo": "https://i.imgur.com/zNscEST.png",
+        "group": "Music",
+        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
+        "url": "http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test"
+      },
+      {
+        "name": "PMC (1080p)",
+        "logo": "https://i.imgur.com/AbrHI7K.png",
+        "group": "Music",
+        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
+        "url": "https://hls.pmc.live/hls/stream.m3u8"
+      },
+      {
+        "name": "PMC Royale (720p) [Not 24/7]",
+        "logo": "https://www.lyngsat.com/logo/tv/pp/pmc-royale-ch.png",
+        "group": "Music",
+        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
+        "url": "https://rohls.pmc.live/hls/stream.m3u8"
+      },
+      {
+        "name": "Qwest TV (1080p)",
+        "logo": "https://i.imgur.com/DjgNNHK.png",
+        "group": "Music",
+        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
+        "url": "https://qwestjazz-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-qwestjazz-rakuten/CDN/master.m3u8"
+      },
+      {
+        "name": "Wanasah (1080p)",
+        "logo": "https://i.imgur.com/nLtiXNf.png",
+        "group": "Music",
+        "source": "https://iptv-org.github.io/iptv/countries/eg.m3u",
+        "url": "https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8"
       }
     ],
     "Documentary": [
