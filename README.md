@@ -177,3 +177,8 @@ By using this repository or its generated files, you acknowledge and agree to th
 - Respect Source Terms: Adhere to the terms of service of the original stream providers.
 - Attribution: If you share or use this data, please credit bugsfreeweb/LiveTVCollector.
 - Modification: Feel free to modify the files for personal use, but do not misrepresent them as official or endorsed content.
+
+## Donate the project
+- DOGE: <b>DEtH2yFUjjUEBUyd3scjs38X7S1Z7ee7zD</b>
+- BTC Lightening: <b>bugsfree@speed.app</b>
+- SOL: <b>bugsfree.sol</b>
