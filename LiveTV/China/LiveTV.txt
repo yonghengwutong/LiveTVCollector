@@ -4444,8 +4444,13 @@ URL: https://fl3.moveonjoy.com/ION_Plus/index.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
 --------------------------------------------------
-Name: ION TV
-URL: http://fl3.moveonjoy.com/ION_TV/index.m3u8
+Name: ION
+URL: http://143.244.60.30/ION_TV/index.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
+--------------------------------------------------
+Name: Vice TV
+URL: http://23.237.104.106:8080/USA_VICETV/index.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
 --------------------------------------------------
@@ -4787,11 +4792,6 @@ Source: https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3
 Name: HLN
 URL: http://143.244.60.30/HLN/index.m3u8
 Logo: http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10145_dark_360w_270h.png
-Source: https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
---------------------------------------------------
-Name: ION
-URL: http://143.244.60.30/ION_TV/index.m3u8
-Logo: https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/ion-television-us.png?raw=true
 Source: https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
 --------------------------------------------------
 Name: National Geographic
@@ -5533,11 +5533,6 @@ URL: https://liveout.xntv.tv/a65jur/96iln2.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
-Name: 广东体育
-URL: https://epg.pw/stream/7b470f9fc5c305db0c8622117b7b25ca00eb35ba3e93e865cf0ff9df5c736681.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
---------------------------------------------------
 Name: 七星关电视台
 URL: https://p8.vzan.com:443/slowlive/147077707554082780/live.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
@@ -5575,6 +5570,11 @@ Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtere
 --------------------------------------------------
 Name: 仁寿综合
 URL: https://play.scrstv.com.cn/DT/live.m3u8?auth_key=60001724663204-0-0-c1cc4ded9841ac34f63cdbd3aec647ef
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
+Name: 任丘综合
+URL: https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -5654,7 +5654,7 @@ Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
 Name: 太谷新闻综合
-URL: https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0
+URL: https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -5718,6 +5718,11 @@ URL: https://stream.thmz.com/wxtv2/playlist.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
+Name: 无锡生活
+URL: https://stream.thmz.com/wxtv4/playlist.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
 Name: 无锡经济
 URL: https://stream.thmz.com/wxtv5/playlist.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
@@ -5763,6 +5768,11 @@ URL: https://ls.qingting.fm/live/20198/64k.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
+Name: 武清综合
+URL: https://tvpull.smartwq.cn/wqlive/convergencemedia/playlist.m3u8?ztianjd
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
 Name: 永昌综合
 URL: https://play.kankanlive.com/live/1652755738635915.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
@@ -5803,6 +5813,11 @@ URL: https://satellitepull.cnr.cn/live/wxhainxwgb/playlist.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
+Name: 海宁新闻综合
+URL: https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
 Name: 淮阴综合
 URL: https://huaiyin-tv-replay.cm.jstv.com/huaiyin-tv/huaiyinf.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
@@ -5820,11 +5835,6 @@ Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtere
 --------------------------------------------------
 Name: 渭源新闻
 URL: https://play.kankanlive.com/live/1711955176432990.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
---------------------------------------------------
-Name: 湖州文化娱乐
-URL: https://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -5890,11 +5900,6 @@ Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtere
 --------------------------------------------------
 Name: 诸暨新闻综合
 URL: https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
---------------------------------------------------
-Name: 贵南综合
-URL: https://livecdn.dmqhyadmin.com/hls/xjguinan.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -7494,7 +7499,7 @@ Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtere
 --------------------------------------------------
 
 Group: 更新时间
-Name: 2025-06-03 18:33:24
+Name: 2025-06-04 00:30:55
 URL: https://vd4.bdstatic.com/mda-reiihfhe5xjm4s3e/1080p/cae_h264/1747660062050484190/mda-reiihfhe5xjm4s3e.mp4
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
@@ -8218,16 +8223,6 @@ URL: https://smart.pendy.dpdns.org/Smart.php?id=eltasport3_twn
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
-Name: 韩国电影1
-URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
---------------------------------------------------
-Name: 韩国电影2
-URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
---------------------------------------------------
 
 Group: 点播电影
 Name: 倩女幽魂妖魔道
@@ -8437,8 +8432,8 @@ URL: https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
-Name: 哈尔滨影视
-URL: https://stream.hrbtv.net/yspd/sd/live.m3u8
+Name: 浙江影视
+URL: https://ali-m-l.cztv.com/channels/lantian/channel005/1080p.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -8449,6 +8444,16 @@ Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtere
 --------------------------------------------------
 Name: 豆瓣电影
 URL: https://live.tvfix.org/live/cmc/index.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
+Name: 韩国电影1
+URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
+Name: 韩国电影2
+URL: https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -8798,38 +8803,28 @@ Source: https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 --------------------------------------------------
 
 Group: 直播中国
-Name: 云南丽江冰川
-URL: https://gcalic.v.myalicdn.com/gc/hkylxs05_1/index.m3u8
+Name: 张掖七彩丹霞
+URL: https://gcalic.v.myalicdn.com/gc/zyqcdx01_1/index.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
-Name: 云南大理崇圣寺三塔中景
-URL: https://gcalic.v.myalicdn.com/gc/dlst03_1/index.m3u8
+Name: 泰山十八盘
+URL: https://gcalic.v.myalicdn.com/gc/taishan05_1/index.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
-Name: 泰山碧霞祠
-URL: https://gcalic.v.myalicdn.com/gc/hkts03_1/index.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
---------------------------------------------------
-Name: 湖南张家界水绕四门
-URL: https://gcalic.v.myalicdn.com/gc/zjjsrsm_1/index.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
---------------------------------------------------
-Name: 贵州省兴义市万峰林
-URL: https://gcalic.v.myalicdn.com/gc/xywfl_1/index.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
---------------------------------------------------
-Name: 黄花城水长城01
-URL: https://gcalic.v.myalicdn.com/gc/wgw01_1/index.m3u8
+Name: 湖南张家界宝峰湖
+URL: https://gcalic.v.myalicdn.com/gc/zjjbfh_1/index.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
 
 Group: 纪录频道
+Name: 兵团五师双河影
+URL: https://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8?zxinjd
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
 Name: 飞碟之谜01
 URL: https://hls.cntv.lxdns.com/asp/hls/2000/0303000a/3/default/f0a47e155d32450daa1d36a04fd7d262/2000.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
