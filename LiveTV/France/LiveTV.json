@@ -1,5 +1,5 @@
 {
-  "date": "2025-06-11 06:22:33",
+  "date": "2025-06-11 13:44:29",
   "channels": {
     "1. |FR|🇫🇷 INFORMATION": [
       {
@@ -82,6 +82,13 @@
         "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/dmotion/py/lcpan/lcp1.m3u8"
       },
       {
+        "name": "LCP/PS",
+        "logo": "https://i.ibb.co/0pH2kRYr/lcpps.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/lcpps.m3u8"
+      },
+      {
         "name": "PUBLIC-SÉNAT",
         "logo": "https://i.ibb.co/2jG942b/publicsn.png",
         "group": "Uncategorized",
@@ -145,7 +152,7 @@
         "url": "http://news.cgtn.com/resource/live/french/cgtn-f.m3u8"
       },
       {
-        "name": "LN24 BE",
+        "name": "LN24 LES NEWS BE",
         "logo": "https://i.ibb.co/nR2HsVr/ln24.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
@@ -647,13 +654,6 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/ftv/py/frdocv2.m3u8"
-      },
-      {
-        "name": "FRANCE TV ROLAND GARROS",
-        "logo": "https://i.ibb.co/kgMKnQVx/rolangarros.jpg",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/rg/rgcdirecttv.m3u8"
       },
       {
         "name": "ARTE",
@@ -3558,14 +3558,14 @@
         "logo": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=Rr-ZuI3EfZBzOPz_xjZ-vA&e=1749604539"
+        "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=Y2HGggnv1drXRVdvrfzZ0g&e=1749637286"
       },
       {
         "name": "NOW",
         "logo": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=Rr-ZuI3EfZBzOPz_xjZ-vA&e=1749604539"
+        "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=Y2HGggnv1drXRVdvrfzZ0g&e=1749637286"
       },
       {
         "name": "TV8",
@@ -12379,6 +12379,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://shls-hadath-prod-dub.shahid.net/out/v1/0e1a306399c346faac4226aa0858f99b/index.m3u8"
+      },
+      {
+        "name": "AL ARABIYA HADATH",
+        "logo": "https://i.ibb.co/nc8F1dj/Al-Hadath.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8"
       },
       {
         "name": "AL ARABIYA HADATH",
