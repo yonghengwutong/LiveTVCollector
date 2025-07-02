@@ -6683,12 +6683,12 @@ Logo: https://i.ibb.co/BrGNZJ4/showtv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW
-URL: https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=V4gnSvR5vZDkmuRCdJzVRA&e=1751451867
+URL: https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=--RmNcxKtCY7T-KgCYoPQQ&e=1751474211
 Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW
-URL: https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=V4gnSvR5vZDkmuRCdJzVRA&e=1751451867
+URL: https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=--RmNcxKtCY7T-KgCYoPQQ&e=1751474211
 Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -17557,34 +17557,39 @@ Logo: https://i.imgur.com/I6pKoBd.png
 Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 --------------------------------------------------
 
-Group: ☘️上海频道
-Name: 第一财经
-URL: http://a1live.livecdn.yicai.com/live/radio_tv.m3u8
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/第一财经.png
+Group: ☘️云南频道
+Name: 西双版纳综合
+URL: http://m3u8channel.xsbnrtv.cn/nmip-media/channellive/channel106885/playlist.m3u8
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/西双版纳综合.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 
 Group: ☘️内蒙古频道
 Name: 内蒙农牧
-URL: https://livestream-bt.nmtv.cn/nmtv/2320general.m3u8?txSecret=4d368a175afa19737a9f5be10af24fe2&txTime=771E8800
+URL: http://play1-qk.nmtv.cn:80/live/1686561299036179.m3u8
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/内蒙农牧.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 
 Group: ☘️吉林频道
+Name: 延边卫视
+URL: http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/延边卫视.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: 德惠综合
+URL: https://stream11.jlntv.cn/dehuitv/sd/live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/德惠综合.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: 九台综合
-URL: http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8
+URL: http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/九台综合.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: 磐石综合
 URL: http://stream3.jlntv.cn:80/aac_psgb/sd/live.m3u8
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/磐石综合.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: 辉南新闻综合
-URL: https://stream5.jlntv.cn/hn/sd/live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/辉南新闻综合.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: 柳河综合
@@ -17599,9 +17604,21 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 --------------------------------------------------
 
 Group: ☘️四川频道
-Name: 双流综合
-URL: http://171.221.250.130:18888/27e684978eb642eeb90ab815f6cc51bf/c41893de5e8645b3b43aef1640859b0d.m3u8?zsicd,
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/双流综合.png
+Name: 朝天综合
+URL: https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/朝天综合.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+
+Group: ☘️安徽频道
+Name: 固镇新闻
+URL: http://www.guzhenm.com:7001/hls/hd-live.m3u8
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/固镇新闻.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+Name: 涡阳新闻综合
+URL: http://220.180.124.18:888/live/ch0.m3u8
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/涡阳新闻综合.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 
@@ -17613,21 +17630,14 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 --------------------------------------------------
 
 Group: ☘️山西频道
-Name: 吉县新闻综合
-URL: http://jxlive.jxrmtzx.com:8091/live/xwzh.m3u8
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/吉县新闻综合.png
+Name: 太谷新闻综合
+URL: https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/太谷新闻综合.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: 长治公共
 URL: http://live.njgdmm.com/changzhi/cztv2.m3u8
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/长治公共.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-
-Group: ☘️广西频道
-Name: 南宁新闻综合
-URL: http://live.xmcdn.com/live/305/64.m3u8?aac
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/南宁新闻综合.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 
@@ -17637,21 +17647,16 @@ URL: http://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8?fbl=
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/兵团五师双河新闻综合.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: 奎屯哈萨克语
-URL: http://218.84.12.186:8002/hls/main/playlist.m3u8
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/奎屯哈萨克语.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 
 Group: ☘️江苏频道
+Name: 常熟民生
+URL: http://3gvod.zjgonline.com.cn:1935/live/_definst_/shehuishenghuo_app/chunklist.m3u8
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/常熟民生.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
 Name: 泗洪新闻综合
 URL: http://3739115337.cloudvdn.com/a.m3u8?domain=siyang-tv-hls.cm.jstv.com&player=nwEAAKHdjSKP_58X&secondToken=secondToken%3A5FUijZmDyNMxtCDdne0YzSAwjuw&streamid=siyang-tv%3Asiyang-tv%2Fsiyangzh&v3=1
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/泗洪新闻综合.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: 睢宁三农
-URL: http://3739115337.cloudvdn.com/a.m3u8?domain=suining-tv-hls.cm.jstv.com&player=nwEAAJApyIx-AKAX&secondToken=secondToken%3AfyPrvACXUQ_VSZUu3Rxm-2py1fo&streamid=suining-tv%3Asuining-tv%2Fsuiningsn&v3=1
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/睢宁三农.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: 苏州社会经济
@@ -17695,21 +17700,6 @@ URL: https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴新闻综合.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: 嘉兴公共
-URL: http://play-sh13.quklive.com/live/1675149601192103.m3u8?auth_key=2028730429-9ab7f7f0267946e880ec46ce3d57ec9e-0-eb04d7f7e549054293604b04150cefa1
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴公共.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: 嘉兴文化影视
-URL: http://play-sh13.quklive.com/live/1675149625220101.m3u8?auth_key=2028730374-3a60eb8e324f416aa3b26dda7679d920-0-22dc7efa8452d0b0665c15eeed83609d
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴文化影视.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-Name: 湖州新闻综合
-URL: http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865&amp;fbl=
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/湖州新闻综合.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
 Name: 湖州文化娱乐
 URL: http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887&amp;amp;fbl=
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/湖州文化娱乐.png
@@ -17720,16 +17710,9 @@ URL: http://play-sh13.quklive.com/live/1699001836208185.m3u8?auth_key=2027429324
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/舟山新闻综合.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
-Name: 湖州公共民生
-URL: http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/湖州公共民生.png
-Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
---------------------------------------------------
-
-Group: ☘️湖南频道
-Name: 湖南爱晚
-URL: http://p2.vzan.com/527645544/149039617847513156/live.m3u8
-Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/湖南爱晚.png
+Name: 绍兴电视台公共
+URL: http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/绍兴电视台公共.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 
@@ -17749,12 +17732,12 @@ Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_
 
 Group: ☘️黑龙江频道
 Name: 哈尔滨影视
-URL: http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild
+URL: http://stream.hrbtv.net/yspd/sd/live.m3u8
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/哈尔滨影视.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 Name: 哈尔滨生活
-URL: http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
+URL: http://stream.hrbtv.net/shpd/sd/live.m3u8
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/哈尔滨生活.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
@@ -17782,6 +17765,20 @@ Group: 🏛经典剧场
 Name: 西游记
 URL: https://txmov2.a.kwimgs.com/bs3/video-hls/5239093806671579134_hlsb.m3u8
 Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/西游记.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+
+Group: 📡卫视频道
+Name: 浙江卫视
+URL: http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#mitv://generationnexxxt.com:19806/7bf4b3a65eaf421ab6d71bd8dcc4547a
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/浙江卫视.png
+Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
+--------------------------------------------------
+
+Group: 🪁动画频道
+Name: 少儿动画
+URL: http://124.116.183.146:9901/tsfile/live/0137_1.m3u8
+Logo: https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/少儿动画.png
 Source: https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u
 --------------------------------------------------
 

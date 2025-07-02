@@ -1,6 +1,15 @@
 {
-  "date": "2025-07-02 14:04:04",
+  "date": "2025-07-02 22:01:42",
   "channels": {
+    "📡卫视频道": [
+      {
+        "name": "浙江卫视",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/浙江卫视.png",
+        "group": "📡卫视频道",
+        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
+        "url": "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#mitv://generationnexxxt.com:19806/7bf4b3a65eaf421ab6d71bd8dcc4547a"
+      }
+    ],
     "☘️浙江频道": [
       {
         "name": "杭州综合",
@@ -17,27 +26,6 @@
         "url": "https://live-auth.51kandianshi.com/szgd/csztv1.m3u8"
       },
       {
-        "name": "嘉兴公共",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴公共.png",
-        "group": "☘️浙江频道",
-        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://play-sh13.quklive.com/live/1675149601192103.m3u8?auth_key=2028730429-9ab7f7f0267946e880ec46ce3d57ec9e-0-eb04d7f7e549054293604b04150cefa1"
-      },
-      {
-        "name": "嘉兴文化影视",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴文化影视.png",
-        "group": "☘️浙江频道",
-        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://play-sh13.quklive.com/live/1675149625220101.m3u8?auth_key=2028730374-3a60eb8e324f416aa3b26dda7679d920-0-22dc7efa8452d0b0665c15eeed83609d"
-      },
-      {
-        "name": "湖州新闻综合",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/湖州新闻综合.png",
-        "group": "☘️浙江频道",
-        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865&amp;fbl="
-      },
-      {
         "name": "湖州文化娱乐",
         "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/湖州文化娱乐.png",
         "group": "☘️浙江频道",
@@ -52,36 +40,27 @@
         "url": "http://play-sh13.quklive.com/live/1699001836208185.m3u8?auth_key=2027429324-c77bb6a7063c4cdea57f09ca22f9ef12-0-39c19a21f73b823db2150ea45b147eb2"
       },
       {
-        "name": "湖州公共民生",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/湖州公共民生.png",
+        "name": "绍兴电视台公共",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/绍兴电视台公共.png",
         "group": "☘️浙江频道",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e"
-      }
-    ],
-    "☘️上海频道": [
-      {
-        "name": "第一财经",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/第一财经.png",
-        "group": "☘️上海频道",
-        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://a1live.livecdn.yicai.com/live/radio_tv.m3u8"
+        "url": "http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8"
       }
     ],
     "☘️江苏频道": [
+      {
+        "name": "常熟民生",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/常熟民生.png",
+        "group": "☘️江苏频道",
+        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
+        "url": "http://3gvod.zjgonline.com.cn:1935/live/_definst_/shehuishenghuo_app/chunklist.m3u8"
+      },
       {
         "name": "泗洪新闻综合",
         "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/泗洪新闻综合.png",
         "group": "☘️江苏频道",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
         "url": "http://3739115337.cloudvdn.com/a.m3u8?domain=siyang-tv-hls.cm.jstv.com&player=nwEAAKHdjSKP_58X&secondToken=secondToken%3A5FUijZmDyNMxtCDdne0YzSAwjuw&streamid=siyang-tv%3Asiyang-tv%2Fsiyangzh&v3=1"
-      },
-      {
-        "name": "睢宁三农",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/睢宁三农.png",
-        "group": "☘️江苏频道",
-        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://3739115337.cloudvdn.com/a.m3u8?domain=suining-tv-hls.cm.jstv.com&player=nwEAAJApyIx-AKAX&secondToken=secondToken%3AfyPrvACXUQ_VSZUu3Rxm-2py1fo&streamid=suining-tv%3Asuining-tv%2Fsuiningsn&v3=1"
       },
       {
         "name": "苏州社会经济",
@@ -91,31 +70,13 @@
         "url": "https://live-auth.51kandianshi.com/szgd/csztv2.m3u8"
       }
     ],
-    "☘️湖南频道": [
-      {
-        "name": "湖南爱晚",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/湖南爱晚.png",
-        "group": "☘️湖南频道",
-        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://p2.vzan.com/527645544/149039617847513156/live.m3u8"
-      }
-    ],
-    "☘️广西频道": [
-      {
-        "name": "南宁新闻综合",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/南宁新闻综合.png",
-        "group": "☘️广西频道",
-        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://live.xmcdn.com/live/305/64.m3u8?aac"
-      }
-    ],
     "☘️四川频道": [
       {
-        "name": "双流综合",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/双流综合.png",
+        "name": "朝天综合",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/朝天综合.png",
         "group": "☘️四川频道",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://171.221.250.130:18888/27e684978eb642eeb90ab815f6cc51bf/c41893de5e8645b3b43aef1640859b0d.m3u8?zsicd,"
+        "url": "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8"
       }
     ],
     "☘️福建频道": [
@@ -175,13 +136,6 @@
         "group": "☘️新疆频道",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
         "url": "http://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8?fbl="
-      },
-      {
-        "name": "奎屯哈萨克语",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/奎屯哈萨克语.png",
-        "group": "☘️新疆频道",
-        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://218.84.12.186:8002/hls/main/playlist.m3u8"
       }
     ],
     "☘️山东频道": [
@@ -195,11 +149,11 @@
     ],
     "☘️山西频道": [
       {
-        "name": "吉县新闻综合",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/吉县新闻综合.png",
+        "name": "太谷新闻综合",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/太谷新闻综合.png",
         "group": "☘️山西频道",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://jxlive.jxrmtzx.com:8091/live/xwzh.m3u8"
+        "url": "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0"
       },
       {
         "name": "长治公共",
@@ -209,13 +163,43 @@
         "url": "http://live.njgdmm.com/changzhi/cztv2.m3u8"
       }
     ],
+    "☘️安徽频道": [
+      {
+        "name": "固镇新闻",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/固镇新闻.png",
+        "group": "☘️安徽频道",
+        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
+        "url": "http://www.guzhenm.com:7001/hls/hd-live.m3u8"
+      },
+      {
+        "name": "涡阳新闻综合",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/涡阳新闻综合.png",
+        "group": "☘️安徽频道",
+        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
+        "url": "http://220.180.124.18:888/live/ch0.m3u8"
+      }
+    ],
     "☘️吉林频道": [
+      {
+        "name": "延边卫视",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/延边卫视.png",
+        "group": "☘️吉林频道",
+        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
+        "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#"
+      },
+      {
+        "name": "德惠综合",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/德惠综合.png",
+        "group": "☘️吉林频道",
+        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
+        "url": "https://stream11.jlntv.cn/dehuitv/sd/live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]"
+      },
       {
         "name": "九台综合",
         "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/九台综合.png",
         "group": "☘️吉林频道",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8"
+        "url": "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild"
       },
       {
         "name": "磐石综合",
@@ -223,13 +207,6 @@
         "group": "☘️吉林频道",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
         "url": "http://stream3.jlntv.cn:80/aac_psgb/sd/live.m3u8"
-      },
-      {
-        "name": "辉南新闻综合",
-        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/辉南新闻综合.png",
-        "group": "☘️吉林频道",
-        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "https://stream5.jlntv.cn/hn/sd/live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]"
       },
       {
         "name": "柳河综合",
@@ -252,7 +229,16 @@
         "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/内蒙农牧.png",
         "group": "☘️内蒙古频道",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "https://livestream-bt.nmtv.cn/nmtv/2320general.m3u8?txSecret=4d368a175afa19737a9f5be10af24fe2&txTime=771E8800"
+        "url": "http://play1-qk.nmtv.cn:80/live/1686561299036179.m3u8"
+      }
+    ],
+    "☘️云南频道": [
+      {
+        "name": "西双版纳综合",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/西双版纳综合.png",
+        "group": "☘️云南频道",
+        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
+        "url": "http://m3u8channel.xsbnrtv.cn/nmip-media/channellive/channel106885/playlist.m3u8"
       }
     ],
     "☘️黑龙江频道": [
@@ -261,14 +247,14 @@
         "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/哈尔滨影视.png",
         "group": "☘️黑龙江频道",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild"
+        "url": "http://stream.hrbtv.net/yspd/sd/live.m3u8"
       },
       {
         "name": "哈尔滨生活",
         "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/哈尔滨生活.png",
         "group": "☘️黑龙江频道",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
-        "url": "http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild"
+        "url": "http://stream.hrbtv.net/shpd/sd/live.m3u8"
       }
     ],
     "🌊港·澳·台": [
@@ -285,6 +271,15 @@
         "group": "🌊港·澳·台",
         "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
         "url": "http://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8"
+      }
+    ],
+    "🪁动画频道": [
+      {
+        "name": "少儿动画",
+        "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/少儿动画.png",
+        "group": "🪁动画频道",
+        "source": "https://raw.githubusercontent.com/zking2000/m3u/refs/heads/main/working_streams.m3u",
+        "url": "http://124.116.183.146:9901/tsfile/live/0137_1.m3u8"
       }
     ],
     "🎵音乐频道": [
@@ -3939,14 +3934,14 @@
         "logo": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=V4gnSvR5vZDkmuRCdJzVRA&e=1751451867"
+        "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=--RmNcxKtCY7T-KgCYoPQQ&e=1751474211"
       },
       {
         "name": "NOW",
         "logo": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=V4gnSvR5vZDkmuRCdJzVRA&e=1751451867"
+        "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=--RmNcxKtCY7T-KgCYoPQQ&e=1751474211"
       },
       {
         "name": "TV8",
