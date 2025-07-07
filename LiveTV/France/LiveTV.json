@@ -1,5 +1,5 @@
 {
-  "date": "2025-07-07 06:27:16",
+  "date": "2025-07-07 13:46:23",
   "channels": {
     "1. |FR|🇫🇷 INFORMATION": [
       {
@@ -614,11 +614,18 @@
         "url": "https://live-lci-hls.cdn-0.diff.tf1.fr/out/v1/917aad4fa72f42f7ba7f486226f54bc4/lci-cmaf/index.m3u8"
       },
       {
-        "name": "TF1-SD",
+        "name": "TF1",
         "logo": "https://i.ibb.co/BBpR1Wx/tf1.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://live-tf1-hls-ssai.cdn-0.diff.tf1.fr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiIxODUuMzEuNDAuMjEiLCJjbWNkIjoiIiwiZXhwIjoxNzUxODQ4MjM1LCJnaWQiOiI1OWU4ODFjMjI2NTE0Y2M1YjdjMTEzZDYwMDFmNjQ4MCIsImlhdCI6MTc1MTgzMzgzNSwiaXNzIjoiZGVsaXZlcnkiLCJtYXhiIjowLCJzdGVtIjoiL291dC92MS8yYTVlZjJhNGNlNGE0MTIwOWUwYTg4MTA3NGQxNTkzMi90ZjEtY21hZiIsInN1YiI6IjU5ZTg4MWMyMjY1MTRjYzViN2MxMTNkNjAwMWY2NDgwIn0.UHmVsBnlDaZexdzUymW56fEh0NTCQmiHxm6kNHk4sHM/out/v1/2a5ef2a4ce4a41209e0a881074d15932/tf1-cmaf/index.m3u8?bpkio_serviceid=9023effe3c16b0475d35e9f31c778b5c&bpkio_sessionid=10e0d3d12-5557a818-012b-43e5-abc1-cc1d5c7271a8&category=all&mm_sp"
+        "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/btv/py/tfun.m3u8"
+      },
+      {
+        "name": "TF1-BD_LQ",
+        "logo": "https://i.ibb.co/BBpR1Wx/tf1.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://live-tf1-hls.cdn-0.diff.tf1.fr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiIyMC4yMzIuMTg1LjE3OCIsImNtY2QiOiIiLCJleHAiOjE3NTE4NzMyOTQsImdpZCI6ImFlZWUyZmE4LTMzYjUtNGU3Yi1hOThkLWQ5MTY5NGI4ZmQ5NiIsImlhdCI6MTc1MTg2OTY5NCwiaXNzIjoiZGVsaXZlcnkiLCJtYXhiIjoyMDAwMDAwLCJzdGVtIjoiL291dC92MS83ODA1NDJmNTE2ZjE0M2ZjOGFkOWJmMTQ2MjIzMTZlNy90ZjEtY21hZiIsInN1YiI6ImFlZWUyZmE4LTMzYjUtNGU3Yi1hOThkLWQ5MTY5NGI4ZmQ5NiJ9.Bhgca6MJMDZf85Ll032Ftwq93rVsq6xIK-38M0nTj84/out/v1/780542f516f143fc8ad9bf14622316e7/tf1-cmaf/index.m3u8"
       },
       {
         "name": "FRANCE 2",
@@ -744,7 +751,7 @@
         "logo": "https://i.ibb.co/hKVyKj4/tmc.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://github.com/Paradise-91/ParaTV/raw/main/streams/tf1plus/tmc.m3u8"
+        "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/JE4w1uPzd04/2JXIhlK4ce5mEHtZ.m3u8"
       },
       {
         "name": "NOVO 19",
@@ -878,6 +885,27 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://raw.githubusercontent.com/schumijo/iptv/main/playlists/canalplus/cstar.m3u8"
+      },
+      {
+        "name": "TF1 (backup)",
+        "logo": "https://i.ibb.co/BBpR1Wx/tf1.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/refs/heads/main/Stream/Live/TF1.m3u8"
+      },
+      {
+        "name": "TF1 (backup)",
+        "logo": "https://i.ibb.co/BBpR1Wx/tf1.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/JE4w1uPzd04/vG0y29usEg0z5T5u.m3u8"
+      },
+      {
+        "name": "TF1 (backup)",
+        "logo": "https://i.ibb.co/BBpR1Wx/tf1.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://raw.githubusercontent.com/mikekaprielian/rtnaodhor93n398/main/fr/videotf1.m3u8"
       },
       {
         "name": "TF1 (backup)",
@@ -3621,14 +3649,14 @@
         "logo": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=JwcezPV6efQcGMawmRDYlA&e=1751850847"
+        "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=uUUyH4M4yiiqn1srsxyIVg&e=1751883985"
       },
       {
         "name": "NOW",
         "logo": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=JwcezPV6efQcGMawmRDYlA&e=1751850847"
+        "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=uUUyH4M4yiiqn1srsxyIVg&e=1751883985"
       },
       {
         "name": "TV8",
@@ -7460,41 +7488,6 @@
         "url": "https://l1.cloudskep.com/omegatv/omcy/playlist.m3u8"
       },
       {
-        "name": "ALPHA TV CYPRUS",
-        "logo": "https://i.ibb.co/480p4sv/alpha.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://l4.cloudskep.com/alphacyp/acy/playlist.m3u8"
-      },
-      {
-        "name": "RIK SAT CYPRUS",
-        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8"
-      },
-      {
-        "name": "RIK 1",
-        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "http://l6.cloudskep.com/rikct/rik1/playlist.m3u8"
-      },
-      {
-        "name": "RIK 2",
-        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "http://l6.cloudskep.com/rikct/rik2/playlist.m3u8"
-      },
-      {
-        "name": "RIK HD",
-        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "http://l6.cloudskep.com/rikct/rikhd/playlist.m3u8"
-      },
-      {
         "name": "ACTION 24",
         "logo": "https://i.ibb.co/56kWP6F/action24.png",
         "group": "Uncategorized",
@@ -7682,6 +7675,41 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://castor.streamthatvideo.co:8081/10channel/index.m3u8"
+      },
+      {
+        "name": "ALPHA TV CYPRUS",
+        "logo": "https://i.ibb.co/480p4sv/alpha.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://l4.cloudskep.com/alphacyp/acy/playlist.m3u8"
+      },
+      {
+        "name": "RIK SAT CYPRUS",
+        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8"
+      },
+      {
+        "name": "RIK 1",
+        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "http://l6.cloudskep.com/rikct/rik1/playlist.m3u8"
+      },
+      {
+        "name": "RIK 2",
+        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "http://l6.cloudskep.com/rikct/rik2/playlist.m3u8"
+      },
+      {
+        "name": "RIK HD",
+        "logo": "https://i.ibb.co/3sHp7pS/riksat.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "http://l6.cloudskep.com/rikct/rikhd/playlist.m3u8"
       },
       {
         "name": "ERT WORLD (backup)",
@@ -11048,7 +11076,7 @@
         "logo": "https://i.ibb.co/Svnqq8G/otv.jpg",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://live20.bozztv.com/gin-36bay4/ga-otvlebanon/index.m3u8"
+        "url": "https://fl1002.bozztv.com/ga-otvlebanon/index.m3u8"
       },
       {
         "name": "AL JADEED",
