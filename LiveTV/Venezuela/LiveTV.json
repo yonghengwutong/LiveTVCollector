@@ -1,27 +1,13 @@
 {
-  "date": "2025-07-29 13:55:10",
+  "date": "2025-07-29 21:52:02",
   "channels": {
     "News": [
       {
         "name": "TeleSUR (480p)",
         "logo": "https://i.imgur.com/P50VjRX.png",
         "group": "News",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://cdnesmain.telesur.ultrabase.net/mbliveMain/360p/chunklist.m3u8"
-      },
-      {
-        "name": "RT en Español (480p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png",
-        "group": "News",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_800Kb.m3u8"
-      },
-      {
-        "name": "HispanTV (480p)",
-        "logo": "https://i.imgur.com/AfsVFfM.png",
-        "group": "News",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://live.presstv.ir/hls/hispantv_3_482/index.m3u8"
       },
       {
         "name": "RT en Español (480p)",
@@ -29,6 +15,13 @@
         "group": "News",
         "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://1a-1791.com/live/r31jzt5k/slot-32/qyp9-ih3g_360p/chunklist_DVR.m3u8"
+      },
+      {
+        "name": "HispanTV (480p)",
+        "logo": "https://i.imgur.com/AfsVFfM.png",
+        "group": "News",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
+        "url": "https://live.presstv.ir/hls/hispantv_3_482/index.m3u8"
       },
       {
         "name": "24 Horas HEVC",
@@ -50,6 +43,13 @@
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
         "url": "https://vcp10.myplaytv.com/canali/canali/playlist.m3u8"
+      },
+      {
+        "name": "CGTN Español (1080p)",
+        "logo": "https://i.imgur.com/Poz3xfi.png",
+        "group": "News",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8"
       },
       {
         "name": "DW Español (1080p)",
@@ -106,99 +106,43 @@
         "name": "Venezolana de Televisión (480p)",
         "logo": "https://i.imgur.com/FeRTDqz.png",
         "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://live-c.cf.dmcdn.net/sec2(bDR0xuHPNJCfLs_4ZRVb4CVYQSdixvkRzOsLu7dNy1d_VCdBgenCW9BzrmCFg4DpZdoPVo9_2AWfsR-xgfpl7xkAchS82CsvCXTUIu6d4zIFiYeq8v409k3_Gg2ut9Ir)/dm/3/x930kre/d/live-380.m3u8"
       },
       {
         "name": "TV FANB (480p)",
         "logo": "https://i.imgur.com/yaEyv29.png",
         "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://vcp2.myplaytv.com/tvfanb/tvfanb/chunklist_w1363910970.m3u8"
       },
       {
         "name": "TeleAragua (480p)",
         "logo": "https://i.imgur.com/jPzcb2S.png",
         "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "http://45.173.198.59:8080/hls/nginx3.m3u8?tla="
-      },
-      {
-        "name": "TVS (480p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/TVS_Venezuela.png",
-        "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://vcp10.myplaytv.com/tvs/tvs/chunklist_w666009194.m3u8"
-      },
-      {
-        "name": "Canal 21 Táchira (480p)",
-        "logo": "https://i.imgur.com/7Tb7CF4.jpg",
-        "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://stmv2.voxtvhd.com.br/canal21/canal21/playlist.m3u8"
-      },
-      {
-        "name": "Telecolor (480p)",
-        "logo": "https://i.imgur.com/YvdzJHj.png",
-        "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://cloud.livescast.com:19360/telecolor/telecolor.m3u8"
-      },
-      {
-        "name": "Vale TV (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/NMI2Wed.png",
-        "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/chunklist_w2045076211.m3u8"
-      },
-      {
-        "name": "Isla TV (480p)",
-        "logo": "https://avatars.sched.co/b/ab/6686359/avatar.jpg?a11",
-        "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://59d39900ebfb8.streamlock.net/islatv/islatv/chunklist_w2048153656.m3u8"
       },
       {
         "name": "Barinas TV (480p) [Not 24/7]",
         "logo": "https://i.ibb.co/D7bLHGB/1575-Barinas-TV.png",
         "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://vcp13.myplaytv.com/barinastv/barinastv/playlist.m3u8"
       },
       {
         "name": "Catatumbo TV (480p)",
         "logo": "https://i.imgur.com/LBI2la0.png",
         "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8"
       },
       {
-        "name": "TRV (480p)",
-        "logo": "https://i.ibb.co/Yt6qyjL/trv.png",
+        "name": "Canal 21 Táchira (480p)",
+        "logo": "https://i.imgur.com/7Tb7CF4.jpg",
         "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://vcp3.myplaytv.com/trv/trv/playlist.m3u8"
-      },
-      {
-        "name": "Promar TV (720p) [Not 24/7]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Promar_Television.png",
-        "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://vcp.myplaytv.com/promar/promar/playlist.m3u8"
-      },
-      {
-        "name": "Latina TV (480p)",
-        "logo": "https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1",
-        "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://streamtv.intervenhosting.net:3639/live/latinatvlive.m3u8"
-      },
-      {
-        "name": "TNO Radio (720p)",
-        "logo": "https://i.ibb.co/0rYsbRk/Logo-TNO-2021-white.png",
-        "group": "General",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://stmv1.srvstm.com/tnovideo1/tnovideo1/playlist.m3u8"
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
+        "url": "https://stmv2.voxtvhd.com.br/canal21/canal21/playlist.m3u8"
       },
       {
         "name": "Telecentro (720p)",
@@ -208,11 +152,60 @@
         "url": "https://streamtv.intervenhosting.net:3161/live/telecentrolive.m3u8"
       },
       {
+        "name": "Telecolor (480p)",
+        "logo": "https://i.imgur.com/YvdzJHj.png",
+        "group": "General",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
+        "url": "https://cloud.livescast.com:19360/telecolor/telecolor.m3u8"
+      },
+      {
+        "name": "TRV (480p)",
+        "logo": "https://i.ibb.co/Yt6qyjL/trv.png",
+        "group": "General",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
+        "url": "https://vcp3.myplaytv.com/trv/trv/playlist.m3u8"
+      },
+      {
+        "name": "Promar TV (720p) [Not 24/7]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Promar_Television.png",
+        "group": "General",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
+        "url": "https://vcp.myplaytv.com/promar/promar/playlist.m3u8"
+      },
+      {
+        "name": "Latina TV (480p)",
+        "logo": "https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1",
+        "group": "General",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
+        "url": "https://streamtv.intervenhosting.net:3639/live/latinatvlive.m3u8"
+      },
+      {
+        "name": "Vale TV (480p) [Not 24/7]",
+        "logo": "https://i.imgur.com/NMI2Wed.png",
+        "group": "General",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
+        "url": "https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/chunklist_w2045076211.m3u8"
+      },
+      {
         "name": "UNI TV (720p)",
         "logo": "https://i.imgur.com/KLGeznX.png",
         "group": "General",
         "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://vcp6.myplaytv.com/unitv/unitv/playlist.m3u8"
+      },
+      {
+        "name": "TNO Radio (720p)",
+        "logo": "https://i.ibb.co/0rYsbRk/Logo-TNO-2021-white.png",
+        "group": "General",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
+        "url": "https://stmv1.srvstm.com/tnovideo1/tnovideo1/playlist.m3u8"
+      },
+      {
+        "name": "Isla TV (480p)",
+        "logo": "https://avatars.sched.co/b/ab/6686359/avatar.jpg?a11",
+        "group": "General",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
+        "url": "https://59d39900ebfb8.streamlock.net/islatv/islatv/chunklist_w2048153656.m3u8"
       },
       {
         "name": "Canal Nubeh TV (720p)",
@@ -416,28 +409,28 @@
         "name": "Televisora de Oriente (480p)",
         "logo": "https://i.imgur.com/wFC6Xxq.png",
         "group": "Music",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://cloud.fastchannel.es/manifiest/hls/prog9/tvo.m3u8"
-      },
-      {
-        "name": "Retro Plus TV (720p)",
-        "logo": "https://www.retroplustv.com/gallery/LOGO%20RETRO%20PLUS%20582X198-ts1680109231.jpg?ts=1730928546",
-        "group": "Music",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://scl.edge.grupoz.cl/retroplus16@grupoz.cl_retrolive/live/chunklist_w1765667634.m3u8"
       },
       {
         "name": "Kandela TV (480p)",
         "logo": "https://i.imgur.com/cCFxyIp.jpg",
         "group": "Music",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8"
       },
       {
-        "name": "Más Network Televisión (720p)",
+        "name": "Panavision (1080p)",
+        "logo": "https://i.imgur.com/qj1qBn1.png",
+        "group": "Music",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
+        "url": "https://vcp.myplaytv.com/panavision/panavision/chunklist_w1563195636.m3u8"
+      },
+      {
+        "name": "Mas Network Televisión (480p)",
         "logo": "https://masnetwork.com.ve/wp-content/uploads/2019/01/xmas-netw-470x470.png.pagespeed.ic_.CXtjneejLe.png",
         "group": "Music",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "http://204.157.96.12:25461/play/qouZrBRqisw6-KaJYNM6fIIobVGd6tURpgKPISfEUb6b37iwsmmUqi9mDcTpNFff/m3u8"
       },
       {
@@ -537,22 +530,15 @@
         "name": "Aguacate TV (480p)",
         "logo": "https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg",
         "group": "Entertainment",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8"
       },
       {
         "name": "MDA Televisión (720p)",
         "logo": "https://i.imgur.com/AlY38PN.png",
         "group": "Entertainment",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://vcp.myplaytv.com/mdatv/mdatv/playlist.m3u8"
-      },
-      {
-        "name": "Panavision (1080p)",
-        "logo": "https://i.imgur.com/qj1qBn1.png",
-        "group": "Entertainment",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://vcp.myplaytv.com/panavision/panavision/chunklist_w1563195636.m3u8"
       },
       {
         "name": "Guaro TV (1080p)",
@@ -595,21 +581,21 @@
         "name": "LGD TV (480p)",
         "logo": "https://i.imgur.com/a9E0DTY.jpeg",
         "group": "Religious",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://streamtv.intervenhosting.net:3259/hybrid/play.m3u8"
       },
       {
         "name": "Enlace (Costa Rica) (480p)",
         "logo": "https://i.imgur.com/YwUVTmS.png",
         "group": "Religious",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/chunklist_b1136000_sleng.m3u8"
       },
       {
         "name": "Reforma TV (1080p)",
         "logo": "https://i.imgur.com/iZMDddR.png",
         "group": "Religious",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://5bf8041cb3fed.streamlock.net/ReformaTV/ReformaTV/playlist.m3u8"
       },
       {
@@ -667,7 +653,7 @@
         "name": "Canal Diplomático (720p) [Not 24/7]",
         "logo": "https://i.ibb.co/34vsSzS/1439-Canal-Diplomatico.png",
         "group": "Culture",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://vcp.myplaytv.com/canaldiplomatico/canaldiplomatico/playlist.m3u8"
       },
       {
@@ -694,27 +680,6 @@
     ],
     "Sports": [
       {
-        "name": "MotorSport TV (480p)",
-        "logo": "https://graph.facebook.com/Motorsport.tvUK/picture?width=200&height=200",
-        "group": "Sports",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://6b3b2599.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/U3BvcnRzVHJpYmFsLWdiX01vdG9yc3BvcnRUVl9ITFM/c785989e-0239-4916-acfc-ab870521190d/1.m3u8"
-      },
-      {
-        "name": "Garage TV (480p)",
-        "logo": "https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2020/10/El-Garage-TV-en-VIVO-Online-1.png?resize=696%2C392&ssl=1",
-        "group": "Sports",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://stream1.sersat.com/hls/garagetv.m3u8"
-      },
-      {
-        "name": "Red Bull TV (480p)",
-        "logo": "https://logodix.com/logo/18135.png",
-        "group": "Sports",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_578.m3u8"
-      },
-      {
         "name": "FIFA + (480p)",
         "logo": "https://i.pinimg.com/736x/bd/ab/68/bdab6851e7bb4bee055f6d6f55900de2.jpg",
         "group": "Sports",
@@ -734,211 +699,36 @@
         "name": "TeleSUR HD (720p)",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/4/49/TeleSUR.jpg",
         "group": "HD",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8"
       },
       {
         "name": "TV BRICS HD (1080p)",
         "logo": "https://w1.pngwing.com/pngs/439/482/png-transparent-india-design-television-brics-television-channel-television-show-film-cable-television-russia.png",
         "group": "HD",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://espbrics.mediacdn.ru/cdn/brics/spanish/tracks-v1a1/mono.m3u8"
       },
       {
         "name": "RT en Español HD (720p)",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png",
         "group": "HD",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_2500Kb.m3u8"
       },
       {
         "name": "Anzoátegui TV (1080p)",
         "logo": "https://i.imgur.com/SLqrEOz.png",
         "group": "HD",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8"
       },
       {
         "name": "Vepaco TV (720p)",
         "logo": "https://i.imgur.com/0bqJksL.png",
         "group": "HD",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
+        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_92430.m3u",
         "url": "https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8"
-      }
-    ],
-    "HD;News": [
-      {
-        "name": "CGTN en Español (1080p)",
-        "logo": "https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200",
-        "group": "HD;News",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8"
-      }
-    ],
-    "Extra Channels - Latin America": [
-      {
-        "name": "Tlaxcala Televisión (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/5vaEhfy.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://vid.mega00.com:5443/LiveApp/streams/928111829917388844551988/928111829917388844551988.m3u8?token=null"
-      },
-      {
-        "name": "TVMÁS (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/15kcNRb.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8"
-      },
-      {
-        "name": "Ondambiental TV (480p)",
-        "logo": "https://i.imgur.com/u5804Au.jpg",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://stmv4.voxtvhd.com.br/ondastereo/ondastereo/playlist.m3u8"
-      },
-      {
-        "name": "ANC Televisión (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/xjTU14t.jpg",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://canal.mediaserver.com.co/live/ANCTELEVISION.m3u8"
-      },
-      {
-        "name": "ATV (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/giPOGyi.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://movil.ejeserver.com/live/verteve.m3u8"
-      },
-      {
-        "name": "Canal 6 Nicaragua (480p)",
-        "logo": "https://canal6.com.ni/wp-content/uploads/2023/07/logo-blanco-ch6.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://live-c.cf.dmcdn.net/sec2(AZEKiJpieO3C9YW9ugGoqgAOBCvO_ISBpHBw8WHISJVi3Ni54YN-RnMotw6HGKnM0CGtw9Kn45RmgvlgL2h4GpkitMhXBmrl5MT7co30AkYglLj2zBHRfRFneeSiNk9D)/dm/3/x96x78e/s/live-480.m3u8"
-      },
-      {
-        "name": "UNAH UTV (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/GhzaYbK.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://live-utv.unah.edu.hn/web/salida.m3u8"
-      },
-      {
-        "name": "Telediez (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/cm4NOuM.jpg",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://videohd.live:19360/8020/8020.m3u8"
-      },
-      {
-        "name": "Canal 13 La Rioja (720p)",
-        "logo": "https://i.imgur.com/OI97Sgq.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "http://arcast.net:1935/mp/mp/playlist.m3u8"
-      },
-      {
-        "name": "Telecóndor Satelital (480p) [Not 24/7]",
-        "logo": "https://i.ibb.co/zbR9qhb/descarga.jpg",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://videostream.shockmedia.com.ar:19360/canal4telecondor/canal4telecondor.m3u8"
-      },
-      {
-        "name": "5TV Corrientes (720p) [Not 24/7]",
-        "logo": "https://i.imgur.com/mSn7ACs.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8"
-      },
-      {
-        "name": "América Estéreo Guayaquíl (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/gUqKymM.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://video.makrodigital.com/americaestereoguayaquil/americaestereoguayaquil/playlist.m3u8"
-      },
-      {
-        "name": "Arica TV (480p) [Not 24/7]",
-        "logo": "https://i.imgur.com/I67WOgT.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://5eff35271151c.streamlock.net:1936/8002/8002/playlist.m3u8"
-      },
-      {
-        "name": "Triunfo 96.9 FM TV (360p)",
-        "logo": "https://i.ibb.co/q0qt0h5/x-SCWAc-Jfp3.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://59825a54e4454.streamlock.net:8443/william652/william652/playlist.m3u8"
-      },
-      {
-        "name": "ACS Network (480p)",
-        "logo": "https://i.imgur.com/7aIab2r.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://5790d294af2dc.streamlock.net/acsnetwork/acsnetwork/playlist.m3u8"
-      },
-      {
-        "name": "Red Social Códi TV (360p)",
-        "logo": "https://i.imgur.com/Yb4lhpG.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://video.misistemareseller.com/redsocial/redsocial/playlist.m3u8"
-      },
-      {
-        "name": "Makao TV (720p)",
-        "logo": "https://i.imgur.com/asD5y7i.png",
-        "group": "Extra Channels - Latin America",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://live.obslivestream.com/makaomux/tracks-v2a1/playlist.m3u8"
-      }
-    ],
-    "Extra Channels - Latin America;Extra Channels - Latin America News": [
-      {
-        "name": "Cinco TV (480p)",
-        "logo": "https://i.imgur.com/p9aaBKg.png",
-        "group": "Extra Channels - Latin America;Extra Channels - Latin America News",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8"
-      }
-    ],
-    "Extra Channels - Latin America;Educative": [
-      {
-        "name": "Educa TV (720p)",
-        "logo": "https://i.imgur.com/lY9Bx2u.png",
-        "group": "Extra Channels - Latin America;Educative",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://vid2.ecuamedia.net/educatv/live/playlist.m3u8"
-      }
-    ],
-    "Extra Channels - Latin America;Extra Channels - Latin America News;News": [
-      {
-        "name": "Prensa Latina TV (1080p)",
-        "logo": "https://i.imgur.com/jbm2S9O.jpeg",
-        "group": "Extra Channels - Latin America;Extra Channels - Latin America News;News",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://eu1.servers10.com:8081/8192/index.m3u8"
-      }
-    ],
-    "Radio": [
-      {
-        "name": "RT en Audio Español",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png",
-        "group": "Radio",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_64Kb.m3u8"
-      }
-    ],
-    "Extra Channels - World;News": [
-      {
-        "name": "Al Jazeera English (720p)",
-        "logo": "https://i.imgur.com/BB93NQP.png",
-        "group": "Extra Channels - World;News",
-        "source": "https://raw.githubusercontent.com/Nuelmaos/ipTV/refs/heads/Inicio/modo_prueba_xtraplus_102420.m3u",
-        "url": "https://live-hls-web-aje-fa.getaj.net/AJE/05.m3u8"
       }
     ],
     "Outdoor": [
@@ -1177,6 +967,15 @@
         "group": "Science",
         "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
         "url": "https://stmv5.voxtvhd.com.br/hiperconectados/hiperconectados/playlist.m3u8"
+      }
+    ],
+    "Auto": [
+      {
+        "name": "Garage TV Latin America",
+        "logo": "https://i.imgur.com/FqFxog1.png",
+        "group": "Auto",
+        "source": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+        "url": "https://stream1.sersat.com/hls/garagetv.m3u8"
       }
     ],
     "Documentary": [
