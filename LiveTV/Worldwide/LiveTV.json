@@ -1,5 +1,5 @@
 {
-  "date": "2025-08-06 14:07:02",
+  "date": "2025-08-06 22:05:15",
   "channels": {
     "☘️浙江频道": [
       {
@@ -590,6 +590,13 @@
         "logo": "https://i.ibb.co/VxLFYSj/euronews.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25081/euronews-fr.m3u8"
+      },
+      {
+        "name": "EURONEWS FR (backup)",
+        "logo": "https://i.ibb.co/VxLFYSj/euronews.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60d35bcaf1ff4a00078af0a6livestitch/master.m3u8?deviceDNT=%7BTARGETOPT%7D&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceType=samsung-tvplus&deviceMake=samsung"
       },
       {
@@ -647,6 +654,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_2300.m3u8"
+      },
+      {
+        "name": "FRANCE 24 FR (backup)",
+        "logo": "https://i.ibb.co/hKP8X8B/f24.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://arkina1234.github.io/ext/hls/france24-fr.m3u8"
       },
       {
         "name": "FRANCE 24 FR (backup)",
@@ -814,14 +828,14 @@
         "logo": "https://i.ibb.co/BBpR1Wx/tf1.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://live-tf1-hls.cdn-0.diff.tf1.fr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiI2Mi4yMTAuMjA0LjE2MSIsImNtY2QiOiIiLCJleHAiOjE3NTQ0NzE4OTIsImdpZCI6ImU3MjAzOGMzNTk0ODQwNzViODM4ZTA2Njk1YjdkNDk2IiwiaWF0IjoxNzU0NDU3NDkyLCJpc3MiOiJkZWxpdmVyeSIsIm1heGIiOjAsInN0ZW0iOiIvb3V0L3YxLzc4MDU0MmY1MTZmMTQzZmM4YWQ5YmYxNDYyMjMxNmU3L3RmMS1jbWFmIiwic3ViIjoiZTcyMDM4YzM1OTQ4NDA3NWI4MzhlMDY2OTViN2Q0OTYifQ.cjXjvqd66ENfVHlFEbgHUV_74W18QC4uqt5MJ5DB4j4/out/v1/780542f516f143fc8ad9bf14622316e7/tf1-cmaf/index.m3u8"
+        "url": "https://live-tf1-hls.cdn-0.diff.tf1.fr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiI2Mi4yMTAuMjA0LjE2MSIsImNtY2QiOiIiLCJleHAiOjE3NTQ1MDQyOTUsImdpZCI6ImU3MjAzOGMzNTk0ODQwNzViODM4ZTA2Njk1YjdkNDk2IiwiaWF0IjoxNzU0NDg5ODk1LCJpc3MiOiJkZWxpdmVyeSIsIm1heGIiOjAsInN0ZW0iOiIvb3V0L3YxLzc4MDU0MmY1MTZmMTQzZmM4YWQ5YmYxNDYyMjMxNmU3L3RmMS1jbWFmIiwic3ViIjoiZTcyMDM4YzM1OTQ4NDA3NWI4MzhlMDY2OTViN2Q0OTYifQ.9v_QfaIac-SZCWvhY9uPUI3u9JwH9WHG99ekijfex6A/out/v1/780542f516f143fc8ad9bf14622316e7/tf1-cmaf/index.m3u8"
       },
       {
         "name": "TF1-",
         "logo": "https://i.ibb.co/BBpR1Wx/tf1.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://live-tf1-hls-ssai.cdn-0.diff.tf1.fr/9023effe3c16b0475d35e9f31c778b5c/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiIzMS4zNi4yMDAuMjM3IiwiY21jZCI6IiIsImV4cCI6MTc1NDQ3NDQwMywiZ2lkIjoiMGM5NTVkOWJjZjZmNDU2MDk5NmY3NDczMmIyNzNjZDciLCJpYXQiOjE3NTQ0NjAwMDMsImlzcyI6ImRlbGl2ZXJ5IiwibWF4YiI6MCwic3RlbSI6Ii9vdXQvdjEvMmE1ZWYyYTRjZTRhNDEyMDllMGE4ODEwNzRkMTU5MzIvdGYxLWNtYWYiLCJzdWIiOiIwYzk1NWQ5YmNmNmY0NTYwOTk2Zjc0NzMyYjI3M2NkNyJ9.KGm1RaxV0nSm20d2nROIPf_GieWDu3CUDjulY1LPW-M/out/v1/2a5ef2a4ce4a41209e0a881074d15932/tf1-cmaf/index.m3u8"
+        "url": "https://live-tf1-hls-ssai.cdn-0.diff.tf1.fr/9023effe3c16b0475d35e9f31c778b5c/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiIzMS4zNi4yMDAuMjM3IiwiY21jZCI6IiIsImV4cCI6MTc1NDQ4ODgwMiwiZ2lkIjoiMGM5NTVkOWJjZjZmNDU2MDk5NmY3NDczMmIyNzNjZDciLCJpYXQiOjE3NTQ0NzQ0MDIsImlzcyI6ImRlbGl2ZXJ5IiwibWF4YiI6MCwic3RlbSI6Ii9vdXQvdjEvMmE1ZWYyYTRjZTRhNDEyMDllMGE4ODEwNzRkMTU5MzIvdGYxLWNtYWYiLCJzdWIiOiIwYzk1NWQ5YmNmNmY0NTYwOTk2Zjc0NzMyYjI3M2NkNyJ9.OdJvDQpfN3155VRpsXVqwoHD5rYfTZp7jSy8ZLMGAe8/out/v1/2a5ef2a4ce4a41209e0a881074d15932/tf1-cmaf/index.m3u8"
       },
       {
         "name": "FRANCE 2",
@@ -1032,6 +1046,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://origin-18cd60dea8190528.live.6cloud.fr/out/v1/82a128a679444d3c9b4d68c1616e239a/hls_short_fp00_w9_hdeindex.m3u8"
+      },
+      {
+        "name": "W9 [drm-keycrypted]",
+        "logo": "https://i.ibb.co/LNRd253/w9.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://origin-caf900c010ea8046.live.6cloud.fr/out/v1/fe03c8da4a9c477da026d2b79a70195b/dash_short_cenc10_w9_hd_index.mpd"
       },
       {
         "name": "W9 [drm-keycrypted]",
@@ -3943,14 +3964,14 @@
         "logo": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=uopLS_uHpynH64TxHFPFIw&e=1754476581"
+        "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=rD7Yte6hfusW2qdHpe40eQ&e=1754499248"
       },
       {
         "name": "NOW",
         "logo": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
-        "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=uopLS_uHpynH64TxHFPFIw&e=1754476581"
+        "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=rD7Yte6hfusW2qdHpe40eQ&e=1754499248"
       },
       {
         "name": "TV8",
@@ -7590,6 +7611,13 @@
         "logo": "https://i.ibb.co/qk1SMGf/ant1.jpg",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://raw.githubusercontent.com/jimgate07/grtv/refs/heads/master/Metadoseis/antenna.m3u8"
+      },
+      {
+        "name": "ANT 1",
+        "logo": "https://i.ibb.co/qk1SMGf/ant1.jpg",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://cdn1.smart-tv-data.com/live/ant1/playlist.m3u8"
       },
       {
@@ -8508,6 +8536,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://rakuten-euronews-8-pt.samsung.wurl.tv/manifest/playlist.m3u8"
+      },
+      {
+        "name": "EURONEWS PT (backup)",
+        "logo": "https://i.ibb.co/VxLFYSj/euronews.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-pt/25077/euronews-pt.m3u8"
       },
       {
         "name": "EURONEWS PT (backup)",
@@ -9726,6 +9761,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews-spa/euronews-es.m3u8"
+      },
+      {
+        "name": "EURONEWS ES (backup)",
+        "logo": "https://i.ibb.co/VxLFYSj/euronews.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-es/25082/euronews-es.m3u8"
       },
       {
         "name": "EURONEWS ES (backup)",
@@ -15195,6 +15237,13 @@
         "url": "https://jmp2.uk/sam-IT2600009QD.m3u8"
       },
       {
+        "name": "EURONEWS IT",
+        "logo": "https://i.ibb.co/VxLFYSj/euronews.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-it/25085/euronews-it.m3u8"
+      },
+      {
         "name": "DAS ERSTE INTL",
         "logo": "https://i.ibb.co/GcZR4DM/daserste.png",
         "group": "Uncategorized",
@@ -17512,6 +17561,13 @@
         "url": "https://ft.fbcdntv247.cfd/memfs/4268c138-3258-42b8-8192-f9a3873e7794_output_0.m3u8"
       },
       {
+        "name": "CNBC NEWS",
+        "logo": "https://i.ibb.co/FxZYHhM/cnbc.jpg",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/nbcu-uk-cnbc-samsunguk/playlist.m3u8"
+      },
+      {
         "name": "MSNBC",
         "logo": "https://i.ibb.co/4gCmb0Gt/msnbc.jpg",
         "group": "Uncategorized",
@@ -17621,6 +17677,13 @@
         "logo": "https://i.ibb.co/kX8ywwV/oan.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://s-cdn.herringnetwork.com/live1/oan/playlist.m3u8"
+      },
+      {
+        "name": "OANN",
+        "logo": "https://i.ibb.co/kX8ywwV/oan.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8"
       },
       {
@@ -17712,6 +17775,20 @@
         "logo": "https://i.ibb.co/dPmZMqq/bbcn.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://vs-hls-pushb-ntham-gcomm-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_world_news_north_america/pc_hd_abr_v2.m3u8"
+      },
+      {
+        "name": "BBC NEWS",
+        "logo": "https://i.ibb.co/dPmZMqq/bbcn.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://d1kvlt93j1bc49.cloudfront.net/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8"
+      },
+      {
+        "name": "BBC NEWS",
+        "logo": "https://i.ibb.co/dPmZMqq/bbcn.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8"
       },
       {
@@ -17741,6 +17818,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://dqco14bu26p3z.cloudfront.net/30505/88818604/hls/master.m3u8?ads.xumo_channelId=88818604"
+      },
+      {
+        "name": "SKY NEWS",
+        "logo": "https://i.ibb.co/8MBM4M1/skyn.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://xumo-drct-skynews-nc91a.fast.nbcuni.com/live/master.m3u8"
       },
       {
         "name": "SKY NEWS",
@@ -18031,6 +18115,13 @@
       },
       {
         "name": "EURONEWS EN",
+        "logo": "https://i.ibb.co/VxLFYSj/euronews.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-en/25080/euronews-en.m3u8"
+      },
+      {
+        "name": "EURONEWS EN",
         "logo": "https://i.ibb.co/R4xVMYc/enews.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
@@ -18273,6 +18364,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
         "url": "https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8"
+      },
+      {
+        "name": "KBS WORLD",
+        "logo": "https://i.ibb.co/tQC0d8X/kbsw.jpg",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u",
+        "url": "http://mytv.dothome.co.kr/ch/catv/7.php/.m3u8"
       },
       {
         "name": "NHK WORLD",
