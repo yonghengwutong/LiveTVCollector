@@ -32,9 +32,9 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 
 Group: 13. |PT|🇵🇹 PORTUGAL
-Name: TVI
-URL: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
-Logo: https://i.ibb.co/pyXp0bk/tvi.png
+Name: RTP INTERNACIONAL
+URL: http://78.128.125.60:9981/play/a00k/index.m3u8
+Logo: https://i.ibb.co/SPR2SDK/RTP.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 
@@ -238,11 +238,6 @@ URL: https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
 Logo: https://i.imgur.com/kdY7kjT.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: AlHijrahTV
-URL: https://wahyu1ptv.pages.dev/AstroAlHijrahTV.m3u8
-Logo: https://i.imgur.com/kdY7kjT.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
 Name: AL QURAN AL KAREEM (MJ)
 URL: https://op-group1-swiftservesd-1.dens.tv/s/s28/01.m3u8
 Logo: https://i.imgur.com/kdY7kjT.jpeg
@@ -250,11 +245,6 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 --------------------------------------------------
 Name: Makkah TV
 URL: http://khano.nng.cloudns.us/live/m3u8/ar/3058a2456b128c1.m3u8
-Logo: https://i.imgur.com/kdY7kjT.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: AswajaTV (R)
-URL: https://warningfm.github.io/dailymotion/AswajaTV.m3u8
 Logo: https://i.imgur.com/kdY7kjT.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -412,8 +402,8 @@ URL: https://cdn08jtedge.indihometv.com/dassdvr/130/duniaanak_dash/manifest.mpd
 Logo: https://i.imgur.com/x7vBeiA.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Fun Planet 1 ON
-URL: https://streaming.indihometv.com/atm/DASH/indikids/manifest.mpd
+Name: Fun Planet 1 ONn
+URL: https://why.biz.id/Iptv/oxygen.php?id=planetfun
 Logo: https://i.imgur.com/6cGSc3e.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -520,38 +510,166 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 --------------------------------------------------
 
 Group: BOLA | LIGA INGGRIS
-Name: PeacockTV Premier League (R)
+Name: USA
+URL: https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-west)/master.mpd
+Logo: https://i.imgur.com/pm6ULZT.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Sky Sports Premier League (FHD)
+URL: https://7pal.short.gy/ssportspl
+Logo: https://i.imgur.com/pm6ULZT.jpeg group-title=
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Premier League TV (AG)
 URL: https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
-Logo: https://buddytv.netlify.app/img/no-logo.png
+Logo: https://i.imgur.com/pm6ULZT.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Astro Premier League (AGT)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3L3cTOhNmZ4UWZ2E2YtcjZ0kTLzYzN00iY0QmYtY2MmRTM3QTY/master.m3u8
+Logo: https://i.imgur.com/pm6ULZT.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 1 Premium (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3L2IjM5QWNiFzM3QmYtYGNwgTLhVGZ00yYwQmNtgzM0gjN3EWO/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 2 Premium (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3LyIzN2AjZ4YTZ3cTNtUjMjlTL1IGN00iMkJ2MtIGZwEGNyYmN/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 3 Premium (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3LmZmMkBTNllTZkJTZtYTZ4EWL1UDZ00SY5UjZtY2YygTOjdjZ/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 1 Serbia (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3LxMDNjFDMmV2M2cDNtkDZilTLjdDZ00iYmRjZtcTZzQDOjFzM/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 2 Serbia (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3LjVzNiNDZ0cTN4MTOtYmY5IWL1gDN00SN5Y2MtcTZkRWYjlzM/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 3 Serbia (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3LjhTOmhTMkZzNjZDOtAjY3kTLxETM00iZ2QzYtMWZwUTOzETO/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 4 Serbia (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3L5gzM4YGO5U2NzUDNtQjN3gTLwQ2Y00yY0QjMtMmY4YWOiJDN/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 1 Croatia (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3LzUDZlNWYiVDZyMTYtMTOxgTLyI2Y00SZmNzMtkTYzIWZwUmY/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 2 Croatia (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3L0UTNzYWZ4kTN3MGZtQ2NkhTL3QGN00iZ5IDZtIjY2IWOhJDM/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 3 Croatia (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3L3EmYzETZiVGM1ImZtMGMkFWL4M2M00SN0cjYtcjNzITYlVGN/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Arena Sport 4 Croatia (FEAG)
+URL: https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/variant/VE1AO1NTbu8mbv12LxEWM21ycrNWYyR3LwQjYwUDOlRWZxImMtAjMmlTLwAzY00SNkNzNtIWZ0kTO1IzN/master.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 1 (FEAG)
+URL: https://events3.liveboxpro.com/event/455.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 2 (FEAG)
+URL: https://events3.liveboxpro.com/event/456.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 3 (FEAG)
+URL: https://events3.liveboxpro.com/event/457.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 4 (FEAG)
+URL: https://events3.liveboxpro.com/event/458.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 5 (FEAG)
+URL: https://events3.liveboxpro.com/event/459.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 1 Bar DE (FEAG)
+URL: https://events3.liveboxpro.com/event/426.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 2 Bar DE (FEAG)
+URL: https://events3.liveboxpro.com/event/427.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 1 Spain (FEAG)
+URL: https://events3.liveboxpro.com/event/445.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 2 Spain (FEAG)
+URL: https://events3.liveboxpro.com/event/446.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 3 Spain (FEAG)
+URL: https://events3.liveboxpro.com/event/447.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: DAZN 4 Spain (FEAG)
+URL: https://events3.liveboxpro.com/event/448.m3u8
+Logo: https://i.imgur.com/h8SK8A4.png
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 
 Group: BOLA | LIGA INGGRIS 
-Name: Astro Grandstand
-URL: https://smart.pendy.dpdns.org/Smart.php?id=go_assp3
+Name: FUBO SPORTS (AG)
+URL: https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uiffe4jhf0/out/v1/3534efafca8c4815adbb4d2e9a1fe003/cenc.mpd
 Logo: https://i.imgur.com/pm6ULZT.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: AstroSportPlus1
-URL: https://wahyu1ptv.pages.dev/AstroSportPlus1-HD.m3u8
+Name: FUBO SPORTS 2 (AG)
+URL: https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
 Logo: https://i.imgur.com/pm6ULZT.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-
-Group: BOLA | MANDIRI CUP 2025
-Name: SCTV FHD
-URL: https://smart.pendy.dpdns.org/Smart.php?id=SCTV
-Logo: https://i.imgur.com/MaGAlTq.png
+Name: Diema Sport 2 Bulgaria (AG)
+URL: https://events3.liveboxpro.com/event/466.m3u8
+Logo: https://i.imgur.com/pm6ULZT.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: INDOSIAR FHD
-URL: https://hakim45.serv00.net/smarttv.php?id=Indosiar
-Logo: https://i.imgur.com/MaGAlTq.png
+Name: Diema Sport 3 Bulgaria (AG)
+URL: https://events3.liveboxpro.com/event/467.m3u8
+Logo: https://i.imgur.com/pm6ULZT.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: MojiTV TES
-URL: https://wahyu1ptv.pages.dev/Moji-HD.m3u8
-Logo: https://i.imgur.com/MaGAlTq.png
+Name: Astro Grandstand (AG)
+URL: https://events3.liveboxpro.com/event/123.m3u8
+Logo: https://i.imgur.com/pm6ULZT.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Astro Football (JL)
+URL: http://garudamadridista.mooo.com:108/astorenakmy/dash-wv/linear/2506/default_ott.mpd
+Logo: https://i.imgur.com/pm6ULZT.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 
@@ -730,8 +848,8 @@ URL: https://inspiratv.siar.us/inspiratv/live/playlist.m3u8
 Logo: https://i.imgur.com/7ay0SsG.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: JakTV
-URL: http://khano.nng.cloudns.us/live/m3u8/id/a6e7e966ea54cd3.m3u8
+Name: JAK TV
+URL: https://atemecdnbalancer-voe.sysln.id/live/eds/JAKTV/mpd/JAKTV.mpd
 Logo: https://i.imgur.com/7ay0SsG.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -832,6 +950,11 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 Name: CCTV 4 1 ON (R)
 URL: https://atemecdnbalancer-voe.sysln.id/live/eds/CCTV4/mpd/CCTV4.mpd
 Logo: https://i.imgur.com/x17WfiT.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: CELESTIAL MOVIE 1
+URL: https://cdn08jtedge.indihometv.com/dassdvr/130/celestialmovie/manifest.mpd
+Logo: https://i.imgur.com/6UFMEn4.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: PANDA TV[INDIHOME]
@@ -1072,7 +1195,12 @@ URL: https://wahyu1ptv.pages.dev/AstroRania-HD.m3u8
 Logo: https://i.imgur.com/O1RVjqG.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: TV3
+Name: ASTRO Boo
+URL: https://wahyu1ptv.pages.dev/AstroBoo-HD.m3u8
+Logo: https://i.imgur.com/O1RVjqG.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: TV3 (AG)
 URL: https://smart.pendy.dpdns.org/Smart.php?id=TV3
 Logo: https://i.imgur.com/O1RVjqG.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
@@ -1561,6 +1689,31 @@ Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/
 --------------------------------------------------
 
 Group: FILM
+Name: ORIGINALS (JL)
+URL: https://d3b0v7fggu5zwm.cloudfront.net/out/v1/e992e986a88346c18a5dcc4fbcdae6b9/index.mpd
+Logo: https://i.imgur.com/kSNGK5D.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Buddy Star (JL)
+URL: https://d84q7nw4qf3j3.cloudfront.net/out/v1/c70975aaa68d47f2a38799e6730a7816/index.mpd
+Logo: https://i.imgur.com/kSNGK5D.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Cineedge (JL)
+URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/47c895ca72544fcfa4221c499b555a10/index.mpd
+Logo: https://i.imgur.com/kSNGK5D.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: SUPERRIX (JL)
+URL: https://d2tjypxxy769fn.cloudfront.net/out/v1/782400332c96440598260730a864bc6f/index.mpd
+Logo: https://i.imgur.com/kSNGK5D.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Uniquest (JL)
+URL: https://d3b0v7fggu5zwm.cloudfront.net/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd
+Logo: https://i.imgur.com/kSNGK5D.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
 Name: STUDIO UNIVERSAL
 URL: https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd
 Logo: https://i.imgur.com/kSNGK5D.jpeg
@@ -1568,11 +1721,6 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 --------------------------------------------------
 Name: CHINESE DRAMA
 URL: https://cdn08jtedge.indihometv.com/dassdvr/130/chinesedrama/manifest.mpd
-Logo: https://i.imgur.com/NLMxZ86.png
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: ASTRO Boo
-URL: https://wahyu1ptv.pages.dev/AstroBoo-HD.m3u8
 Logo: https://i.imgur.com/kSNGK5D.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -1581,8 +1729,8 @@ URL: https://atemeshield1-voe.sysln.id/live/eds/SonyMax/mpd/SonyMax.mpd
 Logo: https://i.imgur.com/kSNGK5D.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Warner TV (I)
-URL: https://streaming.indihometv.com/atm/DASH/warner/manifest.mpd
+Name: Warner TV (AG)
+URL: https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cf0b533fe73e3/manifest.mpd
 Logo: https://i.imgur.com/zUjyByh.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -1606,29 +1754,24 @@ URL: https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa
 Logo: https://i.imgur.com/pCKlKJq.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: CELESTIAL MOVIE 1 ON
-URL: https://cdn08jtedge.indihometv.com/dassdvr/130/celestialmovie/manifest.mpd
-Logo: https://i.imgur.com/91wxxvj.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: CELESTIAL MOVIE 2 ON (I)
+Name: Celestial Movies (AG 1)
 URL: https://atemecdnbalancer-voe.sysln.id/live/eds/CelestialMoviesHD/mpd/CelestialMoviesHD.mpd
 Logo: https://i.imgur.com/91wxxvj.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: CELESTIAL MOVIE 3 ON
-URL: https://op-group1-swiftservehd-1.dens.tv/h/h14/index.m3u8
+Name: Celestial Movies (AG 2)
+URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/fd25e662b7154c60a94f7c061573ba2d/index.mpd
+Logo: https://i.imgur.com/91wxxvj.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Celestial Classic (AG)
+URL: https://d84q7nw4qf3j3.cloudfront.net/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd
 Logo: https://i.imgur.com/byz5X8l.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Celestial Classic 1 ON (R)
-URL: http://op-group1-swiftservesd-1.dens.tv/s/s31/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=CCM_Celestial_Classic_MV-
-Logo: https://i.imgur.com/byz5X8l.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: Celestial Classic 3 ON (R)
-URL: https://op-group1-swiftservesd-1.dens.tv/s/s31/index.m3u8
-Logo: https://i.imgur.com/byz5X8l.jpeg
+Name: Drama World
+URL: https://terabit.web.id/media.mpd?id=204&type=dash
+Logo: https://i.imgur.com/GOJiQSM.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: FLIK
@@ -1636,14 +1779,14 @@ URL: https://wahyu1ptv.pages.dev/Flik-HD.m3u8
 Logo: https://i.imgur.com/GOJiQSM.jpeg 
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Galaxy Premium
-URL: http://nonton.site:8080/XtreamFlixID/w9RLHbWJY4/29603
-Logo: https://i.imgur.com/H4XmjZG.jpeg
+Name: Galaxy (AG)
+URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/index.mpd
+Logo: ttps://i.imgur.com/STbf9qL.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Galaxy
-URL: http://nonton.site:8080/XtreamFlixID/w9RLHbWJY4/29604
-Logo: https://i.imgur.com/STbf9qL.jpeg
+Name: Galaxy Premium (AG)
+URL: https://live-channel4-cdn.visionplus.id/out/v1/45c0752c6b6b4397b80243ac9fed96fd/index.mpd
+Logo: https://i.imgur.com/H4XmjZG.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: HITS NOW ON 1
@@ -1666,8 +1809,8 @@ URL: https://cdn08jtedge.indihometv.com/dassdvr/130/imc/manifest.mpd
 Logo: https://i.imgur.com/eyUuO8T.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Indonesia Movie Channel 2 ON (JL)
-URL: http://nonton.site:8080/XtreamFlixID/w9RLHbWJY4/35484
+Name: Indonesia Movie Channel (AG)
+URL: https://fta3-cdn-flr.visionplus.id/out/v1/65432a4c12ca4a52abf473a0e41d7c7e/index.mpd
 Logo: https://i.imgur.com/eyUuO8T.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -1701,8 +1844,8 @@ URL: http://op-group1-swiftservehd-1.dens.tv/h/h15/01.m3u8
 Logo: https://i.imgur.com/dl6ewub.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Thrill 1 ON (R)
-URL: http://op-group1-swiftservesd-1.dens.tv/s/s34/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=Thrill
+Name: Thriil 1 ON (JL)
+URL: https://d2tjypxxy769fn.cloudfront.net/out/v1/3c619ecc120b46e999d1eaa627cc544f/index.mpd
 Logo: https://i.imgur.com/YxDN47W.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -1782,6 +1925,46 @@ Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/
 --------------------------------------------------
 
 Group: GAYA HIDUP
+Name: Tiny House Nation (AG)
+URL: https://disyw7xcmhink.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-26mfabjsursqh/v1/aenetworks_tinyhousenation_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+Logo: https://i.imgur.com/k8RQgiu.jpeg group-logo=
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: This Old House (AG)
+URL: https://content.uplynk.com/channel/778dfa39720b47d5ab6de27ee3cf81b7.m3u8
+Logo: https://i.imgur.com/k8RQgiu.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Hanacaraka TV (AG)
+URL: https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
+Logo: https://i.imgur.com/k8RQgiu.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Channel Jowo (AG)
+URL: https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
+Logo: https://i.imgur.com/k8RQgiu.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: CelebritiesTV (AG)
+URL: https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8cf72e61626f4361a45c57ce6f2fdad8/index.mpd
+Logo: https://i.imgur.com/k8RQgiu.jpegg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Vision Prime (AG)
+URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
+Logo: https://i.imgur.com/k8RQgiu.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Entertainment (AG)
+URL: https://d2tjypxxy769fn.cloudfront.net/out/v1/a90cb773466446b08595007bab12b920/index.mpd
+Logo: https://i.imgur.com/k8RQgiu.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Food Travel (AG)
+URL: https://d84q7nw4qf3j3.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd
+Logo: https://i.imgur.com/k8RQgiu.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
 Name: First Lifestyle 1 ON (R)
 URL: https://atemecdnbalancer-voe.sysln.id/live/eds/FirstLifestyleHD/mpd/FirstLifestyleHD.mpd
 Logo: https://i.imgur.com/k8RQgiu.jpeg
@@ -1810,6 +1993,11 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 Name: 4K Travel
 URL: https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8
 Logo: https://i.imgur.com/w9XdsHn.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Citra Bioskop (AG)
+URL: https://atemecdnbalancer-voe.sysln.id/live/eds/CitraBioskopHD/mpd/CitraBioskopHD.mpd
+Logo: https://i.imgur.com/AVDVcZ3.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: Citra Dangdut ON
@@ -1901,34 +2089,9 @@ Source: https://raw.githubusercontent.com/altn2025/iptv/refs/heads/main/internat
 --------------------------------------------------
 
 Group: HBO
-Name: Cinemax (MJ ID)
-URL: https://wahyu1ptv.pages.dev/Cinemax-HD.m3u8
-Logo: https://i.imgur.com/0GiICTY.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: HBO (MJ ID)
-URL: https://wahyu1ptv.pages.dev/Hbo-HD.m3u8
-Logo: https://i.imgur.com/0GiICTY.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: HboHits (MJ ID)
-URL: https://wahyu1ptv.pages.dev/HboHits-HD.m3u8
-Logo: https://i.imgur.com/0GiICTY.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: HboFamily (MJ ID)
-URL: https://wahyu1ptv.pages.dev/HboFamily-HD.m3u8
-Logo: https://i.imgur.com/0GiICTY.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: HboSignature (MJ ID)
-URL: https://wahyu1ptv.pages.dev/HboSignature-HD.m3u8
-Logo: https://i.imgur.com/0GiICTY.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
 Name: HBO (MJ INDO)
 URL: https://atemecdnbalancer-voe.sysln.id/live/eds/HBOHD/mpd/HBOHD.mpd
-Logo: https://buddytv.netlify.app/img/no-logo.png
+Logo: https://i.imgur.com/0GiICTY.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: HBO Hits (MJ INDO)
@@ -1951,29 +2114,29 @@ URL: https://atemecdnbalancer-voe.sysln.id/live/eds/CinemaxHD/mpd/CinemaxHD.mpd
 Logo: https://i.imgur.com/0GiICTY.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: HBO (MJ)
+Name: HBO (MJ INDO AG)
 URL: https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
-Logo: https://i.imgur.com/XU2Ms72.jpeg
+Logo: https://i.imgur.com/0GiICTY.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: HBO Hits (MJ)
+Name: HBO Hits (MJ INDO AG)
 URL: https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d054fbf67379f/manifest.mpd
-Logo: https://i.imgur.com/4CcHBED.jpeg
+Logo: https://i.imgur.com/0GiICTY.jpeg group-title=
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: HBO Family (MJ)
+Name: HBO Family (MJ INDO AG)
 URL: https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d055927fe37a4/manifest.mpd
-Logo: https://i.imgur.com/s9u5yfA.jpeg
+Logo: https://i.imgur.com/0GiICTY.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: HBO Signature (MJ)
+Name: HBO Signature (MJ INDO AG)
 URL: https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856c3db2cc016d0552e0ca37a2/manifest.mpd
-Logo: https://i.imgur.com/s9u5yfA.jpeg
+Logo: https://i.imgur.com/0GiICTY.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Cinemax (MJ)
+Name: Cinemax (MJ INDO AG)
 URL: https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cdbfc4a1934bf/manifest.mpd
-Logo: https://i.imgur.com/5sJrz8R.jpeg
+Logo: https://i.imgur.com/0GiICTY.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: HBO HD NON SUB
@@ -2091,11 +2254,6 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 --------------------------------------------------
 
 Group: MUSIC
-Name: Music TV
-URL: https://dsgtq5sngxkde.cloudfront.net/live/eds/MusicChannel/sa_dash/MusicChannel.mpd
-Logo: https://i.imgur.com/CctbVah.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
 Name: MTV 90's
 URL: https://atemecdnbalancer-voe.sysln.id/live/eds/MTV90sHD/mpd/MTV90sHD.mpd
 Logo: https://i.imgur.com/CctbVah.jpeg
@@ -2479,13 +2637,13 @@ Source: https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/
 --------------------------------------------------
 
 Group: NASIONAL
-Name: SindoNews (I)
-URL: https://cdngb196.indihometv.com/atm/DASH/mncnews/manifest.mpd
+Name: SindoNews (JL)
+URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/8c2df39f9b2842fbb997b89378841ad9/index.mpd
 Logo: https://i.imgur.com/vLo0ZHI.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: RCTI 1 ON (+)
-URL: https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e825832393/manifest.mpd?sign=90f567a21484fbf1554bf634c6326581&time=1744072568
+Name: RCTI 1 (AG)
+URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
 Logo: https://i.imgur.com/C0a9fdx.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -2499,11 +2657,6 @@ URL: https://rcti-cutv.rctiplus.id/rcti-sdi-avc1_800000=7-mp4a_96000=1.m3u8
 Logo: https://i.imgur.com/C0a9fdx.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: RCTI 4 ON (JN)
-URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
-Logo: https://i.imgur.com/C0a9fdx.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
 Name: SCTV 1 ON
 URL: http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 Logo: https://i.imgur.com/brh5EU7.jpeg
@@ -2514,23 +2667,13 @@ URL: https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
 Logo: https://i.imgur.com/brh5EU7.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: SCTV Indihome TSA
-URL: https://streaming.indihometv.com/atm/DASH/sctv/manifest.mpd
-Logo: https://i.imgur.com/brh5EU7.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: INDOSIAR 1 ON (R)
-URL: https://streaming.indihometv.com/atm/DASH/indosiar/manifest.mpd
+Name: Indosiar (AG)
+URL: https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 Logo: https://i.imgur.com/bjNCrmL.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: INDOSIAR 2 ON (Dens) (R)
 URL: http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
-Logo: https://i.imgur.com/bjNCrmL.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: Indosiar bola (MJ)
-URL: https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 Logo: https://i.imgur.com/bjNCrmL.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -2544,7 +2687,7 @@ URL: https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
 Logo: https://i.imgur.com/NTYY97h.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: ANTV 1 ON (FX)
+Name: ANTV (AG)
 URL: https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
 Logo: https://i.imgur.com/tdlUrDv.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
@@ -2570,12 +2713,12 @@ Logo: https://i.imgur.com/lKH1wII.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: Trans TV 2 ON (R)
-URL: https://streaming.indihometv.com/atm/DASH/transtv/manifest.mpd
+URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
 Logo: https://i.imgur.com/lKH1wII.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Trans TV 3 ON (R)
-URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
+Name: TransTV HD 4 (AG)
+URL: https://video.detik.com/transtv/smil:transtv.smil/chunklist_w458737197_b744100_sleng.m3u8
 Logo: https://i.imgur.com/lKH1wII.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -2584,13 +2727,8 @@ URL: https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
 Logo: https://i.imgur.com/WSnhDLn.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Trans 7 HD 2 ON (R)
-URL: https://streaming.indihometv.com/atm/DASH/trans7/manifest.mpd
-Logo: https://i.imgur.com/WSnhDLn.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: Trans 7 HD 3 ON (JN)
-URL: https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
+Name: Trans 7 HD 2 ON (AG)
+URL: https://atemeshield1-voe.sysln.id/live/eds/Trans7HD/mpd/Trans7HD.mpd
 Logo: https://i.imgur.com/WSnhDLn.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -2655,7 +2793,7 @@ Logo: https://i.imgur.com/6y8Bum2.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: MOJI EVENT
-URL: http://iptvtree.net:8080/live/F25093/29838750/298550.ts
+URL: https://raw.githubusercontent.com/quuen2024/oy/refs/heads/queen/moj1.m3u8
 Logo: https://i.imgur.com/6y8Bum2.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -2684,8 +2822,8 @@ URL: https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce
 Logo: https://i.imgur.com/0TDfyNw.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: TV One 4 ON (R)
-URL: http://op-group1-swiftservehd-1.dens.tv/h/h224/02.m3u8
+Name: TV One 2 ON (AG)
+URL: https://atemecdnbalancer-voe.sysln.id/live/eds/TvOne/mpd/TvOne.mpd
 Logo: https://i.imgur.com/0TDfyNw.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -2900,23 +3038,18 @@ URL: http://iptvtree.net:8080/F15554/Tve5ZWQEd485/297426
 Logo: https://i.imgur.com/K3FXClz.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: NBA TV (JN)
-URL: https://wahyu1ptv.pages.dev/NBATV-HD.m3u8
+Name: NBA TV (AG)
+URL: https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cgnl_nba.mpd
 Logo: https://i.imgur.com/K3FXClz.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: WWE Network 1 ON
-URL: https://wahyu1ptv.pages.dev/AstroWWE-HD.m3u8
+Name: WWE Network (AG)
+URL: https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc106wh3yw)/master.mpd
 Logo: https://i.imgur.com/dWS3vWU.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: WWE Network 2 ON
-URL: https://smart.pendy.dpdns.org/Smart.php?id=Wwe
-Logo: https://i.imgur.com/dWS3vWU.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: FIGHT SPORTS 1 ON
-URL: http://op-group1-swiftservehd-1.dens.tv/h/h05/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=FIGHT_SPORTS_HD
+Name: FIGHT SPORTS (AG)
+URL: https://d2tjypxxy769fn.cloudfront.net/out/v1/73b7057c72da4615888a11b02a6cbb3c/index.mpd
 Logo: https://i.imgur.com/mbW2EWt.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -2935,8 +3068,13 @@ URL: https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d
 Logo: https://i.imgur.com/IQkwAXJ.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: Sportstars  3 HD (JN)
+Name: Sportstars 3 (AG)
 URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
+Logo: https://i.imgur.com/IQkwAXJ.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: Sportstars 4 (AG)
+URL: https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
 Logo: https://i.imgur.com/IQkwAXJ.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -2952,6 +3090,36 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 --------------------------------------------------
 
 Group: OLAHRAGA POPULER
+Name: BeIN Sports 1 AU
+URL: http://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/pwdvd9fm5u/out/v1/5e22845dab3648b8a7033fd5923d62d1/cenc.mpd?token=gH6favjoMIy0Ci5tFBoo8AuyzMvw1EMQ
+Logo: https://i.imgur.com/XDDHZzi.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: BeIN Sports 2 AU
+URL: http://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/6fbnr3ei4b/out/v1/57d2ae96a4cc4230881cd801b389edf6/cenc.mpd?token=gH6favjoMIy0Ci5tFBoo8AuyzMvw1EMQ
+Logo: https://i.imgur.com/XDDHZzi.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: BeIN Sports 3 AU
+URL: http://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/gigxsk0lya/out/v1/df75d887bce4437b8fdf345ae455113b/cenc.mpd?token=gH6favjoMIy0Ci5tFBoo8AuyzMvw1EMQ
+Logo: https://i.imgur.com/XDDHZzi.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: BEIN SPORTS 1 Malaysia
+URL: https://smart.pendy.dpdns.org/Smart.php?id=Astrobein1
+Logo: https://i.imgur.com/XDDHZzi.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: BEIN SPORTS 2 Malaysia
+URL: https://smart.pendy.dpdns.org/Smart.php?id=Astrobein2
+Logo: https://i.imgur.com/XDDHZzi.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
+Name: BEIN SPORTS 3 Malaysia
+URL: https://smart.pendy.dpdns.org/Smart.php?id=Astrobein3
+Logo: https://i.imgur.com/XDDHZzi.jpeg
+Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
+--------------------------------------------------
 Name: AL: Super Sport 1 FHD
 URL: https://a1xs.vip/130001
 Logo: https://i.imgur.com/XDDHZzi.jpeg
@@ -3022,9 +3190,9 @@ URL: https://wahyu1ptv.pages.dev/AstroArenaBola1-HD.m3u8
 Logo: https://i.imgur.com/XDDHZzi.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: 012. AstroArenaBola2
-URL: https://wahyu1ptv.pages.dev/AstroArenaBola2-HD.m3u8
-Logo: https://i.imgur.com/XDDHZzi.jpeg
+Name: AstroArenaBola2
+URL: https://smart.pendy.dpdns.org/Smart.php?id=Bolaarena2
+Logo: https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/487_144.png
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: EUROSPORT
@@ -3038,7 +3206,7 @@ Logo: https://i.imgur.com/XDDHZzi.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
 Name: W SPORT
-URL: https://op-group1-swiftservehd-1.dens.tv/h/h26/S4/mnf.m3u8
+URL: http://garudamadridista.mooo.com:108/astorenakmy/dash-wv/linear/5060/default_ott.mpd
 Logo: https://i.imgur.com/XDDHZzi.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -3054,11 +3222,6 @@ Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlis
 --------------------------------------------------
 Name: UNIFI SPORTS
 URL: https://unifi-live01.secureswiftcontent.com/UnifiHD/live11.mpd
-Logo: https://i.imgur.com/XDDHZzi.jpeg
-Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
---------------------------------------------------
-Name: TRUE SPORTS 1
-URL: http://geogersr.itilstrem.workers.dev/http://www.livedoomovies.com:4432/02_2sporthd1_720p/chunklist.m3u8
 Logo: https://i.imgur.com/XDDHZzi.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -3621,8 +3784,8 @@ URL: http://xlpore-samsungus.amagi.tv/playlist.m3u8
 Logo: https://i.imgur.com/qdVMaoN.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
-Name: DISCOVERY TURBO
-URL: http://45.194.86.111:8070/live/F25093/29838750/1114.ts
+Name: Discovery Turbo (AG)
+URL: https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd
 Logo: https://i.imgur.com/qdVMaoN.jpeg
 Source: https://raw.githubusercontent.com/Novantama/IPTV/refs/heads/Main/Playlist/AllWorld.m3u
 --------------------------------------------------
@@ -4245,12 +4408,12 @@ Logo: https://i.ibb.co/Zfcrrr1/lci.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TF1_
-URL: https://live-tf1-hls.cdn-0.diff.tf1.fr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiI2Mi4yMTAuMjA0LjE2MSIsImNtY2QiOiIiLCJleHAiOjE3NTUzMzU4OTEsImdpZCI6ImU3MjAzOGMzNTk0ODQwNzViODM4ZTA2Njk1YjdkNDk2IiwiaWF0IjoxNzU1MzIxNDkxLCJpc3MiOiJkZWxpdmVyeSIsIm1heGIiOjAsInN0ZW0iOiIvb3V0L3YxLzc4MDU0MmY1MTZmMTQzZmM4YWQ5YmYxNDYyMjMxNmU3L3RmMS1jbWFmIiwic3ViIjoiZTcyMDM4YzM1OTQ4NDA3NWI4MzhlMDY2OTViN2Q0OTYifQ.O33zol1vKwe_ZhoNybU50H9m_Hx2ILnFZ-7bErrAgqs/out/v1/780542f516f143fc8ad9bf14622316e7/tf1-cmaf/index.m3u8
+URL: https://live-tf1-hls.cdn-0.diff.tf1.fr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiI2Mi4yMTAuMjA0LjE2MSIsImNtY2QiOiIiLCJleHAiOjE3NTUzNjgyOTUsImdpZCI6ImU3MjAzOGMzNTk0ODQwNzViODM4ZTA2Njk1YjdkNDk2IiwiaWF0IjoxNzU1MzUzODk1LCJpc3MiOiJkZWxpdmVyeSIsIm1heGIiOjAsInN0ZW0iOiIvb3V0L3YxLzc4MDU0MmY1MTZmMTQzZmM4YWQ5YmYxNDYyMjMxNmU3L3RmMS1jbWFmIiwic3ViIjoiZTcyMDM4YzM1OTQ4NDA3NWI4MzhlMDY2OTViN2Q0OTYifQ.fK7vH_gbW5T3S7QPmCS3K_RiArzt1sf8ZhBeWXdSdy4/out/v1/780542f516f143fc8ad9bf14622316e7/tf1-cmaf/index.m3u8
 Logo: https://i.ibb.co/BBpR1Wx/tf1.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: TF1-
-URL: https://live-tf1-hls-ssai.cdn-0.diff.tf1.fr/9023effe3c16b0475d35e9f31c778b5c/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiIzMS4zNi4yMDAuMjM3IiwiY21jZCI6IiIsImV4cCI6MTc1NTMyNDAwMywiZ2lkIjoiMGM5NTVkOWJjZjZmNDU2MDk5NmY3NDczMmIyNzNjZDciLCJpYXQiOjE3NTUzMDk2MDMsImlzcyI6ImRlbGl2ZXJ5IiwibWF4YiI6MCwic3RlbSI6Ii9vdXQvdjEvMmE1ZWYyYTRjZTRhNDEyMDllMGE4ODEwNzRkMTU5MzIvdGYxLWNtYWYiLCJzdWIiOiIwYzk1NWQ5YmNmNmY0NTYwOTk2Zjc0NzMyYjI3M2NkNyJ9.-wR-kQ93SOshMfOwzTQj63rkE6KWyUxL4CbNHQhz01I/out/v1/2a5ef2a4ce4a41209e0a881074d15932/tf1-cmaf/index.m3u8
+URL: https://live-tf1-hls-ssai.cdn-0.diff.tf1.fr/9023effe3c16b0475d35e9f31c778b5c/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiIzMS4zNi4yMDAuMjM3IiwiY21jZCI6IiIsImV4cCI6MTc1NTM2NzIwMiwiZ2lkIjoiMGM5NTVkOWJjZjZmNDU2MDk5NmY3NDczMmIyNzNjZDciLCJpYXQiOjE3NTUzNTI4MDIsImlzcyI6ImRlbGl2ZXJ5IiwibWF4YiI6MCwic3RlbSI6Ii9vdXQvdjEvMmE1ZWYyYTRjZTRhNDEyMDllMGE4ODEwNzRkMTU5MzIvdGYxLWNtYWYiLCJzdWIiOiIwYzk1NWQ5YmNmNmY0NTYwOTk2Zjc0NzMyYjI3M2NkNyJ9.2w6za7SxJLP-cHpM22dWgfeL5rbioFGLG9BdoWXJVX4/out/v1/2a5ef2a4ce4a41209e0a881074d15932/tf1-cmaf/index.m3u8
 Logo: https://i.ibb.co/BBpR1Wx/tf1.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -6505,12 +6668,12 @@ Logo: https://i.ibb.co/BrGNZJ4/showtv.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW
-URL: https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=wocbYzJ-HZ22TgLyZ_JqFA&e=1755340238
+URL: https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=QxTEdfwXcwzKllXXXryPHg&e=1755371963
 Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: NOW
-URL: https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=wocbYzJ-HZ22TgLyZ_JqFA&e=1755340238
+URL: https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=QxTEdfwXcwzKllXXXryPHg&e=1755371963
 Logo: https://i.ibb.co/0DpKtzT/nowtvturk.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8114,18 +8277,8 @@ URL: https://tv170.radyotelekom.com.tr:21764/edessatv/edessatv/playlist.m3u8
 Logo: https://i.ibb.co/mHt7rQf/Tryerel.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: EGE TV İZMİR
-URL: https://radyotelekomtv.com/player/m3u8/366fe57e47b8093df9bb22ff1e7f5bd6/playlist.m3u8
-Logo: https://i.ibb.co/mHt7rQf/Tryerel.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: EGE MAX İZMİR
-URL: https://customer-c7coo2iloxeojh2d.cloudflarestream.com/c61484b2af92bef0814536122d01233c/manifest/stream_t5f28a648e8b16a70a2ceec733b098bc5_r899548610.m3u8
-Logo: https://i.ibb.co/mHt7rQf/Tryerel.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: EGE LIVE TV
-URL: http://stream.tvcdn.net/yerel/ege-live-tv.m3u8
+Name: EGE MAX TV İZMİR
+URL: https://radyotelekomtv.com/player/m3u8/12851f53513eaaa25fb1c9cb6800ce67/12851f53513eaaa25fb1c9cb6800ce67.m3u8
 Logo: https://i.ibb.co/mHt7rQf/Tryerel.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -8326,16 +8479,6 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 --------------------------------------------------
 Name: KANAL 68 AKSARAY
 URL: https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8
-Logo: https://i.ibb.co/mHt7rQf/Tryerel.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: KANAL EGE
-URL: https://cdn-365tv.yayin.com.tr/365tv/365tv/playlist.m3u8
-Logo: https://i.ibb.co/mHt7rQf/Tryerel.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: KANAL EGE
-URL: https://cdn-berat.yayin.com.tr/berat/berat/playlist.m3u8
 Logo: https://i.ibb.co/mHt7rQf/Tryerel.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -9559,14 +9702,19 @@ URL: https://ertflix.akamaized.net/ertlive/rik/default/playlist.m3u8
 Logo: https://i.ibb.co/3sHp7pS/riksat.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: RTP INTERNACIONAL
+URL: https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
+Logo: https://i.ibb.co/SPR2SDK/RTP.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: TVI
+URL: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
+Logo: https://i.ibb.co/pyXp0bk/tvi.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: SIC
 URL: https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 Logo: https://i.ibb.co/6r1xHn6/sic.png
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: RTP INTERNACIONAL
-URL: http://78.128.125.60:9981/play/a00k/index.m3u8
-Logo: https://i.ibb.co/SPR2SDK/RTP.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: CNN PORTUGAL
@@ -9579,8 +9727,8 @@ URL: https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j
 Logo: https://i.ibb.co/1QHfvZJ/sicnoc.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",RTP 3 NOTÍCIAS
-URL: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/tvipt/py/rtp_3.m3u8
+Name: RTP 3 NOTÍCIAS
+URL: https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 Logo: https://i.ibb.co/HnqCkQj/rtp3.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
@@ -9622,6 +9770,36 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: SIC HD ALTA DEFINIÇÃO
 URL: https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
 Logo: https://i.ibb.co/M2g53rQ/sichdad.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP 1
+URL: https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+Logo: https://i.ibb.co/3YZFCjp/rtp1.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP 2
+URL: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+Logo: https://i.ibb.co/tbFT1V2/rtp2.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP MEMÓRIA
+URL: https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8
+Logo: https://i.ibb.co/vZ9S4rV/rtpmem.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP MADEIRA
+URL: https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
+Logo: https://i.ibb.co/bvwwcB9/rtpmad.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP AÇORES
+URL: https://streaming-live.rtp.pt/liverepeater/rtpacoresHD.smil/playlist.m3u8
+Logo: https://i.ibb.co/9GMzcw7/rtpaco.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP ÁFRICA
+URL: https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
+Logo: https://i.ibb.co/BsdgH54/rtpafr.webp
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: PORTO CANAL
@@ -9689,6 +9867,21 @@ URL: https://d25usgadhphvwi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b7
 Logo: https://i.ibb.co/fk0Vttj/tracebraz.png
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
+Name: like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",RTP 3 NOTÍCIAS
+URL: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/tvipt/py/rtp_3.m3u8
+Logo: https://i.ibb.co/HnqCkQj/rtp3.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP 3 NOTÍCIAS
+URL: https://streaming-live.rtp.pt/liverepeater/smil:rtpn.smil/playlist.m3u8
+Logo: https://i.ibb.co/HnqCkQj/rtp3.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: RTP AÇORES
+URL: https://streaming-live.rtp.pt/liverepeater/rtpacores.smil/playlist.m3u8
+Logo: https://i.ibb.co/9GMzcw7/rtpaco.jpg
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
 Name: RTP 1 (backup sd)
 URL: https://streaming-live.rtp.pt/liverepeater/rtp1.smil/playlist.m3u8
 Logo: https://i.ibb.co/3YZFCjp/rtp1.jpg
@@ -9739,11 +9932,6 @@ URL: https://streaming-live.rtp.pt/liverepeater/smil:rtpClean2HD.smil/playlist.m
 Logo: https://i.ibb.co/tbFT1V2/rtp2.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
-Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp2",RTP 2 (noott)
-URL: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-Logo: https://i.ibb.co/tbFT1V2/rtp2.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
 Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp3",RTP 3 (noott)
 URL: https://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8
 Logo: https://i.ibb.co/HnqCkQj/rtp3.jpg
@@ -9762,26 +9950,6 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" referer="https://www.rtp.pt/play/direto/rtp2",RTP 2 (backup)
 URL: https://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd
 Logo: https://i.ibb.co/tbFT1V2/rtp2.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: RTP AFRICA (noott)
-URL: https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
-Logo: https://i.ibb.co/BsdgH54/rtpafr.webp
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: RTP ACORES (noott)
-URL: https://streaming-live.rtp.pt/liverepeater/rtpacores.smil/playlist.m3u8
-Logo: https://i.ibb.co/9GMzcw7/rtpaco.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: RTP MADEIRA (noott)
-URL: https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
-Logo: https://i.ibb.co/bvwwcB9/rtpmad.jpg
-Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
---------------------------------------------------
-Name: RTP MEMORIA (noott)
-URL: https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8
-Logo: https://i.ibb.co/vZ9S4rV/rtpmem.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: EURONEWS PT (backup)
@@ -13262,6 +13430,11 @@ Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master
 Name: TRT ARABIYA
 URL: https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 Logo: https://i.ibb.co/vPkb8TQ/trtar.png
+Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+--------------------------------------------------
+Name: SHAMS TV
+URL: https://stream.shams.tv/hls/0/stream.m3u8
+Logo: https://i.ibb.co/ZzGJwxY1/shams.jpg
 Source: https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
 --------------------------------------------------
 Name: AL ALAM IR [censure-ifany]
