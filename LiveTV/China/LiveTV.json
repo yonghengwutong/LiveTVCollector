@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-20 21:56:18",
+  "date": "2025-11-21 06:56:43",
   "channels": {
     "Uncategorized": [
       {
@@ -8,6 +8,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://180.213.174.225:9901/tsfile/live/1034_1.m3u8?authid=0&key=txiptv&playlive=1"
+      },
+      {
+        "name": "Anshun Comprehensive News Channel",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "https://hplayer1.juyun.tv/camera/154379194.m3u8"
       },
       {
         "name": "Beijing Traffic Radio TV [Geo-blocked]",
@@ -169,6 +176,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://180.213.174.225:9901/tsfile/live/1030_1.m3u8?authid=0&key=txiptv&playlive=1"
+      },
+      {
+        "name": "Chifeng Comprehensive News Chanel",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://play1-qk.nmtv.cn/live/1735546697341033.m3u8"
       },
       {
         "name": "City Theater Channel",
@@ -4257,20 +4271,6 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://118.81.195.79:9003/hls/31/index.m3u8"
-      },
-      {
-        "name": "Anshun Comprehensive News Channel",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "https://hplayer1.juyun.tv/camera/154379194.m3u8"
-      },
-      {
-        "name": "Chifeng Comprehensive News Chanel",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "http://play1-qk.nmtv.cn/live/1735546697341033.m3u8"
       }
     ],
     "失效地址": [
@@ -7497,18 +7497,18 @@
         "url": "http://1.94.31.214:35455/huya/11342413"
       },
       {
-        "name": "七龙珠",
+        "name": "哆啦A梦",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "动画频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.ottiptv.cc/huya/11601966"
+        "url": "https://live.ottiptv.cc/huya/11601963"
       },
       {
-        "name": "精灵宝可梦",
+        "name": "喜羊羊与灰太狼",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "动画频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.ottiptv.cc/huya/23749096"
+        "url": "https://live.ottiptv.cc/huya/23865080"
       },
       {
         "name": "中华小当家",
@@ -8473,18 +8473,18 @@
         "url": "https://live.ottiptv.cc/huya/29982675"
       },
       {
+        "name": "哈尔滨影视",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "电影频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://stream.hrbtv.net/yspd/sd/live.m3u8"
+      },
+      {
         "name": "天映经典",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "电影频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://epg.pw/stream/cb817875cf26eb683af274dd8cdf7f559a71353d9565c32447c8d98894bc8095.ctv"
-      },
-      {
-        "name": "宇宙科幻合集",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "电影频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.ottiptv.cc/huya/11342428"
       },
       {
         "name": "怪兽电影",
@@ -8494,13 +8494,6 @@
         "url": "https://live.ottiptv.cc/huya/21059577"
       },
       {
-        "name": "成龙电影",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "电影频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.ottiptv.cc/huya/11342386"
-      },
-      {
         "name": "战争电影",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "电影频道",
@@ -8508,11 +8501,25 @@
         "url": "https://live.ottiptv.cc/huya/21059574"
       },
       {
+        "name": "枪战电影",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "电影频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://live.ottiptv.cc/huya/21059579"
+      },
+      {
         "name": "武侠电影",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "电影频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://live.ottiptv.cc/huya/11342427"
+      },
+      {
+        "name": "沈腾电影",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "电影频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://live.ottiptv.cc/huya/11601968"
       },
       {
         "name": "玄幻电影",
@@ -8541,13 +8548,6 @@
         "group": "电影频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://live.ottiptv.cc/huya/21059585"
-      },
-      {
-        "name": "贺岁电影",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "电影频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.ottiptv.cc/huya/11601986"
       },
       {
         "name": "金庸武侠",
@@ -10100,13 +10100,6 @@
         "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8"
       },
       {
-        "name": "广东体育",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "地方频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://epg.pw/stream/7b470f9fc5c305db0c8622117b7b25ca00eb35ba3e93e865cf0ff9df5c736681.m3u8"
-      },
-      {
         "name": "上海新闻综合",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "地方频道",
@@ -10161,6 +10154,13 @@
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8"
+      },
+      {
+        "name": "兵团五师双河新闻综合",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "地方频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8?zxinjd"
       },
       {
         "name": "内蒙经济",
@@ -10268,13 +10268,6 @@
         "url": "https://stream.hrbtv.net/ylpd/sd/live.m3u8"
       },
       {
-        "name": "哈尔滨生活",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "地方频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://stream.hrbtv.net/shpd/playlist.m3u8"
-      },
-      {
         "name": "天祝综合",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "地方频道",
@@ -10301,13 +10294,6 @@
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8"
-      },
-      {
-        "name": "平遥新闻综合",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "地方频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd"
       },
       {
         "name": "广元公共",
@@ -10412,7 +10398,7 @@
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://pull.gltvs.com/live/glxw/playlist.m3u8?v=b0528684bf934e120e1c30fc808e6576&t=1796868188"
+        "url": "https://pull.gltvs.com:443/live/glxw/playlist.m3u8?v=b0528684bf934e120e1c30fc808e6576&t=1796868188"
       },
       {
         "name": "武威新闻",
@@ -12071,36 +12057,29 @@
         "group": "国际",
         "source": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
         "url": "https://3a542e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfSGlzdG9yaWFuX0hMUw/playlist.m3u8"
-      },
-      {
-        "name": "MLB Network",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "国际",
-        "source": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
-        "url": "https://jmp2.uk/stvp-US1400001WV"
       }
     ],
     "儿童频道": [
+      {
+        "name": "七龙珠",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "儿童频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://live.ottiptv.cc/huya/11601966"
+      },
+      {
+        "name": "中华小当家",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "儿童频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://live.metshop.top/huya/11342413"
+      },
       {
         "name": "名侦探柯南",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "儿童频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://live.ottiptv.cc/huya/30080236"
-      },
-      {
-        "name": "哆啦A梦",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "儿童频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.ottiptv.cc/huya/11601963"
-      },
-      {
-        "name": "喜羊羊与灰太狼",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "儿童频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.ottiptv.cc/huya/23865080"
       },
       {
         "name": "海绵宝宝",
@@ -12115,6 +12094,13 @@
         "group": "儿童频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://live.ottiptv.cc/huya/11352879"
+      },
+      {
+        "name": "精灵宝可梦",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "儿童频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://live.ottiptv.cc/huya/23749096"
       },
       {
         "name": "黑龙江少儿",
@@ -12169,7 +12155,7 @@
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "解说频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://www.goodiptv.club/douyu/5907076"
+        "url": "https://yylunbo.ottiptv.cc/yy/1382735568"
       }
     ],
     "直播中国": [
@@ -14107,6 +14093,13 @@
         "url": "https://live.ottiptv.cc/huya/11342424"
       },
       {
+        "name": "成龙电影",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "虎牙影视",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://live.ottiptv.cc/huya/11342386"
+      },
+      {
         "name": "李连杰电影",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "虎牙影视",
@@ -14121,13 +14114,6 @@
         "url": "https://live.ottiptv.cc/huya/11352935"
       },
       {
-        "name": "沈腾电影",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "虎牙影视",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.ottiptv.cc/huya/11601968"
-      },
-      {
         "name": "强森电影",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "虎牙影视",
@@ -14135,11 +14121,11 @@
         "url": "https://live.ottiptv.cc/huya/21059581"
       },
       {
-        "name": "枪战电影",
+        "name": "贺岁电影",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "虎牙影视",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.ottiptv.cc/huya/21059579"
+        "url": "https://live.ottiptv.cc/huya/11601986"
       },
       {
         "name": "狄仁杰电影",
@@ -14147,6 +14133,13 @@
         "group": "虎牙影视",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://live.ottiptv.cc/huya/30080229"
+      },
+      {
+        "name": "宇宙科幻合集",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "虎牙影视",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://live.ottiptv.cc/huya/11342428"
       }
     ],
     "☘️北京频道": [
