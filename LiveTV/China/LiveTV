@@ -4650,6 +4650,18 @@
     "img": "https://live.fanmingming.cn/tv/山东教育.png"
   },
   {
+    "name": "广西卫视",
+    "type": "卫视频道",
+    "url": "https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "浙江卫视",
+    "type": "卫视频道",
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "山东教育",
     "type": "卫视频道",
     "url": "https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8",
@@ -7662,12 +7674,6 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "哈尔滨影视",
-    "type": "电影频道",
-    "url": "https://stream.hrbtv.net/yspd/sd/live.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "喜剧爱情电影不期而遇",
     "type": "电影频道",
     "url": "https://yylunbo.ottiptv.cc/yy/1382745181",
@@ -7824,12 +7830,6 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "热血运动电影精彩对抗",
-    "type": "电影频道",
-    "url": "https://yylunbo.ottiptv.cc/yy/1382735626",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "爆笑电影王牌大贱谍23",
     "type": "电影频道",
     "url": "https://yylunbo.ottiptv.cc/yy/1382735556",
@@ -7898,7 +7898,7 @@
   {
     "name": "经典港片电影",
     "type": "电影频道",
-    "url": "https://yylunbo.ottiptv.cc/yy/1461889059",
+    "url": "https://yylunbo.ottiptv.cc/yy/1459801818",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9204,12 +9204,6 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "哈尔滨生活",
-    "type": "地方频道",
-    "url": "https://stream.hrbtv.net/shpd/sd/live.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "天祝综合",
     "type": "地方频道",
     "url": "https://play.kankanlive.com/live/1656487214793905.m3u8",
@@ -9225,6 +9219,12 @@
     "name": "平泉综合",
     "type": "地方频道",
     "url": "https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "平遥新闻综合",
+    "type": "地方频道",
+    "url": "https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9314,13 +9314,13 @@
   {
     "name": "桂林新闻",
     "type": "地方频道",
-    "url": "https://pull.gltvs.com/live/glxw/playlist.m3u8?v=b0528684bf934e120e1c30fc808e6576&t=1796868188",
+    "url": "https://pull.gltvs.com:443/live/glxw/playlist.m3u8?v=b0528684bf934e120e1c30fc808e6576&t=1796868188",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "欢笑剧场",
     "type": "地方频道",
-    "url": "https://shyd.695847.xyz/cms001/ch00000090990000001193/index.m3u8?IASHttpSessionId=RR4967720251014100028031761&ispcode=12",
+    "url": "https://shyd.695847.xyz/cms001/ch00000090990000001490/index.m3u8?IASHttpSessionId=RR4967720251014100028031761&ispcode=12",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9417,12 +9417,6 @@
     "name": "甘肃都市",
     "type": "地方频道",
     "url": "https://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "秦安综合",
-    "type": "地方频道",
-    "url": "https://play.kankanlive.com/live/1659926941626981.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10254,15 +10248,27 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
+    "name": "CNN",
+    "type": "国际",
+    "url": "http://hardcoremedia.xyz:80/2sUX8DtA5/W30x4yBJXH/136581",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "BBC News",
     "type": "国际",
-    "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8",
+    "url": "http://hardcoremedia.xyz:80/2sUX8DtA5/W30x4yBJXH/241948",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "GB News",
     "type": "国际",
     "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Sky News",
+    "type": "国际",
+    "url": "http://powerserver.ottc.pro:80/PWYZQZ93BU/FZYPDZNITZ/4863",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10722,9 +10728,21 @@
     "img": "https://img.platform.wurl.dev/channel/1192/lg/73477a/LG-Logo-PNG-100x100_v1.png"
   },
   {
+    "name": "海绵宝宝",
+    "type": "儿童频道",
+    "url": "https://live.metshop.top/douyu/3949681",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "黑龙江少儿",
     "type": "儿童频道",
     "url": "https://ls.qingting.fm/live/4972/64k.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "兵团五师双河影",
+    "type": "纪录频道",
+    "url": "https://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8?zxinjd",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10758,6 +10776,12 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
+    "name": "人生必看的科幻片",
+    "type": "解说频道",
+    "url": "https://yylunbo.ottiptv.cc/yy/1382745114",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "你看与不看我都在",
     "type": "解说频道",
     "url": "https://yylunbo.ottiptv.cc/yy/1353422557",
@@ -10773,12 +10797,6 @@
     "name": "大家都在看的电视剧",
     "type": "解说频道",
     "url": "https://yylunbo.ottiptv.cc/yy/1354930964",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "打王者看电影",
-    "type": "解说频道",
-    "url": "https://yylunbo.ottiptv.cc/yy/1460889796",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10820,7 +10838,7 @@
   {
     "name": "漫画解说",
     "type": "解说频道",
-    "url": "https://yylunbo.ottiptv.cc/yy/1382735568",
+    "url": "https://www.goodiptv.club/douyu/5907076",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -11013,6 +11031,12 @@
     "name": "六盘山红军长征景区",
     "type": "直播中国",
     "url": "https://gcalic.v.myalicdn.com/gc/lpsgmjng01_1/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "南京玄武湖公园",
+    "type": "直播中国",
+    "url": "https://gcalic.v.myalicdn.com/gc/xwh01_1/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
