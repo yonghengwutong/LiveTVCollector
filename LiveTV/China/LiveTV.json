@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23 07:15:22",
+  "date": "2026-01-23 14:00:38",
   "channels": {
     "Uncategorized": [
       {
@@ -5504,6 +5504,13 @@
         "group": "卫视频道",
         "source": "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u",
         "url": "http://home.wwang.pw:35455/itv/1000000002000004097.m3u8?cdn=ystenlive"
+      },
+      {
+        "name": "东方卫视",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "卫视频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8"
       },
       {
         "name": "山东教育",
@@ -11394,20 +11401,6 @@
         "url": "http://nvsoo4tx.megogo.xyz/iptv/UWA8DBPMZFQ9PX9ZLSBM7FFX/31475/index.m3u8"
       },
       {
-        "name": "BEIN Sports",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "国际",
-        "source": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
-        "url": "http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8"
-      },
-      {
-        "name": "BEIN Sports Extra",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "国际",
-        "source": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
-        "url": "https://bein-xtra-xumo.amagi.tv/playlist.m3u8"
-      },
-      {
         "name": "Love Nature",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "国际",
@@ -11849,11 +11842,25 @@
         "url": "https://7pal.short.gy/ssportsfb"
       },
       {
+        "name": "Sky Sports Main Event",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "国际",
+        "source": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
+        "url": "https://7pal.short.gy/SSMEuhd"
+      },
+      {
         "name": "Sky Sports+",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "国际",
         "source": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
         "url": "https://a1xs.vip/2000012"
+      },
+      {
+        "name": "Sky Sports F1",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "国际",
+        "source": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
+        "url": "https://7pal.short.gy/SSF1uhd"
       },
       {
         "name": "Sky Sports News",
