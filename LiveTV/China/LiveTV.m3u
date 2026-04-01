@@ -1165,10 +1165,10 @@ https://epg.pw/stream/ca9c1cd4b97fb824cedd7fedfd0c7a950afdd7f00751cfbb7c2d89831d
 https://epg.pw/stream/6d7bf281e3d739806a73f5373acaa6e01988ec9739f5ac1355ce54b47a928472.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="央视频道",CCTV风云足球
 https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="央视频道",熊猫直播
-https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="央视频道",支持作者
 https://vd2.bdstatic.com/mda-sctj0f6r4u1bpebc/1080p/cae_h264/1774706523506678171/mda-sctj0f6r4u1bpebc.mp4
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="央视频道",熊猫直播
+https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="备用频道",CCTV1
 http://39.135.133.132/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CCTV2.png" group-title="备用频道",CCTV2
@@ -1405,10 +1405,6 @@ http://home.wwang.pw:35455/itv/2000000003000000033.m3u8?cdn=hnbblive
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/山东教育.png" group-title="卫视频道",山东教育
 http://home.wwang.pw:35455/itv/1000000002000004097.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="卫视频道",山东教育
-https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="卫视频道",东方卫视4K
-https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="卫视频道",苏州4K
 https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="央卫备用",CCTV-1 综合
@@ -1635,6 +1631,8 @@ http://home.wwang.pw:35455/itv/2000000003000000062.m3u8?cdn=hnbblive
 https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="数字频道",搜狐剧场
 https://hdl-vip-ws.qf.56.com/live/lc_11730.flv
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="数字频道",中国电影频道
+https://live.tvfix.org/live/cmc/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="数字频道",重温经典
 https://other.ottiptv.cc/cwjd.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视中文台.png" group-title="港澳台频道",凤凰中文
@@ -1763,6 +1761,8 @@ https://gdfire2.67890123.cn:8088/live/dsxw01.m3u8
 https://smart.pendy.dpdns.org/Smart.php?id=ftvtaiwan_twn
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="港澳台频道",民视第一台
 https://smart.pendy.dpdns.org/Smart.php?id=lunghuajingdian_twn
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="港澳台频道",龙华电影
+https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="港澳台频道",龙华洋片
 https://cdn8.163189.xyz/live/lhyp/stream.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="港澳台频道",龙华经典
@@ -1785,6 +1785,10 @@ https://stream1.freetv.fun/eltaai-er-da-ti-yu--1--wj-1.ctv
 https://stream1.freetv.fun/eltaai-er-da-ti-yu--2--wj-1.ctv
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="港澳台频道",ELEVEN体育3
 https://stream1.freetv.fun/eltaai-er-da-ti-yu--3--wj-1.ctv
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="港澳台频道",韩国电影1
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="港澳台频道",韩国电影2
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="港澳台频道",八度空间
 https://cdn6.163189.xyz/163189/8tv
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="港澳台频道",CH5
@@ -2277,10 +2281,10 @@ http://1.94.31.214:35455/yy/1382736803
 http://1.94.31.214:35455/yy/1354889019
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",无线星河
 https://cdn6.101.qzz.io/163189/tvbxh
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",龙华电影
-https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",28岁电影
 https://goodiptv.club/douyu/8884164
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",万合出品
+https://goodiptv.club/douyu/9220456
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",三七电影V
 https://goodiptv.club/douyu/9457792
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",二胖影视
@@ -2331,8 +2335,6 @@ https://goodiptv.club/douyu/8651489
 https://goodiptv.club/douyu/9075333
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",怪味爆米花电影
 https://goodiptv.club/douyu/9422144
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",无际电影
-https://goodiptv.club/douyu/9720498
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",有部电影儿
 https://goodiptv.club/douyu/9736479
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",林九影视
@@ -2353,8 +2355,6 @@ https://goodiptv.club/douyu/3637778
 https://goodiptv.club/douyu/9356637
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",独立鱼电影
 https://goodiptv.club/douyu/2413555
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",猫眼电影
-https://goodiptv.club/douyu/8726221
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",玖月影视
 https://goodiptv.club/douyu/9339251
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",电影七十二变
@@ -2395,8 +2395,6 @@ https://goodiptv.club/douyu/9167273
 https://goodiptv.club/douyu/8867878
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",莱纳电影
 https://goodiptv.club/douyu/9356937
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",豆瓣电影
-https://live.tvfix.org/live/cmc/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",贝爷求生影视
 https://goodiptv.club/douyu/9661369
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",贰哥电影
@@ -2409,10 +2407,6 @@ https://goodiptv.club/douyu/9931766
 https://goodiptv.club/douyu/9649701
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",阿苏电影
 https://goodiptv.club/douyu/9037784
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",韩国电影1
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",韩国电影2
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",香兰爱影视
 https://goodiptv.club/douyu/9487090
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电影频道",龙哥盘电影
@@ -2511,16 +2505,12 @@ https://live.ottiptv.cc/huya/26355864
 https://live.ottiptv.cc/huya/11352944
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电视剧频道",新水浒传
 https://live.ottiptv.cc/huya/11342384
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电视剧频道",新三国（斗鱼）
-https://goodiptv.club/douyu/5908256
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电视剧频道",少年包青天第一部
 https://live.ottiptv.cc/yy/1356043677
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电视剧频道",少年包青天第三部
 https://live.ottiptv.cc/yy/1382736814
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电视剧频道",神探狄仁杰第一部
 https://live.ottiptv.cc/huya/11352958
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电视剧频道",神探狄仁杰第二部
-https://goodiptv.club/douyu/6027991
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电视剧频道",神探狄仁杰第三部
 https://live.ottiptv.cc/huya/11342425
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="电视剧频道",爱情公寓
@@ -2897,10 +2887,16 @@ https://epg.pw/stream/aa65dd411565991ace44f9e5934bd018fdd52122e052d471a363b6ee83
 https://srs.iyb983.cn/video/CYS/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",安多卫视
 https://liveout.xntv.tv/a65jur/96iln2.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",山东教育
+https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",法治天地
+https://zby.130519.xyz/PLTV/11/224/3221225994/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",上海新闻综合
 https://mgtv.ottiptv.cc/migu/651632657.m3u8?migutoken=348c9164063c2b1df215dd2fa7cd92cb119d8a335ae0edfb5d615a6c714e71b669eee2f5ff1730afa92af7ca41d0aa96e3a280d7e5f2069eb8a3b852f3ebc270147489d7c8bfb08a7c4b9c4d80
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",上海第一财经
 https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",东方财经
+https://zby.130519.xyz/PLTV/11/224/3221226134/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",东莞新闻综合
 https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",东莞生活资讯
@@ -2957,6 +2953,8 @@ https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8
 https://live.gdtv.ah.cn/live/newsTV.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",广西国际
 https://hlscdn.liangtv.cn/live/0234c48e0bc24fe1b41b9999a253e581/1075ee38e04f490690f6a36a16e09c79.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",广西新闻
+https://tv.gxtv.cn/channel/channelivePlay_9dfd8600075811e9ba67e41f13b60c62.html
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",怀仁综合
 https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",成县综合
@@ -3015,14 +3013,12 @@ https://stream.hrbtv.net/zxpd/sd/live.m3u8
 https://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",甘肃都市
 https://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",白银综合
-https://play.kankanlive.com/live/1720408089419110.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",睢宁综合
+https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",秦安综合
 https://play.kankanlive.com/live/1659926941626981.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",苍南新闻综合
 https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",荥经综合
-https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",衡阳新闻综合
 https://liveplay-srs.voc.com.cn/hls/tv/183_554704.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",西宁新闻综合
@@ -3035,13 +3031,15 @@ https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
 https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526334096251.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",赣州新闻
 https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526329228525.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",辽宁都市
+https://ls.qingting.fm/live/1099/64k.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",通海电视台
 https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",通渭综合
 https://play.kankanlive.com/live/1725005047185027.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",邢台生活
 https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",邯郸公共频道
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",邯郸公共
 https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="地方频道",邯郸新闻
 https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8
@@ -3483,10 +3481,8 @@ https://goodiptv.club/douyu/9742136
 https://goodiptv.club/douyu/9393242
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="儿童频道",海绵宝宝
 https://live.metshop.top/douyu/3949681
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="儿童频道",漫尼动画
-https://goodiptv.club/douyu/10364790
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="儿童频道",猫和老鼠
-https://live.iill.top/huya/11352879
+https://live.metshop.top/huya/11352879
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="儿童频道",立秋动画
 https://goodiptv.club/douyu/10351891
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="儿童频道",黑龙江少儿
@@ -3527,8 +3523,6 @@ https://goodiptv.club/douyu/9087887
 https://goodiptv.club/douyu/527502
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",CmoStar
 https://goodiptv.club/douyu/10282256
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",Co视文化
-https://goodiptv.club/douyu/1060418
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",C座802
 https://goodiptv.club/douyu/8768943
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",DS女老诗
@@ -3553,8 +3547,6 @@ https://goodiptv.club/douyu/8970851
 https://goodiptv.club/douyu/2282604
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",KyoKyo不是QQ
 https://goodiptv.club/douyu/4732337
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",LCPD拉登
-https://goodiptv.club/douyu/9503015
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",LOUIS樱
 https://goodiptv.club/douyu/9235284
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",LR1245
@@ -3633,10 +3625,10 @@ https://goodiptv.club/douyu/8759268
 https://goodiptv.club/douyu/9630581
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",gslaini
 https://goodiptv.club/douyu/6997954
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",illit礼
+https://goodiptv.club/douyu/12065549
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",koanluowei
 https://goodiptv.club/douyu/10906963
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",ljgdy
-https://goodiptv.club/douyu/1600769
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",low君热剧
 https://goodiptv.club/douyu/8461020
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",mad叶月Mashiro灬
@@ -3655,8 +3647,6 @@ https://goodiptv.club/douyu/4808115
 https://goodiptv.club/douyu/491253
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",xiaoxiao1004
 https://goodiptv.club/douyu/2569874
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",一个机智张张
-https://goodiptv.club/douyu/9653063
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",一只魔玩
 https://goodiptv.club/douyu/9606281
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",一把钢刀镇斗虞
@@ -3667,8 +3657,6 @@ https://goodiptv.club/douyu/8662684
 https://goodiptv.club/douyu/9497985
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",一条闲木鱼
 https://goodiptv.club/douyu/10102281
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",一生titus
-https://goodiptv.club/douyu/12065569
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",一目十影
 https://goodiptv.club/douyu/3643605
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",一颗咕咕星
@@ -3677,10 +3665,6 @@ https://goodiptv.club/douyu/9388557
 https://goodiptv.club/douyu/9192852
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",万事通熊猫
 https://goodiptv.club/douyu/7812810
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",万合出品
-https://goodiptv.club/douyu/9220456
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",万合鲜肉老师
-https://goodiptv.club/douyu/9815091
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",三个老爸实验室
 https://goodiptv.club/douyu/9090487
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",三代鹿人v
@@ -3715,8 +3699,6 @@ https://goodiptv.club/douyu/6361974
 https://goodiptv.club/douyu/5918434
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",主播拍个肚皮
 https://goodiptv.club/douyu/9387499
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",久远丶酱
-https://goodiptv.club/douyu/9046649
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",乌拉吖有剧
 https://goodiptv.club/douyu/10075154
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",乐儿丶Ler
@@ -3737,14 +3719,14 @@ https://goodiptv.club/douyu/8661526
 https://goodiptv.club/douyu/10508677
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",京城笑工坊
 https://goodiptv.club/douyu/10329324
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",亮亮也是酿酿
-https://goodiptv.club/douyu/4340136
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",人生回答机本机
 https://goodiptv.club/douyu/9409722
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",人类早期驯服
 https://goodiptv.club/douyu/8892864
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",仓鼠大逃亡
 https://goodiptv.club/douyu/10354920
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",伊太刀刀
+https://goodiptv.club/douyu/747764
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",伊西wind
 https://goodiptv.club/douyu/12641373
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",你的瑜伽女孩
@@ -3771,18 +3753,12 @@ https://goodiptv.club/douyu/9478842
 https://goodiptv.club/douyu/9067858
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",内蒙古欢乐驿站
 https://goodiptv.club/douyu/9365077
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",农村一级野钓大师
-https://goodiptv.club/douyu/9433591
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",农村幺妹儿
 https://goodiptv.club/douyu/9344884
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",农氏野钓
 https://goodiptv.club/douyu/10103361
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",冥王星丶丶
 https://goodiptv.club/douyu/296575
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",冬熊零食铺
-https://goodiptv.club/douyu/10586105
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",冰糖葫芦没放盐V
-https://goodiptv.club/douyu/3505453
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",冷孝洪
 https://goodiptv.club/douyu/9527761
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",几号房间
@@ -3811,8 +3787,6 @@ https://goodiptv.club/douyu/11931032
 https://goodiptv.club/douyu/1739752
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",功夫联盟2020
 https://goodiptv.club/douyu/9169624
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",动漫推荐i
-https://goodiptv.club/douyu/5187099
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",动物启示录
 https://goodiptv.club/douyu/9443129
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",助眠师海宝宝
@@ -3841,8 +3815,6 @@ https://goodiptv.club/douyu/10084875
 https://goodiptv.club/douyu/922564
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",卖爆鱼的小姑娘
 https://goodiptv.club/douyu/5982597
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",南国小豆豆
-https://goodiptv.club/douyu/3310454
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",卡密密尼
 https://goodiptv.club/douyu/9013989
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",卡皮君本人
@@ -3871,8 +3843,6 @@ https://goodiptv.club/douyu/9517351
 https://goodiptv.club/douyu/9382395
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",吃鸡小表弟
 https://goodiptv.club/douyu/9370197
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",同学请坐吧
-https://goodiptv.club/douyu/3736649
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",同行渔猎笔记
 https://goodiptv.club/douyu/2718202
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",名人物语DY
@@ -3947,8 +3917,6 @@ https://goodiptv.club/douyu/9606419
 https://goodiptv.club/douyu/9546437
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",外卖仙人成天
 https://goodiptv.club/douyu/9498506
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",夙瑶瑾
-https://goodiptv.club/douyu/9450568
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",多发几个思雨
 https://goodiptv.club/douyu/7256376
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",多多其木格
@@ -3989,16 +3957,14 @@ https://goodiptv.club/douyu/10646699
 https://goodiptv.club/douyu/8662915
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",天才霸总的狐崽崽
 https://goodiptv.club/douyu/10394922
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",奇光主播
-https://goodiptv.club/douyu/8009547
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",奇光主播Blaze
 https://goodiptv.club/douyu/12817608
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",奇光主播R
 https://goodiptv.club/douyu/12080172
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",奇光主播e
 https://goodiptv.club/douyu/11849873
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",奇光主播q
-https://goodiptv.club/douyu/12560807
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",奇兮兮悄陌
+https://goodiptv.club/douyu/953193
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",奇妙博物馆
 https://goodiptv.club/douyu/9409723
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",奇趣研究
@@ -4059,16 +4025,12 @@ https://goodiptv.club/douyu/9442889
 https://goodiptv.club/douyu/8943060
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",小明不背锅up
 https://goodiptv.club/douyu/117854
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",小木鱼de妈妈
-https://goodiptv.club/douyu/11199147
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",小林家的旗女仆
 https://goodiptv.club/douyu/9211287
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",小毅主播A
 https://goodiptv.club/douyu/12780285
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",小毅主播G
 https://goodiptv.club/douyu/12811933
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",小毅主播e
-https://goodiptv.club/douyu/11851549
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",小毅主播q
 https://goodiptv.club/douyu/6906628
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",小猪优版剧院
@@ -4095,8 +4057,6 @@ https://goodiptv.club/douyu/9028721
 https://goodiptv.club/douyu/9627625
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",小鹏漫剪
 https://goodiptv.club/douyu/9476810
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",小黑豹子啊
-https://goodiptv.club/douyu/9458184
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",少女娜娜酱
 https://goodiptv.club/douyu/9445557
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",少年阿虎233
@@ -4107,12 +4067,8 @@ https://goodiptv.club/douyu/11531165
 https://goodiptv.club/douyu/9656124
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",尽整没用D
 https://goodiptv.club/douyu/8791622
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",屁屁鲁男孩
-https://goodiptv.club/douyu/708526
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",屁屁鸭家族LOVE
 https://goodiptv.club/douyu/9461930
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",屮不到最爱的人
-https://goodiptv.club/douyu/12816797
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",山下智博official
 https://goodiptv.club/douyu/9186596
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",山里记
@@ -4149,14 +4105,14 @@ https://goodiptv.club/douyu/10153463
 https://goodiptv.club/douyu/10319056
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",开车大神
 https://goodiptv.club/douyu/9759970
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",张宇394795
-https://goodiptv.club/douyu/7508566
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",张小莹要独立
 https://goodiptv.club/douyu/9647285
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",弹吉他的Miumiu
 https://goodiptv.club/douyu/4564166
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",当下频道
 https://goodiptv.club/douyu/9389239
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",当幽兰剑遇上链子刀
+https://goodiptv.club/douyu/6027991
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",当燕双鹰遇见李元芳
 https://goodiptv.club/douyu/3439096
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",当铁手团遇到光复社
@@ -4169,8 +4125,6 @@ https://goodiptv.club/douyu/40471
 https://goodiptv.club/douyu/3113309
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",律子桑
 https://goodiptv.club/douyu/9371308
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",徐大sao
-https://goodiptv.club/douyu/7107176
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",御前狼王顾云川
 https://goodiptv.club/douyu/9517289
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",御魔君
@@ -4187,16 +4141,12 @@ https://goodiptv.club/douyu/9488056
 https://goodiptv.club/douyu/9570042
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",快乐的小波子
 https://goodiptv.club/douyu/9039399
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",怠惰守夜
-https://goodiptv.club/douyu/8842108
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",怡宝妹妹丶
 https://goodiptv.club/douyu/434971
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",怪事屋
 https://goodiptv.club/douyu/8706084
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",恨铁
 https://goodiptv.club/douyu/6369954
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",恰饭橘
-https://goodiptv.club/douyu/7974136
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",悉奇
 https://goodiptv.club/douyu/9401473
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",悬疑MOVIE
@@ -4209,8 +4159,6 @@ https://goodiptv.club/douyu/8729614
 https://goodiptv.club/douyu/260322
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",戏晶SHOW
 https://goodiptv.club/douyu/9565130
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",成龙历险纪
-https://goodiptv.club/douyu/2287949
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",我为奥迪上黄金
 https://goodiptv.club/douyu/9336286
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",我们可爱的程程
@@ -4257,8 +4205,6 @@ https://goodiptv.club/douyu/8413092
 https://goodiptv.club/douyu/1770806
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",探奇录
 https://goodiptv.club/douyu/9746763
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",探秘者大正
-https://goodiptv.club/douyu/9330485
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",搞笑动漫大本营
 https://goodiptv.club/douyu/9650181
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",搞笑天堂岛
@@ -4283,8 +4229,6 @@ https://goodiptv.club/douyu/2680501
 https://goodiptv.club/douyu/8737695
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",斗鱼恐怖游戏合集
 https://goodiptv.club/douyu/10401481
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",方塘塘i
-https://goodiptv.club/douyu/5920772
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",方攵日央木几
 https://goodiptv.club/douyu/9942574
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",无才先生
@@ -4307,8 +4251,6 @@ https://goodiptv.club/douyu/9570579
 https://goodiptv.club/douyu/9475113
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",是个小可爱iiii
 https://goodiptv.club/douyu/9650782
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",是你的迷弟吖
-https://goodiptv.club/douyu/7039598
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",是小x同学呀
 https://goodiptv.club/douyu/9415020
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",是忆昔啊
@@ -4327,8 +4269,6 @@ https://goodiptv.club/douyu/9350960
 https://goodiptv.club/douyu/1275878
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",暴躁少女零九
 https://goodiptv.club/douyu/9065302
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",曹小灵比比叨
-https://goodiptv.club/douyu/10289400
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",月影Yueing212
 https://goodiptv.club/douyu/8885525
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",有趣视频分享
@@ -4349,8 +4289,6 @@ https://goodiptv.club/douyu/9038894
 https://goodiptv.club/douyu/4786399
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",村野趣事荟
 https://goodiptv.club/douyu/5794474
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",来呀官人V
-https://goodiptv.club/douyu/9986305
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",杨山羊goat
 https://goodiptv.club/douyu/6300365
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",杰克大魔王V
@@ -4363,8 +4301,6 @@ https://goodiptv.club/douyu/9191790
 https://goodiptv.club/douyu/9607934
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",枫泽雨畔
 https://goodiptv.club/douyu/5279518
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",某声悠
-https://goodiptv.club/douyu/8896100
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",柠柠柠萌菌
 https://goodiptv.club/douyu/9720895
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",柠檬檬檬儿vlog
@@ -4417,8 +4353,6 @@ https://goodiptv.club/douyu/8783035
 https://goodiptv.club/douyu/8850453
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",泽静
 https://goodiptv.club/douyu/9055742
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",洋房姐姐
-https://goodiptv.club/douyu/9172774
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",洛飕飕
 https://goodiptv.club/douyu/9543361
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",流小豆
@@ -4431,8 +4365,6 @@ https://goodiptv.club/douyu/655973
 https://goodiptv.club/douyu/9754849
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",海王尼加拉
 https://goodiptv.club/douyu/10039005
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",海男Rexv
-https://goodiptv.club/douyu/9626732
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",涛哥测评
 https://goodiptv.club/douyu/613850
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",淮秀帮官方
@@ -4461,8 +4393,6 @@ https://goodiptv.club/douyu/8829706
 https://goodiptv.club/douyu/9650246
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",漠漠fumiyo
 https://goodiptv.club/douyu/8911070
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",漫威君
-https://goodiptv.club/douyu/1713615
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",潇湘公子L
 https://goodiptv.club/douyu/9535657
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",潜伏sc
@@ -4501,8 +4431,6 @@ https://goodiptv.club/douyu/9647845
 https://goodiptv.club/douyu/4332
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",狂阿弥爷
 https://goodiptv.club/douyu/8975282
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",猎奇笔记本
-https://goodiptv.club/douyu/9627172
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",猛禽西伯利亚白猿
 https://goodiptv.club/douyu/10074407
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",猪弟驸马爷
@@ -4555,6 +4483,8 @@ https://goodiptv.club/douyu/5522351
 https://goodiptv.club/douyu/4290711
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",白了个痴
 https://goodiptv.club/douyu/319576
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",白燥No1
+https://goodiptv.club/douyu/280064
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",白鱼Sakana
 https://goodiptv.club/douyu/9611771
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",百万巨星麒麟君
@@ -4639,8 +4569,6 @@ https://goodiptv.club/douyu/6033135
 https://goodiptv.club/douyu/5832053
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",纪录片之家字幕组
 https://goodiptv.club/douyu/8834003
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",纳豆奶奶666
-https://goodiptv.club/douyu/8745628
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",纸鸢SomniumV
 https://goodiptv.club/douyu/9506782
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",经典拳赛
@@ -4731,14 +4659,10 @@ https://goodiptv.club/douyu/9663833
 https://goodiptv.club/douyu/10226974
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",荒野有声书
 https://goodiptv.club/douyu/10650322
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",荒野视界
-https://goodiptv.club/douyu/10675329
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",荒野避难所
 https://goodiptv.club/douyu/10234334
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",莫扎金
 https://goodiptv.club/douyu/9272077
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",菠萝屋SpongeBob
-https://goodiptv.club/douyu/12400977
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",萌宠妙妙屋
 https://goodiptv.club/douyu/8653533
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",萌小鬼
@@ -4755,6 +4679,8 @@ https://goodiptv.club/douyu/9572351
 https://goodiptv.club/douyu/9431727
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",蓝格雷
 https://goodiptv.club/douyu/5124602
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",蓝翔新三国
+https://goodiptv.club/douyu/5908256
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",蓝翔老三国
 https://goodiptv.club/douyu/7459925
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",蔡恩雨Priscilla
@@ -4799,6 +4725,8 @@ https://goodiptv.club/douyu/9817716
 https://goodiptv.club/douyu/9348766
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",起来啦小躺
 https://goodiptv.club/douyu/8849047
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",趁我们还年轻812
+https://goodiptv.club/douyu/7805562
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",超wu的大白兔
 https://goodiptv.club/douyu/2925299
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",趣评测李杰灵
@@ -4855,8 +4783,6 @@ https://goodiptv.club/douyu/9546016
 https://goodiptv.club/douyu/9547575
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",钓鱼大锋子
 https://goodiptv.club/douyu/10074370
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",钓鱼欧尼AnglerJJung
-https://goodiptv.club/douyu/10616765
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",钟意嚼完唔松弟弟边炉
 https://goodiptv.club/douyu/8912325
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",铁头与橘子
@@ -4873,16 +4799,10 @@ https://goodiptv.club/douyu/9398828
 https://goodiptv.club/douyu/2894528
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",长片短解
 https://goodiptv.club/douyu/9410946
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",阳仔骑行
-https://goodiptv.club/douyu/9329185
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",阿九筒的春天
-https://goodiptv.club/douyu/3705679
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",阿依图娜
 https://goodiptv.club/douyu/9047046
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",阿坤在努力
 https://goodiptv.club/douyu/9407329
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",阿尔法是只边牧
-https://goodiptv.club/douyu/8662812
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",阿忙赶海
 https://goodiptv.club/douyu/9348876
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="特色直播",阿福ThomasV
@@ -4977,6 +4897,10 @@ https://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8?zxinjd
 https://hls.cntv.lxdns.com/asp/hls/2000/0303000a/3/default/f0a47e155d32450daa1d36a04fd7d262/2000.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="纪录频道",飞碟之谜02
 https://newcntv.qcloudcdn.com/asp/hls/2000/0303000a/3/default/d2454bbb542d4613a9db478dab2addfd/2000.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="体育频道",精品体育
+https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="体育频道",睛彩篮球
+https://zby.130519.xyz/PLTV/11/224/3221226118/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="体育频道",JJ斗地主
 https://live.iill.top/douyin/685317364746
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",17号说动漫
@@ -4989,10 +4913,6 @@ https://goodiptv.club/douyu/9444320
 https://goodiptv.club/douyu/9456379
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",JG影视解说
 https://goodiptv.club/douyu/9391277
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",JustXiaIt嘻咦啊看
-https://goodiptv.club/douyu/2660125
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",Michael说大片
-https://goodiptv.club/douyu/8841881
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",PP看动漫
 https://goodiptv.club/douyu/9837291
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",SAO东西又再说SAO话
@@ -5057,8 +4977,6 @@ https://goodiptv.club/douyu/9437349
 https://goodiptv.club/douyu/8747638
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",女汉子说电影
 https://goodiptv.club/douyu/9395966
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",女神撩电影
-https://goodiptv.club/douyu/9439594
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",好像视说故事
 https://goodiptv.club/douyu/8891883
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",好剧看不停
@@ -5089,16 +5007,10 @@ https://goodiptv.club/douyu/4258555
 https://goodiptv.club/douyu/10011547
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",小超讲电影
 https://goodiptv.club/douyu/3432645
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",小陶气说动漫
-https://goodiptv.club/douyu/9527700
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",小马哥说电影
 https://goodiptv.club/douyu/9396672
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",少年看电影
-https://goodiptv.club/douyu/8762120
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",崽崽撩电影
 https://goodiptv.club/douyu/8325511
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",已知艺术家漫画解说
-https://goodiptv.club/douyu/5907076
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",幕撩电影
 https://goodiptv.club/douyu/9486015
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",强人说笑
@@ -5109,8 +5021,6 @@ https://goodiptv.club/douyu/9476790
 https://goodiptv.club/douyu/10411518
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",快看张不止
 https://goodiptv.club/douyu/8413226
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",我是吃泡面看电影
-https://goodiptv.club/douyu/8851063
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",指缝里看电影
 https://goodiptv.club/douyu/9647834
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",据说放映室
@@ -5129,8 +5039,6 @@ https://goodiptv.club/douyu/9430717
 https://goodiptv.club/douyu/453963
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",末日说电影
 https://goodiptv.club/douyu/9431125
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",松轩说电影
-https://goodiptv.club/douyu/1524969
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",梓帆说电影
 https://goodiptv.club/douyu/9769563
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",楚哥说电影
@@ -5145,8 +5053,6 @@ https://yylunbo.ottiptv.cc/yy/1382735568
 https://goodiptv.club/douyu/2039501
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",火龙果说电影
 https://goodiptv.club/douyu/9559158
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",灯泡兄弟影游谈
-https://goodiptv.club/douyu/1690081
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",灵佑奇谈
 https://goodiptv.club/douyu/9678207
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",热影连连看
@@ -5203,8 +5109,6 @@ https://goodiptv.club/douyu/9222870
 https://goodiptv.club/douyu/9994377
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",胶片看电影
 https://goodiptv.club/douyu/3715426
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",自说自话的总裁
-https://goodiptv.club/douyu/9317739
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",芳芳说故事
 https://goodiptv.club/douyu/9401905
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",菇菇说过
@@ -5257,6 +5161,8 @@ https://goodiptv.club/douyu/9544628
 https://goodiptv.club/douyu/5067952
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="解说频道",鹏友说电影
 https://goodiptv.club/douyu/9445244
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="音乐频道",CCTV15
+https://zby.130519.xyz/PLTV/11/224/3221226147/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="音乐频道",音乐现场
 https://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="直播中国",中央电视塔东
@@ -5409,8 +5315,6 @@ https://gcalic.v.myalicdn.com/gc/wgw01_1/index.m3u8
 https://gcalic.v.myalicdn.com/gc/wgw03_1/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="直播中国",黄龙
 https://gcalic.v.myalicdn.com/gc/hlzycc_1/index.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="4K频道",苏州4K
-https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="4K频道",河北4K
 https://event.pull.hebtv.com:443/live/live101.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="4K频道",浙江卫视
@@ -5443,8 +5347,6 @@ https://zby.130519.xyz/PLTV/11/224/3221226103/index.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221226128/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",CCTV-14
 https://zby.130519.xyz/PLTV/11/224/3221225738/index.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",CCTV-15
-https://zby.130519.xyz/PLTV/11/224/3221226147/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",CCTV-16
 https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",CETV-01
@@ -5507,8 +5409,6 @@ https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221225722/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",东方影视
 https://zby.130519.xyz/PLTV/11/224/3221225744/index.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",东方财经
-https://zby.130519.xyz/PLTV/11/224/3221226134/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",第一财经
 https://zby.130519.xyz/PLTV/11/224/3221225737/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",上海都市
@@ -5525,8 +5425,6 @@ https://zby.130519.xyz/PLTV/11/224/3221226136/index.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221225748/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",生活时尚
 https://zby.130519.xyz/PLTV/11/224/3221225768/index.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",法治天地
-https://zby.130519.xyz/PLTV/11/224/3221225994/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",游戏风云
 https://zby.130519.xyz/PLTV/11/224/3221226117/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",乐游频道
@@ -5541,8 +5439,6 @@ https://zby.130519.xyz/PLTV/11/224/3221226019/index.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221226094/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",睛彩竞技
 https://zby.130519.xyz/PLTV/11/224/3221226116/index.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",睛彩篮球
-https://zby.130519.xyz/PLTV/11/224/3221226118/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="移动IPTV",睛彩广场
 https://zby.130519.xyz/PLTV/11/224/3221226139/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="虎牙影视",末日电影合集
@@ -5551,6 +5447,8 @@ https://live.ottiptv.cc/yy/1354889019
 https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1742954511&sign=5241ba5667bd08639fd195ea9db6da5a
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="☘️北京频道",BRTV文艺
 https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1742954441&sign=36eca1b00f7de9e79ecc4449bcaa35d5
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="☘️四川频道",荥经综合
+https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="☘️河北频道",鹿泉一套
 https://jwcdnqx.hebyun.com.cn/live/luquanyi/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="☘️河北频道",鹿泉二套
