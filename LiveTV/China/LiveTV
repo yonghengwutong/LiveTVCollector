@@ -9524,13 +9524,19 @@
   {
     "name": "BBC News",
     "type": "国际",
-    "url": "https://jmp2.uk/rok-6183f9f73a64394cf3c55690605af2a7.m3u8",
+    "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "GB News",
     "type": "国际",
     "url": "https://rakutenaa-lightning-gbnews-rakuten-ccoa9.amagi.tv/playlist/rakutenAA-lightning-gbnews-rakuten/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "FOX News",
+    "type": "国际",
+    "url": "http://iptvtree.net:8080/live/7e4b0dbd/1dd755dc3f/1611.ts",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9567,12 +9573,6 @@
     "name": "NEWSMAX",
     "type": "国际",
     "url": "https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/3.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "NEWSMAX2",
-    "type": "国际",
-    "url": "https://jmp2.uk/rok-28844a800a4e54909eec9695aa3762b2.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9690,15 +9690,21 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
+    "name": "AMC",
+    "type": "国际",
+    "url": "http://23.239.31.26:8989/amc/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "Trace Sport Stars",
     "type": "国际",
     "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "SportsGrid",
+    "name": "Animal Planet",
     "type": "国际",
-    "url": "https://jmp2.uk/rok-62f1cd0d4c395a2a8ab72cff688666a0.m3u8",
+    "url": "http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9723,12 +9729,6 @@
     "name": "Pulse",
     "type": "国际",
     "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-pulse-samsungau/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Tastemade",
-    "type": "国际",
-    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/tastemade-tastemade-int-aus-samsungau/playlist.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9930,9 +9930,9 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Billiard TV",
+    "name": "Big Ten Network",
     "type": "国际",
-    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=15270&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]&app_store_url=[APP_STOREURL]&app_name=[APP_NAME]&custom_targeting=html5&custom_4=lg_channels_us&player_height=720&player_width=1280&content_channel=lg_channels&content_dist_name=lg_channels&device_make=[DEVICE_MAKE]&device_model=[DEVICE_MODEL]&device_os=html5&consent=[GDPR_CONSENT]&gdpr=[GDPR]&gender=not_specified&yob=0&livestream=1&custom_param_0=[DEVICE_MODEL]&custom_param_1=tv&custom_param_2=[DEVICE_MAKE]&custom_param_3=[DEVICE_ID]&custom_param_4=lg_channels&custom_param_5=html5&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]",
+    "url": "http://23.237.104.106:8080/USA_BTN/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9940,12 +9940,6 @@
     "type": "国际",
     "url": "https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8",
     "img": "https://i.imgur.com/skAiUxg.png"
-  },
-  {
-    "name": "Channel 4",
-    "type": "国际",
-    "url": "https://viamotionhsi.netplus.ch/live/eds/channel4/browser-HLS8/channel4.m3u8",
-    "img": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1621.png"
   },
   {
     "name": "Adventure Earth",
@@ -9978,21 +9972,9 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "中华小当家",
-    "type": "儿童频道",
-    "url": "https://live.iill.top/huya/11342413",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "海绵宝宝",
-    "type": "儿童频道",
-    "url": "https://live.metshop.top/douyu/3949681",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "猫和老鼠",
     "type": "儿童频道",
-    "url": "https://live.iill.top/huya/11352879",
+    "url": "https://live.metshop.top/huya/11352879",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10034,7 +10016,7 @@
   {
     "name": "漫画解说",
     "type": "解说频道",
-    "url": "https://www.goodiptv.club/douyu/5907076",
+    "url": "https://yylunbo.ottiptv.cc/yy/1382735568",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
