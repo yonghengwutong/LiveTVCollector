@@ -3624,12 +3624,6 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "CCTV5+",
-    "type": "央视频道",
-    "url": "https://piccpndali.v.myalicdn.com/audio/cctv5plus_2.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "CCTV6",
     "type": "央视频道",
     "url": "https://piccpndali.v.myalicdn.com/audio/cctv6_2.m3u8",
@@ -3698,7 +3692,7 @@
   {
     "name": "CCTV央视台球",
     "type": "央视频道",
-    "url": "https://epg.pw/stream/ca9c1cd4b97fb824cedd7fedfd0c7a950afdd7f00751cfbb7c2d89831d7746a5.m3u8",
+    "url": "https://epg.pw/stream/25677ac2e8c1f7c3dd6359c43eb5f0f54efb3f5c11f9dda18d01b3e0308ed017.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -4434,9 +4428,21 @@
     "img": "https://live.fanmingming.cn/tv/山东教育.png"
   },
   {
+    "name": "浙江卫视",
+    "type": "卫视频道",
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "安多卫视",
     "type": "卫视频道",
     "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "黑龙江卫视",
+    "type": "卫视频道",
+    "url": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -8610,12 +8616,6 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "哈尔滨娱乐",
-    "type": "地方频道",
-    "url": "https://stream.hrbtv.net/ylpd/sd/live.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "太谷新闻综合",
     "type": "地方频道",
     "url": "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0",
@@ -8637,6 +8637,12 @@
     "name": "平泉综合",
     "type": "地方频道",
     "url": "https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "平遥新闻综合",
+    "type": "地方频道",
+    "url": "https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -8754,9 +8760,9 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "泸县新闻综合",
+    "name": "浙江经济",
     "type": "地方频道",
-    "url": "https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8",
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8?",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -8823,12 +8829,6 @@
     "name": "苍南新闻综合",
     "type": "地方频道",
     "url": "https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "荥经综合",
-    "type": "地方频道",
-    "url": "https://file.ysxtv.cn/nmip-media/channellive/channel101492/playlist.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10200,12 +10200,6 @@
     "img": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/ufc/channels/ufc-domestic400x200.png"
   },
   {
-    "name": "浙江少儿",
-    "type": "儿童频道",
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "七龙珠",
     "type": "儿童频道",
     "url": "https://live.metshop.top/huya/11601966",
@@ -10221,6 +10215,12 @@
     "name": "海绵宝宝",
     "type": "儿童频道",
     "url": "https://live.metshop.top/douyu/3949681",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "猫和老鼠",
+    "type": "儿童频道",
+    "url": "https://live.metshop.top/huya/11352879",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10250,7 +10250,7 @@
   {
     "name": "精品体育",
     "type": "体育频道",
-    "url": "https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8",
+    "url": "https://epg.pw/stream/94ed0232b61ce8d89883160a4cdfbfc8f3225cae70ef8e17d93eec249a3c8ad6.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -10755,12 +10755,6 @@
     "name": "浙江卫视",
     "type": "4K频道",
     "url": "https://play-qukan.cztv.com/live/1746687519046362.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "黑龙江卫视",
-    "type": "4K频道",
-    "url": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
