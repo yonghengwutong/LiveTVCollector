@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-27 09:17:58",
+  "date": "2026-05-27 17:07:25",
   "channels": {
     "Uncategorized": [
       {
@@ -66,6 +66,13 @@
         "url": "http://49.113.179.174:4022/udp/238.125.3.121:5140"
       },
       {
+        "name": "BRTV 北京卫视 (1080p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://go.bkpcp.top/mg/bjws"
+      },
+      {
         "name": "BRTV 北京卫视 [Not 24/7]",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
@@ -115,6 +122,13 @@
         "url": "https://cdn3.163189.xyz/163189/cctv13"
       },
       {
+        "name": "CCTV-13 (1080p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://go.bkpcp.top/mg/cctv13"
+      },
+      {
         "name": "CCTV-13 (720p)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
@@ -148,6 +162,20 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://74.91.26.218:82/live/cctv17hd.m3u8"
+      },
+      {
+        "name": "CCTV-1 (1080p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://69.30.245.50/live/cctv1.m3u8"
+      },
+      {
+        "name": "CCTV-1 (1080p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://198.204.240.250:82/live/cctv1.m3u8"
       },
       {
         "name": "CCTV-1 (720p)",
@@ -192,6 +220,27 @@
         "url": "http://74.91.26.218:82/live/cctv5hd.m3u8"
       },
       {
+        "name": "CCTV-5+ (720p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://192.151.150.154/live/cctv5p.m3u8"
+      },
+      {
+        "name": "CCTV-6 (1080p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://198.204.240.250:82/live/cctv6.m3u8"
+      },
+      {
+        "name": "CCTV-6 (1080p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://69.30.245.50/live/cctv6.m3u8"
+      },
+      {
         "name": "CCTV-7 (720p)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
@@ -213,18 +262,18 @@
         "url": "http://198.204.240.250:82/live/cctv8k.m3u8"
       },
       {
+        "name": "CCTV-8K (1080p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "http://192.151.150.154/live/cctv8k.m3u8"
+      },
+      {
         "name": "CCTV-9 (576i)",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "https://xykt-fix.github.io/Y77.m3u8"
-      },
-      {
-        "name": "CCTV-5+ (720p)",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "Uncategorized",
-        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-        "url": "http://192.151.150.154/live/cctv5p.m3u8"
       },
       {
         "name": "CETV1 (576p)",
@@ -2591,6 +2640,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://121.19.134.246:808/hls/25/index.m3u8"
+      },
+      {
+        "name": "Hebei TV (2160p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "https://event.pull.hebtv.com:443/live/live101.m3u8"
       },
       {
         "name": "河北卫视 (2160p)",
@@ -5100,13 +5156,6 @@
         "url": "http://home.wwang.pw:35455/itv/1000000002000004097.m3u8?cdn=ystenlive"
       },
       {
-        "name": "广东卫视",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "卫视频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4"
-      },
-      {
         "name": "安多卫视",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "卫视频道",
@@ -5114,11 +5163,25 @@
         "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8"
       },
       {
+        "name": "黑龙江卫视",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "卫视频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8"
+      },
+      {
         "name": "山东教育",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "卫视频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8"
+      },
+      {
+        "name": "人间卫视",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "卫视频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8"
       },
       {
         "name": "东方卫视4K",
@@ -9995,18 +10058,11 @@
         "url": "https://stream.hrbtv.net/ylpd/sd/live.m3u8"
       },
       {
-        "name": "天祝综合",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "地方频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://play.kankanlive.com/live/1656487214793905.m3u8"
-      },
-      {
         "name": "太谷新闻综合",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0"
+        "url": "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0"
       },
       {
         "name": "宁夏经济",
@@ -10167,7 +10223,7 @@
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://ls.qingting.fm/live/1650/64k.m3u8"
+        "url": "https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8?zhebd"
       },
       {
         "name": "河北都市",
@@ -10175,6 +10231,20 @@
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://radio.pull.hebtv.com/live/hebnczx.m3u8"
+      },
+      {
+        "name": "浙江新闻",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "地方频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8?"
+      },
+      {
+        "name": "浙江经济",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "地方频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8?"
       },
       {
         "name": "海宁新闻综合",
@@ -10244,7 +10314,7 @@
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.264788.xyz/channel/fujianlvyou?streamid=221239fcf3c7edb274f2f0760fe47f96&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+        "url": "https://live.264788.xyz/channel/fujianlvyou?streamid=8f26765ebf367079cef58c6b7752da1e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
       },
       {
         "name": "秦安综合",
@@ -11872,25 +11942,11 @@
     ],
     "儿童频道": [
       {
-        "name": "七龙珠",
+        "name": "海绵宝宝",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "儿童频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.metshop.top/huya/11601966"
-      },
-      {
-        "name": "中华小当家",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "儿童频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.metshop.top/huya/11342413"
-      },
-      {
-        "name": "猫和老鼠",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "儿童频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.metshop.top/huya/11352879"
+        "url": "https://live.metshop.top/douyu/3949681"
       },
       {
         "name": "黑龙江少儿",
@@ -11929,7 +11985,7 @@
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "体育频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8"
+        "url": "https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8"
       },
       {
         "name": "纬来体育",
@@ -12507,25 +12563,11 @@
         "url": "https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8"
       },
       {
-        "name": "河北4K",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "4K频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://event.pull.hebtv.com:443/live/live101.m3u8"
-      },
-      {
         "name": "浙江卫视",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "4K频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://play-qukan.cztv.com/live/1746687519046362.m3u8"
-      },
-      {
-        "name": "黑龙江卫视",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "4K频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8"
       }
     ],
     "移动IPTV": [
