@@ -8268,12 +8268,6 @@
     "img": "https://live.fanmingming.cn/tv/乌兰察布.png"
   },
   {
-    "name": "三明新闻综合",
-    "type": "地方频道",
-    "url": "https://ls.qingting.fm/live/5022100/64k.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "上海第一财经",
     "type": "地方频道",
     "url": "https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8",
@@ -8352,6 +8346,12 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
+    "name": "天祝综合",
+    "type": "地方频道",
+    "url": "https://play.kankanlive.com/live/1656487214793905.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "太谷新闻综合",
     "type": "地方频道",
     "url": "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0",
@@ -8367,12 +8367,6 @@
     "name": "平泉综合",
     "type": "地方频道",
     "url": "https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "平遥新闻综合",
-    "type": "地方频道",
-    "url": "https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -8544,9 +8538,15 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
+    "name": "白银综合",
+    "type": "地方频道",
+    "url": "https://play.kankanlive.com/live/1720408089419110.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "福建公共",
     "type": "地方频道",
-    "url": "https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=1cf7fc3a8f6d160c33b43c2f9507a0cc&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+    "url": "https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=2987cc24bada6a8c25589409a6452d9e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -8697,12 +8697,6 @@
     "name": "黑龙江都市",
     "type": "地方频道",
     "url": "https://idclive.hljtv.com:4430/live/dushi_hd.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "龙游新闻综合",
-    "type": "地方频道",
-    "url": "https://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9474,16 +9468,40 @@
     "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18279_dark_360w_270h.png"
   },
   {
-    "name": "ESPN",
+    "name": "Sky Sports Football",
     "type": "国际",
-    "url": "http://41.205.93.154/ESPN/index.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10179_dark_360w_270h.png"
+    "url": "http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2188.ts",
+    "img": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s104327_dark_360w_270h.png"
   },
   {
-    "name": "ESPN U",
+    "name": "Sky Sports News",
     "type": "国际",
-    "url": "http://23.237.104.106:8080/USA_ESPNU/index.m3u8",
-    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45654_dark_360w_270h.png"
+    "url": "http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2179.ts",
+    "img": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0027JYG2.png_dark_360w_270h.png"
+  },
+  {
+    "name": "Sky Sports Premier League",
+    "type": "国际",
+    "url": "http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2182.ts",
+    "img": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89362_gray_360w_270h.png"
+  },
+  {
+    "name": "Sportsnet 360",
+    "type": "国际",
+    "url": "http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3073.ts",
+    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49952_dark_360w_270h.png"
+  },
+  {
+    "name": "Big Ten Network",
+    "type": "国际",
+    "url": "http://23.237.104.106:8080/USA_BTN/index.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "Trace Sport Stars",
+    "type": "国际",
+    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
     "name": "HBO",
@@ -9519,12 +9537,6 @@
     "name": "CMT",
     "type": "国际",
     "url": "http://23.237.104.106:8080/USA_CMT/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "TalkTV",
-    "type": "国际",
-    "url": "https://live-talktv-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/talktv-live/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9822,28 +9834,10 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "Big Ten Network",
+    "name": "Showtime Extreme",
     "type": "国际",
-    "url": "http://23.237.104.106:8080/USA_BTN/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "Trace Sport Stars",
-    "type": "国际",
-    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "FIFA+",
-    "type": "国际",
-    "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "RTM ASEAN",
-    "type": "国际",
-    "url": "https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8",
-    "img": "https://i.imgur.com/skAiUxg.png"
+    "url": "http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/648984.ts",
+    "img": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18086_dark_360w_270h.png"
   },
   {
     "name": "Adventure Earth",
@@ -9954,15 +9948,15 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "猫和老鼠",
-    "type": "儿童频道",
-    "url": "https://live.metshop.top/huya/11352879",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "黑龙江少儿",
     "type": "儿童频道",
     "url": "https://ls.qingting.fm/live/4972/64k.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "之江纪录",
+    "type": "纪录频道",
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
