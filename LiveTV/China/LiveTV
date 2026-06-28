@@ -3462,12 +3462,6 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "CCTV风云足球",
-    "type": "央视频道",
-    "url": "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "熊猫直播",
     "type": "央视频道",
     "url": "https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8",
@@ -4196,13 +4190,7 @@
   {
     "name": "延边卫视",
     "type": "卫视频道",
-    "url": "https://srs.iyb983.cn/video/CYS/index.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "浙江卫视",
-    "type": "卫视频道",
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
+    "url": "https://srs.iyb983.cn:443/video/CYS/index.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -8292,6 +8280,12 @@
     "img": "https://live.fanmingming.cn/tv/乌兰察布.png"
   },
   {
+    "name": "三明新闻综合",
+    "type": "地方频道",
+    "url": "https://ls.qingting.fm/live/5022100/64k.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "上海第一财经",
     "type": "地方频道",
     "url": "https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8",
@@ -8379,6 +8373,12 @@
     "name": "平泉综合",
     "type": "地方频道",
     "url": "https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "平遥新闻综合",
+    "type": "地方频道",
+    "url": "https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -8490,18 +8490,6 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "泸县新闻综合",
-    "type": "地方频道",
-    "url": "https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "浙江经济",
-    "type": "地方频道",
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8?",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
     "name": "海宁新闻综合",
     "type": "地方频道",
     "url": "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8",
@@ -8550,15 +8538,15 @@
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "福建公共",
+    "name": "白银综合",
     "type": "地方频道",
-    "url": "https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=1cf7fc3a8f6d160c33b43c2f9507a0cc&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+    "url": "https://play.kankanlive.com/live/1720408089419110.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
-    "name": "福建旅游",
+    "name": "福建公共",
     "type": "地方频道",
-    "url": "https://live.264788.xyz/channel/fujianlvyou?streamid=221239fcf3c7edb274f2f0760fe47f96&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+    "url": "https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=2987cc24bada6a8c25589409a6452d9e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -8571,12 +8559,6 @@
     "name": "苍南新闻综合",
     "type": "地方频道",
     "url": "https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8",
-    "img": "https://buddytv.netlify.app/img/no-logo.png"
-  },
-  {
-    "name": "荥经综合",
-    "type": "地方频道",
-    "url": "https://file.ysxtv.cn/nmip-media/channellive/channel101492/playlist.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9930,9 +9912,27 @@
     "img": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/ufc/channels/ufc-domestic400x200.png"
   },
   {
+    "name": "七龙珠",
+    "type": "儿童频道",
+    "url": "https://live.metshop.top/huya/11601966",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "中华小当家",
+    "type": "儿童频道",
+    "url": "https://live.metshop.top/huya/11342413",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
     "name": "海绵宝宝",
     "type": "儿童频道",
     "url": "https://live.metshop.top/douyu/3949681",
+    "img": "https://buddytv.netlify.app/img/no-logo.png"
+  },
+  {
+    "name": "猫和老鼠",
+    "type": "儿童频道",
+    "url": "https://live.metshop.top/huya/11352879",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
@@ -9962,7 +9962,7 @@
   {
     "name": "精品体育",
     "type": "体育频道",
-    "url": "https://epg.pw/stream/94ed0232b61ce8d89883160a4cdfbfc8f3225cae70ef8e17d93eec249a3c8ad6.m3u8",
+    "url": "https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8",
     "img": "https://buddytv.netlify.app/img/no-logo.png"
   },
   {
