@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-24 22:05:58",
+  "date": "2026-08-25 06:42:12",
   "channels": {
     "Uncategorized": [
       {
@@ -3494,6 +3494,20 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "http://119.166.53.110:85/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0"
+      },
+      {
+        "name": "CGTN (1080p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8"
+      },
+      {
+        "name": "CGTN Documentary (1080p)",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8"
       }
     ],
     "失效地址": [
@@ -3819,7 +3833,14 @@
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "央视频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+        "url": "https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+      },
+      {
+        "name": "CCTV风云足球",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "央视频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://epg.pw/stream/6d7bf281e3d739806a73f5373acaa6e01988ec9739f5ac1355ce54b47a928472.m3u8"
       },
       {
         "name": "CCTV文化精品",
@@ -4687,11 +4708,25 @@
         "url": "http://home.wwang.pw:35455/itv/1000000002000004097.m3u8?cdn=ystenlive"
       },
       {
+        "name": "东方卫视",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "卫视频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8"
+      },
+      {
         "name": "广东卫视",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "卫视频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4"
+      },
+      {
+        "name": "湖南卫视",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "卫视频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8"
       },
       {
         "name": "陕西卫视",
@@ -4705,7 +4740,7 @@
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "卫视频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://srs.iyb983.cn/video/CYS/index.m3u8"
+        "url": "https://srs.iyb983.cn:443/video/CYS/index.m3u8"
       },
       {
         "name": "安多卫视",
@@ -4713,6 +4748,13 @@
         "group": "卫视频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8"
+      },
+      {
+        "name": "黑龙江卫视",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "卫视频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8"
       },
       {
         "name": "山东教育",
@@ -9901,7 +9943,7 @@
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0"
+        "url": "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0"
       },
       {
         "name": "安顺新闻",
@@ -10065,11 +10107,11 @@
         "url": "https://radio.pull.hebtv.com/live/hebnczx.m3u8"
       },
       {
-        "name": "浙江新闻",
+        "name": "浙江民生",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8?"
+        "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?"
       },
       {
         "name": "海宁新闻综合",
@@ -10133,6 +10175,13 @@
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8"
+      },
+      {
+        "name": "荆门新闻综合",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "地方频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://stream.jmtv.com.cn/xwzh/playlist.m3u8?_upt=3e28e7271664278691"
       },
       {
         "name": "荥经综合",
@@ -11557,13 +11606,6 @@
     ],
     "儿童频道": [
       {
-        "name": "浙江少儿",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "儿童频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?"
-      },
-      {
         "name": "七龙珠",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "儿童频道",
@@ -11613,6 +11655,29 @@
         "group": "纪录频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://newcntv.qcloudcdn.com/asp/hls/2000/0303000a/3/default/d2454bbb542d4613a9db478dab2addfd/2000.m3u8"
+      }
+    ],
+    "体育频道": [
+      {
+        "name": "精品体育",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "体育频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8"
+      },
+      {
+        "name": "广东体育",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "体育频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://epg.pw/stream/7b470f9fc5c305db0c8622117b7b25ca00eb35ba3e93e865cf0ff9df5c736681.m3u8"
+      },
+      {
+        "name": "纬来体育",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "体育频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8"
       }
     ],
     "解说频道": [
@@ -11668,13 +11733,6 @@
         "group": "4K频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://play-qukan.cztv.com/live/1746687519046362.m3u8"
-      },
-      {
-        "name": "黑龙江卫视",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "4K频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8"
       }
     ],
     "移动IPTV": [

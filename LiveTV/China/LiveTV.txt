@@ -14,11 +14,6 @@ URL: https://play-qukan.cztv.com/live/1746687519046362.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
-Name: 黑龙江卫视
-URL: https://idclive.hljtv.com:4430/live/hljws_own.m3u8
-Logo: https://buddytv.netlify.app/img/no-logo.png
-Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
---------------------------------------------------
 
 Group: IHOT频道
 Name: iHOT 爱喜剧
@@ -2730,6 +2725,16 @@ URL: http://119.166.53.110:85/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&auth
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 --------------------------------------------------
+Name: CGTN (1080p)
+URL: https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+--------------------------------------------------
+Name: CGTN Documentary (1080p)
+URL: https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+--------------------------------------------------
 
 Group: ☘️北京频道
 Name: BRTV影视
@@ -2755,12 +2760,24 @@ Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
 
-Group: 儿童频道
-Name: 浙江少儿
-URL: https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?
+Group: 体育频道
+Name: 精品体育
+URL: https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
+Name: 广东体育
+URL: https://epg.pw/stream/7b470f9fc5c305db0c8622117b7b25ca00eb35ba3e93e865cf0ff9df5c736681.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
+Name: 纬来体育
+URL: https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
+
+Group: 儿童频道
 Name: 七龙珠
 URL: https://live.metshop.top/huya/11601966
 Logo: https://buddytv.netlify.app/img/no-logo.png
@@ -3227,8 +3244,18 @@ URL: http://home.wwang.pw:35455/itv/1000000002000004097.m3u8?cdn=ystenlive
 Logo: https://live.fanmingming.cn/tv/山东教育.png
 Source: https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 --------------------------------------------------
+Name: 东方卫视
+URL: https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
 Name: 广东卫视
 URL: https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
+Name: 湖南卫视
+URL: https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -3238,12 +3265,17 @@ Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
 Name: 延边卫视
-URL: https://srs.iyb983.cn/video/CYS/index.m3u8
+URL: https://srs.iyb983.cn:443/video/CYS/index.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
 Name: 安多卫视
 URL: https://liveout.xntv.tv/a65jur/96iln2.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
+Name: 黑龙江卫视
+URL: https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -4596,7 +4628,7 @@ Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
 Name: 太谷新闻综合
-URL: https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
+URL: https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -4715,8 +4747,8 @@ URL: https://radio.pull.hebtv.com/live/hebnczx.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
-Name: 浙江新闻
-URL: https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8?
+Name: 浙江民生
+URL: https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -4762,6 +4794,11 @@ Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtere
 --------------------------------------------------
 Name: 苍南新闻综合
 URL: https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
+Name: 荆门新闻综合
+URL: https://stream.jmtv.com.cn/xwzh/playlist.m3u8?_upt=3e28e7271664278691
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
@@ -5934,7 +5971,12 @@ Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
 Name: CCTV第一剧场
-URL: https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+URL: https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+Logo: https://buddytv.netlify.app/img/no-logo.png
+Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
+--------------------------------------------------
+Name: CCTV风云足球
+URL: https://epg.pw/stream/6d7bf281e3d739806a73f5373acaa6e01988ec9739f5ac1355ce54b47a928472.m3u8
 Logo: https://buddytv.netlify.app/img/no-logo.png
 Source: https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u
 --------------------------------------------------
