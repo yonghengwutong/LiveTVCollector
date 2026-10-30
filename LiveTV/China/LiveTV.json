@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30 02:23:22",
+  "date": "2026-10-30 10:04:36",
   "channels": {
     "Uncategorized": [
       {
@@ -3578,6 +3578,13 @@
         "group": "Uncategorized",
         "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
         "url": "https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p"
+      },
+      {
+        "name": "Jingmen Comprehensive News Channel",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "Uncategorized",
+        "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "url": "https://stream.jmtv.com.cn/xwzh/sd/live.m3u8?_upt=341f4b8e1791883036"
       }
     ],
     "失效地址": [
@@ -4734,6 +4741,13 @@
         "group": "卫视频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4"
+      },
+      {
+        "name": "湖南卫视",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "卫视频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8"
       },
       {
         "name": "延边卫视",
@@ -6119,6 +6133,20 @@
         "group": "港澳台频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://stream1.freetv.fun/eltaai-er-da-ti-yu--3--wj-1.ctv"
+      },
+      {
+        "name": "韩国电影1",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "港澳台频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=595"
+      },
+      {
+        "name": "韩国电影2",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "港澳台频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=743"
       },
       {
         "name": "八度空间",
@@ -7848,20 +7876,6 @@
         "group": "电影频道",
         "source": "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u",
         "url": "http://1.94.31.214:35455/yy/1354889019"
-      },
-      {
-        "name": "韩国电影1",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "电影频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=595"
-      },
-      {
-        "name": "韩国电影2",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "电影频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=743"
       }
     ],
     "电视剧频道": [
@@ -9946,6 +9960,27 @@
         "url": "https://radio.pull.hebtv.com/live/hebnczx.m3u8"
       },
       {
+        "name": "浙江民生",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "地方频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?"
+      },
+      {
+        "name": "浙江经济",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "地方频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8?"
+      },
+      {
+        "name": "浙江钱江",
+        "logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "group": "地方频道",
+        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
+        "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8?"
+      },
+      {
         "name": "海宁新闻综合",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "地方频道",
@@ -9993,13 +10028,6 @@
         "group": "地方频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
         "url": "https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8"
-      },
-      {
-        "name": "荆门新闻综合",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "地方频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://stream.jmtv.com.cn/xwzh/playlist.m3u8?_upt=3e28e7271664278691"
       },
       {
         "name": "荥经综合",
@@ -10946,13 +10974,6 @@
     ],
     "儿童频道": [
       {
-        "name": "浙江少儿",
-        "logo": "https://buddytv.netlify.app/img/no-logo.png",
-        "group": "儿童频道",
-        "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?"
-      },
-      {
         "name": "黑龙江少儿",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "儿童频道",
@@ -10962,11 +10983,11 @@
     ],
     "纪录频道": [
       {
-        "name": "之江纪录",
+        "name": "兵团五师双河影",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "group": "纪录频道",
         "source": "https://raw.githubusercontent.com/sjnhnp/adblock/refs/heads/main/filtered_https_only.m3u",
-        "url": "https://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8"
+        "url": "https://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8?zxinjd"
       },
       {
         "name": "飞碟之谜01",
